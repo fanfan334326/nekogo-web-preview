@@ -1,0 +1,221 @@
+{
+  "schemaVersion": 1,
+  "stageId": "stage.kanji_basic",
+  "source": "夏夏 N5→N2 · H01 数字汉字（自产）",
+  "entries": [
+    {
+      "id": "kp.kanji.01.ichi",
+      "glyph": "一",
+      "onyomi": [
+        "いち"
+      ],
+      "kunyomi": [
+        "ひと",
+        "ひとつ"
+      ],
+      "glossZh": "一",
+      "audioKey": "audio.kp.kanji.01.ichi",
+      "tags": "theme:number jlpt:n5",
+      "notesZh": "音读いち；训读ひと／ひとつ",
+      "unitId": "H01"
+    },
+    {
+      "id": "kp.kanji.02.ni",
+      "glyph": "二",
+      "onyomi": [
+        "に"
+      ],
+      "kunyomi": [
+        "ふた",
+        "ふたつ"
+      ],
+      "glossZh": "二",
+      "audioKey": "audio.kp.kanji.02.ni",
+      "tags": "theme:number jlpt:n5",
+      "notesZh": "音读に；训读ふた／ふたつ",
+      "unitId": "H01"
+    },
+    {
+      "id": "kp.kanji.03.san",
+      "glyph": "三",
+      "onyomi": [
+        "さん"
+      ],
+      "kunyomi": [
+        "み",
+        "みっつ"
+      ],
+      "glossZh": "三",
+      "audioKey": "audio.kp.kanji.03.san",
+      "tags": "theme:number jlpt:n5",
+      "notesZh": "音读さん；训读み／みっつ",
+      "unitId": "H01"
+    },
+    {
+      "id": "kp.kanji.04.shi",
+      "glyph": "四",
+      "onyomi": [
+        "し",
+        "よん"
+      ],
+      "kunyomi": [
+        "よ",
+        "よっつ"
+      ],
+      "glossZh": "四",
+      "audioKey": "audio.kp.kanji.04.shi",
+      "tags": "theme:number jlpt:n5",
+      "notesZh": "音读し／よん；训读よ／よっつ",
+      "unitId": "H01"
+    },
+    {
+      "id": "kp.kanji.05.go",
+      "glyph": "五",
+      "onyomi": [
+        "ご"
+      ],
+      "kunyomi": [
+        "いつ",
+        "いつつ"
+      ],
+      "glossZh": "五",
+      "audioKey": "audio.kp.kanji.05.go",
+      "tags": "theme:number jlpt:n5",
+      "notesZh": "音读ご；训读いつ／いつつ",
+      "unitId": "H01"
+    },
+    {
+      "id": "kp.kanji.06.roku",
+      "glyph": "六",
+      "onyomi": [
+        "ろく"
+      ],
+      "kunyomi": [
+        "む",
+        "むっつ"
+      ],
+      "glossZh": "六",
+      "audioKey": "audio.kp.kanji.06.roku",
+      "tags": "theme:number jlpt:n5",
+      "notesZh": "音读ろく；训读む／むっつ",
+      "unitId": "H01"
+    },
+    {
+      "id": "kp.kanji.07.shichi",
+      "glyph": "七",
+      "onyomi": [
+        "しち",
+        "なな"
+      ],
+      "kunyomi": [
+        "なな",
+        "ななつ"
+      ],
+      "glossZh": "七",
+      "audioKey": "audio.kp.kanji.07.shichi",
+      "tags": "theme:number jlpt:n5",
+      "notesZh": "音读しち／なな；训读なな／ななつ",
+      "unitId": "H01"
+    },
+    {
+      "id": "kp.kanji.08.hachi",
+      "glyph": "八",
+      "onyomi": [
+        "はち"
+      ],
+      "kunyomi": [
+        "や",
+        "やっつ"
+      ],
+      "glossZh": "八",
+      "audioKey": "audio.kp.kanji.08.hachi",
+      "tags": "theme:number jlpt:n5",
+      "notesZh": "音读はち；训读や／やっつ",
+      "unitId": "H01"
+    },
+    {
+      "id": "kp.kanji.09.kyu",
+      "glyph": "九",
+      "onyomi": [
+        "きゅう",
+        "く"
+      ],
+      "kunyomi": [
+        "ここの",
+        "ここのつ"
+      ],
+      "glossZh": "九",
+      "audioKey": "audio.kp.kanji.09.kyu",
+      "tags": "theme:number jlpt:n5",
+      "notesZh": "音读きゅう／く；训读ここの／ここのつ",
+      "unitId": "H01"
+    },
+    {
+      "id": "kp.kanji.10.juu",
+      "glyph": "十",
+      "onyomi": [
+        "じゅう"
+      ],
+      "kunyomi": [
+        "とお"
+      ],
+      "glossZh": "十",
+      "audioKey": "audio.kp.kanji.10.juu",
+      "tags": "theme:number jlpt:n5",
+      "notesZh": "音读じゅう；训读とお",
+      "unitId": "H01"
+    },
+    {
+      "id": "kp.kanji.11.hyaku",
+      "glyph": "百",
+      "onyomi": [
+        "ひゃく"
+      ],
+      "kunyomi": [],
+      "glossZh": "百",
+      "audioKey": "audio.kp.kanji.11.hyaku",
+      "tags": "theme:number jlpt:n5",
+      "notesZh": "音读ひゃく；常用训读少，本期侧重音读",
+      "unitId": "H01"
+    },
+    {
+      "id": "kp.kanji.12.sen",
+      "glyph": "千",
+      "onyomi": [
+        "せん"
+      ],
+      "kunyomi": [],
+      "glossZh": "千",
+      "audioKey": "audio.kp.kanji.12.sen",
+      "tags": "theme:number jlpt:n5",
+      "notesZh": "音读せん；常用训读少，本期侧重音读",
+      "unitId": "H01"
+    },
+    {
+      "id": "kp.kanji.13.man",
+      "glyph": "万",
+      "onyomi": [
+        "まん"
+      ],
+      "kunyomi": [],
+      "glossZh": "万",
+      "audioKey": "audio.kp.kanji.13.man",
+      "tags": "theme:number jlpt:n5",
+      "notesZh": "音读まん；常用训读少，本期侧重音读",
+      "unitId": "H01"
+    },
+    {
+      "id": "kp.kanji.14.en",
+      "glyph": "円",
+      "onyomi": [
+        "えん"
+      ],
+      "kunyomi": [],
+      "glossZh": "日元／圆",
+      "audioKey": "audio.kp.kanji.14.en",
+      "tags": "theme:number jlpt:n5",
+      "notesZh": "音读えん；常用训读少，本期侧重音读",
+      "unitId": "H01"
+    }
+  ]
+}

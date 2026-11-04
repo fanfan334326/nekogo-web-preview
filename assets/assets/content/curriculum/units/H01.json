@@ -1,0 +1,255 @@
+{
+  "schemaVersion": 1,
+  "id": "H01",
+  "stageId": "stage.kanji_basic",
+  "order": 1,
+  "title": "H01",
+  "titleZh": "数字汉字",
+  "goalZh": "认读一〜十与百千万円的音训",
+  "introKanjiIds": [
+    "kp.kanji.01.ichi",
+    "kp.kanji.02.ni",
+    "kp.kanji.03.san",
+    "kp.kanji.04.shi",
+    "kp.kanji.05.go",
+    "kp.kanji.06.roku",
+    "kp.kanji.07.shichi",
+    "kp.kanji.08.hachi",
+    "kp.kanji.09.kyu",
+    "kp.kanji.10.juu",
+    "kp.kanji.11.hyaku",
+    "kp.kanji.12.sen",
+    "kp.kanji.13.man",
+    "kp.kanji.14.en"
+  ],
+  "items": [
+    {
+      "id": "H01.item.1",
+      "type": "choose_onyomi",
+      "kanjiId": "kp.kanji.01.ichi",
+      "promptZh": "选出音读",
+      "stem": "一",
+      "choices": [
+        "いち",
+        "に",
+        "さん",
+        "よん"
+      ],
+      "answer": "いち"
+    },
+    {
+      "id": "H01.item.2",
+      "type": "choose_onyomi",
+      "kanjiId": "kp.kanji.03.san",
+      "promptZh": "选出音读",
+      "stem": "三",
+      "choices": [
+        "さん",
+        "に",
+        "ご",
+        "ろく"
+      ],
+      "answer": "さん"
+    },
+    {
+      "id": "H01.item.3",
+      "type": "choose_onyomi",
+      "kanjiId": "kp.kanji.05.go",
+      "promptZh": "选出音读",
+      "stem": "五",
+      "choices": [
+        "ご",
+        "し",
+        "はち",
+        "く"
+      ],
+      "answer": "ご"
+    },
+    {
+      "id": "H01.item.4",
+      "type": "choose_onyomi",
+      "kanjiId": "kp.kanji.10.juu",
+      "promptZh": "选出音读",
+      "stem": "十",
+      "choices": [
+        "じゅう",
+        "せん",
+        "ひゃく",
+        "まん"
+      ],
+      "answer": "じゅう"
+    },
+    {
+      "id": "H01.item.5",
+      "type": "choose_onyomi",
+      "kanjiId": "kp.kanji.11.hyaku",
+      "promptZh": "选出音读",
+      "stem": "百",
+      "choices": [
+        "ひゃく",
+        "せん",
+        "まん",
+        "えん"
+      ],
+      "answer": "ひゃく"
+    },
+    {
+      "id": "H01.item.6",
+      "type": "choose_kunyomi",
+      "kanjiId": "kp.kanji.01.ichi",
+      "promptZh": "选出训读",
+      "stem": "一",
+      "choices": [
+        "ひと",
+        "いち",
+        "に",
+        "さん"
+      ],
+      "answer": "ひと"
+    },
+    {
+      "id": "H01.item.7",
+      "type": "choose_kunyomi",
+      "kanjiId": "kp.kanji.02.ni",
+      "promptZh": "选出训读",
+      "stem": "二",
+      "choices": [
+        "ふた",
+        "に",
+        "み",
+        "よ"
+      ],
+      "answer": "ふた"
+    },
+    {
+      "id": "H01.item.8",
+      "type": "choose_kunyomi",
+      "kanjiId": "kp.kanji.03.san",
+      "promptZh": "选出训读",
+      "stem": "三",
+      "choices": [
+        "みっつ",
+        "さん",
+        "ご",
+        "とお"
+      ],
+      "answer": "みっつ"
+    },
+    {
+      "id": "H01.item.9",
+      "type": "choose_kunyomi",
+      "kanjiId": "kp.kanji.04.shi",
+      "promptZh": "选出训读",
+      "stem": "四",
+      "choices": [
+        "よっつ",
+        "し",
+        "よん",
+        "ご"
+      ],
+      "answer": "よっつ"
+    },
+    {
+      "id": "H01.item.10",
+      "type": "choose_kunyomi",
+      "kanjiId": "kp.kanji.10.juu",
+      "promptZh": "选出训读",
+      "stem": "十",
+      "choices": [
+        "とお",
+        "じゅう",
+        "せん",
+        "まん"
+      ],
+      "answer": "とお"
+    },
+    {
+      "id": "H01.item.11",
+      "type": "choose_reading",
+      "kanjiId": "kp.kanji.07.shichi",
+      "promptZh": "这个汉字怎么读？（音读）",
+      "stem": "七",
+      "choices": [
+        "しち",
+        "はち",
+        "く",
+        "ろく"
+      ],
+      "answer": "しち",
+      "readingKind": "onyomi"
+    },
+    {
+      "id": "H01.item.12",
+      "type": "choose_reading",
+      "kanjiId": "kp.kanji.08.hachi",
+      "promptZh": "这个汉字怎么读？（音读）",
+      "stem": "八",
+      "choices": [
+        "はち",
+        "しち",
+        "く",
+        "ご"
+      ],
+      "answer": "はち",
+      "readingKind": "onyomi"
+    },
+    {
+      "id": "H01.item.13",
+      "type": "choose_reading",
+      "kanjiId": "kp.kanji.09.kyu",
+      "promptZh": "这个汉字怎么读？（音读）",
+      "stem": "九",
+      "choices": [
+        "きゅう",
+        "くう",
+        "じゅう",
+        "せん"
+      ],
+      "answer": "きゅう",
+      "readingKind": "onyomi"
+    },
+    {
+      "id": "H01.item.14",
+      "type": "choose_reading",
+      "kanjiId": "kp.kanji.13.man",
+      "promptZh": "这个汉字怎么读？",
+      "stem": "万",
+      "choices": [
+        "まん",
+        "せん",
+        "ひゃく",
+        "えん"
+      ],
+      "answer": "まん",
+      "readingKind": "onyomi"
+    },
+    {
+      "id": "H01.item.15",
+      "type": "choose_kanji",
+      "kanjiId": "kp.kanji.01.ichi",
+      "promptZh": "「いち」对应哪个汉字？",
+      "stem": "いち",
+      "choices": [
+        "一",
+        "二",
+        "十",
+        "百"
+      ],
+      "answer": "一"
+    },
+    {
+      "id": "H01.item.16",
+      "type": "choose_kanji",
+      "kanjiId": "kp.kanji.14.en",
+      "promptZh": "「えん」对应哪个汉字？",
+      "stem": "えん",
+      "choices": [
+        "円",
+        "千",
+        "万",
+        "百"
+      ],
+      "answer": "円"
+    }
+  ]
+}

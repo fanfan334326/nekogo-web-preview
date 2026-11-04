@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "stage": {
+    "id": "stage.kanji_basic",
+    "title": "汉字入门",
+    "titleZh": "数字汉字（H01）"
+  },
+  "lexiconAsset": "assets/content/curriculum/kanji_lexicon.json",
+  "units": [
+    {
+      "id": "H01",
+      "order": 1,
+      "title": "H01",
+      "titleZh": "数字汉字",
+      "asset": "assets/content/curriculum/units/H01.json",
+      "itemCount": 16
+    }
+  ]
+}
