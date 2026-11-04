@@ -1,0 +1,257 @@
+{
+  "schemaVersion": 1,
+  "id": "B02",
+  "stageId": "stage.hiragana_dakuten",
+  "order": 2,
+  "title": "ざ行",
+  "titleZh": "平假名 ざ行（さ行 + 浊点）",
+  "rowId": "za",
+  "knowledgePoints": [
+    {
+      "id": "kp.hira.za",
+      "kana": "ざ",
+      "romaji": "za",
+      "audioKey": "audio.hira.za",
+      "confusableIds": ["kp.hira.zu"],
+      "tipZh": "さ + 浊点：右上角两点「゛」把 s 变成 z，像中文「杂」的声母。"
+    },
+    {
+      "id": "kp.hira.ji",
+      "kana": "じ",
+      "romaji": "ji",
+      "audioKey": "audio.hira.ji",
+      "confusableIds": ["kp.hira.zu"],
+      "tipZh": "し + 浊点，但读音是 ji 不是 shi+浊：像中文「机」的音、喉咙再加震动。"
+    },
+    {
+      "id": "kp.hira.zu",
+      "kana": "ず",
+      "romaji": "zu",
+      "audioKey": "audio.hira.zu",
+      "confusableIds": ["kp.hira.za"],
+      "tipZh": "す + 浊点：す 的圈加两点就是 ず，中文「字」的音。"
+    },
+    {
+      "id": "kp.hira.ze",
+      "kana": "ぜ",
+      "romaji": "ze",
+      "audioKey": "audio.hira.ze",
+      "confusableIds": [],
+      "tipZh": "せ + 浊点：せ 的一横加竖提，右边点上两点读 ze。"
+    },
+    {
+      "id": "kp.hira.zo",
+      "kana": "ぞ",
+      "romaji": "zo",
+      "audioKey": "audio.hira.zo",
+      "confusableIds": [],
+      "tipZh": "そ + 浊点：そ 是两笔交叉的钩形，加浊点读 zo。"
+    }
+  ],
+  "teach": [
+    {
+      "id": "B02.teach.1",
+      "type": "introduce",
+      "knowledgePointId": "kp.hira.za",
+      "promptZh": "浊音第二课：ざ，罗马音 za。",
+      "audioKey": "audio.hira.za",
+      "noteZh": "さ行整行加「゛」：さ→ざ、し→じ、す→ず、せ→ぜ、そ→ぞ。"
+    },
+    {
+      "id": "B02.teach.2",
+      "type": "listen",
+      "knowledgePointId": "kp.hira.za",
+      "promptZh": "点喇叭听 ざ，再对比清音 さ：只多喉咙震动。",
+      "audioKey": "audio.hira.za"
+    },
+    {
+      "id": "B02.teach.3",
+      "type": "introduce",
+      "knowledgePointId": "kp.hira.ji",
+      "promptZh": "第二个假名：じ，罗马音 ji。",
+      "audioKey": "audio.hira.ji",
+      "noteZh": "じ 是唯一的例外读法：し + ゛ 不读 zhi 而读 ji，和 ぢ 同音。"
+    },
+    {
+      "id": "B02.teach.4",
+      "type": "listen",
+      "knowledgePointId": "kp.hira.ji",
+      "promptZh": "听 じ：短促的「ji」，别读成「shi」。",
+      "audioKey": "audio.hira.ji"
+    },
+    {
+      "id": "B02.teach.5",
+      "type": "introduce",
+      "knowledgePointId": "kp.hira.zu",
+      "promptZh": "第三个假名：ず，罗马音 zu。",
+      "audioKey": "audio.hira.zu",
+      "noteZh": "す 的头上加两点；日本人说「すし」变「ずし」就是这个音。"
+    },
+    {
+      "id": "B02.teach.6",
+      "type": "listen",
+      "knowledgePointId": "kp.hira.zu",
+      "promptZh": "听 ず，嘴唇保持す 的小圆口、震动喉咙。",
+      "audioKey": "audio.hira.zu"
+    },
+    {
+      "id": "B02.teach.7",
+      "type": "compare",
+      "knowledgePointId": "kp.hira.za",
+      "promptZh": "对比 ざ / ず：ざ 右下是一个横折小钩；ず 下面是一个大圈。"
+    },
+    {
+      "id": "B02.teach.8",
+      "type": "introduce",
+      "knowledgePointId": "kp.hira.ze",
+      "promptZh": "第四个假名：ぜ，罗马音 ze。",
+      "audioKey": "audio.hira.ze",
+      "noteZh": "せ 的右侧加两点，笔顺与 せ 相同。"
+    },
+    {
+      "id": "B02.teach.9",
+      "type": "listen",
+      "knowledgePointId": "kp.hira.ze",
+      "promptZh": "听 ぜ：接近中文「怎」但更短。",
+      "audioKey": "audio.hira.ze"
+    },
+    {
+      "id": "B02.teach.10",
+      "type": "introduce",
+      "knowledgePointId": "kp.hira.zo",
+      "promptZh": "第五个假名：ぞ，罗马音 zo。",
+      "audioKey": "audio.hira.zo",
+      "noteZh": "そ 的右侧加两点；そ 第一笔短、第二笔长交叉。"
+    },
+    {
+      "id": "B02.teach.11",
+      "type": "listen",
+      "knowledgePointId": "kp.hira.zo",
+      "promptZh": "听 ぞ，圆唇一次到位。",
+      "audioKey": "audio.hira.zo"
+    },
+    {
+      "id": "B02.teach.12",
+      "type": "stroke_hint",
+      "knowledgePointId": "kp.hira.zu",
+      "promptZh": "看笔顺：ず 一共 3 笔 + 2 点。",
+      "noteZh": "① 上面一短横；② 竖下来；③ 绕一个大圈收笔；最后右上角点两点浊点。"
+    }
+  ],
+  "practice": [
+    {
+      "id": "B02.practice.1",
+      "type": "choose_romaji",
+      "knowledgePointId": "kp.hira.za",
+      "promptZh": "「ざ」的罗马音是？",
+      "stem": "ざ",
+      "choices": ["za", "sa", "ta", "na"],
+      "answer": "za"
+    },
+    {
+      "id": "B02.practice.2",
+      "type": "choose_kana",
+      "knowledgePointId": "kp.hira.ji",
+      "promptZh": "罗马音 ji 对应哪个假名？",
+      "stem": "ji",
+      "choices": ["じ", "し", "ず", "ぜ"],
+      "answer": "じ",
+      "errorReasonId": "er.hira.ji.sound_shi"
+    },
+    {
+      "id": "B02.practice.3",
+      "type": "listen_choose",
+      "knowledgePointId": "kp.hira.zu",
+      "promptZh": "听一听，选出你听到的假名（喇叭可以反复点）。",
+      "audioKey": "audio.hira.zu",
+      "choices": ["ず", "す", "ざ", "ぞ"],
+      "answer": "ず",
+      "errorReasonId": "er.hira.zu.shape_su"
+    },
+    {
+      "id": "B02.practice.4",
+      "type": "choose_romaji",
+      "knowledgePointId": "kp.hira.zo",
+      "promptZh": "「ぞ」的罗马音是？",
+      "stem": "ぞ",
+      "choices": ["zo", "so", "zi", "no"],
+      "answer": "zo"
+    },
+    {
+      "id": "B02.practice.5",
+      "type": "match",
+      "knowledgePointId": "kp.hira.za",
+      "promptZh": "把 ざ 行的假名和罗马音连起来。",
+      "pairs": { "ざ": "za", "じ": "ji", "ず": "zu", "ぜ": "ze", "ぞ": "zo" }
+    }
+  ],
+  "quiz": [
+    {
+      "id": "B02.quiz.1",
+      "type": "choose_kana",
+      "knowledgePointId": "kp.hira.ze",
+      "promptZh": "罗马音 ze 对应哪个假名？",
+      "stem": "ze",
+      "choices": ["ぜ", "せ", "じ", "ぞ"],
+      "answer": "ぜ"
+    },
+    {
+      "id": "B02.quiz.2",
+      "type": "choose_romaji",
+      "knowledgePointId": "kp.hira.ji",
+      "promptZh": "「じ」的罗马音是？",
+      "stem": "じ",
+      "choices": ["ji", "shi", "zi", "di"],
+      "answer": "ji",
+      "errorReasonId": "er.hira.ji.sound_shi2"
+    },
+    {
+      "id": "B02.quiz.3",
+      "type": "listen_choose",
+      "knowledgePointId": "kp.hira.za",
+      "promptZh": "听音，选出你听到的罗马音。",
+      "audioKey": "audio.hira.za",
+      "choices": ["za", "sa", "ta", "da"],
+      "answer": "za"
+    },
+    {
+      "id": "B02.quiz.4",
+      "type": "choose_kana",
+      "knowledgePointId": "kp.hira.zo",
+      "promptZh": "罗马音 zo 对应哪个假名？",
+      "stem": "zo",
+      "choices": ["ぞ", "そ", "の", "ま"],
+      "answer": "ぞ"
+    },
+    {
+      "id": "B02.quiz.5",
+      "type": "match",
+      "knowledgePointId": "kp.hira.zu",
+      "promptZh": "独立测验：把 ざ 行假名和罗马音配成对。",
+      "pairs": { "ざ": "za", "じ": "ji", "ず": "zu", "ぜ": "ze", "ぞ": "zo" }
+    }
+  ],
+  "errorReasons": [
+    {
+      "id": "er.hira.ji.sound_shi",
+      "knowledgePointId": "kp.hira.ji",
+      "wrongChoice": "し",
+      "explainZh": "看漏浊点了：し 是清音（没有右上两点），じ = し + ゛ 且读 ji。",
+      "correctAudioKey": "audio.hira.ji"
+    },
+    {
+      "id": "er.hira.zu.shape_su",
+      "knowledgePointId": "kp.hira.zu",
+      "wrongChoice": "す",
+      "explainZh": "字形混了：す 没有浊点读 su；ず = す + ゛，看到两点想到 z。",
+      "correctAudioKey": "audio.hira.zu"
+    },
+    {
+      "id": "er.hira.ji.sound_shi2",
+      "knowledgePointId": "kp.hira.ji",
+      "wrongChoice": "shi",
+      "explainZh": "じ 虽然写作 shi 行浊音，读音固定是 ji；zi 这个拼法日语罗马音里不用。",
+      "correctAudioKey": "audio.hira.ji"
+    }
+  ]
+}

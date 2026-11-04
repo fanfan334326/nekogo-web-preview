@@ -1,0 +1,260 @@
+{
+  "schemaVersion": 1,
+  "id": "B05",
+  "stageId": "stage.hiragana_dakuten",
+  "order": 5,
+  "title": "ぱ行",
+  "titleZh": "平假名 ぱ行（は行 + 半浊音）",
+  "rowId": "pa",
+  "knowledgePoints": [
+    {
+      "id": "kp.hira.pa",
+      "kana": "ぱ",
+      "romaji": "pa",
+      "audioKey": "audio.hira.pa",
+      "confusableIds": ["kp.hira.ba"],
+      "tipZh": "は + 半浊音「ﾟ」：一个圈不是两点！一点让 h 变成 p，像中文「怕」的声母。"
+    },
+    {
+      "id": "kp.hira.pi",
+      "kana": "ぴ",
+      "romaji": "pi",
+      "audioKey": "audio.hira.pi",
+      "confusableIds": ["kp.hira.bi"],
+      "tipZh": "ひ + 一个圈：ぴ 是 p 音，比 び 轻、不震喉。"
+    },
+    {
+      "id": "kp.hira.pu",
+      "kana": "ぷ",
+      "romaji": "pu",
+      "audioKey": "audio.hira.pu",
+      "confusableIds": ["kp.hira.bu"],
+      "tipZh": "ふ + 一个圈：ぷ 读 pu（像按弹簧的「噗」），和 ぶ 只差标记与是否震喉。"
+    },
+    {
+      "id": "kp.hira.pe",
+      "kana": "ぺ",
+      "romaji": "pe",
+      "audioKey": "audio.hira.pe",
+      "confusableIds": ["kp.hira.be"],
+      "tipZh": "へ + 一个圈：へ 是一笔屋顶形，点个小圈读 pe，气流在双唇弹开。"
+    },
+    {
+      "id": "kp.hira.po",
+      "kana": "ぽ",
+      "romaji": "po",
+      "audioKey": "audio.hira.po",
+      "confusableIds": ["kp.hira.bo"],
+      "tipZh": "ほ + 一个圈：拟声词「ぽつん」（孤零零）用的就是这个半浊音。"
+    }
+  ],
+  "teach": [
+    {
+      "id": "B05.teach.1",
+      "type": "introduce",
+      "knowledgePointId": "kp.hira.pa",
+      "promptZh": "半浊音第一课：ぱ，罗马音 pa。",
+      "audioKey": "audio.hira.pa",
+      "noteZh": "は行加「ﾟ」（一个小圈，叫半浊音/丸）变 p 音：は→ぱ、ひ→ぴ、ふ→ぷ、へ→ぺ、ほ→ぽ。"
+    },
+    {
+      "id": "B05.teach.2",
+      "type": "listen",
+      "knowledgePointId": "kp.hira.pa",
+      "promptZh": "点喇叭听 ぱ：双唇闭紧再弹开，不震喉。",
+      "audioKey": "audio.hira.pa"
+    },
+    {
+      "id": "B05.teach.3",
+      "type": "compare",
+      "knowledgePointId": "kp.hira.pa",
+      "promptZh": "对比 ば / ぱ：ば 右上是两点「゛」震喉；ぱ 是一个小圈「ﾟ」不震喉。"
+    },
+    {
+      "id": "B05.teach.4",
+      "type": "introduce",
+      "knowledgePointId": "kp.hira.pi",
+      "promptZh": "第二个假名：ぴ，罗马音 pi。",
+      "audioKey": "audio.hira.pi",
+      "noteZh": "ひ 右侧点一个小圈，笔顺和 ひ 一样。"
+    },
+    {
+      "id": "B05.teach.5",
+      "type": "listen",
+      "knowledgePointId": "kp.hira.pi",
+      "promptZh": "听 ぴ：轻快的「pi」，对比 び 的震喉。",
+      "audioKey": "audio.hira.pi"
+    },
+    {
+      "id": "B05.teach.6",
+      "type": "introduce",
+      "knowledgePointId": "kp.hira.pu",
+      "promptZh": "第三个假名：ぷ，罗马音 pu。",
+      "audioKey": "audio.hira.pu",
+      "noteZh": "ふ 的小圈在头上，ぷ 的小圈在右上——位置记清，ふ 圈小在上、ぷ 圈在侧。"
+    },
+    {
+      "id": "B05.teach.7",
+      "type": "listen",
+      "knowledgePointId": "kp.hira.pu",
+      "promptZh": "听 ぷ：像气球漏气的「噗」，双唇弹开不震喉。",
+      "audioKey": "audio.hira.pu"
+    },
+    {
+      "id": "B05.teach.8",
+      "type": "introduce",
+      "knowledgePointId": "kp.hira.pe",
+      "promptZh": "第四个假名：ぺ，罗马音 pe。",
+      "audioKey": "audio.hira.pe",
+      "noteZh": "へ 的一笔斜折不变，右上的小圈从「两点」换成「一圈」。"
+    },
+    {
+      "id": "B05.teach.9",
+      "type": "listen",
+      "knowledgePointId": "kp.hira.pe",
+      "promptZh": "听 ぺ：短促的「pe」。",
+      "audioKey": "audio.hira.pe"
+    },
+    {
+      "id": "B05.teach.10",
+      "type": "introduce",
+      "knowledgePointId": "kp.hira.po",
+      "promptZh": "第五个假名：ぽ，罗马音 po。",
+      "audioKey": "audio.hira.po",
+      "noteZh": "ほ 加小圈；拟声词「ぽつん」一个人（独自）就用它。"
+    },
+    {
+      "id": "B05.teach.11",
+      "type": "listen",
+      "knowledgePointId": "kp.hira.po",
+      "promptZh": "听 ぽ，圆唇弹开。",
+      "audioKey": "audio.hira.po"
+    },
+    {
+      "id": "B05.teach.12",
+      "type": "stroke_hint",
+      "knowledgePointId": "kp.hira.pa",
+      "promptZh": "看笔顺：ぱ 一共 3 笔 + 1 圈。",
+      "noteZh": "① 左竖撇；② 横折里绕两个小弯；③ 右边一竖；最后右上画一个小圈「ﾟ」，不要点成两点。"
+    }
+  ],
+  "practice": [
+    {
+      "id": "B05.practice.1",
+      "type": "choose_romaji",
+      "knowledgePointId": "kp.hira.pa",
+      "promptZh": "「ぱ」的罗马音是？",
+      "stem": "ぱ",
+      "choices": ["pa", "ba", "ha", "ma"],
+      "answer": "pa"
+    },
+    {
+      "id": "B05.practice.2",
+      "type": "choose_kana",
+      "knowledgePointId": "kp.hira.pu",
+      "promptZh": "罗马音 pu 对应哪个假名？",
+      "stem": "pu",
+      "choices": ["ぷ", "ぶ", "ふ", "ぬ"],
+      "answer": "ぷ",
+      "errorReasonId": "er.hira.pu.shape_bu"
+    },
+    {
+      "id": "B05.practice.3",
+      "type": "listen_choose",
+      "knowledgePointId": "kp.hira.pi",
+      "promptZh": "听一听，选出你听到的假名（喇叭可以反复点）。",
+      "audioKey": "audio.hira.pi",
+      "choices": ["ぴ", "び", "ひ", "み"],
+      "answer": "ぴ",
+      "errorReasonId": "er.hira.pi.sound_bi"
+    },
+    {
+      "id": "B05.practice.4",
+      "type": "choose_romaji",
+      "knowledgePointId": "kp.hira.po",
+      "promptZh": "「ぽ」的罗马音是？",
+      "stem": "ぽ",
+      "choices": ["po", "bo", "ho", "no"],
+      "answer": "po"
+    },
+    {
+      "id": "B05.practice.5",
+      "type": "match",
+      "knowledgePointId": "kp.hira.pa",
+      "promptZh": "把 ぱ 行的假名和罗马音连起来。",
+      "pairs": { "ぱ": "pa", "ぴ": "pi", "ぷ": "pu", "ぺ": "pe", "ぽ": "po" }
+    }
+  ],
+  "quiz": [
+    {
+      "id": "B05.quiz.1",
+      "type": "choose_kana",
+      "knowledgePointId": "kp.hira.pe",
+      "promptZh": "罗马音 pe 对应哪个假名？",
+      "stem": "pe",
+      "choices": ["ぺ", "べ", "へ", "め"],
+      "answer": "ぺ"
+    },
+    {
+      "id": "B05.quiz.2",
+      "type": "choose_romaji",
+      "knowledgePointId": "kp.hira.pa",
+      "promptZh": "「ぱ」的罗马音是？",
+      "stem": "ぱ",
+      "choices": ["pa", "ba", "pi", "pu"],
+      "answer": "pa",
+      "errorReasonId": "er.hira.pa.shape_ba"
+    },
+    {
+      "id": "B05.quiz.3",
+      "type": "listen_choose",
+      "knowledgePointId": "kp.hira.po",
+      "promptZh": "听音，选出你听到的罗马音。",
+      "audioKey": "audio.hira.po",
+      "choices": ["po", "bo", "ho", "mo"],
+      "answer": "po"
+    },
+    {
+      "id": "B05.quiz.4",
+      "type": "choose_kana",
+      "knowledgePointId": "kp.hira.pi",
+      "promptZh": "罗马音 pi 对应哪个假名？",
+      "stem": "pi",
+      "choices": ["ぴ", "び", "ひ", "に"],
+      "answer": "ぴ"
+    },
+    {
+      "id": "B05.quiz.5",
+      "type": "match",
+      "knowledgePointId": "kp.hira.pu",
+      "promptZh": "独立测验：把 ぱ 行假名和罗马音配成对。",
+      "pairs": { "ぱ": "pa", "ぴ": "pi", "ぷ": "pu", "ぺ": "pe", "ぽ": "po" }
+    }
+  ],
+  "errorReasons": [
+    {
+      "id": "er.hira.pu.shape_bu",
+      "knowledgePointId": "kp.hira.pu",
+      "wrongChoice": "ぶ",
+      "explainZh": "标记看反了：右上两点「゛」是浊音 ぶ，一个小圈「ﾟ」才是半浊音 ぷ。",
+      "correctAudioKey": "audio.hira.pu",
+      "confuseWith": "kp.hira.bu"
+    },
+    {
+      "id": "er.hira.pi.sound_bi",
+      "knowledgePointId": "kp.hira.pi",
+      "wrongChoice": "び",
+      "explainZh": "听混了：び 震喉是 b 音，ぴ 不震喉是 p 音；再点一次喇叭对比。",
+      "correctAudioKey": "audio.hira.pi",
+      "confuseWith": "kp.hira.bi"
+    },
+    {
+      "id": "er.hira.pa.shape_ba",
+      "knowledgePointId": "kp.hira.pa",
+      "wrongChoice": "ba",
+      "explainZh": "ぱ 头上是一个圈（半浊音）读 pa；两点才是 ば。书写时圈要画小、写在右上。",
+      "correctAudioKey": "audio.hira.pa",
+      "confuseWith": "kp.hira.ba"
+    }
+  ]
+}

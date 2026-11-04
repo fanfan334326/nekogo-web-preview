@@ -1,0 +1,192 @@
+{
+  "schemaVersion": 1,
+  "id": "C01",
+  "stageId": "stage.hiragana_youon",
+  "order": 1,
+  "title": "きゃ行",
+  "titleZh": "平假名拗音 きゃ行（大 き + 小 や/ゆ/よ）",
+  "rowId": "kya",
+  "knowledgePoints": [
+    {
+      "id": "kp.hira.kya",
+      "kana": "きゃ",
+      "romaji": "kya",
+      "audioKey": "audio.hira.kya",
+      "confusableIds": ["kp.hira.kyo"],
+      "tipZh": "大「き」+ 小「や」拼成一个音节 kya；小 や 只占半格、不能单独拖一拍。"
+    },
+    {
+      "id": "kp.hira.kyu",
+      "kana": "きゅ",
+      "romaji": "kyu",
+      "audioKey": "audio.hira.kyu",
+      "confusableIds": [],
+      "tipZh": "大「き」+ 小「ゆ」读 kyu，一步到位圆唇，别读成「き-ゆ」两拍。"
+    },
+    {
+      "id": "kp.hira.kyo",
+      "kana": "きょ",
+      "romaji": "kyo",
+      "audioKey": "audio.hira.kyo",
+      "confusableIds": [],
+      "tipZh": "大「き」+ 小「よ」读 kyo；注意小「よ」不是小「ゆ」，圈笔开口更大。"
+    }
+  ],
+  "teach": [
+    {
+      "id": "C01.teach.1",
+      "type": "introduce",
+      "knowledgePointId": "kp.hira.kya",
+      "promptZh": "拗音第一课：きゃ，罗马音 kya，一拍读完。",
+      "audioKey": "audio.hira.kya",
+      "noteZh": "拗音 = い 段假名（这里是大 き）+ 小 や/ゆ/よ，两个字合成一个新音节，占一格不占两格。"
+    },
+    {
+      "id": "C01.teach.2",
+      "type": "listen",
+      "knowledgePointId": "kp.hira.kya",
+      "promptZh": "点喇叭听 きゃ：k 后面直接滑到 ya，一气呵成。",
+      "audioKey": "audio.hira.kya"
+    },
+    {
+      "id": "C01.teach.3",
+      "type": "introduce",
+      "knowledgePointId": "kp.hira.kyu",
+      "promptZh": "第二个：きゅ，罗马音 kyu。",
+      "audioKey": "audio.hira.kyu",
+      "noteZh": "小 ゆ 写得比大 き 矮一半，位置贴着き 的右下方。"
+    },
+    {
+      "id": "C01.teach.4",
+      "type": "listen",
+      "knowledgePointId": "kp.hira.kyu",
+      "promptZh": "听 きゅ：像中文「求」但前面带 k 的弹开。",
+      "audioKey": "audio.hira.kyu"
+    },
+    {
+      "id": "C01.teach.5",
+      "type": "compare",
+      "knowledgePointId": "kp.hira.kyu",
+      "promptZh": "对比小 ゆ / 小 よ：ゆ 下面是两笔交叉的钩，よ 是一个横加一个竖圈。"
+    },
+    {
+      "id": "C01.teach.6",
+      "type": "introduce",
+      "knowledgePointId": "kp.hira.kyo",
+      "promptZh": "第三个：きょ，罗马音 kyo。",
+      "audioKey": "audio.hira.kyo",
+      "noteZh": "大 き + 小 よ，「今日」きょう 就用它。"
+    },
+    {
+      "id": "C01.teach.7",
+      "type": "listen",
+      "knowledgePointId": "kp.hira.kyo",
+      "promptZh": "听 きょ：圆唇的 o，别听成扁平的 kyu。",
+      "audioKey": "audio.hira.kyo"
+    },
+    {
+      "id": "C01.teach.8",
+      "type": "compare",
+      "knowledgePointId": "kp.hira.kya",
+      "promptZh": "对比 きゃ / き・や：きゃ 一拍连读；「木屋」き・や 才有中点隔开的两拍。"
+    },
+    {
+      "id": "C01.teach.9",
+      "type": "stroke_hint",
+      "knowledgePointId": "kp.hira.kya",
+      "promptZh": "看布局：きゃ = 大字 + 小字同格。",
+      "noteZh": "先写完整的 き（3 笔），再在右下写半个高度的 や（3 笔）；小字不越格线。"
+    }
+  ],
+  "practice": [
+    {
+      "id": "C01.practice.1",
+      "type": "choose_romaji",
+      "knowledgePointId": "kp.hira.kya",
+      "promptZh": "「きゃ」的罗马音是？",
+      "stem": "きゃ",
+      "choices": ["kya", "ki", "ka", "kiya"],
+      "answer": "kya",
+      "errorReasonId": "er.hira.kya.sound_kiya"
+    },
+    {
+      "id": "C01.practice.2",
+      "type": "choose_kana",
+      "knowledgePointId": "kp.hira.kyu",
+      "promptZh": "罗马音 kyu 对应哪个假名？",
+      "stem": "kyu",
+      "choices": ["きゅ", "きょ", "きゆ", "く"],
+      "answer": "きゅ",
+      "errorReasonId": "er.hira.kyu.shape_kyo"
+    },
+    {
+      "id": "C01.practice.3",
+      "type": "listen_choose",
+      "knowledgePointId": "kp.hira.kyo",
+      "promptZh": "听一听，选出你听到的假名（喇叭可以反复点）。",
+      "audioKey": "audio.hira.kyo",
+      "choices": ["きょ", "きゅ", "きよ", "か"],
+      "answer": "きょ"
+    },
+    {
+      "id": "C01.practice.4",
+      "type": "match",
+      "knowledgePointId": "kp.hira.kya",
+      "promptZh": "把きゃ行的假名和罗马音连起来。",
+      "pairs": { "きゃ": "kya", "きゅ": "kyu", "きょ": "kyo" }
+    }
+  ],
+  "quiz": [
+    {
+      "id": "C01.quiz.1",
+      "type": "choose_romaji",
+      "knowledgePointId": "kp.hira.kyo",
+      "promptZh": "「きょ」的罗马音是？",
+      "stem": "きょ",
+      "choices": ["kyo", "kyu", "kiyo", "ko"],
+      "answer": "kyo"
+    },
+    {
+      "id": "C01.quiz.2",
+      "type": "choose_kana",
+      "knowledgePointId": "kp.hira.kya",
+      "promptZh": "罗马音 kya 对应哪个假名？",
+      "stem": "kya",
+      "choices": ["きゃ", "きや", "きょ", "か"],
+      "answer": "きゃ"
+    },
+    {
+      "id": "C01.quiz.3",
+      "type": "listen_choose",
+      "knowledgePointId": "kp.hira.kyu",
+      "promptZh": "听音，选出你听到的罗马音。",
+      "audioKey": "audio.hira.kyu",
+      "choices": ["kyu", "kyo", "ku", "kya"],
+      "answer": "kyu"
+    },
+    {
+      "id": "C01.quiz.4",
+      "type": "match",
+      "knowledgePointId": "kp.hira.kyu",
+      "promptZh": "独立测验：拗音配对。",
+      "pairs": { "きゃ": "kya", "きゅ": "kyu", "きょ": "kyo" }
+    }
+  ],
+  "errorReasons": [
+    {
+      "id": "er.hira.kya.sound_kiya",
+      "knowledgePointId": "kp.hira.kya",
+      "wrongChoice": "kiya",
+      "explainZh": "拗音只有一拍：kya 连读，不能拆成 ki-ya 两拍；kiya 那种写法对应「木屋」这类两词叠加。",
+      "correctAudioKey": "audio.hira.kya"
+    },
+    {
+      "id": "er.hira.kyu.shape_kyo",
+      "knowledgePointId": "kp.hira.kyu",
+      "wrongChoice": "きょ",
+      "explainZh": "小字混了：小 ゆ 底下是交叉两笔，小 よ 是一横一竖圈；kyu 圆唇收得更快。",
+      "correctAudioKey": "audio.hira.kyu",
+      "confuseWith": "kp.hira.kyo"
+    }
+  ]
+}

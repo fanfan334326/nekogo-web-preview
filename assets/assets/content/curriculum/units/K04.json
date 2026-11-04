@@ -1,0 +1,241 @@
+{
+  "schemaVersion": 1,
+  "id": "K04",
+  "stageId": "stage.katakana_seion",
+  "order": 4,
+  "title": "タ行",
+  "titleZh": "片假名 タ行（タチツテト）",
+  "rowId": "ta",
+  "knowledgePoints": [
+    {
+      "id": "kp.kata.ta",
+      "kana": "タ",
+      "romaji": "ta",
+      "audioKey": "audio.kata.ta",
+      "confusableIds": [],
+      "tipZh": "片假名 タ 三笔：横、竖钩、右上一点；来自汉字「多」的上半。"
+    },
+    {
+      "id": "kp.kata.chi",
+      "kana": "チ",
+      "romaji": "chi",
+      "audioKey": "audio.kata.chi",
+      "confusableIds": [],
+      "tipZh": "片假名 チ：撇、横、竖弯钩——像汉字「七」但钩更长；读 chi 不读 qi。"
+    },
+    {
+      "id": "kp.kata.tsu",
+      "kana": "ツ",
+      "romaji": "tsu",
+      "audioKey": "audio.kata.tsu",
+      "confusableIds": ["kp.kata.shi"],
+      "tipZh": "片假名 ツ：横加左右两点再一撇，「两片翅膀」；和促音小「ッ」同源。"
+    },
+    {
+      "id": "kp.kata.te",
+      "kana": "テ",
+      "romaji": "te",
+      "audioKey": "audio.kata.te",
+      "confusableIds": [],
+      "tipZh": "片假名 テ 三笔：横、撇穿过、再一个横折弯——比平假名「て」方正。"
+    },
+    {
+      "id": "kp.kata.to",
+      "kana": "ト",
+      "romaji": "to",
+      "audioKey": "audio.kata.to",
+      "confusableIds": [],
+      "tipZh": "片假名 ト 两笔：先竖再向左下的长撇；「十」的横换成撇就成了ト。"
+    }
+  ],
+  "teach": [
+    {
+      "id": "K04.teach.1",
+      "type": "introduce",
+      "knowledgePointId": "kp.kata.ta",
+      "promptZh": "片假名 タ，罗马音 ta。",
+      "audioKey": "audio.kata.ta",
+      "noteZh": "タ 的最后一笔是右上的一点，别写成「ト+一」的顺序。"
+    },
+    {
+      "id": "K04.teach.2",
+      "type": "listen",
+      "knowledgePointId": "kp.kata.ta",
+      "promptZh": "点喇叭听 タ：舌尖弹开的「他」。",
+      "audioKey": "audio.kata.ta"
+    },
+    {
+      "id": "K04.teach.3",
+      "type": "introduce",
+      "knowledgePointId": "kp.kata.chi",
+      "promptZh": "第二个：チ，罗马音 chi。",
+      "audioKey": "audio.kata.chi",
+      "noteZh": "チ 收笔的弯钩要向右上方勾起，钩不出头就成了别的字。"
+    },
+    {
+      "id": "K04.teach.4",
+      "type": "listen",
+      "knowledgePointId": "kp.kata.chi",
+      "promptZh": "听 チ：接近中文「吃」，但舌头别顶太紧。",
+      "audioKey": "audio.kata.chi"
+    },
+    {
+      "id": "K04.teach.5",
+      "type": "compare",
+      "knowledgePointId": "kp.kata.tsu",
+      "promptZh": "对比 ツ / シ：ツ 头顶一横、两点分居左右；シ 三点全排在撇的左边。"
+    },
+    {
+      "id": "K04.teach.6",
+      "type": "introduce",
+      "knowledgePointId": "kp.kata.tsu",
+      "promptZh": "第三个：ツ，罗马音 tsu。",
+      "audioKey": "audio.kata.tsu",
+      "noteZh": "tsu 是「刺」的声母加松唇 u：t 和 s 快速连在一起。"
+    },
+    {
+      "id": "K04.teach.7",
+      "type": "listen",
+      "knowledgePointId": "kp.kata.tsu",
+      "promptZh": "听 ツ：像中文「次」但舌尖先顶再滑。",
+      "audioKey": "audio.kata.tsu"
+    },
+    {
+      "id": "K04.teach.8",
+      "type": "introduce",
+      "knowledgePointId": "kp.kata.te",
+      "promptZh": "第四个：テ，罗马音 te。",
+      "audioKey": "audio.kata.te",
+      "noteZh": "テ 中间的撇从横下穿出，右侧折弯一笔完成。"
+    },
+    {
+      "id": "K04.teach.9",
+      "type": "listen",
+      "knowledgePointId": "kp.kata.te",
+      "promptZh": "听 テ：干净的「得」。",
+      "audioKey": "audio.kata.te"
+    },
+    {
+      "id": "K04.teach.10",
+      "type": "introduce",
+      "knowledgePointId": "kp.kata.to",
+      "promptZh": "第五个：ト，罗马音 to。",
+      "audioKey": "audio.kata.to",
+      "noteZh": "ト 来自「止」的侧写：一竖一撇，撇落在竖的下半。"
+    },
+    {
+      "id": "K04.teach.11",
+      "type": "listen",
+      "knowledgePointId": "kp.kata.to",
+      "promptZh": "听 ト：短促的「多」。",
+      "audioKey": "audio.kata.to"
+    },
+    {
+      "id": "K04.teach.12",
+      "type": "stroke_hint",
+      "knowledgePointId": "kp.kata.chi",
+      "promptZh": "看笔顺：チ 一共 3 笔。",
+      "noteZh": "① 短撇；② 横；③ 竖下去后向右弯钩。钩要圆润、不折断。"
+    }
+  ],
+  "practice": [
+    {
+      "id": "K04.practice.1",
+      "type": "choose_romaji",
+      "knowledgePointId": "kp.kata.ta",
+      "promptZh": "「タ」的罗马音是？",
+      "stem": "タ",
+      "choices": ["ta", "to", "te", "da"],
+      "answer": "ta"
+    },
+    {
+      "id": "K04.practice.2",
+      "type": "choose_kana",
+      "knowledgePointId": "kp.kata.chi",
+      "promptZh": "罗马音 chi 对应哪个片假名？",
+      "stem": "chi",
+      "choices": ["チ", "ツ", "テ", "ト"],
+      "answer": "チ",
+      "errorReasonId": "er.kata.chi.shape_tsu"
+    },
+    {
+      "id": "K04.practice.3",
+      "type": "listen_choose",
+      "knowledgePointId": "kp.kata.tsu",
+      "promptZh": "听一听，选出你听到的片假名（喇叭可以反复点）。",
+      "audioKey": "audio.kata.tsu",
+      "choices": ["ツ", "シ", "タ", "テ"],
+      "answer": "ツ"
+    },
+    {
+      "id": "K04.practice.4",
+      "type": "choose_romaji",
+      "knowledgePointId": "kp.kata.to",
+      "promptZh": "「ト」的罗马音是？",
+      "stem": "ト",
+      "choices": ["to", "ho", "no", "lo"],
+      "answer": "to"
+    },
+    {
+      "id": "K04.practice.5",
+      "type": "match",
+      "knowledgePointId": "kp.kata.ta",
+      "promptZh": "把タ行的片假名和罗马音连起来。",
+      "pairs": { "タ": "ta", "チ": "chi", "ツ": "tsu", "テ": "te", "ト": "to" }
+    }
+  ],
+  "quiz": [
+    {
+      "id": "K04.quiz.1",
+      "type": "choose_kana",
+      "knowledgePointId": "kp.kata.te",
+      "promptZh": "罗马音 te 对应哪个片假名？",
+      "stem": "te",
+      "choices": ["テ", "ト", "タ", "チ"],
+      "answer": "テ"
+    },
+    {
+      "id": "K04.quiz.2",
+      "type": "choose_romaji",
+      "knowledgePointId": "kp.kata.tsu",
+      "promptZh": "「ツ」的罗马音是？",
+      "stem": "ツ",
+      "choices": ["tsu", "tu", "su", "chu"],
+      "answer": "tsu",
+      "errorReasonId": "er.kata.tsu.sound_su"
+    },
+    {
+      "id": "K04.quiz.3",
+      "type": "listen_choose",
+      "knowledgePointId": "kp.kata.ta",
+      "promptZh": "听音，选出你听到的罗马音。",
+      "audioKey": "audio.kata.ta",
+      "choices": ["ta", "da", "ka", "sa"],
+      "answer": "ta"
+    },
+    {
+      "id": "K04.quiz.4",
+      "type": "match",
+      "knowledgePointId": "kp.kata.to",
+      "promptZh": "独立测验：タ行配对。",
+      "pairs": { "タ": "ta", "チ": "chi", "ツ": "tsu", "テ": "te", "ト": "to" }
+    }
+  ],
+  "errorReasons": [
+    {
+      "id": "er.kata.chi.shape_tsu",
+      "knowledgePointId": "kp.kata.chi",
+      "wrongChoice": "ツ",
+      "explainZh": "字形混了：チ 的弯钩一笔到底；ツ 是横加两点再撇。看「有没有翅膀点」。",
+      "correctAudioKey": "audio.kata.chi",
+      "confuseWith": "kp.kata.tsu"
+    },
+    {
+      "id": "er.kata.tsu.sound_su",
+      "knowledgePointId": "kp.kata.tsu",
+      "wrongChoice": "su",
+      "explainZh": "听混了：tsu 前面有清晰的 t 塞音（刺），su 只有齿缝气流（斯）。再点一次喇叭对比。",
+      "correctAudioKey": "audio.kata.tsu"
+    }
+  ]
+}

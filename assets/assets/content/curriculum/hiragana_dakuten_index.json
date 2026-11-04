@@ -3,7 +3,7 @@
   "stage": {
     "id": "stage.hiragana_dakuten",
     "title": "平假名浊音",
-    "titleZh": "平假名浊音（W0 壳阶段：先行只上线が行 B01；が/ざ/だ/ば四行 B01–B05 完整内容包在 W1 扩充）",
+    "titleZh": "平假名浊音＋半浊音（W1 完整内容包：が/ざ/だ/ば/ぱ五行 B01–B05）",
     "rowSourceAsset": "assets/content/hiragana.json"
   },
   "units": [
@@ -11,9 +11,41 @@
       "id": "B01",
       "order": 1,
       "title": "が行",
-      "titleZh": "平假名 が行（k 音 + 浊点）",
+      "titleZh": "平假名 が行（か行 + 浊点）",
       "rowId": "ga",
       "asset": "assets/content/curriculum/units/B01.json"
+    },
+    {
+      "id": "B02",
+      "order": 2,
+      "title": "ざ行",
+      "titleZh": "平假名 ざ行（さ行 + 浊点）",
+      "rowId": "za",
+      "asset": "assets/content/curriculum/units/B02.json"
+    },
+    {
+      "id": "B03",
+      "order": 3,
+      "title": "だ行",
+      "titleZh": "平假名 だ行（た行 + 浊点，ぢ/づ 记作 di/du）",
+      "rowId": "da",
+      "asset": "assets/content/curriculum/units/B03.json"
+    },
+    {
+      "id": "B04",
+      "order": 4,
+      "title": "ば行",
+      "titleZh": "平假名 ば行（は行 + 浊点）",
+      "rowId": "ba",
+      "asset": "assets/content/curriculum/units/B04.json"
+    },
+    {
+      "id": "B05",
+      "order": 5,
+      "title": "ぱ行",
+      "titleZh": "平假名 ぱ行（は行 + 半浊音）",
+      "rowId": "pa",
+      "asset": "assets/content/curriculum/units/B05.json"
     }
   ]
 }

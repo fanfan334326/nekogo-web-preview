@@ -1,0 +1,257 @@
+{
+  "schemaVersion": 1,
+  "id": "B04",
+  "stageId": "stage.hiragana_dakuten",
+  "order": 4,
+  "title": "ば行",
+  "titleZh": "平假名 ば行（は行 + 浊点）",
+  "rowId": "ba",
+  "knowledgePoints": [
+    {
+      "id": "kp.hira.ba",
+      "kana": "ば",
+      "romaji": "ba",
+      "audioKey": "audio.hira.ba",
+      "confusableIds": ["kp.hira.pa"],
+      "tipZh": "は + 浊点「゛」：两点让 h 变成 b，像中文「八」的音。"
+    },
+    {
+      "id": "kp.hira.bi",
+      "kana": "び",
+      "romaji": "bi",
+      "audioKey": "audio.hira.bi",
+      "confusableIds": ["kp.hira.pi"],
+      "tipZh": "ひ + 浊点：ひ 是左右两笔，加两点读 bi。"
+    },
+    {
+      "id": "kp.hira.bu",
+      "kana": "ぶ",
+      "romaji": "bu",
+      "audioKey": "audio.hira.bu",
+      "confusableIds": ["kp.hira.pu"],
+      "tipZh": "ふ + 浊点：ふ 头上的小圈换成两点变 ぶ，注意它读 bu 不是 fu。"
+    },
+    {
+      "id": "kp.hira.be",
+      "kana": "べ",
+      "romaji": "be",
+      "audioKey": "audio.hira.be",
+      "confusableIds": ["kp.hira.pe"],
+      "tipZh": "へ + 浊点：へ 是一笔屋顶形，加两点读 be。"
+    },
+    {
+      "id": "kp.hira.bo",
+      "kana": "ぼ",
+      "romaji": "bo",
+      "audioKey": "audio.hira.bo",
+      "confusableIds": ["kp.hira.po"],
+      "tipZh": "ほ + 浊点：ほ = 左「丿彐」加右竖钩，点上两点读 bo。"
+    }
+  ],
+  "teach": [
+    {
+      "id": "B04.teach.1",
+      "type": "introduce",
+      "knowledgePointId": "kp.hira.ba",
+      "promptZh": "浊音第四课：ば，罗马音 ba。",
+      "audioKey": "audio.hira.ba",
+      "noteZh": "は行加「゛」变 b 音：は→ば、ひ→び、ふ→ぶ、へ→べ、ほ→ぼ。"
+    },
+    {
+      "id": "B04.teach.2",
+      "type": "listen",
+      "knowledgePointId": "kp.hira.ba",
+      "promptZh": "点喇叭听 ば，再对比清音 は：双唇先闭后开。",
+      "audioKey": "audio.hira.ba"
+    },
+    {
+      "id": "B04.teach.3",
+      "type": "introduce",
+      "knowledgePointId": "kp.hira.bi",
+      "promptZh": "第二个假名：び，罗马音 bi。",
+      "audioKey": "audio.hira.bi",
+      "noteZh": "ひ 的右侧加两点，笔顺和 ひ 一样。"
+    },
+    {
+      "id": "B04.teach.4",
+      "type": "listen",
+      "knowledgePointId": "kp.hira.bi",
+      "promptZh": "听 び：短促的「bi」，别读成「hi」。",
+      "audioKey": "audio.hira.bi"
+    },
+    {
+      "id": "B04.teach.5",
+      "type": "introduce",
+      "knowledgePointId": "kp.hira.bu",
+      "promptZh": "第三个假名：ぶ，罗马音 bu。",
+      "audioKey": "audio.hira.bu",
+      "noteZh": "ふ 本来上面的小圈表示轻擦音，换成浊点就读成实实在在的 bu。"
+    },
+    {
+      "id": "B04.teach.6",
+      "type": "listen",
+      "knowledgePointId": "kp.hira.bu",
+      "promptZh": "听 ぶ：双唇圆起、震喉，接近中文「不」但嘴唇更用力。",
+      "audioKey": "audio.hira.bu"
+    },
+    {
+      "id": "B04.teach.7",
+      "type": "compare",
+      "knowledgePointId": "kp.hira.bu",
+      "promptZh": "对比 ふ / ぶ：ふ 上面是个小圈、气流摩擦；ぶ 是两点浊点、双唇塞音。"
+    },
+    {
+      "id": "B04.teach.8",
+      "type": "introduce",
+      "knowledgePointId": "kp.hira.be",
+      "promptZh": "第四个假名：べ，罗马音 be。",
+      "audioKey": "audio.hira.be",
+      "noteZh": "へ 的一笔斜折不变，右边加两点。"
+    },
+    {
+      "id": "B04.teach.9",
+      "type": "listen",
+      "knowledgePointId": "kp.hira.be",
+      "promptZh": "听 べ：接近中文「贝」但更短。",
+      "audioKey": "audio.hira.be"
+    },
+    {
+      "id": "B04.teach.10",
+      "type": "introduce",
+      "knowledgePointId": "kp.hira.bo",
+      "promptZh": "第五个假名：ぼ，罗马音 bo。",
+      "audioKey": "audio.hira.bo",
+      "noteZh": "ほ 加两点；「帽子」ぼうし 就用到它。"
+    },
+    {
+      "id": "B04.teach.11",
+      "type": "listen",
+      "knowledgePointId": "kp.hira.bo",
+      "promptZh": "听 ぼ，圆唇一次到位。",
+      "audioKey": "audio.hira.bo"
+    },
+    {
+      "id": "B04.teach.12",
+      "type": "stroke_hint",
+      "knowledgePointId": "kp.hira.ba",
+      "promptZh": "看笔顺：ば 一共 3 笔 + 2 点。",
+      "noteZh": "① 左竖撇；② 横折里绕两个小弯；③ 右边一竖；最后右上点两点浊点。"
+    }
+  ],
+  "practice": [
+    {
+      "id": "B04.practice.1",
+      "type": "choose_romaji",
+      "knowledgePointId": "kp.hira.ba",
+      "promptZh": "「ば」的罗马音是？",
+      "stem": "ば",
+      "choices": ["ba", "ha", "pa", "ma"],
+      "answer": "ba"
+    },
+    {
+      "id": "B04.practice.2",
+      "type": "choose_kana",
+      "knowledgePointId": "kp.hira.bu",
+      "promptZh": "罗马音 bu 对应哪个假名？",
+      "stem": "bu",
+      "choices": ["ぶ", "ふ", "ぷ", "ぬ"],
+      "answer": "ぶ",
+      "errorReasonId": "er.hira.bu.sound_fu"
+    },
+    {
+      "id": "B04.practice.3",
+      "type": "listen_choose",
+      "knowledgePointId": "kp.hira.bi",
+      "promptZh": "听一听，选出你听到的假名（喇叭可以反复点）。",
+      "audioKey": "audio.hira.bi",
+      "choices": ["び", "ひ", "ぴ", "み"],
+      "answer": "び",
+      "errorReasonId": "er.hira.bi.shape_hi"
+    },
+    {
+      "id": "B04.practice.4",
+      "type": "choose_romaji",
+      "knowledgePointId": "kp.hira.bo",
+      "promptZh": "「ぼ」的罗马音是？",
+      "stem": "ぼ",
+      "choices": ["bo", "ho", "po", "no"],
+      "answer": "bo"
+    },
+    {
+      "id": "B04.practice.5",
+      "type": "match",
+      "knowledgePointId": "kp.hira.ba",
+      "promptZh": "把 ば 行的假名和罗马音连起来。",
+      "pairs": { "ば": "ba", "び": "bi", "ぶ": "bu", "べ": "be", "ぼ": "bo" }
+    }
+  ],
+  "quiz": [
+    {
+      "id": "B04.quiz.1",
+      "type": "choose_kana",
+      "knowledgePointId": "kp.hira.be",
+      "promptZh": "罗马音 be 对应哪个假名？",
+      "stem": "be",
+      "choices": ["べ", "へ", "ぺ", "め"],
+      "answer": "べ"
+    },
+    {
+      "id": "B04.quiz.2",
+      "type": "choose_romaji",
+      "knowledgePointId": "kp.hira.bu",
+      "promptZh": "「ぶ」的罗马音是？",
+      "stem": "ぶ",
+      "choices": ["bu", "fu", "pu", "mu"],
+      "answer": "bu",
+      "errorReasonId": "er.hira.bu.sound_fu2"
+    },
+    {
+      "id": "B04.quiz.3",
+      "type": "listen_choose",
+      "knowledgePointId": "kp.hira.ba",
+      "promptZh": "听音，选出你听到的罗马音。",
+      "audioKey": "audio.hira.ba",
+      "choices": ["ba", "ha", "pa", "ma"],
+      "answer": "ba"
+    },
+    {
+      "id": "B04.quiz.4",
+      "type": "choose_kana",
+      "knowledgePointId": "kp.hira.bo",
+      "promptZh": "罗马音 bo 对应哪个假名？",
+      "stem": "bo",
+      "choices": ["ぼ", "ほ", "ぽ", "も"],
+      "answer": "ぼ"
+    },
+    {
+      "id": "B04.quiz.5",
+      "type": "match",
+      "knowledgePointId": "kp.hira.bi",
+      "promptZh": "独立测验：把 ば 行假名和罗马音配成对。",
+      "pairs": { "ば": "ba", "び": "bi", "ぶ": "bu", "べ": "be", "ぼ": "bo" }
+    }
+  ],
+  "errorReasons": [
+    {
+      "id": "er.hira.bu.sound_fu",
+      "knowledgePointId": "kp.hira.bu",
+      "wrongChoice": "ふ",
+      "explainZh": "读音混了：ふ 是轻擦的 fu，ぶ 是双唇闭紧的 bu；看右上角，圈是ふ、两点是ぶ。",
+      "correctAudioKey": "audio.hira.bu"
+    },
+    {
+      "id": "er.hira.bi.shape_hi",
+      "knowledgePointId": "kp.hira.bi",
+      "wrongChoice": "ひ",
+      "explainZh": "看漏浊点了：ひ 是清音，び = ひ + ゛。",
+      "correctAudioKey": "audio.hira.bi"
+    },
+    {
+      "id": "er.hira.bu.sound_fu2",
+      "knowledgePointId": "kp.hira.bu",
+      "wrongChoice": "fu",
+      "explainZh": "ぶ 永远记 bu；fu 是ふ 的罗马音，两个字形差在「圈」和「点」。",
+      "correctAudioKey": "audio.hira.bu"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "stage": {
+    "id": "stage.katakana_seion",
+    "title": "片假名清音",
+    "titleZh": "片假名清音（W1 先行上线ア～ナ行 K01–K05；ハ行以后与浊音/拗音片假名后续补）",
+    "rowSourceAsset": "assets/content/hiragana.json"
+  },
+  "units": [
+    {
+      "id": "K01",
+      "order": 1,
+      "title": "ア行",
+      "titleZh": "片假名 ア行（アイウエオ）",
+      "rowId": "a",
+      "asset": "assets/content/curriculum/units/K01.json"
+    },
+    {
+      "id": "K02",
+      "order": 2,
+      "title": "カ行",
+      "titleZh": "片假名 カ行（カキクケコ）",
+      "rowId": "ka",
+      "asset": "assets/content/curriculum/units/K02.json"
+    },
+    {
+      "id": "K03",
+      "order": 3,
+      "title": "サ行",
+      "titleZh": "片假名 サ行（サシスセソ）",
+      "rowId": "sa",
+      "asset": "assets/content/curriculum/units/K03.json"
+    },
+    {
+      "id": "K04",
+      "order": 4,
+      "title": "タ行",
+      "titleZh": "片假名 タ行（タチツテト）",
+      "rowId": "ta",
+      "asset": "assets/content/curriculum/units/K04.json"
+    },
+    {
+      "id": "K05",
+      "order": 5,
+      "title": "ナ行",
+      "titleZh": "片假名 ナ行（ナニヌネノ）",
+      "rowId": "na",
+      "asset": "assets/content/curriculum/units/K05.json"
+    }
+  ]
+}

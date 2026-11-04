@@ -1,0 +1,241 @@
+{
+  "schemaVersion": 1,
+  "id": "K03",
+  "stageId": "stage.katakana_seion",
+  "order": 3,
+  "title": "サ行",
+  "titleZh": "片假名 サ行（サシスセソ）",
+  "rowId": "sa",
+  "knowledgePoints": [
+    {
+      "id": "kp.kata.sa",
+      "kana": "サ",
+      "romaji": "sa",
+      "audioKey": "audio.kata.sa",
+      "confusableIds": [],
+      "tipZh": "片假名 サ 三笔：横、撇、叉——像「ち」但没有下面那个弯钩。"
+    },
+    {
+      "id": "kp.kata.shi",
+      "kana": "シ",
+      "romaji": "shi",
+      "audioKey": "audio.kata.shi",
+      "confusableIds": ["kp.kata.tsu"],
+      "tipZh": "片假名 シ：点、提、撇——三点从左往右排；和 ツ 只差点的位置。"
+    },
+    {
+      "id": "kp.kata.su",
+      "kana": "ス",
+      "romaji": "su",
+      "audioKey": "audio.kata.su",
+      "confusableIds": [],
+      "tipZh": "片假名 ス 两笔：一竖撇加一长横，像没有口的「十」偏着写。"
+    },
+    {
+      "id": "kp.kata.se",
+      "kana": "セ",
+      "romaji": "se",
+      "audioKey": "audio.kata.se",
+      "confusableIds": [],
+      "tipZh": "片假名 セ 三笔：横、竖撇、竖折钩；发音是干净的「se」。"
+    },
+    {
+      "id": "kp.kata.so",
+      "kana": "ソ",
+      "romaji": "so",
+      "audioKey": "audio.kata.so",
+      "confusableIds": [],
+      "tipZh": "片假名 ソ 就一笔长撇加一捺撑开的钩，「那」字左半边。"
+    }
+  ],
+  "teach": [
+    {
+      "id": "K03.teach.1",
+      "type": "introduce",
+      "knowledgePointId": "kp.kata.sa",
+      "promptZh": "片假名 サ，罗马音 sa。",
+      "audioKey": "audio.kata.sa",
+      "noteZh": "サ 来自「左」的草头部分：横起笔，撇下来再交叉。"
+    },
+    {
+      "id": "K03.teach.2",
+      "type": "listen",
+      "knowledgePointId": "kp.kata.sa",
+      "promptZh": "点喇叭听 サ：气流从齿缝出来的「撒」。",
+      "audioKey": "audio.kata.sa"
+    },
+    {
+      "id": "K03.teach.3",
+      "type": "introduce",
+      "knowledgePointId": "kp.kata.shi",
+      "promptZh": "第二个：シ，罗马音 shi。",
+      "audioKey": "audio.kata.shi",
+      "noteZh": "シ 的三点全部在撇的左侧、由低到高排开。"
+    },
+    {
+      "id": "K03.teach.4",
+      "type": "compare",
+      "knowledgePointId": "kp.kata.shi",
+      "promptZh": "对比 シ / ツ：シ 三点朝左排，ツ 是上面一横加左右两点——「两片翅膀」。"
+    },
+    {
+      "id": "K03.teach.5",
+      "type": "listen",
+      "knowledgePointId": "kp.kata.shi",
+      "promptZh": "听 シ：拉长一点的「西」。",
+      "audioKey": "audio.kata.shi"
+    },
+    {
+      "id": "K03.teach.6",
+      "type": "introduce",
+      "knowledgePointId": "kp.kata.su",
+      "promptZh": "第三个：ス，罗马音 su。",
+      "audioKey": "audio.kata.su",
+      "noteZh": "ス 与 ヌ 的差别是右下有没有那一点圈。"
+    },
+    {
+      "id": "K03.teach.7",
+      "type": "listen",
+      "knowledgePointId": "kp.kata.su",
+      "promptZh": "听 ス：齿缝气流「斯」。",
+      "audioKey": "audio.kata.su"
+    },
+    {
+      "id": "K03.teach.8",
+      "type": "introduce",
+      "knowledgePointId": "kp.kata.se",
+      "promptZh": "第四个：セ，罗马音 se。",
+      "audioKey": "audio.kata.se",
+      "noteZh": "セ 来自「世」的一半：横、撇、竖折。"
+    },
+    {
+      "id": "K03.teach.9",
+      "type": "listen",
+      "knowledgePointId": "kp.kata.se",
+      "promptZh": "听 セ：短促的「赛」前段。",
+      "audioKey": "audio.kata.se"
+    },
+    {
+      "id": "K03.teach.10",
+      "type": "introduce",
+      "knowledgePointId": "kp.kata.so",
+      "promptZh": "第五个：ソ，罗马音 so。",
+      "audioKey": "audio.kata.so",
+      "noteZh": "ソ 一撇一捺两笔；比 ツ 少了上面那一横。"
+    },
+    {
+      "id": "K03.teach.11",
+      "type": "listen",
+      "knowledgePointId": "kp.kata.so",
+      "promptZh": "听 ソ：圆唇「梭」。",
+      "audioKey": "audio.kata.so"
+    },
+    {
+      "id": "K03.teach.12",
+      "type": "stroke_hint",
+      "knowledgePointId": "kp.kata.shi",
+      "promptZh": "看笔顺：シ 一共 3 笔。",
+      "noteZh": "① 左下点；② 中上提；③ 从右上向左下的长撇。点画都落在撇的左边。"
+    }
+  ],
+  "practice": [
+    {
+      "id": "K03.practice.1",
+      "type": "choose_romaji",
+      "knowledgePointId": "kp.kata.sa",
+      "promptZh": "「サ」的罗马音是？",
+      "stem": "サ",
+      "choices": ["sa", "ta", "na", "ra"],
+      "answer": "sa"
+    },
+    {
+      "id": "K03.practice.2",
+      "type": "choose_kana",
+      "knowledgePointId": "kp.kata.shi",
+      "promptZh": "罗马音 shi 对应哪个片假名？",
+      "stem": "shi",
+      "choices": ["シ", "ツ", "ス", "セ"],
+      "answer": "シ",
+      "errorReasonId": "er.kata.shi.shape_tsu"
+    },
+    {
+      "id": "K03.practice.3",
+      "type": "listen_choose",
+      "knowledgePointId": "kp.kata.so",
+      "promptZh": "听一听，选出你听到的片假名（喇叭可以反复点）。",
+      "audioKey": "audio.kata.so",
+      "choices": ["ソ", "ン", "ヌ", "セ"],
+      "answer": "ソ"
+    },
+    {
+      "id": "K03.practice.4",
+      "type": "choose_romaji",
+      "knowledgePointId": "kp.kata.su",
+      "promptZh": "「ス」的罗马音是？",
+      "stem": "ス",
+      "choices": ["su", "nu", "sa", "se"],
+      "answer": "su",
+      "errorReasonId": "er.kata.su.shape_nu"
+    },
+    {
+      "id": "K03.practice.5",
+      "type": "match",
+      "knowledgePointId": "kp.kata.sa",
+      "promptZh": "把サ行的片假名和罗马音连起来。",
+      "pairs": { "サ": "sa", "シ": "shi", "ス": "su", "セ": "se", "ソ": "so" }
+    }
+  ],
+  "quiz": [
+    {
+      "id": "K03.quiz.1",
+      "type": "choose_kana",
+      "knowledgePointId": "kp.kata.se",
+      "promptZh": "罗马音 se 对应哪个片假名？",
+      "stem": "se",
+      "choices": ["セ", "サ", "ソ", "ス"],
+      "answer": "セ"
+    },
+    {
+      "id": "K03.quiz.2",
+      "type": "choose_romaji",
+      "knowledgePointId": "kp.kata.shi",
+      "promptZh": "「シ」的罗马音是？",
+      "stem": "シ",
+      "choices": ["shi", "si", "tsu", "su"],
+      "answer": "shi"
+    },
+    {
+      "id": "K03.quiz.3",
+      "type": "listen_choose",
+      "knowledgePointId": "kp.kata.sa",
+      "promptZh": "听音，选出你听到的罗马音。",
+      "audioKey": "audio.kata.sa",
+      "choices": ["sa", "sha", "si", "so"],
+      "answer": "sa"
+    },
+    {
+      "id": "K03.quiz.4",
+      "type": "match",
+      "knowledgePointId": "kp.kata.so",
+      "promptZh": "独立测验：サ行配对。",
+      "pairs": { "サ": "sa", "シ": "shi", "ス": "su", "セ": "se", "ソ": "so" }
+    }
+  ],
+  "errorReasons": [
+    {
+      "id": "er.kata.shi.shape_tsu",
+      "knowledgePointId": "kp.kata.shi",
+      "wrongChoice": "ツ",
+      "explainZh": "点的位置记反了：三点都排在撇左边的是 シ；ツ 头顶有一横、两点像翅膀。",
+      "correctAudioKey": "audio.kata.shi",
+      "confuseWith": "kp.kata.tsu"
+    },
+    {
+      "id": "er.kata.su.shape_nu",
+      "knowledgePointId": "kp.kata.su",
+      "wrongChoice": "nu",
+      "explainZh": "ス 是两笔干净的撇横；ヌ 在右下多一个小圈。带圈才念 nu。",
+      "correctAudioKey": "audio.kata.su"
+    }
+  ]
+}

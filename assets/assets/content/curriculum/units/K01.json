@@ -1,0 +1,251 @@
+{
+  "schemaVersion": 1,
+  "id": "K01",
+  "stageId": "stage.katakana_seion",
+  "order": 1,
+  "title": "ア行",
+  "titleZh": "片假名 ア行（アイウエオ）",
+  "rowId": "a",
+  "knowledgePoints": [
+    {
+      "id": "kp.kata.a",
+      "kana": "ア",
+      "romaji": "a",
+      "audioKey": "audio.kata.a",
+      "confusableIds": ["kp.kata.o"],
+      "tipZh": "片假名 ア 只有两笔：横、撇。和平假名「あ」的绕圈写法完全不同。"
+    },
+    {
+      "id": "kp.kata.i",
+      "kana": "イ",
+      "romaji": "i",
+      "audioKey": "audio.kata.i",
+      "confusableIds": [],
+      "tipZh": "片假名 イ 就是汉字「以」的左半边：一竖撇加一点。传统排序「イロハ」的第一字。"
+    },
+    {
+      "id": "kp.kata.u",
+      "kana": "ウ",
+      "romaji": "u",
+      "audioKey": "audio.kata.u",
+      "confusableIds": [],
+      "tipZh": "片假名 ウ 像屋顶下一个人：上面一横折、下面一竖一横。"
+    },
+    {
+      "id": "kp.kata.e",
+      "kana": "エ",
+      "romaji": "e",
+      "audioKey": "audio.kata.e",
+      "confusableIds": [],
+      "tipZh": "片假名 エ 三笔：横、竖、横，像打开的「F」镜像，比平假名「え」方正得多。"
+    },
+    {
+      "id": "kp.kata.o",
+      "kana": "オ",
+      "romaji": "o",
+      "audioKey": "audio.kata.o",
+      "confusableIds": ["kp.kata.a"],
+      "tipZh": "片假名 オ 和「あ」笔画数相同但排布不同：オ 是横、横、撇带竖钩。"
+    }
+  ],
+  "teach": [
+    {
+      "id": "K01.teach.1",
+      "type": "introduce",
+      "knowledgePointId": "kp.kata.a",
+      "promptZh": "片假名第一课：ア，罗马音 a。",
+      "audioKey": "audio.kata.a",
+      "noteZh": "片假名笔画方正、多取自汉字偏旁；ア 来自「安」的左侧。发音和平假名完全一样，只是字形换了一套。"
+    },
+    {
+      "id": "K01.teach.2",
+      "type": "compare",
+      "knowledgePointId": "kp.kata.a",
+      "promptZh": "对比 あ / ア：平假名圆润绕圈，片假名只有两笔、棱角分明。"
+    },
+    {
+      "id": "K01.teach.3",
+      "type": "listen",
+      "knowledgePointId": "kp.kata.a",
+      "promptZh": "点喇叭听 ア 的读音，和清音 あ 一模一样。",
+      "audioKey": "audio.kata.a"
+    },
+    {
+      "id": "K01.teach.4",
+      "type": "introduce",
+      "knowledgePointId": "kp.kata.i",
+      "promptZh": "第二个：イ，罗马音 i。",
+      "audioKey": "audio.kata.i",
+      "noteZh": "イ 取自「以」的左半；注意右上那一点不要漏。"
+    },
+    {
+      "id": "K01.teach.5",
+      "type": "listen",
+      "knowledgePointId": "kp.kata.i",
+      "promptZh": "听 イ：扁唇的「衣」音。",
+      "audioKey": "audio.kata.i"
+    },
+    {
+      "id": "K01.teach.6",
+      "type": "introduce",
+      "knowledgePointId": "kp.kata.u",
+      "promptZh": "第三个：ウ，罗马音 u。",
+      "audioKey": "audio.kata.u",
+      "noteZh": "ウ 的「屋顶」先写：横到折一笔完成，再落下面的人字两笔。"
+    },
+    {
+      "id": "K01.teach.7",
+      "type": "listen",
+      "knowledgePointId": "kp.kata.u",
+      "promptZh": "听 ウ：日语的 u 不圆唇，接近「乌」但嘴唇松。",
+      "audioKey": "audio.kata.u"
+    },
+    {
+      "id": "K01.teach.8",
+      "type": "introduce",
+      "knowledgePointId": "kp.kata.e",
+      "promptZh": "第四个：エ，罗马音 e。",
+      "audioKey": "audio.kata.e",
+      "noteZh": "エ 三笔两横一竖，中间竖不出头太多。"
+    },
+    {
+      "id": "K01.teach.9",
+      "type": "listen",
+      "knowledgePointId": "kp.kata.e",
+      "promptZh": "听 エ：开口「诶」。",
+      "audioKey": "audio.kata.e"
+    },
+    {
+      "id": "K01.teach.10",
+      "type": "introduce",
+      "knowledgePointId": "kp.kata.o",
+      "promptZh": "第五个：オ，罗马音 o。",
+      "audioKey": "audio.kata.o",
+      "noteZh": "オ：横、横、最后一笔撇带竖钩；和 ア 只差下面那一钩。"
+    },
+    {
+      "id": "K01.teach.11",
+      "type": "listen",
+      "knowledgePointId": "kp.kata.o",
+      "promptZh": "听 オ：圆唇的「哦」，比 エ 嘴张得更圆。",
+      "audioKey": "audio.kata.o"
+    },
+    {
+      "id": "K01.teach.12",
+      "type": "stroke_hint",
+      "knowledgePointId": "kp.kata.a",
+      "promptZh": "看笔顺：ア 一共 2 笔。",
+      "noteZh": "① 上面的横（略右上斜）；② 从横中起笔向左下的长撇。片假名撇要写得直。"
+    }
+  ],
+  "practice": [
+    {
+      "id": "K01.practice.1",
+      "type": "choose_romaji",
+      "knowledgePointId": "kp.kata.a",
+      "promptZh": "片假名「ア」的罗马音是？",
+      "stem": "ア",
+      "choices": ["a", "o", "n", "i"],
+      "answer": "a"
+    },
+    {
+      "id": "K01.practice.2",
+      "type": "choose_kana",
+      "knowledgePointId": "kp.kata.u",
+      "promptZh": "罗马音 u 对应哪个片假名？",
+      "stem": "u",
+      "choices": ["ウ", "エ", "オ", "イ"],
+      "answer": "ウ"
+    },
+    {
+      "id": "K01.practice.3",
+      "type": "listen_choose",
+      "knowledgePointId": "kp.kata.e",
+      "promptZh": "听一听，选出你听到的片假名（喇叭可以反复点）。",
+      "audioKey": "audio.kata.e",
+      "choices": ["エ", "オ", "ア", "イ"],
+      "answer": "エ"
+    },
+    {
+      "id": "K01.practice.4",
+      "type": "choose_romaji",
+      "knowledgePointId": "kp.kata.o",
+      "promptZh": "「オ」的罗马音是？",
+      "stem": "オ",
+      "choices": ["o", "a", "e", "u"],
+      "answer": "o",
+      "errorReasonId": "er.kata.o.shape_a"
+    },
+    {
+      "id": "K01.practice.5",
+      "type": "match",
+      "knowledgePointId": "kp.kata.a",
+      "promptZh": "把ア行的片假名和罗马音连起来。",
+      "pairs": { "ア": "a", "イ": "i", "ウ": "u", "エ": "e", "オ": "o" }
+    }
+  ],
+  "quiz": [
+    {
+      "id": "K01.quiz.1",
+      "type": "choose_kana",
+      "knowledgePointId": "kp.kata.i",
+      "promptZh": "罗马音 i 对应哪个片假名？",
+      "stem": "i",
+      "choices": ["イ", "エ", "ウ", "オ"],
+      "answer": "イ"
+    },
+    {
+      "id": "K01.quiz.2",
+      "type": "choose_romaji",
+      "knowledgePointId": "kp.kata.u",
+      "promptZh": "「ウ」的罗马音是？",
+      "stem": "ウ",
+      "choices": ["u", "o", "a", "i"],
+      "answer": "u"
+    },
+    {
+      "id": "K01.quiz.3",
+      "type": "listen_choose",
+      "knowledgePointId": "kp.kata.o",
+      "promptZh": "听音，选出你听到的罗马音。",
+      "audioKey": "audio.kata.o",
+      "choices": ["o", "e", "a", "u"],
+      "answer": "o"
+    },
+    {
+      "id": "K01.quiz.4",
+      "type": "choose_kana",
+      "knowledgePointId": "kp.kata.a",
+      "promptZh": "罗马音 a 对应哪个片假名？",
+      "stem": "a",
+      "choices": ["ア", "オ", "エ", "ウ"],
+      "answer": "ア",
+      "errorReasonId": "er.kata.a.shape_o"
+    },
+    {
+      "id": "K01.quiz.5",
+      "type": "match",
+      "knowledgePointId": "kp.kata.e",
+      "promptZh": "独立测验：ア行配对。",
+      "pairs": { "ア": "a", "イ": "i", "ウ": "u", "エ": "e", "オ": "o" }
+    }
+  ],
+  "errorReasons": [
+    {
+      "id": "er.kata.o.shape_a",
+      "knowledgePointId": "kp.kata.o",
+      "wrongChoice": "a",
+      "explainZh": "字形混了：ア 末笔是直的长撇；オ 第三笔带竖钩、且上面是两横。数笔画最可靠。",
+      "correctAudioKey": "audio.kata.o",
+      "confuseWith": "kp.kata.a"
+    },
+    {
+      "id": "er.kata.a.shape_o",
+      "knowledgePointId": "kp.kata.a",
+      "wrongChoice": "オ",
+      "explainZh": "两笔的是 ア；オ 有三笔、最后一笔带钩。看到「横横撇钩」就选 o。",
+      "correctAudioKey": "audio.kata.a",
+      "confuseWith": "kp.kata.o"
+    }
+  ]
+}

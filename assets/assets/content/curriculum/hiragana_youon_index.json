@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "stage": {
+    "id": "stage.hiragana_youon",
+    "title": "平假名拗音",
+    "titleZh": "平假名拗音（W1 先行上线きゃ行 C01；しゃ/ちゃ行等 C02+ 后续补）",
+    "rowSourceAsset": "assets/content/hiragana.json"
+  },
+  "units": [
+    {
+      "id": "C01",
+      "order": 1,
+      "title": "きゃ行",
+      "titleZh": "平假名拗音 きゃ行（き + 小さいきゃ/きゅ/きょ）",
+      "rowId": "kya",
+      "asset": "assets/content/curriculum/units/C01.json"
+    }
+  ]
+}
