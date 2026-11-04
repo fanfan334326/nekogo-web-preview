@@ -13,6 +13,7 @@
       "title": "W01",
       "titleZh": "问候与寒暄",
       "asset": "assets/content/curriculum/units/W01.json",
+      "jlpt": "n5",
       "itemCount": 15
     },
     {
@@ -21,6 +22,7 @@
       "title": "W02",
       "titleZh": "自我介绍",
       "asset": "assets/content/curriculum/units/W02.json",
+      "jlpt": "n5",
       "itemCount": 17
     },
     {
@@ -29,6 +31,7 @@
       "title": "W03",
       "titleZh": "指示词与基本句",
       "asset": "assets/content/curriculum/units/W03.json",
+      "jlpt": "n5",
       "itemCount": 17
     },
     {
@@ -37,6 +40,7 @@
       "title": "W04",
       "titleZh": "数字与时间",
       "asset": "assets/content/curriculum/units/W04.json",
+      "jlpt": "n5",
       "itemCount": 10
     },
     {
@@ -45,6 +49,7 @@
       "title": "W05",
       "titleZh": "购物与点餐",
       "asset": "assets/content/curriculum/units/W05.json",
+      "jlpt": "n5",
       "itemCount": 10
     },
     {
@@ -53,6 +58,7 @@
       "title": "W06",
       "titleZh": "饮食与喜好",
       "asset": "assets/content/curriculum/units/W06.json",
+      "jlpt": "n5",
       "itemCount": 10
     }
   ]

@@ -2,6 +2,7 @@
   "schemaVersion": 1,
   "id": "W02",
   "stageId": "stage.words_basic",
+  "jlpt": "n5",
   "order": 2,
   "title": "W02",
   "titleZh": "自我介绍",

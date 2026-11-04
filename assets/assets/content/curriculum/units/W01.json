@@ -2,6 +2,7 @@
   "schemaVersion": 1,
   "id": "W01",
   "stageId": "stage.words_basic",
+  "jlpt": "n5",
   "order": 1,
   "title": "W01",
   "titleZh": "问候与寒暄",

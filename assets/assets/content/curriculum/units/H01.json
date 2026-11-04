@@ -6,6 +6,7 @@
   "title": "H01",
   "titleZh": "数字汉字",
   "goalZh": "认读一〜十与百千万円的音训",
+  "jlpt": "n5",
   "introKanjiIds": [
     "kp.kanji.01.ichi",
     "kp.kanji.02.ni",

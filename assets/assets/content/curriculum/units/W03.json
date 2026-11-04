@@ -2,6 +2,7 @@
   "schemaVersion": 1,
   "id": "W03",
   "stageId": "stage.words_basic",
+  "jlpt": "n5",
   "order": 3,
   "title": "W03",
   "titleZh": "指示词与基本句",

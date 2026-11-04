@@ -2,6 +2,7 @@
   "schemaVersion": 1,
   "id": "W04",
   "stageId": "stage.words_basic",
+  "jlpt": "n5",
   "order": 4,
   "title": "W04",
   "titleZh": "数字与时间",
