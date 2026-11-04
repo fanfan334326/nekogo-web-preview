@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "stage": {
+    "id": "stage.hiragana_dakuten",
+    "title": "平假名浊音",
+    "titleZh": "平假名浊音（W0 壳阶段：先行只上线が行 B01；が/ざ/だ/ば四行 B01–B05 完整内容包在 W1 扩充）",
+    "rowSourceAsset": "assets/content/hiragana.json"
+  },
+  "units": [
+    {
+      "id": "B01",
+      "order": 1,
+      "title": "が行",
+      "titleZh": "平假名 が行（k 音 + 浊点）",
+      "rowId": "ga",
+      "asset": "assets/content/curriculum/units/B01.json"
+    }
+  ]
+}

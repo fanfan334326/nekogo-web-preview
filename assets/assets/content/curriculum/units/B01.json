@@ -1,0 +1,259 @@
+{
+  "schemaVersion": 1,
+  "id": "B01",
+  "stageId": "stage.hiragana_dakuten",
+  "order": 1,
+  "title": "が行",
+  "titleZh": "平假名 が行（か行 + 浊点，W0 壳课）",
+  "rowId": "ga",
+  "knowledgePoints": [
+    {
+      "id": "kp.hira.ga",
+      "kana": "が",
+      "romaji": "ga",
+      "audioKey": "audio.hira.ga",
+      "confusableIds": [],
+      "tipZh": "か + 浊点：右上角两点「゛」把 k 变成 g，嘴不变、只把喉咙震起来。"
+    },
+    {
+      "id": "kp.hira.gi",
+      "kana": "ぎ",
+      "romaji": "gi",
+      "audioKey": "audio.hira.gi",
+      "confusableIds": ["kp.hira.ge"],
+      "tipZh": "き + 浊点。注意右边那一竖要向下出头，别和 げ 的竖笔写法混。"
+    },
+    {
+      "id": "kp.hira.gu",
+      "kana": "ぐ",
+      "romaji": "gu",
+      "audioKey": "audio.hira.gu",
+      "confusableIds": [],
+      "tipZh": "く + 浊点：く 是个张开的「人」字形，加两点就念 gu。"
+    },
+    {
+      "id": "kp.hira.ge",
+      "kana": "げ",
+      "romaji": "ge",
+      "audioKey": "audio.hira.ge",
+      "confusableIds": ["kp.hira.gi"],
+      "tipZh": "け + 浊点。和 ぎ 的差别在「横折」还是「竖提」：げ 上面先写横折。"
+    },
+    {
+      "id": "kp.hira.go",
+      "kana": "ご",
+      "romaji": "go",
+      "audioKey": "audio.hira.go",
+      "confusableIds": [],
+      "tipZh": "こ + 浊点：こ 本来是一横一竖加一个圈，圈在右边。"
+    }
+  ],
+  "teach": [
+    {
+      "id": "B01.teach.1",
+      "type": "introduce",
+      "knowledgePointId": "kp.hira.ga",
+      "promptZh": "浊音第一课：が，罗马音 ga。",
+      "audioKey": "audio.hira.ga",
+      "noteZh": "浊音就是在清音右上角加两点「゛」（浊点），か→が、き→ぎ、く→ぐ、け→げ、こ→ご。"
+    },
+    {
+      "id": "B01.teach.2",
+      "type": "listen",
+      "knowledgePointId": "kp.hira.ga",
+      "promptZh": "点喇叭听 が，再和清音 か 对比：只多了喉咙的震动。",
+      "audioKey": "audio.hira.ga"
+    },
+    {
+      "id": "B01.teach.3",
+      "type": "introduce",
+      "knowledgePointId": "kp.hira.gi",
+      "promptZh": "第二个假名：ぎ，罗马音 gi。",
+      "audioKey": "audio.hira.gi",
+      "noteZh": "き 的右侧加两点，笔顺和 き 一样。"
+    },
+    {
+      "id": "B01.teach.4",
+      "type": "listen",
+      "knowledgePointId": "kp.hira.gi",
+      "promptZh": "听 ぎ：短促的「gi」，别拖成「ji」。",
+      "audioKey": "audio.hira.gi"
+    },
+    {
+      "id": "B01.teach.5",
+      "type": "introduce",
+      "knowledgePointId": "kp.hira.gu",
+      "promptZh": "第三个假名：ぐ，罗马音 gu。",
+      "audioKey": "audio.hira.gu",
+      "noteZh": "く 形如鸟嘴张开，加浊点后念 gu。"
+    },
+    {
+      "id": "B01.teach.6",
+      "type": "listen",
+      "knowledgePointId": "kp.hira.gu",
+      "promptZh": "听 ぐ，嘴唇保持う 的小口形、震动喉咙。",
+      "audioKey": "audio.hira.gu"
+    },
+    {
+      "id": "B01.teach.7",
+      "type": "introduce",
+      "knowledgePointId": "kp.hira.ge",
+      "promptZh": "第四个假名：げ，罗马音 ge。",
+      "audioKey": "audio.hira.ge",
+      "noteZh": "け 的右侧加两点。"
+    },
+    {
+      "id": "B01.teach.8",
+      "type": "listen",
+      "knowledgePointId": "kp.hira.ge",
+      "promptZh": "听 げ：接近中文「给」但更短。",
+      "audioKey": "audio.hira.ge"
+    },
+    {
+      "id": "B01.teach.9",
+      "type": "compare",
+      "knowledgePointId": "kp.hira.gi",
+      "promptZh": "对比 ぎ / げ：ぎ 像 ぎ 的两笔竖提；げ 顶部是横折、圈更小。"
+    },
+    {
+      "id": "B01.teach.10",
+      "type": "introduce",
+      "knowledgePointId": "kp.hira.go",
+      "promptZh": "第五个假名：ご，罗马音 go。",
+      "audioKey": "audio.hira.go",
+      "noteZh": "こ 的右侧加两点，注意圈不穿过竖笔。"
+    },
+    {
+      "id": "B01.teach.11",
+      "type": "listen",
+      "knowledgePointId": "kp.hira.go",
+      "promptZh": "听 ご，圆唇一次到位。",
+      "audioKey": "audio.hira.go"
+    },
+    {
+      "id": "B01.teach.12",
+      "type": "stroke_hint",
+      "knowledgePointId": "kp.hira.ga",
+      "promptZh": "看笔顺：が 一共 3 笔 + 2 点。",
+      "noteZh": "① 横；② 竖；③ 从横的右端起笔绕圈；最后右上点两点浊点，两点不写成撇捺。"
+    }
+  ],
+  "practice": [
+    {
+      "id": "B01.practice.1",
+      "type": "choose_romaji",
+      "knowledgePointId": "kp.hira.ga",
+      "promptZh": "「が」的罗马音是？",
+      "stem": "が",
+      "choices": ["ga", "ka", "da", "na"],
+      "answer": "ga"
+    },
+    {
+      "id": "B01.practice.2",
+      "type": "choose_kana",
+      "knowledgePointId": "kp.hira.gu",
+      "promptZh": "罗马音 gu 对应哪个假名？",
+      "stem": "gu",
+      "choices": ["ぐ", "く", "ぷ", "す"],
+      "answer": "ぐ",
+      "errorReasonId": "er.hira.gu.shape_ku"
+    },
+    {
+      "id": "B01.practice.3",
+      "type": "listen_choose",
+      "knowledgePointId": "kp.hira.ge",
+      "promptZh": "听一听，选出你听到的假名（喇叭可以反复点）。",
+      "audioKey": "audio.hira.ge",
+      "choices": ["げ", "ぎ", "き", "け"],
+      "answer": "げ",
+      "errorReasonId": "er.hira.ge.sound_gi"
+    },
+    {
+      "id": "B01.practice.4",
+      "type": "choose_romaji",
+      "knowledgePointId": "kp.hira.go",
+      "promptZh": "「ご」的罗马音是？",
+      "stem": "ご",
+      "choices": ["go", "ko", "so", "no"],
+      "answer": "go"
+    },
+    {
+      "id": "B01.practice.5",
+      "type": "match",
+      "knowledgePointId": "kp.hira.ga",
+      "promptZh": "把 が 行的假名和罗马音连起来。",
+      "pairs": { "が": "ga", "ぎ": "gi", "ぐ": "gu", "げ": "ge", "ご": "go" }
+    }
+  ],
+  "quiz": [
+    {
+      "id": "B01.quiz.1",
+      "type": "choose_kana",
+      "knowledgePointId": "kp.hira.gi",
+      "promptZh": "罗马音 gi 对应哪个假名？",
+      "stem": "gi",
+      "choices": ["ぎ", "き", "げ", "く"],
+      "answer": "ぎ",
+      "errorReasonId": "er.hira.gi.shape_ge"
+    },
+    {
+      "id": "B01.quiz.2",
+      "type": "choose_romaji",
+      "knowledgePointId": "kp.hira.ga",
+      "promptZh": "「が」的罗马音是？",
+      "stem": "が",
+      "choices": ["ga", "gi", "go", "ka"],
+      "answer": "ga"
+    },
+    {
+      "id": "B01.quiz.3",
+      "type": "listen_choose",
+      "knowledgePointId": "kp.hira.ga",
+      "promptZh": "听音，选出你听到的罗马音。",
+      "audioKey": "audio.hira.ga",
+      "choices": ["ga", "ka", "ta", "sa"],
+      "answer": "ga"
+    },
+    {
+      "id": "B01.quiz.4",
+      "type": "choose_kana",
+      "knowledgePointId": "kp.hira.go",
+      "promptZh": "罗马音 go 对应哪个假名？",
+      "stem": "go",
+      "choices": ["ご", "こ", "の", "ま"],
+      "answer": "ご"
+    },
+    {
+      "id": "B01.quiz.5",
+      "type": "match",
+      "knowledgePointId": "kp.hira.gu",
+      "promptZh": "独立测验：把が行假名和罗马音配成对。",
+      "pairs": { "が": "ga", "ぎ": "gi", "ぐ": "gu", "げ": "ge", "ご": "go" }
+    }
+  ],
+  "errorReasons": [
+    {
+      "id": "er.hira.gu.shape_ku",
+      "knowledgePointId": "kp.hira.gu",
+      "wrongChoice": "く",
+      "explainZh": "字形混了：く 是清音（没有右上角两点），ぐ = く + ゛。看到两点就要想到 g 音。",
+      "correctAudioKey": "audio.hira.gu"
+    },
+    {
+      "id": "er.hira.ge.sound_gi",
+      "knowledgePointId": "kp.hira.ge",
+      "wrongChoice": "ぎ",
+      "explainZh": "听混了：ぎ 的元音是扁唇的 i，げ 是略开的 e。再点一次喇叭对比。",
+      "correctAudioKey": "audio.hira.ge",
+      "confuseWith": "kp.hira.gi"
+    },
+    {
+      "id": "er.hira.gi.shape_ge",
+      "knowledgePointId": "kp.hira.gi",
+      "wrongChoice": "げ",
+      "explainZh": "字形混了：ぎ 左边一竖右边两笔（和 き 同形）；げ 顶部先写横折、下面绕圈。",
+      "correctAudioKey": "audio.hira.gi",
+      "confuseWith": "kp.hira.ge"
+    }
+  ]
+}
