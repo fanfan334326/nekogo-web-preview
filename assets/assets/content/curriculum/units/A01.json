@@ -1,0 +1,344 @@
+{
+  "schemaVersion": 1,
+  "id": "A01",
+  "stageId": "stage.hiragana_seion",
+  "order": 1,
+  "title": "あ行",
+  "titleZh": "平假名 あ行（5 个元音）",
+  "rowId": "a",
+  "knowledgePoints": [
+    {
+      "id": "kp.hira.a",
+      "kana": "あ",
+      "romaji": "a",
+      "audioKey": "audio.hira.a",
+      "confusableIds": ["kp.hira.o"],
+      "tipZh": "来自汉字「安」的草写。读时嘴张到最大，像体检时发的「啊——」。"
+    },
+    {
+      "id": "kp.hira.i",
+      "kana": "い",
+      "romaji": "i",
+      "audioKey": "audio.hira.i",
+      "confusableIds": [],
+      "tipZh": "来自「以」的草写，两笔竖提。发音时嘴角用力向两边拉，是扁唇音。"
+    },
+    {
+      "id": "kp.hira.u",
+      "kana": "う",
+      "romaji": "u",
+      "audioKey": "audio.hira.u",
+      "confusableIds": ["kp.hira.nu"],
+      "tipZh": "来自「宇」的草写：上面一点，下面一个方方的横折。嘴唇轻轻前突，不要撅成圆形的「乌」。"
+    },
+    {
+      "id": "kp.hira.e",
+      "kana": "え",
+      "romaji": "e",
+      "audioKey": "audio.hira.e",
+      "confusableIds": ["kp.hira.a", "kp.hira.o"],
+      "tipZh": "来自「衣」的草写，中间一竖要出头。发音接近中文「诶」。"
+    },
+    {
+      "id": "kp.hira.o",
+      "kana": "お",
+      "romaji": "o",
+      "audioKey": "audio.hira.o",
+      "confusableIds": ["kp.hira.e", "kp.hira.no"],
+      "tipZh": "来自「我」的草写，圈写在右下、不穿过竖笔。发音是圆唇的「哦」，一次到位、不收成两段。"
+    }
+  ],
+  "teach": [
+    {
+      "id": "A01.teach.1",
+      "type": "introduce",
+      "knowledgePointId": "kp.hira.a",
+      "promptZh": "第一个假名：あ，罗马音 a。",
+      "audioKey": "audio.hira.a",
+      "noteZh": "あ行的 5 个假名就是日语的 5 个元音，后面所有行都要靠它们拼读。"
+    },
+    {
+      "id": "A01.teach.2",
+      "type": "listen",
+      "knowledgePointId": "kp.hira.a",
+      "promptZh": "点喇叭听 あ，跟着读 3 遍，注意开口度要最大。",
+      "audioKey": "audio.hira.a"
+    },
+    {
+      "id": "A01.teach.3",
+      "type": "stroke_hint",
+      "knowledgePointId": "kp.hira.a",
+      "promptZh": "看笔顺：あ 一共 3 笔。",
+      "noteZh": "① 横；② 一竖从横的中部往下，略微向左弯；③ 从右上起笔，绕一个把竖笔下端包在里面的圈。"
+    },
+    {
+      "id": "A01.teach.4",
+      "type": "introduce",
+      "knowledgePointId": "kp.hira.i",
+      "promptZh": "第二个假名：い，罗马音 i。",
+      "audioKey": "audio.hira.i",
+      "noteZh": "两笔竖提，左边短、右边长。"
+    },
+    {
+      "id": "A01.teach.5",
+      "type": "listen",
+      "knowledgePointId": "kp.hira.i",
+      "promptZh": "听 い：嘴角向两边拉，短促清楚。",
+      "audioKey": "audio.hira.i"
+    },
+    {
+      "id": "A01.teach.6",
+      "type": "introduce",
+      "knowledgePointId": "kp.hira.u",
+      "promptZh": "第三个假名：う，罗马音 u。",
+      "audioKey": "audio.hira.u",
+      "noteZh": "和中文「乌」不同：日语う嘴唇几乎不圆，只是一点点前突。"
+    },
+    {
+      "id": "A01.teach.7",
+      "type": "listen",
+      "knowledgePointId": "kp.hira.u",
+      "promptZh": "听 う，和 あ 对比：开口明显变小。",
+      "audioKey": "audio.hira.u"
+    },
+    {
+      "id": "A01.teach.8",
+      "type": "stroke_hint",
+      "knowledgePointId": "kp.hira.u",
+      "promptZh": "看笔顺：う 一共 2 笔。",
+      "noteZh": "① 上面一个短点（略向左下的短撇）；② 横折——横写完后折下去，再向右上挑出收笔。"
+    },
+    {
+      "id": "A01.teach.9",
+      "type": "introduce",
+      "knowledgePointId": "kp.hira.e",
+      "promptZh": "第四个假名：え，罗马音 e。",
+      "audioKey": "audio.hira.e",
+      "noteZh": "中间那一竖要出头，这是它和 お 最直观的差别。"
+    },
+    {
+      "id": "A01.teach.10",
+      "type": "listen",
+      "knowledgePointId": "kp.hira.e",
+      "promptZh": "听 え：接近中文「诶」。",
+      "audioKey": "audio.hira.e"
+    },
+    {
+      "id": "A01.teach.11",
+      "type": "stroke_hint",
+      "knowledgePointId": "kp.hira.e",
+      "promptZh": "写え的笔顺。",
+      "noteZh": "先写横，再写穿过它并向上出头的一竖，最后从竖的底端连出一个向右的圈。"
+    },
+    {
+      "id": "A01.teach.12",
+      "type": "introduce",
+      "knowledgePointId": "kp.hira.o",
+      "promptZh": "第五个假名：お，罗马音 o。",
+      "audioKey": "audio.hira.o",
+      "noteZh": "发音是圆唇的「哦」，一次到位，不要滑成「欧」。"
+    },
+    {
+      "id": "A01.teach.13",
+      "type": "listen",
+      "knowledgePointId": "kp.hira.o",
+      "promptZh": "听 お，再和 え 连着听一遍。",
+      "audioKey": "audio.hira.o"
+    },
+    {
+      "id": "A01.teach.14",
+      "type": "compare",
+      "knowledgePointId": "kp.hira.e",
+      "promptZh": "对比 え / お：え 中间多一横、下面有两个圈；お 只有一竖加右下一个圈。"
+    },
+    {
+      "id": "A01.teach.15",
+      "type": "compare",
+      "knowledgePointId": "kp.hira.a",
+      "promptZh": "对比 あ / お：あ 的圈把竖笔下端包在里面；お 的圈在竖笔右侧、竖笔向下出头。"
+    }
+  ],
+  "practice": [
+    {
+      "id": "A01.practice.1",
+      "type": "choose_romaji",
+      "knowledgePointId": "kp.hira.a",
+      "promptZh": "「あ」的罗马音是？",
+      "stem": "あ",
+      "choices": ["a", "e", "o", "ka"],
+      "answer": "a",
+      "errorReasonId": "er.hira.a.sound_o"
+    },
+    {
+      "id": "A01.practice.2",
+      "type": "choose_romaji",
+      "knowledgePointId": "kp.hira.e",
+      "promptZh": "「え」的罗马音是？",
+      "stem": "え",
+      "choices": ["e", "a", "o", "i"],
+      "answer": "e",
+      "errorReasonId": "er.hira.e.sound_a"
+    },
+    {
+      "id": "A01.practice.3",
+      "type": "choose_kana",
+      "knowledgePointId": "kp.hira.u",
+      "promptZh": "罗马音 u 对应哪个假名？",
+      "stem": "u",
+      "choices": ["う", "え", "お", "ぬ"],
+      "answer": "う",
+      "errorReasonId": "er.hira.u.shape_nu"
+    },
+    {
+      "id": "A01.practice.4",
+      "type": "listen_choose",
+      "knowledgePointId": "kp.hira.o",
+      "promptZh": "听一听，选出你听到的假名（喇叭可以反复点）。",
+      "audioKey": "audio.hira.o",
+      "choices": ["お", "あ", "え", "の"],
+      "answer": "お",
+      "errorReasonId": "er.hira.o.shape_no"
+    },
+    {
+      "id": "A01.practice.5",
+      "type": "choose_kana",
+      "knowledgePointId": "kp.hira.i",
+      "promptZh": "罗马音 i 对应哪个假名？",
+      "stem": "i",
+      "choices": ["い", "む", "め", "り"],
+      "answer": "い"
+    },
+    {
+      "id": "A01.practice.6",
+      "type": "match",
+      "knowledgePointId": "kp.hira.a",
+      "promptZh": "把 あ 行的假名和罗马音连起来。",
+      "pairs": { "あ": "a", "い": "i", "う": "u", "え": "e", "お": "o" }
+    }
+  ],
+  "quiz": [
+    {
+      "id": "A01.quiz.1",
+      "type": "choose_romaji",
+      "knowledgePointId": "kp.hira.u",
+      "promptZh": "「う」的罗马音是？",
+      "stem": "う",
+      "choices": ["u", "ru", "mu", "nu"],
+      "answer": "u"
+    },
+    {
+      "id": "A01.quiz.2",
+      "type": "choose_kana",
+      "knowledgePointId": "kp.hira.a",
+      "promptZh": "罗马音 a 对应哪个假名？",
+      "stem": "a",
+      "choices": ["あ", "お", "え", "ぬ"],
+      "answer": "あ",
+      "errorReasonId": "er.hira.a.shape_o"
+    },
+    {
+      "id": "A01.quiz.3",
+      "type": "listen_choose",
+      "knowledgePointId": "kp.hira.i",
+      "promptZh": "听音选假名。",
+      "audioKey": "audio.hira.i",
+      "choices": ["い", "り", "え", "に"],
+      "answer": "い"
+    },
+    {
+      "id": "A01.quiz.4",
+      "type": "choose_romaji",
+      "knowledgePointId": "kp.hira.o",
+      "promptZh": "「お」的罗马音是？",
+      "stem": "お",
+      "choices": ["o", "e", "a", "ka"],
+      "answer": "o",
+      "errorReasonId": "er.hira.o.sound_e"
+    },
+    {
+      "id": "A01.quiz.5",
+      "type": "choose_kana",
+      "knowledgePointId": "kp.hira.e",
+      "promptZh": "罗马音 e 对应哪个假名？",
+      "stem": "e",
+      "choices": ["え", "へ", "ま", "お"],
+      "answer": "え",
+      "errorReasonId": "er.hira.e.shape_o"
+    },
+    {
+      "id": "A01.quiz.6",
+      "type": "listen_choose",
+      "knowledgePointId": "kp.hira.e",
+      "promptZh": "听音，选出你听到的罗马音（别和开口更大的 あ 混）。",
+      "audioKey": "audio.hira.e",
+      "choices": ["e", "a", "i", "se"],
+      "answer": "e",
+      "errorReasonId": "er.hira.e.sound_a"
+    },
+    {
+      "id": "A01.quiz.7",
+      "type": "match",
+      "knowledgePointId": "kp.hira.o",
+      "promptZh": "独立测验：把假名和罗马音配成对。",
+      "pairs": { "あ": "a", "い": "i", "う": "u", "え": "e", "お": "o" }
+    }
+  ],
+  "errorReasons": [
+    {
+      "id": "er.hira.a.sound_o",
+      "knowledgePointId": "kp.hira.a",
+      "wrongChoice": "o",
+      "explainZh": "把 あ 读成了 お：あ 嘴张到底、只有一个音；お 是圆唇，而且只写一次口形。再点一次喇叭对比听。",
+      "correctAudioKey": "audio.hira.a",
+      "confuseWith": "kp.hira.o"
+    },
+    {
+      "id": "er.hira.a.shape_o",
+      "knowledgePointId": "kp.hira.a",
+      "wrongChoice": "お",
+      "explainZh": "字形混了：あ 的圈把竖笔下端包在里面；お 的圈在竖笔右侧、竖笔向下出头。",
+      "correctAudioKey": "audio.hira.a",
+      "confuseWith": "kp.hira.o"
+    },
+    {
+      "id": "er.hira.e.sound_a",
+      "knowledgePointId": "kp.hira.e",
+      "wrongChoice": "a",
+      "explainZh": "听成 あ 了：え 嘴角向两侧拉（像「诶」），开口比 あ 小。",
+      "correctAudioKey": "audio.hira.e",
+      "confuseWith": "kp.hira.a"
+    },
+    {
+      "id": "er.hira.e.shape_o",
+      "knowledgePointId": "kp.hira.e",
+      "wrongChoice": "お",
+      "explainZh": "字形混了：え 中间多一横、下面连两个圈；お 只有一竖加右下一个圈。",
+      "correctAudioKey": "audio.hira.e",
+      "confuseWith": "kp.hira.o"
+    },
+    {
+      "id": "er.hira.u.shape_nu",
+      "knowledgePointId": "kp.hira.u",
+      "wrongChoice": "ぬ",
+      "explainZh": "う 只有 2 笔、横折上端是开口的；ぬ 右边那一竖穿过圈。这是か行的邻居字，先记住う 没有竖。",
+      "correctAudioKey": "audio.hira.u",
+      "confuseWith": "kp.hira.nu"
+    },
+    {
+      "id": "er.hira.o.shape_no",
+      "knowledgePointId": "kp.hira.o",
+      "wrongChoice": "の",
+      "explainZh": "お 的圈小、在右下，竖笔向下出头；の 是一整笔绕上去的大圈、竖笔不出头。",
+      "correctAudioKey": "audio.hira.o",
+      "confuseWith": "kp.hira.no"
+    },
+    {
+      "id": "er.hira.o.sound_e",
+      "knowledgePointId": "kp.hira.o",
+      "wrongChoice": "e",
+      "explainZh": "お 是圆唇、一次到位；え 是扁唇。听的时候盯住嘴唇圆不圆。",
+      "correctAudioKey": "audio.hira.o",
+      "confuseWith": "kp.hira.e"
+    }
+  ]
+}

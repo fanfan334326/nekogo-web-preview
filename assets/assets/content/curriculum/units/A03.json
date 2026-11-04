@@ -1,0 +1,198 @@
+{
+  "schemaVersion": 1,
+  "id": "A03",
+  "stageId": "stage.hiragana_seion",
+  "order": 3,
+  "title": "さ行",
+  "titleZh": "平假名 さ行（s 音）",
+  "rowId": "sa",
+  "knowledgePoints": [
+    {
+      "id": "kp.hira.sa",
+      "kana": "さ",
+      "romaji": "sa",
+      "audioKey": "audio.hira.sa",
+      "confusableIds": [
+        "kp.hira.ne"
+      ],
+      "tipZh": "像「木」下面加一钩，共 3 笔；ね 右边多一竖弯。"
+    },
+    {
+      "id": "kp.hira.shi",
+      "kana": "し",
+      "romaji": "shi",
+      "audioKey": "audio.hira.shi",
+      "confusableIds": [
+        "kp.hira.tsu"
+      ],
+      "tipZh": "横折之后是一个向下的长勾，勾不回头。"
+    },
+    {
+      "id": "kp.hira.su",
+      "kana": "す",
+      "romaji": "su",
+      "audioKey": "audio.hira.su",
+      "confusableIds": [],
+      "tipZh": "上面一横一竖，下面一个不封口的圈。"
+    },
+    {
+      "id": "kp.hira.se",
+      "kana": "せ",
+      "romaji": "se",
+      "audioKey": "audio.hira.se",
+      "confusableIds": [],
+      "tipZh": "像「几」里加一竖弯，右边出头。"
+    },
+    {
+      "id": "kp.hira.so",
+      "kana": "そ",
+      "romaji": "so",
+      "audioKey": "audio.hira.so",
+      "confusableIds": [],
+      "tipZh": "两笔斜线交叉，像「只」的草写。"
+    }
+  ],
+  "teach": [
+    {
+      "id": "A03.teach.1",
+      "type": "introduce",
+      "knowledgePointId": "kp.hira.sa",
+      "promptZh": "这一行是さ行：さ・し・す・せ・そ。第一个是 さ（sa）。",
+      "audioKey": "audio.hira.sa",
+      "noteZh": "像「木」下面加一钩，共 3 笔；ね 右边多一竖弯。"
+    },
+    {
+      "id": "A03.teach.2",
+      "type": "listen",
+      "knowledgePointId": "kp.hira.sa",
+      "promptZh": "点喇叭听 さ（sa），跟着读 3 遍。",
+      "audioKey": "audio.hira.sa"
+    },
+    {
+      "id": "A03.teach.3",
+      "type": "listen",
+      "knowledgePointId": "kp.hira.shi",
+      "promptZh": "点喇叭听 し（shi），跟着读 3 遍。",
+      "audioKey": "audio.hira.shi"
+    },
+    {
+      "id": "A03.teach.4",
+      "type": "listen",
+      "knowledgePointId": "kp.hira.su",
+      "promptZh": "点喇叭听 す（su），跟着读 3 遍。",
+      "audioKey": "audio.hira.su"
+    },
+    {
+      "id": "A03.teach.5",
+      "type": "listen",
+      "knowledgePointId": "kp.hira.se",
+      "promptZh": "点喇叭听 せ（se），跟着读 3 遍。",
+      "audioKey": "audio.hira.se"
+    },
+    {
+      "id": "A03.teach.6",
+      "type": "listen",
+      "knowledgePointId": "kp.hira.so",
+      "promptZh": "点喇叭听 そ（so），跟着读 3 遍。",
+      "audioKey": "audio.hira.so"
+    }
+  ],
+  "practice": [
+    {
+      "id": "A03.practice.1",
+      "type": "choose_romaji",
+      "knowledgePointId": "kp.hira.sa",
+      "promptZh": "「さ」的罗马音是？",
+      "stem": "さ",
+      "choices": [
+        "sa",
+        "ne",
+        "shi",
+        "su"
+      ],
+      "answer": "sa",
+      "errorReasonId": "er.hira.sa.shape_ne"
+    },
+    {
+      "id": "A03.practice.2",
+      "type": "listen_choose",
+      "knowledgePointId": "kp.hira.shi",
+      "promptZh": "听一听，选出你听到的假名（喇叭可以反复点）。",
+      "audioKey": "audio.hira.shi",
+      "choices": [
+        "shi",
+        "sa",
+        "su",
+        "se"
+      ],
+      "answer": "shi"
+    },
+    {
+      "id": "A03.practice.3",
+      "type": "choose_kana",
+      "knowledgePointId": "kp.hira.sa",
+      "promptZh": "罗马音 sa 对应哪个假名？",
+      "stem": "sa",
+      "choices": [
+        "さ",
+        "ね",
+        "し",
+        "す"
+      ],
+      "answer": "さ"
+    }
+  ],
+  "quiz": [
+    {
+      "id": "A03.quiz.1",
+      "type": "choose_kana",
+      "knowledgePointId": "kp.hira.sa",
+      "promptZh": "罗马音 sa 对应哪个假名？",
+      "stem": "sa",
+      "choices": [
+        "さ",
+        "し",
+        "す",
+        "せ"
+      ],
+      "answer": "さ"
+    },
+    {
+      "id": "A03.quiz.2",
+      "type": "choose_romaji",
+      "knowledgePointId": "kp.hira.shi",
+      "promptZh": "「し」的罗马音是？",
+      "stem": "し",
+      "choices": [
+        "shi",
+        "sa",
+        "su",
+        "se"
+      ],
+      "answer": "shi"
+    },
+    {
+      "id": "A03.quiz.3",
+      "type": "match",
+      "knowledgePointId": "kp.hira.sa",
+      "promptZh": "把さ行的假名和罗马音连起来。",
+      "pairs": {
+        "さ": "sa",
+        "し": "shi",
+        "す": "su",
+        "せ": "se",
+        "そ": "so"
+      }
+    }
+  ],
+  "errorReasons": [
+    {
+      "id": "er.hira.sa.shape_ne",
+      "knowledgePointId": "kp.hira.sa",
+      "wrongChoice": "ne",
+      "explainZh": "さ 下面是一横加竖钩；ね 左边是一竖、右边带圈。数一下圈就分得开。",
+      "correctAudioKey": "audio.hira.sa",
+      "confuseWith": "kp.hira.ne"
+    }
+  ]
+}

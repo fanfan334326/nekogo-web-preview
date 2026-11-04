@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 1,
+  "stage": {
+    "id": "stage.hiragana_seion",
+    "title": "平假名清音",
+    "titleZh": "平假名清音（A01～A11 共 46 个假名）",
+    "rowSourceAsset": "assets/content/hiragana.json"
+  },
+  "units": [
+    {
+      "id": "A01",
+      "order": 1,
+      "title": "あ行",
+      "titleZh": "平假名 あ行（5 个元音）",
+      "rowId": "a",
+      "asset": "assets/content/curriculum/units/A01.json"
+    },
+    {
+      "id": "A02",
+      "order": 2,
+      "title": "か行",
+      "titleZh": "平假名 か行（k 音）",
+      "rowId": "ka",
+      "asset": "assets/content/curriculum/units/A02.json"
+    },
+    {
+      "id": "A03",
+      "order": 3,
+      "title": "さ行",
+      "titleZh": "平假名 さ行（s 音）",
+      "rowId": "sa",
+      "asset": "assets/content/curriculum/units/A03.json"
+    },
+    {
+      "id": "A04",
+      "order": 4,
+      "title": "た行",
+      "titleZh": "平假名 た行（t 音）",
+      "rowId": "ta",
+      "asset": "assets/content/curriculum/units/A04.json"
+    },
+    {
+      "id": "A05",
+      "order": 5,
+      "title": "な行",
+      "titleZh": "平假名 な行（n 音）",
+      "rowId": "na",
+      "asset": "assets/content/curriculum/units/A05.json"
+    },
+    {
+      "id": "A06",
+      "order": 6,
+      "title": "は行",
+      "titleZh": "平假名 は行（h/f 音）",
+      "rowId": "ha",
+      "asset": "assets/content/curriculum/units/A06.json"
+    },
+    {
+      "id": "A07",
+      "order": 7,
+      "title": "ま行",
+      "titleZh": "平假名 ま行（m 音）",
+      "rowId": "ma",
+      "asset": "assets/content/curriculum/units/A07.json"
+    },
+    {
+      "id": "A08",
+      "order": 8,
+      "title": "や行",
+      "titleZh": "平假名 や行（y 音，只有 3 音）",
+      "rowId": "ya",
+      "asset": "assets/content/curriculum/units/A08.json"
+    },
+    {
+      "id": "A09",
+      "order": 9,
+      "title": "ら行",
+      "titleZh": "平假名 ら行（r 音）",
+      "rowId": "ra",
+      "asset": "assets/content/curriculum/units/A09.json"
+    },
+    {
+      "id": "A10",
+      "order": 10,
+      "title": "わ行",
+      "titleZh": "平假名 わ行（w 音，只剩 2 音）",
+      "rowId": "wa",
+      "asset": "assets/content/curriculum/units/A10.json"
+    },
+    {
+      "id": "A11",
+      "order": 11,
+      "title": "ん",
+      "titleZh": "平假名 ん（拨音，独立占一拍）",
+      "rowId": "n",
+      "asset": "assets/content/curriculum/units/A11.json"
+    }
+  ]
+}

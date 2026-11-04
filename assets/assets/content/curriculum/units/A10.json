@@ -1,0 +1,141 @@
+{
+  "schemaVersion": 1,
+  "id": "A10",
+  "stageId": "stage.hiragana_seion",
+  "order": 10,
+  "title": "わ行",
+  "titleZh": "平假名 わ行（w 音，只剩 2 音）",
+  "rowId": "wa",
+  "knowledgePoints": [
+    {
+      "id": "kp.hira.wa",
+      "kana": "わ",
+      "romaji": "wa",
+      "audioKey": "audio.hira.wa",
+      "confusableIds": [
+        "kp.hira.ka"
+      ],
+      "tipZh": "左「二」加右边一个带竖的圈（来自「和」）。"
+    },
+    {
+      "id": "kp.hira.wo",
+      "kana": "を",
+      "romaji": "wo",
+      "audioKey": "audio.hira.wo",
+      "confusableIds": [
+        "kp.hira.he",
+        "kp.hira.o"
+      ],
+      "tipZh": "圈加一竖带勾，右边不出头（来自「遠」）；读音就是 o，只当宾格助词。"
+    }
+  ],
+  "teach": [
+    {
+      "id": "A10.teach.1",
+      "type": "introduce",
+      "knowledgePointId": "kp.hira.wa",
+      "promptZh": "这一行是わ行：わ・を。第一个是 わ（wa）。",
+      "audioKey": "audio.hira.wa",
+      "noteZh": "左「二」加右边一个带竖的圈（来自「和」）。"
+    },
+    {
+      "id": "A10.teach.2",
+      "type": "listen",
+      "knowledgePointId": "kp.hira.wa",
+      "promptZh": "点喇叭听 わ（wa），跟着读 3 遍。",
+      "audioKey": "audio.hira.wa"
+    },
+    {
+      "id": "A10.teach.3",
+      "type": "listen",
+      "knowledgePointId": "kp.hira.wo",
+      "promptZh": "点喇叭听 を（wo），跟着读 3 遍。",
+      "audioKey": "audio.hira.wo"
+    }
+  ],
+  "practice": [
+    {
+      "id": "A10.practice.1",
+      "type": "choose_romaji",
+      "knowledgePointId": "kp.hira.wo",
+      "promptZh": "「を」的罗马音是？",
+      "stem": "を",
+      "choices": [
+        "wo",
+        "o",
+        "wa",
+        "he"
+      ],
+      "answer": "wo",
+      "errorReasonId": "er.hira.wo.shape_o"
+    },
+    {
+      "id": "A10.practice.2",
+      "type": "listen_choose",
+      "knowledgePointId": "kp.hira.wo",
+      "promptZh": "听一听，选出你听到的假名（喇叭可以反复点）。",
+      "audioKey": "audio.hira.wo",
+      "choices": [
+        "wo",
+        "wa",
+        "e",
+        "ho"
+      ],
+      "answer": "wo"
+    },
+    {
+      "id": "A10.practice.3",
+      "type": "choose_kana",
+      "knowledgePointId": "kp.hira.wo",
+      "promptZh": "罗马音 wo 对应哪个假名？",
+      "stem": "wo",
+      "choices": [
+        "を",
+        "お",
+        "わ",
+        "へ"
+      ],
+      "answer": "を"
+    }
+  ],
+  "quiz": [
+    {
+      "id": "A10.quiz.1",
+      "type": "choose_kana",
+      "knowledgePointId": "kp.hira.wo",
+      "promptZh": "罗马音 wo 对应哪个假名？",
+      "stem": "wo",
+      "choices": [
+        "を",
+        "え",
+        "ほ",
+        "わ"
+      ],
+      "answer": "を"
+    },
+    {
+      "id": "A10.quiz.2",
+      "type": "choose_romaji",
+      "knowledgePointId": "kp.hira.wo",
+      "promptZh": "「を」的罗马音是？",
+      "stem": "を",
+      "choices": [
+        "wo",
+        "e",
+        "ho",
+        "wa"
+      ],
+      "answer": "wo"
+    }
+  ],
+  "errorReasons": [
+    {
+      "id": "er.hira.wo.shape_o",
+      "knowledgePointId": "kp.hira.wo",
+      "wrongChoice": "o",
+      "explainZh": "を 的竖笔向下出头、右边带勾；お 的圈写在竖笔右侧、竖笔也出头但多一横。",
+      "correctAudioKey": "audio.hira.wo",
+      "confuseWith": "kp.hira.o"
+    }
+  ]
+}

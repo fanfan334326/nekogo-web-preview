@@ -1,0 +1,198 @@
+{
+  "schemaVersion": 1,
+  "id": "A05",
+  "stageId": "stage.hiragana_seion",
+  "order": 5,
+  "title": "な行",
+  "titleZh": "平假名 な行（n 音）",
+  "rowId": "na",
+  "knowledgePoints": [
+    {
+      "id": "kp.hira.na",
+      "kana": "な",
+      "romaji": "na",
+      "audioKey": "audio.hira.na",
+      "confusableIds": [],
+      "tipZh": "来自「而」的草写：先竖，再横折，右边一个竖钩。"
+    },
+    {
+      "id": "kp.hira.ni",
+      "kana": "に",
+      "romaji": "ni",
+      "audioKey": "audio.hira.ni",
+      "confusableIds": [],
+      "tipZh": "左「二」右「人」的连笔，也就是两点加一竖。"
+    },
+    {
+      "id": "kp.hira.nu",
+      "kana": "ぬ",
+      "romaji": "nu",
+      "audioKey": "audio.hira.nu",
+      "confusableIds": [
+        "kp.hira.me"
+      ],
+      "tipZh": "左「十」，右边一个圈，再补一竖穿过圈。"
+    },
+    {
+      "id": "kp.hira.ne",
+      "kana": "ね",
+      "romaji": "ne",
+      "audioKey": "audio.hira.ne",
+      "confusableIds": [
+        "kp.hira.sa"
+      ],
+      "tipZh": "左边一竖，右边像「几」的连笔圈；さ 下面带钩。"
+    },
+    {
+      "id": "kp.hira.no",
+      "kana": "の",
+      "romaji": "no",
+      "audioKey": "audio.hira.no",
+      "confusableIds": [],
+      "tipZh": "像「乃」：一笔绕上去的大圈，竖笔不出头。"
+    }
+  ],
+  "teach": [
+    {
+      "id": "A05.teach.1",
+      "type": "introduce",
+      "knowledgePointId": "kp.hira.na",
+      "promptZh": "这一行是な行：な・に・ぬ・ね・の。第一个是 な（na）。",
+      "audioKey": "audio.hira.na",
+      "noteZh": "来自「而」的草写：先竖，再横折，右边一个竖钩。"
+    },
+    {
+      "id": "A05.teach.2",
+      "type": "listen",
+      "knowledgePointId": "kp.hira.na",
+      "promptZh": "点喇叭听 な（na），跟着读 3 遍。",
+      "audioKey": "audio.hira.na"
+    },
+    {
+      "id": "A05.teach.3",
+      "type": "listen",
+      "knowledgePointId": "kp.hira.ni",
+      "promptZh": "点喇叭听 に（ni），跟着读 3 遍。",
+      "audioKey": "audio.hira.ni"
+    },
+    {
+      "id": "A05.teach.4",
+      "type": "listen",
+      "knowledgePointId": "kp.hira.nu",
+      "promptZh": "点喇叭听 ぬ（nu），跟着读 3 遍。",
+      "audioKey": "audio.hira.nu"
+    },
+    {
+      "id": "A05.teach.5",
+      "type": "listen",
+      "knowledgePointId": "kp.hira.ne",
+      "promptZh": "点喇叭听 ね（ne），跟着读 3 遍。",
+      "audioKey": "audio.hira.ne"
+    },
+    {
+      "id": "A05.teach.6",
+      "type": "listen",
+      "knowledgePointId": "kp.hira.no",
+      "promptZh": "点喇叭听 の（no），跟着读 3 遍。",
+      "audioKey": "audio.hira.no"
+    }
+  ],
+  "practice": [
+    {
+      "id": "A05.practice.1",
+      "type": "choose_romaji",
+      "knowledgePointId": "kp.hira.nu",
+      "promptZh": "「ぬ」的罗马音是？",
+      "stem": "ぬ",
+      "choices": [
+        "nu",
+        "me",
+        "na",
+        "ni"
+      ],
+      "answer": "nu",
+      "errorReasonId": "er.hira.nu.shape_me"
+    },
+    {
+      "id": "A05.practice.2",
+      "type": "listen_choose",
+      "knowledgePointId": "kp.hira.ni",
+      "promptZh": "听一听，选出你听到的假名（喇叭可以反复点）。",
+      "audioKey": "audio.hira.ni",
+      "choices": [
+        "ni",
+        "na",
+        "nu",
+        "ne"
+      ],
+      "answer": "ni"
+    },
+    {
+      "id": "A05.practice.3",
+      "type": "choose_kana",
+      "knowledgePointId": "kp.hira.nu",
+      "promptZh": "罗马音 nu 对应哪个假名？",
+      "stem": "nu",
+      "choices": [
+        "ぬ",
+        "め",
+        "な",
+        "に"
+      ],
+      "answer": "ぬ"
+    }
+  ],
+  "quiz": [
+    {
+      "id": "A05.quiz.1",
+      "type": "choose_kana",
+      "knowledgePointId": "kp.hira.nu",
+      "promptZh": "罗马音 nu 对应哪个假名？",
+      "stem": "nu",
+      "choices": [
+        "ぬ",
+        "な",
+        "に",
+        "ね"
+      ],
+      "answer": "ぬ"
+    },
+    {
+      "id": "A05.quiz.2",
+      "type": "choose_romaji",
+      "knowledgePointId": "kp.hira.ni",
+      "promptZh": "「に」的罗马音是？",
+      "stem": "に",
+      "choices": [
+        "ni",
+        "na",
+        "nu",
+        "ne"
+      ],
+      "answer": "ni"
+    },
+    {
+      "id": "A05.quiz.3",
+      "type": "match",
+      "knowledgePointId": "kp.hira.na",
+      "promptZh": "把な行的假名和罗马音连起来。",
+      "pairs": {
+        "な": "na",
+        "に": "ni",
+        "ぬ": "nu",
+        "ね": "ne",
+        "の": "no"
+      }
+    }
+  ],
+  "errorReasons": [
+    {
+      "id": "er.hira.nu.shape_me",
+      "knowledgePointId": "kp.hira.nu",
+      "wrongChoice": "me",
+      "explainZh": "ぬ 左边是「十」，右边那一竖穿过圈；め 左边只有一竖，圈也不封口。",
+      "correctAudioKey": "audio.hira.nu",
+      "confuseWith": "kp.hira.me"
+    }
+  ]
+}

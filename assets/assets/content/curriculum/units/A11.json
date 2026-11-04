@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 1,
+  "id": "A11",
+  "stageId": "stage.hiragana_seion",
+  "order": 11,
+  "title": "ん",
+  "titleZh": "平假名 ん（拨音，独立占一拍）",
+  "rowId": "n",
+  "knowledgePoints": [
+    {
+      "id": "kp.hira.n",
+      "kana": "ん",
+      "romaji": "n",
+      "audioKey": "audio.hira.n",
+      "confusableIds": [],
+      "tipZh": "唯一的拨音：一竖、横折、再一横。单独占一拍，收尾是鼻音「恩」。"
+    }
+  ],
+  "teach": [
+    {
+      "id": "A11.teach.1",
+      "type": "introduce",
+      "knowledgePointId": "kp.hira.n",
+      "promptZh": "这一课只有 1 个假名：ん（n），它是拨音、单独占一拍。",
+      "audioKey": "audio.hira.n",
+      "noteZh": "唯一的拨音：一竖、横折、再一横。单独占一拍，收尾是鼻音「恩」。"
+    },
+    {
+      "id": "A11.teach.2",
+      "type": "listen",
+      "knowledgePointId": "kp.hira.n",
+      "promptZh": "点喇叭听 ん（n），跟着读 3 遍。",
+      "audioKey": "audio.hira.n"
+    }
+  ],
+  "practice": [
+    {
+      "id": "A11.practice.1",
+      "type": "choose_romaji",
+      "knowledgePointId": "kp.hira.n",
+      "promptZh": "「ん」的罗马音是？",
+      "stem": "ん",
+      "choices": [
+        "n",
+        "mu",
+        "no",
+        "nu"
+      ],
+      "answer": "n",
+      "errorReasonId": "er.hira.n.sound_mu"
+    },
+    {
+      "id": "A11.practice.2",
+      "type": "listen_choose",
+      "knowledgePointId": "kp.hira.n",
+      "promptZh": "听一听，选出你听到的假名（喇叭可以反复点）。",
+      "audioKey": "audio.hira.n",
+      "choices": [
+        "n",
+        "shi",
+        "sa"
+      ],
+      "answer": "n"
+    },
+    {
+      "id": "A11.practice.3",
+      "type": "choose_kana",
+      "knowledgePointId": "kp.hira.n",
+      "promptZh": "罗马音 n 对应哪个假名？",
+      "stem": "n",
+      "choices": [
+        "ん",
+        "む",
+        "の",
+        "ぬ"
+      ],
+      "answer": "ん"
+    }
+  ],
+  "quiz": [
+    {
+      "id": "A11.quiz.1",
+      "type": "choose_kana",
+      "knowledgePointId": "kp.hira.n",
+      "promptZh": "罗马音 n 对应哪个假名？",
+      "stem": "n",
+      "choices": [
+        "ん",
+        "し",
+        "さ",
+        "む"
+      ],
+      "answer": "ん"
+    },
+    {
+      "id": "A11.quiz.2",
+      "type": "choose_romaji",
+      "knowledgePointId": "kp.hira.n",
+      "promptZh": "「ん」的罗马音是？",
+      "stem": "ん",
+      "choices": [
+        "n",
+        "shi",
+        "sa"
+      ],
+      "answer": "n"
+    }
+  ],
+  "errorReasons": [
+    {
+      "id": "er.hira.n.sound_mu",
+      "knowledgePointId": "kp.hira.n",
+      "wrongChoice": "mu",
+      "explainZh": "ん 是拨音，后面不接元音；读成「む」就多加了一个圆唇元音。",
+      "correctAudioKey": "audio.hira.n",
+      "confuseWith": "kp.hira.mu"
+    }
+  ]
+}

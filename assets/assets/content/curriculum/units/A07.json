@@ -1,0 +1,200 @@
+{
+  "schemaVersion": 1,
+  "id": "A07",
+  "stageId": "stage.hiragana_seion",
+  "order": 7,
+  "title": "ま行",
+  "titleZh": "平假名 ま行（m 音）",
+  "rowId": "ma",
+  "knowledgePoints": [
+    {
+      "id": "kp.hira.ma",
+      "kana": "ま",
+      "romaji": "ma",
+      "audioKey": "audio.hira.ma",
+      "confusableIds": [
+        "kp.hira.me"
+      ],
+      "tipZh": "三横一竖，竖穿过上面两横（来自「末」）。"
+    },
+    {
+      "id": "kp.hira.mi",
+      "kana": "み",
+      "romaji": "mi",
+      "audioKey": "audio.hira.mi",
+      "confusableIds": [],
+      "tipZh": "一竖往右下弯，再接一个圈（来自「美」的上半）。"
+    },
+    {
+      "id": "kp.hira.mu",
+      "kana": "む",
+      "romaji": "mu",
+      "audioKey": "audio.hira.mu",
+      "confusableIds": [
+        "kp.hira.nu"
+      ],
+      "tipZh": "一点、一横，下面一个带尾巴的圈（来自「武」）。"
+    },
+    {
+      "id": "kp.hira.me",
+      "kana": "め",
+      "romaji": "me",
+      "audioKey": "audio.hira.me",
+      "confusableIds": [
+        "kp.hira.nu"
+      ],
+      "tipZh": "一竖加一横折，圈不封口（来自「女」的左半）。"
+    },
+    {
+      "id": "kp.hira.mo",
+      "kana": "も",
+      "romaji": "mo",
+      "audioKey": "audio.hira.mo",
+      "confusableIds": [],
+      "tipZh": "两竖被一个斜穿的大圈连起来（来自「母」）。"
+    }
+  ],
+  "teach": [
+    {
+      "id": "A07.teach.1",
+      "type": "introduce",
+      "knowledgePointId": "kp.hira.ma",
+      "promptZh": "这一行是ま行：ま・み・む・め・も。第一个是 ま（ma）。",
+      "audioKey": "audio.hira.ma",
+      "noteZh": "三横一竖，竖穿过上面两横（来自「末」）。"
+    },
+    {
+      "id": "A07.teach.2",
+      "type": "listen",
+      "knowledgePointId": "kp.hira.ma",
+      "promptZh": "点喇叭听 ま（ma），跟着读 3 遍。",
+      "audioKey": "audio.hira.ma"
+    },
+    {
+      "id": "A07.teach.3",
+      "type": "listen",
+      "knowledgePointId": "kp.hira.mi",
+      "promptZh": "点喇叭听 み（mi），跟着读 3 遍。",
+      "audioKey": "audio.hira.mi"
+    },
+    {
+      "id": "A07.teach.4",
+      "type": "listen",
+      "knowledgePointId": "kp.hira.mu",
+      "promptZh": "点喇叭听 む（mu），跟着读 3 遍。",
+      "audioKey": "audio.hira.mu"
+    },
+    {
+      "id": "A07.teach.5",
+      "type": "listen",
+      "knowledgePointId": "kp.hira.me",
+      "promptZh": "点喇叭听 め（me），跟着读 3 遍。",
+      "audioKey": "audio.hira.me"
+    },
+    {
+      "id": "A07.teach.6",
+      "type": "listen",
+      "knowledgePointId": "kp.hira.mo",
+      "promptZh": "点喇叭听 も（mo），跟着读 3 遍。",
+      "audioKey": "audio.hira.mo"
+    }
+  ],
+  "practice": [
+    {
+      "id": "A07.practice.1",
+      "type": "choose_romaji",
+      "knowledgePointId": "kp.hira.me",
+      "promptZh": "「め」的罗马音是？",
+      "stem": "め",
+      "choices": [
+        "me",
+        "nu",
+        "ma",
+        "mi"
+      ],
+      "answer": "me",
+      "errorReasonId": "er.hira.me.shape_nu"
+    },
+    {
+      "id": "A07.practice.2",
+      "type": "listen_choose",
+      "knowledgePointId": "kp.hira.mi",
+      "promptZh": "听一听，选出你听到的假名（喇叭可以反复点）。",
+      "audioKey": "audio.hira.mi",
+      "choices": [
+        "mi",
+        "ma",
+        "mu",
+        "me"
+      ],
+      "answer": "mi"
+    },
+    {
+      "id": "A07.practice.3",
+      "type": "choose_kana",
+      "knowledgePointId": "kp.hira.me",
+      "promptZh": "罗马音 me 对应哪个假名？",
+      "stem": "me",
+      "choices": [
+        "め",
+        "ぬ",
+        "ま",
+        "み"
+      ],
+      "answer": "め"
+    }
+  ],
+  "quiz": [
+    {
+      "id": "A07.quiz.1",
+      "type": "choose_kana",
+      "knowledgePointId": "kp.hira.me",
+      "promptZh": "罗马音 me 对应哪个假名？",
+      "stem": "me",
+      "choices": [
+        "め",
+        "ま",
+        "み",
+        "む"
+      ],
+      "answer": "め"
+    },
+    {
+      "id": "A07.quiz.2",
+      "type": "choose_romaji",
+      "knowledgePointId": "kp.hira.mi",
+      "promptZh": "「み」的罗马音是？",
+      "stem": "み",
+      "choices": [
+        "mi",
+        "ma",
+        "mu",
+        "me"
+      ],
+      "answer": "mi"
+    },
+    {
+      "id": "A07.quiz.3",
+      "type": "match",
+      "knowledgePointId": "kp.hira.ma",
+      "promptZh": "把ま行的假名和罗马音连起来。",
+      "pairs": {
+        "ま": "ma",
+        "み": "mi",
+        "む": "mu",
+        "め": "me",
+        "も": "mo"
+      }
+    }
+  ],
+  "errorReasons": [
+    {
+      "id": "er.hira.me.shape_nu",
+      "knowledgePointId": "kp.hira.me",
+      "wrongChoice": "nu",
+      "explainZh": "め 只有「一竖 + 一个不封口的圈」；ぬ 左边多一个「十」，圈也被竖穿过。",
+      "correctAudioKey": "audio.hira.me",
+      "confuseWith": "kp.hira.nu"
+    }
+  ]
+}

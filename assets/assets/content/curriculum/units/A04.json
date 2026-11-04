@@ -1,0 +1,199 @@
+{
+  "schemaVersion": 1,
+  "id": "A04",
+  "stageId": "stage.hiragana_seion",
+  "order": 4,
+  "title": "た行",
+  "titleZh": "平假名 た行（t 音）",
+  "rowId": "ta",
+  "knowledgePoints": [
+    {
+      "id": "kp.hira.ta",
+      "kana": "た",
+      "romaji": "ta",
+      "audioKey": "audio.hira.ta",
+      "confusableIds": [],
+      "tipZh": "来自「太」的草写：横、撇、再加一点。"
+    },
+    {
+      "id": "kp.hira.chi",
+      "kana": "ち",
+      "romaji": "chi",
+      "audioKey": "audio.hira.chi",
+      "confusableIds": [
+        "kp.hira.ki"
+      ],
+      "tipZh": "左边一竖加横提，右边只有一「、」；き 右边没有点。"
+    },
+    {
+      "id": "kp.hira.tsu",
+      "kana": "つ",
+      "romaji": "tsu",
+      "audioKey": "audio.hira.tsu",
+      "confusableIds": [
+        "kp.hira.ku",
+        "kp.hira.shi"
+      ],
+      "tipZh": "横之后直接往右上挑出勾，不折回圈；し 的勾朝下。"
+    },
+    {
+      "id": "kp.hira.te",
+      "kana": "て",
+      "romaji": "te",
+      "audioKey": "audio.hira.te",
+      "confusableIds": [],
+      "tipZh": "起笔一横，折下来绕一个圈，圈要越过起笔的横。"
+    },
+    {
+      "id": "kp.hira.to",
+      "kana": "と",
+      "romaji": "to",
+      "audioKey": "audio.hira.to",
+      "confusableIds": [],
+      "tipZh": "一横、一竖折，来自「止」的草写，全字没有圈。"
+    }
+  ],
+  "teach": [
+    {
+      "id": "A04.teach.1",
+      "type": "introduce",
+      "knowledgePointId": "kp.hira.ta",
+      "promptZh": "这一行是た行：た・ち・つ・て・と。第一个是 た（ta）。",
+      "audioKey": "audio.hira.ta",
+      "noteZh": "来自「太」的草写：横、撇、再加一点。"
+    },
+    {
+      "id": "A04.teach.2",
+      "type": "listen",
+      "knowledgePointId": "kp.hira.ta",
+      "promptZh": "点喇叭听 た（ta），跟着读 3 遍。",
+      "audioKey": "audio.hira.ta"
+    },
+    {
+      "id": "A04.teach.3",
+      "type": "listen",
+      "knowledgePointId": "kp.hira.chi",
+      "promptZh": "点喇叭听 ち（chi），跟着读 3 遍。",
+      "audioKey": "audio.hira.chi"
+    },
+    {
+      "id": "A04.teach.4",
+      "type": "listen",
+      "knowledgePointId": "kp.hira.tsu",
+      "promptZh": "点喇叭听 つ（tsu），跟着读 3 遍。",
+      "audioKey": "audio.hira.tsu"
+    },
+    {
+      "id": "A04.teach.5",
+      "type": "listen",
+      "knowledgePointId": "kp.hira.te",
+      "promptZh": "点喇叭听 て（te），跟着读 3 遍。",
+      "audioKey": "audio.hira.te"
+    },
+    {
+      "id": "A04.teach.6",
+      "type": "listen",
+      "knowledgePointId": "kp.hira.to",
+      "promptZh": "点喇叭听 と（to），跟着读 3 遍。",
+      "audioKey": "audio.hira.to"
+    }
+  ],
+  "practice": [
+    {
+      "id": "A04.practice.1",
+      "type": "choose_romaji",
+      "knowledgePointId": "kp.hira.tsu",
+      "promptZh": "「つ」的罗马音是？",
+      "stem": "つ",
+      "choices": [
+        "tsu",
+        "shi",
+        "ta",
+        "chi"
+      ],
+      "answer": "tsu",
+      "errorReasonId": "er.hira.tsu.shape_shi"
+    },
+    {
+      "id": "A04.practice.2",
+      "type": "listen_choose",
+      "knowledgePointId": "kp.hira.chi",
+      "promptZh": "听一听，选出你听到的假名（喇叭可以反复点）。",
+      "audioKey": "audio.hira.chi",
+      "choices": [
+        "chi",
+        "ta",
+        "tsu",
+        "te"
+      ],
+      "answer": "chi"
+    },
+    {
+      "id": "A04.practice.3",
+      "type": "choose_kana",
+      "knowledgePointId": "kp.hira.tsu",
+      "promptZh": "罗马音 tsu 对应哪个假名？",
+      "stem": "tsu",
+      "choices": [
+        "つ",
+        "し",
+        "た",
+        "ち"
+      ],
+      "answer": "つ"
+    }
+  ],
+  "quiz": [
+    {
+      "id": "A04.quiz.1",
+      "type": "choose_kana",
+      "knowledgePointId": "kp.hira.tsu",
+      "promptZh": "罗马音 tsu 对应哪个假名？",
+      "stem": "tsu",
+      "choices": [
+        "つ",
+        "た",
+        "ち",
+        "て"
+      ],
+      "answer": "つ"
+    },
+    {
+      "id": "A04.quiz.2",
+      "type": "choose_romaji",
+      "knowledgePointId": "kp.hira.chi",
+      "promptZh": "「ち」的罗马音是？",
+      "stem": "ち",
+      "choices": [
+        "chi",
+        "ta",
+        "tsu",
+        "te"
+      ],
+      "answer": "chi"
+    },
+    {
+      "id": "A04.quiz.3",
+      "type": "match",
+      "knowledgePointId": "kp.hira.ta",
+      "promptZh": "把た行的假名和罗马音连起来。",
+      "pairs": {
+        "た": "ta",
+        "ち": "chi",
+        "つ": "tsu",
+        "て": "te",
+        "と": "to"
+      }
+    }
+  ],
+  "errorReasons": [
+    {
+      "id": "er.hira.tsu.shape_shi",
+      "knowledgePointId": "kp.hira.tsu",
+      "wrongChoice": "shi",
+      "explainZh": "つ 的勾朝右上挑、不折回来；し 的勾一路向下。是方向不同，不是圈的大小。",
+      "correctAudioKey": "audio.hira.tsu",
+      "confuseWith": "kp.hira.shi"
+    }
+  ]
+}

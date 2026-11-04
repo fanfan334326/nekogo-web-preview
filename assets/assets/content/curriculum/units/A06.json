@@ -1,0 +1,198 @@
+{
+  "schemaVersion": 1,
+  "id": "A06",
+  "stageId": "stage.hiragana_seion",
+  "order": 6,
+  "title": "は行",
+  "titleZh": "平假名 は行（h/f 音）",
+  "rowId": "ha",
+  "knowledgePoints": [
+    {
+      "id": "kp.hira.ha",
+      "kana": "は",
+      "romaji": "ha",
+      "audioKey": "audio.hira.ha",
+      "confusableIds": [],
+      "tipZh": "来自「波」的草写：左边一点一竖，右边一个方框。"
+    },
+    {
+      "id": "kp.hira.hi",
+      "kana": "ひ",
+      "romaji": "hi",
+      "audioKey": "audio.hira.hi",
+      "confusableIds": [],
+      "tipZh": "一笔到底，中间绕一个小圈（来自「比」）。"
+    },
+    {
+      "id": "kp.hira.fu",
+      "kana": "ふ",
+      "romaji": "fu",
+      "audioKey": "audio.hira.fu",
+      "confusableIds": [
+        "kp.hira.tsu"
+      ],
+      "tipZh": "来自「不」的草写：一横、一撇、再一个竖弯；读时像吹气。"
+    },
+    {
+      "id": "kp.hira.he",
+      "kana": "へ",
+      "romaji": "he",
+      "audioKey": "audio.hira.he",
+      "confusableIds": [
+        "kp.hira.wo"
+      ],
+      "tipZh": "一横加一个向左下的长勾（来自「部」的左半）。"
+    },
+    {
+      "id": "kp.hira.ho",
+      "kana": "ほ",
+      "romaji": "ho",
+      "audioKey": "audio.hira.ho",
+      "confusableIds": [],
+      "tipZh": "左边「十」，右边像「乃」的连笔（来自「保」）。"
+    }
+  ],
+  "teach": [
+    {
+      "id": "A06.teach.1",
+      "type": "introduce",
+      "knowledgePointId": "kp.hira.ha",
+      "promptZh": "这一行是は行：は・ひ・ふ・へ・ほ。第一个是 は（ha）。",
+      "audioKey": "audio.hira.ha",
+      "noteZh": "来自「波」的草写：左边一点一竖，右边一个方框。"
+    },
+    {
+      "id": "A06.teach.2",
+      "type": "listen",
+      "knowledgePointId": "kp.hira.ha",
+      "promptZh": "点喇叭听 は（ha），跟着读 3 遍。",
+      "audioKey": "audio.hira.ha"
+    },
+    {
+      "id": "A06.teach.3",
+      "type": "listen",
+      "knowledgePointId": "kp.hira.hi",
+      "promptZh": "点喇叭听 ひ（hi），跟着读 3 遍。",
+      "audioKey": "audio.hira.hi"
+    },
+    {
+      "id": "A06.teach.4",
+      "type": "listen",
+      "knowledgePointId": "kp.hira.fu",
+      "promptZh": "点喇叭听 ふ（fu），跟着读 3 遍。",
+      "audioKey": "audio.hira.fu"
+    },
+    {
+      "id": "A06.teach.5",
+      "type": "listen",
+      "knowledgePointId": "kp.hira.he",
+      "promptZh": "点喇叭听 へ（he），跟着读 3 遍。",
+      "audioKey": "audio.hira.he"
+    },
+    {
+      "id": "A06.teach.6",
+      "type": "listen",
+      "knowledgePointId": "kp.hira.ho",
+      "promptZh": "点喇叭听 ほ（ho），跟着读 3 遍。",
+      "audioKey": "audio.hira.ho"
+    }
+  ],
+  "practice": [
+    {
+      "id": "A06.practice.1",
+      "type": "choose_romaji",
+      "knowledgePointId": "kp.hira.fu",
+      "promptZh": "「ふ」的罗马音是？",
+      "stem": "ふ",
+      "choices": [
+        "fu",
+        "tsu",
+        "ha",
+        "hi"
+      ],
+      "answer": "fu",
+      "errorReasonId": "er.hira.fu.shape_tsu"
+    },
+    {
+      "id": "A06.practice.2",
+      "type": "listen_choose",
+      "knowledgePointId": "kp.hira.hi",
+      "promptZh": "听一听，选出你听到的假名（喇叭可以反复点）。",
+      "audioKey": "audio.hira.hi",
+      "choices": [
+        "hi",
+        "ha",
+        "fu",
+        "he"
+      ],
+      "answer": "hi"
+    },
+    {
+      "id": "A06.practice.3",
+      "type": "choose_kana",
+      "knowledgePointId": "kp.hira.fu",
+      "promptZh": "罗马音 fu 对应哪个假名？",
+      "stem": "fu",
+      "choices": [
+        "ふ",
+        "つ",
+        "は",
+        "ひ"
+      ],
+      "answer": "ふ"
+    }
+  ],
+  "quiz": [
+    {
+      "id": "A06.quiz.1",
+      "type": "choose_kana",
+      "knowledgePointId": "kp.hira.fu",
+      "promptZh": "罗马音 fu 对应哪个假名？",
+      "stem": "fu",
+      "choices": [
+        "ふ",
+        "は",
+        "ひ",
+        "へ"
+      ],
+      "answer": "ふ"
+    },
+    {
+      "id": "A06.quiz.2",
+      "type": "choose_romaji",
+      "knowledgePointId": "kp.hira.hi",
+      "promptZh": "「ひ」的罗马音是？",
+      "stem": "ひ",
+      "choices": [
+        "hi",
+        "ha",
+        "fu",
+        "he"
+      ],
+      "answer": "hi"
+    },
+    {
+      "id": "A06.quiz.3",
+      "type": "match",
+      "knowledgePointId": "kp.hira.ha",
+      "promptZh": "把は行的假名和罗马音连起来。",
+      "pairs": {
+        "は": "ha",
+        "ひ": "hi",
+        "ふ": "fu",
+        "へ": "he",
+        "ほ": "ho"
+      }
+    }
+  ],
+  "errorReasons": [
+    {
+      "id": "er.hira.fu.shape_tsu",
+      "knowledgePointId": "kp.hira.fu",
+      "wrongChoice": "tsu",
+      "explainZh": "ふ 上面有一点（吹气形），つ 没有点、只有一横加挑勾。",
+      "correctAudioKey": "audio.hira.fu",
+      "confuseWith": "kp.hira.tsu"
+    }
+  ]
+}

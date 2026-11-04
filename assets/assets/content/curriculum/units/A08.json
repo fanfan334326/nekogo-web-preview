@@ -1,0 +1,162 @@
+{
+  "schemaVersion": 1,
+  "id": "A08",
+  "stageId": "stage.hiragana_seion",
+  "order": 8,
+  "title": "や行",
+  "titleZh": "平假名 や行（y 音，只有 3 音）",
+  "rowId": "ya",
+  "knowledgePoints": [
+    {
+      "id": "kp.hira.ya",
+      "kana": "や",
+      "romaji": "ya",
+      "audioKey": "audio.hira.ya",
+      "confusableIds": [
+        "kp.hira.wa"
+      ],
+      "tipZh": "一竖穿过两个圈（来自「也」）；わ 只有一个圈。"
+    },
+    {
+      "id": "kp.hira.yu",
+      "kana": "ゆ",
+      "romaji": "yu",
+      "audioKey": "audio.hira.yu",
+      "confusableIds": [],
+      "tipZh": "左边一竖往下，右边一个大圈带尾巴（来自「由」）。"
+    },
+    {
+      "id": "kp.hira.yo",
+      "kana": "よ",
+      "romaji": "yo",
+      "audioKey": "audio.hira.yo",
+      "confusableIds": [],
+      "tipZh": "一竖加两个圈，共 2 笔（来自「与」）。"
+    }
+  ],
+  "teach": [
+    {
+      "id": "A08.teach.1",
+      "type": "introduce",
+      "knowledgePointId": "kp.hira.ya",
+      "promptZh": "这一行是や行：や・ゆ・よ。第一个是 や（ya）。",
+      "audioKey": "audio.hira.ya",
+      "noteZh": "一竖穿过两个圈（来自「也」）；わ 只有一个圈。"
+    },
+    {
+      "id": "A08.teach.2",
+      "type": "listen",
+      "knowledgePointId": "kp.hira.ya",
+      "promptZh": "点喇叭听 や（ya），跟着读 3 遍。",
+      "audioKey": "audio.hira.ya"
+    },
+    {
+      "id": "A08.teach.3",
+      "type": "listen",
+      "knowledgePointId": "kp.hira.yu",
+      "promptZh": "点喇叭听 ゆ（yu），跟着读 3 遍。",
+      "audioKey": "audio.hira.yu"
+    },
+    {
+      "id": "A08.teach.4",
+      "type": "listen",
+      "knowledgePointId": "kp.hira.yo",
+      "promptZh": "点喇叭听 よ（yo），跟着读 3 遍。",
+      "audioKey": "audio.hira.yo"
+    }
+  ],
+  "practice": [
+    {
+      "id": "A08.practice.1",
+      "type": "choose_romaji",
+      "knowledgePointId": "kp.hira.ya",
+      "promptZh": "「や」的罗马音是？",
+      "stem": "や",
+      "choices": [
+        "ya",
+        "wa",
+        "yu",
+        "yo"
+      ],
+      "answer": "ya",
+      "errorReasonId": "er.hira.ya.shape_wa"
+    },
+    {
+      "id": "A08.practice.2",
+      "type": "listen_choose",
+      "knowledgePointId": "kp.hira.yu",
+      "promptZh": "听一听，选出你听到的假名（喇叭可以反复点）。",
+      "audioKey": "audio.hira.yu",
+      "choices": [
+        "yu",
+        "ya",
+        "yo"
+      ],
+      "answer": "yu"
+    },
+    {
+      "id": "A08.practice.3",
+      "type": "choose_kana",
+      "knowledgePointId": "kp.hira.ya",
+      "promptZh": "罗马音 ya 对应哪个假名？",
+      "stem": "ya",
+      "choices": [
+        "や",
+        "わ",
+        "ゆ",
+        "よ"
+      ],
+      "answer": "や"
+    }
+  ],
+  "quiz": [
+    {
+      "id": "A08.quiz.1",
+      "type": "choose_kana",
+      "knowledgePointId": "kp.hira.ya",
+      "promptZh": "罗马音 ya 对应哪个假名？",
+      "stem": "ya",
+      "choices": [
+        "や",
+        "ゆ",
+        "よ",
+        "わ"
+      ],
+      "answer": "や"
+    },
+    {
+      "id": "A08.quiz.2",
+      "type": "choose_romaji",
+      "knowledgePointId": "kp.hira.yu",
+      "promptZh": "「ゆ」的罗马音是？",
+      "stem": "ゆ",
+      "choices": [
+        "yu",
+        "ya",
+        "yo"
+      ],
+      "answer": "yu"
+    },
+    {
+      "id": "A08.quiz.3",
+      "type": "match",
+      "knowledgePointId": "kp.hira.ya",
+      "promptZh": "把や行的假名和罗马音连起来。",
+      "pairs": {
+        "や": "ya",
+        "ゆ": "yu",
+        "よ": "yo"
+      }
+    }
+  ],
+  "errorReasons": [
+    {
+      "id": "er.hira.ya.shape_wa",
+      "knowledgePointId": "kp.hira.ya",
+      "wrongChoice": "wa",
+      "explainZh": "や 有两个圈（一竖穿过两圈），わ 只有一个圈。",
+      "correctAudioKey": "audio.hira.ya",
+      "confuseWith": "kp.hira.wa"
+    }
+  ]
+}

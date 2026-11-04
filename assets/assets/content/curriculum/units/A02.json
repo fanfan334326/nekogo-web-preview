@@ -1,0 +1,200 @@
+{
+  "schemaVersion": 1,
+  "id": "A02",
+  "stageId": "stage.hiragana_seion",
+  "order": 2,
+  "title": "か行",
+  "titleZh": "平假名 か行（k 音）",
+  "rowId": "ka",
+  "knowledgePoints": [
+    {
+      "id": "kp.hira.ka",
+      "kana": "か",
+      "romaji": "ka",
+      "audioKey": "audio.hira.ka",
+      "confusableIds": [],
+      "tipZh": "比汉字「力」多出左上一短撇，读 k+a。"
+    },
+    {
+      "id": "kp.hira.ki",
+      "kana": "き",
+      "romaji": "ki",
+      "audioKey": "audio.hira.ki",
+      "confusableIds": [
+        "kp.hira.chi"
+      ],
+      "tipZh": "像「木」但只有一横——「本」少一横就是き。"
+    },
+    {
+      "id": "kp.hira.ku",
+      "kana": "く",
+      "romaji": "ku",
+      "audioKey": "audio.hira.ku",
+      "confusableIds": [
+        "kp.hira.tsu"
+      ],
+      "tipZh": "一笔张开的嘴，向上开口；和つ 的挑勾方向相反。"
+    },
+    {
+      "id": "kp.hira.ke",
+      "kana": "け",
+      "romaji": "ke",
+      "audioKey": "audio.hira.ke",
+      "confusableIds": [
+        "kp.hira.wa"
+      ],
+      "tipZh": "左半边像「毛」的左半，右半边是「又」的草写。"
+    },
+    {
+      "id": "kp.hira.ko",
+      "kana": "こ",
+      "romaji": "ko",
+      "audioKey": "audio.hira.ko",
+      "confusableIds": [],
+      "tipZh": "一短横一长横；比「子」少一竖弯钩。"
+    }
+  ],
+  "teach": [
+    {
+      "id": "A02.teach.1",
+      "type": "introduce",
+      "knowledgePointId": "kp.hira.ka",
+      "promptZh": "这一行是か行：か・き・く・け・こ。第一个是 か（ka）。",
+      "audioKey": "audio.hira.ka",
+      "noteZh": "比汉字「力」多出左上一短撇，读 k+a。"
+    },
+    {
+      "id": "A02.teach.2",
+      "type": "listen",
+      "knowledgePointId": "kp.hira.ka",
+      "promptZh": "点喇叭听 か（ka），跟着读 3 遍。",
+      "audioKey": "audio.hira.ka"
+    },
+    {
+      "id": "A02.teach.3",
+      "type": "listen",
+      "knowledgePointId": "kp.hira.ki",
+      "promptZh": "点喇叭听 き（ki），跟着读 3 遍。",
+      "audioKey": "audio.hira.ki"
+    },
+    {
+      "id": "A02.teach.4",
+      "type": "listen",
+      "knowledgePointId": "kp.hira.ku",
+      "promptZh": "点喇叭听 く（ku），跟着读 3 遍。",
+      "audioKey": "audio.hira.ku"
+    },
+    {
+      "id": "A02.teach.5",
+      "type": "listen",
+      "knowledgePointId": "kp.hira.ke",
+      "promptZh": "点喇叭听 け（ke），跟着读 3 遍。",
+      "audioKey": "audio.hira.ke"
+    },
+    {
+      "id": "A02.teach.6",
+      "type": "listen",
+      "knowledgePointId": "kp.hira.ko",
+      "promptZh": "点喇叭听 こ（ko），跟着读 3 遍。",
+      "audioKey": "audio.hira.ko"
+    }
+  ],
+  "practice": [
+    {
+      "id": "A02.practice.1",
+      "type": "choose_romaji",
+      "knowledgePointId": "kp.hira.ki",
+      "promptZh": "「き」的罗马音是？",
+      "stem": "き",
+      "choices": [
+        "ki",
+        "chi",
+        "ka",
+        "ku"
+      ],
+      "answer": "ki",
+      "errorReasonId": "er.hira.ki.shape_chi"
+    },
+    {
+      "id": "A02.practice.2",
+      "type": "listen_choose",
+      "knowledgePointId": "kp.hira.ki",
+      "promptZh": "听一听，选出你听到的假名（喇叭可以反复点）。",
+      "audioKey": "audio.hira.ki",
+      "choices": [
+        "ki",
+        "ka",
+        "ku",
+        "ke"
+      ],
+      "answer": "ki"
+    },
+    {
+      "id": "A02.practice.3",
+      "type": "choose_kana",
+      "knowledgePointId": "kp.hira.ki",
+      "promptZh": "罗马音 ki 对应哪个假名？",
+      "stem": "ki",
+      "choices": [
+        "き",
+        "ち",
+        "か",
+        "く"
+      ],
+      "answer": "き"
+    }
+  ],
+  "quiz": [
+    {
+      "id": "A02.quiz.1",
+      "type": "choose_kana",
+      "knowledgePointId": "kp.hira.ki",
+      "promptZh": "罗马音 ki 对应哪个假名？",
+      "stem": "ki",
+      "choices": [
+        "き",
+        "か",
+        "く",
+        "け"
+      ],
+      "answer": "き"
+    },
+    {
+      "id": "A02.quiz.2",
+      "type": "choose_romaji",
+      "knowledgePointId": "kp.hira.ki",
+      "promptZh": "「き」的罗马音是？",
+      "stem": "き",
+      "choices": [
+        "ki",
+        "ka",
+        "ku",
+        "ke"
+      ],
+      "answer": "ki"
+    },
+    {
+      "id": "A02.quiz.3",
+      "type": "match",
+      "knowledgePointId": "kp.hira.ka",
+      "promptZh": "把か行的假名和罗马音连起来。",
+      "pairs": {
+        "か": "ka",
+        "き": "ki",
+        "く": "ku",
+        "け": "ke",
+        "こ": "ko"
+      }
+    }
+  ],
+  "errorReasons": [
+    {
+      "id": "er.hira.ki.shape_chi",
+      "knowledgePointId": "kp.hira.ki",
+      "wrongChoice": "chi",
+      "explainZh": "き 上面是一横一竖提，ち 的右边是一个「、」；先看清右边有没有那点。",
+      "correctAudioKey": "audio.hira.ki",
+      "confuseWith": "kp.hira.chi"
+    }
+  ]
+}
