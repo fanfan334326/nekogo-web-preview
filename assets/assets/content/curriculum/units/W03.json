@@ -1,0 +1,365 @@
+{
+  "schemaVersion": 1,
+  "id": "W03",
+  "stageId": "stage.words_basic",
+  "order": 3,
+  "title": "W03",
+  "titleZh": "指示词与基本句",
+  "goalZh": "能指认这／那／哪，并说出常见场所与简单方位。",
+  "introLemmaIds": [
+    "lex.w03.kore",
+    "lex.w03.sore",
+    "lex.w03.are",
+    "lex.w03.dore",
+    "lex.w03.kono",
+    "lex.w03.sono",
+    "lex.w03.ano",
+    "lex.w03.dono"
+  ],
+  "sentences": [
+    {
+      "kana": "これはなんですか。",
+      "kanji": "これは何ですか。",
+      "zh": "这是什么？"
+    },
+    {
+      "kana": "それはほんです。",
+      "kanji": "それは本です。",
+      "zh": "那是书。"
+    },
+    {
+      "kana": "トイレはどこですか。",
+      "kanji": "トイレはどこですか。",
+      "zh": "厕所在哪里？"
+    },
+    {
+      "kana": "あそこです。",
+      "kanji": "あそこです。",
+      "zh": "在那边。"
+    },
+    {
+      "kana": "ここにあります。",
+      "kanji": "ここにあります。",
+      "zh": "在这里。"
+    }
+  ],
+  "items": [
+    {
+      "id": "W03.item.1",
+      "type": "choose_gloss",
+      "lexiconId": "lex.w03.kore",
+      "promptZh": "这个词的中文意思是？",
+      "stem": "これ",
+      "choices": [
+        "这（离自己近）",
+        "哪里",
+        "厕所",
+        "车站"
+      ],
+      "answer": "这（离自己近）",
+      "audioKey": "audio.lex.w03.kore",
+      "direction": "jp_to_zh"
+    },
+    {
+      "id": "W03.item.2",
+      "type": "choose_gloss",
+      "lexiconId": "lex.w03.sore",
+      "promptZh": "这个词的中文意思是？",
+      "stem": "それ",
+      "choices": [
+        "那（离对方近）",
+        "这（离自己近）",
+        "那（离双方远）",
+        "哪个"
+      ],
+      "answer": "那（离对方近）",
+      "audioKey": "audio.lex.w03.sore",
+      "direction": "jp_to_zh"
+    },
+    {
+      "id": "W03.item.3",
+      "type": "choose_gloss",
+      "lexiconId": "lex.w03.are",
+      "promptZh": "这个词的中文意思是？",
+      "stem": "あれ",
+      "choices": [
+        "有／在（有生命）",
+        "那（离双方远）",
+        "餐厅",
+        "有／在（无生命）"
+      ],
+      "answer": "那（离双方远）",
+      "audioKey": "audio.lex.w03.are",
+      "direction": "jp_to_zh"
+    },
+    {
+      "id": "W03.item.4",
+      "type": "choose_gloss",
+      "lexiconId": "lex.w03.dore",
+      "promptZh": "这个词的中文意思是？",
+      "stem": "どれ",
+      "choices": [
+        "这个……",
+        "那个……",
+        "那个（远）……",
+        "哪个"
+      ],
+      "answer": "哪个",
+      "audioKey": "audio.lex.w03.dore",
+      "direction": "jp_to_zh"
+    },
+    {
+      "id": "W03.item.5",
+      "type": "choose_gloss",
+      "lexiconId": "lex.w03.kono",
+      "promptZh": "这个词的中文意思是？",
+      "stem": "この",
+      "choices": [
+        "有／在（有生命）",
+        "这（离自己近）",
+        "这个……",
+        "有／在（无生命）"
+      ],
+      "answer": "这个……",
+      "audioKey": "audio.lex.w03.kono",
+      "direction": "jp_to_zh"
+    },
+    {
+      "id": "W03.item.6",
+      "type": "choose_gloss",
+      "lexiconId": "lex.w03.sono",
+      "promptZh": "这个词的中文意思是？",
+      "stem": "その",
+      "choices": [
+        "这里",
+        "那里",
+        "那个……",
+        "哪个……"
+      ],
+      "answer": "那个……",
+      "audioKey": "audio.lex.w03.sono",
+      "direction": "jp_to_zh"
+    },
+    {
+      "id": "W03.item.7",
+      "type": "choose_gloss",
+      "lexiconId": "lex.w03.ano",
+      "promptZh": "哪个日语对应这个意思？",
+      "stem": "那个（远）……",
+      "choices": [
+        "どれ",
+        "この",
+        "その",
+        "あの"
+      ],
+      "answer": "あの",
+      "audioKey": "audio.lex.w03.ano",
+      "direction": "zh_to_jp"
+    },
+    {
+      "id": "W03.item.8",
+      "type": "choose_gloss",
+      "lexiconId": "lex.w03.dono",
+      "promptZh": "哪个日语对应这个意思？",
+      "stem": "哪个……",
+      "choices": [
+        "トイレ",
+        "どの",
+        "あそこ",
+        "どこ"
+      ],
+      "answer": "どの",
+      "audioKey": "audio.lex.w03.dono",
+      "direction": "zh_to_jp"
+    },
+    {
+      "id": "W03.item.9",
+      "type": "choose_gloss",
+      "lexiconId": "lex.w03.koko",
+      "promptZh": "哪个日语对应这个意思？",
+      "stem": "这里",
+      "choices": [
+        "レストラン",
+        "ここ",
+        "ぎんこう",
+        "びょういん"
+      ],
+      "answer": "ここ",
+      "audioKey": "audio.lex.w03.koko",
+      "direction": "zh_to_jp"
+    },
+    {
+      "id": "W03.item.10",
+      "type": "listen_choose_word",
+      "lexiconId": "lex.w03.kore",
+      "promptZh": "听一听，选出你听到的词",
+      "stem": "",
+      "choices": [
+        "どこ",
+        "トイレ",
+        "えき",
+        "これ"
+      ],
+      "answer": "これ",
+      "audioKey": "audio.lex.w03.kore"
+    },
+    {
+      "id": "W03.item.11",
+      "type": "listen_choose_word",
+      "lexiconId": "lex.w03.sore",
+      "promptZh": "听一听，选出你听到的词",
+      "stem": "",
+      "choices": [
+        "これ",
+        "あれ",
+        "どれ",
+        "それ"
+      ],
+      "answer": "それ",
+      "audioKey": "audio.lex.w03.sore"
+    },
+    {
+      "id": "W03.item.12",
+      "type": "listen_choose_word",
+      "lexiconId": "lex.w03.are",
+      "promptZh": "听一听，选出你听到的词",
+      "stem": "",
+      "choices": [
+        "あれ",
+        "レストラン",
+        "あります",
+        "います"
+      ],
+      "answer": "あれ",
+      "audioKey": "audio.lex.w03.are"
+    },
+    {
+      "id": "W03.item.13",
+      "type": "order_words",
+      "lexiconId": "",
+      "promptZh": "排成句子（这是什么？）",
+      "stem": "这是什么？",
+      "chunks": [
+        "これ",
+        "は",
+        "なん",
+        "です",
+        "か"
+      ],
+      "chips": [
+        "は",
+        "なん",
+        "です",
+        "か",
+        "それ",
+        "あれ",
+        "これ"
+      ],
+      "answer": "これ は なん です か",
+      "audioKey": "",
+      "sentenceKana": "これはなんですか。",
+      "sentenceKanji": "これは何ですか。",
+      "sentenceZh": "这是什么？"
+    },
+    {
+      "id": "W03.item.14",
+      "type": "order_words",
+      "lexiconId": "",
+      "promptZh": "排成句子（那是书。）",
+      "stem": "那是书。",
+      "chunks": [
+        "それ",
+        "は",
+        "ほん",
+        "です"
+      ],
+      "chips": [
+        "これ",
+        "あれ",
+        "それ",
+        "は",
+        "ほん",
+        "です"
+      ],
+      "answer": "それ は ほん です",
+      "audioKey": "",
+      "sentenceKana": "それはほんです。",
+      "sentenceKanji": "それは本です。",
+      "sentenceZh": "那是书。"
+    },
+    {
+      "id": "W03.item.15",
+      "type": "order_words",
+      "lexiconId": "",
+      "promptZh": "排成句子（厕所在哪里？）",
+      "stem": "厕所在哪里？",
+      "chunks": [
+        "トイレ",
+        "は",
+        "どこ",
+        "です",
+        "か"
+      ],
+      "chips": [
+        "か",
+        "これ",
+        "それ",
+        "トイレ",
+        "は",
+        "どこ",
+        "です"
+      ],
+      "answer": "トイレ は どこ です か",
+      "audioKey": "",
+      "sentenceKana": "トイレはどこですか。",
+      "sentenceKanji": "トイレはどこですか。",
+      "sentenceZh": "厕所在哪里？"
+    },
+    {
+      "id": "W03.item.16",
+      "type": "order_words",
+      "lexiconId": "",
+      "promptZh": "排成句子（在那边。）",
+      "stem": "在那边。",
+      "chunks": [
+        "あそこ",
+        "です"
+      ],
+      "chips": [
+        "これ",
+        "それ",
+        "あそこ",
+        "です"
+      ],
+      "answer": "あそこ です",
+      "audioKey": "",
+      "sentenceKana": "あそこです。",
+      "sentenceKanji": "あそこです。",
+      "sentenceZh": "在那边。"
+    },
+    {
+      "id": "W03.item.17",
+      "type": "order_words",
+      "lexiconId": "",
+      "promptZh": "排成句子（在这里。）",
+      "stem": "在这里。",
+      "chunks": [
+        "ここ",
+        "に",
+        "あります"
+      ],
+      "chips": [
+        "ここ",
+        "に",
+        "あります",
+        "これ",
+        "それ"
+      ],
+      "answer": "ここ に あります",
+      "audioKey": "",
+      "sentenceKana": "ここにあります。",
+      "sentenceKanji": "ここにあります。",
+      "sentenceZh": "在这里。"
+    }
+  ]
+}

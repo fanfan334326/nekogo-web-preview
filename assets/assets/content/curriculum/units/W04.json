@@ -1,0 +1,224 @@
+{
+  "schemaVersion": 1,
+  "id": "W04",
+  "stageId": "stage.words_basic",
+  "order": 4,
+  "title": "W04",
+  "titleZh": "数字与时间",
+  "goalZh": "能读 1–100 常用数、问现在几点，并说简单时刻。",
+  "introLemmaIds": [
+    "lex.w04.ichi",
+    "lex.w04.ni",
+    "lex.w04.san",
+    "lex.w04.yon",
+    "lex.w04.go",
+    "lex.w04.roku",
+    "lex.w04.nana",
+    "lex.w04.hachi"
+  ],
+  "sentences": [
+    {
+      "kana": "いまなんじですか。",
+      "kanji": "今何時ですか。",
+      "zh": "现在几点？"
+    },
+    {
+      "kana": "さんじです。",
+      "kanji": "三時です。",
+      "zh": "三点。"
+    },
+    {
+      "kana": "くじはんです。",
+      "kanji": "九時半です。",
+      "zh": "九点半。"
+    },
+    {
+      "kana": "なんにんですか。",
+      "kanji": "何人ですか。",
+      "zh": "几个人？"
+    },
+    {
+      "kana": "ふたりです。",
+      "kanji": "二人です。",
+      "zh": "两个人。"
+    }
+  ],
+  "items": [
+    {
+      "id": "W04.item.1",
+      "type": "choose_gloss",
+      "lexiconId": "lex.w04.ichi",
+      "promptZh": "这个词的中文意思是？",
+      "stem": "いち",
+      "choices": [
+        "十",
+        "百",
+        "……点",
+        "一"
+      ],
+      "answer": "一",
+      "audioKey": "audio.lex.w04.ichi",
+      "direction": "jp_to_zh"
+    },
+    {
+      "id": "W04.item.2",
+      "type": "choose_gloss",
+      "lexiconId": "lex.w04.ni",
+      "promptZh": "这个词的中文意思是？",
+      "stem": "に",
+      "choices": [
+        "四",
+        "二",
+        "一",
+        "三"
+      ],
+      "answer": "二",
+      "audioKey": "audio.lex.w04.ni",
+      "direction": "jp_to_zh"
+    },
+    {
+      "id": "W04.item.3",
+      "type": "choose_gloss",
+      "lexiconId": "lex.w04.san",
+      "promptZh": "这个词的中文意思是？",
+      "stem": "さん",
+      "choices": [
+        "现在",
+        "几点",
+        "三",
+        "半"
+      ],
+      "answer": "三",
+      "audioKey": "audio.lex.w04.san",
+      "direction": "jp_to_zh"
+    },
+    {
+      "id": "W04.item.4",
+      "type": "choose_gloss",
+      "lexiconId": "lex.w04.yon",
+      "promptZh": "这个词的中文意思是？",
+      "stem": "よん",
+      "choices": [
+        "几点",
+        "一个人",
+        "四",
+        "现在"
+      ],
+      "answer": "四",
+      "audioKey": "audio.lex.w04.yon",
+      "direction": "jp_to_zh"
+    },
+    {
+      "id": "W04.item.5",
+      "type": "choose_gloss",
+      "lexiconId": "lex.w04.go",
+      "promptZh": "哪个日语对应这个意思？",
+      "stem": "五",
+      "choices": [
+        "いち",
+        "に",
+        "ご",
+        "なんにん"
+      ],
+      "answer": "ご",
+      "audioKey": "audio.lex.w04.go",
+      "direction": "zh_to_jp"
+    },
+    {
+      "id": "W04.item.6",
+      "type": "choose_gloss",
+      "lexiconId": "lex.w04.roku",
+      "promptZh": "哪个日语对应这个意思？",
+      "stem": "六",
+      "choices": [
+        "はち",
+        "きゅう",
+        "じゅう",
+        "ろく"
+      ],
+      "answer": "ろく",
+      "audioKey": "audio.lex.w04.roku",
+      "direction": "zh_to_jp"
+    },
+    {
+      "id": "W04.item.7",
+      "type": "listen_choose_word",
+      "lexiconId": "lex.w04.ichi",
+      "promptZh": "听一听，选出你听到的词",
+      "stem": "",
+      "choices": [
+        "ひゃく",
+        "じ",
+        "いち",
+        "じゅう"
+      ],
+      "answer": "いち",
+      "audioKey": "audio.lex.w04.ichi"
+    },
+    {
+      "id": "W04.item.8",
+      "type": "listen_choose_word",
+      "lexiconId": "lex.w04.ni",
+      "promptZh": "听一听，选出你听到的词",
+      "stem": "",
+      "choices": [
+        "に",
+        "いち",
+        "さん",
+        "よん"
+      ],
+      "answer": "に",
+      "audioKey": "audio.lex.w04.ni"
+    },
+    {
+      "id": "W04.item.9",
+      "type": "order_words",
+      "lexiconId": "",
+      "promptZh": "排成句子（现在几点？）",
+      "stem": "现在几点？",
+      "chunks": [
+        "いま",
+        "なんじ",
+        "です",
+        "か"
+      ],
+      "chips": [
+        "いま",
+        "なんじ",
+        "です",
+        "か",
+        "いち",
+        "に"
+      ],
+      "answer": "いま なんじ です か",
+      "audioKey": "",
+      "sentenceKana": "いまなんじですか。",
+      "sentenceKanji": "今何時ですか。",
+      "sentenceZh": "现在几点？"
+    },
+    {
+      "id": "W04.item.10",
+      "type": "order_words",
+      "lexiconId": "",
+      "promptZh": "排成句子（三点。）",
+      "stem": "三点。",
+      "chunks": [
+        "さん",
+        "じ",
+        "です"
+      ],
+      "chips": [
+        "じ",
+        "です",
+        "いち",
+        "に",
+        "さん"
+      ],
+      "answer": "さん じ です",
+      "audioKey": "",
+      "sentenceKana": "さんじです。",
+      "sentenceKanji": "三時です。",
+      "sentenceZh": "三点。"
+    }
+  ]
+}

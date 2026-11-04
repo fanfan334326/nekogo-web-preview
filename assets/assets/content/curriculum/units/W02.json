@@ -1,0 +1,355 @@
+{
+  "schemaVersion": 1,
+  "id": "W02",
+  "stageId": "stage.words_basic",
+  "order": 2,
+  "title": "W02",
+  "titleZh": "自我介绍",
+  "goalZh": "能用礼貌体说出姓名、国籍、职业，并完成简单自我介绍。",
+  "introLemmaIds": [
+    "lex.w02.watashi",
+    "lex.w02.anata",
+    "lex.w02.namae",
+    "lex.w02.desu",
+    "lex.w02.nanijin",
+    "lex.w02.chuugokujin",
+    "lex.w02.nihonjin",
+    "lex.w02.amerikajin"
+  ],
+  "sentences": [
+    {
+      "kana": "はじめまして。わたしはたなかです。",
+      "kanji": "初めまして。私は田中です。",
+      "zh": "初次见面。我是田中。"
+    },
+    {
+      "kana": "よろしくおねがいします。",
+      "kanji": "よろしくお願いします。",
+      "zh": "请多关照。"
+    },
+    {
+      "kana": "なにじんですか。",
+      "kanji": "何人ですか。",
+      "zh": "你是哪国人？"
+    },
+    {
+      "kana": "ちゅうごくじんです。",
+      "kanji": "中国人です。",
+      "zh": "我是中国人。"
+    },
+    {
+      "kana": "がくせいです。",
+      "kanji": "学生です。",
+      "zh": "我是学生。"
+    }
+  ],
+  "items": [
+    {
+      "id": "W02.item.1",
+      "type": "choose_gloss",
+      "lexiconId": "lex.w02.watashi",
+      "promptZh": "这个词的中文意思是？",
+      "stem": "わたし",
+      "choices": [
+        "大学",
+        "我",
+        "从……来",
+        "来了（礼貌过去）"
+      ],
+      "answer": "我",
+      "audioKey": "audio.lex.w02.watashi",
+      "direction": "jp_to_zh"
+    },
+    {
+      "id": "W02.item.2",
+      "type": "choose_gloss",
+      "lexiconId": "lex.w02.anata",
+      "promptZh": "这个词的中文意思是？",
+      "stem": "あなた",
+      "choices": [
+        "名字",
+        "你",
+        "大学",
+        "我"
+      ],
+      "answer": "你",
+      "audioKey": "audio.lex.w02.anata",
+      "direction": "jp_to_zh"
+    },
+    {
+      "id": "W02.item.3",
+      "type": "choose_gloss",
+      "lexiconId": "lex.w02.namae",
+      "promptZh": "这个词的中文意思是？",
+      "stem": "なまえ",
+      "choices": [
+        "名字",
+        "先生／小姐（敬称）",
+        "从……来",
+        "来了（礼貌过去）"
+      ],
+      "answer": "名字",
+      "audioKey": "audio.lex.w02.namae",
+      "direction": "jp_to_zh"
+    },
+    {
+      "id": "W02.item.4",
+      "type": "choose_gloss",
+      "lexiconId": "lex.w02.desu",
+      "promptZh": "这个词的中文意思是？",
+      "stem": "です",
+      "choices": [
+        "名字",
+        "是（礼貌断定）",
+        "我",
+        "你"
+      ],
+      "answer": "是（礼貌断定）",
+      "audioKey": "audio.lex.w02.desu",
+      "direction": "jp_to_zh"
+    },
+    {
+      "id": "W02.item.5",
+      "type": "choose_gloss",
+      "lexiconId": "lex.w02.nanijin",
+      "promptZh": "这个词的中文意思是？",
+      "stem": "なにじん",
+      "choices": [
+        "中国人",
+        "日本人",
+        "美国人",
+        "哪国人"
+      ],
+      "answer": "哪国人",
+      "audioKey": "audio.lex.w02.nanijin",
+      "direction": "jp_to_zh"
+    },
+    {
+      "id": "W02.item.6",
+      "type": "choose_gloss",
+      "lexiconId": "lex.w02.chuugokujin",
+      "promptZh": "这个词的中文意思是？",
+      "stem": "ちゅうごくじん",
+      "choices": [
+        "大学",
+        "我",
+        "中国人",
+        "来了（礼貌过去）"
+      ],
+      "answer": "中国人",
+      "audioKey": "audio.lex.w02.chuugokujin",
+      "direction": "jp_to_zh"
+    },
+    {
+      "id": "W02.item.7",
+      "type": "choose_gloss",
+      "lexiconId": "lex.w02.nihonjin",
+      "promptZh": "哪个日语对应这个意思？",
+      "stem": "日本人",
+      "choices": [
+        "ちゅうごくじん",
+        "にほんじん",
+        "です",
+        "なにじん"
+      ],
+      "answer": "にほんじん",
+      "audioKey": "audio.lex.w02.nihonjin",
+      "direction": "zh_to_jp"
+    },
+    {
+      "id": "W02.item.8",
+      "type": "choose_gloss",
+      "lexiconId": "lex.w02.amerikajin",
+      "promptZh": "哪个日语对应这个意思？",
+      "stem": "美国人",
+      "choices": [
+        "にほんじん",
+        "かんこくじん",
+        "がくせい",
+        "アメリカじん"
+      ],
+      "answer": "アメリカじん",
+      "audioKey": "audio.lex.w02.amerikajin",
+      "direction": "zh_to_jp"
+    },
+    {
+      "id": "W02.item.9",
+      "type": "choose_gloss",
+      "lexiconId": "lex.w02.kankokujin",
+      "promptZh": "哪个日语对应这个意思？",
+      "stem": "韩国人",
+      "choices": [
+        "わたし",
+        "かんこくじん",
+        "きました",
+        "だいがく"
+      ],
+      "answer": "かんこくじん",
+      "audioKey": "audio.lex.w02.kankokujin",
+      "direction": "zh_to_jp"
+    },
+    {
+      "id": "W02.item.10",
+      "type": "listen_choose_word",
+      "lexiconId": "lex.w02.watashi",
+      "promptZh": "听一听，选出你听到的词",
+      "stem": "",
+      "choices": [
+        "わたし",
+        "から",
+        "きました",
+        "だいがく"
+      ],
+      "answer": "わたし",
+      "audioKey": "audio.lex.w02.watashi"
+    },
+    {
+      "id": "W02.item.11",
+      "type": "listen_choose_word",
+      "lexiconId": "lex.w02.anata",
+      "promptZh": "听一听，选出你听到的词",
+      "stem": "",
+      "choices": [
+        "あなた",
+        "だいがく",
+        "わたし",
+        "なまえ"
+      ],
+      "answer": "あなた",
+      "audioKey": "audio.lex.w02.anata"
+    },
+    {
+      "id": "W02.item.12",
+      "type": "listen_choose_word",
+      "lexiconId": "lex.w02.namae",
+      "promptZh": "听一听，选出你听到的词",
+      "stem": "",
+      "choices": [
+        "さん",
+        "から",
+        "きました",
+        "なまえ"
+      ],
+      "answer": "なまえ",
+      "audioKey": "audio.lex.w02.namae"
+    },
+    {
+      "id": "W02.item.13",
+      "type": "order_words",
+      "lexiconId": "",
+      "promptZh": "排成句子（初次见面。我是田中。）",
+      "stem": "初次见面。我是田中。",
+      "chunks": [
+        "はじめまして",
+        "わたし",
+        "は",
+        "たなか",
+        "です"
+      ],
+      "chips": [
+        "は",
+        "たなか",
+        "です",
+        "あなた",
+        "なまえ",
+        "はじめまして",
+        "わたし"
+      ],
+      "answer": "はじめまして わたし は たなか です",
+      "audioKey": "",
+      "sentenceKana": "はじめまして。わたしはたなかです。",
+      "sentenceKanji": "初めまして。私は田中です。",
+      "sentenceZh": "初次见面。我是田中。"
+    },
+    {
+      "id": "W02.item.14",
+      "type": "order_words",
+      "lexiconId": "",
+      "promptZh": "排成句子（请多关照。）",
+      "stem": "请多关照。",
+      "chunks": [
+        "よろしく",
+        "おねがいします"
+      ],
+      "chips": [
+        "わたし",
+        "あなた",
+        "よろしく",
+        "おねがいします"
+      ],
+      "answer": "よろしく おねがいします",
+      "audioKey": "",
+      "sentenceKana": "よろしくおねがいします。",
+      "sentenceKanji": "よろしくお願いします。",
+      "sentenceZh": "请多关照。"
+    },
+    {
+      "id": "W02.item.15",
+      "type": "order_words",
+      "lexiconId": "",
+      "promptZh": "排成句子（你是哪国人？）",
+      "stem": "你是哪国人？",
+      "chunks": [
+        "なにじん",
+        "です",
+        "か"
+      ],
+      "chips": [
+        "わたし",
+        "あなた",
+        "なにじん",
+        "です",
+        "か"
+      ],
+      "answer": "なにじん です か",
+      "audioKey": "",
+      "sentenceKana": "なにじんですか。",
+      "sentenceKanji": "何人ですか。",
+      "sentenceZh": "你是哪国人？"
+    },
+    {
+      "id": "W02.item.16",
+      "type": "order_words",
+      "lexiconId": "",
+      "promptZh": "排成句子（我是中国人。）",
+      "stem": "我是中国人。",
+      "chunks": [
+        "ちゅうごくじん",
+        "です"
+      ],
+      "chips": [
+        "わたし",
+        "あなた",
+        "ちゅうごくじん",
+        "です"
+      ],
+      "answer": "ちゅうごくじん です",
+      "audioKey": "",
+      "sentenceKana": "ちゅうごくじんです。",
+      "sentenceKanji": "中国人です。",
+      "sentenceZh": "我是中国人。"
+    },
+    {
+      "id": "W02.item.17",
+      "type": "order_words",
+      "lexiconId": "",
+      "promptZh": "排成句子（我是学生。）",
+      "stem": "我是学生。",
+      "chunks": [
+        "がくせい",
+        "です"
+      ],
+      "chips": [
+        "がくせい",
+        "です",
+        "わたし",
+        "あなた"
+      ],
+      "answer": "がくせい です",
+      "audioKey": "",
+      "sentenceKana": "がくせいです。",
+      "sentenceKanji": "学生です。",
+      "sentenceZh": "我是学生。"
+    }
+  ]
+}

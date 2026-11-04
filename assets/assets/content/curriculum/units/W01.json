@@ -1,0 +1,303 @@
+{
+  "schemaVersion": 1,
+  "id": "W01",
+  "stageId": "stage.words_basic",
+  "order": 1,
+  "title": "W01",
+  "titleZh": "问候与寒暄",
+  "goalZh": "学会一天里常用的问候、道别与礼貌用语，能开口寒暄。",
+  "introLemmaIds": [
+    "lex.w01.ohayou",
+    "lex.w01.ohayou_gozaimasu",
+    "lex.w01.konnichiwa",
+    "lex.w01.konbanwa",
+    "lex.w01.sayounara",
+    "lex.w01.jaane",
+    "lex.w01.arigatou",
+    "lex.w01.arigatou_gozaimasu"
+  ],
+  "sentences": [
+    {
+      "kana": "おはようございます。",
+      "kanji": "おはようございます。",
+      "zh": "早上好。"
+    },
+    {
+      "kana": "こんにちは。",
+      "kanji": "こんにちは。",
+      "zh": "你好。"
+    },
+    {
+      "kana": "こんばんは。",
+      "kanji": "こんばんは。",
+      "zh": "晚上好。"
+    },
+    {
+      "kana": "ありがとうございます。",
+      "kanji": "ありがとうございます。",
+      "zh": "谢谢（礼貌）。"
+    },
+    {
+      "kana": "すみません。",
+      "kanji": "すみません。",
+      "zh": "对不起／打扰了。"
+    }
+  ],
+  "items": [
+    {
+      "id": "W01.item.1",
+      "type": "choose_gloss",
+      "lexiconId": "lex.w01.ohayou",
+      "promptZh": "这个词的中文意思是？",
+      "stem": "おはよう",
+      "choices": [
+        "晚安",
+        "初次见面",
+        "早（亲友间）",
+        "失礼了／告辞"
+      ],
+      "answer": "早（亲友间）",
+      "audioKey": "audio.lex.w01.ohayou",
+      "direction": "jp_to_zh"
+    },
+    {
+      "id": "W01.item.2",
+      "type": "choose_gloss",
+      "lexiconId": "lex.w01.ohayou_gozaimasu",
+      "promptZh": "这个词的中文意思是？",
+      "stem": "おはようございます",
+      "choices": [
+        "精神好／健康",
+        "早（亲友间）",
+        "你好／下午好",
+        "早上好（礼貌）"
+      ],
+      "answer": "早上好（礼貌）",
+      "audioKey": "audio.lex.w01.ohayou_gozaimasu",
+      "direction": "jp_to_zh"
+    },
+    {
+      "id": "W01.item.3",
+      "type": "choose_gloss",
+      "lexiconId": "lex.w01.konnichiwa",
+      "promptZh": "这个词的中文意思是？",
+      "stem": "こんにちは",
+      "choices": [
+        "你好／下午好",
+        "晚安",
+        "初次见面",
+        "请多关照"
+      ],
+      "answer": "你好／下午好",
+      "audioKey": "audio.lex.w01.konnichiwa",
+      "direction": "jp_to_zh"
+    },
+    {
+      "id": "W01.item.4",
+      "type": "choose_gloss",
+      "lexiconId": "lex.w01.konbanwa",
+      "promptZh": "这个词的中文意思是？",
+      "stem": "こんばんは",
+      "choices": [
+        "你好／下午好",
+        "再见（正式）",
+        "晚上好",
+        "早上好（礼貌）"
+      ],
+      "answer": "晚上好",
+      "audioKey": "audio.lex.w01.konbanwa",
+      "direction": "jp_to_zh"
+    },
+    {
+      "id": "W01.item.5",
+      "type": "choose_gloss",
+      "lexiconId": "lex.w01.sayounara",
+      "promptZh": "这个词的中文意思是？",
+      "stem": "さようなら",
+      "choices": [
+        "再见（正式）",
+        "请多关照",
+        "是／好的",
+        "不／没有"
+      ],
+      "answer": "再见（正式）",
+      "audioKey": "audio.lex.w01.sayounara",
+      "direction": "jp_to_zh"
+    },
+    {
+      "id": "W01.item.6",
+      "type": "choose_gloss",
+      "lexiconId": "lex.w01.jaane",
+      "promptZh": "这个词的中文意思是？",
+      "stem": "じゃあね",
+      "choices": [
+        "回头见（随意）",
+        "失礼了／告辞",
+        "晚安",
+        "初次见面"
+      ],
+      "answer": "回头见（随意）",
+      "audioKey": "audio.lex.w01.jaane",
+      "direction": "jp_to_zh"
+    },
+    {
+      "id": "W01.item.7",
+      "type": "choose_gloss",
+      "lexiconId": "lex.w01.arigatou",
+      "promptZh": "哪个日语对应这个意思？",
+      "stem": "谢谢",
+      "choices": [
+        "はい",
+        "いいえ",
+        "げんき",
+        "ありがとう"
+      ],
+      "answer": "ありがとう",
+      "audioKey": "audio.lex.w01.arigatou",
+      "direction": "zh_to_jp"
+    },
+    {
+      "id": "W01.item.8",
+      "type": "choose_gloss",
+      "lexiconId": "lex.w01.arigatou_gozaimasu",
+      "promptZh": "哪个日语对应这个意思？",
+      "stem": "谢谢（礼貌）",
+      "choices": [
+        "ありがとうございます",
+        "こんばんは",
+        "さようなら",
+        "じゃあね"
+      ],
+      "answer": "ありがとうございます",
+      "audioKey": "audio.lex.w01.arigatou_gozaimasu",
+      "direction": "zh_to_jp"
+    },
+    {
+      "id": "W01.item.9",
+      "type": "choose_gloss",
+      "lexiconId": "lex.w01.sumimasen",
+      "promptZh": "哪个日语对应这个意思？",
+      "stem": "对不起／劳驾",
+      "choices": [
+        "はい",
+        "すみません",
+        "はじめまして",
+        "よろしくおねがいします"
+      ],
+      "answer": "すみません",
+      "audioKey": "audio.lex.w01.sumimasen",
+      "direction": "zh_to_jp"
+    },
+    {
+      "id": "W01.item.10",
+      "type": "listen_choose_word",
+      "lexiconId": "lex.w01.ohayou",
+      "promptZh": "听一听，选出你听到的词",
+      "stem": "",
+      "choices": [
+        "はじめまして",
+        "おはよう",
+        "しつれいします",
+        "おやすみなさい"
+      ],
+      "answer": "おはよう",
+      "audioKey": "audio.lex.w01.ohayou"
+    },
+    {
+      "id": "W01.item.11",
+      "type": "listen_choose_word",
+      "lexiconId": "lex.w01.ohayou_gozaimasu",
+      "promptZh": "听一听，选出你听到的词",
+      "stem": "",
+      "choices": [
+        "おはよう",
+        "こんにちは",
+        "おはようございます",
+        "げんき"
+      ],
+      "answer": "おはようございます",
+      "audioKey": "audio.lex.w01.ohayou_gozaimasu"
+    },
+    {
+      "id": "W01.item.12",
+      "type": "listen_choose_word",
+      "lexiconId": "lex.w01.konnichiwa",
+      "promptZh": "听一听，选出你听到的词",
+      "stem": "",
+      "choices": [
+        "おやすみなさい",
+        "はじめまして",
+        "よろしくおねがいします",
+        "こんにちは"
+      ],
+      "answer": "こんにちは",
+      "audioKey": "audio.lex.w01.konnichiwa"
+    },
+    {
+      "id": "W01.item.13",
+      "type": "order_words",
+      "lexiconId": "",
+      "promptZh": "排成句子（早上好。）",
+      "stem": "早上好。",
+      "chunks": [
+        "おはよう",
+        "ございます"
+      ],
+      "chips": [
+        "こんばんは",
+        "おはよう",
+        "ございます",
+        "こんにちは"
+      ],
+      "answer": "おはよう ございます",
+      "audioKey": "",
+      "sentenceKana": "おはようございます。",
+      "sentenceKanji": "おはようございます。",
+      "sentenceZh": "早上好。"
+    },
+    {
+      "id": "W01.item.14",
+      "type": "order_words",
+      "lexiconId": "",
+      "promptZh": "排成句子（谢谢（礼貌）。）",
+      "stem": "谢谢（礼貌）。",
+      "chunks": [
+        "ありがとう",
+        "ございます"
+      ],
+      "chips": [
+        "ございます",
+        "おはよう",
+        "こんにちは",
+        "ありがとう"
+      ],
+      "answer": "ありがとう ございます",
+      "audioKey": "",
+      "sentenceKana": "ありがとうございます。",
+      "sentenceKanji": "ありがとうございます。",
+      "sentenceZh": "谢谢（礼貌）。"
+    },
+    {
+      "id": "W01.item.15",
+      "type": "order_words",
+      "lexiconId": "",
+      "promptZh": "排成「请多关照」",
+      "stem": "请多关照",
+      "chunks": [
+        "よろしく",
+        "おねがいします"
+      ],
+      "chips": [
+        "こんにちは",
+        "よろしく",
+        "おねがいします",
+        "おはよう"
+      ],
+      "answer": "よろしく おねがいします",
+      "audioKey": "",
+      "sentenceKana": "よろしくおねがいします。",
+      "sentenceKanji": "よろしくお願いします。",
+      "sentenceZh": "请多关照。"
+    }
+  ]
+}

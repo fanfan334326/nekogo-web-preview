@@ -1,0 +1,228 @@
+{
+  "schemaVersion": 1,
+  "id": "W06",
+  "stageId": "stage.words_basic",
+  "order": 6,
+  "title": "W06",
+  "titleZh": "饮食与喜好",
+  "goalZh": "能说想吃／喝什么，点简单餐食，并表达好吃。",
+  "introLemmaIds": [
+    "lex.w06.tabemasu",
+    "lex.w06.nomimasu",
+    "lex.w06.suki",
+    "lex.w06.kirai",
+    "lex.w06.oishii",
+    "lex.w06.oishikunai",
+    "lex.w06.gohan",
+    "lex.w06.pan"
+  ],
+  "sentences": [
+    {
+      "kana": "なにがすきですか。",
+      "kanji": "何が好きですか。",
+      "zh": "你喜欢什么？"
+    },
+    {
+      "kana": "すしがすきです。",
+      "kanji": "寿司が好きです。",
+      "zh": "我喜欢寿司。"
+    },
+    {
+      "kana": "みずをください。",
+      "kanji": "水をください。",
+      "zh": "请给我水。"
+    },
+    {
+      "kana": "おいしいです。",
+      "kanji": "美味しいです。",
+      "zh": "好吃。"
+    },
+    {
+      "kana": "おなかがすきました。",
+      "kanji": "お腹が空きました。",
+      "zh": "我饿了。"
+    }
+  ],
+  "items": [
+    {
+      "id": "W06.item.1",
+      "type": "choose_gloss",
+      "lexiconId": "lex.w06.tabemasu",
+      "promptZh": "这个词的中文意思是？",
+      "stem": "たべます",
+      "choices": [
+        "吃",
+        "肚子",
+        "饿了（空了）",
+        "菜单"
+      ],
+      "answer": "吃",
+      "audioKey": "audio.lex.w06.tabemasu",
+      "direction": "jp_to_zh"
+    },
+    {
+      "id": "W06.item.2",
+      "type": "choose_gloss",
+      "lexiconId": "lex.w06.nomimasu",
+      "promptZh": "这个词的中文意思是？",
+      "stem": "のみます",
+      "choices": [
+        "不好吃",
+        "喝",
+        "讨厌",
+        "好吃"
+      ],
+      "answer": "喝",
+      "audioKey": "audio.lex.w06.nomimasu",
+      "direction": "jp_to_zh"
+    },
+    {
+      "id": "W06.item.3",
+      "type": "choose_gloss",
+      "lexiconId": "lex.w06.suki",
+      "promptZh": "这个词的中文意思是？",
+      "stem": "すき",
+      "choices": [
+        "拜托了／点这个",
+        "吃",
+        "喜欢",
+        "菜单"
+      ],
+      "answer": "喜欢",
+      "audioKey": "audio.lex.w06.suki",
+      "direction": "jp_to_zh"
+    },
+    {
+      "id": "W06.item.4",
+      "type": "choose_gloss",
+      "lexiconId": "lex.w06.kirai",
+      "promptZh": "这个词的中文意思是？",
+      "stem": "きらい",
+      "choices": [
+        "菜单",
+        "拜托了／点这个",
+        "讨厌",
+        "饿了（空了）"
+      ],
+      "answer": "讨厌",
+      "audioKey": "audio.lex.w06.kirai",
+      "direction": "jp_to_zh"
+    },
+    {
+      "id": "W06.item.5",
+      "type": "choose_gloss",
+      "lexiconId": "lex.w06.oishii",
+      "promptZh": "哪个日语对应这个意思？",
+      "stem": "好吃",
+      "choices": [
+        "すきました",
+        "おいしい",
+        "ぎゅうにゅう",
+        "おなか"
+      ],
+      "answer": "おいしい",
+      "audioKey": "audio.lex.w06.oishii",
+      "direction": "zh_to_jp"
+    },
+    {
+      "id": "W06.item.6",
+      "type": "choose_gloss",
+      "lexiconId": "lex.w06.oishikunai",
+      "promptZh": "哪个日语对应这个意思？",
+      "stem": "不好吃",
+      "choices": [
+        "すき",
+        "きらい",
+        "おいしくない",
+        "のみます"
+      ],
+      "answer": "おいしくない",
+      "audioKey": "audio.lex.w06.oishikunai",
+      "direction": "zh_to_jp"
+    },
+    {
+      "id": "W06.item.7",
+      "type": "listen_choose_word",
+      "lexiconId": "lex.w06.tabemasu",
+      "promptZh": "听一听，选出你听到的词",
+      "stem": "",
+      "choices": [
+        "おなか",
+        "すきました",
+        "メニュー",
+        "たべます"
+      ],
+      "answer": "たべます",
+      "audioKey": "audio.lex.w06.tabemasu"
+    },
+    {
+      "id": "W06.item.8",
+      "type": "listen_choose_word",
+      "lexiconId": "lex.w06.nomimasu",
+      "promptZh": "听一听，选出你听到的词",
+      "stem": "",
+      "choices": [
+        "のみます",
+        "きらい",
+        "おいしい",
+        "おいしくない"
+      ],
+      "answer": "のみます",
+      "audioKey": "audio.lex.w06.nomimasu"
+    },
+    {
+      "id": "W06.item.9",
+      "type": "order_words",
+      "lexiconId": "",
+      "promptZh": "排成句子（你喜欢什么？）",
+      "stem": "你喜欢什么？",
+      "chunks": [
+        "なに",
+        "が",
+        "すき",
+        "です",
+        "か"
+      ],
+      "chips": [
+        "か",
+        "たべます",
+        "のみます",
+        "なに",
+        "が",
+        "すき",
+        "です"
+      ],
+      "answer": "なに が すき です か",
+      "audioKey": "",
+      "sentenceKana": "なにがすきですか。",
+      "sentenceKanji": "何が好きですか。",
+      "sentenceZh": "你喜欢什么？"
+    },
+    {
+      "id": "W06.item.10",
+      "type": "order_words",
+      "lexiconId": "",
+      "promptZh": "排成句子（我喜欢寿司。）",
+      "stem": "我喜欢寿司。",
+      "chunks": [
+        "すし",
+        "が",
+        "すき",
+        "です"
+      ],
+      "chips": [
+        "すし",
+        "が",
+        "すき",
+        "です",
+        "たべます",
+        "のみます"
+      ],
+      "answer": "すし が すき です",
+      "audioKey": "",
+      "sentenceKana": "すしがすきです。",
+      "sentenceKanji": "寿司が好きです。",
+      "sentenceZh": "我喜欢寿司。"
+    }
+  ]
+}

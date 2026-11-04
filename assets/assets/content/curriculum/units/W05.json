@@ -1,0 +1,226 @@
+{
+  "schemaVersion": 1,
+  "id": "W05",
+  "stageId": "stage.words_basic",
+  "order": 5,
+  "title": "W05",
+  "titleZh": "购物与点餐",
+  "goalZh": "能在店里问价格、说要这个，并完成简单买卖对话。",
+  "introLemmaIds": [
+    "lex.w05.ikura",
+    "lex.w05.en",
+    "lex.w05.kudasai",
+    "lex.w05.kaimasu",
+    "lex.w05.takai",
+    "lex.w05.yasui",
+    "lex.w05.ookii",
+    "lex.w05.chiisai"
+  ],
+  "sentences": [
+    {
+      "kana": "これはいくらですか。",
+      "kanji": "これはいくらですか。",
+      "zh": "这个多少钱？"
+    },
+    {
+      "kana": "ひゃくえんです。",
+      "kanji": "百円です。",
+      "zh": "一百日元。"
+    },
+    {
+      "kana": "これをください。",
+      "kanji": "これをください。",
+      "zh": "请给我这个。"
+    },
+    {
+      "kana": "ちょっとたかいです。",
+      "kanji": "ちょっと高いです。",
+      "zh": "有点贵。"
+    },
+    {
+      "kana": "やすいですね。",
+      "kanji": "安いですね。",
+      "zh": "好便宜啊。"
+    }
+  ],
+  "items": [
+    {
+      "id": "W05.item.1",
+      "type": "choose_gloss",
+      "lexiconId": "lex.w05.ikura",
+      "promptZh": "这个词的中文意思是？",
+      "stem": "いくら",
+      "choices": [
+        "店员",
+        "顾客",
+        "包",
+        "多少钱"
+      ],
+      "answer": "多少钱",
+      "audioKey": "audio.lex.w05.ikura",
+      "direction": "jp_to_zh"
+    },
+    {
+      "id": "W05.item.2",
+      "type": "choose_gloss",
+      "lexiconId": "lex.w05.en",
+      "promptZh": "这个词的中文意思是？",
+      "stem": "えん",
+      "choices": [
+        "日元",
+        "买",
+        "贵／高",
+        "便宜"
+      ],
+      "answer": "日元",
+      "audioKey": "audio.lex.w05.en",
+      "direction": "jp_to_zh"
+    },
+    {
+      "id": "W05.item.3",
+      "type": "choose_gloss",
+      "lexiconId": "lex.w05.kudasai",
+      "promptZh": "这个词的中文意思是？",
+      "stem": "ください",
+      "choices": [
+        "便宜",
+        "请给我",
+        "买",
+        "贵／高"
+      ],
+      "answer": "请给我",
+      "audioKey": "audio.lex.w05.kudasai",
+      "direction": "jp_to_zh"
+    },
+    {
+      "id": "W05.item.4",
+      "type": "choose_gloss",
+      "lexiconId": "lex.w05.kaimasu",
+      "promptZh": "这个词的中文意思是？",
+      "stem": "かいます",
+      "choices": [
+        "买",
+        "鞋",
+        "衣服",
+        "书"
+      ],
+      "answer": "买",
+      "audioKey": "audio.lex.w05.kaimasu",
+      "direction": "jp_to_zh"
+    },
+    {
+      "id": "W05.item.5",
+      "type": "choose_gloss",
+      "lexiconId": "lex.w05.takai",
+      "promptZh": "哪个日语对应这个意思？",
+      "stem": "贵／高",
+      "choices": [
+        "おきゃくさん",
+        "たかい",
+        "みせ",
+        "てんいん"
+      ],
+      "answer": "たかい",
+      "audioKey": "audio.lex.w05.takai",
+      "direction": "zh_to_jp"
+    },
+    {
+      "id": "W05.item.6",
+      "type": "choose_gloss",
+      "lexiconId": "lex.w05.yasui",
+      "promptZh": "哪个日语对应这个意思？",
+      "stem": "便宜",
+      "choices": [
+        "やすい",
+        "ちいさい",
+        "みせ",
+        "てんいん"
+      ],
+      "answer": "やすい",
+      "audioKey": "audio.lex.w05.yasui",
+      "direction": "zh_to_jp"
+    },
+    {
+      "id": "W05.item.7",
+      "type": "listen_choose_word",
+      "lexiconId": "lex.w05.ikura",
+      "promptZh": "听一听，选出你听到的词",
+      "stem": "",
+      "choices": [
+        "おきゃくさん",
+        "バッグ",
+        "いくら",
+        "てんいん"
+      ],
+      "answer": "いくら",
+      "audioKey": "audio.lex.w05.ikura"
+    },
+    {
+      "id": "W05.item.8",
+      "type": "listen_choose_word",
+      "lexiconId": "lex.w05.en",
+      "promptZh": "听一听，选出你听到的词",
+      "stem": "",
+      "choices": [
+        "かいます",
+        "たかい",
+        "やすい",
+        "えん"
+      ],
+      "answer": "えん",
+      "audioKey": "audio.lex.w05.en"
+    },
+    {
+      "id": "W05.item.9",
+      "type": "order_words",
+      "lexiconId": "",
+      "promptZh": "排成句子（这个多少钱？）",
+      "stem": "这个多少钱？",
+      "chunks": [
+        "これ",
+        "は",
+        "いくら",
+        "です",
+        "か"
+      ],
+      "chips": [
+        "えん",
+        "ください",
+        "これ",
+        "は",
+        "いくら",
+        "です",
+        "か"
+      ],
+      "answer": "これ は いくら です か",
+      "audioKey": "",
+      "sentenceKana": "これはいくらですか。",
+      "sentenceKanji": "これはいくらですか。",
+      "sentenceZh": "这个多少钱？"
+    },
+    {
+      "id": "W05.item.10",
+      "type": "order_words",
+      "lexiconId": "",
+      "promptZh": "排成句子（一百日元。）",
+      "stem": "一百日元。",
+      "chunks": [
+        "ひゃく",
+        "えん",
+        "です"
+      ],
+      "chips": [
+        "いくら",
+        "ください",
+        "ひゃく",
+        "えん",
+        "です"
+      ],
+      "answer": "ひゃく えん です",
+      "audioKey": "",
+      "sentenceKana": "ひゃくえんです。",
+      "sentenceKanji": "百円です。",
+      "sentenceZh": "一百日元。"
+    }
+  ]
+}
