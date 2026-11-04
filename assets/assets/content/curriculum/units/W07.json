@@ -1,0 +1,276 @@
+{
+  "schemaVersion": 1,
+  "id": "W07",
+  "stageId": "stage.words_basic",
+  "jlpt": "n5",
+  "order": 7,
+  "title": "W07",
+  "titleZh": "家居与方位",
+  "goalZh": "能用あります／います说房间里有什么，并用上下左右前后、ここ／そこ／あそこ与行く／来る描述位置与去向。",
+  "introLemmaIds": [
+    "lex.w07.arimasu",
+    "lex.w07.imasu",
+    "lex.w07.heya",
+    "lex.w07.ue",
+    "lex.w07.shita",
+    "lex.w07.migi",
+    "lex.w07.hidari",
+    "lex.w07.ikimasu",
+    "lex.w07.kimasu",
+    "lex.w07.koko"
+  ],
+  "sentences": [
+    {
+      "kana": "へやにテーブルがあります。",
+      "kanji": "部屋にテーブルがあります。",
+      "zh": "房间里有桌子。"
+    },
+    {
+      "kana": "ねこはテーブルのうえです。",
+      "kanji": "猫はテーブルの上です。",
+      "zh": "猫在桌子上。"
+    },
+    {
+      "kana": "がっこうへいきます。",
+      "kanji": "学校へ行きます。",
+      "zh": "我去学校。"
+    }
+  ],
+  "items": [
+    {
+      "id": "W07.item.1",
+      "type": "choose_gloss",
+      "lexiconId": "lex.w07.arimasu",
+      "promptZh": "这个词的中文意思是？",
+      "stem": "あります",
+      "choices": [
+        "家／房子",
+        "里面",
+        "这里",
+        "有（无生命·礼貌）"
+      ],
+      "answer": "有（无生命·礼貌）",
+      "audioKey": "audio.lex.w07.arimasu",
+      "direction": "jp_to_zh"
+    },
+    {
+      "id": "W07.item.2",
+      "type": "choose_gloss",
+      "lexiconId": "lex.w07.imasu",
+      "promptZh": "这个词的中文意思是？",
+      "stem": "います",
+      "choices": [
+        "来（礼貌）",
+        "有／在（有生命·礼貌）",
+        "这里",
+        "后面"
+      ],
+      "answer": "有／在（有生命·礼貌）",
+      "audioKey": "audio.lex.w07.imasu",
+      "direction": "jp_to_zh"
+    },
+    {
+      "id": "W07.item.3",
+      "type": "choose_gloss",
+      "lexiconId": "lex.w07.heya",
+      "promptZh": "这个词的中文意思是？",
+      "stem": "へや",
+      "choices": [
+        "有（无生命·礼貌）",
+        "房间",
+        "椅子",
+        "那里（远处）"
+      ],
+      "answer": "房间",
+      "audioKey": "audio.lex.w07.heya",
+      "direction": "jp_to_zh"
+    },
+    {
+      "id": "W07.item.4",
+      "type": "choose_gloss",
+      "lexiconId": "lex.w07.ue",
+      "promptZh": "这个词的中文意思是？",
+      "stem": "うえ",
+      "choices": [
+        "左",
+        "上面",
+        "前面",
+        "右"
+      ],
+      "answer": "上面",
+      "audioKey": "audio.lex.w07.ue",
+      "direction": "jp_to_zh"
+    },
+    {
+      "id": "W07.item.5",
+      "type": "choose_gloss",
+      "lexiconId": "lex.w07.shita",
+      "promptZh": "这个词的中文意思是？",
+      "stem": "した",
+      "choices": [
+        "床",
+        "有（无生命·礼貌）",
+        "下面",
+        "上面"
+      ],
+      "answer": "下面",
+      "audioKey": "audio.lex.w07.shita",
+      "direction": "jp_to_zh"
+    },
+    {
+      "id": "W07.item.6",
+      "type": "choose_gloss",
+      "lexiconId": "lex.w07.migi",
+      "promptZh": "这个词的中文意思是？",
+      "stem": "みぎ",
+      "choices": [
+        "椅子",
+        "床",
+        "右",
+        "窗户"
+      ],
+      "answer": "右",
+      "audioKey": "audio.lex.w07.migi",
+      "direction": "jp_to_zh"
+    },
+    {
+      "id": "W07.item.7",
+      "type": "choose_gloss",
+      "lexiconId": "lex.w07.hidari",
+      "promptZh": "这个词的中文意思是？",
+      "stem": "ひだり",
+      "choices": [
+        "左",
+        "有／在（有生命·礼貌）",
+        "里面",
+        "在……（存在场所）"
+      ],
+      "answer": "左",
+      "audioKey": "audio.lex.w07.hidari",
+      "direction": "jp_to_zh"
+    },
+    {
+      "id": "W07.item.8",
+      "type": "choose_gloss",
+      "lexiconId": "lex.w07.ikimasu",
+      "promptZh": "这个词的中文意思是？",
+      "stem": "いきます",
+      "choices": [
+        "有／在（有生命·礼貌）",
+        "床",
+        "去（礼貌）",
+        "有（无生命·礼貌）"
+      ],
+      "answer": "去（礼貌）",
+      "audioKey": "audio.lex.w07.ikimasu",
+      "direction": "jp_to_zh"
+    },
+    {
+      "id": "W07.item.9",
+      "type": "choose_gloss",
+      "lexiconId": "lex.w07.arimasu",
+      "promptZh": "哪个假名对应这个意思？",
+      "stem": "有（无生命·礼貌）",
+      "choices": [
+        "あります",
+        "ベッド",
+        "ひだり",
+        "ここ"
+      ],
+      "answer": "あります",
+      "audioKey": "audio.lex.w07.arimasu",
+      "direction": "zh_to_jp"
+    },
+    {
+      "id": "W07.item.10",
+      "type": "listen_choose_word",
+      "lexiconId": "lex.w07.arimasu",
+      "choices": [
+        "いえ",
+        "うしろ",
+        "あります",
+        "に"
+      ],
+      "answer": "あります",
+      "audioKey": "audio.lex.w07.arimasu",
+      "promptZh": "听一听，选出你听到的词",
+      "stem": ""
+    },
+    {
+      "id": "W07.item.11",
+      "type": "listen_choose_word",
+      "lexiconId": "lex.w07.ikimasu",
+      "choices": [
+        "あそこ",
+        "へ",
+        "いきます",
+        "へや"
+      ],
+      "answer": "いきます",
+      "audioKey": "audio.lex.w07.ikimasu",
+      "promptZh": "听一听，选出你听到的词",
+      "stem": ""
+    },
+    {
+      "id": "W07.item.12",
+      "type": "listen_choose_word",
+      "lexiconId": "lex.w07.koko",
+      "choices": [
+        "いす",
+        "へ",
+        "ここ",
+        "なか"
+      ],
+      "answer": "ここ",
+      "audioKey": "audio.lex.w07.koko",
+      "promptZh": "听一听，选出你听到的词",
+      "stem": ""
+    },
+    {
+      "id": "W07.item.13",
+      "type": "order_words",
+      "promptZh": "排成句子（房间里有桌子。）",
+      "stem": "房间里有桌子。",
+      "chunks": [
+        "へや",
+        "に",
+        "テーブル",
+        "が",
+        "あります"
+      ],
+      "chips": [
+        "へや",
+        "に",
+        "テーブル",
+        "が",
+        "あります",
+        "います",
+        "ここ"
+      ],
+      "answer": "へや に テーブル が あります",
+      "sentenceKana": "へやにテーブルがあります。",
+      "sentenceZh": "房间里有桌子。"
+    },
+    {
+      "id": "W07.item.14",
+      "type": "order_words",
+      "promptZh": "排成句子（我去学校。）",
+      "stem": "我去学校。",
+      "chunks": [
+        "がっこう",
+        "へ",
+        "いきます"
+      ],
+      "chips": [
+        "がっこう",
+        "へ",
+        "いきます",
+        "きます",
+        "あそこ"
+      ],
+      "answer": "がっこう へ いきます",
+      "sentenceKana": "がっこうへいきます。",
+      "sentenceZh": "我去学校。"
+    }
+  ]
+}

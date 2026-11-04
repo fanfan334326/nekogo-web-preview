@@ -1,0 +1,278 @@
+{
+  "schemaVersion": 1,
+  "id": "W08",
+  "stageId": "stage.words_basic",
+  "jlpt": "n5",
+  "order": 8,
+  "title": "W08",
+  "titleZh": "交通入门",
+  "goalZh": "能问车站位置、认公交／电车与车票，听懂简单指路（直行／左右）并问交通场景价钱。",
+  "introLemmaIds": [
+    "lex.w08.eki",
+    "lex.w08.basu",
+    "lex.w08.densha",
+    "lex.w08.kippu",
+    "lex.w08.massugu",
+    "lex.w08.migi",
+    "lex.w08.hidari",
+    "lex.w08.magarimasu",
+    "lex.w08.ikura",
+    "lex.w08.norimasu"
+  ],
+  "sentences": [
+    {
+      "kana": "えきはどこですか。",
+      "kanji": "駅はどこですか。",
+      "zh": "车站在哪里？"
+    },
+    {
+      "kana": "みぎにまがってください。",
+      "kanji": "右に曲がってください。",
+      "zh": "请向右转。"
+    },
+    {
+      "kana": "きっぷはいくらですか。",
+      "kanji": "切符はいくらですか。",
+      "zh": "票多少钱？"
+    }
+  ],
+  "items": [
+    {
+      "id": "W08.item.1",
+      "type": "choose_gloss",
+      "lexiconId": "lex.w08.eki",
+      "promptZh": "这个词的中文意思是？",
+      "stem": "えき",
+      "choices": [
+        "车站",
+        "站台",
+        "下车（礼貌）",
+        "一直走／笔直"
+      ],
+      "answer": "车站",
+      "audioKey": "audio.lex.w08.eki",
+      "direction": "jp_to_zh"
+    },
+    {
+      "id": "W08.item.2",
+      "type": "choose_gloss",
+      "lexiconId": "lex.w08.basu",
+      "promptZh": "这个词的中文意思是？",
+      "stem": "バス",
+      "choices": [
+        "转弯（礼貌）",
+        "换乘",
+        "公交车",
+        "出租车"
+      ],
+      "answer": "公交车",
+      "audioKey": "audio.lex.w08.basu",
+      "direction": "jp_to_zh"
+    },
+    {
+      "id": "W08.item.3",
+      "type": "choose_gloss",
+      "lexiconId": "lex.w08.densha",
+      "promptZh": "这个词的中文意思是？",
+      "stem": "でんしゃ",
+      "choices": [
+        "远",
+        "电车",
+        "出租车",
+        "多少钱"
+      ],
+      "answer": "电车",
+      "audioKey": "audio.lex.w08.densha",
+      "direction": "jp_to_zh"
+    },
+    {
+      "id": "W08.item.4",
+      "type": "choose_gloss",
+      "lexiconId": "lex.w08.kippu",
+      "promptZh": "这个词的中文意思是？",
+      "stem": "きっぷ",
+      "choices": [
+        "转弯（礼貌）",
+        "多少钱",
+        "票／车票",
+        "右"
+      ],
+      "answer": "票／车票",
+      "audioKey": "audio.lex.w08.kippu",
+      "direction": "jp_to_zh"
+    },
+    {
+      "id": "W08.item.5",
+      "type": "choose_gloss",
+      "lexiconId": "lex.w08.massugu",
+      "promptZh": "这个词的中文意思是？",
+      "stem": "まっすぐ",
+      "choices": [
+        "一直走／笔直",
+        "多少钱",
+        "哪边／哪个方向",
+        "换乘"
+      ],
+      "answer": "一直走／笔直",
+      "audioKey": "audio.lex.w08.massugu",
+      "direction": "jp_to_zh"
+    },
+    {
+      "id": "W08.item.6",
+      "type": "choose_gloss",
+      "lexiconId": "lex.w08.magarimasu",
+      "promptZh": "这个词的中文意思是？",
+      "stem": "まがります",
+      "choices": [
+        "哪边／哪个方向",
+        "转弯（礼貌）",
+        "一直走／笔直",
+        "路"
+      ],
+      "answer": "转弯（礼貌）",
+      "audioKey": "audio.lex.w08.magarimasu",
+      "direction": "jp_to_zh"
+    },
+    {
+      "id": "W08.item.7",
+      "type": "choose_gloss",
+      "lexiconId": "lex.w08.norimasu",
+      "promptZh": "这个词的中文意思是？",
+      "stem": "のります",
+      "choices": [
+        "地铁",
+        "右",
+        "乘坐（礼貌）",
+        "入口"
+      ],
+      "answer": "乘坐（礼貌）",
+      "audioKey": "audio.lex.w08.norimasu",
+      "direction": "jp_to_zh"
+    },
+    {
+      "id": "W08.item.8",
+      "type": "choose_gloss",
+      "lexiconId": "lex.w08.deguchi",
+      "promptZh": "这个词的中文意思是？",
+      "stem": "でぐち",
+      "choices": [
+        "公交车",
+        "乘坐（礼貌）",
+        "出口",
+        "站台"
+      ],
+      "answer": "出口",
+      "audioKey": "audio.lex.w08.deguchi",
+      "direction": "jp_to_zh"
+    },
+    {
+      "id": "W08.item.9",
+      "type": "choose_gloss",
+      "lexiconId": "lex.w08.eki",
+      "promptZh": "哪个假名对应这个意思？",
+      "stem": "车站",
+      "choices": [
+        "タクシー",
+        "えき",
+        "でんしゃ",
+        "のりかえ"
+      ],
+      "answer": "えき",
+      "audioKey": "audio.lex.w08.eki",
+      "direction": "zh_to_jp"
+    },
+    {
+      "id": "W08.item.10",
+      "type": "listen_choose_word",
+      "lexiconId": "lex.w08.eki",
+      "choices": [
+        "どちら",
+        "おります",
+        "ちかい",
+        "えき"
+      ],
+      "answer": "えき",
+      "audioKey": "audio.lex.w08.eki",
+      "promptZh": "听一听，选出你听到的词",
+      "stem": ""
+    },
+    {
+      "id": "W08.item.11",
+      "type": "listen_choose_word",
+      "lexiconId": "lex.w08.kippu",
+      "choices": [
+        "いりぐち",
+        "きっぷ",
+        "とおい",
+        "まっすぐ"
+      ],
+      "answer": "きっぷ",
+      "audioKey": "audio.lex.w08.kippu",
+      "promptZh": "听一听，选出你听到的词",
+      "stem": ""
+    },
+    {
+      "id": "W08.item.12",
+      "type": "listen_choose_word",
+      "lexiconId": "lex.w08.massugu",
+      "choices": [
+        "まっすぐ",
+        "バス",
+        "えき",
+        "どちら"
+      ],
+      "answer": "まっすぐ",
+      "audioKey": "audio.lex.w08.massugu",
+      "promptZh": "听一听，选出你听到的词",
+      "stem": ""
+    },
+    {
+      "id": "W08.item.13",
+      "type": "order_words",
+      "promptZh": "排成句子（车站在哪里？）",
+      "stem": "车站在哪里？",
+      "chunks": [
+        "えき",
+        "は",
+        "どこ",
+        "です",
+        "か"
+      ],
+      "chips": [
+        "えき",
+        "は",
+        "どこ",
+        "です",
+        "か",
+        "いくら",
+        "バス"
+      ],
+      "answer": "えき は どこ です か",
+      "sentenceKana": "えきはどこですか。",
+      "sentenceZh": "车站在哪里？"
+    },
+    {
+      "id": "W08.item.14",
+      "type": "order_words",
+      "promptZh": "排成句子（请向右转。）",
+      "stem": "请向右转。",
+      "chunks": [
+        "みぎ",
+        "に",
+        "まがって",
+        "ください"
+      ],
+      "chips": [
+        "みぎ",
+        "に",
+        "まがって",
+        "ください",
+        "ひだり",
+        "まっすぐ"
+      ],
+      "answer": "みぎ に まがって ください",
+      "sentenceKana": "みぎにまがってください。",
+      "sentenceZh": "请向右转。"
+    }
+  ]
+}

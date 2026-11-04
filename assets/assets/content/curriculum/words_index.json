@@ -3,7 +3,7 @@
   "stage": {
     "id": "stage.words_basic",
     "title": "基础词句",
-    "titleZh": "问候 → 饮食喜好（W01–W06）"
+    "titleZh": "问候 → 交通入门（W01–W08）"
   },
   "lexiconAsset": "assets/content/curriculum/lexicon.json",
   "units": [
@@ -60,6 +60,24 @@
       "asset": "assets/content/curriculum/units/W06.json",
       "jlpt": "n5",
       "itemCount": 10
+    },
+    {
+      "id": "W07",
+      "order": 7,
+      "title": "W07",
+      "titleZh": "家居与方位",
+      "asset": "assets/content/curriculum/units/W07.json",
+      "jlpt": "n5",
+      "itemCount": 14
+    },
+    {
+      "id": "W08",
+      "order": 8,
+      "title": "W08",
+      "titleZh": "交通入门",
+      "asset": "assets/content/curriculum/units/W08.json",
+      "jlpt": "n5",
+      "itemCount": 14
     }
   ]
 }
