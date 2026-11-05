@@ -1,0 +1,360 @@
+{
+  "schemaVersion": 1,
+  "voice": "ja-JP-NanamiNeural",
+  "rate": "-5%",
+  "generator": "edge-tts",
+  "note": "MVP prerecorded ja-JP clips for web; TTS remains fallback.",
+  "clips": [
+    {
+      "audioKey": "audio.lex.w01.ohayou",
+      "text": "おはよう",
+      "assetPath": "assets/audio/words/w01.ohayou.mp3",
+      "kind": "word",
+      "lexiconId": "lex.w01.ohayou",
+      "sha256": "16b379ca2f5c69358e0b9d3e096417f2afcf19ce8748b36b8a3fb930399ae10a",
+      "bytes": 11232
+    },
+    {
+      "audioKey": "audio.lex.w01.ohayou_gozaimasu",
+      "text": "おはようございます",
+      "assetPath": "assets/audio/words/w01.ohayou_gozaimasu.mp3",
+      "kind": "word",
+      "lexiconId": "lex.w01.ohayou_gozaimasu",
+      "sha256": "cfe7b624fb4c9bc9f5ff5aa8552d4c13e977377055672726a74639139d2c5559",
+      "bytes": 13824
+    },
+    {
+      "audioKey": "audio.lex.w01.konnichiwa",
+      "text": "こんにちは",
+      "assetPath": "assets/audio/words/w01.konnichiwa.mp3",
+      "kind": "word",
+      "lexiconId": "lex.w01.konnichiwa",
+      "sha256": "40fda4bffbdd87d4f418f5271d3693052b2e7fdda4f1c4d21bad3d4601ce7b67",
+      "bytes": 11232
+    },
+    {
+      "audioKey": "audio.lex.w01.konbanwa",
+      "text": "こんばんは",
+      "assetPath": "assets/audio/words/w01.konbanwa.mp3",
+      "kind": "word",
+      "lexiconId": "lex.w01.konbanwa",
+      "sha256": "a8ddaea3f978e53be75dbc05cc2ebf22241f7e8674f51367c0769401fec3ec17",
+      "bytes": 11232
+    },
+    {
+      "audioKey": "audio.lex.w01.sayounara",
+      "text": "さようなら",
+      "assetPath": "assets/audio/words/w01.sayounara.mp3",
+      "kind": "word",
+      "lexiconId": "lex.w01.sayounara",
+      "sha256": "778b2f4c2a6df8f1d9407d32c79b6deb4f430131d70f1ed335a0f4040b85200f",
+      "bytes": 11376
+    },
+    {
+      "audioKey": "audio.lex.w01.jaane",
+      "text": "じゃあね",
+      "assetPath": "assets/audio/words/w01.jaane.mp3",
+      "kind": "word",
+      "lexiconId": "lex.w01.jaane",
+      "sha256": "fc29a008ad77c55fc400ffaa7b2bdcefbd807c989577cb9503d049457fcd1489",
+      "bytes": 11232
+    },
+    {
+      "audioKey": "audio.lex.w01.arigatou",
+      "text": "ありがとう",
+      "assetPath": "assets/audio/words/w01.arigatou.mp3",
+      "kind": "word",
+      "lexiconId": "lex.w01.arigatou",
+      "sha256": "ff416ed3179dc909f2c8354b73c0965dd613e3f444c4b3ba687c02def2887eca",
+      "bytes": 11232
+    },
+    {
+      "audioKey": "audio.lex.w01.arigatou_gozaimasu",
+      "text": "ありがとうございます",
+      "assetPath": "assets/audio/words/w01.arigatou_gozaimasu.mp3",
+      "kind": "word",
+      "lexiconId": "lex.w01.arigatou_gozaimasu",
+      "sha256": "dc74a29ada543b1c45941e5cd092af96a37e165f7ebabf30e0d67a8701ca7426",
+      "bytes": 13968
+    },
+    {
+      "audioKey": "audio.lex.w01.sumimasen",
+      "text": "すみません",
+      "assetPath": "assets/audio/words/w01.sumimasen.mp3",
+      "kind": "word",
+      "lexiconId": "lex.w01.sumimasen",
+      "sha256": "e66a847bacae5663c6ceba8e2b2fc8b8afd85659163e47fb845b869f448b5977",
+      "bytes": 11232
+    },
+    {
+      "audioKey": "audio.lex.w01.shitsurei",
+      "text": "しつれいします",
+      "assetPath": "assets/audio/words/w01.shitsurei.mp3",
+      "kind": "word",
+      "lexiconId": "lex.w01.shitsurei",
+      "sha256": "dca7b888b311a0410a7aa9c2515d70c80bddb7cc1456bb3f7aceafd4ee0db1cf",
+      "bytes": 12384
+    },
+    {
+      "audioKey": "audio.lex.w01.oyasumi",
+      "text": "おやすみなさい",
+      "assetPath": "assets/audio/words/w01.oyasumi.mp3",
+      "kind": "word",
+      "lexiconId": "lex.w01.oyasumi",
+      "sha256": "de1900732a36433616f3077dcd6e67655c9089a736d0bc260bc42f93001efda3",
+      "bytes": 12816
+    },
+    {
+      "audioKey": "audio.lex.w01.hajimemashite",
+      "text": "はじめまして",
+      "assetPath": "assets/audio/words/w01.hajimemashite.mp3",
+      "kind": "word",
+      "lexiconId": "lex.w01.hajimemashite",
+      "sha256": "690e25b148529b298a08ff2ea42b292cb30d47f70fd4e8e7ac6f27a92819b66d",
+      "bytes": 11952
+    },
+    {
+      "audioKey": "audio.lex.w01.yoroshiku",
+      "text": "よろしくおねがいします",
+      "assetPath": "assets/audio/words/w01.yoroshiku.mp3",
+      "kind": "word",
+      "lexiconId": "lex.w01.yoroshiku",
+      "sha256": "d46d951bf691e589fa37b1af1443637f151a8d53bdcde7299afe601199856aed",
+      "bytes": 15408
+    },
+    {
+      "audioKey": "audio.lex.w01.hai",
+      "text": "はい",
+      "assetPath": "assets/audio/words/w01.hai.mp3",
+      "kind": "word",
+      "lexiconId": "lex.w01.hai",
+      "sha256": "a33fca8a1b8cfef2dfb98411250e0c61f8165e0ea6d730ff13db7c72b92b29cd",
+      "bytes": 11232
+    },
+    {
+      "audioKey": "audio.lex.w01.iie",
+      "text": "いいえ",
+      "assetPath": "assets/audio/words/w01.iie.mp3",
+      "kind": "word",
+      "lexiconId": "lex.w01.iie",
+      "sha256": "be3567aaabbf34233e20c48c6aa40b3dd10628f37f1a200c712bba284ef75ef6",
+      "bytes": 11232
+    },
+    {
+      "audioKey": "audio.lex.w01.genki",
+      "text": "げんき",
+      "assetPath": "assets/audio/words/w01.genki.mp3",
+      "kind": "word",
+      "lexiconId": "lex.w01.genki",
+      "sha256": "6e87741e2d8bf0c7cc40ee34314f8f2f0648363122f195856173a46f9a280ebd",
+      "bytes": 11232
+    },
+    {
+      "audioKey": "audio.lex.w02.watashi",
+      "text": "わたし",
+      "assetPath": "assets/audio/words/w02.watashi.mp3",
+      "kind": "word",
+      "lexiconId": "lex.w02.watashi",
+      "sha256": "f6945734ef78d5f3a35a2e89d53f4f4dc758cbd7fc9a18241d2481d015ad2c3f",
+      "bytes": 11232
+    },
+    {
+      "audioKey": "audio.lex.w02.anata",
+      "text": "あなた",
+      "assetPath": "assets/audio/words/w02.anata.mp3",
+      "kind": "word",
+      "lexiconId": "lex.w02.anata",
+      "sha256": "83b44800ac8a1a63861013deaa93d2d6f21c6c8a3fc9a189cbcd66f6c4f72a9f",
+      "bytes": 11232
+    },
+    {
+      "audioKey": "audio.lex.w02.namae",
+      "text": "なまえ",
+      "assetPath": "assets/audio/words/w02.namae.mp3",
+      "kind": "word",
+      "lexiconId": "lex.w02.namae",
+      "sha256": "faa778ba8016102bbab5f8791da0a01fe2f26a0306803091cde13d53d78d2155",
+      "bytes": 11232
+    },
+    {
+      "audioKey": "audio.lex.w02.desu",
+      "text": "です",
+      "assetPath": "assets/audio/words/w02.desu.mp3",
+      "kind": "word",
+      "lexiconId": "lex.w02.desu",
+      "sha256": "ec3e4f07eaf7b5943e700cc16996877c330a8bcdc8f542c11b327aa4e8702295",
+      "bytes": 11232
+    },
+    {
+      "audioKey": "audio.lex.w02.nanijin",
+      "text": "なにじん",
+      "assetPath": "assets/audio/words/w02.nanijin.mp3",
+      "kind": "word",
+      "lexiconId": "lex.w02.nanijin",
+      "sha256": "ff6b225e0b976640a22631b7bd7026e6d909e514f37d171af6b7fcac7b6e7874",
+      "bytes": 11232
+    },
+    {
+      "audioKey": "audio.lex.w02.chuugokujin",
+      "text": "ちゅうごくじん",
+      "assetPath": "assets/audio/words/w02.chuugokujin.mp3",
+      "kind": "word",
+      "lexiconId": "lex.w02.chuugokujin",
+      "sha256": "202d5d48ac560c751ac1e79fc1be7ecda66c05107ca74164b81c2acee58b2cc3",
+      "bytes": 12096
+    },
+    {
+      "audioKey": "audio.lex.w02.nihonjin",
+      "text": "にほんじん",
+      "assetPath": "assets/audio/words/w02.nihonjin.mp3",
+      "kind": "word",
+      "lexiconId": "lex.w02.nihonjin",
+      "sha256": "4c325ce202a409a51b7dc914829162f84db1de19211b2c3b5615f671b31f7355",
+      "bytes": 11232
+    },
+    {
+      "audioKey": "audio.lex.w02.amerikajin",
+      "text": "アメリカじん",
+      "assetPath": "assets/audio/words/w02.amerikajin.mp3",
+      "kind": "word",
+      "lexiconId": "lex.w02.amerikajin",
+      "sha256": "1ec9e3851589125555b1ca31b1adf4f411ed380ec7c4d0a2f79ae7231ffe27e6",
+      "bytes": 11520
+    },
+    {
+      "audioKey": "audio.lex.w02.kankokujin",
+      "text": "かんこくじん",
+      "assetPath": "assets/audio/words/w02.kankokujin.mp3",
+      "kind": "word",
+      "lexiconId": "lex.w02.kankokujin",
+      "sha256": "bd307b4460b70e80d0a88b53f5e918dfc11dad39eb9ca388b3d1e64e4f9cc557",
+      "bytes": 11520
+    },
+    {
+      "audioKey": "audio.lex.w02.gakusei",
+      "text": "がくせい",
+      "assetPath": "assets/audio/words/w02.gakusei.mp3",
+      "kind": "word",
+      "lexiconId": "lex.w02.gakusei",
+      "sha256": "bac92798c48a985ccc93d51ed965bcefd81def2b40a7858e9d258113c53adc25",
+      "bytes": 11232
+    },
+    {
+      "audioKey": "audio.lex.w02.sensei",
+      "text": "せんせい",
+      "assetPath": "assets/audio/words/w02.sensei.mp3",
+      "kind": "word",
+      "lexiconId": "lex.w02.sensei",
+      "sha256": "81b1c36f82d8da9ef064341d065ca437c21fe75ff25cffb0ba380f911586c28a",
+      "bytes": 11232
+    },
+    {
+      "audioKey": "audio.lex.w02.kaishain",
+      "text": "かいしゃいん",
+      "assetPath": "assets/audio/words/w02.kaishain.mp3",
+      "kind": "word",
+      "lexiconId": "lex.w02.kaishain",
+      "sha256": "9e6903e1be55a3af0a76279982f7a566449217dfc8f238e3c28bd6171f968b69",
+      "bytes": 11232
+    },
+    {
+      "audioKey": "audio.lex.w02.isha",
+      "text": "いしゃ",
+      "assetPath": "assets/audio/words/w02.isha.mp3",
+      "kind": "word",
+      "lexiconId": "lex.w02.isha",
+      "sha256": "a7e4e1d763a23ab5b382a21e71238ed6e8290797c9c441d2c48293336f3bcf32",
+      "bytes": 11232
+    },
+    {
+      "audioKey": "audio.lex.w02.kengaku",
+      "text": "けんきゅうしゃ",
+      "assetPath": "assets/audio/words/w02.kengaku.mp3",
+      "kind": "word",
+      "lexiconId": "lex.w02.kengaku",
+      "sha256": "4de0d73e7ead726da8b25dd63d56a2760407212e4e65703d21c28f37e82f976c",
+      "bytes": 11520
+    },
+    {
+      "audioKey": "audio.lex.w02.san",
+      "text": "さん",
+      "assetPath": "assets/audio/words/w02.san.mp3",
+      "kind": "word",
+      "lexiconId": "lex.w02.san",
+      "sha256": "b6f4264cbef494026c6925a6ed3ace57fbe73c2da89202f1e0c5ab8c2289acaa",
+      "bytes": 11232
+    },
+    {
+      "audioKey": "audio.lex.w02.kara",
+      "text": "から",
+      "assetPath": "assets/audio/words/w02.kara.mp3",
+      "kind": "word",
+      "lexiconId": "lex.w02.kara",
+      "sha256": "8ca7a035e834a5f25bfd69e841cdea83a3d7383dcf202fa14bfbe3d078e292a1",
+      "bytes": 11232
+    },
+    {
+      "audioKey": "audio.lex.w02.kimashita",
+      "text": "きました",
+      "assetPath": "assets/audio/words/w02.kimashita.mp3",
+      "kind": "word",
+      "lexiconId": "lex.w02.kimashita",
+      "sha256": "06fced4f2657088ebc6ce280004d09f4bf384d97bdb23a98c28c81897e97859a",
+      "bytes": 11232
+    },
+    {
+      "audioKey": "audio.lex.w02.daigaku",
+      "text": "だいがく",
+      "assetPath": "assets/audio/words/w02.daigaku.mp3",
+      "kind": "word",
+      "lexiconId": "lex.w02.daigaku",
+      "sha256": "c2c2d03df03738161067a2cc53d6104ca7eb148b4f728dffd175b458a63679dc",
+      "bytes": 11232
+    },
+    {
+      "audioKey": "audio.hira.a",
+      "text": "あ",
+      "assetPath": "assets/audio/kana/hira.a.mp3",
+      "kind": "kana",
+      "knowledgePointId": "kp.hira.a",
+      "sha256": "9566c4305cf49d65905529fca3e1488daca341a839acd02491833ac7ce3bc7c0",
+      "bytes": 11232
+    },
+    {
+      "audioKey": "audio.hira.i",
+      "text": "い",
+      "assetPath": "assets/audio/kana/hira.i.mp3",
+      "kind": "kana",
+      "knowledgePointId": "kp.hira.i",
+      "sha256": "4139fdb777c42c28391b817b2ead9430c9a715cdd00dbbe9224b49dab0e1c582",
+      "bytes": 11232
+    },
+    {
+      "audioKey": "audio.hira.u",
+      "text": "う",
+      "assetPath": "assets/audio/kana/hira.u.mp3",
+      "kind": "kana",
+      "knowledgePointId": "kp.hira.u",
+      "sha256": "27bb842c1c93432c32998fa89a84a4b3accdd843380f7ca0a194abef3ed36f3e",
+      "bytes": 11232
+    },
+    {
+      "audioKey": "audio.hira.e",
+      "text": "え",
+      "assetPath": "assets/audio/kana/hira.e.mp3",
+      "kind": "kana",
+      "knowledgePointId": "kp.hira.e",
+      "sha256": "29c9ae16021d912d98b30a37da767e4b0f7aa9d0c132ec70a6f1cbd4aa304b92",
+      "bytes": 11232
+    },
+    {
+      "audioKey": "audio.hira.o",
+      "text": "お",
+      "assetPath": "assets/audio/kana/hira.o.mp3",
+      "kind": "kana",
+      "knowledgePointId": "kp.hira.o",
+      "sha256": "eb5a251cdad0049a3a7d556919bb8e7ff70b0f21cd62d59e89bf779999194903",
+      "bytes": 11232
+    }
+  ]
+}
