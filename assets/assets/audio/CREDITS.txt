@@ -1,0 +1,6 @@
+HTS Voice Mei, released by MMDAgent Project Team.
+Copyright (c) 2009-2013 Nagoya Institute of Technology, Department of Computer Science.
+Voice source: https://raw.githubusercontent.com/r9y9/pyopenjtalk/master/pyopenjtalk/htsvoice/LICENSE_mei_normal.htsvoice
+License: CC BY 3.0 https://creativecommons.org/licenses/by/3.0/
+Changes: synthesized course text at speed 0.95, normalized level, encoded as 64 kbps mono MP3.
+The voice model is not distributed. Pronunciation review pending.
