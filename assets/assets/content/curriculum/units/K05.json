@@ -13,7 +13,7 @@
       "romaji": "na",
       "audioKey": "audio.kata.na",
       "confusableIds": [],
-      "tipZh": "片假名 ナ 两笔：撇、竖钩——像「刀」但那一笔是竖钩不是横折钩。"
+      "tipZh": "ナ 有两笔：先横，再写穿过横的撇；没有竖钩。"
     },
     {
       "id": "kp.kata.ni",
@@ -21,7 +21,7 @@
       "romaji": "ni",
       "audioKey": "audio.kata.ni",
       "confusableIds": [],
-      "tipZh": "片假名 ニ 就是汉字「二」：上横短、下横长。"
+      "tipZh": "ニ 有两笔：上横短、下横长；读 ni，不读汉语的“二”。"
     },
     {
       "id": "kp.kata.nu",
@@ -29,7 +29,7 @@
       "romaji": "nu",
       "audioKey": "audio.kata.nu",
       "confusableIds": ["kp.kata.su"],
-      "tipZh": "片假名 ヌ 和「メ」同形、多右下一点圈：有圈念 nu，没圈念 me。"
+      "tipZh": "ヌ 有两笔：横折后向左下撇，再从中部向右下写一捺；两笔交叉，没有小圈。"
     },
     {
       "id": "kp.kata.ne",
@@ -37,7 +37,7 @@
       "romaji": "ne",
       "audioKey": "audio.kata.ne",
       "confusableIds": [],
-      "tipZh": "片假名 ネ 三笔：横折、竖、底横——像把「几」加上一横托盘。"
+      "tipZh": "ネ 有四笔：上点、横折撇、竖、右下点；没有底横。"
     },
     {
       "id": "kp.kata.no",
@@ -45,7 +45,7 @@
       "romaji": "no",
       "audioKey": "audio.kata.no",
       "confusableIds": [],
-      "tipZh": "片假名 ノ 只有一笔：从右上到左下的长撇，一鼓作气不带钩。"
+      "tipZh": "ノ 只有一笔：从右上向左下写长撇，不带钩。"
     }
   ],
   "teach": [
@@ -55,13 +55,13 @@
       "knowledgePointId": "kp.kata.na",
       "promptZh": "片假名 ナ，罗马音 na。",
       "audioKey": "audio.kata.na",
-      "noteZh": "ナ 来自「那」的左耳刀侧写：先撇、后竖钩。"
+      "noteZh": "ナ 有两笔：先横，再写穿过横的撇；没有竖钩。"
     },
     {
       "id": "K05.teach.2",
       "type": "listen",
       "knowledgePointId": "kp.kata.na",
-      "promptZh": "点喇叭听 ナ：舌尖顶上去的「哪」。",
+      "promptZh": "点喇叭听 ナ，跟着读 na。",
       "audioKey": "audio.kata.na"
     },
     {
@@ -70,20 +70,20 @@
       "knowledgePointId": "kp.kata.ni",
       "promptZh": "第二个：ニ，罗马音 ni。",
       "audioKey": "audio.kata.ni",
-      "noteZh": "ニ = 汉字「二」，好记；「ニ十」的ニ就是它。"
+      "noteZh": "ニ 有两笔：上横短、下横长；读 ni，不读汉语的“二”。"
     },
     {
       "id": "K05.teach.4",
       "type": "listen",
       "knowledgePointId": "kp.kata.ni",
-      "promptZh": "听 ニ：鼻音 n 起头的「尼」。",
+      "promptZh": "点喇叭听 ニ，跟着读 ni。",
       "audioKey": "audio.kata.ni"
     },
     {
       "id": "K05.teach.5",
       "type": "compare",
       "knowledgePointId": "kp.kata.nu",
-      "promptZh": "对比 ヌ / ス：两个都有撇横；ヌ 右下方多绕一个小圈。"
+      "promptZh": "对比 ヌ / ス：ヌ 的两笔在中部交叉，ス 的右下笔从折撇中部向外展开；两字都没有小圈。"
     },
     {
       "id": "K05.teach.6",
@@ -91,13 +91,13 @@
       "knowledgePointId": "kp.kata.nu",
       "promptZh": "第三个：ヌ，罗马音 nu。",
       "audioKey": "audio.kata.nu",
-      "noteZh": "圈要贴着横的末端写，写成独立一团就变另一个字了。"
+      "noteZh": "ヌ 有两笔：横折后向左下撇，再从中部向右下写一捺；两笔交叉，没有小圈。"
     },
     {
       "id": "K05.teach.7",
       "type": "listen",
       "knowledgePointId": "kp.kata.nu",
-      "promptZh": "听 ヌ：鼻音起头的「努」。",
+      "promptZh": "点喇叭听 ヌ，跟着读 nu。",
       "audioKey": "audio.kata.nu"
     },
     {
@@ -106,13 +106,13 @@
       "knowledgePointId": "kp.kata.ne",
       "promptZh": "第四个：ネ，罗马音 ne。",
       "audioKey": "audio.kata.ne",
-      "noteZh": "ネ 的竖要出头一点点，底横托住整字。"
+      "noteZh": "ネ 有四笔：上点、横折撇、竖、右下点；没有底横。"
     },
     {
       "id": "K05.teach.9",
       "type": "listen",
       "knowledgePointId": "kp.kata.ne",
-      "promptZh": "听 ネ：鼻音起头的「捏」前段。",
+      "promptZh": "点喇叭听 ネ，跟着读 ne。",
       "audioKey": "audio.kata.ne"
     },
     {
@@ -121,21 +121,21 @@
       "knowledgePointId": "kp.kata.no",
       "promptZh": "第五个：ノ，罗马音 no。",
       "audioKey": "audio.kata.no",
-      "noteZh": "ノ 一笔长撇，是片假名里最简单的字之一。"
+      "noteZh": "ノ 只有一笔：从右上向左下写长撇，不带钩。"
     },
     {
       "id": "K05.teach.11",
       "type": "listen",
       "knowledgePointId": "kp.kata.no",
-      "promptZh": "听 ノ：圆唇「诺」。",
+      "promptZh": "点喇叭听 ノ，跟着读 no。",
       "audioKey": "audio.kata.no"
     },
     {
       "id": "K05.teach.12",
       "type": "stroke_hint",
       "knowledgePointId": "kp.kata.nu",
-      "promptZh": "看笔顺：ヌ 一共 3 笔。",
-      "noteZh": "① 竖撇；② 长横；③ 从横的右端起笔绕一个小圈收回。圈要小、贴笔。"
+      "promptZh": "看笔顺：ヌ 一共 2 笔。",
+      "noteZh": "① 横折后向左下撇；② 从中部向右下写捺，两笔交叉。不要绕圈。"
     }
   ],
   "practice": [
@@ -226,7 +226,7 @@
       "id": "er.kata.nu.shape_su",
       "knowledgePointId": "kp.kata.nu",
       "wrongChoice": "ス",
-      "explainZh": "看漏小圈了：ス 只有撇和横；ヌ 在右末端多绕一个圈，念 nu。",
+      "explainZh": "ヌ 的两笔在中部交叉；ス 的右下笔从折撇中部向外展开。两字都没有小圈，ヌ 读 nu。",
       "correctAudioKey": "audio.kata.nu",
       "confuseWith": "kp.kata.su"
     },
@@ -234,7 +234,7 @@
       "id": "er.kata.nu.sound_su",
       "knowledgePointId": "kp.kata.nu",
       "wrongChoice": "su",
-      "explainZh": "听混了：nu 起头是鼻腔的 n，su 起头是齿缝的 s；先哼一下再接 u 就是 nu。",
+      "explainZh": "nu 以鼻音 n 起头，su 以摩擦音 s 起头。再听一遍，留意起音。",
       "correctAudioKey": "audio.kata.nu",
       "confuseWith": "kp.kata.su"
     }

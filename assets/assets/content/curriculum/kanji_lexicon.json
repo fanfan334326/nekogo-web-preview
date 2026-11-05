@@ -55,17 +55,17 @@
       "id": "kp.kanji.04.shi",
       "glyph": "四",
       "onyomi": [
-        "し",
-        "よん"
+        "し"
       ],
       "kunyomi": [
         "よ",
+        "よん",
         "よっつ"
       ],
       "glossZh": "四",
       "audioKey": "audio.kp.kanji.04.shi",
       "tags": "theme:number jlpt:n5",
-      "notesZh": "音读し／よん；训读よ／よっつ",
+      "notesZh": "音读し；训读よ／よん／よっつ",
       "unitId": "H01"
     },
     {
@@ -104,8 +104,7 @@
       "id": "kp.kanji.07.shichi",
       "glyph": "七",
       "onyomi": [
-        "しち",
-        "なな"
+        "しち"
       ],
       "kunyomi": [
         "なな",
@@ -114,7 +113,7 @@
       "glossZh": "七",
       "audioKey": "audio.kp.kanji.07.shichi",
       "tags": "theme:number jlpt:n5",
-      "notesZh": "音读しち／なな；训读なな／ななつ",
+      "notesZh": "音读しち；训读なな／ななつ",
       "unitId": "H01"
     },
     {

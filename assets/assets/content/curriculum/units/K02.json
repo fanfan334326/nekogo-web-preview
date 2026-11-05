@@ -13,7 +13,7 @@
       "romaji": "ka",
       "audioKey": "audio.kata.ka",
       "confusableIds": ["kp.kata.ke"],
-      "tipZh": "片假名 カ 来自汉字「加」的左半：横折钩里加一撇，两笔写完。"
+      "tipZh": "カ 有两笔：横折钩和撇；撇从上方向左下穿过横。"
     },
     {
       "id": "kp.kata.ki",
@@ -21,7 +21,7 @@
       "romaji": "ki",
       "audioKey": "audio.kata.ki",
       "confusableIds": [],
-      "tipZh": "片假名 キ 像汉字「木」少了撇捺：两横一竖一钩，竖要向下出头。"
+      "tipZh": "キ 有三笔：两横，再写穿过两横的斜竖；不要另加钩。"
     },
     {
       "id": "kp.kata.ku",
@@ -29,7 +29,7 @@
       "romaji": "ku",
       "audioKey": "audio.kata.ku",
       "confusableIds": ["kp.kata.ko"],
-      "tipZh": "片假名 ク 是打开的「人」字头上缺一笔：横折加一捺，和平假名「く」几乎同形。"
+      "tipZh": "ク 有两笔：先写短撇，再写横折后向左下的长撇；右侧是斜线。"
     },
     {
       "id": "kp.kata.ke",
@@ -37,7 +37,7 @@
       "romaji": "ke",
       "audioKey": "audio.kata.ke",
       "confusableIds": [],
-      "tipZh": "片假名 ケ 就是汉字「又」少一点的样子：横撇加捺，两笔。"
+      "tipZh": "ケ 有三笔：短撇、横、撇；第一笔在左上，第三笔从横的中部向左下落。"
     },
     {
       "id": "kp.kata.ko",
@@ -45,7 +45,7 @@
       "romaji": "ko",
       "audioKey": "audio.kata.ko",
       "confusableIds": ["kp.kata.ku"],
-      "tipZh": "片假名 コ 两笔一横一竖钩，「咖啡」的「珈」右半；比 ク 少了斜捺。"
+      "tipZh": "コ 有两笔：先写横折，再写底横；左侧开口，右侧方正。"
     }
   ],
   "teach": [
@@ -55,13 +55,13 @@
       "knowledgePointId": "kp.kata.ka",
       "promptZh": "片假名 カ，罗马音 ka。",
       "audioKey": "audio.kata.ka",
-      "noteZh": "カ 取自「加」：力字旁那一撇穿出就是カ。"
+      "noteZh": "カ 有两笔：横折钩和撇；撇从上方向左下穿过横。"
     },
     {
       "id": "K02.teach.2",
       "type": "listen",
       "knowledgePointId": "kp.kata.ka",
-      "promptZh": "点喇叭听 カ：清脆的「卡」。",
+      "promptZh": "点喇叭听 カ，跟着读 ka。",
       "audioKey": "audio.kata.ka"
     },
     {
@@ -70,13 +70,13 @@
       "knowledgePointId": "kp.kata.ki",
       "promptZh": "第二个：キ，罗马音 ki。",
       "audioKey": "audio.kata.ki",
-      "noteZh": "キ 四笔：横、横、竖、提钩；上横短、下横长。"
+      "noteZh": "キ 有三笔：两横，再写穿过两横的斜竖；不要另加钩。"
     },
     {
       "id": "K02.teach.4",
       "type": "listen",
       "knowledgePointId": "kp.kata.ki",
-      "promptZh": "听 キ：扁唇「衣」前加 k。",
+      "promptZh": "点喇叭听 キ，跟着读 ki。",
       "audioKey": "audio.kata.ki"
     },
     {
@@ -85,20 +85,20 @@
       "knowledgePointId": "kp.kata.ku",
       "promptZh": "第三个：ク，罗马音 ku。",
       "audioKey": "audio.kata.ku",
-      "noteZh": "ク 与平假名 く 形近，都是张开的嘴形。"
+      "noteZh": "ク 有两笔：先写短撇，再写横折后向左下的长撇；右侧是斜线。"
     },
     {
       "id": "K02.teach.6",
       "type": "listen",
       "knowledgePointId": "kp.kata.ku",
-      "promptZh": "听 ク：松唇的「乌」加 k。",
+      "promptZh": "点喇叭听 ク，跟着读 ku。",
       "audioKey": "audio.kata.ku"
     },
     {
       "id": "K02.teach.7",
       "type": "compare",
       "knowledgePointId": "kp.kata.ku",
-      "promptZh": "对比 ク / コ：ク 右边有一斜捺撑开；コ 只有横和竖钩，四面收得方。"
+      "promptZh": "对比 ク / コ：ク 右侧斜向左下，コ 右侧竖直、下方有底横。"
     },
     {
       "id": "K02.teach.8",
@@ -106,13 +106,13 @@
       "knowledgePointId": "kp.kata.ke",
       "promptZh": "第四个：ケ，罗马音 ke。",
       "audioKey": "audio.kata.ke",
-      "noteZh": "ケ 像「又」但第二笔不穿头；和「ア」的区别是ケ 两笔交叉。"
+      "noteZh": "ケ 有三笔：短撇、横、撇；第一笔在左上，第三笔从横的中部向左下落。"
     },
     {
       "id": "K02.teach.9",
       "type": "listen",
       "knowledgePointId": "kp.kata.ke",
-      "promptZh": "听 ケ：短促的「凯」。",
+      "promptZh": "点喇叭听 ケ，跟着读 ke。",
       "audioKey": "audio.kata.ke"
     },
     {
@@ -121,13 +121,13 @@
       "knowledgePointId": "kp.kata.ko",
       "promptZh": "第五个：コ，罗马音 ko。",
       "audioKey": "audio.kata.ko",
-      "noteZh": "コ 来自「古」的上半：一横一竖钩收笔。"
+      "noteZh": "コ 有两笔：先写横折，再写底横；左侧开口，右侧方正。"
     },
     {
       "id": "K02.teach.11",
       "type": "listen",
       "knowledgePointId": "kp.kata.ko",
-      "promptZh": "听 コ：圆唇「阔」的前半。",
+      "promptZh": "点喇叭听 コ，跟着读 ko。",
       "audioKey": "audio.kata.ko"
     },
     {
@@ -135,7 +135,7 @@
       "type": "stroke_hint",
       "knowledgePointId": "kp.kata.ka",
       "promptZh": "看笔顺：カ 一共 2 笔。",
-      "noteZh": "① 横折钩一笔成形；② 中间那一撇从上方插入、穿过折钩。撇出头才算写对。"
+      "noteZh": "① 横折钩；② 从上方向左下写撇，穿过横。"
     }
   ],
   "practice": [
@@ -217,7 +217,7 @@
       "id": "er.kata.ku.shape_ko",
       "knowledgePointId": "kp.kata.ku",
       "wrongChoice": "コ",
-      "explainZh": "字形混了：コ 没有右侧斜捺；ク 的那一捺把「屋顶」撑开了。",
+      "explainZh": "ク 右侧是向左下的斜线；コ 右侧竖直，下方还有底横。",
       "correctAudioKey": "audio.kata.ku",
       "confuseWith": "kp.kata.ko"
     },
@@ -225,7 +225,7 @@
       "id": "er.kata.ko.shape_ku",
       "knowledgePointId": "kp.kata.ko",
       "wrongChoice": "ku",
-      "explainZh": "コ 收得方正、两笔（横+竖钩）就是 ko；看到撑开的斜捺才念 ku。",
+      "explainZh": "コ 右侧竖直，下方有底横，左侧开口；ク 右侧向左下倾斜。",
       "correctAudioKey": "audio.kata.ko",
       "confuseWith": "kp.kata.ku"
     }
