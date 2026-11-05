@@ -1,0 +1,567 @@
+{
+  "schema": "draft.n4_09.course.v1",
+  "unit": "N4-09",
+  "theme": "朋友与社交",
+  "status": {
+    "publication": "draft",
+    "language_review": "pending",
+    "teaching_review": "pending",
+    "rights_review": "pending",
+    "audio": "not_produced",
+    "audio_review": "pending",
+    "listening_score": "blocked",
+    "speaking_writing": "human_only",
+    "runtime_verification": "not_run",
+    "app_integration": "not_integrated"
+  },
+  "words": [
+    {
+      "id": "draft.n4_09.word.1",
+      "forms": "誘い（さそい）",
+      "meaning_zh": "邀约",
+      "source": "AI_original_draft"
+    },
+    {
+      "id": "draft.n4_09.word.2",
+      "forms": "都合（つごう）",
+      "meaning_zh": "时间安排",
+      "source": "AI_original_draft"
+    },
+    {
+      "id": "draft.n4_09.word.3",
+      "forms": "留守（るす）",
+      "meaning_zh": "不在",
+      "source": "AI_original_draft"
+    },
+    {
+      "id": "draft.n4_09.word.4",
+      "forms": "伝言（でんごん）",
+      "meaning_zh": "留言",
+      "source": "AI_original_draft"
+    }
+  ],
+  "lessons": [
+    {
+      "id": "draft.n4_09.lesson.v",
+      "planning_key": "N4-09-L01",
+      "type": "V",
+      "title": "朋友与社交的关键词",
+      "prerequisites": [],
+      "goals": [
+        {
+          "id": "draft.n4_09.lesson.v.goal",
+          "text": "朋友与社交的关键词"
+        }
+      ],
+      "word_refs": [
+        "draft.n4_09.word.1",
+        "draft.n4_09.word.2",
+        "draft.n4_09.word.3",
+        "draft.n4_09.word.4"
+      ],
+      "explanation_zh": "「伝言」的「伝」是传达，「言」在这个词里读「ごん」。「伝言をお願いします」是请人转达留言。",
+      "materials": [
+        {
+          "id": "draft.n4_09.lesson.v.mat.practice1",
+          "role": "practice1",
+          "jp": "誘い"
+        },
+        {
+          "id": "draft.n4_09.lesson.v.mat.practice3",
+          "role": "practice3",
+          "jp": "留守"
+        },
+        {
+          "id": "draft.n4_09.lesson.v.mat.check2",
+          "role": "check2",
+          "jp": "都合"
+        },
+        {
+          "id": "draft.n4_09.lesson.v.mat.check4",
+          "role": "check4",
+          "jp": "伝言"
+        },
+        {
+          "id": "draft.n4_09.lesson.v.kanji-reading",
+          "role": "practice",
+          "jp": "伝言",
+          "goal_refs": [
+            "draft.n4_09.lesson.v.goal"
+          ]
+        }
+      ],
+      "practice": [
+        {
+          "id": "draft.n4_09.lesson.v.mat.practice1.q1",
+          "material_ref": "draft.n4_09.lesson.v.mat.practice1",
+          "goal_ref": "draft.n4_09.lesson.v.goal",
+          "word_refs": [
+            "draft.n4_09.word.1",
+            "draft.n4_09.word.2",
+            "draft.n4_09.word.3",
+            "draft.n4_09.word.4"
+          ],
+          "prompt": "这个词的意思是什么？",
+          "choices": [
+            "邀约",
+            "时间安排",
+            "不在"
+          ],
+          "answer": "邀约",
+          "feedback": "誘い（さそい），意思是「邀约」。"
+        },
+        {
+          "id": "draft.n4_09.lesson.v.mat.practice3.q1",
+          "material_ref": "draft.n4_09.lesson.v.mat.practice3",
+          "goal_ref": "draft.n4_09.lesson.v.goal",
+          "word_refs": [
+            "draft.n4_09.word.1",
+            "draft.n4_09.word.2",
+            "draft.n4_09.word.3",
+            "draft.n4_09.word.4"
+          ],
+          "prompt": "这个词的意思是什么？",
+          "choices": [
+            "邀约",
+            "不在",
+            "留言"
+          ],
+          "answer": "不在",
+          "feedback": "留守（るす），意思是「不在」。"
+        },
+        {
+          "id": "draft.n4_09.lesson.v.kanji-reading.q1",
+          "material_ref": "draft.n4_09.lesson.v.kanji-reading",
+          "goal_ref": "draft.n4_09.lesson.v.goal",
+          "word_refs": [
+            "draft.n4_09.word.4"
+          ],
+          "prompt": "这个词怎么读？",
+          "choices": [
+            "でんげん",
+            "てんごん",
+            "でんごん"
+          ],
+          "answer": "でんごん",
+          "feedback": "「伝言」的「伝」是传达，「言」在这个词里读「ごん」。「伝言をお願いします」是请人转达留言。"
+        }
+      ],
+      "check": [
+        {
+          "id": "draft.n4_09.lesson.v.mat.check2.q1",
+          "material_ref": "draft.n4_09.lesson.v.mat.check2",
+          "goal_ref": "draft.n4_09.lesson.v.goal",
+          "word_refs": [
+            "draft.n4_09.word.1",
+            "draft.n4_09.word.2",
+            "draft.n4_09.word.3",
+            "draft.n4_09.word.4"
+          ],
+          "prompt": "这个词的意思是什么？",
+          "choices": [
+            "不在",
+            "留言",
+            "时间安排"
+          ],
+          "answer": "时间安排",
+          "feedback": "都合（つごう），意思是「时间安排」。"
+        },
+        {
+          "id": "draft.n4_09.lesson.v.mat.check4.q1",
+          "material_ref": "draft.n4_09.lesson.v.mat.check4",
+          "goal_ref": "draft.n4_09.lesson.v.goal",
+          "word_refs": [
+            "draft.n4_09.word.1",
+            "draft.n4_09.word.2",
+            "draft.n4_09.word.3",
+            "draft.n4_09.word.4"
+          ],
+          "prompt": "这个词的意思是什么？",
+          "choices": [
+            "留言",
+            "邀约",
+            "时间安排"
+          ],
+          "answer": "留言",
+          "feedback": "伝言（でんごん），意思是「留言」。"
+        }
+      ]
+    },
+    {
+      "id": "draft.n4_09.lesson.g",
+      "planning_key": "N4-09-L02",
+      "type": "G",
+      "title": "〜てくれました・〜てあげました",
+      "prerequisites": [
+        "N4-09-L01"
+      ],
+      "goals": [
+        {
+          "id": "draft.n4_09.lesson.g.goal",
+          "text": "〜てくれました・〜てあげました"
+        }
+      ],
+      "word_refs": [
+        "draft.n4_09.word.1",
+        "draft.n4_09.word.2",
+        "draft.n4_09.word.3",
+        "draft.n4_09.word.4"
+      ],
+      "explanation_zh": "从说话者角度描述帮助。「友達が〜てくれた」是朋友为我或我方做；「私が友達に〜てあげた」是我为朋友做。",
+      "materials": [
+        {
+          "id": "draft.n4_09.lesson.g.mat.teach",
+          "role": "teach",
+          "jp": "友達が駅まで迎えに来てくれました。"
+        },
+        {
+          "id": "draft.n4_09.lesson.g.mat.practice",
+          "role": "practice",
+          "jp": "私は友達に写真を送ってあげました。"
+        },
+        {
+          "id": "draft.n4_09.lesson.g.mat.check",
+          "role": "check",
+          "jp": "山田さんが私に本を貸して＿。"
+        }
+      ],
+      "practice": [
+        {
+          "id": "draft.n4_09.lesson.g.mat.practice.q1",
+          "material_ref": "draft.n4_09.lesson.g.mat.practice",
+          "goal_ref": "draft.n4_09.lesson.g.goal",
+          "word_refs": [
+            "draft.n4_09.word.1",
+            "draft.n4_09.word.2",
+            "draft.n4_09.word.3",
+            "draft.n4_09.word.4"
+          ],
+          "prompt": "谁发送了照片？",
+          "choices": [
+            "双方都发送",
+            "说话人",
+            "朋友"
+          ],
+          "answer": "说话人",
+          "feedback": "正确答案是「说话人」。原句：私は友達に写真を送ってあげました。"
+        }
+      ],
+      "check": [
+        {
+          "id": "draft.n4_09.lesson.g.mat.check.q1",
+          "material_ref": "draft.n4_09.lesson.g.mat.check",
+          "goal_ref": "draft.n4_09.lesson.g.goal",
+          "word_refs": [
+            "draft.n4_09.word.1",
+            "draft.n4_09.word.2",
+            "draft.n4_09.word.3",
+            "draft.n4_09.word.4"
+          ],
+          "prompt": "朋友为我做这件事，句尾用什么？",
+          "choices": [
+            "くれました",
+            "あげました",
+            "しましょう"
+          ],
+          "answer": "くれました",
+          "feedback": "正确答案是「くれました」。原文：山田さんが私に本を貸して＿。"
+        }
+      ],
+      "common_mistake_zh": "「貸してくれた」表示对方把东西借给我或我方；「貸してあげた」表示我或我方把东西借给对方。先确认谁做了动作。"
+    },
+    {
+      "id": "draft.n4_09.lesson.r",
+      "planning_key": "N4-09-L03",
+      "type": "R",
+      "title": "读邀约消息",
+      "prerequisites": [
+        "N4-09-L02"
+      ],
+      "goals": [
+        {
+          "id": "draft.n4_09.lesson.r.goal",
+          "text": "读邀约消息"
+        }
+      ],
+      "word_refs": [
+        "draft.n4_09.word.1",
+        "draft.n4_09.word.2",
+        "draft.n4_09.word.3",
+        "draft.n4_09.word.4"
+      ],
+      "explanation_zh": "「難しかったら」引出备选，周三和周五仍是提议，等对方答复后才能确认。",
+      "materials": [
+        {
+          "id": "draft.n4_09.lesson.r.mat.teach",
+          "role": "teach",
+          "jp": "水曜にお茶しない？ 難しかったら、金曜の帰りでも大丈夫だよ。"
+        },
+        {
+          "id": "draft.n4_09.lesson.r.mat.practice",
+          "role": "practice",
+          "jp": "土曜に映画を見に行かない？ 土曜が難しければ、日曜の昼でもいいよ。"
+        },
+        {
+          "id": "draft.n4_09.lesson.r.mat.check",
+          "role": "check",
+          "jp": "明日の食事会は七時からです。遅れる人は店へ直接来てください。"
+        }
+      ],
+      "practice": [
+        {
+          "id": "draft.n4_09.lesson.r.mat.practice.q1",
+          "material_ref": "draft.n4_09.lesson.r.mat.practice",
+          "goal_ref": "draft.n4_09.lesson.r.goal",
+          "word_refs": [
+            "draft.n4_09.word.1",
+            "draft.n4_09.word.2",
+            "draft.n4_09.word.3",
+            "draft.n4_09.word.4"
+          ],
+          "prompt": "周六不方便时可选什么时间？",
+          "choices": [
+            "周日中午",
+            "周六晚上",
+            "周日上午"
+          ],
+          "answer": "周日中午",
+          "feedback": "正确答案是「周日中午」。原句：土曜に映画を見に行かない？ 土曜が難しければ、日曜の昼でもいいよ。"
+        }
+      ],
+      "check": [
+        {
+          "id": "draft.n4_09.lesson.r.mat.check.q1",
+          "material_ref": "draft.n4_09.lesson.r.mat.check",
+          "goal_ref": "draft.n4_09.lesson.r.goal",
+          "word_refs": [
+            "draft.n4_09.word.1",
+            "draft.n4_09.word.2",
+            "draft.n4_09.word.3",
+            "draft.n4_09.word.4"
+          ],
+          "prompt": "迟到的人应该去哪？",
+          "choices": [
+            "先去车站",
+            "回家等消息",
+            "直接到店"
+          ],
+          "answer": "直接到店",
+          "feedback": "正确答案是「直接到店」。原文：明日の食事会は七時からです。遅れる人は店へ直接来てください。"
+        }
+      ]
+    },
+    {
+      "id": "draft.n4_09.lesson.l",
+      "planning_key": "N4-09-L04",
+      "type": "L",
+      "title": "听电话留言",
+      "prerequisites": [
+        "N4-09-L03"
+      ],
+      "goals": [
+        {
+          "id": "draft.n4_09.lesson.l.goal",
+          "text": "听电话留言"
+        }
+      ],
+      "word_refs": [
+        "draft.n4_09.word.1",
+        "draft.n4_09.word.2",
+        "draft.n4_09.word.3",
+        "draft.n4_09.word.4"
+      ],
+      "explanation_zh": "记下找谁、谁来电、需要转达什么。 先找接收人佐藤，再记需要转达的内容，明天不能打电话。",
+      "materials": [
+        {
+          "id": "draft.n4_09.lesson.l.mat.teach",
+          "role": "teach",
+          "jp": "A：佐藤さんに、明日は電話できないと伝えてください。B：分かりました。"
+        },
+        {
+          "id": "draft.n4_09.lesson.l.mat.practice",
+          "role": "practice",
+          "jp": "A：森さんはいますか。B：今は留守です。A：では、田中から、集合は駅前に変わったと伝えてください。"
+        },
+        {
+          "id": "draft.n4_09.lesson.l.mat.check",
+          "role": "check",
+          "jp": "A：伊藤さんに、明日は八時ではなく九時と伝えてください。B：はい、九時ですね。"
+        }
+      ],
+      "practice": [
+        {
+          "id": "draft.n4_09.lesson.l.mat.practice.q1",
+          "material_ref": "draft.n4_09.lesson.l.mat.practice",
+          "goal_ref": "draft.n4_09.lesson.l.goal",
+          "word_refs": [
+            "draft.n4_09.word.1",
+            "draft.n4_09.word.2",
+            "draft.n4_09.word.3",
+            "draft.n4_09.word.4"
+          ],
+          "prompt": "要转达什么？",
+          "choices": [
+            "集合时间取消",
+            "田中会晚到",
+            "集合地点改到车站前"
+          ],
+          "answer": "集合地点改到车站前",
+          "feedback": "正确答案是「集合地点改到车站前」。原句：A：森さんはいますか。B：今は留守です。A：では、田中から、集合は駅前に変わったと伝えてください。"
+        }
+      ],
+      "check": [
+        {
+          "id": "draft.n4_09.lesson.l.mat.check.q1",
+          "material_ref": "draft.n4_09.lesson.l.mat.check",
+          "goal_ref": "draft.n4_09.lesson.l.goal",
+          "word_refs": [
+            "draft.n4_09.word.1",
+            "draft.n4_09.word.2",
+            "draft.n4_09.word.3",
+            "draft.n4_09.word.4"
+          ],
+          "prompt": "要转告的时间是？",
+          "choices": [
+            "六点",
+            "九点",
+            "八点"
+          ],
+          "answer": "九点",
+          "feedback": "正确答案是「九点」。原文：A：伊藤さんに、明日は八時ではなく九時と伝えてください。B：はい、九時ですね。"
+        }
+      ]
+    },
+    {
+      "id": "draft.n4_09.lesson.o",
+      "planning_key": "N4-09-L05",
+      "type": "O",
+      "title": "回复邀约并给替代",
+      "prerequisites": [
+        "N4-09-L04"
+      ],
+      "goals": [
+        {
+          "id": "draft.n4_09.lesson.o.goal",
+          "text": "回复邀约并给替代"
+        }
+      ],
+      "word_refs": [
+        "draft.n4_09.word.1",
+        "draft.n4_09.word.2",
+        "draft.n4_09.word.3",
+        "draft.n4_09.word.4"
+      ],
+      "explanation_zh": "先用日语口头说明，再把关键内容写成一条短消息。完成后按下面的要点核对。",
+      "materials": [],
+      "performance": {
+        "practice": {
+          "card_zh": "朋友约你周六看电影，你那天没空，周日下午可以。礼貌回复并提议时间。",
+          "prompt_zh": "先说一遍，再写下要传达的内容。"
+        },
+        "rubric_zh": "感谢邀请，给出可行的替代时段。",
+        "check": {
+          "card_zh": "朋友约你周三喝茶，你只有周五下班后有空。回复并询问对方是否方便。",
+          "prompt_zh": "用日语作答，再按自查要点核对。"
+        }
+      }
+    },
+    {
+      "id": "draft.n4_09.lesson.t",
+      "planning_key": "N4-09-L06",
+      "type": "T",
+      "title": "转述留言给不同对象",
+      "prerequisites": [
+        "N4-09-L05"
+      ],
+      "goals": [
+        {
+          "id": "draft.n4_09.lesson.t.goal",
+          "text": "转述留言给不同对象"
+        }
+      ],
+      "word_refs": [
+        "draft.n4_09.word.1",
+        "draft.n4_09.word.2",
+        "draft.n4_09.word.3",
+        "draft.n4_09.word.4"
+      ],
+      "explanation_zh": "先用日语口头说明，再把关键内容写成一条短消息。完成后按下面的要点核对。",
+      "materials": [],
+      "performance": {
+        "practice": {
+          "card_zh": "朋友请你告诉同伴聚会改到六点半。分别对同伴口头转述、给组织者写确认消息。",
+          "prompt_zh": "先说一遍，再写下要传达的内容。"
+        },
+        "rubric_zh": "给同伴的通知写清原来的时间和地点及变更；给朋友的回复说明已转达给谁。",
+        "check": {
+          "card_zh": "朋友请你通知美咲和健太，今晚六点在车站的集合临时取消。两位同伴都能看到群消息。",
+          "prompt_zh": "用日语写一条取消通知，再写一句给朋友的回复，说明已经通知了谁。"
+        }
+      }
+    }
+  ],
+  "exam": {
+    "id": "draft.n4_09.exam.unit",
+    "materials": [
+      {
+        "id": "draft.n4_09.exam.unit.mat.exam_reading",
+        "role": "exam_reading",
+        "jp": "昨日は荷物を運ぶのを手伝ってくれてありがとう。今度、都合のいい日にお茶でもどう？"
+      },
+      {
+        "id": "draft.n4_09.exam.unit.mat.exam_listening",
+        "role": "exam_listening",
+        "jp": "A：日曜の昼に会える？ B：昼は用事があるけど、夕方なら空いているよ。A：じゃあ、五時にしよう。"
+      }
+    ],
+    "reading": [
+      {
+        "id": "draft.n4_09.exam.unit.mat.exam_reading.q1",
+        "material_ref": "draft.n4_09.exam.unit.mat.exam_reading",
+        "goal_ref": "draft.n4_09.lesson.r.goal",
+        "word_refs": [
+          "draft.n4_09.word.1",
+          "draft.n4_09.word.2",
+          "draft.n4_09.word.3",
+          "draft.n4_09.word.4"
+        ],
+        "prompt": "对方感谢什么？",
+        "choices": [
+          "替对方回电话",
+          "帮忙搬东西",
+          "送饮料"
+        ],
+        "answer": "帮忙搬东西",
+        "feedback": "正确答案是「帮忙搬东西」。原文：昨日は荷物を運ぶのを手伝ってくれてありがとう。今度、都合のいい日にお茶でもどう？"
+      }
+    ],
+    "listening": [
+      {
+        "id": "draft.n4_09.exam.unit.mat.exam_listening.q1",
+        "material_ref": "draft.n4_09.exam.unit.mat.exam_listening",
+        "goal_ref": "draft.n4_09.lesson.l.goal",
+        "word_refs": [
+          "draft.n4_09.word.1",
+          "draft.n4_09.word.2",
+          "draft.n4_09.word.3",
+          "draft.n4_09.word.4"
+        ],
+        "prompt": "最终约什么时候？",
+        "choices": [
+          "周日五点",
+          "周日中午",
+          "周六五点"
+        ],
+        "answer": "周日五点",
+        "feedback": "正确答案是「周日五点」。原文：A：日曜の昼に会える？ B：昼は用事があるけど、夕方なら空いているよ。A：じゃあ、五時にしよう。"
+      }
+    ],
+    "output": {
+      "id": "draft.n4_09.q.eo1",
+      "card_zh": "你想周六下午两点在车站东口和朋友见面，一起去看展。朋友说两点有事，三点可以，地点不用改。",
+      "prompt_zh": "先用日语发出口头邀请，再根据朋友的回复写一条确认消息。",
+      "rubric_zh": "初次邀请说明活动、地点和时间；确认消息改成三点；保留车站东口及看展安排。",
+      "scoring": "human_only"
+    }
+  }
+}

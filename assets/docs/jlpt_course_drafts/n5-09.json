@@ -1,0 +1,481 @@
+{
+  "schema": "draft.n5_09.course.v1",
+  "unit": "N5-09",
+  "theme": "购物与价格",
+  "status": {
+    "publication": "draft",
+    "language_review": "pending",
+    "rights_review": "pending",
+    "audio": "not_produced",
+    "listening_score": "blocked",
+    "speaking_writing": "human_only"
+  },
+  "words": [
+    {
+      "id": "draft.n5_09.word.1",
+      "forms": "円（えん）",
+      "meaning_zh": "日元",
+      "source": "AI_original_draft"
+    },
+    {
+      "id": "draft.n5_09.word.2",
+      "forms": "いくら",
+      "meaning_zh": "多少钱",
+      "source": "AI_original_draft"
+    },
+    {
+      "id": "draft.n5_09.word.3",
+      "forms": "これ／それ",
+      "meaning_zh": "这个／那个",
+      "source": "AI_original_draft"
+    },
+    {
+      "id": "draft.n5_09.word.4",
+      "forms": "シャツ",
+      "meaning_zh": "衬衫",
+      "source": "AI_original_draft"
+    },
+    {
+      "id": "draft.n5_09.word.5",
+      "forms": "靴（くつ）",
+      "meaning_zh": "鞋",
+      "source": "AI_original_draft"
+    },
+    {
+      "id": "draft.n5_09.word.6",
+      "forms": "買う（かう）",
+      "meaning_zh": "买",
+      "source": "AI_original_draft"
+    }
+  ],
+  "lessons": [
+    {
+      "id": "draft.n5_09.lesson.v",
+      "planning_key": "N5-09-L01",
+      "type": "V",
+      "title": "认出商品和标价",
+      "prerequisites": [
+        "N5-08"
+      ],
+      "goals": [
+        {
+          "id": "draft.n5_09.lesson.v.goal",
+          "text": "认出商品和标价"
+        }
+      ],
+      "word_refs": [
+        "draft.n5_09.word.1",
+        "draft.n5_09.word.2",
+        "draft.n5_09.word.3",
+        "draft.n5_09.word.4",
+        "draft.n5_09.word.5",
+        "draft.n5_09.word.6"
+      ],
+      "explanation_zh": "「円」放在数字后面。先看商品名，再看价格。",
+      "materials": [
+        {
+          "id": "draft.n5_09.lesson.v.teach",
+          "role": "teach",
+          "jp": "シャツ：1,200円　靴：3,000円",
+          "goal_refs": [
+            "draft.n5_09.lesson.v.goal"
+          ]
+        },
+        {
+          "id": "draft.n5_09.lesson.v.practice",
+          "role": "practice",
+          "jp": "かばん：2,000円",
+          "goal_refs": [
+            "draft.n5_09.lesson.v.goal"
+          ]
+        },
+        {
+          "id": "draft.n5_09.lesson.v.check",
+          "role": "check",
+          "jp": "シャツ：900円　靴：2,900円",
+          "goal_refs": [
+            "draft.n5_09.lesson.v.goal"
+          ]
+        }
+      ],
+      "practice": [
+        {
+          "id": "draft.n5_09.lesson.v.practice.q1",
+          "material_ref": "draft.n5_09.lesson.v.practice",
+          "goal_ref": "draft.n5_09.lesson.v.goal",
+          "word_refs": [
+            "draft.n5_09.word.1",
+            "draft.n5_09.word.2",
+            "draft.n5_09.word.3",
+            "draft.n5_09.word.4",
+            "draft.n5_09.word.5",
+            "draft.n5_09.word.6"
+          ],
+          "prompt": "包多少钱？",
+          "choices": [
+            "200 日元",
+            "2,000 日元",
+            "20,000 日元"
+          ],
+          "answer": "2,000 日元",
+          "feedback": "「2,000円」就是两千日元。"
+        }
+      ],
+      "check": [
+        {
+          "id": "draft.n5_09.lesson.v.check.q1",
+          "material_ref": "draft.n5_09.lesson.v.check",
+          "goal_ref": "draft.n5_09.lesson.v.goal",
+          "word_refs": [
+            "draft.n5_09.word.1",
+            "draft.n5_09.word.2",
+            "draft.n5_09.word.3",
+            "draft.n5_09.word.4",
+            "draft.n5_09.word.5",
+            "draft.n5_09.word.6"
+          ],
+          "prompt": "哪件商品是 900 日元？",
+          "choices": [
+            "鞋",
+            "包",
+            "衬衫"
+          ],
+          "answer": "衬衫",
+          "feedback": "「シャツ」的标价是 900 日元。"
+        }
+      ]
+    },
+    {
+      "id": "draft.n5_09.lesson.g",
+      "planning_key": "N5-09-L02",
+      "type": "G",
+      "title": "询价并请店员拿商品",
+      "prerequisites": [
+        "N5-09-L01"
+      ],
+      "goals": [
+        {
+          "id": "draft.n5_09.lesson.g.goal",
+          "text": "询价并请店员拿商品"
+        }
+      ],
+      "word_refs": [
+        "draft.n5_09.word.1",
+        "draft.n5_09.word.2",
+        "draft.n5_09.word.3",
+        "draft.n5_09.word.4",
+        "draft.n5_09.word.5",
+        "draft.n5_09.word.6"
+      ],
+      "explanation_zh": "用「これはいくらですか」问眼前的东西多少钱。选好后可用「これをください」请店员把这件给你。",
+      "common_mistake_zh": "问价用「これはいくらですか」，选定后说「これをください」。「は」提示问哪一件，「を」指出要哪一件。",
+      "materials": [
+        {
+          "id": "draft.n5_09.lesson.g.teach",
+          "role": "teach",
+          "jp": "A：これはいくらですか。B：千円です。A：じゃ、これをください。",
+          "goal_refs": [
+            "draft.n5_09.lesson.g.goal"
+          ]
+        },
+        {
+          "id": "draft.n5_09.lesson.g.practice",
+          "role": "practice",
+          "jp": "これはいくらですか。",
+          "goal_refs": [
+            "draft.n5_09.lesson.g.goal"
+          ]
+        },
+        {
+          "id": "draft.n5_09.lesson.g.check",
+          "role": "check",
+          "jp": "じゃ、これを〔　〕。",
+          "goal_refs": [
+            "draft.n5_09.lesson.g.goal"
+          ]
+        }
+      ],
+      "practice": [
+        {
+          "id": "draft.n5_09.lesson.g.practice.q1",
+          "material_ref": "draft.n5_09.lesson.g.practice",
+          "goal_ref": "draft.n5_09.lesson.g.goal",
+          "word_refs": [
+            "draft.n5_09.word.1",
+            "draft.n5_09.word.2",
+            "draft.n5_09.word.3",
+            "draft.n5_09.word.4",
+            "draft.n5_09.word.5",
+            "draft.n5_09.word.6"
+          ],
+          "prompt": "顾客想知道什么？",
+          "choices": [
+            "商品价格",
+            "商店位置",
+            "营业时间"
+          ],
+          "answer": "商品价格",
+          "feedback": "「いくら」在这里问价格。"
+        }
+      ],
+      "check": [
+        {
+          "id": "draft.n5_09.lesson.g.check.q1",
+          "material_ref": "draft.n5_09.lesson.g.check",
+          "goal_ref": "draft.n5_09.lesson.g.goal",
+          "word_refs": [
+            "draft.n5_09.word.1",
+            "draft.n5_09.word.2",
+            "draft.n5_09.word.3",
+            "draft.n5_09.word.4",
+            "draft.n5_09.word.5",
+            "draft.n5_09.word.6"
+          ],
+          "prompt": "你决定买这件，要怎么说？",
+          "choices": [
+            "ください",
+            "ですか",
+            "ありますか"
+          ],
+          "answer": "ください",
+          "feedback": "「これをください」用于选定眼前的商品。"
+        }
+      ]
+    },
+    {
+      "id": "draft.n5_09.lesson.r",
+      "planning_key": "N5-09-L03",
+      "type": "R",
+      "title": "按预算读价签",
+      "prerequisites": [
+        "N5-09-L02"
+      ],
+      "goals": [
+        {
+          "id": "draft.n5_09.lesson.r.goal",
+          "text": "按预算读价签"
+        }
+      ],
+      "word_refs": [
+        "draft.n5_09.word.1",
+        "draft.n5_09.word.2",
+        "draft.n5_09.word.3",
+        "draft.n5_09.word.4",
+        "draft.n5_09.word.5",
+        "draft.n5_09.word.6"
+      ],
+      "explanation_zh": "读价签时，先看各商品的价格，再对照自己带的钱。",
+      "materials": [
+        {
+          "id": "draft.n5_09.lesson.r.teach",
+          "role": "teach",
+          "jp": "ノート：200円　ペン：150円　かばん：1,800円",
+          "goal_refs": [
+            "draft.n5_09.lesson.r.goal"
+          ]
+        },
+        {
+          "id": "draft.n5_09.lesson.r.practice",
+          "role": "practice",
+          "jp": "ノート：300円　ペン：120円。400円あります。",
+          "goal_refs": [
+            "draft.n5_09.lesson.r.goal"
+          ]
+        },
+        {
+          "id": "draft.n5_09.lesson.r.check",
+          "role": "check",
+          "jp": "白いシャツ：1,200円　青いシャツ：1,500円。1,300円あります。",
+          "goal_refs": [
+            "draft.n5_09.lesson.r.goal"
+          ]
+        }
+      ],
+      "practice": [
+        {
+          "id": "draft.n5_09.lesson.r.practice.q1",
+          "material_ref": "draft.n5_09.lesson.r.practice",
+          "goal_ref": "draft.n5_09.lesson.r.goal",
+          "word_refs": [
+            "draft.n5_09.word.1",
+            "draft.n5_09.word.2",
+            "draft.n5_09.word.3",
+            "draft.n5_09.word.4",
+            "draft.n5_09.word.5",
+            "draft.n5_09.word.6"
+          ],
+          "prompt": "笔和本子各买一个，钱够吗？",
+          "choices": [
+            "够，还剩 20 日元",
+            "刚好够",
+            "不够，差 20 日元"
+          ],
+          "answer": "不够，差 20 日元",
+          "feedback": "两件共 420 日元，比 400 日元多 20 日元。"
+        }
+      ],
+      "check": [
+        {
+          "id": "draft.n5_09.lesson.r.check.q1",
+          "material_ref": "draft.n5_09.lesson.r.check",
+          "goal_ref": "draft.n5_09.lesson.r.goal",
+          "word_refs": [
+            "draft.n5_09.word.1",
+            "draft.n5_09.word.2",
+            "draft.n5_09.word.3",
+            "draft.n5_09.word.4",
+            "draft.n5_09.word.5",
+            "draft.n5_09.word.6"
+          ],
+          "prompt": "你有 1,300 日元，能买哪件？",
+          "choices": [
+            "蓝衬衫",
+            "白衬衫",
+            "两件都买不起"
+          ],
+          "answer": "白衬衫",
+          "feedback": "白衬衫 1,200 日元，在预算以内。"
+        }
+      ]
+    },
+    {
+      "id": "draft.n5_09.lesson.l",
+      "planning_key": "N5-09-L04",
+      "type": "L",
+      "title": "听懂店员报的价格",
+      "prerequisites": [
+        "N5-09-L03"
+      ],
+      "goals": [
+        {
+          "id": "draft.n5_09.lesson.l.goal",
+          "text": "听懂店员报的价格"
+        }
+      ],
+      "word_refs": [
+        "draft.n5_09.word.1",
+        "draft.n5_09.word.2",
+        "draft.n5_09.word.3",
+        "draft.n5_09.word.4",
+        "draft.n5_09.word.5",
+        "draft.n5_09.word.6"
+      ],
+      "explanation_zh": "问价后听清数字和「円」。可先用设备朗读示例，再对照读稿。",
+      "materials": [
+        {
+          "id": "draft.n5_09.lesson.l.teach",
+          "role": "teach",
+          "jp": "A：すみません。このシャツはいくらですか。B：千五百円です。A：じゃ、これをください。",
+          "goal_refs": [
+            "draft.n5_09.lesson.l.goal"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "draft.n5_09.lesson.o",
+      "planning_key": "N5-09-L05",
+      "type": "O",
+      "title": "问价后买下指定商品",
+      "prerequisites": [
+        "N5-09-L04"
+      ],
+      "goals": [
+        {
+          "id": "draft.n5_09.lesson.o.goal",
+          "text": "问价后买下指定商品"
+        }
+      ],
+      "word_refs": [
+        "draft.n5_09.word.1",
+        "draft.n5_09.word.2",
+        "draft.n5_09.word.3",
+        "draft.n5_09.word.4",
+        "draft.n5_09.word.5",
+        "draft.n5_09.word.6"
+      ],
+      "explanation_zh": "先说一遍，再写下要传达的内容，最后按自查要点核对。",
+      "materials": [],
+      "performance": {
+        "practice": {
+          "card_zh": "你想买眼前的鞋。店员报 2,000 日元，你决定买。",
+          "prompt_zh": "用日语问价，听到报价后请店员把鞋给你。"
+        },
+        "check": {
+          "card_zh": "你想买眼前的白衬衫。店员报 1,200 日元，你决定买。",
+          "prompt_zh": "写下你问价和选定商品时说的两句话，再读出来。"
+        },
+        "rubric_zh": "先问价格；随后明确选定眼前的商品。",
+        "scoring": "human_only"
+      }
+    }
+  ],
+  "exam": {
+    "id": "draft.n5_09.exam",
+    "materials": [
+      {
+        "id": "draft.n5_09.exam.reading",
+        "role": "exam_reading",
+        "jp": "黒いかばん：2,300円　白いかばん：1,900円。2,000円あります。"
+      },
+      {
+        "id": "draft.n5_09.exam.listening",
+        "role": "exam_listening",
+        "jp": "A：この靴はいくらですか。B：三千円です。"
+      }
+    ],
+    "reading": [
+      {
+        "id": "draft.n5_09.exam.reading.q1",
+        "material_ref": "draft.n5_09.exam.reading",
+        "goal_ref": "draft.n5_09.lesson.r.goal",
+        "word_refs": [
+          "draft.n5_09.word.1",
+          "draft.n5_09.word.2",
+          "draft.n5_09.word.3",
+          "draft.n5_09.word.4",
+          "draft.n5_09.word.5",
+          "draft.n5_09.word.6"
+        ],
+        "prompt": "只有 2,000 日元，可以买哪一个？",
+        "choices": [
+          "白包",
+          "黑包",
+          "两个都买不了"
+        ],
+        "answer": "白包",
+        "feedback": "白包 1,900 日元，黑包超过预算。"
+      }
+    ],
+    "listening": [
+      {
+        "id": "draft.n5_09.exam.listening.q1",
+        "material_ref": "draft.n5_09.exam.listening",
+        "goal_ref": "draft.n5_09.lesson.l.goal",
+        "word_refs": [
+          "draft.n5_09.word.1",
+          "draft.n5_09.word.2",
+          "draft.n5_09.word.3",
+          "draft.n5_09.word.4",
+          "draft.n5_09.word.5",
+          "draft.n5_09.word.6"
+        ],
+        "prompt": "鞋多少钱？",
+        "choices": [
+          "300 日元",
+          "3,000 日元",
+          "3,300 日元"
+        ],
+        "answer": "3,000 日元",
+        "feedback": "「三千円」是 3,000 日元。"
+      }
+    ],
+    "output": {
+      "card_zh": "你在店里指着一件蓝衬衫。店员报 1,800 日元，你同意购买。",
+      "prompt_zh": "写下自己说的两句话，再模拟和店员对话。",
+      "rubric_zh": "能问价格，也能用一句话让店员知道你要这件。",
+      "id": "draft.n5_09.exam.output",
+      "scoring": "human_only"
+    }
+  }
+}

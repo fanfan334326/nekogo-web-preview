@@ -1,0 +1,1333 @@
+{
+  "schema": "draft.n5_03.course.v1",
+  "unit": "N5-03",
+  "theme": "数字和时间",
+  "status": {
+    "publication": "draft",
+    "language_review": "pending",
+    "teaching_review": "pending",
+    "rights_review": "pending",
+    "source_verification": "unknown",
+    "runtime_verification": "not_run",
+    "audio": "not_produced",
+    "audio_review": "pending",
+    "listening_score": "blocked",
+    "speaking_writing": "human_only",
+    "app_integration": "not_integrated"
+  },
+  "external_prerequisites": [
+    {
+      "id": "N5-02",
+      "status": "recommended_not_verified",
+      "description": "建议先学人物家庭、假名与礼貌句；先修状态未验证。"
+    }
+  ],
+  "words": [
+    {
+      "id": "draft.n5_03.word.numbers",
+      "forms": "一 いち／二 に／三 さん／四 よん／五 ご／六 ろく／七 なな／八 はち／九 きゅう／十 じゅう",
+      "meaning_zh": "基本数字一至十；四、七、九在特定搭配另读",
+      "source": "AI_original_draft"
+    },
+    {
+      "id": "draft.n5_03.word.week",
+      "forms": "月曜日 げつようび／火曜日 かようび／水曜日 すいようび／木曜日 もくようび／金曜日 きんようび／土曜日 どようび／日曜日 にちようび",
+      "meaning_zh": "星期一至星期日",
+      "source": "AI_original_draft"
+    },
+    {
+      "id": "draft.n5_03.word.date",
+      "forms": "五月 ごがつ／何日 なんにち／一日 ついたち／二日 ふつか／三日 みっか／四日 よっか／五日 いつか／八日 ようか／十日 とおか／十四日 じゅうよっか／二十日 はつか／二十四日 にじゅうよっか",
+      "meaning_zh": "五月、几号和本稿教授的日期",
+      "source": "AI_original_draft"
+    },
+    {
+      "id": "draft.n5_03.word.hour",
+      "forms": "何時 なんじ／一時 いちじ／二時 にじ／三時 さんじ／四時 よじ／五時 ごじ／六時 ろくじ／七時 しちじ／八時 はちじ／九時 くじ／十時 じゅうじ／十一時 じゅういちじ／十二時 じゅうにじ",
+      "meaning_zh": "几点与一至十二点",
+      "source": "AI_original_draft"
+    },
+    {
+      "id": "draft.n5_03.word.minute",
+      "forms": "五分 ごふん／十分 じゅっぷん／十五分 じゅうごふん／半 はん",
+      "meaning_zh": "五分、十分、十五分、半小时；十分也可读じっぷん",
+      "source": "AI_original_draft"
+    },
+    {
+      "id": "draft.n5_03.word.people",
+      "forms": "何人 なんにん／一人 ひとり／二人 ふたり／三人 さんにん",
+      "meaning_zh": "几个人及一至三人",
+      "source": "AI_original_draft"
+    },
+    {
+      "id": "draft.n5_03.word.price",
+      "forms": "百 ひゃく／二百 にひゃく／三百 さんびゃく／五百 ごひゃく／八百 はっぴゃく／千 せん／二千 にせん／三千 さんぜん／八千 はっせん／一万 いちまん／円 えん",
+      "meaning_zh": "已列价格数位与日元；不泛化未教组合",
+      "source": "AI_original_draft"
+    },
+    {
+      "id": "draft.n5_03.word.grammar",
+      "forms": "に／から／まで／です／か",
+      "meaning_zh": "时间点、起点、终点、礼貌断定和疑问",
+      "source": "AI_original_draft"
+    },
+    {
+      "id": "draft.n5_03.word.actions",
+      "forms": "会います あいます／始まります はじまります／終わります おわります／休み やすみ",
+      "meaning_zh": "见面、开始、结束、休息",
+      "source": "AI_original_draft"
+    },
+    {
+      "id": "draft.n5_03.word.context",
+      "forms": "予定 よてい／値段 ねだん／いくら／午前 ごぜん／午後 ごご",
+      "meaning_zh": "日程、价格、多少钱、上午、下午",
+      "source": "AI_original_draft"
+    }
+  ],
+  "lessons": [
+    {
+      "id": "draft.n5_03.lesson.v",
+      "planning_key": "N5-03-L01",
+      "type": "V",
+      "theme": "数字和时间",
+      "title": "数字、星期、日期、时分与人数",
+      "prerequisites": [
+        "N5-02"
+      ],
+      "prerequisite_status": "recommended_not_verified",
+      "goals": [
+        {
+          "id": "draft.n5_03.goal.v",
+          "text": "辨认已列数字、星期、日期、时刻与一至三人，并按语境选择读法。"
+        }
+      ],
+      "word_refs": [
+        "draft.n5_03.word.numbers",
+        "draft.n5_03.word.week",
+        "draft.n5_03.word.date",
+        "draft.n5_03.word.hour",
+        "draft.n5_03.word.minute",
+        "draft.n5_03.word.people",
+        "draft.n5_03.word.context"
+      ],
+      "explanation_zh": "先诊断假名、N5-02 的礼貌句；先修未验证。基本数一到十依词表读；十一是じゅういち、二十是にじゅう，二十一是にじゅういち。11–99 按十位再个位组合，四十よんじゅう、七十ななじゅう、九十きゅうじゅう；一百ひゃく。星期一到日依词表整词记。五月读ごがつ。日期先记表中一日ついたち、二日ふつか、三日みっか、四日よっか、五日いつか、八日ようか、十日とおか、十四日じゅうよっか、二十日はつか、二十四日にじゅうよっか；何日读なんにち。时刻一至十二见词表，尤其四時よじ、七時しちじ、九時くじ，何時なんじ。分钟只要求五分ごふん、十分じゅっぷん、十五分じゅうごふん和半はん；十分也可じっぷん。人数只要求一人ひとり、二人ふたり、三人さんにん，何人なんにん。午前/午後分别上午/下午。日期、分钟、人数未列读法不作无提示考点。",
+      "materials": [
+        {
+          "id": "draft.n5_03.mat.vt",
+          "role": "teach",
+          "jp": "五月四日、月曜日。午後四時十五分、二人です。",
+          "kana": "ごがつよっか、げつようび。ごごよじじゅうごふん、ふたりです。",
+          "zh": "五月四日，星期一。下午四点十五分，两个人。",
+          "goal_refs": [
+            "draft.n5_03.goal.v"
+          ]
+        },
+        {
+          "id": "draft.n5_03.mat.vp",
+          "role": "practice",
+          "jp": "金曜日、五月八日。午前七時半、一人です。",
+          "kana": "きんようび、ごがつようか。ごぜんしちじはん、ひとりです。",
+          "zh": "星期五，五月八日。上午七点半，一个人。",
+          "goal_refs": [
+            "draft.n5_03.goal.v"
+          ]
+        },
+        {
+          "id": "draft.n5_03.mat.vc",
+          "role": "check",
+          "jp": "水曜日、五月二十日。午後九時五分、三人です。",
+          "kana": "すいようび、ごがつはつか。ごごくじごふん、さんにんです。",
+          "zh": "星期三，五月二十日。下午九点五分，三个人。",
+          "goal_refs": [
+            "draft.n5_03.goal.v"
+          ]
+        }
+      ],
+      "practice": [
+        {
+          "id": "draft.n5_03.q.vp1",
+          "material_ref": "draft.n5_03.mat.vp",
+          "goal_ref": "draft.n5_03.goal.v",
+          "word_refs": [
+            "draft.n5_03.word.numbers",
+            "draft.n5_03.word.week",
+            "draft.n5_03.word.date",
+            "draft.n5_03.word.hour",
+            "draft.n5_03.word.minute",
+            "draft.n5_03.word.people",
+            "draft.n5_03.word.context"
+          ],
+          "prompt": "练习卡日期的读法？",
+          "choices": [
+            "ようか",
+            "よっか",
+            "はつか"
+          ],
+          "answer": "ようか",
+          "feedback": "八日读ようか。"
+        },
+        {
+          "id": "draft.n5_03.q.vp2",
+          "material_ref": "draft.n5_03.mat.vp",
+          "goal_ref": "draft.n5_03.goal.v",
+          "word_refs": [
+            "draft.n5_03.word.numbers",
+            "draft.n5_03.word.week",
+            "draft.n5_03.word.date",
+            "draft.n5_03.word.hour",
+            "draft.n5_03.word.minute",
+            "draft.n5_03.word.people",
+            "draft.n5_03.word.context"
+          ],
+          "prompt": "练习卡人数？",
+          "choices": [
+            "一人",
+            "二人",
+            "三人"
+          ],
+          "answer": "一人",
+          "feedback": "一人读ひとり。"
+        }
+      ],
+      "check": [
+        {
+          "id": "draft.n5_03.q.vc1",
+          "material_ref": "draft.n5_03.mat.vc",
+          "goal_ref": "draft.n5_03.goal.v",
+          "word_refs": [
+            "draft.n5_03.word.numbers",
+            "draft.n5_03.word.week",
+            "draft.n5_03.word.date",
+            "draft.n5_03.word.hour",
+            "draft.n5_03.word.minute",
+            "draft.n5_03.word.people",
+            "draft.n5_03.word.context"
+          ],
+          "prompt": "检查卡是哪一天？",
+          "choices": [
+            "水曜日",
+            "月曜日",
+            "日曜日"
+          ],
+          "answer": "水曜日",
+          "feedback": "水曜日是星期三。"
+        },
+        {
+          "id": "draft.n5_03.q.vc2",
+          "material_ref": "draft.n5_03.mat.vc",
+          "goal_ref": "draft.n5_03.goal.v",
+          "word_refs": [
+            "draft.n5_03.word.numbers",
+            "draft.n5_03.word.week",
+            "draft.n5_03.word.date",
+            "draft.n5_03.word.hour",
+            "draft.n5_03.word.minute",
+            "draft.n5_03.word.people",
+            "draft.n5_03.word.context"
+          ],
+          "prompt": "检查卡几点几分？",
+          "choices": [
+            "九时五分",
+            "七时半",
+            "四时十五分"
+          ],
+          "answer": "九时五分",
+          "feedback": "九時读くじ，五分读ごふん。"
+        },
+        {
+          "id": "draft.n5_03.q.vc3",
+          "material_ref": "draft.n5_03.mat.vc",
+          "goal_ref": "draft.n5_03.goal.v",
+          "word_refs": [
+            "draft.n5_03.word.numbers",
+            "draft.n5_03.word.week",
+            "draft.n5_03.word.date",
+            "draft.n5_03.word.hour",
+            "draft.n5_03.word.minute",
+            "draft.n5_03.word.people",
+            "draft.n5_03.word.context"
+          ],
+          "prompt": "检查卡几个人？",
+          "choices": [
+            "一人",
+            "二人",
+            "三人"
+          ],
+          "answer": "三人",
+          "feedback": "三人读さんにん。"
+        }
+      ],
+      "review_zh": "错题圈出单位，再对照读音表；换一个已列日期和人数自制卡片复读。"
+    },
+    {
+      "id": "draft.n5_03.lesson.g",
+      "planning_key": "N5-03-L02",
+      "type": "G",
+      "theme": "数字和时间",
+      "title": "何時、何日与时间助词",
+      "prerequisites": [
+        "N5-02",
+        "draft.n5_03.lesson.v"
+      ],
+      "prerequisite_status": "recommended_not_verified",
+      "goals": [
+        {
+          "id": "draft.n5_03.goal.g",
+          "text": "能区分何時和何日，用に标具体时间、から/まで标范围。"
+        }
+      ],
+      "word_refs": [
+        "draft.n5_03.word.date",
+        "draft.n5_03.word.hour",
+        "draft.n5_03.word.minute",
+        "draft.n5_03.word.grammar",
+        "draft.n5_03.word.actions",
+        "draft.n5_03.word.context"
+      ],
+      "explanation_zh": "何時ですか问几点，何日ですか问几号；回答按语境说日期或时刻。具体时刻后に标动作发生点，如三時に会います；起点から、终点まで，合起来表示从……到……。星期后に可以出现，本稿以具体时刻为例，不推导所有时间词的用法。会います是见面，始まります是开始，終わります是结束；下例均为礼貌句。",
+      "common_mistake_zh": "「三時に会います」是三点见面；「三時から」表示从三点开始。问时刻用「何時」，问日期用「何日」。",
+      "materials": [
+        {
+          "id": "draft.n5_03.mat.gt",
+          "role": "teach",
+          "jp": "会うのは何日ですか。五月五日です。何時に会いますか。二時に会います。",
+          "kana": "あうのはなんにちですか。ごがついつかです。なんじにあいますか。にじにあいます。",
+          "zh": "哪一天见面？五月五日。几点见面？两点见面。",
+          "goal_refs": [
+            "draft.n5_03.goal.g"
+          ]
+        },
+        {
+          "id": "draft.n5_03.mat.gp",
+          "role": "practice",
+          "jp": "予定は三時から五時までです。四時に会います。",
+          "kana": "よていはさんじからごじまでです。よじにあいます。",
+          "zh": "日程从三点到五点。四点见面。",
+          "goal_refs": [
+            "draft.n5_03.goal.g"
+          ]
+        },
+        {
+          "id": "draft.n5_03.mat.gc",
+          "role": "check",
+          "jp": "予定は六時から八時までです。七時に始まります。",
+          "kana": "よていはろくじからはちじまでです。しちじにはじまります。",
+          "zh": "日程从六点到八点。七点开始。",
+          "goal_refs": [
+            "draft.n5_03.goal.g"
+          ]
+        }
+      ],
+      "practice": [
+        {
+          "id": "draft.n5_03.q.gp1",
+          "material_ref": "draft.n5_03.mat.gp",
+          "goal_ref": "draft.n5_03.goal.g",
+          "word_refs": [
+            "draft.n5_03.word.date",
+            "draft.n5_03.word.hour",
+            "draft.n5_03.word.minute",
+            "draft.n5_03.word.grammar",
+            "draft.n5_03.word.actions",
+            "draft.n5_03.word.context"
+          ],
+          "prompt": "练习的起点？",
+          "choices": [
+            "三时",
+            "四时",
+            "五时"
+          ],
+          "answer": "三时",
+          "feedback": "から前是起点。"
+        },
+        {
+          "id": "draft.n5_03.q.gp2",
+          "material_ref": "draft.n5_03.mat.gp",
+          "goal_ref": "draft.n5_03.goal.g",
+          "word_refs": [
+            "draft.n5_03.word.date",
+            "draft.n5_03.word.hour",
+            "draft.n5_03.word.minute",
+            "draft.n5_03.word.grammar",
+            "draft.n5_03.word.actions",
+            "draft.n5_03.word.context"
+          ],
+          "prompt": "练习的会面点？",
+          "choices": [
+            "四时",
+            "三时",
+            "五时"
+          ],
+          "answer": "四时",
+          "feedback": "に前是会面的具体时间。"
+        }
+      ],
+      "check": [
+        {
+          "id": "draft.n5_03.q.gc1",
+          "material_ref": "draft.n5_03.mat.gc",
+          "goal_ref": "draft.n5_03.goal.g",
+          "word_refs": [
+            "draft.n5_03.word.date",
+            "draft.n5_03.word.hour",
+            "draft.n5_03.word.minute",
+            "draft.n5_03.word.grammar",
+            "draft.n5_03.word.actions",
+            "draft.n5_03.word.context"
+          ],
+          "prompt": "检查日程的终点？",
+          "choices": [
+            "八时",
+            "六时",
+            "七时"
+          ],
+          "answer": "八时",
+          "feedback": "まで前是终点。"
+        },
+        {
+          "id": "draft.n5_03.q.gc2",
+          "material_ref": "draft.n5_03.mat.gc",
+          "goal_ref": "draft.n5_03.goal.g",
+          "word_refs": [
+            "draft.n5_03.word.date",
+            "draft.n5_03.word.hour",
+            "draft.n5_03.word.minute",
+            "draft.n5_03.word.grammar",
+            "draft.n5_03.word.actions",
+            "draft.n5_03.word.context"
+          ],
+          "prompt": "询问开始的时刻应选？",
+          "choices": [
+            "何時",
+            "何日",
+            "何人"
+          ],
+          "answer": "何時",
+          "feedback": "何時询问时刻。"
+        },
+        {
+          "id": "draft.n5_03.q.gc3",
+          "material_ref": "draft.n5_03.mat.gc",
+          "goal_ref": "draft.n5_03.goal.g",
+          "word_refs": [
+            "draft.n5_03.word.date",
+            "draft.n5_03.word.hour",
+            "draft.n5_03.word.minute",
+            "draft.n5_03.word.grammar",
+            "draft.n5_03.word.actions",
+            "draft.n5_03.word.context"
+          ],
+          "prompt": "检查里开始时间后接什么？",
+          "choices": [
+            "に",
+            "から",
+            "まで"
+          ],
+          "answer": "に",
+          "feedback": "七時に标明动作发生的时间。"
+        }
+      ],
+      "review_zh": "把错题画成时间线，标起点、动作点、终点；再用不同已教时刻提问。"
+    },
+    {
+      "id": "draft.n5_03.lesson.r",
+      "planning_key": "N5-03-L03",
+      "type": "R",
+      "theme": "数字和时间",
+      "title": "读日历与价签：数字汉字",
+      "prerequisites": [
+        "N5-02",
+        "draft.n5_03.lesson.g"
+      ],
+      "prerequisite_status": "recommended_not_verified",
+      "goals": [
+        {
+          "id": "draft.n5_03.goal.r",
+          "text": "在日历、日程和虚构价签中凭语境识读数字、日期、時及价格。"
+        }
+      ],
+      "word_refs": [
+        "draft.n5_03.word.numbers",
+        "draft.n5_03.word.week",
+        "draft.n5_03.word.date",
+        "draft.n5_03.word.hour",
+        "draft.n5_03.word.minute",
+        "draft.n5_03.word.price",
+        "draft.n5_03.word.context"
+      ],
+      "explanation_zh": "先辨标签是日期、时间还是价格。数字字形一二三四五六七八九十；百、千、万是数位，円是日元，時是点钟；字形与读音须放进词语。价格只要求词表列出的百、二百、三百さんびゃく、五百、八百はっぴゃく、千、二千、三千さんぜん、八千はっせん、一万いちまん及其后円えん；如三百円さんびゃくえん。没有要求任意大数或独立字音、书写。日期特殊读法先回看 V。",
+      "materials": [
+        {
+          "id": "draft.n5_03.mat.rt",
+          "role": "teach",
+          "jp": "日程：五月三日（日曜日）二時。値段：三百円。",
+          "kana": "にってい：ごがつみっか（にちようび）にじ。ねだん：さんびゃくえん。",
+          "zh": "日程：五月三日（星期日）两点。价格：三百日元。",
+          "goal_refs": [
+            "draft.n5_03.goal.r"
+          ]
+        },
+        {
+          "id": "draft.n5_03.mat.rp",
+          "role": "practice",
+          "jp": "予定：五月十日、日曜日、五時。値段：八百円。",
+          "kana": "よてい：ごがつとおか、にちようび、ごじ。ねだん：はっぴゃくえん。",
+          "zh": "日程：五月十日，星期日，五点。价格：八百日元。",
+          "goal_refs": [
+            "draft.n5_03.goal.r"
+          ]
+        },
+        {
+          "id": "draft.n5_03.mat.rc",
+          "role": "check",
+          "jp": "予定：五月十四日、木曜日、六時半。値段：三千円。休み：五月二十四日。",
+          "kana": "よてい：ごがつじゅうよっか、もくようび、ろくじはん。ねだん：さんぜんえん。やすみ：ごがつにじゅうよっか。",
+          "zh": "日程：五月十四日，星期四，六点半。价格：三千日元。休息：五月二十四日。",
+          "goal_refs": [
+            "draft.n5_03.goal.r"
+          ]
+        }
+      ],
+      "practice": [
+        {
+          "id": "draft.n5_03.q.rp1",
+          "material_ref": "draft.n5_03.mat.rp",
+          "goal_ref": "draft.n5_03.goal.r",
+          "word_refs": [
+            "draft.n5_03.word.numbers",
+            "draft.n5_03.word.week",
+            "draft.n5_03.word.date",
+            "draft.n5_03.word.hour",
+            "draft.n5_03.word.minute",
+            "draft.n5_03.word.price",
+            "draft.n5_03.word.context"
+          ],
+          "prompt": "练习价签读法？",
+          "choices": [
+            "はっぴゃくえん",
+            "さんびゃくえん",
+            "さんぜんえん"
+          ],
+          "answer": "はっぴゃくえん",
+          "feedback": "八百有促音及半浊音。"
+        },
+        {
+          "id": "draft.n5_03.q.rp2",
+          "material_ref": "draft.n5_03.mat.rp",
+          "goal_ref": "draft.n5_03.goal.r",
+          "word_refs": [
+            "draft.n5_03.word.numbers",
+            "draft.n5_03.word.week",
+            "draft.n5_03.word.date",
+            "draft.n5_03.word.hour",
+            "draft.n5_03.word.minute",
+            "draft.n5_03.word.price",
+            "draft.n5_03.word.context"
+          ],
+          "prompt": "练习日程几点？",
+          "choices": [
+            "五时",
+            "六时",
+            "二时"
+          ],
+          "answer": "五时",
+          "feedback": "五時指五点。"
+        }
+      ],
+      "check": [
+        {
+          "id": "draft.n5_03.q.rc1",
+          "material_ref": "draft.n5_03.mat.rc",
+          "goal_ref": "draft.n5_03.goal.r",
+          "word_refs": [
+            "draft.n5_03.word.numbers",
+            "draft.n5_03.word.week",
+            "draft.n5_03.word.date",
+            "draft.n5_03.word.hour",
+            "draft.n5_03.word.minute",
+            "draft.n5_03.word.price",
+            "draft.n5_03.word.context"
+          ],
+          "prompt": "检查日程是哪一天？",
+          "choices": [
+            "五月十四日",
+            "五月二十四日",
+            "五月五日"
+          ],
+          "answer": "五月十四日",
+          "feedback": "予定之后是十四日。"
+        },
+        {
+          "id": "draft.n5_03.q.rc2",
+          "material_ref": "draft.n5_03.mat.rc",
+          "goal_ref": "draft.n5_03.goal.r",
+          "word_refs": [
+            "draft.n5_03.word.numbers",
+            "draft.n5_03.word.week",
+            "draft.n5_03.word.date",
+            "draft.n5_03.word.hour",
+            "draft.n5_03.word.minute",
+            "draft.n5_03.word.price",
+            "draft.n5_03.word.context"
+          ],
+          "prompt": "检查卡星期？",
+          "choices": [
+            "星期四",
+            "星期五",
+            "星期日"
+          ],
+          "answer": "星期四",
+          "feedback": "木曜日是星期四。"
+        },
+        {
+          "id": "draft.n5_03.q.rc3",
+          "material_ref": "draft.n5_03.mat.rc",
+          "goal_ref": "draft.n5_03.goal.r",
+          "word_refs": [
+            "draft.n5_03.word.numbers",
+            "draft.n5_03.word.week",
+            "draft.n5_03.word.date",
+            "draft.n5_03.word.hour",
+            "draft.n5_03.word.minute",
+            "draft.n5_03.word.price",
+            "draft.n5_03.word.context"
+          ],
+          "prompt": "检查日程时间？",
+          "choices": [
+            "六点半",
+            "六点五分",
+            "五点"
+          ],
+          "answer": "六点半",
+          "feedback": "六時半是六点半。"
+        },
+        {
+          "id": "draft.n5_03.q.rc4",
+          "material_ref": "draft.n5_03.mat.rc",
+          "goal_ref": "draft.n5_03.goal.r",
+          "word_refs": [
+            "draft.n5_03.word.numbers",
+            "draft.n5_03.word.week",
+            "draft.n5_03.word.date",
+            "draft.n5_03.word.hour",
+            "draft.n5_03.word.minute",
+            "draft.n5_03.word.price",
+            "draft.n5_03.word.context"
+          ],
+          "prompt": "检查价签读法？",
+          "choices": [
+            "さんぜんえん",
+            "さんびゃくえん",
+            "はっぴゃくえん"
+          ],
+          "answer": "さんぜんえん",
+          "feedback": "三千读さんぜん。"
+        },
+        {
+          "id": "draft.n5_03.q.rc5",
+          "material_ref": "draft.n5_03.mat.rc",
+          "goal_ref": "draft.n5_03.goal.r",
+          "word_refs": [
+            "draft.n5_03.word.numbers",
+            "draft.n5_03.word.week",
+            "draft.n5_03.word.date",
+            "draft.n5_03.word.hour",
+            "draft.n5_03.word.minute",
+            "draft.n5_03.word.price",
+            "draft.n5_03.word.context"
+          ],
+          "prompt": "检查休息日期？",
+          "choices": [
+            "五月二十四日",
+            "五月十四日",
+            "五月三日"
+          ],
+          "answer": "五月二十四日",
+          "feedback": "休み之后是二十四日。"
+        }
+      ],
+      "review_zh": "将误读标成日期、时刻或数位错误，遮译文重新读一张自编价签。"
+    },
+    {
+      "id": "draft.n5_03.lesson.l",
+      "planning_key": "N5-03-L04",
+      "type": "unavailableListening",
+      "theme": "数字和时间",
+      "title": "听约定时间与价格",
+      "prerequisites": [
+        "N5-02",
+        "draft.n5_03.lesson.r"
+      ],
+      "prerequisite_status": "recommended_not_verified",
+      "goals": [
+        {
+          "id": "draft.n5_03.goal.l",
+          "text": "从约定脚本提取日期、星期、起止、会面时刻、人数和价格。"
+        }
+      ],
+      "word_refs": [
+        "draft.n5_03.word.week",
+        "draft.n5_03.word.date",
+        "draft.n5_03.word.hour",
+        "draft.n5_03.word.minute",
+        "draft.n5_03.word.people",
+        "draft.n5_03.word.price",
+        "draft.n5_03.word.grammar",
+        "draft.n5_03.word.actions",
+        "draft.n5_03.word.context"
+      ],
+      "explanation_zh": "先听日期星期，再记从几点到几点、见面点、人数和价格；第二遍核对半、五分及特殊读法。当前只有脚本，可自读或伙伴朗读练习，不能记录听力成绩。",
+      "materials": [
+        {
+          "id": "draft.n5_03.mat.lt",
+          "role": "teach",
+          "jp": "五月二日、土曜日。二時から五時までです。三時に会います。二人です。値段は百円です。",
+          "kana": "ごがつふつか、どようび。にじからごじまでです。さんじにあいます。ふたりです。ねだんはひゃくえんです。",
+          "zh": "五月二日，星期六。两点到五点。三点见面。两个人。价格一百日元。",
+          "goal_refs": [
+            "draft.n5_03.goal.l"
+          ]
+        },
+        {
+          "id": "draft.n5_03.mat.lp",
+          "role": "practice",
+          "jp": "五月五日、火曜日。四時から六時までです。五時に会います。一人です。値段は二百円です。",
+          "kana": "ごがついつか、かようび。よじからろくじまでです。ごじにあいます。ひとりです。ねだんはにひゃくえんです。",
+          "zh": "五月五日，星期二。四点到六点。五点见面。一人。价格二百日元。",
+          "goal_refs": [
+            "draft.n5_03.goal.l"
+          ]
+        },
+        {
+          "id": "draft.n5_03.mat.lc",
+          "role": "check",
+          "jp": "五月八日、金曜日。七時から九時までです。八時半に会います。三人です。値段は八千円です。",
+          "kana": "ごがつようか、きんようび。しちじからくじまでです。はちじはんにあいます。さんにんです。ねだんははっせんえんです。",
+          "zh": "五月八日，星期五。七点到九点。八点半见面。三人。价格八千日元。",
+          "goal_refs": [
+            "draft.n5_03.goal.l"
+          ]
+        }
+      ],
+      "practice": [
+        {
+          "id": "draft.n5_03.q.lp1",
+          "material_ref": "draft.n5_03.mat.lp",
+          "goal_ref": "draft.n5_03.goal.l",
+          "word_refs": [
+            "draft.n5_03.word.week",
+            "draft.n5_03.word.date",
+            "draft.n5_03.word.hour",
+            "draft.n5_03.word.minute",
+            "draft.n5_03.word.people",
+            "draft.n5_03.word.price",
+            "draft.n5_03.word.grammar",
+            "draft.n5_03.word.actions",
+            "draft.n5_03.word.context"
+          ],
+          "prompt": "练习约定几点见面？",
+          "choices": [
+            "五时",
+            "四时",
+            "六时"
+          ],
+          "answer": "五时",
+          "feedback": "五時に会います。"
+        },
+        {
+          "id": "draft.n5_03.q.lp2",
+          "material_ref": "draft.n5_03.mat.lp",
+          "goal_ref": "draft.n5_03.goal.l",
+          "word_refs": [
+            "draft.n5_03.word.week",
+            "draft.n5_03.word.date",
+            "draft.n5_03.word.hour",
+            "draft.n5_03.word.minute",
+            "draft.n5_03.word.people",
+            "draft.n5_03.word.price",
+            "draft.n5_03.word.grammar",
+            "draft.n5_03.word.actions",
+            "draft.n5_03.word.context"
+          ],
+          "prompt": "练习的价格？",
+          "choices": [
+            "二百円",
+            "百円",
+            "八千円"
+          ],
+          "answer": "二百円",
+          "feedback": "二百円读にひゃくえん。"
+        }
+      ],
+      "check": [
+        {
+          "id": "draft.n5_03.q.lc1",
+          "material_ref": "draft.n5_03.mat.lc",
+          "goal_ref": "draft.n5_03.goal.l",
+          "word_refs": [
+            "draft.n5_03.word.week",
+            "draft.n5_03.word.date",
+            "draft.n5_03.word.hour",
+            "draft.n5_03.word.minute",
+            "draft.n5_03.word.people",
+            "draft.n5_03.word.price",
+            "draft.n5_03.word.grammar",
+            "draft.n5_03.word.actions",
+            "draft.n5_03.word.context"
+          ],
+          "prompt": "检查约定日期？",
+          "choices": [
+            "五月八日",
+            "五月五日",
+            "五月二日"
+          ],
+          "answer": "五月八日",
+          "feedback": "八日读ようか。"
+        },
+        {
+          "id": "draft.n5_03.q.lc2",
+          "material_ref": "draft.n5_03.mat.lc",
+          "goal_ref": "draft.n5_03.goal.l",
+          "word_refs": [
+            "draft.n5_03.word.week",
+            "draft.n5_03.word.date",
+            "draft.n5_03.word.hour",
+            "draft.n5_03.word.minute",
+            "draft.n5_03.word.people",
+            "draft.n5_03.word.price",
+            "draft.n5_03.word.grammar",
+            "draft.n5_03.word.actions",
+            "draft.n5_03.word.context"
+          ],
+          "prompt": "检查起点？",
+          "choices": [
+            "七时",
+            "九时",
+            "八时半"
+          ],
+          "answer": "七时",
+          "feedback": "七時から是起点。"
+        },
+        {
+          "id": "draft.n5_03.q.lc3",
+          "material_ref": "draft.n5_03.mat.lc",
+          "goal_ref": "draft.n5_03.goal.l",
+          "word_refs": [
+            "draft.n5_03.word.week",
+            "draft.n5_03.word.date",
+            "draft.n5_03.word.hour",
+            "draft.n5_03.word.minute",
+            "draft.n5_03.word.people",
+            "draft.n5_03.word.price",
+            "draft.n5_03.word.grammar",
+            "draft.n5_03.word.actions",
+            "draft.n5_03.word.context"
+          ],
+          "prompt": "检查终点？",
+          "choices": [
+            "九时",
+            "七时",
+            "八时半"
+          ],
+          "answer": "九时",
+          "feedback": "九時まで是终点。"
+        },
+        {
+          "id": "draft.n5_03.q.lc4",
+          "material_ref": "draft.n5_03.mat.lc",
+          "goal_ref": "draft.n5_03.goal.l",
+          "word_refs": [
+            "draft.n5_03.word.week",
+            "draft.n5_03.word.date",
+            "draft.n5_03.word.hour",
+            "draft.n5_03.word.minute",
+            "draft.n5_03.word.people",
+            "draft.n5_03.word.price",
+            "draft.n5_03.word.grammar",
+            "draft.n5_03.word.actions",
+            "draft.n5_03.word.context"
+          ],
+          "prompt": "检查几点见面？",
+          "choices": [
+            "八点半",
+            "八点五分",
+            "九点"
+          ],
+          "answer": "八点半",
+          "feedback": "八時半に会います。"
+        },
+        {
+          "id": "draft.n5_03.q.lc5",
+          "material_ref": "draft.n5_03.mat.lc",
+          "goal_ref": "draft.n5_03.goal.l",
+          "word_refs": [
+            "draft.n5_03.word.week",
+            "draft.n5_03.word.date",
+            "draft.n5_03.word.hour",
+            "draft.n5_03.word.minute",
+            "draft.n5_03.word.people",
+            "draft.n5_03.word.price",
+            "draft.n5_03.word.grammar",
+            "draft.n5_03.word.actions",
+            "draft.n5_03.word.context"
+          ],
+          "prompt": "检查人数和价格？",
+          "choices": [
+            "三人、八千円",
+            "一人、二百円",
+            "二人、百円"
+          ],
+          "answer": "三人、八千円",
+          "feedback": "三人和八千円分别为人数与价格。"
+        }
+      ],
+      "review_zh": "错题先在脚本标对应词，再请伙伴换一组已教时间朗读；无音频不计听力成绩。"
+    },
+    {
+      "id": "draft.n5_03.lesson.o",
+      "planning_key": "N5-03-L05",
+      "type": "O",
+      "theme": "数字和时间",
+      "title": "说写日程、人数与价格",
+      "prerequisites": [
+        "N5-02",
+        "draft.n5_03.lesson.l"
+      ],
+      "prerequisite_status": "recommended_not_verified",
+      "goals": [
+        {
+          "id": "draft.n5_03.goal.o",
+          "text": "说写虚构日程中的三个时间、人数和价格，并询问日期及见面时刻。"
+        }
+      ],
+      "word_refs": [
+        "draft.n5_03.word.date",
+        "draft.n5_03.word.hour",
+        "draft.n5_03.word.minute",
+        "draft.n5_03.word.people",
+        "draft.n5_03.word.price",
+        "draft.n5_03.word.grammar",
+        "draft.n5_03.word.actions",
+        "draft.n5_03.word.context"
+      ],
+      "explanation_zh": "先写日期，再用から/まで写起止，以に写见面点，分别说人数和价签；以何日、何時各提问一次。以下仅为虚构日程与价格；口说可与伙伴互动，写作独立完成，接受表达等义且已教读法。",
+      "materials": [
+        {
+          "id": "draft.n5_03.mat.ot",
+          "role": "teach",
+          "jp": "何日ですか。五月一日です。何時に会いますか。三時に会います。予定は二時から四時までです。二人です。値段は五百円です。",
+          "kana": "なんにちですか。ごがつついたちです。なんじにあいますか。さんじにあいます。よていはにじからよじまでです。ふたりです。ねだんはごひゃくえんです。",
+          "zh": "几号？五月一日。几点见面？三点见面。日程两点到四点，两人。价格五百日元。",
+          "goal_refs": [
+            "draft.n5_03.goal.o"
+          ]
+        },
+        {
+          "id": "draft.n5_03.mat.op",
+          "role": "practice",
+          "jp": "五月三日。三時から六時まで。五時に会います。三人。値段は千円。",
+          "kana": "ごがつみっか。さんじからろくじまで。ごじにあいます。さんにん。ねだんはせんえん。",
+          "zh": "五月三日。三点到六点。五点见面。三人。价格一千日元。",
+          "goal_refs": [
+            "draft.n5_03.goal.o"
+          ]
+        },
+        {
+          "id": "draft.n5_03.mat.oc",
+          "role": "check",
+          "jp": "五月十日。四時から七時まで。六時に会います。一人。値段は一万円。",
+          "kana": "ごがつとおか。よじからしちじまで。ろくじにあいます。ひとり。ねだんはいちまんえん。",
+          "zh": "五月十日。四点到七点。六点见面。一人。价格一万日元。",
+          "goal_refs": [
+            "draft.n5_03.goal.o"
+          ]
+        }
+      ],
+      "practice": [
+        {
+          "id": "draft.n5_03.q.op1",
+          "material_ref": "draft.n5_03.mat.op",
+          "goal_ref": "draft.n5_03.goal.o",
+          "word_refs": [
+            "draft.n5_03.word.date",
+            "draft.n5_03.word.hour",
+            "draft.n5_03.word.minute",
+            "draft.n5_03.word.people",
+            "draft.n5_03.word.price",
+            "draft.n5_03.word.grammar",
+            "draft.n5_03.word.actions",
+            "draft.n5_03.word.context"
+          ],
+          "prompt": "练习卡三个时间中见面点？",
+          "choices": [
+            "五时",
+            "三时",
+            "六时"
+          ],
+          "answer": "五时",
+          "feedback": "五時に会います。"
+        },
+        {
+          "id": "draft.n5_03.q.op2",
+          "material_ref": "draft.n5_03.mat.op",
+          "goal_ref": "draft.n5_03.goal.o",
+          "word_refs": [
+            "draft.n5_03.word.date",
+            "draft.n5_03.word.hour",
+            "draft.n5_03.word.minute",
+            "draft.n5_03.word.people",
+            "draft.n5_03.word.price",
+            "draft.n5_03.word.grammar",
+            "draft.n5_03.word.actions",
+            "draft.n5_03.word.context"
+          ],
+          "prompt": "练习卡价格？",
+          "choices": [
+            "千円",
+            "五百円",
+            "一万円"
+          ],
+          "answer": "千円",
+          "feedback": "千円读せんえん。"
+        }
+      ],
+      "check": [
+        {
+          "id": "draft.n5_03.q.oc1",
+          "material_ref": "draft.n5_03.mat.oc",
+          "goal_ref": "draft.n5_03.goal.o",
+          "word_refs": [
+            "draft.n5_03.word.date",
+            "draft.n5_03.word.hour",
+            "draft.n5_03.word.minute",
+            "draft.n5_03.word.people",
+            "draft.n5_03.word.price",
+            "draft.n5_03.word.grammar",
+            "draft.n5_03.word.actions",
+            "draft.n5_03.word.context"
+          ],
+          "prompt": "检查卡的起止？",
+          "choices": [
+            "四时到七时",
+            "三时到六时",
+            "六时到七时"
+          ],
+          "answer": "四时到七时",
+          "feedback": "から/まで确定两个端点。"
+        },
+        {
+          "id": "draft.n5_03.q.oc2",
+          "material_ref": "draft.n5_03.mat.oc",
+          "goal_ref": "draft.n5_03.goal.o",
+          "word_refs": [
+            "draft.n5_03.word.date",
+            "draft.n5_03.word.hour",
+            "draft.n5_03.word.minute",
+            "draft.n5_03.word.people",
+            "draft.n5_03.word.price",
+            "draft.n5_03.word.grammar",
+            "draft.n5_03.word.actions",
+            "draft.n5_03.word.context"
+          ],
+          "prompt": "检查卡有几人？",
+          "choices": [
+            "一人",
+            "二人",
+            "三人"
+          ],
+          "answer": "一人",
+          "feedback": "一人读ひとり。"
+        }
+      ],
+      "review_zh": "人工指出错在日期、三个时间、人数还是价格；重新组织另一张虚构卡，并完成说与写。",
+      "performance": {
+        "practice": {
+          "card_zh": "五月三日。三点到六点。五点见面。三人。价格一千日元。",
+          "prompt_zh": "根据练习卡先写后说日期、起止、会面点、人数及价格，与伙伴练何日和何時问答。"
+        },
+        "check": {
+          "card_zh": "五月十日。四点到七点。六点见面。一人。价格一万日元。",
+          "prompt_zh": "口说渠道；课内检查共同要求：以检查卡独立说写日期、起止、会面点、人数及价格；伙伴各问一次何日、何時。人工反馈。 书写渠道；课内检查共同要求：以检查卡独立说写日期、起止、会面点、人数及价格；伙伴各问一次何日、何時。人工反馈。"
+        },
+        "rubric_zh": "任务完成：0：缺大部分指定信息；1：有日期与部分信息但遗漏时间、人数、价格或问答；2：日期、三个时间、人数、价格及两组问答均完成\n语言准确：0：数字或助词错误使信息无法理解；1：有读音或助词错误但主要信息可辨；2：已教日期、时刻、人数、价格及に/から/まで基本准确\n连贯：0：起止与见面时间无法区分；1：大体可辨但顺序或指代不清；2：起止、见面点和其他信息关系清晰\n语境得体：0：问答无法对应；1：问答部分对应或礼貌形式不稳定；2：何日、何時问答对应，礼貌表达自然\n阈值：说写各四维0–2分，分别至少6/8且各维至少1；同时完成各自全部任务。人工评分，接受自然等义表达。"
+      }
+    }
+  ],
+  "exam": {
+    "id": "draft.n5_03.exam.unit",
+    "materials": [
+      {
+        "id": "draft.n5_03.mat.examr",
+        "role": "exam_reading",
+        "jp": "予定：五月二日、土曜日。午後一時から四時まで。三時に会います。二人。値段：二千円。休み：五月五日。",
+        "kana": "よてい：ごがつふつか、どようび。ごごいちじからよじまで。さんじにあいます。ふたり。ねだん：にせんえん。やすみ：ごがついつか。",
+        "zh": "日程：五月二日，星期六。下午一点到四点。三点见面。两人。价格二千日元。休息：五月五日。"
+      },
+      {
+        "id": "draft.n5_03.mat.examl",
+        "role": "exam_listening",
+        "jp": "五月二十四日、日曜日。午前八時から十時までです。九時十五分に会います。二人です。値段は三百円です。",
+        "kana": "ごがつにじゅうよっか、にちようび。ごぜんはちじからじゅうじまでです。くじじゅうごふんにあいます。ふたりです。ねだんはさんびゃくえんです。",
+        "zh": "五月二十四日，星期日。上午八点到十点。九点十五分见面。两人。价格三百日元。"
+      },
+      {
+        "id": "draft.n5_03.mat.examo",
+        "role": "exam_output",
+        "jp": "五月二十日。二時から五時まで。四時に会います。二人。値段は八百円。",
+        "kana": "ごがつはつか。にじからごじまで。よじにあいます。ふたり。ねだんははっぴゃくえん。",
+        "zh": "五月二十日。两点到五点。四点见面。两人。价格八百日元。"
+      }
+    ],
+    "reading": [
+      {
+        "id": "draft.n5_03.q.er1",
+        "material_ref": "draft.n5_03.mat.examr",
+        "goal_ref": "draft.n5_03.goal.r",
+        "word_refs": [
+          "draft.n5_03.word.date",
+          "draft.n5_03.word.hour",
+          "draft.n5_03.word.people",
+          "draft.n5_03.word.price"
+        ],
+        "prompt": "测评日程是几月几日？",
+        "choices": [
+          "五月二日",
+          "五月五日",
+          "五月二十四日"
+        ],
+        "answer": "五月二日",
+        "feedback": "予定标五月二日。"
+      },
+      {
+        "id": "draft.n5_03.q.er2",
+        "material_ref": "draft.n5_03.mat.examr",
+        "goal_ref": "draft.n5_03.goal.r",
+        "word_refs": [
+          "draft.n5_03.word.date",
+          "draft.n5_03.word.hour",
+          "draft.n5_03.word.people",
+          "draft.n5_03.word.price"
+        ],
+        "prompt": "测评日程的起点是哪一时刻？",
+        "choices": [
+          "下午一点",
+          "下午三点",
+          "下午四点"
+        ],
+        "answer": "下午一点",
+        "feedback": "一時から是起点。"
+      },
+      {
+        "id": "draft.n5_03.q.er3",
+        "material_ref": "draft.n5_03.mat.examr",
+        "goal_ref": "draft.n5_03.goal.r",
+        "word_refs": [
+          "draft.n5_03.word.date",
+          "draft.n5_03.word.hour",
+          "draft.n5_03.word.people",
+          "draft.n5_03.word.price"
+        ],
+        "prompt": "测评中约几点见面？",
+        "choices": [
+          "三点",
+          "一点",
+          "四点"
+        ],
+        "answer": "三点",
+        "feedback": "三時に会います。"
+      },
+      {
+        "id": "draft.n5_03.q.er4",
+        "material_ref": "draft.n5_03.mat.examr",
+        "goal_ref": "draft.n5_03.goal.r",
+        "word_refs": [
+          "draft.n5_03.word.date",
+          "draft.n5_03.word.hour",
+          "draft.n5_03.word.people",
+          "draft.n5_03.word.price"
+        ],
+        "prompt": "测评价签是多少？",
+        "choices": [
+          "二千円",
+          "二百円",
+          "三百円"
+        ],
+        "answer": "二千円",
+        "feedback": "二千円读にせんえん。"
+      },
+      {
+        "id": "draft.n5_03.q.er5",
+        "material_ref": "draft.n5_03.mat.examr",
+        "goal_ref": "draft.n5_03.goal.r",
+        "word_refs": [
+          "draft.n5_03.word.date",
+          "draft.n5_03.word.hour",
+          "draft.n5_03.word.people",
+          "draft.n5_03.word.price"
+        ],
+        "prompt": "测评日程的人数是多少？",
+        "choices": [
+          "二人",
+          "一人",
+          "三人"
+        ],
+        "answer": "二人",
+        "feedback": "二人读ふたり。"
+      }
+    ],
+    "listening": [
+      {
+        "id": "draft.n5_03.q.el1",
+        "material_ref": "draft.n5_03.mat.examl",
+        "goal_ref": "draft.n5_03.goal.l",
+        "word_refs": [
+          "draft.n5_03.word.date",
+          "draft.n5_03.word.hour",
+          "draft.n5_03.word.minute",
+          "draft.n5_03.word.people",
+          "draft.n5_03.word.price"
+        ],
+        "prompt": "录音约定是几月几日？",
+        "choices": [
+          "五月二十四日",
+          "五月二十日",
+          "五月十四日"
+        ],
+        "answer": "五月二十四日",
+        "feedback": "二十四日读にじゅうよっか。"
+      },
+      {
+        "id": "draft.n5_03.q.el2",
+        "material_ref": "draft.n5_03.mat.examl",
+        "goal_ref": "draft.n5_03.goal.l",
+        "word_refs": [
+          "draft.n5_03.word.date",
+          "draft.n5_03.word.hour",
+          "draft.n5_03.word.minute",
+          "draft.n5_03.word.people",
+          "draft.n5_03.word.price"
+        ],
+        "prompt": "录音中的开始时间？",
+        "choices": [
+          "上午八点",
+          "上午九点",
+          "上午十点"
+        ],
+        "answer": "上午八点",
+        "feedback": "八時から是起点。"
+      },
+      {
+        "id": "draft.n5_03.q.el3",
+        "material_ref": "draft.n5_03.mat.examl",
+        "goal_ref": "draft.n5_03.goal.l",
+        "word_refs": [
+          "draft.n5_03.word.date",
+          "draft.n5_03.word.hour",
+          "draft.n5_03.word.minute",
+          "draft.n5_03.word.people",
+          "draft.n5_03.word.price"
+        ],
+        "prompt": "录音中的结束时间？",
+        "choices": [
+          "上午十点",
+          "上午八点",
+          "上午九点"
+        ],
+        "answer": "上午十点",
+        "feedback": "十時まで是终点。"
+      },
+      {
+        "id": "draft.n5_03.q.el4",
+        "material_ref": "draft.n5_03.mat.examl",
+        "goal_ref": "draft.n5_03.goal.l",
+        "word_refs": [
+          "draft.n5_03.word.date",
+          "draft.n5_03.word.hour",
+          "draft.n5_03.word.minute",
+          "draft.n5_03.word.people",
+          "draft.n5_03.word.price"
+        ],
+        "prompt": "录音中的会面时间？",
+        "choices": [
+          "九点十五分",
+          "九点半",
+          "八点十五分"
+        ],
+        "answer": "九点十五分",
+        "feedback": "九時十五分に会います。"
+      },
+      {
+        "id": "draft.n5_03.q.el5",
+        "material_ref": "draft.n5_03.mat.examl",
+        "goal_ref": "draft.n5_03.goal.l",
+        "word_refs": [
+          "draft.n5_03.word.date",
+          "draft.n5_03.word.hour",
+          "draft.n5_03.word.minute",
+          "draft.n5_03.word.people",
+          "draft.n5_03.word.price"
+        ],
+        "prompt": "录音中的人数与价格？",
+        "choices": [
+          "二人、三百円",
+          "三人、八百円",
+          "一人、二千円"
+        ],
+        "answer": "二人、三百円",
+        "feedback": "二人读ふたり；三百円读さんびゃくえん。"
+      }
+    ],
+    "scoring": "阅读听力各五题每题一分，建议分别至少4/5；未有审校音频听力阻塞。说写人工各至少6/8且各维至少1并完成任务。当前单元结果未定。",
+    "output": {
+      "card_zh": "五月二十日。两点到五点。四点见面。两人。价格八百日元。",
+      "prompt_zh": "根据单元测卡与伙伴口头进行至少两轮：问答何日与何時；介绍起点、终点、见面点三个时间、人数及价格。仅用虚构信息。 根据单元测卡独立写日期、起点、终点、见面点三个时间、人数及价格；写何日及何時各一组问答。",
+      "rubric_zh": "任务完成：0：缺大部分指定信息；1：有日期与部分信息但遗漏时间、人数、价格或问答；2：日期、三个时间、人数、价格及两组问答均完成\n语言准确：0：数字或助词错误使信息无法理解；1：有读音或助词错误但主要信息可辨；2：已教日期、时刻、人数、价格及に/から/まで基本准确\n连贯：0：起止与见面时间无法区分；1：大体可辨但顺序或指代不清；2：起止、见面点和其他信息关系清晰\n语境得体：0：问答无法对应；1：问答部分对应或礼貌形式不稳定；2：何日、何時问答对应，礼貌表达自然\n阈值：说写各四维0–2分，分别至少6/8且各维至少1；同时完成各自全部任务。人工评分，接受自然等义表达。",
+      "scoring": "human_only"
+    }
+  },
+  "performance": {
+    "practice_material_ref": "draft.n5_03.mat.op",
+    "check_material_ref": "draft.n5_03.mat.oc",
+    "exam_material_ref": "draft.n5_03.mat.examo",
+    "goal_refs": [
+      "draft.n5_03.goal.o"
+    ],
+    "practice": "根据练习卡先写后说日期、起止、会面点、人数及价格，与伙伴练何日和何時问答。",
+    "practice_feedback": "指出から/まで与に的位置，核对三个时间、人数、价格及日期读音，再换卡练。",
+    "check": "以检查卡独立说写日期、起止、会面点、人数及价格；伙伴各问一次何日、何時。人工反馈。",
+    "exam_speaking": "根据单元测卡与伙伴口头进行至少两轮：问答何日与何時；介绍起点、终点、见面点三个时间、人数及价格。仅用虚构信息。",
+    "exam_writing": "根据单元测卡独立写日期、起点、终点、见面点三个时间、人数及价格；写何日及何時各一组问答。",
+    "exam_sample_jp": "何日ですか。五月二十日です。何時に会いますか。四時に会います。予定は二時から五時までです。二人です。値段は八百円です。",
+    "exam_sample_kana": "なんにちですか。ごがつはつかです。なんじにあいますか。よじにあいます。よていはにじからごじまでです。ふたりです。ねだんははっぴゃくえんです。",
+    "exam_sample_zh": "几号？五月二十日。几点见面？四点。日程从两点到五点。两人。价格八百日元。",
+    "threshold": "说写各四维0–2分，分别至少6/8且各维至少1；同时完成各自全部任务。人工评分，接受自然等义表达。",
+    "rubric_dimensions": {
+      "任务完成": [
+        "0：缺大部分指定信息",
+        "1：有日期与部分信息但遗漏时间、人数、价格或问答",
+        "2：日期、三个时间、人数、价格及两组问答均完成"
+      ],
+      "语言准确": [
+        "0：数字或助词错误使信息无法理解",
+        "1：有读音或助词错误但主要信息可辨",
+        "2：已教日期、时刻、人数、价格及に/から/まで基本准确"
+      ],
+      "连贯": [
+        "0：起止与见面时间无法区分",
+        "1：大体可辨但顺序或指代不清",
+        "2：起止、见面点和其他信息关系清晰"
+      ],
+      "语境得体": [
+        "0：问答无法对应",
+        "1：问答部分对应或礼貌形式不稳定",
+        "2：何日、何時问答对应，礼貌表达自然"
+      ]
+    },
+    "rubric": "任务完成：0：缺大部分指定信息；1：有日期与部分信息但遗漏时间、人数、价格或问答；2：日期、三个时间、人数、价格及两组问答均完成\n语言准确：0：数字或助词错误使信息无法理解；1：有读音或助词错误但主要信息可辨；2：已教日期、时刻、人数、价格及に/から/まで基本准确\n连贯：0：起止与见面时间无法区分；1：大体可辨但顺序或指代不清；2：起止、见面点和其他信息关系清晰\n语境得体：0：问答无法对应；1：问答部分对应或礼貌形式不稳定；2：何日、何時问答对应，礼貌表达自然\n阈值：说写各四维0–2分，分别至少6/8且各维至少1；同时完成各自全部任务。人工评分，接受自然等义表达。",
+    "check_speaking": "口说渠道；课内检查共同要求：以检查卡独立说写日期、起止、会面点、人数及价格；伙伴各问一次何日、何時。人工反馈。",
+    "check_writing": "书写渠道；课内检查共同要求：以检查卡独立说写日期、起止、会面点、人数及价格；伙伴各问一次何日、何時。人工反馈。"
+  },
+  "asset_contract": "nekogo.n5_draft.v1",
+  "asset_version": 1,
+  "source_asset_sha256": "8ce9fe6cbd16843a9e2c3083518261a2b56d9134fcf61bf8466e99baf51e5f88"
+}

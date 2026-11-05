@@ -1,0 +1,654 @@
+{
+  "schema": "draft.n4_03.course.v1",
+  "unit": "N4-03",
+  "theme": "天气和旅行",
+  "status": {
+    "publication": "draft",
+    "language_review": "pending",
+    "teaching_review": "pending",
+    "rights_review": "pending",
+    "audio": "not_produced",
+    "audio_review": "pending",
+    "listening_score": "blocked",
+    "speaking_writing": "human_only",
+    "runtime_verification": "not_run",
+    "app_integration": "not_integrated"
+  },
+  "words": [
+    {
+      "id": "draft.n4_03.word.1",
+      "forms": "予報（よほう）",
+      "meaning_zh": "预报",
+      "source": "AI_original_draft"
+    },
+    {
+      "id": "draft.n4_03.word.2",
+      "forms": "強風（きょうふう）",
+      "meaning_zh": "强风",
+      "source": "AI_original_draft"
+    },
+    {
+      "id": "draft.n4_03.word.3",
+      "forms": "中止（ちゅうし）",
+      "meaning_zh": "取消",
+      "source": "AI_original_draft"
+    },
+    {
+      "id": "draft.n4_03.word.4",
+      "forms": "延期（えんき）",
+      "meaning_zh": "延期",
+      "source": "AI_original_draft"
+    }
+  ],
+  "lessons": [
+    {
+      "id": "draft.n4_03.lesson.v",
+      "planning_key": "N4-03-L01",
+      "type": "V",
+      "title": "辨认天气与活动变动",
+      "prerequisites": [],
+      "goals": [
+        {
+          "id": "draft.n4_03.lesson.v.goal",
+          "text": "辨认天气与活动变动"
+        }
+      ],
+      "word_refs": [
+        "draft.n4_03.word.1",
+        "draft.n4_03.word.2",
+        "draft.n4_03.word.3",
+        "draft.n4_03.word.4"
+      ],
+      "explanation_zh": "「中止」表示原活动取消；「延期」表示推迟举行。行程通知要找新的日期或替代活动。 「延期」的「期」指日期或期限。活动「延期」是把日期往后移。「中止」则表示原定活动不举行。",
+      "materials": [
+        {
+          "id": "draft.n4_03.lesson.v.teach",
+          "role": "teach",
+          "jp": "強風のため、午後の船は運休です。",
+          "goal_refs": [
+            "draft.n4_03.lesson.v.goal"
+          ]
+        },
+        {
+          "id": "draft.n4_03.lesson.v.practice",
+          "role": "practice",
+          "jp": "雨のため、明日の見学は中止です。",
+          "goal_refs": [
+            "draft.n4_03.lesson.v.goal"
+          ]
+        },
+        {
+          "id": "draft.n4_03.lesson.v.check",
+          "role": "check",
+          "jp": "花火大会は来週の土曜日に延期されました。",
+          "goal_refs": [
+            "draft.n4_03.lesson.v.goal"
+          ]
+        },
+        {
+          "id": "draft.n4_03.lesson.v.kanji-reading",
+          "role": "practice",
+          "jp": "延期",
+          "goal_refs": [
+            "draft.n4_03.lesson.v.goal"
+          ]
+        }
+      ],
+      "practice": [
+        {
+          "id": "draft.n4_03.lesson.v.practice.q1",
+          "material_ref": "draft.n4_03.lesson.v.practice",
+          "goal_ref": "draft.n4_03.lesson.v.goal",
+          "word_refs": [
+            "draft.n4_03.word.1",
+            "draft.n4_03.word.2",
+            "draft.n4_03.word.3",
+            "draft.n4_03.word.4"
+          ],
+          "prompt": "明天的参观有什么变化？",
+          "choices": [
+            "延期一天",
+            "提前一天",
+            "取消"
+          ],
+          "answer": "取消",
+          "feedback": "「中止」表示取消。"
+        },
+        {
+          "id": "draft.n4_03.lesson.v.kanji-reading.q1",
+          "material_ref": "draft.n4_03.lesson.v.kanji-reading",
+          "goal_ref": "draft.n4_03.lesson.v.goal",
+          "word_refs": [
+            "draft.n4_03.word.4"
+          ],
+          "prompt": "这个词怎么读？",
+          "choices": [
+            "えんじ",
+            "のびき",
+            "えんき"
+          ],
+          "answer": "えんき",
+          "feedback": "「延期」的「期」指日期或期限。活动「延期」是把日期往后移。「中止」则表示原定活动不举行。"
+        }
+      ],
+      "check": [
+        {
+          "id": "draft.n4_03.lesson.v.check.q1",
+          "material_ref": "draft.n4_03.lesson.v.check",
+          "goal_ref": "draft.n4_03.lesson.v.goal",
+          "word_refs": [
+            "draft.n4_03.word.1",
+            "draft.n4_03.word.2",
+            "draft.n4_03.word.3",
+            "draft.n4_03.word.4"
+          ],
+          "prompt": "烟花大会改到何时？",
+          "choices": [
+            "下周日",
+            "下周六",
+            "本周六"
+          ],
+          "answer": "下周六",
+          "feedback": "「来週の土曜日に」是新的日期。"
+        }
+      ]
+    },
+    {
+      "id": "draft.n4_03.lesson.g",
+      "planning_key": "N4-03-L02",
+      "type": "G",
+      "title": "用条件句提出备选",
+      "prerequisites": [
+        "N4-03-L01"
+      ],
+      "goals": [
+        {
+          "id": "draft.n4_03.lesson.g.goal",
+          "text": "用条件句提出备选"
+        }
+      ],
+      "word_refs": [
+        "draft.n4_03.word.1",
+        "draft.n4_03.word.2",
+        "draft.n4_03.word.3",
+        "draft.n4_03.word.4"
+      ],
+      "explanation_zh": "用「〜たら」交代条件，再说明满足条件时要怎么做。传闻用法是「普通形＋そうです」。转述预报时，可以用「天気予報によると」交代消息来源。",
+      "materials": [
+        {
+          "id": "draft.n4_03.lesson.g.teach",
+          "role": "teach",
+          "jp": "天気予報によると、明日は雨が降るそうです。雨が降ったら、博物館に行きます。",
+          "goal_refs": [
+            "draft.n4_03.lesson.g.goal"
+          ]
+        },
+        {
+          "id": "draft.n4_03.lesson.g.practice",
+          "role": "practice",
+          "jp": "風が強かったら、船には乗りません。",
+          "goal_refs": [
+            "draft.n4_03.lesson.g.goal"
+          ]
+        },
+        {
+          "id": "draft.n4_03.lesson.g.check",
+          "role": "check",
+          "jp": "午後に雨がやんだら、海を見に行きましょう。",
+          "goal_refs": [
+            "draft.n4_03.lesson.g.goal"
+          ]
+        }
+      ],
+      "practice": [
+        {
+          "id": "draft.n4_03.lesson.g.practice.q1",
+          "material_ref": "draft.n4_03.lesson.g.practice",
+          "goal_ref": "draft.n4_03.lesson.g.goal",
+          "word_refs": [
+            "draft.n4_03.word.1",
+            "draft.n4_03.word.2",
+            "draft.n4_03.word.3",
+            "draft.n4_03.word.4"
+          ],
+          "prompt": "在什么情况下不坐船？",
+          "choices": [
+            "博物馆关门",
+            "风大",
+            "没下雨"
+          ],
+          "answer": "风大",
+          "feedback": "「風が強かったら」是条件。"
+        }
+      ],
+      "check": [
+        {
+          "id": "draft.n4_03.lesson.g.check.q1",
+          "material_ref": "draft.n4_03.lesson.g.check",
+          "goal_ref": "draft.n4_03.lesson.g.goal",
+          "word_refs": [
+            "draft.n4_03.word.1",
+            "draft.n4_03.word.2",
+            "draft.n4_03.word.3",
+            "draft.n4_03.word.4"
+          ],
+          "prompt": "什么情况下建议去看海？",
+          "choices": [
+            "下午雨停",
+            "早上下雨",
+            "下午风大"
+          ],
+          "answer": "下午雨停",
+          "feedback": "「やんだら」表示雨停之后满足条件。"
+        }
+      ],
+      "common_mistake_zh": "「雨が降るそうです」转述听来的消息；「雨が降りそうです」表示看起来快下雨了。注意「降る」和「降り」的区别。"
+    },
+    {
+      "id": "draft.n4_03.lesson.r",
+      "planning_key": "N4-03-L03",
+      "type": "R",
+      "title": "读活动改期通知",
+      "prerequisites": [
+        "N4-03-L02"
+      ],
+      "goals": [
+        {
+          "id": "draft.n4_03.lesson.r.goal",
+          "text": "读活动改期通知"
+        }
+      ],
+      "word_refs": [
+        "draft.n4_03.word.1",
+        "draft.n4_03.word.2",
+        "draft.n4_03.word.3",
+        "draft.n4_03.word.4"
+      ],
+      "explanation_zh": "区分活动时间、集合时间和有效日期。用「そのまま」确认哪些安排继续有效。",
+      "materials": [
+        {
+          "id": "draft.n4_03.lesson.r.teach",
+          "role": "teach",
+          "jp": "強風のため、今日の散歩会は中止です。明日の散歩会は予定どおり行います。",
+          "goal_refs": [
+            "draft.n4_03.lesson.r.goal"
+          ]
+        },
+        {
+          "id": "draft.n4_03.lesson.r.practice",
+          "role": "practice",
+          "jp": "雨のため、見学は日曜日に延期します。集合場所はそのままです。",
+          "goal_refs": [
+            "draft.n4_03.lesson.r.goal"
+          ]
+        },
+        {
+          "id": "draft.n4_03.lesson.r.check",
+          "role": "check",
+          "jp": "土曜日の野外ツアーは中止です。代わりに、午後二時から駅前の資料館を見学します。集合は一時五十分に資料館の入口です。",
+          "goal_refs": [
+            "draft.n4_03.lesson.r.goal"
+          ]
+        }
+      ],
+      "practice": [
+        {
+          "id": "draft.n4_03.lesson.r.practice.q1",
+          "material_ref": "draft.n4_03.lesson.r.practice",
+          "goal_ref": "draft.n4_03.lesson.r.goal",
+          "word_refs": [
+            "draft.n4_03.word.1",
+            "draft.n4_03.word.2",
+            "draft.n4_03.word.3",
+            "draft.n4_03.word.4"
+          ],
+          "prompt": "哪项安排继续有效？",
+          "choices": [
+            "集合地点",
+            "举行日期",
+            "原来的天气预报"
+          ],
+          "answer": "集合地点",
+          "feedback": "「集合場所はそのまま」表示地点照旧。"
+        }
+      ],
+      "check": [
+        {
+          "id": "draft.n4_03.lesson.r.check.q1",
+          "material_ref": "draft.n4_03.lesson.r.check",
+          "goal_ref": "draft.n4_03.lesson.r.goal",
+          "word_refs": [
+            "draft.n4_03.word.1",
+            "draft.n4_03.word.2",
+            "draft.n4_03.word.3",
+            "draft.n4_03.word.4"
+          ],
+          "prompt": "何时何地集合？",
+          "choices": [
+            "下午两点在车站",
+            "上午十一点五十在入口",
+            "下午一点五十在资料馆入口"
+          ],
+          "answer": "下午一点五十在资料馆入口",
+          "feedback": "「集合は」引出集合安排。"
+        }
+      ]
+    },
+    {
+      "id": "draft.n4_03.lesson.l",
+      "planning_key": "N4-03-L04",
+      "type": "L",
+      "title": "听天气更新与决定",
+      "prerequisites": [
+        "N4-03-L03"
+      ],
+      "goals": [
+        {
+          "id": "draft.n4_03.lesson.l.goal",
+          "text": "听天气更新与决定"
+        }
+      ],
+      "word_refs": [
+        "draft.n4_03.word.1",
+        "draft.n4_03.word.2",
+        "draft.n4_03.word.3",
+        "draft.n4_03.word.4"
+      ],
+      "explanation_zh": "在两人讨论中先听天气信息，再区分各人的提议和最后同意的安排。",
+      "materials": [
+        {
+          "id": "draft.n4_03.lesson.l.teach",
+          "role": "teach",
+          "jp": "A：雨が降りそうですね。B：じゃあ、先に資料館に入りましょう。A：そうしましょう。",
+          "goal_refs": [
+            "draft.n4_03.lesson.l.goal"
+          ]
+        },
+        {
+          "id": "draft.n4_03.lesson.l.practice",
+          "role": "practice",
+          "jp": "A：午前は雨だそうです。B：じゃあ、散歩は午後にしませんか。A：いいですね。",
+          "goal_refs": [
+            "draft.n4_03.lesson.l.goal"
+          ]
+        },
+        {
+          "id": "draft.n4_03.lesson.l.check",
+          "role": "check",
+          "jp": "A：午後は風が強くなるそうです。B：船はやめて、水族館に行きませんか。A：ええ、そうしましょう。",
+          "goal_refs": [
+            "draft.n4_03.lesson.l.goal"
+          ]
+        }
+      ],
+      "practice": [
+        {
+          "id": "draft.n4_03.lesson.l.practice.q1",
+          "material_ref": "draft.n4_03.lesson.l.practice",
+          "goal_ref": "draft.n4_03.lesson.l.goal",
+          "word_refs": [
+            "draft.n4_03.word.1",
+            "draft.n4_03.word.2",
+            "draft.n4_03.word.3",
+            "draft.n4_03.word.4"
+          ],
+          "prompt": "两人同意什么时候散步？",
+          "choices": [
+            "上午",
+            "明早",
+            "下午"
+          ],
+          "answer": "下午",
+          "feedback": "最后答复接受了「午後」。"
+        }
+      ],
+      "check": [
+        {
+          "id": "draft.n4_03.lesson.l.check.q1",
+          "material_ref": "draft.n4_03.lesson.l.check",
+          "goal_ref": "draft.n4_03.lesson.l.goal",
+          "word_refs": [
+            "draft.n4_03.word.1",
+            "draft.n4_03.word.2",
+            "draft.n4_03.word.3",
+            "draft.n4_03.word.4"
+          ],
+          "prompt": "两人最后决定去哪里？",
+          "choices": [
+            "公园",
+            "水族馆",
+            "码头"
+          ],
+          "answer": "水族馆",
+          "feedback": "最后同意的提议是去「水族館」。"
+        }
+      ]
+    },
+    {
+      "id": "draft.n4_03.lesson.o",
+      "planning_key": "N4-03-L05",
+      "type": "O",
+      "title": "说明行程和备用安排",
+      "prerequisites": [
+        "N4-03-L04"
+      ],
+      "goals": [
+        {
+          "id": "draft.n4_03.lesson.o.goal",
+          "text": "说明行程和备用安排"
+        }
+      ],
+      "word_refs": [
+        "draft.n4_03.word.1",
+        "draft.n4_03.word.2",
+        "draft.n4_03.word.3",
+        "draft.n4_03.word.4"
+      ],
+      "explanation_zh": "先说原计划，再补一句条件及备选。说明信息来自预报时，可用「予報では」。",
+      "materials": [
+        {
+          "id": "draft.n4_03.lesson.o.teach",
+          "role": "teach",
+          "jp": "午前は海に行く予定です。雨が降ったら、駅前の資料館に行きましょう。",
+          "goal_refs": [
+            "draft.n4_03.lesson.o.goal"
+          ]
+        }
+      ],
+      "performance": {
+        "practice": {
+          "card_zh": "角色卡：你原打算坐船。预报午后风大，附近有水族馆。",
+          "prompt_zh": "跟同伴商量原计划和备选。"
+        },
+        "check": {
+          "card_zh": "角色卡：你和朋友计划散步。上午可能下雨，下午有机会放晴。",
+          "prompt_zh": "口头商量，并写一条日语行程消息。"
+        },
+        "rubric_zh": "给出原计划；说明触发条件；交代备选时间或地点。"
+      }
+    },
+    {
+      "id": "draft.n4_03.lesson.t",
+      "planning_key": "N4-03-L06",
+      "type": "T",
+      "title": "第二次变更时重新协调",
+      "prerequisites": [
+        "N4-03-L05"
+      ],
+      "goals": [
+        {
+          "id": "draft.n4_03.lesson.t.goal",
+          "text": "第二次变更时重新协调"
+        }
+      ],
+      "word_refs": [
+        "draft.n4_03.word.1",
+        "draft.n4_03.word.2",
+        "draft.n4_03.word.3",
+        "draft.n4_03.word.4"
+      ],
+      "explanation_zh": "按顺序交代旧安排、新信息、可行方案。两种变更同时发生时，分别处理。",
+      "materials": [
+        {
+          "id": "draft.n4_03.lesson.t.teach",
+          "role": "teach",
+          "jp": "資料館も休みなら、駅の近くで昼ご飯を食べて、午後にもう一度天気を確認しましょう。",
+          "goal_refs": [
+            "draft.n4_03.lesson.t.goal"
+          ]
+        }
+      ],
+      "performance": {
+        "practice": {
+          "card_zh": "新条件：海边关闭，原备选资料馆上午也不开门。",
+          "prompt_zh": "说明暂缓哪项安排，并提议上午做什么。"
+        },
+        "check": {
+          "card_zh": "原定周六野外活动已取消。资料馆下午一点开放，从馆门口走到车站要十五分钟。同伴下午三点前要到车站。",
+          "prompt_zh": "用日语提出新的见面时间和地点，再说明最晚几点离开资料馆。"
+        },
+        "rubric_zh": "说明旧安排为什么改；约定时间符合开放时间；留出步行到车站的时间。"
+      }
+    }
+  ],
+  "exam": {
+    "id": "draft.n4_03.exam.unit",
+    "materials": [
+      {
+        "id": "draft.n4_03.mat.examr",
+        "role": "exam_reading",
+        "jp": "土曜日の湖のツアーは強風のため中止です。代わりに、午後一時半から町の博物館を見学します。参加する方は、午後一時十五分までに博物館の入口にお集まりください。"
+      },
+      {
+        "id": "draft.n4_03.mat.examl",
+        "role": "exam_listening",
+        "jp": "A：予報では、午前中に雨がやむそうです。B：じゃあ、午前は駅前で待って、午後に公園へ行きませんか。A：いいですね。雨が続いたら、午後は映画にしましょう。"
+      }
+    ],
+    "reading": [
+      {
+        "id": "draft.n4_03.q.er1",
+        "material_ref": "draft.n4_03.mat.examr",
+        "goal_ref": "draft.n4_03.lesson.r.goal",
+        "word_refs": [
+          "draft.n4_03.word.1",
+          "draft.n4_03.word.2",
+          "draft.n4_03.word.3",
+          "draft.n4_03.word.4"
+        ],
+        "prompt": "原来的湖上行程为什么取消？",
+        "choices": [
+          "风太大",
+          "下大雪",
+          "场馆装修"
+        ],
+        "answer": "风太大",
+        "feedback": "「強風のため」说明取消原因。"
+      },
+      {
+        "id": "draft.n4_03.q.er2",
+        "material_ref": "draft.n4_03.mat.examr",
+        "goal_ref": "draft.n4_03.lesson.r.goal",
+        "word_refs": [
+          "draft.n4_03.word.1",
+          "draft.n4_03.word.2",
+          "draft.n4_03.word.3",
+          "draft.n4_03.word.4"
+        ],
+        "prompt": "替代活动几点开始？",
+        "choices": [
+          "上午十一点半",
+          "下午一点半",
+          "下午一点十五分"
+        ],
+        "answer": "下午一点半",
+        "feedback": "「午後一時半から」是参观开始时间。"
+      },
+      {
+        "id": "draft.n4_03.q.er3",
+        "material_ref": "draft.n4_03.mat.examr",
+        "goal_ref": "draft.n4_03.lesson.r.goal",
+        "word_refs": [
+          "draft.n4_03.word.1",
+          "draft.n4_03.word.2",
+          "draft.n4_03.word.3",
+          "draft.n4_03.word.4"
+        ],
+        "prompt": "应在哪里集合？",
+        "choices": [
+          "湖边",
+          "车站前",
+          "博物馆入口"
+        ],
+        "answer": "博物馆入口",
+        "feedback": "「博物館の入口に」说明集合位置。"
+      }
+    ],
+    "listening": [
+      {
+        "id": "draft.n4_03.q.el1",
+        "material_ref": "draft.n4_03.mat.examl",
+        "goal_ref": "draft.n4_03.lesson.l.goal",
+        "word_refs": [
+          "draft.n4_03.word.1",
+          "draft.n4_03.word.2",
+          "draft.n4_03.word.3",
+          "draft.n4_03.word.4"
+        ],
+        "prompt": "预报说什么时候可能停雨？",
+        "choices": [
+          "上午",
+          "下午",
+          "晚上"
+        ],
+        "answer": "上午",
+        "feedback": "「午前中に雨がやむ」是预报内容。"
+      },
+      {
+        "id": "draft.n4_03.q.el2",
+        "material_ref": "draft.n4_03.mat.examl",
+        "goal_ref": "draft.n4_03.lesson.l.goal",
+        "word_refs": [
+          "draft.n4_03.word.1",
+          "draft.n4_03.word.2",
+          "draft.n4_03.word.3",
+          "draft.n4_03.word.4"
+        ],
+        "prompt": "两人商量上午在哪里等？",
+        "choices": [
+          "电影院里",
+          "车站前",
+          "公园门口"
+        ],
+        "answer": "车站前",
+        "feedback": "B提议「午前は駅前で待って」。"
+      },
+      {
+        "id": "draft.n4_03.q.el3",
+        "material_ref": "draft.n4_03.mat.examl",
+        "goal_ref": "draft.n4_03.lesson.l.goal",
+        "word_refs": [
+          "draft.n4_03.word.1",
+          "draft.n4_03.word.2",
+          "draft.n4_03.word.3",
+          "draft.n4_03.word.4"
+        ],
+        "prompt": "如果雨继续下，下午怎么安排？",
+        "choices": [
+          "照常去公园",
+          "去湖边坐船",
+          "看电影"
+        ],
+        "answer": "看电影",
+        "feedback": "「雨が続いたら」后的方案是看电影。"
+      }
+    ],
+    "output": {
+      "id": "draft.n4_03.q.eo1",
+      "card_zh": "原定周日上午在公园野餐。预报有雨，室内展馆下午一点才开，同伴三点要离开。",
+      "prompt_zh": "口头商量雨天备选，再写一条确认消息，写明时间和地点。",
+      "rubric_zh": "区分原计划和备选；时间符合两项限制；消息足以让同伴赴约。",
+      "scoring": "human_only"
+    }
+  }
+}

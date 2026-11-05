@@ -1,0 +1,567 @@
+{
+  "schema": "draft.n4_15.course.v1",
+  "unit": "N4-15",
+  "theme": "生活变化",
+  "status": {
+    "publication": "draft",
+    "language_review": "pending",
+    "teaching_review": "pending",
+    "rights_review": "pending",
+    "audio": "not_produced",
+    "audio_review": "pending",
+    "listening_score": "blocked",
+    "speaking_writing": "human_only",
+    "runtime_verification": "not_run",
+    "app_integration": "not_integrated"
+  },
+  "words": [
+    {
+      "id": "draft.n4_15.word.1",
+      "forms": "習慣（しゅうかん）",
+      "meaning_zh": "习惯",
+      "source": "AI_original_draft"
+    },
+    {
+      "id": "draft.n4_15.word.2",
+      "forms": "以前（いぜん）",
+      "meaning_zh": "以前",
+      "source": "AI_original_draft"
+    },
+    {
+      "id": "draft.n4_15.word.3",
+      "forms": "最近（さいきん）",
+      "meaning_zh": "最近",
+      "source": "AI_original_draft"
+    },
+    {
+      "id": "draft.n4_15.word.4",
+      "forms": "引っ越し（ひっこし）",
+      "meaning_zh": "搬家",
+      "source": "AI_original_draft"
+    }
+  ],
+  "lessons": [
+    {
+      "id": "draft.n4_15.lesson.v",
+      "planning_key": "N4-15-L01",
+      "type": "V",
+      "title": "生活变化的关键词",
+      "prerequisites": [],
+      "goals": [
+        {
+          "id": "draft.n4_15.lesson.v.goal",
+          "text": "生活变化的关键词"
+        }
+      ],
+      "word_refs": [
+        "draft.n4_15.word.1",
+        "draft.n4_15.word.2",
+        "draft.n4_15.word.3",
+        "draft.n4_15.word.4"
+      ],
+      "explanation_zh": "「引っ越し」读「ひっこし」。小「っ」表示促音，读到「こ」前要留一拍。「引っ越してから」就是搬家以后。",
+      "materials": [
+        {
+          "id": "draft.n4_15.lesson.v.mat.practice1",
+          "role": "practice1",
+          "jp": "習慣"
+        },
+        {
+          "id": "draft.n4_15.lesson.v.mat.practice3",
+          "role": "practice3",
+          "jp": "最近"
+        },
+        {
+          "id": "draft.n4_15.lesson.v.mat.check2",
+          "role": "check2",
+          "jp": "以前"
+        },
+        {
+          "id": "draft.n4_15.lesson.v.mat.check4",
+          "role": "check4",
+          "jp": "引っ越し"
+        },
+        {
+          "id": "draft.n4_15.lesson.v.kanji-reading",
+          "role": "practice",
+          "jp": "引っ越し",
+          "goal_refs": [
+            "draft.n4_15.lesson.v.goal"
+          ]
+        }
+      ],
+      "practice": [
+        {
+          "id": "draft.n4_15.lesson.v.mat.practice1.q1",
+          "material_ref": "draft.n4_15.lesson.v.mat.practice1",
+          "goal_ref": "draft.n4_15.lesson.v.goal",
+          "word_refs": [
+            "draft.n4_15.word.1",
+            "draft.n4_15.word.2",
+            "draft.n4_15.word.3",
+            "draft.n4_15.word.4"
+          ],
+          "prompt": "这个词的意思是什么？",
+          "choices": [
+            "习惯",
+            "以前",
+            "最近"
+          ],
+          "answer": "习惯",
+          "feedback": "習慣（しゅうかん），意思是「习惯」。"
+        },
+        {
+          "id": "draft.n4_15.lesson.v.mat.practice3.q1",
+          "material_ref": "draft.n4_15.lesson.v.mat.practice3",
+          "goal_ref": "draft.n4_15.lesson.v.goal",
+          "word_refs": [
+            "draft.n4_15.word.1",
+            "draft.n4_15.word.2",
+            "draft.n4_15.word.3",
+            "draft.n4_15.word.4"
+          ],
+          "prompt": "这个词的意思是什么？",
+          "choices": [
+            "习惯",
+            "最近",
+            "搬家"
+          ],
+          "answer": "最近",
+          "feedback": "最近（さいきん），意思是「最近」。"
+        },
+        {
+          "id": "draft.n4_15.lesson.v.kanji-reading.q1",
+          "material_ref": "draft.n4_15.lesson.v.kanji-reading",
+          "goal_ref": "draft.n4_15.lesson.v.goal",
+          "word_refs": [
+            "draft.n4_15.word.4"
+          ],
+          "prompt": "这个词怎么读？",
+          "choices": [
+            "ひきこし",
+            "ひっごし",
+            "ひっこし"
+          ],
+          "answer": "ひっこし",
+          "feedback": "「引っ越し」读「ひっこし」。小「っ」表示促音，读到「こ」前要留一拍。「引っ越してから」就是搬家以后。"
+        }
+      ],
+      "check": [
+        {
+          "id": "draft.n4_15.lesson.v.mat.check2.q1",
+          "material_ref": "draft.n4_15.lesson.v.mat.check2",
+          "goal_ref": "draft.n4_15.lesson.v.goal",
+          "word_refs": [
+            "draft.n4_15.word.1",
+            "draft.n4_15.word.2",
+            "draft.n4_15.word.3",
+            "draft.n4_15.word.4"
+          ],
+          "prompt": "这个词的意思是什么？",
+          "choices": [
+            "最近",
+            "搬家",
+            "以前"
+          ],
+          "answer": "以前",
+          "feedback": "以前（いぜん），意思是「以前」。"
+        },
+        {
+          "id": "draft.n4_15.lesson.v.mat.check4.q1",
+          "material_ref": "draft.n4_15.lesson.v.mat.check4",
+          "goal_ref": "draft.n4_15.lesson.v.goal",
+          "word_refs": [
+            "draft.n4_15.word.1",
+            "draft.n4_15.word.2",
+            "draft.n4_15.word.3",
+            "draft.n4_15.word.4"
+          ],
+          "prompt": "这个词的意思是什么？",
+          "choices": [
+            "搬家",
+            "习惯",
+            "以前"
+          ],
+          "answer": "搬家",
+          "feedback": "引っ越し（ひっこし），意思是「搬家」。"
+        }
+      ]
+    },
+    {
+      "id": "draft.n4_15.lesson.g",
+      "planning_key": "N4-15-L02",
+      "type": "G",
+      "title": "〜ようになりました",
+      "prerequisites": [
+        "N4-15-L01"
+      ],
+      "goals": [
+        {
+          "id": "draft.n4_15.lesson.g.goal",
+          "text": "〜ようになりました"
+        }
+      ],
+      "word_refs": [
+        "draft.n4_15.word.1",
+        "draft.n4_15.word.2",
+        "draft.n4_15.word.3",
+        "draft.n4_15.word.4"
+      ],
+      "explanation_zh": "常接动词原形、ない形或可能形，表示习惯、能力等发生变化。搭配「以前は」「今は」说清前后。",
+      "materials": [
+        {
+          "id": "draft.n4_15.lesson.g.mat.teach",
+          "role": "teach",
+          "jp": "以前は読めませんでしたが、今は新聞が少し読めるようになりました。"
+        },
+        {
+          "id": "draft.n4_15.lesson.g.mat.practice",
+          "role": "practice",
+          "jp": "引っ越してから、自転車で通うようになりました。"
+        },
+        {
+          "id": "draft.n4_15.lesson.g.mat.check",
+          "role": "check",
+          "jp": "練習して、前より長く泳げる＿になりました。"
+        }
+      ],
+      "practice": [
+        {
+          "id": "draft.n4_15.lesson.g.mat.practice.q1",
+          "material_ref": "draft.n4_15.lesson.g.mat.practice",
+          "goal_ref": "draft.n4_15.lesson.g.goal",
+          "word_refs": [
+            "draft.n4_15.word.1",
+            "draft.n4_15.word.2",
+            "draft.n4_15.word.3",
+            "draft.n4_15.word.4"
+          ],
+          "prompt": "搬家后有什么变化？",
+          "choices": [
+            "搬回原来的房子",
+            "开始骑车通勤",
+            "不能骑车了"
+          ],
+          "answer": "开始骑车通勤",
+          "feedback": "正确答案是「开始骑车通勤」。原句：引っ越してから、自転車で通うようになりました。"
+        }
+      ],
+      "check": [
+        {
+          "id": "draft.n4_15.lesson.g.mat.check.q1",
+          "material_ref": "draft.n4_15.lesson.g.mat.check",
+          "goal_ref": "draft.n4_15.lesson.g.goal",
+          "word_refs": [
+            "draft.n4_15.word.1",
+            "draft.n4_15.word.2",
+            "draft.n4_15.word.3",
+            "draft.n4_15.word.4"
+          ],
+          "prompt": "哪个词表示能力变化？",
+          "choices": [
+            "よう",
+            "まで",
+            "だけ"
+          ],
+          "answer": "よう",
+          "feedback": "正确答案是「よう」。原文：練習して、前より長く泳げる＿になりました。"
+        }
+      ],
+      "common_mistake_zh": "「新聞が読めるようになった」说现在具备了读报的能力。说改变的是能力时，注意用「読める」这个可能形。"
+    },
+    {
+      "id": "draft.n4_15.lesson.r",
+      "planning_key": "N4-15-L03",
+      "type": "R",
+      "title": "读记录辨认变化",
+      "prerequisites": [
+        "N4-15-L02"
+      ],
+      "goals": [
+        {
+          "id": "draft.n4_15.lesson.r.goal",
+          "text": "读记录辨认变化"
+        }
+      ],
+      "word_refs": [
+        "draft.n4_15.word.1",
+        "draft.n4_15.word.2",
+        "draft.n4_15.word.3",
+        "draft.n4_15.word.4"
+      ],
+      "explanation_zh": "「前は」和「最近は」把旧习惯和新习惯分开，「ため」说明改变的目的。",
+      "materials": [
+        {
+          "id": "draft.n4_15.lesson.r.mat.teach",
+          "role": "teach",
+          "jp": "前は夜にまとめて勉強していた。最近は早く寝るため、朝に少しずつ勉強している。"
+        },
+        {
+          "id": "draft.n4_15.lesson.r.mat.practice",
+          "role": "practice",
+          "jp": "前は駅までバスで行っていた。最近は道が空いているので、歩いて行くようになった。"
+        },
+        {
+          "id": "draft.n4_15.lesson.r.mat.check",
+          "role": "check",
+          "jp": "以前は週末にまとめて買い物をしていた。店が近くなったので、最近は仕事の帰りに買う。"
+        }
+      ],
+      "practice": [
+        {
+          "id": "draft.n4_15.lesson.r.mat.practice.q1",
+          "material_ref": "draft.n4_15.lesson.r.mat.practice",
+          "goal_ref": "draft.n4_15.lesson.r.goal",
+          "word_refs": [
+            "draft.n4_15.word.1",
+            "draft.n4_15.word.2",
+            "draft.n4_15.word.3",
+            "draft.n4_15.word.4"
+          ],
+          "prompt": "现在怎么去车站？",
+          "choices": [
+            "步行",
+            "坐巴士",
+            "骑车"
+          ],
+          "answer": "步行",
+          "feedback": "正确答案是「步行」。原句：前は駅までバスで行っていた。最近は道が空いているので、歩いて行くようになった。"
+        }
+      ],
+      "check": [
+        {
+          "id": "draft.n4_15.lesson.r.mat.check.q1",
+          "material_ref": "draft.n4_15.lesson.r.mat.check",
+          "goal_ref": "draft.n4_15.lesson.r.goal",
+          "word_refs": [
+            "draft.n4_15.word.1",
+            "draft.n4_15.word.2",
+            "draft.n4_15.word.3",
+            "draft.n4_15.word.4"
+          ],
+          "prompt": "现在什么时候买东西？",
+          "choices": [
+            "周末一次买齐",
+            "上班前",
+            "下班途中"
+          ],
+          "answer": "下班途中",
+          "feedback": "正确答案是「下班途中」。原文：以前は週末にまとめて買い物をしていた。店が近くなったので、最近は仕事の帰りに買う。"
+        }
+      ]
+    },
+    {
+      "id": "draft.n4_15.lesson.l",
+      "planning_key": "N4-15-L04",
+      "type": "L",
+      "title": "听出现在的习惯",
+      "prerequisites": [
+        "N4-15-L03"
+      ],
+      "goals": [
+        {
+          "id": "draft.n4_15.lesson.l.goal",
+          "text": "听出现在的习惯"
+        }
+      ],
+      "word_refs": [
+        "draft.n4_15.word.1",
+        "draft.n4_15.word.2",
+        "draft.n4_15.word.3",
+        "draft.n4_15.word.4"
+      ],
+      "explanation_zh": "对话先讲过去，再讲变化。不要拿过去的做法回答现在。 「前は」后面是旧习惯，「今は」后面是现在的做法。现在改到上班前学习。",
+      "materials": [
+        {
+          "id": "draft.n4_15.lesson.l.mat.teach",
+          "role": "teach",
+          "jp": "A：前はよく夜に勉強していたね。B：うん。今は朝、仕事に行く前に勉強しているよ。"
+        },
+        {
+          "id": "draft.n4_15.lesson.l.mat.practice",
+          "role": "practice",
+          "jp": "A：朝はいつもパンですか。B：前はそうでしたが、最近は家でご飯を食べるようになりました。"
+        },
+        {
+          "id": "draft.n4_15.lesson.l.mat.check",
+          "role": "check",
+          "jp": "A：最近、朝は早いですね。B：ええ、仕事の前に散歩するようになったんです。"
+        }
+      ],
+      "practice": [
+        {
+          "id": "draft.n4_15.lesson.l.mat.practice.q1",
+          "material_ref": "draft.n4_15.lesson.l.mat.practice",
+          "goal_ref": "draft.n4_15.lesson.l.goal",
+          "word_refs": [
+            "draft.n4_15.word.1",
+            "draft.n4_15.word.2",
+            "draft.n4_15.word.3",
+            "draft.n4_15.word.4"
+          ],
+          "prompt": "现在早上通常吃什么？",
+          "choices": [
+            "面包",
+            "不吃早餐",
+            "米饭"
+          ],
+          "answer": "米饭",
+          "feedback": "正确答案是「米饭」。原句：A：朝はいつもパンですか。B：前はそうでしたが、最近は家でご飯を食べるようになりました。"
+        }
+      ],
+      "check": [
+        {
+          "id": "draft.n4_15.lesson.l.mat.check.q1",
+          "material_ref": "draft.n4_15.lesson.l.mat.check",
+          "goal_ref": "draft.n4_15.lesson.l.goal",
+          "word_refs": [
+            "draft.n4_15.word.1",
+            "draft.n4_15.word.2",
+            "draft.n4_15.word.3",
+            "draft.n4_15.word.4"
+          ],
+          "prompt": "早起后有什么新习惯？",
+          "choices": [
+            "早点开店",
+            "上班前散步",
+            "晚上跑步"
+          ],
+          "answer": "上班前散步",
+          "feedback": "正确答案是「上班前散步」。原文：A：最近、朝は早いですね。B：ええ、仕事の前に散歩するようになったんです。"
+        }
+      ]
+    },
+    {
+      "id": "draft.n4_15.lesson.o",
+      "planning_key": "N4-15-L05",
+      "type": "O",
+      "title": "说出生活变化",
+      "prerequisites": [
+        "N4-15-L04"
+      ],
+      "goals": [
+        {
+          "id": "draft.n4_15.lesson.o.goal",
+          "text": "说出生活变化"
+        }
+      ],
+      "word_refs": [
+        "draft.n4_15.word.1",
+        "draft.n4_15.word.2",
+        "draft.n4_15.word.3",
+        "draft.n4_15.word.4"
+      ],
+      "explanation_zh": "先用日语口头说明，再把关键内容写成一条短消息。完成后按下面的要点核对。",
+      "materials": [],
+      "performance": {
+        "practice": {
+          "card_zh": "用虚构角色说明搬家前后的通勤方式，给出一个原因。",
+          "prompt_zh": "先说一遍，再写下要传达的内容。"
+        },
+        "rubric_zh": "前后两种方式清楚，并说明原因。",
+        "check": {
+          "card_zh": "你以前只会看假名，现在能看懂简单告示。用日语描述前后变化和练习方法。",
+          "prompt_zh": "用日语作答，再按自查要点核对。"
+        }
+      }
+    },
+    {
+      "id": "draft.n4_15.lesson.t",
+      "planning_key": "N4-15-L06",
+      "type": "T",
+      "title": "因条件变化再次调整",
+      "prerequisites": [
+        "N4-15-L05"
+      ],
+      "goals": [
+        {
+          "id": "draft.n4_15.lesson.t.goal",
+          "text": "因条件变化再次调整"
+        }
+      ],
+      "word_refs": [
+        "draft.n4_15.word.1",
+        "draft.n4_15.word.2",
+        "draft.n4_15.word.3",
+        "draft.n4_15.word.4"
+      ],
+      "explanation_zh": "先用日语口头说明，再把关键内容写成一条短消息。完成后按下面的要点核对。",
+      "materials": [],
+      "performance": {
+        "practice": {
+          "card_zh": "你刚开始步行通勤，雨季路面湿滑，附近新开了公交线。说明雨天怎么改、晴天怎么安排。",
+          "prompt_zh": "先说一遍，再写下要传达的内容。"
+        },
+        "rubric_zh": "区分原习惯、新条件和两种做法。",
+        "check": {
+          "card_zh": "你原来常常在晚上练习，最近晚上要上班。说清发生了什么变化，并安排新的练习时段。",
+          "prompt_zh": "用日语作答，再按自查要点核对。"
+        }
+      }
+    }
+  ],
+  "exam": {
+    "id": "draft.n4_15.exam.unit",
+    "materials": [
+      {
+        "id": "draft.n4_15.exam.unit.mat.exam_reading",
+        "role": "exam_reading",
+        "jp": "日本語を勉強し始めたころは、店で注文するのが難しかった。最近は一人で注文できるようになった。"
+      },
+      {
+        "id": "draft.n4_15.exam.unit.mat.exam_listening",
+        "role": "exam_listening",
+        "jp": "A：最近、夜更かししなくなったね。B：うん。朝早く仕事に行くようになったから。"
+      }
+    ],
+    "reading": [
+      {
+        "id": "draft.n4_15.exam.unit.mat.exam_reading.q1",
+        "material_ref": "draft.n4_15.exam.unit.mat.exam_reading",
+        "goal_ref": "draft.n4_15.lesson.r.goal",
+        "word_refs": [
+          "draft.n4_15.word.1",
+          "draft.n4_15.word.2",
+          "draft.n4_15.word.3",
+          "draft.n4_15.word.4"
+        ],
+        "prompt": "说话人的什么能力变了？",
+        "choices": [
+          "开始每天做饭",
+          "能独自点餐了",
+          "能自己开店了"
+        ],
+        "answer": "能独自点餐了",
+        "feedback": "正确答案是「能独自点餐了」。原文：日本語を勉強し始めたころは、店で注文するのが難しかった。最近は一人で注文できるようになった。"
+      }
+    ],
+    "listening": [
+      {
+        "id": "draft.n4_15.exam.unit.mat.exam_listening.q1",
+        "material_ref": "draft.n4_15.exam.unit.mat.exam_listening",
+        "goal_ref": "draft.n4_15.lesson.l.goal",
+        "word_refs": [
+          "draft.n4_15.word.1",
+          "draft.n4_15.word.2",
+          "draft.n4_15.word.3",
+          "draft.n4_15.word.4"
+        ],
+        "prompt": "为什么不再熬夜？",
+        "choices": [
+          "现在要早起去上班",
+          "不再工作",
+          "最近改上夜班"
+        ],
+        "answer": "现在要早起去上班",
+        "feedback": "正确答案是「现在要早起去上班」。原文：A：最近、夜更かししなくなったね。B：うん。朝早く仕事に行くようになったから。"
+      }
+    ],
+    "output": {
+      "id": "draft.n4_15.q.eo1",
+      "card_zh": "以前你坐巴士通勤，搬家后新家离车站很近，现在走到车站再坐电车上班。",
+      "prompt_zh": "先用日语告诉同伴通勤方式的变化，再写两三句小日记，解释原因。",
+      "rubric_zh": "用时间词区分过去与现在；写出两种通勤方式；说明原因是搬家后离车站近。",
+      "scoring": "human_only"
+    }
+  }
+}

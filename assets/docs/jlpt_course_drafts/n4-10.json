@@ -1,0 +1,567 @@
+{
+  "schema": "draft.n4_10.course.v1",
+  "unit": "N4-10",
+  "theme": "兴趣与运动",
+  "status": {
+    "publication": "draft",
+    "language_review": "pending",
+    "teaching_review": "pending",
+    "rights_review": "pending",
+    "audio": "not_produced",
+    "audio_review": "pending",
+    "listening_score": "blocked",
+    "speaking_writing": "human_only",
+    "runtime_verification": "not_run",
+    "app_integration": "not_integrated"
+  },
+  "words": [
+    {
+      "id": "draft.n4_10.word.1",
+      "forms": "練習（れんしゅう）",
+      "meaning_zh": "练习",
+      "source": "AI_original_draft"
+    },
+    {
+      "id": "draft.n4_10.word.2",
+      "forms": "経験者（けいけんしゃ）",
+      "meaning_zh": "有经验的人",
+      "source": "AI_original_draft"
+    },
+    {
+      "id": "draft.n4_10.word.3",
+      "forms": "見学（けんがく）",
+      "meaning_zh": "参观",
+      "source": "AI_original_draft"
+    },
+    {
+      "id": "draft.n4_10.word.4",
+      "forms": "体験（たいけん）",
+      "meaning_zh": "体验",
+      "source": "AI_original_draft"
+    }
+  ],
+  "lessons": [
+    {
+      "id": "draft.n4_10.lesson.v",
+      "planning_key": "N4-10-L01",
+      "type": "V",
+      "title": "兴趣与运动的关键词",
+      "prerequisites": [],
+      "goals": [
+        {
+          "id": "draft.n4_10.lesson.v.goal",
+          "text": "兴趣与运动的关键词"
+        }
+      ],
+      "word_refs": [
+        "draft.n4_10.word.1",
+        "draft.n4_10.word.2",
+        "draft.n4_10.word.3",
+        "draft.n4_10.word.4"
+      ],
+      "explanation_zh": "「経験者」的「者」在这里读「しゃ」，表示某类人。「経験者」就是有相关经验的人。",
+      "materials": [
+        {
+          "id": "draft.n4_10.lesson.v.mat.practice1",
+          "role": "practice1",
+          "jp": "練習"
+        },
+        {
+          "id": "draft.n4_10.lesson.v.mat.practice3",
+          "role": "practice3",
+          "jp": "見学"
+        },
+        {
+          "id": "draft.n4_10.lesson.v.mat.check2",
+          "role": "check2",
+          "jp": "経験者"
+        },
+        {
+          "id": "draft.n4_10.lesson.v.mat.check4",
+          "role": "check4",
+          "jp": "体験"
+        },
+        {
+          "id": "draft.n4_10.lesson.v.kanji-reading",
+          "role": "practice",
+          "jp": "経験者",
+          "goal_refs": [
+            "draft.n4_10.lesson.v.goal"
+          ]
+        }
+      ],
+      "practice": [
+        {
+          "id": "draft.n4_10.lesson.v.mat.practice1.q1",
+          "material_ref": "draft.n4_10.lesson.v.mat.practice1",
+          "goal_ref": "draft.n4_10.lesson.v.goal",
+          "word_refs": [
+            "draft.n4_10.word.1",
+            "draft.n4_10.word.2",
+            "draft.n4_10.word.3",
+            "draft.n4_10.word.4"
+          ],
+          "prompt": "这个词的意思是什么？",
+          "choices": [
+            "有经验的人",
+            "参观",
+            "练习"
+          ],
+          "answer": "练习",
+          "feedback": "練習（れんしゅう），意思是「练习」。"
+        },
+        {
+          "id": "draft.n4_10.lesson.v.mat.practice3.q1",
+          "material_ref": "draft.n4_10.lesson.v.mat.practice3",
+          "goal_ref": "draft.n4_10.lesson.v.goal",
+          "word_refs": [
+            "draft.n4_10.word.1",
+            "draft.n4_10.word.2",
+            "draft.n4_10.word.3",
+            "draft.n4_10.word.4"
+          ],
+          "prompt": "这个词的意思是什么？",
+          "choices": [
+            "参观",
+            "体验",
+            "练习"
+          ],
+          "answer": "参观",
+          "feedback": "見学（けんがく），意思是「参观」。"
+        },
+        {
+          "id": "draft.n4_10.lesson.v.kanji-reading.q1",
+          "material_ref": "draft.n4_10.lesson.v.kanji-reading",
+          "goal_ref": "draft.n4_10.lesson.v.goal",
+          "word_refs": [
+            "draft.n4_10.word.2"
+          ],
+          "prompt": "这个词怎么读？",
+          "choices": [
+            "けいけんしゃ",
+            "けいけんじゃ",
+            "けいげんしゃ"
+          ],
+          "answer": "けいけんしゃ",
+          "feedback": "「経験者」的「者」在这里读「しゃ」，表示某类人。「経験者」就是有相关经验的人。"
+        }
+      ],
+      "check": [
+        {
+          "id": "draft.n4_10.lesson.v.mat.check2.q1",
+          "material_ref": "draft.n4_10.lesson.v.mat.check2",
+          "goal_ref": "draft.n4_10.lesson.v.goal",
+          "word_refs": [
+            "draft.n4_10.word.1",
+            "draft.n4_10.word.2",
+            "draft.n4_10.word.3",
+            "draft.n4_10.word.4"
+          ],
+          "prompt": "这个词的意思是什么？",
+          "choices": [
+            "体验",
+            "有经验的人",
+            "参观"
+          ],
+          "answer": "有经验的人",
+          "feedback": "経験者（けいけんしゃ），意思是「有经验的人」。"
+        },
+        {
+          "id": "draft.n4_10.lesson.v.mat.check4.q1",
+          "material_ref": "draft.n4_10.lesson.v.mat.check4",
+          "goal_ref": "draft.n4_10.lesson.v.goal",
+          "word_refs": [
+            "draft.n4_10.word.1",
+            "draft.n4_10.word.2",
+            "draft.n4_10.word.3",
+            "draft.n4_10.word.4"
+          ],
+          "prompt": "这个词的意思是什么？",
+          "choices": [
+            "练习",
+            "有经验的人",
+            "体验"
+          ],
+          "answer": "体验",
+          "feedback": "体験（たいけん），意思是「体验」。"
+        }
+      ]
+    },
+    {
+      "id": "draft.n4_10.lesson.g",
+      "planning_key": "N4-10-L02",
+      "type": "G",
+      "title": "〜たことがあります",
+      "prerequisites": [
+        "N4-10-L01"
+      ],
+      "goals": [
+        {
+          "id": "draft.n4_10.lesson.g.goal",
+          "text": "〜たことがあります"
+        }
+      ],
+      "word_refs": [
+        "draft.n4_10.word.1",
+        "draft.n4_10.word.2",
+        "draft.n4_10.word.3",
+        "draft.n4_10.word.4"
+      ],
+      "explanation_zh": "动词た形加「ことがあります」表示曾经做过，不说明具体做过几次。频率用「週に二回」等另说。",
+      "materials": [
+        {
+          "id": "draft.n4_10.lesson.g.mat.teach",
+          "role": "teach",
+          "jp": "山に登ったことがあります。"
+        },
+        {
+          "id": "draft.n4_10.lesson.g.mat.practice",
+          "role": "practice",
+          "jp": "テニスをしたことはありますが、今は週に一回泳ぎます。"
+        },
+        {
+          "id": "draft.n4_10.lesson.g.mat.check",
+          "role": "check",
+          "jp": "この公園で走った＿があります。"
+        }
+      ],
+      "practice": [
+        {
+          "id": "draft.n4_10.lesson.g.mat.practice.q1",
+          "material_ref": "draft.n4_10.lesson.g.mat.practice",
+          "goal_ref": "draft.n4_10.lesson.g.goal",
+          "word_refs": [
+            "draft.n4_10.word.1",
+            "draft.n4_10.word.2",
+            "draft.n4_10.word.3",
+            "draft.n4_10.word.4"
+          ],
+          "prompt": "现在每周做什么？",
+          "choices": [
+            "游泳",
+            "打网球",
+            "爬山"
+          ],
+          "answer": "游泳",
+          "feedback": "正确答案是「游泳」。原句：テニスをしたことはありますが、今は週に一回泳ぎます。"
+        }
+      ],
+      "check": [
+        {
+          "id": "draft.n4_10.lesson.g.mat.check.q1",
+          "material_ref": "draft.n4_10.lesson.g.mat.check",
+          "goal_ref": "draft.n4_10.lesson.g.goal",
+          "word_refs": [
+            "draft.n4_10.word.1",
+            "draft.n4_10.word.2",
+            "draft.n4_10.word.3",
+            "draft.n4_10.word.4"
+          ],
+          "prompt": "用哪个词组成表示经历的句式？",
+          "choices": [
+            "から",
+            "まで",
+            "こと"
+          ],
+          "answer": "こと",
+          "feedback": "正确答案是「こと」。原文：この公園で走った＿があります。"
+        }
+      ],
+      "common_mistake_zh": "「泳いだことがあります」说过去有过这种经历。要说明现在每周几次，用「週に一回泳ぎます」这样的表达。"
+    },
+    {
+      "id": "draft.n4_10.lesson.r",
+      "planning_key": "N4-10-L03",
+      "type": "R",
+      "title": "按条件读活动招募",
+      "prerequisites": [
+        "N4-10-L02"
+      ],
+      "goals": [
+        {
+          "id": "draft.n4_10.lesson.r.goal",
+          "text": "按条件读活动招募"
+        }
+      ],
+      "word_refs": [
+        "draft.n4_10.word.1",
+        "draft.n4_10.word.2",
+        "draft.n4_10.word.3",
+        "draft.n4_10.word.4"
+      ],
+      "explanation_zh": "区分参观和参加训练。只有参加训练的人需要带运动鞋。",
+      "materials": [
+        {
+          "id": "draft.n4_10.lesson.r.mat.teach",
+          "role": "teach",
+          "jp": "見学はどなたでもできます。練習に参加する場合は、運動靴をお持ちください。"
+        },
+        {
+          "id": "draft.n4_10.lesson.r.mat.practice",
+          "role": "practice",
+          "jp": "土曜の午前は初心者向けです。ラケットは貸し出します。日曜は経験者の練習です。"
+        },
+        {
+          "id": "draft.n4_10.lesson.r.mat.check",
+          "role": "check",
+          "jp": "毎週火曜の練習は中学生以上が対象です。小学生の体験会は土曜です。"
+        }
+      ],
+      "practice": [
+        {
+          "id": "draft.n4_10.lesson.r.mat.practice.q1",
+          "material_ref": "draft.n4_10.lesson.r.mat.practice",
+          "goal_ref": "draft.n4_10.lesson.r.goal",
+          "word_refs": [
+            "draft.n4_10.word.1",
+            "draft.n4_10.word.2",
+            "draft.n4_10.word.3",
+            "draft.n4_10.word.4"
+          ],
+          "prompt": "初学者适合哪场？",
+          "choices": [
+            "周日训练",
+            "周六晚上",
+            "周六上午"
+          ],
+          "answer": "周六上午",
+          "feedback": "正确答案是「周六上午」。原句：土曜の午前は初心者向けです。ラケットは貸し出します。日曜は経験者の練習です。"
+        }
+      ],
+      "check": [
+        {
+          "id": "draft.n4_10.lesson.r.mat.check.q1",
+          "material_ref": "draft.n4_10.lesson.r.mat.check",
+          "goal_ref": "draft.n4_10.lesson.r.goal",
+          "word_refs": [
+            "draft.n4_10.word.1",
+            "draft.n4_10.word.2",
+            "draft.n4_10.word.3",
+            "draft.n4_10.word.4"
+          ],
+          "prompt": "小学生可以参加哪一场？",
+          "choices": [
+            "周三训练",
+            "周六体验",
+            "周二练习"
+          ],
+          "answer": "周六体验",
+          "feedback": "正确答案是「周六体验」。原文：毎週火曜の練習は中学生以上が対象です。小学生の体験会は土曜です。"
+        }
+      ]
+    },
+    {
+      "id": "draft.n4_10.lesson.l",
+      "planning_key": "N4-10-L04",
+      "type": "L",
+      "title": "听懂试课建议",
+      "prerequisites": [
+        "N4-10-L03"
+      ],
+      "goals": [
+        {
+          "id": "draft.n4_10.lesson.l.goal",
+          "text": "听懂试课建议"
+        }
+      ],
+      "word_refs": [
+        "draft.n4_10.word.1",
+        "draft.n4_10.word.2",
+        "draft.n4_10.word.3",
+        "draft.n4_10.word.4"
+      ],
+      "explanation_zh": "把经验、时间限制和推荐活动连起来。 把经验和时间限制一起听。对方推荐的是周日上午的入门课。",
+      "materials": [
+        {
+          "id": "draft.n4_10.lesson.l.mat.teach",
+          "role": "teach",
+          "jp": "A：運動は初めてで、日曜しか空いていません。B：日曜の午前に初心者向けの教室があります。"
+        },
+        {
+          "id": "draft.n4_10.lesson.l.mat.practice",
+          "role": "practice",
+          "jp": "A：泳いだことはありますが、平日の夜しか空いていません。B：では、水曜の夜の体験にどうぞ。"
+        },
+        {
+          "id": "draft.n4_10.lesson.l.mat.check",
+          "role": "check",
+          "jp": "A：最近はよく走りますか。B：週に三回走ります。前は日曜だけでした。"
+        }
+      ],
+      "practice": [
+        {
+          "id": "draft.n4_10.lesson.l.mat.practice.q1",
+          "material_ref": "draft.n4_10.lesson.l.mat.practice",
+          "goal_ref": "draft.n4_10.lesson.l.goal",
+          "word_refs": [
+            "draft.n4_10.word.1",
+            "draft.n4_10.word.2",
+            "draft.n4_10.word.3",
+            "draft.n4_10.word.4"
+          ],
+          "prompt": "推荐哪场体验？",
+          "choices": [
+            "周末晚上",
+            "周三晚上",
+            "周三上午"
+          ],
+          "answer": "周三晚上",
+          "feedback": "正确答案是「周三晚上」。原句：A：泳いだことはありますが、平日の夜しか空いていません。B：では、水曜の夜の体験にどうぞ。"
+        }
+      ],
+      "check": [
+        {
+          "id": "draft.n4_10.lesson.l.mat.check.q1",
+          "material_ref": "draft.n4_10.lesson.l.mat.check",
+          "goal_ref": "draft.n4_10.lesson.l.goal",
+          "word_refs": [
+            "draft.n4_10.word.1",
+            "draft.n4_10.word.2",
+            "draft.n4_10.word.3",
+            "draft.n4_10.word.4"
+          ],
+          "prompt": "现在每周跑几次？",
+          "choices": [
+            "三次",
+            "一次",
+            "两次"
+          ],
+          "answer": "三次",
+          "feedback": "正确答案是「三次」。原文：A：最近はよく走りますか。B：週に三回走ります。前は日曜だけでした。"
+        }
+      ]
+    },
+    {
+      "id": "draft.n4_10.lesson.o",
+      "planning_key": "N4-10-L05",
+      "type": "O",
+      "title": "介绍自己的运动经历",
+      "prerequisites": [
+        "N4-10-L04"
+      ],
+      "goals": [
+        {
+          "id": "draft.n4_10.lesson.o.goal",
+          "text": "介绍自己的运动经历"
+        }
+      ],
+      "word_refs": [
+        "draft.n4_10.word.1",
+        "draft.n4_10.word.2",
+        "draft.n4_10.word.3",
+        "draft.n4_10.word.4"
+      ],
+      "explanation_zh": "先用日语口头说明，再把关键内容写成一条短消息。完成后按下面的要点核对。",
+      "materials": [],
+      "performance": {
+        "practice": {
+          "card_zh": "你曾经打过网球，现在一周跑步两次。报名体验时说明经历与频率。",
+          "prompt_zh": "先说一遍，再写下要传达的内容。"
+        },
+        "rubric_zh": "区分过去经验与现在频率。",
+        "check": {
+          "card_zh": "你以前参加过游泳课，现在每周只骑一次车。报名体验时分别说明经历和习惯。",
+          "prompt_zh": "用日语作答，再按自查要点核对。"
+        }
+      }
+    },
+    {
+      "id": "draft.n4_10.lesson.t",
+      "planning_key": "N4-10-L06",
+      "type": "T",
+      "title": "选择适合两人的活动",
+      "prerequisites": [
+        "N4-10-L05"
+      ],
+      "goals": [
+        {
+          "id": "draft.n4_10.lesson.t.goal",
+          "text": "选择适合两人的活动"
+        }
+      ],
+      "word_refs": [
+        "draft.n4_10.word.1",
+        "draft.n4_10.word.2",
+        "draft.n4_10.word.3",
+        "draft.n4_10.word.4"
+      ],
+      "explanation_zh": "先用日语口头说明，再把关键内容写成一条短消息。完成后按下面的要点核对。",
+      "materials": [],
+      "performance": {
+        "practice": {
+          "card_zh": "同伴第一次打网球且只能周六上午参加，你周日也有空。选择适合两人的场次并解释。",
+          "prompt_zh": "先说一遍，再写下要传达的内容。"
+        },
+        "rubric_zh": "说明两个选项的关键差异；所选场次符合时间、经验及器材限制。",
+        "check": {
+          "card_zh": "你和第一次打网球的同伴只有周六下午有空。同伴没有球拍。两场体验都在周六下午并接受新手，第一场可以借球拍，第二场需自带。",
+          "prompt_zh": "用日语比较两场，告诉同伴应该选哪场并解释原因。"
+        }
+      }
+    }
+  ],
+  "exam": {
+    "id": "draft.n4_10.exam.unit",
+    "materials": [
+      {
+        "id": "draft.n4_10.exam.unit.mat.exam_reading",
+        "role": "exam_reading",
+        "jp": "見学は無料です。体験に参加する場合は、前日までに申し込んでください。"
+      },
+      {
+        "id": "draft.n4_10.exam.unit.mat.exam_listening",
+        "role": "exam_listening",
+        "jp": "A：週に何回練習していますか。B：前は二回でしたが、今は日曜だけです。"
+      }
+    ],
+    "reading": [
+      {
+        "id": "draft.n4_10.exam.unit.mat.exam_reading.q1",
+        "material_ref": "draft.n4_10.exam.unit.mat.exam_reading",
+        "goal_ref": "draft.n4_10.lesson.r.goal",
+        "word_refs": [
+          "draft.n4_10.word.1",
+          "draft.n4_10.word.2",
+          "draft.n4_10.word.3",
+          "draft.n4_10.word.4"
+        ],
+        "prompt": "什么情况下要提前报名？",
+        "choices": [
+          "参加体验",
+          "免费参观",
+          "借用宣传册"
+        ],
+        "answer": "参加体验",
+        "feedback": "正确答案是「参加体验」。原文：見学は無料です。体験に参加する場合は、前日までに申し込んでください。"
+      }
+    ],
+    "listening": [
+      {
+        "id": "draft.n4_10.exam.unit.mat.exam_listening.q1",
+        "material_ref": "draft.n4_10.exam.unit.mat.exam_listening",
+        "goal_ref": "draft.n4_10.lesson.l.goal",
+        "word_refs": [
+          "draft.n4_10.word.1",
+          "draft.n4_10.word.2",
+          "draft.n4_10.word.3",
+          "draft.n4_10.word.4"
+        ],
+        "prompt": "现在每周练几次？",
+        "choices": [
+          "两次",
+          "三次",
+          "一次"
+        ],
+        "answer": "一次",
+        "feedback": "正确答案是「一次」。原文：A：週に何回練習していますか。B：前は二回でしたが、今は日曜だけです。"
+      }
+    ],
+    "output": {
+      "id": "draft.n4_10.q.eo1",
+      "card_zh": "社团有两个活动。周六十点是初学者羽毛球体验，可以借球拍。周日下午两点是有经验者的比赛。朋友从没打过羽毛球，但两天都有空。",
+      "prompt_zh": "用日语比较两个活动并向朋友推荐一个，再写一条消息告诉对方时间和理由。",
+      "rubric_zh": "说清两个活动各自适合谁；推荐周六十点的体验；给出与初学者身份有关的理由。",
+      "scoring": "human_only"
+    }
+  }
+}

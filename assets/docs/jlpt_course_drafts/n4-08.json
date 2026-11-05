@@ -1,0 +1,567 @@
+{
+  "schema": "draft.n4_08.course.v1",
+  "unit": "N4-08",
+  "theme": "医院与健康",
+  "status": {
+    "publication": "draft",
+    "language_review": "pending",
+    "teaching_review": "pending",
+    "rights_review": "pending",
+    "audio": "not_produced",
+    "audio_review": "pending",
+    "listening_score": "blocked",
+    "speaking_writing": "human_only",
+    "runtime_verification": "not_run",
+    "app_integration": "not_integrated"
+  },
+  "words": [
+    {
+      "id": "draft.n4_08.word.1",
+      "forms": "症状（しょうじょう）",
+      "meaning_zh": "症状",
+      "source": "AI_original_draft"
+    },
+    {
+      "id": "draft.n4_08.word.2",
+      "forms": "受付（うけつけ）",
+      "meaning_zh": "前台",
+      "source": "AI_original_draft"
+    },
+    {
+      "id": "draft.n4_08.word.3",
+      "forms": "予約（よやく）",
+      "meaning_zh": "预约",
+      "source": "AI_original_draft"
+    },
+    {
+      "id": "draft.n4_08.word.4",
+      "forms": "診察（しんさつ）",
+      "meaning_zh": "医生看诊",
+      "source": "AI_original_draft"
+    }
+  ],
+  "lessons": [
+    {
+      "id": "draft.n4_08.lesson.v",
+      "planning_key": "N4-08-L01",
+      "type": "V",
+      "title": "医院与健康的关键词",
+      "prerequisites": [],
+      "goals": [
+        {
+          "id": "draft.n4_08.lesson.v.goal",
+          "text": "医院与健康的关键词"
+        }
+      ],
+      "word_refs": [
+        "draft.n4_08.word.1",
+        "draft.n4_08.word.2",
+        "draft.n4_08.word.3",
+        "draft.n4_08.word.4"
+      ],
+      "explanation_zh": "「診察」读「しんさつ」，指医生看诊。「診察券」读「しんさつけん」，是在前台或机器报到时可能用到的就诊卡。",
+      "materials": [
+        {
+          "id": "draft.n4_08.lesson.v.mat.practice1",
+          "role": "practice1",
+          "jp": "症状"
+        },
+        {
+          "id": "draft.n4_08.lesson.v.mat.practice3",
+          "role": "practice3",
+          "jp": "予約"
+        },
+        {
+          "id": "draft.n4_08.lesson.v.mat.check2",
+          "role": "check2",
+          "jp": "受付"
+        },
+        {
+          "id": "draft.n4_08.lesson.v.mat.check4",
+          "role": "check4",
+          "jp": "診察"
+        },
+        {
+          "id": "draft.n4_08.lesson.v.kanji-reading",
+          "role": "practice",
+          "jp": "診察",
+          "goal_refs": [
+            "draft.n4_08.lesson.v.goal"
+          ]
+        }
+      ],
+      "practice": [
+        {
+          "id": "draft.n4_08.lesson.v.mat.practice1.q1",
+          "material_ref": "draft.n4_08.lesson.v.mat.practice1",
+          "goal_ref": "draft.n4_08.lesson.v.goal",
+          "word_refs": [
+            "draft.n4_08.word.1",
+            "draft.n4_08.word.2",
+            "draft.n4_08.word.3",
+            "draft.n4_08.word.4"
+          ],
+          "prompt": "这个词的意思是什么？",
+          "choices": [
+            "预约",
+            "症状",
+            "前台"
+          ],
+          "answer": "症状",
+          "feedback": "症状（しょうじょう），意思是「症状」。"
+        },
+        {
+          "id": "draft.n4_08.lesson.v.mat.practice3.q1",
+          "material_ref": "draft.n4_08.lesson.v.mat.practice3",
+          "goal_ref": "draft.n4_08.lesson.v.goal",
+          "word_refs": [
+            "draft.n4_08.word.1",
+            "draft.n4_08.word.2",
+            "draft.n4_08.word.3",
+            "draft.n4_08.word.4"
+          ],
+          "prompt": "这个词的意思是什么？",
+          "choices": [
+            "医生看诊",
+            "症状",
+            "预约"
+          ],
+          "answer": "预约",
+          "feedback": "予約（よやく），意思是「预约」。"
+        },
+        {
+          "id": "draft.n4_08.lesson.v.kanji-reading.q1",
+          "material_ref": "draft.n4_08.lesson.v.kanji-reading",
+          "goal_ref": "draft.n4_08.lesson.v.goal",
+          "word_refs": [
+            "draft.n4_08.word.4"
+          ],
+          "prompt": "这个词怎么读？",
+          "choices": [
+            "じんさつ",
+            "しんさつ",
+            "しんざつ"
+          ],
+          "answer": "しんさつ",
+          "feedback": "「診察」读「しんさつ」，指医生看诊。「診察券」读「しんさつけん」，是在前台或机器报到时可能用到的就诊卡。"
+        }
+      ],
+      "check": [
+        {
+          "id": "draft.n4_08.lesson.v.mat.check2.q1",
+          "material_ref": "draft.n4_08.lesson.v.mat.check2",
+          "goal_ref": "draft.n4_08.lesson.v.goal",
+          "word_refs": [
+            "draft.n4_08.word.1",
+            "draft.n4_08.word.2",
+            "draft.n4_08.word.3",
+            "draft.n4_08.word.4"
+          ],
+          "prompt": "这个词的意思是什么？",
+          "choices": [
+            "前台",
+            "预约",
+            "医生看诊"
+          ],
+          "answer": "前台",
+          "feedback": "受付（うけつけ），意思是「前台」。"
+        },
+        {
+          "id": "draft.n4_08.lesson.v.mat.check4.q1",
+          "material_ref": "draft.n4_08.lesson.v.mat.check4",
+          "goal_ref": "draft.n4_08.lesson.v.goal",
+          "word_refs": [
+            "draft.n4_08.word.1",
+            "draft.n4_08.word.2",
+            "draft.n4_08.word.3",
+            "draft.n4_08.word.4"
+          ],
+          "prompt": "这个词的意思是什么？",
+          "choices": [
+            "前台",
+            "医生看诊",
+            "症状"
+          ],
+          "answer": "医生看诊",
+          "feedback": "診察（しんさつ），意思是「医生看诊」。"
+        }
+      ]
+    },
+    {
+      "id": "draft.n4_08.lesson.g",
+      "planning_key": "N4-08-L02",
+      "type": "G",
+      "title": "〜前から・〜続けています",
+      "prerequisites": [
+        "N4-08-L01"
+      ],
+      "goals": [
+        {
+          "id": "draft.n4_08.lesson.g.goal",
+          "text": "〜前から・〜続けています"
+        }
+      ],
+      "word_refs": [
+        "draft.n4_08.word.1",
+        "draft.n4_08.word.2",
+        "draft.n4_08.word.3",
+        "draft.n4_08.word.4"
+      ],
+      "explanation_zh": "「时间＋から」说明症状从什么时候开始。「症状＋が続いています」说明症状一直没消失，例如「せきが続いています」表示一直咳嗽。",
+      "materials": [
+        {
+          "id": "draft.n4_08.lesson.g.mat.teach",
+          "role": "teach",
+          "jp": "三日前からせきが続いています。"
+        },
+        {
+          "id": "draft.n4_08.lesson.g.mat.practice",
+          "role": "practice",
+          "jp": "昨日の夜から頭が痛いです。"
+        },
+        {
+          "id": "draft.n4_08.lesson.g.mat.check",
+          "role": "check",
+          "jp": "火曜日の朝＿、せきが続いています。"
+        }
+      ],
+      "practice": [
+        {
+          "id": "draft.n4_08.lesson.g.mat.practice.q1",
+          "material_ref": "draft.n4_08.lesson.g.mat.practice",
+          "goal_ref": "draft.n4_08.lesson.g.goal",
+          "word_refs": [
+            "draft.n4_08.word.1",
+            "draft.n4_08.word.2",
+            "draft.n4_08.word.3",
+            "draft.n4_08.word.4"
+          ],
+          "prompt": "头痛从何时开始？",
+          "choices": [
+            "今天早上",
+            "三天前",
+            "昨晚"
+          ],
+          "answer": "昨晚",
+          "feedback": "正确答案是「昨晚」。原句：昨日の夜から頭が痛いです。"
+        }
+      ],
+      "check": [
+        {
+          "id": "draft.n4_08.lesson.g.mat.check.q1",
+          "material_ref": "draft.n4_08.lesson.g.mat.check",
+          "goal_ref": "draft.n4_08.lesson.g.goal",
+          "word_refs": [
+            "draft.n4_08.word.1",
+            "draft.n4_08.word.2",
+            "draft.n4_08.word.3",
+            "draft.n4_08.word.4"
+          ],
+          "prompt": "哪个词标记症状的起点？",
+          "choices": [
+            "だけ",
+            "から",
+            "まで"
+          ],
+          "answer": "から",
+          "feedback": "正确答案是「から」。原文：火曜日の朝＿、せきが続いています。"
+        }
+      ],
+      "common_mistake_zh": "「火曜日の朝から」给出开始时间；「火曜日の朝まで」给出结束时间。症状还在持续时用「から」说明起点。"
+    },
+    {
+      "id": "draft.n4_08.lesson.r",
+      "planning_key": "N4-08-L03",
+      "type": "R",
+      "title": "看懂预约须知",
+      "prerequisites": [
+        "N4-08-L02"
+      ],
+      "goals": [
+        {
+          "id": "draft.n4_08.lesson.r.goal",
+          "text": "看懂预约须知"
+        }
+      ],
+      "word_refs": [
+        "draft.n4_08.word.1",
+        "draft.n4_08.word.2",
+        "draft.n4_08.word.3",
+        "draft.n4_08.word.4"
+      ],
+      "explanation_zh": "先找对象是来检查的人，再找最迟时间和报到地点。",
+      "materials": [
+        {
+          "id": "draft.n4_08.lesson.r.mat.teach",
+          "role": "teach",
+          "jp": "検査を受ける方は、午後一時までに二階の窓口へお越しください。"
+        },
+        {
+          "id": "draft.n4_08.lesson.r.mat.practice",
+          "role": "practice",
+          "jp": "初めての方は予約の十分前に受付へお越しください。お薬手帳があればお持ちください。"
+        },
+        {
+          "id": "draft.n4_08.lesson.r.mat.check",
+          "role": "check",
+          "jp": "予約変更の電話は、診察日の前日までにお願いします。受付は午後五時までです。"
+        }
+      ],
+      "practice": [
+        {
+          "id": "draft.n4_08.lesson.r.mat.practice.q1",
+          "material_ref": "draft.n4_08.lesson.r.mat.practice",
+          "goal_ref": "draft.n4_08.lesson.r.goal",
+          "word_refs": [
+            "draft.n4_08.word.1",
+            "draft.n4_08.word.2",
+            "draft.n4_08.word.3",
+            "draft.n4_08.word.4"
+          ],
+          "prompt": "首次来应提前多久报到？",
+          "choices": [
+            "半小时",
+            "十分钟",
+            "五分钟"
+          ],
+          "answer": "十分钟",
+          "feedback": "正确答案是「十分钟」。原句：初めての方は予約の十分前に受付へお越しください。お薬手帳があればお持ちください。"
+        }
+      ],
+      "check": [
+        {
+          "id": "draft.n4_08.lesson.r.mat.check.q1",
+          "material_ref": "draft.n4_08.lesson.r.mat.check",
+          "goal_ref": "draft.n4_08.lesson.r.goal",
+          "word_refs": [
+            "draft.n4_08.word.1",
+            "draft.n4_08.word.2",
+            "draft.n4_08.word.3",
+            "draft.n4_08.word.4"
+          ],
+          "prompt": "哪天最迟可打电话改约？",
+          "choices": [
+            "就诊前一天",
+            "就诊当天",
+            "就诊后一天"
+          ],
+          "answer": "就诊前一天",
+          "feedback": "正确答案是「就诊前一天」。原文：予約変更の電話は、診察日の前日までにお願いします。受付は午後五時までです。"
+        }
+      ]
+    },
+    {
+      "id": "draft.n4_08.lesson.l",
+      "planning_key": "N4-08-L04",
+      "type": "L",
+      "title": "听懂预约确认",
+      "prerequisites": [
+        "N4-08-L03"
+      ],
+      "goals": [
+        {
+          "id": "draft.n4_08.lesson.l.goal",
+          "text": "听懂预约确认"
+        }
+      ],
+      "word_refs": [
+        "draft.n4_08.word.1",
+        "draft.n4_08.word.2",
+        "draft.n4_08.word.3",
+        "draft.n4_08.word.4"
+      ],
+      "explanation_zh": "用复述确认日期和时段，避免把可选时段当成已约时间。 分别记医生看诊时间和报到时间。十点看诊，九点五十前报到。",
+      "materials": [
+        {
+          "id": "draft.n4_08.lesson.l.mat.teach",
+          "role": "teach",
+          "jp": "A：診察は午前十時ですね。B：はい。受付には九時五十分までに来てください。"
+        },
+        {
+          "id": "draft.n4_08.lesson.l.mat.practice",
+          "role": "practice",
+          "jp": "A：木曜の午前は空いていますか。B：午前はいっぱいですが、午後三時なら空いています。A：では、その時間でお願いします。"
+        },
+        {
+          "id": "draft.n4_08.lesson.l.mat.check",
+          "role": "check",
+          "jp": "A：初めてですが、何を持っていけばいいですか。B：保険証をお持ちください。"
+        }
+      ],
+      "practice": [
+        {
+          "id": "draft.n4_08.lesson.l.mat.practice.q1",
+          "material_ref": "draft.n4_08.lesson.l.mat.practice",
+          "goal_ref": "draft.n4_08.lesson.l.goal",
+          "word_refs": [
+            "draft.n4_08.word.1",
+            "draft.n4_08.word.2",
+            "draft.n4_08.word.3",
+            "draft.n4_08.word.4"
+          ],
+          "prompt": "最后约几点？",
+          "choices": [
+            "下午三点",
+            "上午十点",
+            "下午一点"
+          ],
+          "answer": "下午三点",
+          "feedback": "正确答案是「下午三点」。原句：A：木曜の午前は空いていますか。B：午前はいっぱいですが、午後三時なら空いています。A：では、その時間でお願いします。"
+        }
+      ],
+      "check": [
+        {
+          "id": "draft.n4_08.lesson.l.mat.check.q1",
+          "material_ref": "draft.n4_08.lesson.l.mat.check",
+          "goal_ref": "draft.n4_08.lesson.l.goal",
+          "word_refs": [
+            "draft.n4_08.word.1",
+            "draft.n4_08.word.2",
+            "draft.n4_08.word.3",
+            "draft.n4_08.word.4"
+          ],
+          "prompt": "要带什么？",
+          "choices": [
+            "预约单",
+            "药盒",
+            "医保凭证"
+          ],
+          "answer": "医保凭证",
+          "feedback": "正确答案是「医保凭证」。原文：A：初めてですが、何を持っていけばいいですか。B：保険証をお持ちください。"
+        }
+      ]
+    },
+    {
+      "id": "draft.n4_08.lesson.o",
+      "planning_key": "N4-08-L05",
+      "type": "O",
+      "title": "预约并说明情况",
+      "prerequisites": [
+        "N4-08-L04"
+      ],
+      "goals": [
+        {
+          "id": "draft.n4_08.lesson.o.goal",
+          "text": "预约并说明情况"
+        }
+      ],
+      "word_refs": [
+        "draft.n4_08.word.1",
+        "draft.n4_08.word.2",
+        "draft.n4_08.word.3",
+        "draft.n4_08.word.4"
+      ],
+      "explanation_zh": "先用日语口头说明，再把关键内容写成一条短消息。完成后按下面的要点核对。",
+      "materials": [],
+      "performance": {
+        "practice": {
+          "card_zh": "模拟电话预约。虚构角色从周一开始咳嗽，周四下午有空。说明起始时间，再确认预约。",
+          "prompt_zh": "先说一遍，再写下要传达的内容。"
+        },
+        "rubric_zh": "交代症状、开始时间和确认后的时段。",
+        "check": {
+          "card_zh": "虚构角色昨晚起喉咙痛。拨电话问周二上午是否有空位，再复述约好的时间。",
+          "prompt_zh": "用日语作答，再按自查要点核对。"
+        }
+      }
+    },
+    {
+      "id": "draft.n4_08.lesson.t",
+      "planning_key": "N4-08-L06",
+      "type": "T",
+      "title": "向家人转述就诊安排",
+      "prerequisites": [
+        "N4-08-L05"
+      ],
+      "goals": [
+        {
+          "id": "draft.n4_08.lesson.t.goal",
+          "text": "向家人转述就诊安排"
+        }
+      ],
+      "word_refs": [
+        "draft.n4_08.word.1",
+        "draft.n4_08.word.2",
+        "draft.n4_08.word.3",
+        "draft.n4_08.word.4"
+      ],
+      "explanation_zh": "先用日语口头说明，再把关键内容写成一条短消息。完成后按下面的要点核对。",
+      "materials": [],
+      "performance": {
+        "practice": {
+          "card_zh": "约好的上午时段改到下午四点，前台请提前十分钟到。给家人留一条消息。",
+          "prompt_zh": "先说一遍，再写下要传达的内容。"
+        },
+        "rubric_zh": "同时写清时间和地点；明确哪个条件改了、哪个照旧；有到达和预约两个时间时分开写。",
+        "check": {
+          "card_zh": "通知原来写下午三点到一楼前台报到。前台改到二楼，报到时间仍是下午三点。",
+          "prompt_zh": "用日语给同行者写一条更新消息，说明什么改了、什么照旧。"
+        }
+      }
+    }
+  ],
+  "exam": {
+    "id": "draft.n4_08.exam.unit",
+    "materials": [
+      {
+        "id": "draft.n4_08.exam.unit.mat.exam_reading",
+        "role": "exam_reading",
+        "jp": "診察券をお持ちの方は、受付の機械に入れてください。初めての方は窓口へお越しください。"
+      },
+      {
+        "id": "draft.n4_08.exam.unit.mat.exam_listening",
+        "role": "exam_listening",
+        "jp": "A：のどはいつから痛いですか。B：おとといの朝からです。熱は昨日からあります。"
+      }
+    ],
+    "reading": [
+      {
+        "id": "draft.n4_08.exam.unit.mat.exam_reading.q1",
+        "material_ref": "draft.n4_08.exam.unit.mat.exam_reading",
+        "goal_ref": "draft.n4_08.lesson.r.goal",
+        "word_refs": [
+          "draft.n4_08.word.1",
+          "draft.n4_08.word.2",
+          "draft.n4_08.word.3",
+          "draft.n4_08.word.4"
+        ],
+        "prompt": "首次来应该去哪里？",
+        "choices": [
+          "自动机器",
+          "候诊室直接等",
+          "人工窗口"
+        ],
+        "answer": "人工窗口",
+        "feedback": "正确答案是「人工窗口」。原文：診察券をお持ちの方は、受付の機械に入れてください。初めての方は窓口へお越しください。"
+      }
+    ],
+    "listening": [
+      {
+        "id": "draft.n4_08.exam.unit.mat.exam_listening.q1",
+        "material_ref": "draft.n4_08.exam.unit.mat.exam_listening",
+        "goal_ref": "draft.n4_08.lesson.l.goal",
+        "word_refs": [
+          "draft.n4_08.word.1",
+          "draft.n4_08.word.2",
+          "draft.n4_08.word.3",
+          "draft.n4_08.word.4"
+        ],
+        "prompt": "喉咙从何时开始痛？",
+        "choices": [
+          "昨天晚上",
+          "前天早上",
+          "昨天早上"
+        ],
+        "answer": "前天早上",
+        "feedback": "正确答案是「前天早上」。原文：A：のどはいつから痛いですか。B：おとといの朝からです。熱は昨日からあります。"
+      }
+    ],
+    "output": {
+      "id": "draft.n4_08.q.eo1",
+      "card_zh": "虚构就诊情境。诊所通知：预约在周五上午十点，请九点四十五分到前台，并带就诊卡。",
+      "prompt_zh": "用日语口头向家人确认看诊时间，再写一条消息，说明几点到、去哪里、带什么。",
+      "rubric_zh": "区分十点看诊与九点四十五分到达；写清地点是前台；写明携带就诊卡。",
+      "scoring": "human_only"
+    }
+  }
+}

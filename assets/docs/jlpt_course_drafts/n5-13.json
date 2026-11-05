@@ -1,0 +1,481 @@
+{
+  "schema": "draft.n5_13.course.v1",
+  "unit": "N5-13",
+  "theme": "地点与移动",
+  "status": {
+    "publication": "draft",
+    "language_review": "pending",
+    "rights_review": "pending",
+    "audio": "not_produced",
+    "listening_score": "blocked",
+    "speaking_writing": "human_only"
+  },
+  "words": [
+    {
+      "id": "draft.n5_13.word.1",
+      "forms": "家（いえ）",
+      "meaning_zh": "家",
+      "source": "AI_original_draft"
+    },
+    {
+      "id": "draft.n5_13.word.2",
+      "forms": "学校（がっこう）",
+      "meaning_zh": "学校",
+      "source": "AI_original_draft"
+    },
+    {
+      "id": "draft.n5_13.word.3",
+      "forms": "公園（こうえん）",
+      "meaning_zh": "公园",
+      "source": "AI_original_draft"
+    },
+    {
+      "id": "draft.n5_13.word.4",
+      "forms": "行く（いく）",
+      "meaning_zh": "去",
+      "source": "AI_original_draft"
+    },
+    {
+      "id": "draft.n5_13.word.5",
+      "forms": "来る（くる）",
+      "meaning_zh": "来",
+      "source": "AI_original_draft"
+    },
+    {
+      "id": "draft.n5_13.word.6",
+      "forms": "帰る（かえる）",
+      "meaning_zh": "回去",
+      "source": "AI_original_draft"
+    }
+  ],
+  "lessons": [
+    {
+      "id": "draft.n5_13.lesson.v",
+      "planning_key": "N5-13-L01",
+      "type": "V",
+      "title": "认出去、来和回去",
+      "prerequisites": [
+        "N5-12"
+      ],
+      "goals": [
+        {
+          "id": "draft.n5_13.lesson.v.goal",
+          "text": "认出去、来和回去"
+        }
+      ],
+      "word_refs": [
+        "draft.n5_13.word.1",
+        "draft.n5_13.word.2",
+        "draft.n5_13.word.3",
+        "draft.n5_13.word.4",
+        "draft.n5_13.word.5",
+        "draft.n5_13.word.6"
+      ],
+      "explanation_zh": "用「行きます」说去某地，「来ます」说来到谈话所指的地方，「帰ります」说回到家等原来的地方。",
+      "materials": [
+        {
+          "id": "draft.n5_13.lesson.v.teach",
+          "role": "teach",
+          "jp": "朝、学校へ行きます。夕方、家に帰ります。",
+          "goal_refs": [
+            "draft.n5_13.lesson.v.goal"
+          ]
+        },
+        {
+          "id": "draft.n5_13.lesson.v.practice",
+          "role": "practice",
+          "jp": "ここは学校です。友達がもうすぐ来ます。",
+          "goal_refs": [
+            "draft.n5_13.lesson.v.goal"
+          ]
+        },
+        {
+          "id": "draft.n5_13.lesson.v.check",
+          "role": "check",
+          "jp": "授業のあと、家に帰ります。",
+          "goal_refs": [
+            "draft.n5_13.lesson.v.goal"
+          ]
+        }
+      ],
+      "practice": [
+        {
+          "id": "draft.n5_13.lesson.v.practice.q1",
+          "material_ref": "draft.n5_13.lesson.v.practice",
+          "goal_ref": "draft.n5_13.lesson.v.goal",
+          "word_refs": [
+            "draft.n5_13.word.1",
+            "draft.n5_13.word.2",
+            "draft.n5_13.word.3",
+            "draft.n5_13.word.4",
+            "draft.n5_13.word.5",
+            "draft.n5_13.word.6"
+          ],
+          "prompt": "朋友马上去哪儿？",
+          "choices": [
+            "说话人所在的学校",
+            "朋友家",
+            "公园"
+          ],
+          "answer": "说话人所在的学校",
+          "feedback": "「ここは学校です」确定地点，「来ます」说来到这里。"
+        }
+      ],
+      "check": [
+        {
+          "id": "draft.n5_13.lesson.v.check.q1",
+          "material_ref": "draft.n5_13.lesson.v.check",
+          "goal_ref": "draft.n5_13.lesson.v.goal",
+          "word_refs": [
+            "draft.n5_13.word.1",
+            "draft.n5_13.word.2",
+            "draft.n5_13.word.3",
+            "draft.n5_13.word.4",
+            "draft.n5_13.word.5",
+            "draft.n5_13.word.6"
+          ],
+          "prompt": "上完课之后做什么？",
+          "choices": [
+            "去公园",
+            "回家",
+            "去学校"
+          ],
+          "answer": "回家",
+          "feedback": "「家に帰ります」是回家。"
+        }
+      ]
+    },
+    {
+      "id": "draft.n5_13.lesson.g",
+      "planning_key": "N5-13-L02",
+      "type": "G",
+      "title": "用助词说起点、终点和同行人",
+      "prerequisites": [
+        "N5-13-L01"
+      ],
+      "goals": [
+        {
+          "id": "draft.n5_13.lesson.g.goal",
+          "text": "用助词说起点、终点和同行人"
+        }
+      ],
+      "word_refs": [
+        "draft.n5_13.word.1",
+        "draft.n5_13.word.2",
+        "draft.n5_13.word.3",
+        "draft.n5_13.word.4",
+        "draft.n5_13.word.5",
+        "draft.n5_13.word.6"
+      ],
+      "explanation_zh": "「から」标起点，「まで」标范围终点。「へ／に」可标移动目的地，「と」标同行人。",
+      "common_mistake_zh": "「家から駅まで」是从家到车站，调换地点就变成回程。「友達と」用来补充和谁一起走。",
+      "materials": [
+        {
+          "id": "draft.n5_13.lesson.g.teach",
+          "role": "teach",
+          "jp": "友達と学校から公園まで歩きます。",
+          "goal_refs": [
+            "draft.n5_13.lesson.g.goal"
+          ]
+        },
+        {
+          "id": "draft.n5_13.lesson.g.practice",
+          "role": "practice",
+          "jp": "家から駅まで歩きます。",
+          "goal_refs": [
+            "draft.n5_13.lesson.g.goal"
+          ]
+        },
+        {
+          "id": "draft.n5_13.lesson.g.check",
+          "role": "check",
+          "jp": "友達〔　〕公園へ行きます。",
+          "goal_refs": [
+            "draft.n5_13.lesson.g.goal"
+          ]
+        }
+      ],
+      "practice": [
+        {
+          "id": "draft.n5_13.lesson.g.practice.q1",
+          "material_ref": "draft.n5_13.lesson.g.practice",
+          "goal_ref": "draft.n5_13.lesson.g.goal",
+          "word_refs": [
+            "draft.n5_13.word.1",
+            "draft.n5_13.word.2",
+            "draft.n5_13.word.3",
+            "draft.n5_13.word.4",
+            "draft.n5_13.word.5",
+            "draft.n5_13.word.6"
+          ],
+          "prompt": "步行从哪儿出发？",
+          "choices": [
+            "车站",
+            "学校",
+            "家"
+          ],
+          "answer": "家",
+          "feedback": "「家から」标出起点。"
+        }
+      ],
+      "check": [
+        {
+          "id": "draft.n5_13.lesson.g.check.q1",
+          "material_ref": "draft.n5_13.lesson.g.check",
+          "goal_ref": "draft.n5_13.lesson.g.goal",
+          "word_refs": [
+            "draft.n5_13.word.1",
+            "draft.n5_13.word.2",
+            "draft.n5_13.word.3",
+            "draft.n5_13.word.4",
+            "draft.n5_13.word.5",
+            "draft.n5_13.word.6"
+          ],
+          "prompt": "要说「和朋友去公园」，空格填什么？",
+          "choices": [
+            "まで",
+            "と",
+            "から"
+          ],
+          "answer": "と",
+          "feedback": "「友達と」表示和朋友一起。"
+        }
+      ]
+    },
+    {
+      "id": "draft.n5_13.lesson.r",
+      "planning_key": "N5-13-L03",
+      "type": "R",
+      "title": "读路线卡并确认出行顺序",
+      "prerequisites": [
+        "N5-13-L02"
+      ],
+      "goals": [
+        {
+          "id": "draft.n5_13.lesson.r.goal",
+          "text": "读路线卡并确认出行顺序"
+        }
+      ],
+      "word_refs": [
+        "draft.n5_13.word.1",
+        "draft.n5_13.word.2",
+        "draft.n5_13.word.3",
+        "draft.n5_13.word.4",
+        "draft.n5_13.word.5",
+        "draft.n5_13.word.6"
+      ],
+      "explanation_zh": "箭头表示移动顺序。读完路线后，找说明里「と」前面的人名。",
+      "materials": [
+        {
+          "id": "draft.n5_13.lesson.r.teach",
+          "role": "teach",
+          "jp": "学校 → 公園 → 駅。公園から駅まで友達と歩きます。",
+          "goal_refs": [
+            "draft.n5_13.lesson.r.goal"
+          ]
+        },
+        {
+          "id": "draft.n5_13.lesson.r.practice",
+          "role": "practice",
+          "jp": "家 → 駅 → 学校。家から駅まで一人で歩きます。",
+          "goal_refs": [
+            "draft.n5_13.lesson.r.goal"
+          ]
+        },
+        {
+          "id": "draft.n5_13.lesson.r.check",
+          "role": "check",
+          "jp": "学校 → 図書館 → 家。学校から図書館までミカさんと歩きます。図書館から家までは一人で帰ります。",
+          "goal_refs": [
+            "draft.n5_13.lesson.r.goal"
+          ]
+        }
+      ],
+      "practice": [
+        {
+          "id": "draft.n5_13.lesson.r.practice.q1",
+          "material_ref": "draft.n5_13.lesson.r.practice",
+          "goal_ref": "draft.n5_13.lesson.r.goal",
+          "word_refs": [
+            "draft.n5_13.word.1",
+            "draft.n5_13.word.2",
+            "draft.n5_13.word.3",
+            "draft.n5_13.word.4",
+            "draft.n5_13.word.5",
+            "draft.n5_13.word.6"
+          ],
+          "prompt": "从家出发先到哪儿？",
+          "choices": [
+            "学校",
+            "车站",
+            "公园"
+          ],
+          "answer": "车站",
+          "feedback": "路线卡上的第一段是「家 → 駅」。"
+        }
+      ],
+      "check": [
+        {
+          "id": "draft.n5_13.lesson.r.check.q1",
+          "material_ref": "draft.n5_13.lesson.r.check",
+          "goal_ref": "draft.n5_13.lesson.r.goal",
+          "word_refs": [
+            "draft.n5_13.word.1",
+            "draft.n5_13.word.2",
+            "draft.n5_13.word.3",
+            "draft.n5_13.word.4",
+            "draft.n5_13.word.5",
+            "draft.n5_13.word.6"
+          ],
+          "prompt": "和美香同行的是哪一段？",
+          "choices": [
+            "学校到图书馆",
+            "图书馆到家",
+            "学校到家全程"
+          ],
+          "answer": "学校到图书馆",
+          "feedback": "「学校から図書館まで」和「ミカさんと」出现在同一句。"
+        }
+      ]
+    },
+    {
+      "id": "draft.n5_13.lesson.l",
+      "planning_key": "N5-13-L04",
+      "type": "L",
+      "title": "听清从哪儿到哪儿",
+      "prerequisites": [
+        "N5-13-L03"
+      ],
+      "goals": [
+        {
+          "id": "draft.n5_13.lesson.l.goal",
+          "text": "听清从哪儿到哪儿"
+        }
+      ],
+      "word_refs": [
+        "draft.n5_13.word.1",
+        "draft.n5_13.word.2",
+        "draft.n5_13.word.3",
+        "draft.n5_13.word.4",
+        "draft.n5_13.word.5",
+        "draft.n5_13.word.6"
+      ],
+      "explanation_zh": "先听「から」「まで」前面的地名，再留意同行人的名字。可用设备朗读示例。",
+      "materials": [
+        {
+          "id": "draft.n5_13.lesson.l.teach",
+          "role": "teach",
+          "jp": "A：明日はどこへ行きますか。B：兄と駅から公園まで歩きます。",
+          "goal_refs": [
+            "draft.n5_13.lesson.l.goal"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "draft.n5_13.lesson.o",
+      "planning_key": "N5-13-L05",
+      "type": "O",
+      "title": "向同伴说明行程",
+      "prerequisites": [
+        "N5-13-L04"
+      ],
+      "goals": [
+        {
+          "id": "draft.n5_13.lesson.o.goal",
+          "text": "向同伴说明行程"
+        }
+      ],
+      "word_refs": [
+        "draft.n5_13.word.1",
+        "draft.n5_13.word.2",
+        "draft.n5_13.word.3",
+        "draft.n5_13.word.4",
+        "draft.n5_13.word.5",
+        "draft.n5_13.word.6"
+      ],
+      "explanation_zh": "先说一遍，再写下要传达的内容，最后按自查要点核对。",
+      "materials": [],
+      "performance": {
+        "practice": {
+          "card_zh": "你和朋友从学校走到公园。",
+          "prompt_zh": "用日语说清起点、终点和同行人。"
+        },
+        "check": {
+          "card_zh": "你和姐姐从家走到车站，再独自去学校。",
+          "prompt_zh": "写一条日语消息说明两段行程，再读出来。"
+        },
+        "rubric_zh": "起点和终点顺序正确；同行人和所走路段对应。",
+        "scoring": "human_only"
+      }
+    }
+  ],
+  "exam": {
+    "id": "draft.n5_13.exam",
+    "materials": [
+      {
+        "id": "draft.n5_13.exam.reading",
+        "role": "exam_reading",
+        "jp": "家 → 駅 → 公園。駅から公園までは弟と歩きます。"
+      },
+      {
+        "id": "draft.n5_13.exam.listening",
+        "role": "exam_listening",
+        "jp": "A：学校から駅まで一人で行きますか。B：いいえ、友達と行きます。"
+      }
+    ],
+    "reading": [
+      {
+        "id": "draft.n5_13.exam.reading.q1",
+        "material_ref": "draft.n5_13.exam.reading",
+        "goal_ref": "draft.n5_13.lesson.r.goal",
+        "word_refs": [
+          "draft.n5_13.word.1",
+          "draft.n5_13.word.2",
+          "draft.n5_13.word.3",
+          "draft.n5_13.word.4",
+          "draft.n5_13.word.5",
+          "draft.n5_13.word.6"
+        ],
+        "prompt": "从车站到公园和谁一起走？",
+        "choices": [
+          "弟弟",
+          "朋友",
+          "独自走"
+        ],
+        "answer": "弟弟",
+        "feedback": "「弟と」指和弟弟同行。"
+      }
+    ],
+    "listening": [
+      {
+        "id": "draft.n5_13.exam.listening.q1",
+        "material_ref": "draft.n5_13.exam.listening",
+        "goal_ref": "draft.n5_13.lesson.l.goal",
+        "word_refs": [
+          "draft.n5_13.word.1",
+          "draft.n5_13.word.2",
+          "draft.n5_13.word.3",
+          "draft.n5_13.word.4",
+          "draft.n5_13.word.5",
+          "draft.n5_13.word.6"
+        ],
+        "prompt": "B 和谁去车站？",
+        "choices": [
+          "姐姐",
+          "朋友",
+          "独自去"
+        ],
+        "answer": "朋友",
+        "feedback": "B 用「友達と」说明同行人。"
+      }
+    ],
+    "output": {
+      "card_zh": "你和妹妹从车站走到图书馆，再独自回家。",
+      "prompt_zh": "写下两段行程，再用日语口头说明。",
+      "rubric_zh": "说清车站、图书馆、家；指出和妹妹同行的是第一段。",
+      "id": "draft.n5_13.exam.output",
+      "scoring": "human_only"
+    }
+  }
+}

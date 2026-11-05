@@ -1,0 +1,654 @@
+{
+  "schema": "draft.n4_02.course.v1",
+  "unit": "N4-02",
+  "theme": "问路与交通",
+  "status": {
+    "publication": "draft",
+    "language_review": "pending",
+    "teaching_review": "pending",
+    "rights_review": "pending",
+    "audio": "not_produced",
+    "audio_review": "pending",
+    "listening_score": "blocked",
+    "speaking_writing": "human_only",
+    "runtime_verification": "not_run",
+    "app_integration": "not_integrated"
+  },
+  "words": [
+    {
+      "id": "draft.n4_02.word.1",
+      "forms": "乗り換え（のりかえ）",
+      "meaning_zh": "换乘",
+      "source": "AI_original_draft"
+    },
+    {
+      "id": "draft.n4_02.word.2",
+      "forms": "各駅停車（かくえきていしゃ）",
+      "meaning_zh": "站站停",
+      "source": "AI_original_draft"
+    },
+    {
+      "id": "draft.n4_02.word.3",
+      "forms": "運休（うんきゅう）",
+      "meaning_zh": "停运",
+      "source": "AI_original_draft"
+    },
+    {
+      "id": "draft.n4_02.word.4",
+      "forms": "出口（でぐち）",
+      "meaning_zh": "出口",
+      "source": "AI_original_draft"
+    }
+  ],
+  "lessons": [
+    {
+      "id": "draft.n4_02.lesson.v",
+      "planning_key": "N4-02-L01",
+      "type": "V",
+      "title": "辨认换乘与停运",
+      "prerequisites": [],
+      "goals": [
+        {
+          "id": "draft.n4_02.lesson.v.goal",
+          "text": "辨认换乘与停运"
+        }
+      ],
+      "word_refs": [
+        "draft.n4_02.word.1",
+        "draft.n4_02.word.2",
+        "draft.n4_02.word.3",
+        "draft.n4_02.word.4"
+      ],
+      "explanation_zh": "「乗り換え」是换乘；「運休」表示相关车次停运。先确认停运对象，再查替代线路。 「乗り換え」的「乗り」表示乘坐，「換え」表示换。把汉字和夹在中间的假名一起读，是「のりかえ」。",
+      "materials": [
+        {
+          "id": "draft.n4_02.lesson.v.teach",
+          "role": "teach",
+          "jp": "中央駅で地下鉄に乗り換えます。",
+          "goal_refs": [
+            "draft.n4_02.lesson.v.goal"
+          ]
+        },
+        {
+          "id": "draft.n4_02.lesson.v.practice",
+          "role": "practice",
+          "jp": "八時の急行は運休です。",
+          "goal_refs": [
+            "draft.n4_02.lesson.v.goal"
+          ]
+        },
+        {
+          "id": "draft.n4_02.lesson.v.check",
+          "role": "check",
+          "jp": "図書館へは南口が便利です。",
+          "goal_refs": [
+            "draft.n4_02.lesson.v.goal"
+          ]
+        },
+        {
+          "id": "draft.n4_02.lesson.v.kanji-reading",
+          "role": "practice",
+          "jp": "乗り換え",
+          "goal_refs": [
+            "draft.n4_02.lesson.v.goal"
+          ]
+        }
+      ],
+      "practice": [
+        {
+          "id": "draft.n4_02.lesson.v.practice.q1",
+          "material_ref": "draft.n4_02.lesson.v.practice",
+          "goal_ref": "draft.n4_02.lesson.v.goal",
+          "word_refs": [
+            "draft.n4_02.word.1",
+            "draft.n4_02.word.2",
+            "draft.n4_02.word.3",
+            "draft.n4_02.word.4"
+          ],
+          "prompt": "八点的急行列车发生了什么？",
+          "choices": [
+            "提前出发",
+            "增加停靠站",
+            "停运"
+          ],
+          "answer": "停运",
+          "feedback": "「運休」表示车次不运行。"
+        },
+        {
+          "id": "draft.n4_02.lesson.v.kanji-reading.q1",
+          "material_ref": "draft.n4_02.lesson.v.kanji-reading",
+          "goal_ref": "draft.n4_02.lesson.v.goal",
+          "word_refs": [
+            "draft.n4_02.word.1"
+          ],
+          "prompt": "这个词怎么读？",
+          "choices": [
+            "のりあい",
+            "のりかえ",
+            "のりこえ"
+          ],
+          "answer": "のりかえ",
+          "feedback": "「乗り換え」的「乗り」表示乘坐，「換え」表示换。把汉字和夹在中间的假名一起读，是「のりかえ」。"
+        }
+      ],
+      "check": [
+        {
+          "id": "draft.n4_02.lesson.v.check.q1",
+          "material_ref": "draft.n4_02.lesson.v.check",
+          "goal_ref": "draft.n4_02.lesson.v.goal",
+          "word_refs": [
+            "draft.n4_02.word.1",
+            "draft.n4_02.word.2",
+            "draft.n4_02.word.3",
+            "draft.n4_02.word.4"
+          ],
+          "prompt": "去图书馆哪个出口方便？",
+          "choices": [
+            "东口",
+            "南口",
+            "北口"
+          ],
+          "answer": "南口",
+          "feedback": "「南口」是南面的出口。"
+        }
+      ]
+    },
+    {
+      "id": "draft.n4_02.lesson.g",
+      "planning_key": "N4-02-L02",
+      "type": "G",
+      "title": "描述换乘后的路线",
+      "prerequisites": [
+        "N4-02-L01"
+      ],
+      "goals": [
+        {
+          "id": "draft.n4_02.lesson.g.goal",
+          "text": "描述换乘后的路线"
+        }
+      ],
+      "word_refs": [
+        "draft.n4_02.word.1",
+        "draft.n4_02.word.2",
+        "draft.n4_02.word.3",
+        "draft.n4_02.word.4"
+      ],
+      "explanation_zh": "「地点＋で」标动作发生地。「交通工具＋に乗り換える」标换乘目标。",
+      "materials": [
+        {
+          "id": "draft.n4_02.lesson.g.teach",
+          "role": "teach",
+          "jp": "中央駅でバスに乗り換えてください。",
+          "goal_refs": [
+            "draft.n4_02.lesson.g.goal"
+          ]
+        },
+        {
+          "id": "draft.n4_02.lesson.g.practice",
+          "role": "practice",
+          "jp": "東町駅で地下鉄に乗り換えます。",
+          "goal_refs": [
+            "draft.n4_02.lesson.g.goal"
+          ]
+        },
+        {
+          "id": "draft.n4_02.lesson.g.check",
+          "role": "check",
+          "jp": "港駅で各駅停車に乗り換えてください。",
+          "goal_refs": [
+            "draft.n4_02.lesson.g.goal"
+          ]
+        }
+      ],
+      "practice": [
+        {
+          "id": "draft.n4_02.lesson.g.practice.q1",
+          "material_ref": "draft.n4_02.lesson.g.practice",
+          "goal_ref": "draft.n4_02.lesson.g.goal",
+          "word_refs": [
+            "draft.n4_02.word.1",
+            "draft.n4_02.word.2",
+            "draft.n4_02.word.3",
+            "draft.n4_02.word.4"
+          ],
+          "prompt": "在哪里换乘？",
+          "choices": [
+            "公交车上",
+            "东町站",
+            "终点站"
+          ],
+          "answer": "东町站",
+          "feedback": "「東町駅で」给出动作地点。"
+        }
+      ],
+      "check": [
+        {
+          "id": "draft.n4_02.lesson.g.check.q1",
+          "material_ref": "draft.n4_02.lesson.g.check",
+          "goal_ref": "draft.n4_02.lesson.g.goal",
+          "word_refs": [
+            "draft.n4_02.word.1",
+            "draft.n4_02.word.2",
+            "draft.n4_02.word.3",
+            "draft.n4_02.word.4"
+          ],
+          "prompt": "要换乘什么车？",
+          "choices": [
+            "站站停列车",
+            "急行列车",
+            "出租车"
+          ],
+          "answer": "站站停列车",
+          "feedback": "「各駅停車に」标换乘目标。"
+        }
+      ],
+      "common_mistake_zh": "「駅で」说在哪里换乘，「バスに」说换乘什么。例句里的两个助词不能互换。"
+    },
+    {
+      "id": "draft.n4_02.lesson.r",
+      "planning_key": "N4-02-L03",
+      "type": "R",
+      "title": "看停运通知找备选",
+      "prerequisites": [
+        "N4-02-L02"
+      ],
+      "goals": [
+        {
+          "id": "draft.n4_02.lesson.r.goal",
+          "text": "看停运通知找备选"
+        }
+      ],
+      "word_refs": [
+        "draft.n4_02.word.1",
+        "draft.n4_02.word.2",
+        "draft.n4_02.word.3",
+        "draft.n4_02.word.4"
+      ],
+      "explanation_zh": "先核对线路和车次，再找通知给出的替代路线。留意时间和车站出口各自指向什么。",
+      "materials": [
+        {
+          "id": "draft.n4_02.lesson.r.teach",
+          "role": "teach",
+          "jp": "九時の北町行きは運休です。北町へは、駅前からバスをご利用ください。",
+          "goal_refs": [
+            "draft.n4_02.lesson.r.goal"
+          ]
+        },
+        {
+          "id": "draft.n4_02.lesson.r.practice",
+          "role": "practice",
+          "jp": "西口は工事中です。市役所へは東口から出てください。",
+          "goal_refs": [
+            "draft.n4_02.lesson.r.goal"
+          ]
+        },
+        {
+          "id": "draft.n4_02.lesson.r.check",
+          "role": "check",
+          "jp": "南線は中央駅から港駅まで運休です。港駅へお越しの方は中央駅南口から出るバスをご利用ください。",
+          "goal_refs": [
+            "draft.n4_02.lesson.r.goal"
+          ]
+        }
+      ],
+      "practice": [
+        {
+          "id": "draft.n4_02.lesson.r.practice.q1",
+          "material_ref": "draft.n4_02.lesson.r.practice",
+          "goal_ref": "draft.n4_02.lesson.r.goal",
+          "word_refs": [
+            "draft.n4_02.word.1",
+            "draft.n4_02.word.2",
+            "draft.n4_02.word.3",
+            "draft.n4_02.word.4"
+          ],
+          "prompt": "去市政府应从哪个口出站？",
+          "choices": [
+            "东口",
+            "西口",
+            "北口"
+          ],
+          "answer": "东口",
+          "feedback": "「東口から」给出出口。"
+        }
+      ],
+      "check": [
+        {
+          "id": "draft.n4_02.lesson.r.check.q1",
+          "material_ref": "draft.n4_02.lesson.r.check",
+          "goal_ref": "draft.n4_02.lesson.r.goal",
+          "word_refs": [
+            "draft.n4_02.word.1",
+            "draft.n4_02.word.2",
+            "draft.n4_02.word.3",
+            "draft.n4_02.word.4"
+          ],
+          "prompt": "去港站应在哪里坐接驳巴士？",
+          "choices": [
+            "港站南口",
+            "中央站北口",
+            "中央站南口"
+          ],
+          "answer": "中央站南口",
+          "feedback": "「中央駅南口から出る」修饰巴士。"
+        }
+      ]
+    },
+    {
+      "id": "draft.n4_02.lesson.l",
+      "planning_key": "N4-02-L04",
+      "type": "L",
+      "title": "听清更改后的出发点",
+      "prerequisites": [
+        "N4-02-L03"
+      ],
+      "goals": [
+        {
+          "id": "draft.n4_02.lesson.l.goal",
+          "text": "听清更改后的出发点"
+        }
+      ],
+      "word_refs": [
+        "draft.n4_02.word.1",
+        "draft.n4_02.word.2",
+        "draft.n4_02.word.3",
+        "draft.n4_02.word.4"
+      ],
+      "explanation_zh": "听到「ではなく」先排除前面的旧信息，然后记录后面的新信息。",
+      "materials": [
+        {
+          "id": "draft.n4_02.lesson.l.teach",
+          "role": "teach",
+          "jp": "港行きは一番線ではなく、三番線から出ます。",
+          "goal_refs": [
+            "draft.n4_02.lesson.l.goal"
+          ]
+        },
+        {
+          "id": "draft.n4_02.lesson.l.practice",
+          "role": "practice",
+          "jp": "中央行きのバスは南口ではなく、東口から出ます。",
+          "goal_refs": [
+            "draft.n4_02.lesson.l.goal"
+          ]
+        },
+        {
+          "id": "draft.n4_02.lesson.l.check",
+          "role": "check",
+          "jp": "客：港行きは二番線ですか。係員：今日は二番線ではなく、四番線です。出発時刻は同じです。",
+          "goal_refs": [
+            "draft.n4_02.lesson.l.goal"
+          ]
+        }
+      ],
+      "practice": [
+        {
+          "id": "draft.n4_02.lesson.l.practice.q1",
+          "material_ref": "draft.n4_02.lesson.l.practice",
+          "goal_ref": "draft.n4_02.lesson.l.goal",
+          "word_refs": [
+            "draft.n4_02.word.1",
+            "draft.n4_02.word.2",
+            "draft.n4_02.word.3",
+            "draft.n4_02.word.4"
+          ],
+          "prompt": "这班巴士从哪个出口出发？",
+          "choices": [
+            "南口",
+            "西口",
+            "东口"
+          ],
+          "answer": "东口",
+          "feedback": "「ではなく」排除南口。"
+        }
+      ],
+      "check": [
+        {
+          "id": "draft.n4_02.lesson.l.check.q1",
+          "material_ref": "draft.n4_02.lesson.l.check",
+          "goal_ref": "draft.n4_02.lesson.l.goal",
+          "word_refs": [
+            "draft.n4_02.word.1",
+            "draft.n4_02.word.2",
+            "draft.n4_02.word.3",
+            "draft.n4_02.word.4"
+          ],
+          "prompt": "哪个信息变了？",
+          "choices": [
+            "目的地",
+            "站台",
+            "出发时间"
+          ],
+          "answer": "站台",
+          "feedback": "答复改为四号站台，时间相同。"
+        }
+      ]
+    },
+    {
+      "id": "draft.n4_02.lesson.o",
+      "planning_key": "N4-02-L05",
+      "type": "O",
+      "title": "询问站务人员",
+      "prerequisites": [
+        "N4-02-L04"
+      ],
+      "goals": [
+        {
+          "id": "draft.n4_02.lesson.o.goal",
+          "text": "询问站务人员"
+        }
+      ],
+      "word_refs": [
+        "draft.n4_02.word.1",
+        "draft.n4_02.word.2",
+        "draft.n4_02.word.3",
+        "draft.n4_02.word.4"
+      ],
+      "explanation_zh": "先说明目的地，再一次确认一个要点，如换乘站、站台或出口。",
+      "materials": [
+        {
+          "id": "draft.n4_02.lesson.o.teach",
+          "role": "teach",
+          "jp": "市役所に行きたいんですが、どの出口から出ればいいですか。",
+          "goal_refs": [
+            "draft.n4_02.lesson.o.goal"
+          ]
+        }
+      ],
+      "performance": {
+        "practice": {
+          "card_zh": "角色卡：第一次去市政府，想问出口和步行方向。",
+          "prompt_zh": "用日语向同伴询问两条路线信息。"
+        },
+        "check": {
+          "card_zh": "角色卡：去港站，原车停运，你要问在哪换乘和乘什么车。",
+          "prompt_zh": "口头询问后写一条简短路线备忘。"
+        },
+        "rubric_zh": "目的地明确；换乘位置与交通工具分开记录。"
+      }
+    },
+    {
+      "id": "draft.n4_02.lesson.t",
+      "planning_key": "N4-02-L06",
+      "type": "T",
+      "title": "遇到延误改路线",
+      "prerequisites": [
+        "N4-02-L05"
+      ],
+      "goals": [
+        {
+          "id": "draft.n4_02.lesson.t.goal",
+          "text": "遇到延误改路线"
+        }
+      ],
+      "word_refs": [
+        "draft.n4_02.word.1",
+        "draft.n4_02.word.2",
+        "draft.n4_02.word.3",
+        "draft.n4_02.word.4"
+      ],
+      "explanation_zh": "先复述变化，再选能到同一目的地的路线；有时间要求时补问到达时间。",
+      "materials": [
+        {
+          "id": "draft.n4_02.lesson.t.teach",
+          "role": "teach",
+          "jp": "それなら、中央駅でバスに乗り換えます。港駅には何時ごろ着きますか。",
+          "goal_refs": [
+            "draft.n4_02.lesson.t.goal"
+          ]
+        }
+      ],
+      "performance": {
+        "practice": {
+          "card_zh": "新条件：原路线延误，中央站可转巴士到同一目的地。",
+          "prompt_zh": "复述换乘地点并询问大致到达时间。"
+        },
+        "check": {
+          "card_zh": "新条件：东口关闭，接驳车改从北口发车。你同伴还在东口等。",
+          "prompt_zh": "给同伴留一条日语消息，说明变化、会合点和下一步。"
+        },
+        "rubric_zh": "新旧地点不混淆；说明接下来怎么去目的地。"
+      }
+    }
+  ],
+  "exam": {
+    "id": "draft.n4_02.exam.unit",
+    "materials": [
+      {
+        "id": "draft.n4_02.mat.examr",
+        "role": "exam_reading",
+        "jp": "お知らせ：工事のため、川町駅の北口は使えません。病院行きのバスは、南口の二番乗り場から出ます。駅前広場を出たら、右へお進みください。"
+      },
+      {
+        "id": "draft.n4_02.mat.examl",
+        "role": "exam_listening",
+        "jp": "客：この急行は川町に止まりますか。係員：いいえ。次の森駅で各駅停車に乗り換えてください。今日は四番線ではなく、五番線から出ます。"
+      }
+    ],
+    "reading": [
+      {
+        "id": "draft.n4_02.q.er1",
+        "material_ref": "draft.n4_02.mat.examr",
+        "goal_ref": "draft.n4_02.lesson.r.goal",
+        "word_refs": [
+          "draft.n4_02.word.1",
+          "draft.n4_02.word.2",
+          "draft.n4_02.word.3",
+          "draft.n4_02.word.4"
+        ],
+        "prompt": "川町站哪个出口暂时不能用？",
+        "choices": [
+          "北口",
+          "南口",
+          "西口"
+        ],
+        "answer": "北口",
+        "feedback": "「北口は使えません」说明北口关闭。"
+      },
+      {
+        "id": "draft.n4_02.q.er2",
+        "material_ref": "draft.n4_02.mat.examr",
+        "goal_ref": "draft.n4_02.lesson.r.goal",
+        "word_refs": [
+          "draft.n4_02.word.1",
+          "draft.n4_02.word.2",
+          "draft.n4_02.word.3",
+          "draft.n4_02.word.4"
+        ],
+        "prompt": "去医院的巴士在哪个乘车点发车？",
+        "choices": [
+          "北口二号乘车点",
+          "南口二号乘车点",
+          "南口一号乘车点"
+        ],
+        "answer": "南口二号乘车点",
+        "feedback": "「南口の二番乗り場」同时给出出口和编号。"
+      },
+      {
+        "id": "draft.n4_02.q.er3",
+        "material_ref": "draft.n4_02.mat.examr",
+        "goal_ref": "draft.n4_02.lesson.r.goal",
+        "word_refs": [
+          "draft.n4_02.word.1",
+          "draft.n4_02.word.2",
+          "draft.n4_02.word.3",
+          "draft.n4_02.word.4"
+        ],
+        "prompt": "出站前广场后该怎么走？",
+        "choices": [
+          "往左",
+          "退回车站",
+          "往右"
+        ],
+        "answer": "往右",
+        "feedback": "「広場を出たら、右へ」给出方向。"
+      }
+    ],
+    "listening": [
+      {
+        "id": "draft.n4_02.q.el1",
+        "material_ref": "draft.n4_02.mat.examl",
+        "goal_ref": "draft.n4_02.lesson.l.goal",
+        "word_refs": [
+          "draft.n4_02.word.1",
+          "draft.n4_02.word.2",
+          "draft.n4_02.word.3",
+          "draft.n4_02.word.4"
+        ],
+        "prompt": "乘客想去哪里？",
+        "choices": [
+          "川町",
+          "森站",
+          "港站"
+        ],
+        "answer": "川町",
+        "feedback": "提问确认急行是否停靠川町。"
+      },
+      {
+        "id": "draft.n4_02.q.el2",
+        "material_ref": "draft.n4_02.mat.examl",
+        "goal_ref": "draft.n4_02.lesson.l.goal",
+        "word_refs": [
+          "draft.n4_02.word.1",
+          "draft.n4_02.word.2",
+          "draft.n4_02.word.3",
+          "draft.n4_02.word.4"
+        ],
+        "prompt": "要在哪里换乘？",
+        "choices": [
+          "始发站",
+          "森站",
+          "川町站"
+        ],
+        "answer": "森站",
+        "feedback": "「次の森駅で」给出换乘地点。"
+      },
+      {
+        "id": "draft.n4_02.q.el3",
+        "material_ref": "draft.n4_02.mat.examl",
+        "goal_ref": "draft.n4_02.lesson.l.goal",
+        "word_refs": [
+          "draft.n4_02.word.1",
+          "draft.n4_02.word.2",
+          "draft.n4_02.word.3",
+          "draft.n4_02.word.4"
+        ],
+        "prompt": "今天换乘的车从几号站台出发？",
+        "choices": [
+          "四号",
+          "二号",
+          "五号"
+        ],
+        "answer": "五号",
+        "feedback": "「四番線ではなく、五番線」排除四号站台。"
+      }
+    ],
+    "output": {
+      "id": "draft.n4_02.q.eo1",
+      "card_zh": "你要去体育馆，原本约同伴在车站西口见面。西口施工，去体育馆的接驳车改从东口出发。",
+      "prompt_zh": "口头确认接驳车的上车点，再给同伴写一条改约消息。",
+      "rubric_zh": "目的地和新会合点清楚；说明出口变化；交代下一步。",
+      "scoring": "human_only"
+    }
+  }
+}

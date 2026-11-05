@@ -1,0 +1,481 @@
+{
+  "schema": "draft.n5_12.course.v1",
+  "unit": "N5-12",
+  "theme": "身体与健康",
+  "status": {
+    "publication": "draft",
+    "language_review": "pending",
+    "rights_review": "pending",
+    "audio": "not_produced",
+    "listening_score": "blocked",
+    "speaking_writing": "human_only"
+  },
+  "words": [
+    {
+      "id": "draft.n5_12.word.1",
+      "forms": "頭（あたま）",
+      "meaning_zh": "头",
+      "source": "AI_original_draft"
+    },
+    {
+      "id": "draft.n5_12.word.2",
+      "forms": "手（て）／足（あし）",
+      "meaning_zh": "手／脚或腿",
+      "source": "AI_original_draft"
+    },
+    {
+      "id": "draft.n5_12.word.3",
+      "forms": "おなか",
+      "meaning_zh": "肚子",
+      "source": "AI_original_draft"
+    },
+    {
+      "id": "draft.n5_12.word.4",
+      "forms": "痛い（いたい）",
+      "meaning_zh": "疼",
+      "source": "AI_original_draft"
+    },
+    {
+      "id": "draft.n5_12.word.5",
+      "forms": "休む（やすむ）",
+      "meaning_zh": "休息",
+      "source": "AI_original_draft"
+    },
+    {
+      "id": "draft.n5_12.word.6",
+      "forms": "受付（うけつけ）",
+      "meaning_zh": "前台／接待处",
+      "source": "AI_original_draft"
+    }
+  ],
+  "lessons": [
+    {
+      "id": "draft.n5_12.lesson.v",
+      "planning_key": "N5-12-L01",
+      "type": "V",
+      "title": "认出部位和不舒服的说法",
+      "prerequisites": [
+        "N5-11"
+      ],
+      "goals": [
+        {
+          "id": "draft.n5_12.lesson.v.goal",
+          "text": "认出部位和不舒服的说法"
+        }
+      ],
+      "word_refs": [
+        "draft.n5_12.word.1",
+        "draft.n5_12.word.2",
+        "draft.n5_12.word.3",
+        "draft.n5_12.word.4",
+        "draft.n5_12.word.5",
+        "draft.n5_12.word.6"
+      ],
+      "explanation_zh": "先找身体部位，再看有没有「痛い」。",
+      "materials": [
+        {
+          "id": "draft.n5_12.lesson.v.teach",
+          "role": "teach",
+          "jp": "頭が痛いです。",
+          "goal_refs": [
+            "draft.n5_12.lesson.v.goal"
+          ]
+        },
+        {
+          "id": "draft.n5_12.lesson.v.practice",
+          "role": "practice",
+          "jp": "手が痛いです。",
+          "goal_refs": [
+            "draft.n5_12.lesson.v.goal"
+          ]
+        },
+        {
+          "id": "draft.n5_12.lesson.v.check",
+          "role": "check",
+          "jp": "おなかが痛いです。",
+          "goal_refs": [
+            "draft.n5_12.lesson.v.goal"
+          ]
+        }
+      ],
+      "practice": [
+        {
+          "id": "draft.n5_12.lesson.v.practice.q1",
+          "material_ref": "draft.n5_12.lesson.v.practice",
+          "goal_ref": "draft.n5_12.lesson.v.goal",
+          "word_refs": [
+            "draft.n5_12.word.1",
+            "draft.n5_12.word.2",
+            "draft.n5_12.word.3",
+            "draft.n5_12.word.4",
+            "draft.n5_12.word.5",
+            "draft.n5_12.word.6"
+          ],
+          "prompt": "哪里疼？",
+          "choices": [
+            "头",
+            "手",
+            "肚子"
+          ],
+          "answer": "手",
+          "feedback": "「手」读作「て」。"
+        }
+      ],
+      "check": [
+        {
+          "id": "draft.n5_12.lesson.v.check.q1",
+          "material_ref": "draft.n5_12.lesson.v.check",
+          "goal_ref": "draft.n5_12.lesson.v.goal",
+          "word_refs": [
+            "draft.n5_12.word.1",
+            "draft.n5_12.word.2",
+            "draft.n5_12.word.3",
+            "draft.n5_12.word.4",
+            "draft.n5_12.word.5",
+            "draft.n5_12.word.6"
+          ],
+          "prompt": "哪里疼？",
+          "choices": [
+            "脚",
+            "头",
+            "肚子"
+          ],
+          "answer": "肚子",
+          "feedback": "「おなか」是肚子。"
+        }
+      ]
+    },
+    {
+      "id": "draft.n5_12.lesson.g",
+      "planning_key": "N5-12-L02",
+      "type": "G",
+      "title": "说明原因并提出简单请求",
+      "prerequisites": [
+        "N5-12-L01"
+      ],
+      "goals": [
+        {
+          "id": "draft.n5_12.lesson.g.goal",
+          "text": "说明原因并提出简单请求"
+        }
+      ],
+      "word_refs": [
+        "draft.n5_12.word.1",
+        "draft.n5_12.word.2",
+        "draft.n5_12.word.3",
+        "draft.n5_12.word.4",
+        "draft.n5_12.word.5",
+        "draft.n5_12.word.6"
+      ],
+      "explanation_zh": "用「Xが痛いです」说哪里疼。「から」可以说明原因，「水をください」可以开口要水。",
+      "common_mistake_zh": "「足が痛いですから、休みます」先说原因，再说要做什么。要水时用「水をください」，水后面用「を」。",
+      "materials": [
+        {
+          "id": "draft.n5_12.lesson.g.teach",
+          "role": "teach",
+          "jp": "頭が痛いですから、少し休みます。すみません、水をください。",
+          "goal_refs": [
+            "draft.n5_12.lesson.g.goal"
+          ]
+        },
+        {
+          "id": "draft.n5_12.lesson.g.practice",
+          "role": "practice",
+          "jp": "足が痛いですから、ここで休みます。",
+          "goal_refs": [
+            "draft.n5_12.lesson.g.goal"
+          ]
+        },
+        {
+          "id": "draft.n5_12.lesson.g.check",
+          "role": "check",
+          "jp": "すみません。水を〔　〕。",
+          "goal_refs": [
+            "draft.n5_12.lesson.g.goal"
+          ]
+        }
+      ],
+      "practice": [
+        {
+          "id": "draft.n5_12.lesson.g.practice.q1",
+          "material_ref": "draft.n5_12.lesson.g.practice",
+          "goal_ref": "draft.n5_12.lesson.g.goal",
+          "word_refs": [
+            "draft.n5_12.word.1",
+            "draft.n5_12.word.2",
+            "draft.n5_12.word.3",
+            "draft.n5_12.word.4",
+            "draft.n5_12.word.5",
+            "draft.n5_12.word.6"
+          ],
+          "prompt": "为什么要休息？",
+          "choices": [
+            "脚疼",
+            "手疼",
+            "头疼"
+          ],
+          "answer": "脚疼",
+          "feedback": "「から」前面的「足が痛いです」是原因。"
+        }
+      ],
+      "check": [
+        {
+          "id": "draft.n5_12.lesson.g.check.q1",
+          "material_ref": "draft.n5_12.lesson.g.check",
+          "goal_ref": "draft.n5_12.lesson.g.goal",
+          "word_refs": [
+            "draft.n5_12.word.1",
+            "draft.n5_12.word.2",
+            "draft.n5_12.word.3",
+            "draft.n5_12.word.4",
+            "draft.n5_12.word.5",
+            "draft.n5_12.word.6"
+          ],
+          "prompt": "想请别人给水，该填什么？",
+          "choices": [
+            "休みます",
+            "痛いです",
+            "ください"
+          ],
+          "answer": "ください",
+          "feedback": "「水をください」是请给我水。"
+        }
+      ]
+    },
+    {
+      "id": "draft.n5_12.lesson.r",
+      "planning_key": "N5-12-L03",
+      "type": "R",
+      "title": "读诊所的简短标识",
+      "prerequisites": [
+        "N5-12-L02"
+      ],
+      "goals": [
+        {
+          "id": "draft.n5_12.lesson.r.goal",
+          "text": "读诊所的简短标识"
+        }
+      ],
+      "word_refs": [
+        "draft.n5_12.word.1",
+        "draft.n5_12.word.2",
+        "draft.n5_12.word.3",
+        "draft.n5_12.word.4",
+        "draft.n5_12.word.5",
+        "draft.n5_12.word.6"
+      ],
+      "explanation_zh": "「入口」指进门处，「受付」指接待处。「〜まで」标出营业或接待时间的终点。",
+      "materials": [
+        {
+          "id": "draft.n5_12.lesson.r.teach",
+          "role": "teach",
+          "jp": "入口は右です。受付は午後五時までです。",
+          "goal_refs": [
+            "draft.n5_12.lesson.r.goal"
+          ]
+        },
+        {
+          "id": "draft.n5_12.lesson.r.practice",
+          "role": "practice",
+          "jp": "受付は二階です。入口は一階です。",
+          "goal_refs": [
+            "draft.n5_12.lesson.r.goal"
+          ]
+        },
+        {
+          "id": "draft.n5_12.lesson.r.check",
+          "role": "check",
+          "jp": "受付：午前九時から午後四時まで。待合室：受付のとなり。",
+          "goal_refs": [
+            "draft.n5_12.lesson.r.goal"
+          ]
+        }
+      ],
+      "practice": [
+        {
+          "id": "draft.n5_12.lesson.r.practice.q1",
+          "material_ref": "draft.n5_12.lesson.r.practice",
+          "goal_ref": "draft.n5_12.lesson.r.goal",
+          "word_refs": [
+            "draft.n5_12.word.1",
+            "draft.n5_12.word.2",
+            "draft.n5_12.word.3",
+            "draft.n5_12.word.4",
+            "draft.n5_12.word.5",
+            "draft.n5_12.word.6"
+          ],
+          "prompt": "前台在哪一层？",
+          "choices": [
+            "一楼",
+            "二楼",
+            "三楼"
+          ],
+          "answer": "二楼",
+          "feedback": "「受付は二階です」说明前台在二楼。"
+        }
+      ],
+      "check": [
+        {
+          "id": "draft.n5_12.lesson.r.check.q1",
+          "material_ref": "draft.n5_12.lesson.r.check",
+          "goal_ref": "draft.n5_12.lesson.r.goal",
+          "word_refs": [
+            "draft.n5_12.word.1",
+            "draft.n5_12.word.2",
+            "draft.n5_12.word.3",
+            "draft.n5_12.word.4",
+            "draft.n5_12.word.5",
+            "draft.n5_12.word.6"
+          ],
+          "prompt": "前台接待到几点？",
+          "choices": [
+            "上午九点",
+            "下午四点",
+            "下午五点"
+          ],
+          "answer": "下午四点",
+          "feedback": "「午後四時まで」指到下午四点为止。"
+        }
+      ]
+    },
+    {
+      "id": "draft.n5_12.lesson.l",
+      "planning_key": "N5-12-L04",
+      "type": "L",
+      "title": "听清哪里不舒服",
+      "prerequisites": [
+        "N5-12-L03"
+      ],
+      "goals": [
+        {
+          "id": "draft.n5_12.lesson.l.goal",
+          "text": "听清哪里不舒服"
+        }
+      ],
+      "word_refs": [
+        "draft.n5_12.word.1",
+        "draft.n5_12.word.2",
+        "draft.n5_12.word.3",
+        "draft.n5_12.word.4",
+        "draft.n5_12.word.5",
+        "draft.n5_12.word.6"
+      ],
+      "explanation_zh": "听清部位，再听对方提出什么请求。可用设备朗读示例并对照读稿。",
+      "materials": [
+        {
+          "id": "draft.n5_12.lesson.l.teach",
+          "role": "teach",
+          "jp": "A：どうしましたか。B：頭が痛いです。少し休んでもいいですか。",
+          "goal_refs": [
+            "draft.n5_12.lesson.l.goal"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "draft.n5_12.lesson.o",
+      "planning_key": "N5-12-L05",
+      "type": "O",
+      "title": "说清症状并提出请求",
+      "prerequisites": [
+        "N5-12-L04"
+      ],
+      "goals": [
+        {
+          "id": "draft.n5_12.lesson.o.goal",
+          "text": "说清症状并提出请求"
+        }
+      ],
+      "word_refs": [
+        "draft.n5_12.word.1",
+        "draft.n5_12.word.2",
+        "draft.n5_12.word.3",
+        "draft.n5_12.word.4",
+        "draft.n5_12.word.5",
+        "draft.n5_12.word.6"
+      ],
+      "explanation_zh": "先说一遍，再写下要传达的内容，最后按自查要点核对。",
+      "materials": [],
+      "performance": {
+        "practice": {
+          "card_zh": "头疼，想请同伴给你水。",
+          "prompt_zh": "用日语说出症状，再开口要水。"
+        },
+        "check": {
+          "card_zh": "脚疼，想问能不能在这里休息。",
+          "prompt_zh": "写两句日语给工作人员，再读出来。"
+        },
+        "rubric_zh": "身体部位准确；说明疼痛；请求和情景一致。",
+        "scoring": "human_only"
+      }
+    }
+  ],
+  "exam": {
+    "id": "draft.n5_12.exam",
+    "materials": [
+      {
+        "id": "draft.n5_12.exam.reading",
+        "role": "exam_reading",
+        "jp": "入口は一階です。受付は二階です。受付は午後六時までです。"
+      },
+      {
+        "id": "draft.n5_12.exam.listening",
+        "role": "exam_listening",
+        "jp": "A：どうしましたか。B：おなかが痛いです。すみません、水をください。"
+      }
+    ],
+    "reading": [
+      {
+        "id": "draft.n5_12.exam.reading.q1",
+        "material_ref": "draft.n5_12.exam.reading",
+        "goal_ref": "draft.n5_12.lesson.r.goal",
+        "word_refs": [
+          "draft.n5_12.word.1",
+          "draft.n5_12.word.2",
+          "draft.n5_12.word.3",
+          "draft.n5_12.word.4",
+          "draft.n5_12.word.5",
+          "draft.n5_12.word.6"
+        ],
+        "prompt": "前台几点结束接待？",
+        "choices": [
+          "下午四点",
+          "下午五点",
+          "下午六点"
+        ],
+        "answer": "下午六点",
+        "feedback": "「午後六時まで」就是到下午六点。"
+      }
+    ],
+    "listening": [
+      {
+        "id": "draft.n5_12.exam.listening.q1",
+        "material_ref": "draft.n5_12.exam.listening",
+        "goal_ref": "draft.n5_12.lesson.l.goal",
+        "word_refs": [
+          "draft.n5_12.word.1",
+          "draft.n5_12.word.2",
+          "draft.n5_12.word.3",
+          "draft.n5_12.word.4",
+          "draft.n5_12.word.5",
+          "draft.n5_12.word.6"
+        ],
+        "prompt": "B 哪里疼？",
+        "choices": [
+          "肚子",
+          "头",
+          "脚"
+        ],
+        "answer": "肚子",
+        "feedback": "「おなかが痛いです」说的是肚子疼。"
+      }
+    ],
+    "output": {
+      "card_zh": "手疼，想请对方给你水。",
+      "prompt_zh": "先用日语口头说出症状和请求，再写下来。",
+      "rubric_zh": "能明确说手疼，并礼貌地请求给水。",
+      "id": "draft.n5_12.exam.output",
+      "scoring": "human_only"
+    }
+  }
+}

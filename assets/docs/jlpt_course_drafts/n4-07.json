@@ -1,0 +1,567 @@
+{
+  "schema": "draft.n4_07.course.v1",
+  "unit": "N4-07",
+  "theme": "买东西",
+  "status": {
+    "publication": "draft",
+    "language_review": "pending",
+    "teaching_review": "pending",
+    "rights_review": "pending",
+    "audio": "not_produced",
+    "audio_review": "pending",
+    "listening_score": "blocked",
+    "speaking_writing": "human_only",
+    "runtime_verification": "not_run",
+    "app_integration": "not_integrated"
+  },
+  "words": [
+    {
+      "id": "draft.n4_07.word.1",
+      "forms": "返品（へんぴん）",
+      "meaning_zh": "退货",
+      "source": "AI_original_draft"
+    },
+    {
+      "id": "draft.n4_07.word.2",
+      "forms": "交換（こうかん）",
+      "meaning_zh": "换货",
+      "source": "AI_original_draft"
+    },
+    {
+      "id": "draft.n4_07.word.3",
+      "forms": "試着（しちゃく）",
+      "meaning_zh": "试穿",
+      "source": "AI_original_draft"
+    },
+    {
+      "id": "draft.n4_07.word.4",
+      "forms": "在庫（ざいこ）",
+      "meaning_zh": "库存",
+      "source": "AI_original_draft"
+    }
+  ],
+  "lessons": [
+    {
+      "id": "draft.n4_07.lesson.v",
+      "planning_key": "N4-07-L01",
+      "type": "V",
+      "title": "买东西的关键词",
+      "prerequisites": [],
+      "goals": [
+        {
+          "id": "draft.n4_07.lesson.v.goal",
+          "text": "买东西的关键词"
+        }
+      ],
+      "word_refs": [
+        "draft.n4_07.word.1",
+        "draft.n4_07.word.2",
+        "draft.n4_07.word.3",
+        "draft.n4_07.word.4"
+      ],
+      "explanation_zh": "「試着」的「試」是试一试，「着」是穿衣。在「試着」里读「ちゃく」，在「着る」里读「き」。",
+      "materials": [
+        {
+          "id": "draft.n4_07.lesson.v.mat.practice1",
+          "role": "practice1",
+          "jp": "返品"
+        },
+        {
+          "id": "draft.n4_07.lesson.v.mat.practice3",
+          "role": "practice3",
+          "jp": "試着"
+        },
+        {
+          "id": "draft.n4_07.lesson.v.mat.check2",
+          "role": "check2",
+          "jp": "交換"
+        },
+        {
+          "id": "draft.n4_07.lesson.v.mat.check4",
+          "role": "check4",
+          "jp": "在庫"
+        },
+        {
+          "id": "draft.n4_07.lesson.v.kanji-reading",
+          "role": "practice",
+          "jp": "試着",
+          "goal_refs": [
+            "draft.n4_07.lesson.v.goal"
+          ]
+        }
+      ],
+      "practice": [
+        {
+          "id": "draft.n4_07.lesson.v.mat.practice1.q1",
+          "material_ref": "draft.n4_07.lesson.v.mat.practice1",
+          "goal_ref": "draft.n4_07.lesson.v.goal",
+          "word_refs": [
+            "draft.n4_07.word.1",
+            "draft.n4_07.word.2",
+            "draft.n4_07.word.3",
+            "draft.n4_07.word.4"
+          ],
+          "prompt": "这个词的意思是什么？",
+          "choices": [
+            "换货",
+            "试穿",
+            "退货"
+          ],
+          "answer": "退货",
+          "feedback": "返品（へんぴん），意思是「退货」。"
+        },
+        {
+          "id": "draft.n4_07.lesson.v.mat.practice3.q1",
+          "material_ref": "draft.n4_07.lesson.v.mat.practice3",
+          "goal_ref": "draft.n4_07.lesson.v.goal",
+          "word_refs": [
+            "draft.n4_07.word.1",
+            "draft.n4_07.word.2",
+            "draft.n4_07.word.3",
+            "draft.n4_07.word.4"
+          ],
+          "prompt": "这个词的意思是什么？",
+          "choices": [
+            "试穿",
+            "库存",
+            "退货"
+          ],
+          "answer": "试穿",
+          "feedback": "試着（しちゃく），意思是「试穿」。"
+        },
+        {
+          "id": "draft.n4_07.lesson.v.kanji-reading.q1",
+          "material_ref": "draft.n4_07.lesson.v.kanji-reading",
+          "goal_ref": "draft.n4_07.lesson.v.goal",
+          "word_refs": [
+            "draft.n4_07.word.3"
+          ],
+          "prompt": "这个词怎么读？",
+          "choices": [
+            "しちゃく",
+            "しじゃく",
+            "しき"
+          ],
+          "answer": "しちゃく",
+          "feedback": "「試着」的「試」是试一试，「着」是穿衣。在「試着」里读「ちゃく」，在「着る」里读「き」。"
+        }
+      ],
+      "check": [
+        {
+          "id": "draft.n4_07.lesson.v.mat.check2.q1",
+          "material_ref": "draft.n4_07.lesson.v.mat.check2",
+          "goal_ref": "draft.n4_07.lesson.v.goal",
+          "word_refs": [
+            "draft.n4_07.word.1",
+            "draft.n4_07.word.2",
+            "draft.n4_07.word.3",
+            "draft.n4_07.word.4"
+          ],
+          "prompt": "这个词的意思是什么？",
+          "choices": [
+            "库存",
+            "换货",
+            "试穿"
+          ],
+          "answer": "换货",
+          "feedback": "交換（こうかん），意思是「换货」。"
+        },
+        {
+          "id": "draft.n4_07.lesson.v.mat.check4.q1",
+          "material_ref": "draft.n4_07.lesson.v.mat.check4",
+          "goal_ref": "draft.n4_07.lesson.v.goal",
+          "word_refs": [
+            "draft.n4_07.word.1",
+            "draft.n4_07.word.2",
+            "draft.n4_07.word.3",
+            "draft.n4_07.word.4"
+          ],
+          "prompt": "这个词的意思是什么？",
+          "choices": [
+            "退货",
+            "换货",
+            "库存"
+          ],
+          "answer": "库存",
+          "feedback": "在庫（ざいこ），意思是「库存」。"
+        }
+      ]
+    },
+    {
+      "id": "draft.n4_07.lesson.g",
+      "planning_key": "N4-07-L02",
+      "type": "G",
+      "title": "〜より・〜のほうが",
+      "prerequisites": [
+        "N4-07-L01"
+      ],
+      "goals": [
+        {
+          "id": "draft.n4_07.lesson.g.goal",
+          "text": "〜より・〜のほうが"
+        }
+      ],
+      "word_refs": [
+        "draft.n4_07.word.1",
+        "draft.n4_07.word.2",
+        "draft.n4_07.word.3",
+        "draft.n4_07.word.4"
+      ],
+      "explanation_zh": "「AよりBのほうが〜」比较 A 和 B，描述的是 B 的特点。询问两者时可用「どちらのほうが」。",
+      "materials": [
+        {
+          "id": "draft.n4_07.lesson.g.mat.teach",
+          "role": "teach",
+          "jp": "この靴より、あの靴のほうが軽いです。"
+        },
+        {
+          "id": "draft.n4_07.lesson.g.mat.practice",
+          "role": "practice",
+          "jp": "黒いかばんより、青いかばんのほうが安いです。"
+        },
+        {
+          "id": "draft.n4_07.lesson.g.mat.check",
+          "role": "check",
+          "jp": "この傘より、あの傘の＿が丈夫です。"
+        }
+      ],
+      "practice": [
+        {
+          "id": "draft.n4_07.lesson.g.mat.practice.q1",
+          "material_ref": "draft.n4_07.lesson.g.mat.practice",
+          "goal_ref": "draft.n4_07.lesson.g.goal",
+          "word_refs": [
+            "draft.n4_07.word.1",
+            "draft.n4_07.word.2",
+            "draft.n4_07.word.3",
+            "draft.n4_07.word.4"
+          ],
+          "prompt": "哪个包更便宜？",
+          "choices": [
+            "蓝色包",
+            "黑色包",
+            "一样便宜"
+          ],
+          "answer": "蓝色包",
+          "feedback": "正确答案是「蓝色包」。原句：黒いかばんより、青いかばんのほうが安いです。"
+        }
+      ],
+      "check": [
+        {
+          "id": "draft.n4_07.lesson.g.mat.check.q1",
+          "material_ref": "draft.n4_07.lesson.g.mat.check",
+          "goal_ref": "draft.n4_07.lesson.g.goal",
+          "word_refs": [
+            "draft.n4_07.word.1",
+            "draft.n4_07.word.2",
+            "draft.n4_07.word.3",
+            "draft.n4_07.word.4"
+          ],
+          "prompt": "选出比较时用的表达。",
+          "choices": [
+            "こと",
+            "まえ",
+            "ほう"
+          ],
+          "answer": "ほう",
+          "feedback": "正确答案是「ほう」。原文：この傘より、あの傘の＿が丈夫です。"
+        }
+      ],
+      "common_mistake_zh": "「AよりBのほうが安い」说便宜的是 B。「より」前面是拿来作比较的 A。"
+    },
+    {
+      "id": "draft.n4_07.lesson.r",
+      "planning_key": "N4-07-L03",
+      "type": "R",
+      "title": "看清退换条件",
+      "prerequisites": [
+        "N4-07-L02"
+      ],
+      "goals": [
+        {
+          "id": "draft.n4_07.lesson.r.goal",
+          "text": "看清退换条件"
+        }
+      ],
+      "word_refs": [
+        "draft.n4_07.word.1",
+        "draft.n4_07.word.2",
+        "draft.n4_07.word.3",
+        "draft.n4_07.word.4"
+      ],
+      "explanation_zh": "「入荷後」说明通知发生在到货之后。「受け取りの際」引出取货时要做的事。",
+      "materials": [
+        {
+          "id": "draft.n4_07.lesson.r.mat.teach",
+          "role": "teach",
+          "jp": "お取り寄せの商品は、入荷後にお知らせします。受け取りの際は注文番号をお伝えください。"
+        },
+        {
+          "id": "draft.n4_07.lesson.r.mat.practice",
+          "role": "practice",
+          "jp": "未使用の商品は、一週間以内なら交換できます。レシートをお持ちください。"
+        },
+        {
+          "id": "draft.n4_07.lesson.r.mat.check",
+          "role": "check",
+          "jp": "商品に傷がある場合は、ご購入から三日以内に店へご連絡ください。"
+        }
+      ],
+      "practice": [
+        {
+          "id": "draft.n4_07.lesson.r.mat.practice.q1",
+          "material_ref": "draft.n4_07.lesson.r.mat.practice",
+          "goal_ref": "draft.n4_07.lesson.r.goal",
+          "word_refs": [
+            "draft.n4_07.word.1",
+            "draft.n4_07.word.2",
+            "draft.n4_07.word.3",
+            "draft.n4_07.word.4"
+          ],
+          "prompt": "换货要带什么？",
+          "choices": [
+            "会员卡",
+            "购物袋",
+            "收据"
+          ],
+          "answer": "收据",
+          "feedback": "正确答案是「收据」。原句：未使用の商品は、一週間以内なら交換できます。レシートをお持ちください。"
+        }
+      ],
+      "check": [
+        {
+          "id": "draft.n4_07.lesson.r.mat.check.q1",
+          "material_ref": "draft.n4_07.lesson.r.mat.check",
+          "goal_ref": "draft.n4_07.lesson.r.goal",
+          "word_refs": [
+            "draft.n4_07.word.1",
+            "draft.n4_07.word.2",
+            "draft.n4_07.word.3",
+            "draft.n4_07.word.4"
+          ],
+          "prompt": "发现有划痕最晚何时联系？",
+          "choices": [
+            "随时",
+            "购买后三天内",
+            "购买后一周"
+          ],
+          "answer": "购买后三天内",
+          "feedback": "正确答案是「购买后三天内」。原文：商品に傷がある場合は、ご購入から三日以内に店へご連絡ください。"
+        }
+      ]
+    },
+    {
+      "id": "draft.n4_07.lesson.l",
+      "planning_key": "N4-07-L04",
+      "type": "L",
+      "title": "听店员说明库存",
+      "prerequisites": [
+        "N4-07-L03"
+      ],
+      "goals": [
+        {
+          "id": "draft.n4_07.lesson.l.goal",
+          "text": "听店员说明库存"
+        }
+      ],
+      "word_refs": [
+        "draft.n4_07.word.1",
+        "draft.n4_07.word.2",
+        "draft.n4_07.word.3",
+        "draft.n4_07.word.4"
+      ],
+      "explanation_zh": "区分店里现货和可以调货的商品。 分别记现货和到货时间。黑色现在有货，白色下周到。",
+      "materials": [
+        {
+          "id": "draft.n4_07.lesson.l.mat.teach",
+          "role": "teach",
+          "jp": "客：白はありますか。店員：今は黒だけです。白は来週入荷します。"
+        },
+        {
+          "id": "draft.n4_07.lesson.l.mat.practice",
+          "role": "practice",
+          "jp": "客：この色の小さいサイズはありますか。店員：今日はありません。明日の午後なら店で受け取れます。"
+        },
+        {
+          "id": "draft.n4_07.lesson.l.mat.check",
+          "role": "check",
+          "jp": "客：この靴を返品できますか。店員：使用済みのものは返品できません。"
+        }
+      ],
+      "practice": [
+        {
+          "id": "draft.n4_07.lesson.l.mat.practice.q1",
+          "material_ref": "draft.n4_07.lesson.l.mat.practice",
+          "goal_ref": "draft.n4_07.lesson.l.goal",
+          "word_refs": [
+            "draft.n4_07.word.1",
+            "draft.n4_07.word.2",
+            "draft.n4_07.word.3",
+            "draft.n4_07.word.4"
+          ],
+          "prompt": "何时可到店取货？",
+          "choices": [
+            "明天上午",
+            "明天下午",
+            "今天下午"
+          ],
+          "answer": "明天下午",
+          "feedback": "正确答案是「明天下午」。原句：客：この色の小さいサイズはありますか。店員：今日はありません。明日の午後なら店で受け取れます。"
+        }
+      ],
+      "check": [
+        {
+          "id": "draft.n4_07.lesson.l.mat.check.q1",
+          "material_ref": "draft.n4_07.lesson.l.mat.check",
+          "goal_ref": "draft.n4_07.lesson.l.goal",
+          "word_refs": [
+            "draft.n4_07.word.1",
+            "draft.n4_07.word.2",
+            "draft.n4_07.word.3",
+            "draft.n4_07.word.4"
+          ],
+          "prompt": "什么样的鞋无法退货？",
+          "choices": [
+            "已经使用过的",
+            "没打开包装的",
+            "没试穿的"
+          ],
+          "answer": "已经使用过的",
+          "feedback": "正确答案是「已经使用过的」。原文：客：この靴を返品できますか。店員：使用済みのものは返品できません。"
+        }
+      ]
+    },
+    {
+      "id": "draft.n4_07.lesson.o",
+      "planning_key": "N4-07-L05",
+      "type": "O",
+      "title": "比较并提出换货",
+      "prerequisites": [
+        "N4-07-L04"
+      ],
+      "goals": [
+        {
+          "id": "draft.n4_07.lesson.o.goal",
+          "text": "比较并提出换货"
+        }
+      ],
+      "word_refs": [
+        "draft.n4_07.word.1",
+        "draft.n4_07.word.2",
+        "draft.n4_07.word.3",
+        "draft.n4_07.word.4"
+      ],
+      "explanation_zh": "先用日语口头说明，再把关键内容写成一条短消息。完成后按下面的要点核对。",
+      "materials": [],
+      "performance": {
+        "practice": {
+          "card_zh": "新买的外套没穿过，尺码偏大。你有收据，想换小一码。向店员说明情况。",
+          "prompt_zh": "先说一遍，再写下要传达的内容。"
+        },
+        "rubric_zh": "说明退换原因和希望换成什么；说明可出示收据；请求清楚且礼貌。",
+        "check": {
+          "card_zh": "收到的包有一道划痕，你有收据，想换一个同款。店员还没确认有没有库存。",
+          "prompt_zh": "用日语说明哪里有问题，表示可以出示收据，并问能否换成同款。"
+        }
+      }
+    },
+    {
+      "id": "draft.n4_07.lesson.t",
+      "planning_key": "N4-07-L06",
+      "type": "T",
+      "title": "没有合适尺码时选择",
+      "prerequisites": [
+        "N4-07-L05"
+      ],
+      "goals": [
+        {
+          "id": "draft.n4_07.lesson.t.goal",
+          "text": "没有合适尺码时选择"
+        }
+      ],
+      "word_refs": [
+        "draft.n4_07.word.1",
+        "draft.n4_07.word.2",
+        "draft.n4_07.word.3",
+        "draft.n4_07.word.4"
+      ],
+      "explanation_zh": "先用日语口头说明，再把关键内容写成一条短消息。完成后按下面的要点核对。",
+      "materials": [],
+      "performance": {
+        "practice": {
+          "card_zh": "店员说小一码只有另一种颜色，原色需等三天。说明偏好，并确认取货时间或改选。",
+          "prompt_zh": "先说一遍，再写下要传达的内容。"
+        },
+        "rubric_zh": "比较两个选项，给出决定和理由。",
+        "check": {
+          "card_zh": "同款已经售完，店员提供修理或退款。先问修理要等多久，再说明你的选择。",
+          "prompt_zh": "用日语作答，再按自查要点核对。"
+        }
+      }
+    }
+  ],
+  "exam": {
+    "id": "draft.n4_07.exam.unit",
+    "materials": [
+      {
+        "id": "draft.n4_07.exam.unit.mat.exam_reading",
+        "role": "exam_reading",
+        "jp": "セール品は返品できません。サイズ交換は、同じ商品に在庫がある場合に限ります。"
+      },
+      {
+        "id": "draft.n4_07.exam.unit.mat.exam_listening",
+        "role": "exam_listening",
+        "jp": "客：試着してもいいですか。店員：はい。試着室は奥ですが、今は一人お待ちです。"
+      }
+    ],
+    "reading": [
+      {
+        "id": "draft.n4_07.exam.unit.mat.exam_reading.q1",
+        "material_ref": "draft.n4_07.exam.unit.mat.exam_reading",
+        "goal_ref": "draft.n4_07.lesson.r.goal",
+        "word_refs": [
+          "draft.n4_07.word.1",
+          "draft.n4_07.word.2",
+          "draft.n4_07.word.3",
+          "draft.n4_07.word.4"
+        ],
+        "prompt": "特价品满足什么条件可换尺码？",
+        "choices": [
+          "同款有库存",
+          "拆掉吊牌",
+          "两周后再来"
+        ],
+        "answer": "同款有库存",
+        "feedback": "正确答案是「同款有库存」。原文：セール品は返品できません。サイズ交換は、同じ商品に在庫がある場合に限ります。"
+      }
+    ],
+    "listening": [
+      {
+        "id": "draft.n4_07.exam.unit.mat.exam_listening.q1",
+        "material_ref": "draft.n4_07.exam.unit.mat.exam_listening",
+        "goal_ref": "draft.n4_07.lesson.l.goal",
+        "word_refs": [
+          "draft.n4_07.word.1",
+          "draft.n4_07.word.2",
+          "draft.n4_07.word.3",
+          "draft.n4_07.word.4"
+        ],
+        "prompt": "目前试衣室什么情况？",
+        "choices": [
+          "暂停使用",
+          "可以立刻进去",
+          "有一人正在等"
+        ],
+        "answer": "有一人正在等",
+        "feedback": "正确答案是「有一人正在等」。原文：客：試着してもいいですか。店員：はい。試着室は奥ですが、今は一人お待ちです。"
+      }
+    ],
+    "output": {
+      "id": "draft.n4_07.q.eo1",
+      "card_zh": "你在看两件外套。蓝色款轻但贵，黑色款便宜。店员说蓝色款没穿过且带收据可换尺码，黑色款是特价品，不能退换。",
+      "prompt_zh": "用日语问店员一项差异并确认所选商品的退换条件。再给朋友写一句说明你选了哪件，为什么。",
+      "rubric_zh": "比较的是同一项特征；写清选择及理由；退换条件与所选外套一致。",
+      "scoring": "human_only"
+    }
+  }
+}

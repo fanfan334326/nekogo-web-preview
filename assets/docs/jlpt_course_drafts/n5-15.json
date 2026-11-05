@@ -1,0 +1,481 @@
+{
+  "schema": "draft.n5_15.course.v1",
+  "unit": "N5-15",
+  "theme": "过去经历",
+  "status": {
+    "publication": "draft",
+    "language_review": "pending",
+    "rights_review": "pending",
+    "audio": "not_produced",
+    "listening_score": "blocked",
+    "speaking_writing": "human_only"
+  },
+  "words": [
+    {
+      "id": "draft.n5_15.word.1",
+      "forms": "昨日（きのう）",
+      "meaning_zh": "昨天",
+      "source": "AI_original_draft"
+    },
+    {
+      "id": "draft.n5_15.word.2",
+      "forms": "先週（せんしゅう）",
+      "meaning_zh": "上周",
+      "source": "AI_original_draft"
+    },
+    {
+      "id": "draft.n5_15.word.3",
+      "forms": "旅行（りょこう）",
+      "meaning_zh": "旅行",
+      "source": "AI_original_draft"
+    },
+    {
+      "id": "draft.n5_15.word.4",
+      "forms": "見る（みる）",
+      "meaning_zh": "看",
+      "source": "AI_original_draft"
+    },
+    {
+      "id": "draft.n5_15.word.5",
+      "forms": "買う（かう）",
+      "meaning_zh": "买",
+      "source": "AI_original_draft"
+    },
+    {
+      "id": "draft.n5_15.word.6",
+      "forms": "楽しい（たのしい）",
+      "meaning_zh": "开心、有意思",
+      "source": "AI_original_draft"
+    }
+  ],
+  "lessons": [
+    {
+      "id": "draft.n5_15.lesson.v",
+      "planning_key": "N5-15-L01",
+      "type": "V",
+      "title": "认出过去的时间和活动",
+      "prerequisites": [
+        "N5-14"
+      ],
+      "goals": [
+        {
+          "id": "draft.n5_15.lesson.v.goal",
+          "text": "认出过去的时间和活动"
+        }
+      ],
+      "word_refs": [
+        "draft.n5_15.word.1",
+        "draft.n5_15.word.2",
+        "draft.n5_15.word.3",
+        "draft.n5_15.word.4",
+        "draft.n5_15.word.5",
+        "draft.n5_15.word.6"
+      ],
+      "explanation_zh": "「昨日」是昨天，「先週」是上周。读完时间，再看那天做了什么。",
+      "materials": [
+        {
+          "id": "draft.n5_15.lesson.v.teach",
+          "role": "teach",
+          "jp": "先週、京都へ旅行に行きました。",
+          "goal_refs": [
+            "draft.n5_15.lesson.v.goal"
+          ]
+        },
+        {
+          "id": "draft.n5_15.lesson.v.practice",
+          "role": "practice",
+          "jp": "昨日、映画を見ました。",
+          "goal_refs": [
+            "draft.n5_15.lesson.v.goal"
+          ]
+        },
+        {
+          "id": "draft.n5_15.lesson.v.check",
+          "role": "check",
+          "jp": "先週、駅でおみやげを買いました。",
+          "goal_refs": [
+            "draft.n5_15.lesson.v.goal"
+          ]
+        }
+      ],
+      "practice": [
+        {
+          "id": "draft.n5_15.lesson.v.practice.q1",
+          "material_ref": "draft.n5_15.lesson.v.practice",
+          "goal_ref": "draft.n5_15.lesson.v.goal",
+          "word_refs": [
+            "draft.n5_15.word.1",
+            "draft.n5_15.word.2",
+            "draft.n5_15.word.3",
+            "draft.n5_15.word.4",
+            "draft.n5_15.word.5",
+            "draft.n5_15.word.6"
+          ],
+          "prompt": "什么时候看了电影？",
+          "choices": [
+            "上周",
+            "昨天",
+            "今天"
+          ],
+          "answer": "昨天",
+          "feedback": "「昨日」指昨天。"
+        }
+      ],
+      "check": [
+        {
+          "id": "draft.n5_15.lesson.v.check.q1",
+          "material_ref": "draft.n5_15.lesson.v.check",
+          "goal_ref": "draft.n5_15.lesson.v.goal",
+          "word_refs": [
+            "draft.n5_15.word.1",
+            "draft.n5_15.word.2",
+            "draft.n5_15.word.3",
+            "draft.n5_15.word.4",
+            "draft.n5_15.word.5",
+            "draft.n5_15.word.6"
+          ],
+          "prompt": "上周在车站做了什么？",
+          "choices": [
+            "买了纪念品",
+            "看了电影",
+            "等了朋友"
+          ],
+          "answer": "买了纪念品",
+          "feedback": "「おみやげを買いました」表示买了纪念品。"
+        }
+      ]
+    },
+    {
+      "id": "draft.n5_15.lesson.g",
+      "planning_key": "N5-15-L02",
+      "type": "G",
+      "title": "用过去式说做过和没做过的事",
+      "prerequisites": [
+        "N5-15-L01"
+      ],
+      "goals": [
+        {
+          "id": "draft.n5_15.lesson.g.goal",
+          "text": "用过去式说做过和没做过的事"
+        }
+      ],
+      "word_refs": [
+        "draft.n5_15.word.1",
+        "draft.n5_15.word.2",
+        "draft.n5_15.word.3",
+        "draft.n5_15.word.4",
+        "draft.n5_15.word.5",
+        "draft.n5_15.word.6"
+      ],
+      "explanation_zh": "「見ました」表示看了，「見ませんでした」表示没看。说过去的感受时，「楽しいです」变成「楽しかったです」。",
+      "common_mistake_zh": "「見ません」表示现在或将来不看，说昨天没看要用「見ませんでした」。「楽しかったです」已经表示过去，不说「楽しかったでした」。",
+      "materials": [
+        {
+          "id": "draft.n5_15.lesson.g.teach",
+          "role": "teach",
+          "jp": "昨日は公園へ行きました。映画は見ませんでした。公園は楽しかったです。",
+          "goal_refs": [
+            "draft.n5_15.lesson.g.goal"
+          ]
+        },
+        {
+          "id": "draft.n5_15.lesson.g.practice",
+          "role": "practice",
+          "jp": "昨日は雨でした。公園へ行きませんでした。",
+          "goal_refs": [
+            "draft.n5_15.lesson.g.goal"
+          ]
+        },
+        {
+          "id": "draft.n5_15.lesson.g.check",
+          "role": "check",
+          "jp": "先週の旅行は〔　〕。",
+          "goal_refs": [
+            "draft.n5_15.lesson.g.goal"
+          ]
+        }
+      ],
+      "practice": [
+        {
+          "id": "draft.n5_15.lesson.g.practice.q1",
+          "material_ref": "draft.n5_15.lesson.g.practice",
+          "goal_ref": "draft.n5_15.lesson.g.goal",
+          "word_refs": [
+            "draft.n5_15.word.1",
+            "draft.n5_15.word.2",
+            "draft.n5_15.word.3",
+            "draft.n5_15.word.4",
+            "draft.n5_15.word.5",
+            "draft.n5_15.word.6"
+          ],
+          "prompt": "昨天去公园了吗？",
+          "choices": [
+            "去了",
+            "没去",
+            "句子没有交代"
+          ],
+          "answer": "没去",
+          "feedback": "「行きませんでした」说明没去。"
+        }
+      ],
+      "check": [
+        {
+          "id": "draft.n5_15.lesson.g.check.q1",
+          "material_ref": "draft.n5_15.lesson.g.check",
+          "goal_ref": "draft.n5_15.lesson.g.goal",
+          "word_refs": [
+            "draft.n5_15.word.1",
+            "draft.n5_15.word.2",
+            "draft.n5_15.word.3",
+            "draft.n5_15.word.4",
+            "draft.n5_15.word.5",
+            "draft.n5_15.word.6"
+          ],
+          "prompt": "要说「上周的旅行很开心」，空格填什么？",
+          "choices": [
+            "楽しくなかったです",
+            "楽しいですか",
+            "楽しかったです"
+          ],
+          "answer": "楽しかったです",
+          "feedback": "「楽しかったです」是「楽しい」的过去肯定形式。"
+        }
+      ]
+    },
+    {
+      "id": "draft.n5_15.lesson.r",
+      "planning_key": "N5-15-L03",
+      "type": "R",
+      "title": "读行程并分清做了和没做的事",
+      "prerequisites": [
+        "N5-15-L02"
+      ],
+      "goals": [
+        {
+          "id": "draft.n5_15.lesson.r.goal",
+          "text": "读行程并分清做了和没做的事"
+        }
+      ],
+      "word_refs": [
+        "draft.n5_15.word.1",
+        "draft.n5_15.word.2",
+        "draft.n5_15.word.3",
+        "draft.n5_15.word.4",
+        "draft.n5_15.word.5",
+        "draft.n5_15.word.6"
+      ],
+      "explanation_zh": "先看日期，再按动作的结尾区分「做了」和「没做」。",
+      "materials": [
+        {
+          "id": "draft.n5_15.lesson.r.teach",
+          "role": "teach",
+          "jp": "土曜日：公園へ行きました。日曜日：家で本を読みました。買い物はしませんでした。",
+          "goal_refs": [
+            "draft.n5_15.lesson.r.goal"
+          ]
+        },
+        {
+          "id": "draft.n5_15.lesson.r.practice",
+          "role": "practice",
+          "jp": "土曜日は大阪へ行きました。日曜日は家で映画を見ました。",
+          "goal_refs": [
+            "draft.n5_15.lesson.r.goal"
+          ]
+        },
+        {
+          "id": "draft.n5_15.lesson.r.check",
+          "role": "check",
+          "jp": "昨日は駅の近くで昼ご飯を食べました。本屋にも行きましたが、本は買いませんでした。",
+          "goal_refs": [
+            "draft.n5_15.lesson.r.goal"
+          ]
+        }
+      ],
+      "practice": [
+        {
+          "id": "draft.n5_15.lesson.r.practice.q1",
+          "material_ref": "draft.n5_15.lesson.r.practice",
+          "goal_ref": "draft.n5_15.lesson.r.goal",
+          "word_refs": [
+            "draft.n5_15.word.1",
+            "draft.n5_15.word.2",
+            "draft.n5_15.word.3",
+            "draft.n5_15.word.4",
+            "draft.n5_15.word.5",
+            "draft.n5_15.word.6"
+          ],
+          "prompt": "周日做了什么？",
+          "choices": [
+            "去了大阪",
+            "看了电影",
+            "买了东西"
+          ],
+          "answer": "看了电影",
+          "feedback": "第二句说周日「映画を見ました」。"
+        }
+      ],
+      "check": [
+        {
+          "id": "draft.n5_15.lesson.r.check.q1",
+          "material_ref": "draft.n5_15.lesson.r.check",
+          "goal_ref": "draft.n5_15.lesson.r.goal",
+          "word_refs": [
+            "draft.n5_15.word.1",
+            "draft.n5_15.word.2",
+            "draft.n5_15.word.3",
+            "draft.n5_15.word.4",
+            "draft.n5_15.word.5",
+            "draft.n5_15.word.6"
+          ],
+          "prompt": "昨天做了哪两件事？",
+          "choices": [
+            "吃午饭、去书店",
+            "买书、去书店",
+            "吃午饭、买书"
+          ],
+          "answer": "吃午饭、去书店",
+          "feedback": "「食べました」「行きました」是做过的事，「買いませんでした」是没做的事。"
+        }
+      ]
+    },
+    {
+      "id": "draft.n5_15.lesson.l",
+      "planning_key": "N5-15-L04",
+      "type": "L",
+      "title": "听日记里的过去活动",
+      "prerequisites": [
+        "N5-15-L03"
+      ],
+      "goals": [
+        {
+          "id": "draft.n5_15.lesson.l.goal",
+          "text": "听日记里的过去活动"
+        }
+      ],
+      "word_refs": [
+        "draft.n5_15.word.1",
+        "draft.n5_15.word.2",
+        "draft.n5_15.word.3",
+        "draft.n5_15.word.4",
+        "draft.n5_15.word.5",
+        "draft.n5_15.word.6"
+      ],
+      "explanation_zh": "听到时间后，留意动作结尾是「ました」还是「ませんでした」。可用设备朗读示例。",
+      "materials": [
+        {
+          "id": "draft.n5_15.lesson.l.teach",
+          "role": "teach",
+          "jp": "昨日は友達と公園へ行きました。昼ご飯は家で食べました。公園では食べませんでした。",
+          "goal_refs": [
+            "draft.n5_15.lesson.l.goal"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "draft.n5_15.lesson.o",
+      "planning_key": "N5-15-L05",
+      "type": "O",
+      "title": "告诉朋友昨天做了什么",
+      "prerequisites": [
+        "N5-15-L04"
+      ],
+      "goals": [
+        {
+          "id": "draft.n5_15.lesson.o.goal",
+          "text": "告诉朋友昨天做了什么"
+        }
+      ],
+      "word_refs": [
+        "draft.n5_15.word.1",
+        "draft.n5_15.word.2",
+        "draft.n5_15.word.3",
+        "draft.n5_15.word.4",
+        "draft.n5_15.word.5",
+        "draft.n5_15.word.6"
+      ],
+      "explanation_zh": "先说一遍，再写下要传达的内容，最后按自查要点核对。",
+      "materials": [],
+      "performance": {
+        "practice": {
+          "card_zh": "昨天去了公园，没看电影。",
+          "prompt_zh": "用日语说出一件做了的事和一件没做的事。"
+        },
+        "check": {
+          "card_zh": "上周去了京都，也买了纪念品，但没去公园。",
+          "prompt_zh": "写一段短日记，再读给朋友听。"
+        },
+        "rubric_zh": "时间明确；两件过去活动表达清楚；有一个正确的过去否定。",
+        "scoring": "human_only"
+      }
+    }
+  ],
+  "exam": {
+    "id": "draft.n5_15.exam",
+    "materials": [
+      {
+        "id": "draft.n5_15.exam.reading",
+        "role": "exam_reading",
+        "jp": "土曜日、姉と映画を見ました。日曜日は雨でした。公園へは行きませんでした。"
+      },
+      {
+        "id": "draft.n5_15.exam.listening",
+        "role": "exam_listening",
+        "jp": "昨日は本屋へ行きました。雑誌を買いました。本は買いませんでした。"
+      }
+    ],
+    "reading": [
+      {
+        "id": "draft.n5_15.exam.reading.q1",
+        "material_ref": "draft.n5_15.exam.reading",
+        "goal_ref": "draft.n5_15.lesson.r.goal",
+        "word_refs": [
+          "draft.n5_15.word.1",
+          "draft.n5_15.word.2",
+          "draft.n5_15.word.3",
+          "draft.n5_15.word.4",
+          "draft.n5_15.word.5",
+          "draft.n5_15.word.6"
+        ],
+        "prompt": "哪件事做了？",
+        "choices": [
+          "周日去了公园",
+          "周六和姐姐看了电影",
+          "周日和姐姐看了电影"
+        ],
+        "answer": "周六和姐姐看了电影",
+        "feedback": "第一句交代周六和姐姐看了电影。"
+      }
+    ],
+    "listening": [
+      {
+        "id": "draft.n5_15.exam.listening.q1",
+        "material_ref": "draft.n5_15.exam.listening",
+        "goal_ref": "draft.n5_15.lesson.l.goal",
+        "word_refs": [
+          "draft.n5_15.word.1",
+          "draft.n5_15.word.2",
+          "draft.n5_15.word.3",
+          "draft.n5_15.word.4",
+          "draft.n5_15.word.5",
+          "draft.n5_15.word.6"
+        ],
+        "prompt": "昨天买了什么？",
+        "choices": [
+          "杂志",
+          "书",
+          "书和杂志"
+        ],
+        "answer": "杂志",
+        "feedback": "「雑誌を買いました」是买了杂志。"
+      }
+    ],
+    "output": {
+      "card_zh": "昨天你去了车站，买了纪念品，但没看电影。",
+      "prompt_zh": "用日语口头说出昨天的事，再写成短日记。",
+      "rubric_zh": "写清时间和两件做了的事；正确说明没看电影。",
+      "id": "draft.n5_15.exam.output",
+      "scoring": "human_only"
+    }
+  }
+}

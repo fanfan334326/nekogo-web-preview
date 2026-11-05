@@ -1,0 +1,481 @@
+{
+  "schema": "draft.n5_07.course.v1",
+  "unit": "N5-07",
+  "theme": "家居与方位",
+  "status": {
+    "publication": "draft",
+    "language_review": "pending",
+    "rights_review": "pending",
+    "audio": "not_produced",
+    "listening_score": "blocked",
+    "speaking_writing": "human_only"
+  },
+  "words": [
+    {
+      "id": "draft.n5_07.word.1",
+      "forms": "部屋（へや）",
+      "meaning_zh": "房间",
+      "source": "AI_original_draft"
+    },
+    {
+      "id": "draft.n5_07.word.2",
+      "forms": "机（つくえ）",
+      "meaning_zh": "桌子",
+      "source": "AI_original_draft"
+    },
+    {
+      "id": "draft.n5_07.word.3",
+      "forms": "いす",
+      "meaning_zh": "椅子",
+      "source": "AI_original_draft"
+    },
+    {
+      "id": "draft.n5_07.word.4",
+      "forms": "上（うえ）／下（した）",
+      "meaning_zh": "上面／下面",
+      "source": "AI_original_draft"
+    },
+    {
+      "id": "draft.n5_07.word.5",
+      "forms": "となり",
+      "meaning_zh": "旁边",
+      "source": "AI_original_draft"
+    },
+    {
+      "id": "draft.n5_07.word.6",
+      "forms": "猫（ねこ）",
+      "meaning_zh": "猫",
+      "source": "AI_original_draft"
+    }
+  ],
+  "lessons": [
+    {
+      "id": "draft.n5_07.lesson.v",
+      "planning_key": "N5-07-L01",
+      "type": "V",
+      "title": "辨认房间里的物品",
+      "prerequisites": [
+        "N5-06"
+      ],
+      "goals": [
+        {
+          "id": "draft.n5_07.lesson.v.goal",
+          "text": "辨认房间里的物品"
+        }
+      ],
+      "word_refs": [
+        "draft.n5_07.word.1",
+        "draft.n5_07.word.2",
+        "draft.n5_07.word.3",
+        "draft.n5_07.word.4",
+        "draft.n5_07.word.5",
+        "draft.n5_07.word.6"
+      ],
+      "explanation_zh": "先辨认物品，再看「上」「下」「となり」等位置词。",
+      "materials": [
+        {
+          "id": "draft.n5_07.lesson.v.teach",
+          "role": "teach",
+          "jp": "机といすがあります。",
+          "goal_refs": [
+            "draft.n5_07.lesson.v.goal"
+          ]
+        },
+        {
+          "id": "draft.n5_07.lesson.v.practice",
+          "role": "practice",
+          "jp": "部屋にいすがあります。",
+          "goal_refs": [
+            "draft.n5_07.lesson.v.goal"
+          ]
+        },
+        {
+          "id": "draft.n5_07.lesson.v.check",
+          "role": "check",
+          "jp": "机の下に本があります。",
+          "goal_refs": [
+            "draft.n5_07.lesson.v.goal"
+          ]
+        }
+      ],
+      "practice": [
+        {
+          "id": "draft.n5_07.lesson.v.practice.q1",
+          "material_ref": "draft.n5_07.lesson.v.practice",
+          "goal_ref": "draft.n5_07.lesson.v.goal",
+          "word_refs": [
+            "draft.n5_07.word.1",
+            "draft.n5_07.word.2",
+            "draft.n5_07.word.3",
+            "draft.n5_07.word.4",
+            "draft.n5_07.word.5",
+            "draft.n5_07.word.6"
+          ],
+          "prompt": "房间里有什么？",
+          "choices": [
+            "桌子",
+            "椅子",
+            "猫"
+          ],
+          "answer": "椅子",
+          "feedback": "「いす」是椅子。"
+        }
+      ],
+      "check": [
+        {
+          "id": "draft.n5_07.lesson.v.check.q1",
+          "material_ref": "draft.n5_07.lesson.v.check",
+          "goal_ref": "draft.n5_07.lesson.v.goal",
+          "word_refs": [
+            "draft.n5_07.word.1",
+            "draft.n5_07.word.2",
+            "draft.n5_07.word.3",
+            "draft.n5_07.word.4",
+            "draft.n5_07.word.5",
+            "draft.n5_07.word.6"
+          ],
+          "prompt": "书在哪儿？",
+          "choices": [
+            "桌子旁边",
+            "椅子上",
+            "桌子下面"
+          ],
+          "answer": "桌子下面",
+          "feedback": "「机の下」是桌子下方。"
+        }
+      ]
+    },
+    {
+      "id": "draft.n5_07.lesson.g",
+      "planning_key": "N5-07-L02",
+      "type": "G",
+      "title": "用「あります」和「います」说位置",
+      "prerequisites": [
+        "N5-07-L01"
+      ],
+      "goals": [
+        {
+          "id": "draft.n5_07.lesson.g.goal",
+          "text": "用「あります」和「います」说位置"
+        }
+      ],
+      "word_refs": [
+        "draft.n5_07.word.1",
+        "draft.n5_07.word.2",
+        "draft.n5_07.word.3",
+        "draft.n5_07.word.4",
+        "draft.n5_07.word.5",
+        "draft.n5_07.word.6"
+      ],
+      "explanation_zh": "这个单元用「あります」说物品在哪里，用「います」说人或动物在哪里。地点后用「に」。",
+      "common_mistake_zh": "「机の下に本があります」说的是书的位置。把书换成猫，要说「机の下に猫がいます」。",
+      "materials": [
+        {
+          "id": "draft.n5_07.lesson.g.teach",
+          "role": "teach",
+          "jp": "部屋に机があります。机の下に猫がいます。",
+          "goal_refs": [
+            "draft.n5_07.lesson.g.goal"
+          ]
+        },
+        {
+          "id": "draft.n5_07.lesson.g.practice",
+          "role": "practice",
+          "jp": "いすのとなりに猫がいます。",
+          "goal_refs": [
+            "draft.n5_07.lesson.g.goal"
+          ]
+        },
+        {
+          "id": "draft.n5_07.lesson.g.check",
+          "role": "check",
+          "jp": "机の上に本が〔　〕。",
+          "goal_refs": [
+            "draft.n5_07.lesson.g.goal"
+          ]
+        }
+      ],
+      "practice": [
+        {
+          "id": "draft.n5_07.lesson.g.practice.q1",
+          "material_ref": "draft.n5_07.lesson.g.practice",
+          "goal_ref": "draft.n5_07.lesson.g.goal",
+          "word_refs": [
+            "draft.n5_07.word.1",
+            "draft.n5_07.word.2",
+            "draft.n5_07.word.3",
+            "draft.n5_07.word.4",
+            "draft.n5_07.word.5",
+            "draft.n5_07.word.6"
+          ],
+          "prompt": "「います」在这里说什么在那儿？",
+          "choices": [
+            "猫",
+            "椅子",
+            "桌子"
+          ],
+          "answer": "猫",
+          "feedback": "「猫がいます」表示猫在那里。"
+        }
+      ],
+      "check": [
+        {
+          "id": "draft.n5_07.lesson.g.check.q1",
+          "material_ref": "draft.n5_07.lesson.g.check",
+          "goal_ref": "draft.n5_07.lesson.g.goal",
+          "word_refs": [
+            "draft.n5_07.word.1",
+            "draft.n5_07.word.2",
+            "draft.n5_07.word.3",
+            "draft.n5_07.word.4",
+            "draft.n5_07.word.5",
+            "draft.n5_07.word.6"
+          ],
+          "prompt": "描述书在桌上，应填什么？",
+          "choices": [
+            "います",
+            "あります",
+            "行きます"
+          ],
+          "answer": "あります",
+          "feedback": "书是物品，此处用「あります」。"
+        }
+      ]
+    },
+    {
+      "id": "draft.n5_07.lesson.r",
+      "planning_key": "N5-07-L03",
+      "type": "R",
+      "title": "读房间位置说明",
+      "prerequisites": [
+        "N5-07-L02"
+      ],
+      "goals": [
+        {
+          "id": "draft.n5_07.lesson.r.goal",
+          "text": "读房间位置说明"
+        }
+      ],
+      "word_refs": [
+        "draft.n5_07.word.1",
+        "draft.n5_07.word.2",
+        "draft.n5_07.word.3",
+        "draft.n5_07.word.4",
+        "draft.n5_07.word.5",
+        "draft.n5_07.word.6"
+      ],
+      "explanation_zh": "找「Xの上／下／となり」，X 是参照物，后面的「が」指出要找的东西。",
+      "materials": [
+        {
+          "id": "draft.n5_07.lesson.r.teach",
+          "role": "teach",
+          "jp": "部屋に机があります。机のとなりにいすがあります。",
+          "goal_refs": [
+            "draft.n5_07.lesson.r.goal"
+          ]
+        },
+        {
+          "id": "draft.n5_07.lesson.r.practice",
+          "role": "practice",
+          "jp": "机の上に本があります。机の下にかばんがあります。",
+          "goal_refs": [
+            "draft.n5_07.lesson.r.goal"
+          ]
+        },
+        {
+          "id": "draft.n5_07.lesson.r.check",
+          "role": "check",
+          "jp": "いすの下にかばんがあります。いすのとなりに猫がいます。",
+          "goal_refs": [
+            "draft.n5_07.lesson.r.goal"
+          ]
+        }
+      ],
+      "practice": [
+        {
+          "id": "draft.n5_07.lesson.r.practice.q1",
+          "material_ref": "draft.n5_07.lesson.r.practice",
+          "goal_ref": "draft.n5_07.lesson.r.goal",
+          "word_refs": [
+            "draft.n5_07.word.1",
+            "draft.n5_07.word.2",
+            "draft.n5_07.word.3",
+            "draft.n5_07.word.4",
+            "draft.n5_07.word.5",
+            "draft.n5_07.word.6"
+          ],
+          "prompt": "书和包分别在哪儿？",
+          "choices": [
+            "书在上面，包在下面",
+            "包在上面，书在下面",
+            "都在桌上"
+          ],
+          "answer": "书在上面，包在下面",
+          "feedback": "第一句是书在桌上，第二句是包在桌下。"
+        }
+      ],
+      "check": [
+        {
+          "id": "draft.n5_07.lesson.r.check.q1",
+          "material_ref": "draft.n5_07.lesson.r.check",
+          "goal_ref": "draft.n5_07.lesson.r.goal",
+          "word_refs": [
+            "draft.n5_07.word.1",
+            "draft.n5_07.word.2",
+            "draft.n5_07.word.3",
+            "draft.n5_07.word.4",
+            "draft.n5_07.word.5",
+            "draft.n5_07.word.6"
+          ],
+          "prompt": "猫在哪儿？",
+          "choices": [
+            "椅子下",
+            "桌子上",
+            "椅子旁"
+          ],
+          "answer": "椅子旁",
+          "feedback": "「いすのとなり」以椅子为参照。"
+        }
+      ]
+    },
+    {
+      "id": "draft.n5_07.lesson.l",
+      "planning_key": "N5-07-L04",
+      "type": "L",
+      "title": "听清物品的位置",
+      "prerequisites": [
+        "N5-07-L03"
+      ],
+      "goals": [
+        {
+          "id": "draft.n5_07.lesson.l.goal",
+          "text": "听清物品的位置"
+        }
+      ],
+      "word_refs": [
+        "draft.n5_07.word.1",
+        "draft.n5_07.word.2",
+        "draft.n5_07.word.3",
+        "draft.n5_07.word.4",
+        "draft.n5_07.word.5",
+        "draft.n5_07.word.6"
+      ],
+      "explanation_zh": "听「机の上」这类短语时，先抓参照物，再听方位。可对照读稿，用设备朗读示例。",
+      "materials": [
+        {
+          "id": "draft.n5_07.lesson.l.teach",
+          "role": "teach",
+          "jp": "A：本はどこですか。B：机の上です。A：かばんも机の上ですか。B：いいえ、机の下です。",
+          "goal_refs": [
+            "draft.n5_07.lesson.l.goal"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "draft.n5_07.lesson.o",
+      "planning_key": "N5-07-L05",
+      "type": "O",
+      "title": "介绍房间并回答位置问题",
+      "prerequisites": [
+        "N5-07-L04"
+      ],
+      "goals": [
+        {
+          "id": "draft.n5_07.lesson.o.goal",
+          "text": "介绍房间并回答位置问题"
+        }
+      ],
+      "word_refs": [
+        "draft.n5_07.word.1",
+        "draft.n5_07.word.2",
+        "draft.n5_07.word.3",
+        "draft.n5_07.word.4",
+        "draft.n5_07.word.5",
+        "draft.n5_07.word.6"
+      ],
+      "explanation_zh": "先说一遍，再写下要传达的内容，最后按自查要点核对。",
+      "materials": [],
+      "performance": {
+        "practice": {
+          "card_zh": "椅子在桌子旁，书在桌子上。",
+          "prompt_zh": "用日语说出两件东西的位置。"
+        },
+        "check": {
+          "card_zh": "包在椅子下，猫在椅子旁。",
+          "prompt_zh": "用日语写两句说明，再读出来。"
+        },
+        "rubric_zh": "参照物和方位对应；猫用「います」，物品用「あります」。",
+        "scoring": "human_only"
+      }
+    }
+  ],
+  "exam": {
+    "id": "draft.n5_07.exam",
+    "materials": [
+      {
+        "id": "draft.n5_07.exam.reading",
+        "role": "exam_reading",
+        "jp": "部屋にいすと机があります。机の上にペンがあります。本はいすの下です。"
+      },
+      {
+        "id": "draft.n5_07.exam.listening",
+        "role": "exam_listening",
+        "jp": "A：猫は机の下ですか。B：いいえ、いすのとなりです。"
+      }
+    ],
+    "reading": [
+      {
+        "id": "draft.n5_07.exam.reading.q1",
+        "material_ref": "draft.n5_07.exam.reading",
+        "goal_ref": "draft.n5_07.lesson.r.goal",
+        "word_refs": [
+          "draft.n5_07.word.1",
+          "draft.n5_07.word.2",
+          "draft.n5_07.word.3",
+          "draft.n5_07.word.4",
+          "draft.n5_07.word.5",
+          "draft.n5_07.word.6"
+        ],
+        "prompt": "笔在哪儿？",
+        "choices": [
+          "椅子下面",
+          "桌子上面",
+          "桌子旁边"
+        ],
+        "answer": "桌子上面",
+        "feedback": "「机の上にペンがあります」直接说明笔的位置。"
+      }
+    ],
+    "listening": [
+      {
+        "id": "draft.n5_07.exam.listening.q1",
+        "material_ref": "draft.n5_07.exam.listening",
+        "goal_ref": "draft.n5_07.lesson.l.goal",
+        "word_refs": [
+          "draft.n5_07.word.1",
+          "draft.n5_07.word.2",
+          "draft.n5_07.word.3",
+          "draft.n5_07.word.4",
+          "draft.n5_07.word.5",
+          "draft.n5_07.word.6"
+        ],
+        "prompt": "猫在哪儿？",
+        "choices": [
+          "桌子下",
+          "椅子旁",
+          "椅子上"
+        ],
+        "answer": "椅子旁",
+        "feedback": "「いいえ」否定桌下，后半句给出椅子旁。"
+      }
+    ],
+    "output": {
+      "card_zh": "猫在桌子旁，书在椅子上。朋友问它们在哪儿。",
+      "prompt_zh": "口头回答朋友，再写两句日语作为说明。",
+      "rubric_zh": "位置和物品不混淆；至少一句完整使用「に」和合适的存在动词。",
+      "id": "draft.n5_07.exam.output",
+      "scoring": "human_only"
+    }
+  }
+}

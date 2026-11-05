@@ -1,0 +1,567 @@
+{
+  "schema": "draft.n4_14.course.v1",
+  "unit": "N4-14",
+  "theme": "条件与假设",
+  "status": {
+    "publication": "draft",
+    "language_review": "pending",
+    "teaching_review": "pending",
+    "rights_review": "pending",
+    "audio": "not_produced",
+    "audio_review": "pending",
+    "listening_score": "blocked",
+    "speaking_writing": "human_only",
+    "runtime_verification": "not_run",
+    "app_integration": "not_integrated"
+  },
+  "words": [
+    {
+      "id": "draft.n4_14.word.1",
+      "forms": "条件（じょうけん）",
+      "meaning_zh": "条件",
+      "source": "AI_original_draft"
+    },
+    {
+      "id": "draft.n4_14.word.2",
+      "forms": "場合（ばあい）",
+      "meaning_zh": "情况",
+      "source": "AI_original_draft"
+    },
+    {
+      "id": "draft.n4_14.word.3",
+      "forms": "必要（ひつよう）",
+      "meaning_zh": "必要",
+      "source": "AI_original_draft"
+    },
+    {
+      "id": "draft.n4_14.word.4",
+      "forms": "変更（へんこう）",
+      "meaning_zh": "变更",
+      "source": "AI_original_draft"
+    }
+  ],
+  "lessons": [
+    {
+      "id": "draft.n4_14.lesson.v",
+      "planning_key": "N4-14-L01",
+      "type": "V",
+      "title": "条件与假设的关键词",
+      "prerequisites": [],
+      "goals": [
+        {
+          "id": "draft.n4_14.lesson.v.goal",
+          "text": "条件与假设的关键词"
+        }
+      ],
+      "word_refs": [
+        "draft.n4_14.word.1",
+        "draft.n4_14.word.2",
+        "draft.n4_14.word.3",
+        "draft.n4_14.word.4"
+      ],
+      "explanation_zh": "「場合」读「ばあい」。在通知里，「雨の場合は」用来引出下雨时的安排。",
+      "materials": [
+        {
+          "id": "draft.n4_14.lesson.v.mat.practice1",
+          "role": "practice1",
+          "jp": "条件"
+        },
+        {
+          "id": "draft.n4_14.lesson.v.mat.practice3",
+          "role": "practice3",
+          "jp": "必要"
+        },
+        {
+          "id": "draft.n4_14.lesson.v.mat.check2",
+          "role": "check2",
+          "jp": "場合"
+        },
+        {
+          "id": "draft.n4_14.lesson.v.mat.check4",
+          "role": "check4",
+          "jp": "変更"
+        },
+        {
+          "id": "draft.n4_14.lesson.v.kanji-reading",
+          "role": "practice",
+          "jp": "場合",
+          "goal_refs": [
+            "draft.n4_14.lesson.v.goal"
+          ]
+        }
+      ],
+      "practice": [
+        {
+          "id": "draft.n4_14.lesson.v.mat.practice1.q1",
+          "material_ref": "draft.n4_14.lesson.v.mat.practice1",
+          "goal_ref": "draft.n4_14.lesson.v.goal",
+          "word_refs": [
+            "draft.n4_14.word.1",
+            "draft.n4_14.word.2",
+            "draft.n4_14.word.3",
+            "draft.n4_14.word.4"
+          ],
+          "prompt": "这个词的意思是什么？",
+          "choices": [
+            "必要",
+            "条件",
+            "情况"
+          ],
+          "answer": "条件",
+          "feedback": "条件（じょうけん），意思是「条件」。"
+        },
+        {
+          "id": "draft.n4_14.lesson.v.mat.practice3.q1",
+          "material_ref": "draft.n4_14.lesson.v.mat.practice3",
+          "goal_ref": "draft.n4_14.lesson.v.goal",
+          "word_refs": [
+            "draft.n4_14.word.1",
+            "draft.n4_14.word.2",
+            "draft.n4_14.word.3",
+            "draft.n4_14.word.4"
+          ],
+          "prompt": "这个词的意思是什么？",
+          "choices": [
+            "变更",
+            "条件",
+            "必要"
+          ],
+          "answer": "必要",
+          "feedback": "必要（ひつよう），意思是「必要」。"
+        },
+        {
+          "id": "draft.n4_14.lesson.v.kanji-reading.q1",
+          "material_ref": "draft.n4_14.lesson.v.kanji-reading",
+          "goal_ref": "draft.n4_14.lesson.v.goal",
+          "word_refs": [
+            "draft.n4_14.word.2"
+          ],
+          "prompt": "这个词怎么读？",
+          "choices": [
+            "じょうあい",
+            "ばあい",
+            "ばごう"
+          ],
+          "answer": "ばあい",
+          "feedback": "「場合」读「ばあい」。在通知里，「雨の場合は」用来引出下雨时的安排。"
+        }
+      ],
+      "check": [
+        {
+          "id": "draft.n4_14.lesson.v.mat.check2.q1",
+          "material_ref": "draft.n4_14.lesson.v.mat.check2",
+          "goal_ref": "draft.n4_14.lesson.v.goal",
+          "word_refs": [
+            "draft.n4_14.word.1",
+            "draft.n4_14.word.2",
+            "draft.n4_14.word.3",
+            "draft.n4_14.word.4"
+          ],
+          "prompt": "这个词的意思是什么？",
+          "choices": [
+            "情况",
+            "必要",
+            "变更"
+          ],
+          "answer": "情况",
+          "feedback": "場合（ばあい），意思是「情况」。"
+        },
+        {
+          "id": "draft.n4_14.lesson.v.mat.check4.q1",
+          "material_ref": "draft.n4_14.lesson.v.mat.check4",
+          "goal_ref": "draft.n4_14.lesson.v.goal",
+          "word_refs": [
+            "draft.n4_14.word.1",
+            "draft.n4_14.word.2",
+            "draft.n4_14.word.3",
+            "draft.n4_14.word.4"
+          ],
+          "prompt": "这个词的意思是什么？",
+          "choices": [
+            "情况",
+            "变更",
+            "条件"
+          ],
+          "answer": "变更",
+          "feedback": "変更（へんこう），意思是「变更」。"
+        }
+      ]
+    },
+    {
+      "id": "draft.n4_14.lesson.g",
+      "planning_key": "N4-14-L02",
+      "type": "G",
+      "title": "〜たら・〜なら",
+      "prerequisites": [
+        "N4-14-L01"
+      ],
+      "goals": [
+        {
+          "id": "draft.n4_14.lesson.g.goal",
+          "text": "〜たら・〜なら"
+        }
+      ],
+      "word_refs": [
+        "draft.n4_14.word.1",
+        "draft.n4_14.word.2",
+        "draft.n4_14.word.3",
+        "draft.n4_14.word.4"
+      ],
+      "explanation_zh": "「たら」常给出满足后才做后项的条件；「なら」常接对方提到的情况，随后给建议。先判断上下句关系。",
+      "materials": [
+        {
+          "id": "draft.n4_14.lesson.g.mat.teach",
+          "role": "teach",
+          "jp": "駅に着いたら電話してください。電車で行くなら、早めに出たほうがいいです。"
+        },
+        {
+          "id": "draft.n4_14.lesson.g.mat.practice",
+          "role": "practice",
+          "jp": "初めて行くなら、地図を持っていったほうがいいです。"
+        },
+        {
+          "id": "draft.n4_14.lesson.g.mat.check",
+          "role": "check",
+          "jp": "駅に＿、入口で待っていてください。"
+        }
+      ],
+      "practice": [
+        {
+          "id": "draft.n4_14.lesson.g.mat.practice.q1",
+          "material_ref": "draft.n4_14.lesson.g.mat.practice",
+          "goal_ref": "draft.n4_14.lesson.g.goal",
+          "word_refs": [
+            "draft.n4_14.word.1",
+            "draft.n4_14.word.2",
+            "draft.n4_14.word.3",
+            "draft.n4_14.word.4"
+          ],
+          "prompt": "建议针对什么情况？",
+          "choices": [
+            "去过多次",
+            "已经到达",
+            "第一次去"
+          ],
+          "answer": "第一次去",
+          "feedback": "正确答案是「第一次去」。原句：初めて行くなら、地図を持っていったほうがいいです。"
+        }
+      ],
+      "check": [
+        {
+          "id": "draft.n4_14.lesson.g.mat.check.q1",
+          "material_ref": "draft.n4_14.lesson.g.mat.check",
+          "goal_ref": "draft.n4_14.lesson.g.goal",
+          "word_refs": [
+            "draft.n4_14.word.1",
+            "draft.n4_14.word.2",
+            "draft.n4_14.word.3",
+            "draft.n4_14.word.4"
+          ],
+          "prompt": "选出表示到达后再行动的接续。",
+          "choices": [
+            "着く前に",
+            "着いたら",
+            "着くまで"
+          ],
+          "answer": "着いたら",
+          "feedback": "「着いたら」表示到达之后。「着く前に」表示到达之前，「着くまで」表示直到到达为止。"
+        }
+      ],
+      "common_mistake_zh": "「駅に着いたら」表示到站之后才做下一件事；「電車で行くなら」接对方提到的出行方式，后面可以给出发前的建议。"
+    },
+    {
+      "id": "draft.n4_14.lesson.r",
+      "planning_key": "N4-14-L03",
+      "type": "R",
+      "title": "读两种条件下的规则",
+      "prerequisites": [
+        "N4-14-L02"
+      ],
+      "goals": [
+        {
+          "id": "draft.n4_14.lesson.r.goal",
+          "text": "读两种条件下的规则"
+        }
+      ],
+      "word_refs": [
+        "draft.n4_14.word.1",
+        "draft.n4_14.word.2",
+        "draft.n4_14.word.3",
+        "draft.n4_14.word.4"
+      ],
+      "explanation_zh": "分别记录有票和没票的做法。两种条件对应不同的下一步。",
+      "materials": [
+        {
+          "id": "draft.n4_14.lesson.r.mat.teach",
+          "role": "teach",
+          "jp": "入場券をお持ちの方は、そのまま中へお入りください。お持ちでない方は受付でお求めください。"
+        },
+        {
+          "id": "draft.n4_14.lesson.r.mat.practice",
+          "role": "practice",
+          "jp": "雨の場合は体育館で行います。晴れたら校庭に集合してください。"
+        },
+        {
+          "id": "draft.n4_14.lesson.r.mat.check",
+          "role": "check",
+          "jp": "満席の場合は入場できません。席が空いたら、入口の係員が案内します。"
+        }
+      ],
+      "practice": [
+        {
+          "id": "draft.n4_14.lesson.r.mat.practice.q1",
+          "material_ref": "draft.n4_14.lesson.r.mat.practice",
+          "goal_ref": "draft.n4_14.lesson.r.goal",
+          "word_refs": [
+            "draft.n4_14.word.1",
+            "draft.n4_14.word.2",
+            "draft.n4_14.word.3",
+            "draft.n4_14.word.4"
+          ],
+          "prompt": "晴天在哪里集合？",
+          "choices": [
+            "教室",
+            "操场",
+            "体育馆"
+          ],
+          "answer": "操场",
+          "feedback": "正确答案是「操场」。原句：雨の場合は体育館で行います。晴れたら校庭に集合してください。"
+        }
+      ],
+      "check": [
+        {
+          "id": "draft.n4_14.lesson.r.mat.check.q1",
+          "material_ref": "draft.n4_14.lesson.r.mat.check",
+          "goal_ref": "draft.n4_14.lesson.r.goal",
+          "word_refs": [
+            "draft.n4_14.word.1",
+            "draft.n4_14.word.2",
+            "draft.n4_14.word.3",
+            "draft.n4_14.word.4"
+          ],
+          "prompt": "座位空出后谁来指引？",
+          "choices": [
+            "入口的工作人员",
+            "观众",
+            "售票机"
+          ],
+          "answer": "入口的工作人员",
+          "feedback": "正确答案是「入口的工作人员」。原文：満席の場合は入場できません。席が空いたら、入口の係員が案内します。"
+        }
+      ]
+    },
+    {
+      "id": "draft.n4_14.lesson.l",
+      "planning_key": "N4-14-L04",
+      "type": "L",
+      "title": "听清未满足条件时怎么办",
+      "prerequisites": [
+        "N4-14-L03"
+      ],
+      "goals": [
+        {
+          "id": "draft.n4_14.lesson.l.goal",
+          "text": "听清未满足条件时怎么办"
+        }
+      ],
+      "word_refs": [
+        "draft.n4_14.word.1",
+        "draft.n4_14.word.2",
+        "draft.n4_14.word.3",
+        "draft.n4_14.word.4"
+      ],
+      "explanation_zh": "关注「〜なかったら」后的备用动作。 条件是先到，动作是在检票口外等。",
+      "materials": [
+        {
+          "id": "draft.n4_14.lesson.l.mat.teach",
+          "role": "teach",
+          "jp": "A：もし駅に先に着いたら、どこで待てばいい？ B：改札を出たところで待っていて。"
+        },
+        {
+          "id": "draft.n4_14.lesson.l.mat.practice",
+          "role": "practice",
+          "jp": "A：着いたら連絡するね。B：駅で電話がつながらなかったら、東口で待っていて。"
+        },
+        {
+          "id": "draft.n4_14.lesson.l.mat.check",
+          "role": "check",
+          "jp": "A：傘を忘れたらどうしますか。B：受付で借りられますよ。"
+        }
+      ],
+      "practice": [
+        {
+          "id": "draft.n4_14.lesson.l.mat.practice.q1",
+          "material_ref": "draft.n4_14.lesson.l.mat.practice",
+          "goal_ref": "draft.n4_14.lesson.l.goal",
+          "word_refs": [
+            "draft.n4_14.word.1",
+            "draft.n4_14.word.2",
+            "draft.n4_14.word.3",
+            "draft.n4_14.word.4"
+          ],
+          "prompt": "电话打不通时应做什么？",
+          "choices": [
+            "在东口等",
+            "去西口",
+            "坐车回去"
+          ],
+          "answer": "在东口等",
+          "feedback": "正确答案是「在东口等」。原句：A：着いたら連絡するね。B：駅で電話がつながらなかったら、東口で待っていて。"
+        }
+      ],
+      "check": [
+        {
+          "id": "draft.n4_14.lesson.l.mat.check.q1",
+          "material_ref": "draft.n4_14.lesson.l.mat.check",
+          "goal_ref": "draft.n4_14.lesson.l.goal",
+          "word_refs": [
+            "draft.n4_14.word.1",
+            "draft.n4_14.word.2",
+            "draft.n4_14.word.3",
+            "draft.n4_14.word.4"
+          ],
+          "prompt": "忘了带伞可以怎么办？",
+          "choices": [
+            "马上回家",
+            "只能等雨停",
+            "在前台借伞"
+          ],
+          "answer": "在前台借伞",
+          "feedback": "正确答案是「在前台借伞」。原文：A：傘を忘れたらどうしますか。B：受付で借りられますよ。"
+        }
+      ]
+    },
+    {
+      "id": "draft.n4_14.lesson.o",
+      "planning_key": "N4-14-L05",
+      "type": "O",
+      "title": "说清两种天气安排",
+      "prerequisites": [
+        "N4-14-L04"
+      ],
+      "goals": [
+        {
+          "id": "draft.n4_14.lesson.o.goal",
+          "text": "说清两种天气安排"
+        }
+      ],
+      "word_refs": [
+        "draft.n4_14.word.1",
+        "draft.n4_14.word.2",
+        "draft.n4_14.word.3",
+        "draft.n4_14.word.4"
+      ],
+      "explanation_zh": "先用日语口头说明，再把关键内容写成一条短消息。完成后按下面的要点核对。",
+      "materials": [],
+      "performance": {
+        "practice": {
+          "card_zh": "周六晴天去公园，雨天去图书馆。用两句日语说明条件和对应地点。",
+          "prompt_zh": "先说一遍，再写下要传达的内容。"
+        },
+        "rubric_zh": "两种条件都提到，地点不颠倒。",
+        "check": {
+          "card_zh": "有座位就在店里吃，没座位就外带。用条件句告诉同行者两个方案。",
+          "prompt_zh": "用日语作答，再按自查要点核对。"
+        }
+      }
+    },
+    {
+      "id": "draft.n4_14.lesson.t",
+      "planning_key": "N4-14-L06",
+      "type": "T",
+      "title": "在额外条件下改安排",
+      "prerequisites": [
+        "N4-14-L05"
+      ],
+      "goals": [
+        {
+          "id": "draft.n4_14.lesson.t.goal",
+          "text": "在额外条件下改安排"
+        }
+      ],
+      "word_refs": [
+        "draft.n4_14.word.1",
+        "draft.n4_14.word.2",
+        "draft.n4_14.word.3",
+        "draft.n4_14.word.4"
+      ],
+      "explanation_zh": "先用日语口头说明，再把关键内容写成一条短消息。完成后按下面的要点核对。",
+      "materials": [],
+      "performance": {
+        "practice": {
+          "card_zh": "下雨原定去图书馆，但图书馆当天休息。说明为什么要改，并提出室内替代。",
+          "prompt_zh": "先说一遍，再写下要传达的内容。"
+        },
+        "rubric_zh": "先说明新条件，再给可行地点和时间。",
+        "check": {
+          "card_zh": "原计划在东口等，后来发现东口施工。给同伴发新方案，并说明如果联系不上该去哪。",
+          "prompt_zh": "用日语作答，再按自查要点核对。"
+        }
+      }
+    }
+  ],
+  "exam": {
+    "id": "draft.n4_14.exam.unit",
+    "materials": [
+      {
+        "id": "draft.n4_14.exam.unit.mat.exam_reading",
+        "role": "exam_reading",
+        "jp": "予約が必要な場合は、前日までに連絡してください。当日席がある場合は、その場で参加できます。"
+      },
+      {
+        "id": "draft.n4_14.exam.unit.mat.exam_listening",
+        "role": "exam_listening",
+        "jp": "A：バスで行くなら何時に出る？ B：八時に出よう。バスに間に合わなかったら、電車にしよう。"
+      }
+    ],
+    "reading": [
+      {
+        "id": "draft.n4_14.exam.unit.mat.exam_reading.q1",
+        "material_ref": "draft.n4_14.exam.unit.mat.exam_reading",
+        "goal_ref": "draft.n4_14.lesson.r.goal",
+        "word_refs": [
+          "draft.n4_14.word.1",
+          "draft.n4_14.word.2",
+          "draft.n4_14.word.3",
+          "draft.n4_14.word.4"
+        ],
+        "prompt": "什么情况下可现场参加？",
+        "choices": [
+          "预约已满",
+          "前一天没联系就一定能参加",
+          "当天还有空位"
+        ],
+        "answer": "当天还有空位",
+        "feedback": "正确答案是「当天还有空位」。原文：予約が必要な場合は、前日までに連絡してください。当日席がある場合は、その場で参加できます。"
+      }
+    ],
+    "listening": [
+      {
+        "id": "draft.n4_14.exam.unit.mat.exam_listening.q1",
+        "material_ref": "draft.n4_14.exam.unit.mat.exam_listening",
+        "goal_ref": "draft.n4_14.lesson.l.goal",
+        "word_refs": [
+          "draft.n4_14.word.1",
+          "draft.n4_14.word.2",
+          "draft.n4_14.word.3",
+          "draft.n4_14.word.4"
+        ],
+        "prompt": "没赶上巴士怎么办？",
+        "choices": [
+          "不再出发",
+          "改坐电车",
+          "等到晚上"
+        ],
+        "answer": "改坐电车",
+        "feedback": "正确答案是「改坐电车」。原文：A：バスで行くなら何時に出る？ B：八時に出よう。バスに間に合わなかったら、電車にしよう。"
+      }
+    ],
+    "output": {
+      "id": "draft.n4_14.q.eo1",
+      "card_zh": "周六十点活动开始。晴天时九点五十在校门口集合，下雨时同一时间改在体育馆入口集合。",
+      "prompt_zh": "用日语口头说明两套方案，再写一条消息，让同伴能按天气找到集合点。",
+      "rubric_zh": "两个地点各对应一种天气；九点五十是集合时间，十点是开始时间；消息能直接用于赴约。",
+      "scoring": "human_only"
+    }
+  }
+}

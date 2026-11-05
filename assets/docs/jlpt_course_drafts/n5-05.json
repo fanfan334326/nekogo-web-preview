@@ -1,0 +1,481 @@
+{
+  "schema": "draft.n5_05.course.v1",
+  "unit": "N5-05",
+  "theme": "食物与饮料",
+  "status": {
+    "publication": "draft",
+    "language_review": "pending",
+    "rights_review": "pending",
+    "audio": "not_produced",
+    "listening_score": "blocked",
+    "speaking_writing": "human_only"
+  },
+  "words": [
+    {
+      "id": "draft.n5_05.word.1",
+      "forms": "水（みず）",
+      "meaning_zh": "水",
+      "source": "AI_original_draft"
+    },
+    {
+      "id": "draft.n5_05.word.2",
+      "forms": "お茶（おちゃ）",
+      "meaning_zh": "茶",
+      "source": "AI_original_draft"
+    },
+    {
+      "id": "draft.n5_05.word.3",
+      "forms": "ご飯（ごはん）",
+      "meaning_zh": "米饭，这里指餐点",
+      "source": "AI_original_draft"
+    },
+    {
+      "id": "draft.n5_05.word.4",
+      "forms": "パン",
+      "meaning_zh": "面包",
+      "source": "AI_original_draft"
+    },
+    {
+      "id": "draft.n5_05.word.5",
+      "forms": "魚（さかな）",
+      "meaning_zh": "鱼",
+      "source": "AI_original_draft"
+    },
+    {
+      "id": "draft.n5_05.word.6",
+      "forms": "飲み物（のみもの）",
+      "meaning_zh": "饮料",
+      "source": "AI_original_draft"
+    }
+  ],
+  "lessons": [
+    {
+      "id": "draft.n5_05.lesson.v",
+      "planning_key": "N5-05-L01",
+      "type": "V",
+      "title": "辨认餐点与饮料",
+      "prerequisites": [
+        "N5-04"
+      ],
+      "goals": [
+        {
+          "id": "draft.n5_05.lesson.v.goal",
+          "text": "辨认餐点与饮料"
+        }
+      ],
+      "word_refs": [
+        "draft.n5_05.word.1",
+        "draft.n5_05.word.2",
+        "draft.n5_05.word.3",
+        "draft.n5_05.word.4",
+        "draft.n5_05.word.5",
+        "draft.n5_05.word.6"
+      ],
+      "explanation_zh": "菜单上「飲み物」是一类，「水」和「お茶」是这一类的具体选项。",
+      "materials": [
+        {
+          "id": "draft.n5_05.lesson.v.teach",
+          "role": "teach",
+          "jp": "飲み物は水とお茶です。",
+          "goal_refs": [
+            "draft.n5_05.lesson.v.goal"
+          ]
+        },
+        {
+          "id": "draft.n5_05.lesson.v.practice",
+          "role": "practice",
+          "jp": "パンと魚があります。",
+          "goal_refs": [
+            "draft.n5_05.lesson.v.goal"
+          ]
+        },
+        {
+          "id": "draft.n5_05.lesson.v.check",
+          "role": "check",
+          "jp": "飲み物：水、お茶。食べ物：ご飯、魚。",
+          "goal_refs": [
+            "draft.n5_05.lesson.v.goal"
+          ]
+        }
+      ],
+      "practice": [
+        {
+          "id": "draft.n5_05.lesson.v.practice.q1",
+          "material_ref": "draft.n5_05.lesson.v.practice",
+          "goal_ref": "draft.n5_05.lesson.v.goal",
+          "word_refs": [
+            "draft.n5_05.word.1",
+            "draft.n5_05.word.2",
+            "draft.n5_05.word.3",
+            "draft.n5_05.word.4",
+            "draft.n5_05.word.5",
+            "draft.n5_05.word.6"
+          ],
+          "prompt": "哪一项是面包？",
+          "choices": [
+            "水",
+            "魚",
+            "パン"
+          ],
+          "answer": "パン",
+          "feedback": "「パン」是面包。"
+        }
+      ],
+      "check": [
+        {
+          "id": "draft.n5_05.lesson.v.check.q1",
+          "material_ref": "draft.n5_05.lesson.v.check",
+          "goal_ref": "draft.n5_05.lesson.v.goal",
+          "word_refs": [
+            "draft.n5_05.word.1",
+            "draft.n5_05.word.2",
+            "draft.n5_05.word.3",
+            "draft.n5_05.word.4",
+            "draft.n5_05.word.5",
+            "draft.n5_05.word.6"
+          ],
+          "prompt": "哪一项是饮料？",
+          "choices": [
+            "米饭",
+            "茶",
+            "鱼"
+          ],
+          "answer": "茶",
+          "feedback": "「お茶」列在「飲み物」一栏。"
+        }
+      ]
+    },
+    {
+      "id": "draft.n5_05.lesson.g",
+      "planning_key": "N5-05-L02",
+      "type": "G",
+      "title": "点餐与表达喜欢",
+      "prerequisites": [
+        "N5-05-L01"
+      ],
+      "goals": [
+        {
+          "id": "draft.n5_05.lesson.g.goal",
+          "text": "点餐与表达喜欢"
+        }
+      ],
+      "word_refs": [
+        "draft.n5_05.word.1",
+        "draft.n5_05.word.2",
+        "draft.n5_05.word.3",
+        "draft.n5_05.word.4",
+        "draft.n5_05.word.5",
+        "draft.n5_05.word.6"
+      ],
+      "explanation_zh": "点餐用「名词＋をください」，说自己喜欢什么用「名词＋が好きです」。",
+      "common_mistake_zh": "点餐用「パンをください」，表达喜好用「パンが好きです」。换了句型，面包后面的助词也要换。",
+      "materials": [
+        {
+          "id": "draft.n5_05.lesson.g.teach",
+          "role": "teach",
+          "jp": "お茶をください。魚が好きです。",
+          "goal_refs": [
+            "draft.n5_05.lesson.g.goal"
+          ]
+        },
+        {
+          "id": "draft.n5_05.lesson.g.practice",
+          "role": "practice",
+          "jp": "水をください。",
+          "goal_refs": [
+            "draft.n5_05.lesson.g.goal"
+          ]
+        },
+        {
+          "id": "draft.n5_05.lesson.g.check",
+          "role": "check",
+          "jp": "パンが好きです。今日はご飯をください。",
+          "goal_refs": [
+            "draft.n5_05.lesson.g.goal"
+          ]
+        }
+      ],
+      "practice": [
+        {
+          "id": "draft.n5_05.lesson.g.practice.q1",
+          "material_ref": "draft.n5_05.lesson.g.practice",
+          "goal_ref": "draft.n5_05.lesson.g.goal",
+          "word_refs": [
+            "draft.n5_05.word.1",
+            "draft.n5_05.word.2",
+            "draft.n5_05.word.3",
+            "draft.n5_05.word.4",
+            "draft.n5_05.word.5",
+            "draft.n5_05.word.6"
+          ],
+          "prompt": "说话人想要什么？",
+          "choices": [
+            "鱼",
+            "茶",
+            "水"
+          ],
+          "answer": "水",
+          "feedback": "「水をください」是请给我水。"
+        }
+      ],
+      "check": [
+        {
+          "id": "draft.n5_05.lesson.g.check.q1",
+          "material_ref": "draft.n5_05.lesson.g.check",
+          "goal_ref": "draft.n5_05.lesson.g.goal",
+          "word_refs": [
+            "draft.n5_05.word.1",
+            "draft.n5_05.word.2",
+            "draft.n5_05.word.3",
+            "draft.n5_05.word.4",
+            "draft.n5_05.word.5",
+            "draft.n5_05.word.6"
+          ],
+          "prompt": "今天点了什么？",
+          "choices": [
+            "面包",
+            "米饭",
+            "鱼"
+          ],
+          "answer": "米饭",
+          "feedback": "「が好きです」说喜好，「をください」才是点单。"
+        }
+      ]
+    },
+    {
+      "id": "draft.n5_05.lesson.r",
+      "planning_key": "N5-05-L03",
+      "type": "R",
+      "title": "读简短菜单",
+      "prerequisites": [
+        "N5-05-L02"
+      ],
+      "goals": [
+        {
+          "id": "draft.n5_05.lesson.r.goal",
+          "text": "读简短菜单"
+        }
+      ],
+      "word_refs": [
+        "draft.n5_05.word.1",
+        "draft.n5_05.word.2",
+        "draft.n5_05.word.3",
+        "draft.n5_05.word.4",
+        "draft.n5_05.word.5",
+        "draft.n5_05.word.6"
+      ],
+      "explanation_zh": "先看餐点和饮料的栏目，再找「今日はありません」之类的供应提示。",
+      "materials": [
+        {
+          "id": "draft.n5_05.lesson.r.teach",
+          "role": "teach",
+          "jp": "きょうのメニュー：ご飯、魚。飲み物：水、お茶。",
+          "goal_refs": [
+            "draft.n5_05.lesson.r.goal"
+          ]
+        },
+        {
+          "id": "draft.n5_05.lesson.r.practice",
+          "role": "practice",
+          "jp": "食べ物：パン、魚。飲み物：水。",
+          "goal_refs": [
+            "draft.n5_05.lesson.r.goal"
+          ]
+        },
+        {
+          "id": "draft.n5_05.lesson.r.check",
+          "role": "check",
+          "jp": "飲み物は水とお茶です。今日はお茶がありません。",
+          "goal_refs": [
+            "draft.n5_05.lesson.r.goal"
+          ]
+        }
+      ],
+      "practice": [
+        {
+          "id": "draft.n5_05.lesson.r.practice.q1",
+          "material_ref": "draft.n5_05.lesson.r.practice",
+          "goal_ref": "draft.n5_05.lesson.r.goal",
+          "word_refs": [
+            "draft.n5_05.word.1",
+            "draft.n5_05.word.2",
+            "draft.n5_05.word.3",
+            "draft.n5_05.word.4",
+            "draft.n5_05.word.5",
+            "draft.n5_05.word.6"
+          ],
+          "prompt": "今天有哪些饮料？",
+          "choices": [
+            "只有水",
+            "水和茶",
+            "只有茶"
+          ],
+          "answer": "只有水",
+          "feedback": "「飲み物」下只有「水」。"
+        }
+      ],
+      "check": [
+        {
+          "id": "draft.n5_05.lesson.r.check.q1",
+          "material_ref": "draft.n5_05.lesson.r.check",
+          "goal_ref": "draft.n5_05.lesson.r.goal",
+          "word_refs": [
+            "draft.n5_05.word.1",
+            "draft.n5_05.word.2",
+            "draft.n5_05.word.3",
+            "draft.n5_05.word.4",
+            "draft.n5_05.word.5",
+            "draft.n5_05.word.6"
+          ],
+          "prompt": "今天能点哪种饮料？",
+          "choices": [
+            "茶",
+            "鱼",
+            "水"
+          ],
+          "answer": "水",
+          "feedback": "第二句说今天没有茶，所以饮料只剩水。"
+        }
+      ]
+    },
+    {
+      "id": "draft.n5_05.lesson.l",
+      "planning_key": "N5-05-L04",
+      "type": "L",
+      "title": "听懂点单",
+      "prerequisites": [
+        "N5-05-L03"
+      ],
+      "goals": [
+        {
+          "id": "draft.n5_05.lesson.l.goal",
+          "text": "听懂点单"
+        }
+      ],
+      "word_refs": [
+        "draft.n5_05.word.1",
+        "draft.n5_05.word.2",
+        "draft.n5_05.word.3",
+        "draft.n5_05.word.4",
+        "draft.n5_05.word.5",
+        "draft.n5_05.word.6"
+      ],
+      "explanation_zh": "先听客人说的饮料，再听店员复述的内容。当前为读稿练习。",
+      "materials": [
+        {
+          "id": "draft.n5_05.lesson.l.teach",
+          "role": "teach",
+          "jp": "客：お茶をください。店員：はい、お茶ですね。客：パンもください。",
+          "goal_refs": [
+            "draft.n5_05.lesson.l.goal"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "draft.n5_05.lesson.o",
+      "planning_key": "N5-05-L05",
+      "type": "O",
+      "title": "点一份餐并说出喜好",
+      "prerequisites": [
+        "N5-05-L04"
+      ],
+      "goals": [
+        {
+          "id": "draft.n5_05.lesson.o.goal",
+          "text": "点一份餐并说出喜好"
+        }
+      ],
+      "word_refs": [
+        "draft.n5_05.word.1",
+        "draft.n5_05.word.2",
+        "draft.n5_05.word.3",
+        "draft.n5_05.word.4",
+        "draft.n5_05.word.5",
+        "draft.n5_05.word.6"
+      ],
+      "explanation_zh": "先说一遍，再写下要传达的内容，最后按自查要点核对。",
+      "materials": [],
+      "performance": {
+        "practice": {
+          "card_zh": "柜台有水、茶和面包。你想要茶和面包。",
+          "prompt_zh": "用日语向店员点两样东西。"
+        },
+        "check": {
+          "card_zh": "你喜欢鱼，但今天想点米饭和水。",
+          "prompt_zh": "先说喜好，再写一句或两句点单。"
+        },
+        "rubric_zh": "区分喜好与点单；点单包含米饭和水；用礼貌语气。",
+        "scoring": "human_only"
+      }
+    }
+  ],
+  "exam": {
+    "id": "draft.n5_05.exam",
+    "materials": [
+      {
+        "id": "draft.n5_05.exam.reading",
+        "role": "exam_reading",
+        "jp": "きょうのメニュー：パンと魚。水はあります。お茶はありません。"
+      },
+      {
+        "id": "draft.n5_05.exam.listening",
+        "role": "exam_listening",
+        "jp": "客：魚と水をください。店員：魚と水ですね。"
+      }
+    ],
+    "reading": [
+      {
+        "id": "draft.n5_05.exam.reading.q1",
+        "material_ref": "draft.n5_05.exam.reading",
+        "goal_ref": "draft.n5_05.lesson.r.goal",
+        "word_refs": [
+          "draft.n5_05.word.1",
+          "draft.n5_05.word.2",
+          "draft.n5_05.word.3",
+          "draft.n5_05.word.4",
+          "draft.n5_05.word.5",
+          "draft.n5_05.word.6"
+        ],
+        "prompt": "哪项今天没有？",
+        "choices": [
+          "水",
+          "茶",
+          "面包"
+        ],
+        "answer": "茶",
+        "feedback": "「お茶はありません」说明今天没有茶。"
+      }
+    ],
+    "listening": [
+      {
+        "id": "draft.n5_05.exam.listening.q1",
+        "material_ref": "draft.n5_05.exam.listening",
+        "goal_ref": "draft.n5_05.lesson.l.goal",
+        "word_refs": [
+          "draft.n5_05.word.1",
+          "draft.n5_05.word.2",
+          "draft.n5_05.word.3",
+          "draft.n5_05.word.4",
+          "draft.n5_05.word.5",
+          "draft.n5_05.word.6"
+        ],
+        "prompt": "客人要哪两样？",
+        "choices": [
+          "鱼和水",
+          "米饭和茶",
+          "面包和水"
+        ],
+        "answer": "鱼和水",
+        "feedback": "客人说「魚と水をください」。"
+      }
+    ],
+    "output": {
+      "card_zh": "同伴喜欢面包。今天只有米饭、鱼和水。",
+      "prompt_zh": "口头告诉同伴今天有什么，再写下自己的一份点单。",
+      "rubric_zh": "说明今天的选择；点的东西在菜单上；至少写一种餐点或饮料。",
+      "id": "draft.n5_05.exam.output",
+      "scoring": "human_only"
+    }
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "schemaVersion": 1,
+  "provenance": {
+    "author": "AI",
+    "review": "pending_human_review",
+    "source": "original_no_third_party"
+  },
+  "passages": [
+    {
+      "id": "reading.p.n5.sunday",
+      "level": "n5",
+      "titleZh": "周日的午饭",
+      "textJa": "日曜日、わたしは妹と公園へ行きました。公園でおにぎりを食べました。それから、二人で本を読みました。"
+    },
+    {
+      "id": "reading.p.n4.rain",
+      "level": "n4",
+      "titleZh": "下雨天的通勤",
+      "textJa": "明日は雨が降るそうです。田中さんは電車〔空〕会社へ行くことにしました。いつもは自転車で行きます。"
+    }
+  ],
+  "questions": [
+    {
+      "id": "reading.q.n5.sunday.place",
+      "passageId": "reading.p.n5.sunday",
+      "type": "choice",
+      "promptZh": "两人在哪里吃了饭团？",
+      "choices": ["在公园", "在家里", "在学校"],
+      "answer": "在公园",
+      "evidenceJa": "公園でおにぎりを食べました。",
+      "explanationZh": "原文说在公园吃了饭团，で表示动作发生的场所。"
+    },
+    {
+      "id": "reading.q.n5.sunday.after",
+      "passageId": "reading.p.n5.sunday",
+      "type": "choice",
+      "promptZh": "吃饭团之后，两人做了什么？",
+      "choices": ["读书", "买书", "回家"],
+      "answer": "读书",
+      "evidenceJa": "それから、二人で本を読みました。",
+      "explanationZh": "それから表示接着；后一句说两个人一起读了书。"
+    },
+    {
+      "id": "reading.q.n4.rain.method",
+      "passageId": "reading.p.n4.rain",
+      "type": "choice",
+      "promptZh": "田中平时怎么去公司？",
+      "choices": ["骑自行车", "坐电车", "步行"],
+      "answer": "骑自行车",
+      "evidenceJa": "いつもは自転車で行きます。",
+      "explanationZh": "いつもは表示平时；原文说平时骑自行车去。"
+    },
+    {
+      "id": "reading.q.n4.rain.particle",
+      "passageId": "reading.p.n4.rain",
+      "type": "cloze",
+      "promptZh": "选择填入空格的助词。",
+      "choices": ["で", "を", "に"],
+      "answer": "で",
+      "evidenceJa": "電車〔空〕会社へ行く",
+      "explanationZh": "这里的电车是去公司的交通工具，交通工具后用で：電車で会社へ行く。"
+    }
+  ]
+}

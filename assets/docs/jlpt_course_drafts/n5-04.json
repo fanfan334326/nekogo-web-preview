@@ -1,0 +1,1009 @@
+{
+  "schema": "draft.n5_04.course.v1",
+  "unit": "N5-04",
+  "theme": "学校与生活",
+  "status": {
+    "publication": "draft",
+    "language_review": "pending",
+    "teaching_review": "pending",
+    "rights_review": "pending",
+    "source_verification": "unknown",
+    "runtime_verification": "not_run",
+    "audio": "not_produced",
+    "audio_review": "pending",
+    "listening_score": "blocked",
+    "speaking_writing": "human_only",
+    "app_integration": "not_integrated"
+  },
+  "external_prerequisites": [
+    {
+      "id": "N5-03",
+      "status": "recommended_not_verified",
+      "description": "建议复习数字、星期、时刻及假名和礼貌句，不证明已经掌握。"
+    }
+  ],
+  "words": [
+    {
+      "id": "draft.n5_04.word.places",
+      "forms": "学校（がっこう）／教室（きょうしつ）",
+      "meaning_zh": "学校／教室",
+      "source": "AI_original_draft"
+    },
+    {
+      "id": "draft.n5_04.word.objects",
+      "forms": "本（ほん）／ペン／机（つくえ）",
+      "meaning_zh": "书／笔（本稿用ペン）／课桌或桌子",
+      "source": "AI_original_draft"
+    },
+    {
+      "id": "draft.n5_04.word.people",
+      "forms": "先生（せんせい）／学生（がくせい）／わたし／田中（たなか）／林（はやし）／森（もり）",
+      "meaning_zh": "老师／学生／我／虚构人名田中、林、森",
+      "source": "AI_original_draft"
+    },
+    {
+      "id": "draft.n5_04.word.pointer",
+      "forms": "これ／それ／あれ／この／その／あの／どれ／どの",
+      "meaning_zh": "指物和选择：见G课；この等后接名词",
+      "source": "AI_original_draft"
+    },
+    {
+      "id": "draft.n5_04.word.grammar",
+      "forms": "は／の／です／か／だれ",
+      "meaning_zh": "主题／所属／礼貌断定／疑问／谁",
+      "source": "AI_original_draft"
+    },
+    {
+      "id": "draft.n5_04.word.schedule",
+      "forms": "時間割（じかんわり）／月曜日（げつようび）／火曜日（かようび）／水曜日（すいようび）／木曜日（もくようび）／金曜日（きんようび）／一時（いちじ）／二時（にじ）／三時（さんじ）",
+      "meaning_zh": "课程表／周一至周五／一点、两点、三点",
+      "source": "AI_original_draft"
+    },
+    {
+      "id": "draft.n5_04.word.subjects",
+      "forms": "日本語（にほんご）／数学（すうがく）／音楽（おんがく）",
+      "meaning_zh": "日语课／数学课／音乐课；表格中表示科目",
+      "source": "AI_original_draft"
+    }
+  ],
+  "lessons": [
+    {
+      "id": "draft.n5_04.lesson.v",
+      "planning_key": "N5-04-L01",
+      "type": "V",
+      "title": "学校用品与场所",
+      "prerequisites": [
+        "N5-03"
+      ],
+      "prerequisite_status": "recommended_not_verified",
+      "goals": [
+        {
+          "id": "draft.n5_04.goal.v",
+          "text": "根据假名语境辨认学校、教室、书、笔、桌子和老师。"
+        }
+      ],
+      "word_refs": [
+        "draft.n5_04.word.places",
+        "draft.n5_04.word.objects",
+        "draft.n5_04.word.people",
+        "draft.n5_04.word.pointer",
+        "draft.n5_04.word.grammar",
+        "draft.n5_04.word.schedule",
+        "draft.n5_04.word.subjects"
+      ],
+      "explanation_zh": "先诊断假名、N5-03 时间和礼貌句，不假定已掌握。学校がっこう是学校，教室きょうしつ是教室；本ほん书、ペン笔、机つくえ桌子或课桌、先生せんせい老师、学生がくせい学生。不要把本、ペン、机当成同一种用品。学生在此读がくせい；先与生合写先生せんせい。は作主题标记读わ，です作礼貌判断；これ独立指说话人手边的物品，完整指示词对照在G课。科目与时间词见词表，供后续课程表复习，不视为已掌握。",
+      "materials": [
+        {
+          "id": "draft.n5_04.mat.vt",
+          "role": "teach",
+          "context_zh": "田中在教室向同伴介绍近处课桌。",
+          "jp": "これは机です。教室です。",
+          "kana": "これはつくえです。きょうしつです。",
+          "zh": "这是课桌。这是教室。",
+          "goal_refs": [
+            "draft.n5_04.goal.v"
+          ]
+        },
+        {
+          "id": "draft.n5_04.mat.vp",
+          "role": "practice",
+          "context_zh": "林拿起近处的笔，介绍给同伴。",
+          "jp": "これはペンです。学校です。",
+          "kana": "これはペンです。がっこうです。",
+          "zh": "这是笔。这是学校。",
+          "goal_refs": [
+            "draft.n5_04.goal.v"
+          ]
+        },
+        {
+          "id": "draft.n5_04.mat.vc",
+          "role": "check",
+          "context_zh": "森指着自己手边的书，随后介绍老师。",
+          "jp": "これは本です。先生です。",
+          "kana": "これはほんです。せんせいです。",
+          "zh": "这是书。这是老师。",
+          "goal_refs": [
+            "draft.n5_04.goal.v"
+          ]
+        }
+      ],
+      "practice": [
+        {
+          "id": "draft.n5_04.q.vp1",
+          "material_ref": "draft.n5_04.mat.vp",
+          "goal_ref": "draft.n5_04.goal.v",
+          "prompt": "练习中拿着什么？",
+          "choices": [
+            "笔",
+            "书",
+            "课桌"
+          ],
+          "answer": "笔",
+          "feedback": "ペン指笔。"
+        },
+        {
+          "id": "draft.n5_04.q.vp2",
+          "material_ref": "draft.n5_04.mat.vp",
+          "goal_ref": "draft.n5_04.goal.v",
+          "prompt": "练习里的场所是什么？",
+          "choices": [
+            "学校",
+            "教室",
+            "老师"
+          ],
+          "answer": "学校",
+          "feedback": "学校读がっこう。"
+        }
+      ],
+      "check": [
+        {
+          "id": "draft.n5_04.q.vc1",
+          "material_ref": "draft.n5_04.mat.vc",
+          "goal_ref": "draft.n5_04.goal.v",
+          "prompt": "检查中手边是什么？",
+          "choices": [
+            "书",
+            "笔",
+            "桌子"
+          ],
+          "answer": "书",
+          "feedback": "本在此读ほん。"
+        },
+        {
+          "id": "draft.n5_04.q.vc2",
+          "material_ref": "draft.n5_04.mat.vc",
+          "goal_ref": "draft.n5_04.goal.v",
+          "prompt": "检查中介绍谁？",
+          "choices": [
+            "老师",
+            "学生",
+            "学校"
+          ],
+          "answer": "老师",
+          "feedback": "先生读せんせい。"
+        }
+      ],
+      "review_zh": "把错词与假名配对；找不同物品或写标签再辨认。学、校、本、先仅在词语中识读。"
+    },
+    {
+      "id": "draft.n5_04.lesson.g",
+      "planning_key": "N5-04-L02",
+      "type": "G",
+      "title": "指物、选择和所属",
+      "prerequisites": [
+        "N5-03",
+        "draft.n5_04.lesson.v"
+      ],
+      "prerequisite_status": "recommended_not_verified",
+      "goals": [
+        {
+          "id": "draft.n5_04.goal.g",
+          "text": "根据说话者与听者的位置选择指示词，并用の及だれ问答归属。"
+        }
+      ],
+      "word_refs": [
+        "draft.n5_04.word.places",
+        "draft.n5_04.word.objects",
+        "draft.n5_04.word.people",
+        "draft.n5_04.word.pointer",
+        "draft.n5_04.word.grammar",
+        "draft.n5_04.word.schedule",
+        "draft.n5_04.word.subjects"
+      ],
+      "explanation_zh": "两人分处时，以当前说话者为基准：近自己用これ，近对方用それ，离双方都远用あれ；它们可独立指物。需要接名词时分别用この／その／あの，如この本，不能说これ本。どれ独立问多个物中哪一个；どの必须接名词，如どの本。换说话人后近远要重算，真实交际还受共同视角影响；本稿题设固定两人分处的视角。の连接拥有者和物品：田中さんの本；だれの本问谁的书，これはだれの本ですか问这是谁的书，不是问哪本书。さん为人名后礼貌称呼；だれ用于询问人，不能替代どれ/どの。总纲明列これ/それ/あれ、この、どれ；その/あの/どの是同组必要对照，の和だれ是说明、询问归属的有限补充，不扩展方位或其他语法。",
+      "common_mistake_zh": "「これ」可以单独指一本书；后面紧跟「本」时要说「この本」，不能说「これ本」。",
+      "materials": [
+        {
+          "id": "draft.n5_04.mat.gt",
+          "role": "teach",
+          "context_zh": "田中在一端，林在另一端。两本书中一本在田中手边，林知道那是森的书。最后田中指着手边的书回答。",
+          "jp": "田中：この本はだれの本ですか。林：森さんの本です。林：森さんの本はどれですか。田中：これです。",
+          "kana": "たなか：このほんはだれのほんですか。はやし：もりさんのほんです。はやし：もりさんのほんはどれですか。たなか：これです。",
+          "zh": "田中：这本书是谁的书？林：是森的书。林：森的书是哪一本？田中：这一本。",
+          "goal_refs": [
+            "draft.n5_04.goal.g"
+          ]
+        },
+        {
+          "id": "draft.n5_04.mat.gp",
+          "role": "practice",
+          "context_zh": "林说话，笔在听者田中手边，远离林；他们分处两端。",
+          "jp": "林：それは田中さんのペンです。",
+          "kana": "はやし：それはたなかさんのペンです。",
+          "zh": "林：那是田中的笔。",
+          "goal_refs": [
+            "draft.n5_04.goal.g"
+          ]
+        },
+        {
+          "id": "draft.n5_04.mat.gc",
+          "role": "check",
+          "context_zh": "森说话，桌子在两人都够不到的远处；有多张桌子。",
+          "jp": "森：あの机は林さんの机です。",
+          "kana": "もり：あのつくえははやしさんのつくえです。",
+          "zh": "森：远处那张桌子是林的桌子。",
+          "goal_refs": [
+            "draft.n5_04.goal.g"
+          ]
+        }
+      ],
+      "practice": [
+        {
+          "id": "draft.n5_04.q.gp1",
+          "material_ref": "draft.n5_04.mat.gp",
+          "goal_ref": "draft.n5_04.goal.g",
+          "prompt": "林指的是谁手边的笔？",
+          "choices": [
+            "田中手边",
+            "林手边",
+            "两人都远处"
+          ],
+          "answer": "田中手边",
+          "feedback": "それ以林为说话者，指近听者的物。"
+        },
+        {
+          "id": "draft.n5_04.q.gp2",
+          "material_ref": "draft.n5_04.mat.gp",
+          "goal_ref": "draft.n5_04.goal.g",
+          "prompt": "若林在原情境中说‘那支笔’，应选哪个接ペン？",
+          "choices": [
+            "その",
+            "それ",
+            "この"
+          ],
+          "answer": "その",
+          "feedback": "その后接ペン；それ独立使用。"
+        },
+        {
+          "id": "draft.n5_04.q.gp3",
+          "material_ref": "draft.n5_04.mat.gp",
+          "goal_ref": "draft.n5_04.goal.g",
+          "prompt": "若多个物品中问‘田中的笔是哪一个’，疑问词后不接名词，应选？",
+          "choices": [
+            "どれ",
+            "どの",
+            "だれ"
+          ],
+          "answer": "どれ",
+          "feedback": "どれ独立指哪一个；どの要接名词，だれ问人。"
+        }
+      ],
+      "check": [
+        {
+          "id": "draft.n5_04.q.gc1",
+          "material_ref": "draft.n5_04.mat.gc",
+          "goal_ref": "draft.n5_04.goal.g",
+          "prompt": "森说话且桌子离双方远，哪项可接机？",
+          "choices": [
+            "あの",
+            "あれ",
+            "その"
+          ],
+          "answer": "あの",
+          "feedback": "あの接名词；あれ独立指物。"
+        },
+        {
+          "id": "draft.n5_04.q.gc2",
+          "material_ref": "draft.n5_04.mat.gc",
+          "goal_ref": "draft.n5_04.goal.g",
+          "prompt": "要问检查中的桌子是谁的，用哪个疑问词？",
+          "choices": [
+            "だれ",
+            "どれ",
+            "どの"
+          ],
+          "answer": "だれ",
+          "feedback": "だれの机询问拥有者。"
+        },
+        {
+          "id": "draft.n5_04.q.gc3",
+          "material_ref": "draft.n5_04.mat.gc",
+          "goal_ref": "draft.n5_04.goal.g",
+          "prompt": "多张桌子中问‘哪张桌子’，哪项接机？",
+          "choices": [
+            "どの",
+            "どれ",
+            "だれ"
+          ],
+          "answer": "どの",
+          "feedback": "どの机；どれ单独用。"
+        }
+      ],
+      "review_zh": "错题先画说话人、听者、物品的位置，再判断后面是否有名词；归属题圈出の前的人。"
+    },
+    {
+      "id": "draft.n5_04.lesson.r",
+      "planning_key": "N5-04-L03",
+      "type": "R",
+      "title": "读课程表与汉字",
+      "prerequisites": [
+        "N5-03",
+        "draft.n5_04.lesson.g"
+      ],
+      "prerequisite_status": "recommended_not_verified",
+      "goals": [
+        {
+          "id": "draft.n5_04.goal.r",
+          "text": "从虚构课程表提取星期、时间、科目和教室，并在词语中辨认学、校、本、先。"
+        }
+      ],
+      "word_refs": [
+        "draft.n5_04.word.places",
+        "draft.n5_04.word.objects",
+        "draft.n5_04.word.people",
+        "draft.n5_04.word.pointer",
+        "draft.n5_04.word.grammar",
+        "draft.n5_04.word.schedule",
+        "draft.n5_04.word.subjects"
+      ],
+      "explanation_zh": "时间割じかんわり是课程表。星期、点钟建议复习N5-03；此处仅用周一至五、一至三点，表中都给假名。日本語にほんご为日语、数学すうがく为数学、音楽おんがく为音乐，教室为地点。学和校见学校がっこう，学还见学生がくせい；本见本ほん及日本語にほんご（读音依词而变），先见先生せんせい。只在带假名词语中识别，不考孤立字音或书写，不等于掌握。",
+      "materials": [
+        {
+          "id": "draft.n5_04.mat.rt",
+          "role": "teach",
+          "context_zh": "虚构日程表；同一行对应一个课时。",
+          "jp": "時間割\n月曜日 一時 日本語 教室",
+          "kana": "じかんわり\nげつようび いちじ にほんご きょうしつ",
+          "zh": "课程表：周一一点，日语，教室。",
+          "goal_refs": [
+            "draft.n5_04.goal.r"
+          ]
+        },
+        {
+          "id": "draft.n5_04.mat.rp",
+          "role": "practice",
+          "context_zh": "虚构课程表，两行分别为不同课时。",
+          "jp": "時間割\n火曜日 二時 数学 教室\n水曜日 一時 音楽 学校",
+          "kana": "じかんわり\nかようび にじ すうがく きょうしつ\nすいようび いちじ おんがく がっこう",
+          "zh": "课程表：周二两点数学在教室；周三一点音乐在学校。",
+          "goal_refs": [
+            "draft.n5_04.goal.r"
+          ]
+        },
+        {
+          "id": "draft.n5_04.mat.rc",
+          "role": "check",
+          "context_zh": "虚构课程表；每行是一个课时，最后列出老师和用书。",
+          "jp": "時間割\n木曜日 三時 日本語 教室\n金曜日 二時 音楽 学校\n先生：森\n本：日本語",
+          "kana": "じかんわり\nもくようび さんじ にほんご きょうしつ\nきんようび にじ おんがく がっこう\nせんせい：もり\nほん：にほんご",
+          "zh": "课程表：周四三点日语在教室；周五两点音乐在学校；老师：森；书：日语。",
+          "goal_refs": [
+            "draft.n5_04.goal.r"
+          ]
+        }
+      ],
+      "practice": [
+        {
+          "id": "draft.n5_04.q.rp1",
+          "material_ref": "draft.n5_04.mat.rp",
+          "goal_ref": "draft.n5_04.goal.r",
+          "prompt": "练习表周二的科目？",
+          "choices": [
+            "数学",
+            "音乐",
+            "日语"
+          ],
+          "answer": "数学",
+          "feedback": "火曜日这一行写数学。"
+        },
+        {
+          "id": "draft.n5_04.q.rp2",
+          "material_ref": "draft.n5_04.mat.rp",
+          "goal_ref": "draft.n5_04.goal.r",
+          "prompt": "练习表音乐是几点？",
+          "choices": [
+            "一点",
+            "两点",
+            "三点"
+          ],
+          "answer": "一点",
+          "feedback": "水曜日行写一時。"
+        }
+      ],
+      "check": [
+        {
+          "id": "draft.n5_04.q.rc1",
+          "material_ref": "draft.n5_04.mat.rc",
+          "goal_ref": "draft.n5_04.goal.r",
+          "prompt": "检查表周四科目？",
+          "choices": [
+            "日语",
+            "数学",
+            "音乐"
+          ],
+          "answer": "日语",
+          "feedback": "木曜日行写日本語。"
+        },
+        {
+          "id": "draft.n5_04.q.rc2",
+          "material_ref": "draft.n5_04.mat.rc",
+          "goal_ref": "draft.n5_04.goal.r",
+          "prompt": "检查表日语几点？",
+          "choices": [
+            "三点",
+            "一点",
+            "两点"
+          ],
+          "answer": "三点",
+          "feedback": "三時在日语行。"
+        },
+        {
+          "id": "draft.n5_04.q.rc3",
+          "material_ref": "draft.n5_04.mat.rc",
+          "goal_ref": "draft.n5_04.goal.r",
+          "prompt": "检查表音乐星期几？",
+          "choices": [
+            "周五",
+            "周四",
+            "周二"
+          ],
+          "answer": "周五",
+          "feedback": "音楽在金曜日行。"
+        },
+        {
+          "id": "draft.n5_04.q.rc4",
+          "material_ref": "draft.n5_04.mat.rc",
+          "goal_ref": "draft.n5_04.goal.r",
+          "prompt": "检查表音乐地点？",
+          "choices": [
+            "学校",
+            "教室",
+            "桌子"
+          ],
+          "answer": "学校",
+          "feedback": "音楽行写学校。"
+        },
+        {
+          "id": "draft.n5_04.q.rc5",
+          "material_ref": "draft.n5_04.mat.rc",
+          "goal_ref": "draft.n5_04.goal.r",
+          "prompt": "检查表的老师是谁？",
+          "choices": [
+            "森",
+            "林",
+            "田中"
+          ],
+          "answer": "森",
+          "feedback": "先生后标森。"
+        },
+        {
+          "id": "draft.n5_04.q.rc6",
+          "material_ref": "draft.n5_04.mat.rc",
+          "goal_ref": "draft.n5_04.goal.r",
+          "prompt": "检查表‘本：’作为书的标签读什么？",
+          "choices": [
+            "ほん",
+            "せんせい",
+            "がっこう"
+          ],
+          "answer": "ほん",
+          "feedback": "这里本是书，读ほん；日本語中的本在整词中另读。"
+        }
+      ],
+      "review_zh": "回到对应行列，用假名复读目标字所在词；换一张未见表再查时间与地点。"
+    },
+    {
+      "id": "draft.n5_04.lesson.l",
+      "planning_key": "N5-04-L04",
+      "type": "unavailableListening",
+      "title": "听指物与归属",
+      "prerequisites": [
+        "N5-03",
+        "draft.n5_04.lesson.r"
+      ],
+      "prerequisite_status": "recommended_not_verified",
+      "goals": [
+        {
+          "id": "draft.n5_04.goal.l",
+          "text": "从带位置说明的指物问答中提取物品、位置和归属。"
+        }
+      ],
+      "word_refs": [
+        "draft.n5_04.word.places",
+        "draft.n5_04.word.objects",
+        "draft.n5_04.word.people",
+        "draft.n5_04.word.pointer",
+        "draft.n5_04.word.grammar",
+        "draft.n5_04.word.schedule",
+        "draft.n5_04.word.subjects"
+      ],
+      "explanation_zh": "先听物品名，再听指示词和の前的拥有者。题设说明讲话者与听者站位；换人发言时重新判断。以下只提供脚本，先读场景、请伙伴朗读两遍，答后对照；尚无审校音频，任何练习或检查不得记录真实听力成绩。",
+      "materials": [
+        {
+          "id": "draft.n5_04.mat.lt",
+          "role": "teach",
+          "context_zh": "田中问话，书在田中手边；林回答，书属于森。",
+          "jp": "田中：この本はだれの本ですか。林：森さんの本です。",
+          "kana": "たなか：このほんはだれのほんですか。はやし：もりさんのほんです。",
+          "zh": "田中：这本书是谁的？林：森的书。",
+          "goal_refs": [
+            "draft.n5_04.goal.l"
+          ]
+        },
+        {
+          "id": "draft.n5_04.mat.lp",
+          "role": "practice",
+          "context_zh": "森问话，笔在森手边；田中回答，笔属于林。",
+          "jp": "森：このペンはだれのペンですか。田中：林さんのペンです。",
+          "kana": "もり：このペンはだれのペンですか。たなか：はやしさんのペンです。",
+          "zh": "森：这支笔是谁的？田中：林的笔。",
+          "goal_refs": [
+            "draft.n5_04.goal.l"
+          ]
+        },
+        {
+          "id": "draft.n5_04.mat.lc",
+          "role": "check",
+          "context_zh": "林与森分处两端，林手边有一件物品，另一件远离双方。林提问，森回答并指出远处的物品。",
+          "jp": "林：この机はだれの机ですか。森：田中さんの机です。あれは本です。",
+          "kana": "はやし：このつくえはだれのつくえですか。もり：たなかさんのつくえです。あれはほんです。",
+          "zh": "林：这张桌子是谁的？森：田中的桌子。远处那是书。",
+          "goal_refs": [
+            "draft.n5_04.goal.l"
+          ]
+        }
+      ],
+      "practice": [
+        {
+          "id": "draft.n5_04.q.lp1",
+          "material_ref": "draft.n5_04.mat.lp",
+          "goal_ref": "draft.n5_04.goal.l",
+          "prompt": "练习对话问的是哪种物品？",
+          "choices": [
+            "笔",
+            "书",
+            "桌子"
+          ],
+          "answer": "笔",
+          "feedback": "ペン是笔。"
+        },
+        {
+          "id": "draft.n5_04.q.lp2",
+          "material_ref": "draft.n5_04.mat.lp",
+          "goal_ref": "draft.n5_04.goal.l",
+          "prompt": "练习对话中笔属于谁？",
+          "choices": [
+            "林",
+            "森",
+            "田中"
+          ],
+          "answer": "林",
+          "feedback": "回答中林さんのペン表示林的笔。"
+        }
+      ],
+      "check": [
+        {
+          "id": "draft.n5_04.q.lc1",
+          "material_ref": "draft.n5_04.mat.lc",
+          "goal_ref": "draft.n5_04.goal.l",
+          "prompt": "检查对话提问所属用了哪个疑问词？",
+          "choices": [
+            "だれ",
+            "どれ",
+            "どの"
+          ],
+          "answer": "だれ",
+          "feedback": "だれの询问拥有者。"
+        },
+        {
+          "id": "draft.n5_04.q.lc2",
+          "material_ref": "draft.n5_04.mat.lc",
+          "goal_ref": "draft.n5_04.goal.l",
+          "prompt": "检查对话问哪种物品？",
+          "choices": [
+            "桌子",
+            "书",
+            "笔"
+          ],
+          "answer": "桌子",
+          "feedback": "机读つくえ。"
+        },
+        {
+          "id": "draft.n5_04.q.lc3",
+          "material_ref": "draft.n5_04.mat.lc",
+          "goal_ref": "draft.n5_04.goal.l",
+          "prompt": "检查对话桌子属于谁？",
+          "choices": [
+            "田中",
+            "林",
+            "森"
+          ],
+          "answer": "田中",
+          "feedback": "回答是田中さんの机。"
+        },
+        {
+          "id": "draft.n5_04.q.lc4",
+          "material_ref": "draft.n5_04.mat.lc",
+          "goal_ref": "draft.n5_04.goal.l",
+          "prompt": "林提问时听到哪个词接在机前？",
+          "choices": [
+            "この",
+            "その",
+            "あの"
+          ],
+          "answer": "この",
+          "feedback": "林用この机指自己手边的桌子。"
+        },
+        {
+          "id": "draft.n5_04.q.lc5",
+          "material_ref": "draft.n5_04.mat.lc",
+          "goal_ref": "draft.n5_04.goal.l",
+          "prompt": "森最后指出远处是什么？",
+          "choices": [
+            "书",
+            "笔",
+            "桌子"
+          ],
+          "answer": "书",
+          "feedback": "あれは本指远处的书。"
+        }
+      ],
+      "review_zh": "把问话者、位置、物品、主人分开记；出错先核脚本，换新情境复练，不计听力成绩。"
+    },
+    {
+      "id": "draft.n5_04.lesson.o",
+      "planning_key": "N5-04-L05",
+      "type": "O",
+      "title": "说写指认与归属",
+      "prerequisites": [
+        "N5-03",
+        "draft.n5_04.lesson.l"
+      ],
+      "prerequisite_status": "recommended_not_verified",
+      "goals": [
+        {
+          "id": "draft.n5_04.goal.o",
+          "text": "在明确位置下指认三件物品，分别说写两句物品归属并问答。"
+        }
+      ],
+      "word_refs": [
+        "draft.n5_04.word.places",
+        "draft.n5_04.word.objects",
+        "draft.n5_04.word.people",
+        "draft.n5_04.word.pointer",
+        "draft.n5_04.word.grammar",
+        "draft.n5_04.word.schedule",
+        "draft.n5_04.word.subjects"
+      ],
+      "explanation_zh": "先确定当前说话者：手边これ／この，听者手边それ／その，双方远处あれ／あの。可说これは本です或この本は林さんの本です。问主人用だれの，问哪件独立用どれ、接名词用どの。三件按书、笔、桌子指认；再用两句の说明所属。示范给日文、假名及中文，练习和检查应使用各自的卡；对话可接受自然等义表达。",
+      "materials": [
+        {
+          "id": "draft.n5_04.mat.ot",
+          "role": "teach",
+          "context_zh": "田中说话：书在手边、笔在林手边、桌子离双方远；书属田中、笔属林。",
+          "jp": "これは本です。それはペンです。あれは机です。この本は田中さんの本です。そのペンは林さんのペンです。",
+          "kana": "これはほんです。それはペンです。あれはつくえです。このほんはたなかさんのほんです。そのペンははやしさんのペンです。",
+          "zh": "这是书，那是笔，远处是桌子。这本书是田中的，那支笔是林的。",
+          "goal_refs": [
+            "draft.n5_04.goal.o"
+          ]
+        },
+        {
+          "id": "draft.n5_04.mat.op",
+          "role": "practice",
+          "context_zh": "森说话：笔在森手边、书在听者田中手边、桌子远离双方；笔属森、书属田中。",
+          "jp": "これ：ペン／それ：本／あれ：机。森のペン、田中の本。",
+          "kana": "これ：ペン／それ：ほん／あれ：つくえ。もりのペン、たなかのほん。",
+          "zh": "这：笔；那：书；远处：桌子。森的笔，田中的书。",
+          "goal_refs": [
+            "draft.n5_04.goal.o"
+          ]
+        },
+        {
+          "id": "draft.n5_04.mat.oc",
+          "role": "check",
+          "context_zh": "林说话：桌子在林手边、笔在听者森手边、书远离双方；桌子属林、笔属森。",
+          "jp": "これ：机／それ：ペン／あれ：本。林の机、森のペン。",
+          "kana": "これ：つくえ／それ：ペン／あれ：ほん。はやしのつくえ、もりのペン。",
+          "zh": "这：桌子；那：笔；远处：书。林的桌子，森的笔。",
+          "goal_refs": [
+            "draft.n5_04.goal.o"
+          ]
+        }
+      ],
+      "practice": [
+        {
+          "id": "draft.n5_04.q.op1",
+          "material_ref": "draft.n5_04.mat.op",
+          "goal_ref": "draft.n5_04.goal.o",
+          "prompt": "练习卡森近处的物品？",
+          "choices": [
+            "笔",
+            "书",
+            "桌子"
+          ],
+          "answer": "笔",
+          "feedback": "森手边是ペン。"
+        },
+        {
+          "id": "draft.n5_04.q.op2",
+          "material_ref": "draft.n5_04.mat.op",
+          "goal_ref": "draft.n5_04.goal.o",
+          "prompt": "练习卡书的主人？",
+          "choices": [
+            "田中",
+            "森",
+            "林"
+          ],
+          "answer": "田中",
+          "feedback": "田中の本。"
+        }
+      ],
+      "check": [
+        {
+          "id": "draft.n5_04.q.oc1",
+          "material_ref": "draft.n5_04.mat.oc",
+          "goal_ref": "draft.n5_04.goal.o",
+          "prompt": "检查卡离双方远的物品？",
+          "choices": [
+            "书",
+            "桌子",
+            "笔"
+          ],
+          "answer": "书",
+          "feedback": "あれ对应远处本。"
+        },
+        {
+          "id": "draft.n5_04.q.oc2",
+          "material_ref": "draft.n5_04.mat.oc",
+          "goal_ref": "draft.n5_04.goal.o",
+          "prompt": "检查卡笔的主人？",
+          "choices": [
+            "森",
+            "林",
+            "田中"
+          ],
+          "answer": "森",
+          "feedback": "森のペン。"
+        }
+      ],
+      "review_zh": "人工标出错在位置、指示词后是否接名词或所属；换卡后重说重写，不写入错题或SRS。",
+      "performance": {
+        "practice": {
+          "card_zh": "这：笔；那：书；远处：桌子。森的笔，田中的书。",
+          "prompt_zh": "依练习卡指认三物，说写两句归属，再与伙伴练だれの问答。"
+        },
+        "check": {
+          "card_zh": "这：桌子；那：笔；远处：书。林的桌子，森的笔。",
+          "prompt_zh": "口说渠道；课内检查共同要求：用检查卡分别口说及书写三物与两句归属，并各完成一组だれの问答；人工反馈。 书写渠道；课内检查共同要求：用检查卡分别口说及书写三物与两句归属，并各完成一组だれの问答；人工反馈。"
+        },
+        "rubric_zh": "任务完成：0：大部分项目缺失；1：完成部分指物、归属或问答；2：三物、两句归属与两组问答均完成\n语言准确：0：指示词或所属错误致信息不可辨；1：有错误但主要信息可辨；2：指示词、名词连接与の基本准确\n连贯：0：物品及主人关系无法辨认；1：部分关系需追问才能理解；2：三物及两位主人关系清楚\n语境得体：0：问答不对应；1：部分对应或礼貌形式不稳定；2：位置视角与问答对应，礼貌形式恰当\n阈值：说写分别人工四维各0–2，至少6/8且每维至少1，并完成各自全部任务；接受自然等义表达。阈值待试测。"
+      }
+    }
+  ],
+  "exam": {
+    "id": "draft.n5_04.exam.unit",
+    "materials": [
+      {
+        "id": "draft.n5_04.mat.examr",
+        "role": "exam_reading",
+        "context_zh": "虚构课程表，每行是一个课时，最后一行是教师资料。",
+        "jp": "時間割\n月曜日 三時 数学 学校\n水曜日 二時 日本語 教室\n金曜日 一時 音楽 教室\n先生：田中",
+        "kana": "じかんわり\nげつようび さんじ すうがく がっこう\nすいようび にじ にほんご きょうしつ\nきんようび いちじ おんがく きょうしつ\nせんせい：たなか",
+        "zh": "课程表：周一三点数学在学校；周三两点日语在教室；周五一点音乐在教室；老师田中。"
+      },
+      {
+        "id": "draft.n5_04.mat.examl",
+        "role": "exam_listening",
+        "context_zh": "林与田中分处两端，林手边有一件物品，另一件远离双方。林先提问，田中回答，林再指远处的物品。",
+        "jp": "林：これはだれの机ですか。田中：森さんの机です。林：あれは田中さんの本です。",
+        "kana": "はやし：これはだれのつくえですか。たなか：もりさんのつくえです。はやし：あれはたなかさんのほんです。",
+        "zh": "林：这是谁的桌子？田中：森的桌子。林：远处那是田中的书。"
+      },
+      {
+        "id": "draft.n5_04.mat.examo",
+        "role": "exam_output",
+        "context_zh": "田中说话：书在田中手边，桌子在听者林手边，笔离双方远；书属森，桌子属林。",
+        "jp": "これ：本／それ：机／あれ：ペン。森の本、林の机。",
+        "kana": "これ：ほん／それ：つくえ／あれ：ペン。もりのほん、はやしのつくえ。",
+        "zh": "这：书；那：桌子；远处：笔。森的书，林的桌子。"
+      }
+    ],
+    "reading": [
+      {
+        "id": "draft.n5_04.q.er1",
+        "material_ref": "draft.n5_04.mat.examr",
+        "goal_ref": "draft.n5_04.goal.r",
+        "prompt": "单元表周一的科目？",
+        "choices": [
+          "数学",
+          "日语",
+          "音乐"
+        ],
+        "answer": "数学",
+        "feedback": "月曜日行写数学。"
+      },
+      {
+        "id": "draft.n5_04.q.er2",
+        "material_ref": "draft.n5_04.mat.examr",
+        "goal_ref": "draft.n5_04.goal.r",
+        "prompt": "单元表日语课的星期？",
+        "choices": [
+          "周三",
+          "周一",
+          "周五"
+        ],
+        "answer": "周三",
+        "feedback": "水曜日是周三。"
+      },
+      {
+        "id": "draft.n5_04.q.er3",
+        "material_ref": "draft.n5_04.mat.examr",
+        "goal_ref": "draft.n5_04.goal.r",
+        "prompt": "单元表日语课的时间？",
+        "choices": [
+          "两点",
+          "一点",
+          "三点"
+        ],
+        "answer": "两点",
+        "feedback": "日本語行写二時。"
+      },
+      {
+        "id": "draft.n5_04.q.er4",
+        "material_ref": "draft.n5_04.mat.examr",
+        "goal_ref": "draft.n5_04.goal.r",
+        "prompt": "单元表音乐课的地点？",
+        "choices": [
+          "教室",
+          "学校",
+          "桌子"
+        ],
+        "answer": "教室",
+        "feedback": "音楽行写教室。"
+      },
+      {
+        "id": "draft.n5_04.q.er5",
+        "material_ref": "draft.n5_04.mat.examr",
+        "goal_ref": "draft.n5_04.goal.r",
+        "prompt": "单元表老师是谁？",
+        "choices": [
+          "田中",
+          "林",
+          "森"
+        ],
+        "answer": "田中",
+        "feedback": "先生后是田中。"
+      }
+    ],
+    "listening": [
+      {
+        "id": "draft.n5_04.q.el1",
+        "material_ref": "draft.n5_04.mat.examl",
+        "goal_ref": "draft.n5_04.goal.l",
+        "prompt": "单元录音中问所属用了哪个疑问词？",
+        "choices": [
+          "だれ",
+          "どれ",
+          "どの"
+        ],
+        "answer": "だれ",
+        "feedback": "だれの询问拥有者。"
+      },
+      {
+        "id": "draft.n5_04.q.el2",
+        "material_ref": "draft.n5_04.mat.examl",
+        "goal_ref": "draft.n5_04.goal.l",
+        "prompt": "单元录音中提问的物品？",
+        "choices": [
+          "桌子",
+          "笔",
+          "书"
+        ],
+        "answer": "桌子",
+        "feedback": "だれの机询问桌子的主人。"
+      },
+      {
+        "id": "draft.n5_04.q.el3",
+        "material_ref": "draft.n5_04.mat.examl",
+        "goal_ref": "draft.n5_04.goal.l",
+        "prompt": "单元录音中桌子的主人？",
+        "choices": [
+          "森",
+          "林",
+          "田中"
+        ],
+        "answer": "森",
+        "feedback": "田中回答森さんの机。"
+      },
+      {
+        "id": "draft.n5_04.q.el4",
+        "material_ref": "draft.n5_04.mat.examl",
+        "goal_ref": "draft.n5_04.goal.l",
+        "prompt": "单元录音中远处的物品？",
+        "choices": [
+          "书",
+          "笔",
+          "桌子"
+        ],
+        "answer": "书",
+        "feedback": "あれは田中さんの本。"
+      },
+      {
+        "id": "draft.n5_04.q.el5",
+        "material_ref": "draft.n5_04.mat.examl",
+        "goal_ref": "draft.n5_04.goal.l",
+        "prompt": "单元录音中远处那件物品的主人？",
+        "choices": [
+          "田中",
+          "林",
+          "森"
+        ],
+        "answer": "田中",
+        "feedback": "田中さんの本。"
+      }
+    ],
+    "scoring": "读听各五题每题一分，建议各至少4/5；听力无审校音频而阻塞。说写人工各至少6/8且每维至少1并完成任务。单元结果未定。",
+    "output": {
+      "card_zh": "这：书；那：桌子；远处：笔。森的书，林的桌子。",
+      "prompt_zh": "根据单元卡与伙伴互动，口头指认三物，说明两句归属，至少两轮问答，含一组だれの和一组どれ或どの。 根据单元卡独立写三句指认、两句归属，并写一组だれの及一组どれ或どの问答。",
+      "rubric_zh": "任务完成：0：大部分项目缺失；1：完成部分指物、归属或问答；2：三物、两句归属与两组问答均完成\n语言准确：0：指示词或所属错误致信息不可辨；1：有错误但主要信息可辨；2：指示词、名词连接与の基本准确\n连贯：0：物品及主人关系无法辨认；1：部分关系需追问才能理解；2：三物及两位主人关系清楚\n语境得体：0：问答不对应；1：部分对应或礼貌形式不稳定；2：位置视角与问答对应，礼貌形式恰当\n阈值：说写分别人工四维各0–2，至少6/8且每维至少1，并完成各自全部任务；接受自然等义表达。阈值待试测。",
+      "scoring": "human_only"
+    }
+  },
+  "performance": {
+    "goal_refs": [
+      "draft.n5_04.goal.o"
+    ],
+    "practice_material_ref": "draft.n5_04.mat.op",
+    "check_material_ref": "draft.n5_04.mat.oc",
+    "exam_material_ref": "draft.n5_04.mat.examo",
+    "practice": "依练习卡指认三物，说写两句归属，再与伙伴练だれの问答。",
+    "practice_feedback": "先核对说话者位置和拥有者；错误后换物重新描述。",
+    "check": "用检查卡分别口说及书写三物与两句归属，并各完成一组だれの问答；人工反馈。",
+    "exam_speaking": "根据单元卡与伙伴互动，口头指认三物，说明两句归属，至少两轮问答，含一组だれの和一组どれ或どの。",
+    "exam_writing": "根据单元卡独立写三句指认、两句归属，并写一组だれの及一组どれ或どの问答。",
+    "exam_sample_jp": "これは本です。それは机です。あれはペンです。この本は森さんの本です。その机は林さんの机です。だれの本ですか。森さんの本です。林さんの机はどれですか。これです。",
+    "exam_sample_kana": "これはほんです。それはつくえです。あれはペンです。このほんはもりさんのほんです。そのつくえははやしさんのつくえです。だれのほんですか。もりさんのほんです。はやしさんのつくえはどれですか。これです。",
+    "exam_sample_zh": "这是书，那是桌子，远处是笔。这本书是森的，那张桌子是林的。是谁的书？森的书。林的桌子是哪一个？（林回答）这个。",
+    "threshold": "说写分别人工四维各0–2，至少6/8且每维至少1，并完成各自全部任务；接受自然等义表达。阈值待试测。",
+    "rubric_dimensions": {
+      "任务完成": [
+        "0：大部分项目缺失",
+        "1：完成部分指物、归属或问答",
+        "2：三物、两句归属与两组问答均完成"
+      ],
+      "语言准确": [
+        "0：指示词或所属错误致信息不可辨",
+        "1：有错误但主要信息可辨",
+        "2：指示词、名词连接与の基本准确"
+      ],
+      "连贯": [
+        "0：物品及主人关系无法辨认",
+        "1：部分关系需追问才能理解",
+        "2：三物及两位主人关系清楚"
+      ],
+      "语境得体": [
+        "0：问答不对应",
+        "1：部分对应或礼貌形式不稳定",
+        "2：位置视角与问答对应，礼貌形式恰当"
+      ]
+    },
+    "rubric": "任务完成：0：大部分项目缺失；1：完成部分指物、归属或问答；2：三物、两句归属与两组问答均完成\n语言准确：0：指示词或所属错误致信息不可辨；1：有错误但主要信息可辨；2：指示词、名词连接与の基本准确\n连贯：0：物品及主人关系无法辨认；1：部分关系需追问才能理解；2：三物及两位主人关系清楚\n语境得体：0：问答不对应；1：部分对应或礼貌形式不稳定；2：位置视角与问答对应，礼貌形式恰当\n阈值：说写分别人工四维各0–2，至少6/8且每维至少1，并完成各自全部任务；接受自然等义表达。阈值待试测。",
+    "check_speaking": "口说渠道；课内检查共同要求：用检查卡分别口说及书写三物与两句归属，并各完成一组だれの问答；人工反馈。",
+    "check_writing": "书写渠道；课内检查共同要求：用检查卡分别口说及书写三物与两句归属，并各完成一组だれの问答；人工反馈。"
+  },
+  "asset_contract": "nekogo.n5_draft.v1",
+  "asset_version": 1,
+  "source_asset_sha256": "abc47538b7f0e30c61b596b79a18a758e3f8f97ada9bf8811fed61e96df7d6f9"
+}

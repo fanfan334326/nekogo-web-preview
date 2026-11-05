@@ -1,0 +1,567 @@
+{
+  "schema": "draft.n4_06.course.v1",
+  "unit": "N4-06",
+  "theme": "学习与校园",
+  "status": {
+    "publication": "draft",
+    "language_review": "pending",
+    "teaching_review": "pending",
+    "rights_review": "pending",
+    "audio": "not_produced",
+    "audio_review": "pending",
+    "listening_score": "blocked",
+    "speaking_writing": "human_only",
+    "runtime_verification": "not_run",
+    "app_integration": "not_integrated"
+  },
+  "words": [
+    {
+      "id": "draft.n4_06.word.1",
+      "forms": "提出（ていしゅつ）",
+      "meaning_zh": "提交",
+      "source": "AI_original_draft"
+    },
+    {
+      "id": "draft.n4_06.word.2",
+      "forms": "課題（かだい）",
+      "meaning_zh": "作业",
+      "source": "AI_original_draft"
+    },
+    {
+      "id": "draft.n4_06.word.3",
+      "forms": "資料（しりょう）",
+      "meaning_zh": "资料",
+      "source": "AI_original_draft"
+    },
+    {
+      "id": "draft.n4_06.word.4",
+      "forms": "質問（しつもん）",
+      "meaning_zh": "提问",
+      "source": "AI_original_draft"
+    }
+  ],
+  "lessons": [
+    {
+      "id": "draft.n4_06.lesson.v",
+      "planning_key": "N4-06-L01",
+      "type": "V",
+      "title": "学习与校园的关键词",
+      "prerequisites": [],
+      "goals": [
+        {
+          "id": "draft.n4_06.lesson.v.goal",
+          "text": "学习与校园的关键词"
+        }
+      ],
+      "word_refs": [
+        "draft.n4_06.word.1",
+        "draft.n4_06.word.2",
+        "draft.n4_06.word.3",
+        "draft.n4_06.word.4"
+      ],
+      "explanation_zh": "「提出」的「出」在这个词里读「しゅつ」。「課題を提出する」就是把作业交上去。",
+      "materials": [
+        {
+          "id": "draft.n4_06.lesson.v.mat.practice1",
+          "role": "practice1",
+          "jp": "提出"
+        },
+        {
+          "id": "draft.n4_06.lesson.v.mat.practice3",
+          "role": "practice3",
+          "jp": "資料"
+        },
+        {
+          "id": "draft.n4_06.lesson.v.mat.check2",
+          "role": "check2",
+          "jp": "課題"
+        },
+        {
+          "id": "draft.n4_06.lesson.v.mat.check4",
+          "role": "check4",
+          "jp": "質問"
+        },
+        {
+          "id": "draft.n4_06.lesson.v.kanji-reading",
+          "role": "practice",
+          "jp": "提出",
+          "goal_refs": [
+            "draft.n4_06.lesson.v.goal"
+          ]
+        }
+      ],
+      "practice": [
+        {
+          "id": "draft.n4_06.lesson.v.mat.practice1.q1",
+          "material_ref": "draft.n4_06.lesson.v.mat.practice1",
+          "goal_ref": "draft.n4_06.lesson.v.goal",
+          "word_refs": [
+            "draft.n4_06.word.1",
+            "draft.n4_06.word.2",
+            "draft.n4_06.word.3",
+            "draft.n4_06.word.4"
+          ],
+          "prompt": "这个词的意思是什么？",
+          "choices": [
+            "提交",
+            "作业",
+            "资料"
+          ],
+          "answer": "提交",
+          "feedback": "提出（ていしゅつ），意思是「提交」。"
+        },
+        {
+          "id": "draft.n4_06.lesson.v.mat.practice3.q1",
+          "material_ref": "draft.n4_06.lesson.v.mat.practice3",
+          "goal_ref": "draft.n4_06.lesson.v.goal",
+          "word_refs": [
+            "draft.n4_06.word.1",
+            "draft.n4_06.word.2",
+            "draft.n4_06.word.3",
+            "draft.n4_06.word.4"
+          ],
+          "prompt": "这个词的意思是什么？",
+          "choices": [
+            "提交",
+            "资料",
+            "提问"
+          ],
+          "answer": "资料",
+          "feedback": "資料（しりょう），意思是「资料」。"
+        },
+        {
+          "id": "draft.n4_06.lesson.v.kanji-reading.q1",
+          "material_ref": "draft.n4_06.lesson.v.kanji-reading",
+          "goal_ref": "draft.n4_06.lesson.v.goal",
+          "word_refs": [
+            "draft.n4_06.word.1"
+          ],
+          "prompt": "这个词怎么读？",
+          "choices": [
+            "ていで",
+            "たいしゅつ",
+            "ていしゅつ"
+          ],
+          "answer": "ていしゅつ",
+          "feedback": "「提出」的「出」在这个词里读「しゅつ」。「課題を提出する」就是把作业交上去。"
+        }
+      ],
+      "check": [
+        {
+          "id": "draft.n4_06.lesson.v.mat.check2.q1",
+          "material_ref": "draft.n4_06.lesson.v.mat.check2",
+          "goal_ref": "draft.n4_06.lesson.v.goal",
+          "word_refs": [
+            "draft.n4_06.word.1",
+            "draft.n4_06.word.2",
+            "draft.n4_06.word.3",
+            "draft.n4_06.word.4"
+          ],
+          "prompt": "这个词的意思是什么？",
+          "choices": [
+            "资料",
+            "提问",
+            "作业"
+          ],
+          "answer": "作业",
+          "feedback": "課題（かだい），意思是「作业」。"
+        },
+        {
+          "id": "draft.n4_06.lesson.v.mat.check4.q1",
+          "material_ref": "draft.n4_06.lesson.v.mat.check4",
+          "goal_ref": "draft.n4_06.lesson.v.goal",
+          "word_refs": [
+            "draft.n4_06.word.1",
+            "draft.n4_06.word.2",
+            "draft.n4_06.word.3",
+            "draft.n4_06.word.4"
+          ],
+          "prompt": "这个词的意思是什么？",
+          "choices": [
+            "提问",
+            "提交",
+            "作业"
+          ],
+          "answer": "提问",
+          "feedback": "質問（しつもん），意思是「提问」。"
+        }
+      ]
+    },
+    {
+      "id": "draft.n4_06.lesson.g",
+      "planning_key": "N4-06-L02",
+      "type": "G",
+      "title": "〜ながら",
+      "prerequisites": [
+        "N4-06-L01"
+      ],
+      "goals": [
+        {
+          "id": "draft.n4_06.lesson.g.goal",
+          "text": "〜ながら"
+        }
+      ],
+      "word_refs": [
+        "draft.n4_06.word.1",
+        "draft.n4_06.word.2",
+        "draft.n4_06.word.3",
+        "draft.n4_06.word.4"
+      ],
+      "explanation_zh": "动词ます形去掉ます，加「ながら」表示同一主体同时做两件事，后面的动词通常是主要动作。",
+      "materials": [
+        {
+          "id": "draft.n4_06.lesson.g.mat.teach",
+          "role": "teach",
+          "jp": "説明を聞きながら、メモを取ります。"
+        },
+        {
+          "id": "draft.n4_06.lesson.g.mat.practice",
+          "role": "practice",
+          "jp": "辞書を引きながら、短い記事を読みます。"
+        },
+        {
+          "id": "draft.n4_06.lesson.g.mat.check",
+          "role": "check",
+          "jp": "先生の話を聞き＿、大事なところに印を付けます。"
+        }
+      ],
+      "practice": [
+        {
+          "id": "draft.n4_06.lesson.g.mat.practice.q1",
+          "material_ref": "draft.n4_06.lesson.g.mat.practice",
+          "goal_ref": "draft.n4_06.lesson.g.goal",
+          "word_refs": [
+            "draft.n4_06.word.1",
+            "draft.n4_06.word.2",
+            "draft.n4_06.word.3",
+            "draft.n4_06.word.4"
+          ],
+          "prompt": "读文章时同时做什么？",
+          "choices": [
+            "写邮件",
+            "查字典",
+            "做运动"
+          ],
+          "answer": "查字典",
+          "feedback": "正确答案是「查字典」。原句：辞書を引きながら、短い記事を読みます。"
+        }
+      ],
+      "check": [
+        {
+          "id": "draft.n4_06.lesson.g.mat.check.q1",
+          "material_ref": "draft.n4_06.lesson.g.mat.check",
+          "goal_ref": "draft.n4_06.lesson.g.goal",
+          "word_refs": [
+            "draft.n4_06.word.1",
+            "draft.n4_06.word.2",
+            "draft.n4_06.word.3",
+            "draft.n4_06.word.4"
+          ],
+          "prompt": "哪个词表示两个动作同时进行？",
+          "choices": [
+            "ながら",
+            "たら",
+            "まで"
+          ],
+          "answer": "ながら",
+          "feedback": "正确答案是「ながら」。原文：先生の話を聞き＿、大事なところに印を付けます。"
+        }
+      ],
+      "common_mistake_zh": "用「聞きながら」表示边听边做另一件事。接「ながら」的是「聞き」，不是「聞く」。"
+    },
+    {
+      "id": "draft.n4_06.lesson.r",
+      "planning_key": "N4-06-L03",
+      "type": "R",
+      "title": "读课程作业说明",
+      "prerequisites": [
+        "N4-06-L02"
+      ],
+      "goals": [
+        {
+          "id": "draft.n4_06.lesson.r.goal",
+          "text": "读课程作业说明"
+        }
+      ],
+      "word_refs": [
+        "draft.n4_06.word.1",
+        "draft.n4_06.word.2",
+        "draft.n4_06.word.3",
+        "draft.n4_06.word.4"
+      ],
+      "explanation_zh": "「紙で」说明提交形式，下一句给出截止日。记下两项才足够。",
+      "materials": [
+        {
+          "id": "draft.n4_06.lesson.r.mat.teach",
+          "role": "teach",
+          "jp": "レポートは紙で提出してください。締め切りは来週の月曜です。"
+        },
+        {
+          "id": "draft.n4_06.lesson.r.mat.practice",
+          "role": "practice",
+          "jp": "作文は木曜までにメールで出してください。資料は教室で配ります。"
+        },
+        {
+          "id": "draft.n4_06.lesson.r.mat.check",
+          "role": "check",
+          "jp": "宿題の答えは月曜に配ります。質問がある人は火曜の昼休みに来てください。"
+        }
+      ],
+      "practice": [
+        {
+          "id": "draft.n4_06.lesson.r.mat.practice.q1",
+          "material_ref": "draft.n4_06.lesson.r.mat.practice",
+          "goal_ref": "draft.n4_06.lesson.r.goal",
+          "word_refs": [
+            "draft.n4_06.word.1",
+            "draft.n4_06.word.2",
+            "draft.n4_06.word.3",
+            "draft.n4_06.word.4"
+          ],
+          "prompt": "作文通过什么方式交？",
+          "choices": [
+            "电子邮件",
+            "交纸本",
+            "课堂口头报告"
+          ],
+          "answer": "电子邮件",
+          "feedback": "正确答案是「电子邮件」。原句：作文は木曜までにメールで出してください。資料は教室で配ります。"
+        }
+      ],
+      "check": [
+        {
+          "id": "draft.n4_06.lesson.r.mat.check.q1",
+          "material_ref": "draft.n4_06.lesson.r.mat.check",
+          "goal_ref": "draft.n4_06.lesson.r.goal",
+          "word_refs": [
+            "draft.n4_06.word.1",
+            "draft.n4_06.word.2",
+            "draft.n4_06.word.3",
+            "draft.n4_06.word.4"
+          ],
+          "prompt": "什么时候可以问问题？",
+          "choices": [
+            "周一发答案时",
+            "周二放学后",
+            "周二午休"
+          ],
+          "answer": "周二午休",
+          "feedback": "正确答案是「周二午休」。原文：宿題の答えは月曜に配ります。質問がある人は火曜の昼休みに来てください。"
+        }
+      ]
+    },
+    {
+      "id": "draft.n4_06.lesson.l",
+      "planning_key": "N4-06-L04",
+      "type": "L",
+      "title": "听清老师的建议",
+      "prerequisites": [
+        "N4-06-L03"
+      ],
+      "goals": [
+        {
+          "id": "draft.n4_06.lesson.l.goal",
+          "text": "听清老师的建议"
+        }
+      ],
+      "word_refs": [
+        "draft.n4_06.word.1",
+        "draft.n4_06.word.2",
+        "draft.n4_06.word.3",
+        "draft.n4_06.word.4"
+      ],
+      "explanation_zh": "分清学生的问题和老师给出的下一步。 先听清学生的问题，再记老师建议看的地方。顺序表贴在教室前面。",
+      "materials": [
+        {
+          "id": "draft.n4_06.lesson.l.mat.teach",
+          "role": "teach",
+          "jp": "A：発表の順番が分かりません。B：教室の前に貼ってある表を見てください。"
+        },
+        {
+          "id": "draft.n4_06.lesson.l.mat.practice",
+          "role": "practice",
+          "jp": "A：この漢字が読めません。B：まず辞書で調べて、分からなければ授業の後で聞いてください。"
+        },
+        {
+          "id": "draft.n4_06.lesson.l.mat.check",
+          "role": "check",
+          "jp": "A：この資料も提出しますか。B：資料は読むだけでいいです。出すのは感想文です。"
+        }
+      ],
+      "practice": [
+        {
+          "id": "draft.n4_06.lesson.l.mat.practice.q1",
+          "material_ref": "draft.n4_06.lesson.l.mat.practice",
+          "goal_ref": "draft.n4_06.lesson.l.goal",
+          "word_refs": [
+            "draft.n4_06.word.1",
+            "draft.n4_06.word.2",
+            "draft.n4_06.word.3",
+            "draft.n4_06.word.4"
+          ],
+          "prompt": "老师建议先做什么？",
+          "choices": [
+            "下课马上走",
+            "先交作业",
+            "查字典"
+          ],
+          "answer": "查字典",
+          "feedback": "正确答案是「查字典」。原句：A：この漢字が読めません。B：まず辞書で調べて、分からなければ授業の後で聞いてください。"
+        }
+      ],
+      "check": [
+        {
+          "id": "draft.n4_06.lesson.l.mat.check.q1",
+          "material_ref": "draft.n4_06.lesson.l.mat.check",
+          "goal_ref": "draft.n4_06.lesson.l.goal",
+          "word_refs": [
+            "draft.n4_06.word.1",
+            "draft.n4_06.word.2",
+            "draft.n4_06.word.3",
+            "draft.n4_06.word.4"
+          ],
+          "prompt": "要交什么？",
+          "choices": [
+            "两项都要交",
+            "读后感",
+            "资料"
+          ],
+          "answer": "读后感",
+          "feedback": "正确答案是「读后感」。原文：A：この資料も提出しますか。B：資料は読むだけでいいです。出すのは感想文です。"
+        }
+      ]
+    },
+    {
+      "id": "draft.n4_06.lesson.o",
+      "planning_key": "N4-06-L05",
+      "type": "O",
+      "title": "向老师求助",
+      "prerequisites": [
+        "N4-06-L04"
+      ],
+      "goals": [
+        {
+          "id": "draft.n4_06.lesson.o.goal",
+          "text": "向老师求助"
+        }
+      ],
+      "word_refs": [
+        "draft.n4_06.word.1",
+        "draft.n4_06.word.2",
+        "draft.n4_06.word.3",
+        "draft.n4_06.word.4"
+      ],
+      "explanation_zh": "先用日语口头说明，再把关键内容写成一条短消息。完成后按下面的要点核对。",
+      "materials": [],
+      "performance": {
+        "practice": {
+          "card_zh": "你看懂作业主题，但不确定交纸本还是电子档。写一句问老师的话，并口头确认收到的答复。",
+          "prompt_zh": "先说一遍，再写下要传达的内容。"
+        },
+        "rubric_zh": "说明是什么资料；说明疑问；问清取得或提交的方式。",
+        "check": {
+          "card_zh": "老师说讨论资料要在课堂上发，但你会缺席。你能收电子邮件，也能周四午休到教室拿。",
+          "prompt_zh": "用日语写邮件说明会缺席，询问能否收到电子档，或何时可以领取纸本。"
+        }
+      }
+    },
+    {
+      "id": "draft.n4_06.lesson.t",
+      "planning_key": "N4-06-L06",
+      "type": "T",
+      "title": "改变学习方法",
+      "prerequisites": [
+        "N4-06-L05"
+      ],
+      "goals": [
+        {
+          "id": "draft.n4_06.lesson.t.goal",
+          "text": "改变学习方法"
+        }
+      ],
+      "word_refs": [
+        "draft.n4_06.word.1",
+        "draft.n4_06.word.2",
+        "draft.n4_06.word.3",
+        "draft.n4_06.word.4"
+      ],
+      "explanation_zh": "先用日语口头说明，再把关键内容写成一条短消息。完成后按下面的要点核对。",
+      "materials": [],
+      "performance": {
+        "practice": {
+          "card_zh": "原来边听录音边记笔记，新课要求先听完整段再复述。说明你怎样调整学习顺序。",
+          "prompt_zh": "先说一遍，再写下要传达的内容。"
+        },
+        "rubric_zh": "区分原方法和新方法，按顺序说明动作。",
+        "check": {
+          "card_zh": "原计划和同学一起读文章，对方只能晚上上线。改成先各自读，再约时间讨论难句。",
+          "prompt_zh": "用日语作答，再按自查要点核对。"
+        }
+      }
+    }
+  ],
+  "exam": {
+    "id": "draft.n4_06.exam.unit",
+    "materials": [
+      {
+        "id": "draft.n4_06.exam.unit.mat.exam_reading",
+        "role": "exam_reading",
+        "jp": "発表の資料は前日までに提出してください。当日は資料を持ってくる必要はありません。"
+      },
+      {
+        "id": "draft.n4_06.exam.unit.mat.exam_listening",
+        "role": "exam_listening",
+        "jp": "A：課題の締め切りは今日ですか。B：いいえ、明日の昼までです。質問は今日の放課後に受けます。"
+      }
+    ],
+    "reading": [
+      {
+        "id": "draft.n4_06.exam.unit.mat.exam_reading.q1",
+        "material_ref": "draft.n4_06.exam.unit.mat.exam_reading",
+        "goal_ref": "draft.n4_06.lesson.r.goal",
+        "word_refs": [
+          "draft.n4_06.word.1",
+          "draft.n4_06.word.2",
+          "draft.n4_06.word.3",
+          "draft.n4_06.word.4"
+        ],
+        "prompt": "哪项必须提前做？",
+        "choices": [
+          "完成当天的提问",
+          "提交资料",
+          "带资料到教室"
+        ],
+        "answer": "提交资料",
+        "feedback": "正确答案是「提交资料」。原文：発表の資料は前日までに提出してください。当日は資料を持ってくる必要はありません。"
+      }
+    ],
+    "listening": [
+      {
+        "id": "draft.n4_06.exam.unit.mat.exam_listening.q1",
+        "material_ref": "draft.n4_06.exam.unit.mat.exam_listening",
+        "goal_ref": "draft.n4_06.lesson.l.goal",
+        "word_refs": [
+          "draft.n4_06.word.1",
+          "draft.n4_06.word.2",
+          "draft.n4_06.word.3",
+          "draft.n4_06.word.4"
+        ],
+        "prompt": "什么时候能提问？",
+        "choices": [
+          "今天放学后",
+          "明天中午",
+          "明天放学后"
+        ],
+        "answer": "今天放学后",
+        "feedback": "正确答案是「今天放学后」。原文：A：課題の締め切りは今日ですか。B：いいえ、明日の昼までです。質問は今日の放課後に受けます。"
+      }
+    ],
+    "output": {
+      "id": "draft.n4_06.q.eo1",
+      "card_zh": "老师通知：资料最迟周四下午五点发邮件提交。有问题的同学可以周三午休到教室问。",
+      "prompt_zh": "先用日语给缺席的同学口头转述，再写两句提醒。",
+      "rubric_zh": "周四五点前发邮件交资料；周三午休去教室提问；两件事的时间与做法各自对应。",
+      "scoring": "human_only"
+    }
+  }
+}

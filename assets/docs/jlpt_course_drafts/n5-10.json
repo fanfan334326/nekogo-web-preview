@@ -1,0 +1,481 @@
+{
+  "schema": "draft.n5_10.course.v1",
+  "unit": "N5-10",
+  "theme": "天气与季节",
+  "status": {
+    "publication": "draft",
+    "language_review": "pending",
+    "rights_review": "pending",
+    "audio": "not_produced",
+    "listening_score": "blocked",
+    "speaking_writing": "human_only"
+  },
+  "words": [
+    {
+      "id": "draft.n5_10.word.1",
+      "forms": "春／夏／秋／冬（はる／なつ／あき／ふゆ）",
+      "meaning_zh": "春／夏／秋／冬",
+      "source": "AI_original_draft"
+    },
+    {
+      "id": "draft.n5_10.word.2",
+      "forms": "晴れ（はれ）",
+      "meaning_zh": "晴天",
+      "source": "AI_original_draft"
+    },
+    {
+      "id": "draft.n5_10.word.3",
+      "forms": "雨（あめ）",
+      "meaning_zh": "雨",
+      "source": "AI_original_draft"
+    },
+    {
+      "id": "draft.n5_10.word.4",
+      "forms": "雪（ゆき）",
+      "meaning_zh": "雪",
+      "source": "AI_original_draft"
+    },
+    {
+      "id": "draft.n5_10.word.5",
+      "forms": "暑い（あつい）",
+      "meaning_zh": "天气热",
+      "source": "AI_original_draft"
+    },
+    {
+      "id": "draft.n5_10.word.6",
+      "forms": "寒い（さむい）",
+      "meaning_zh": "天气冷",
+      "source": "AI_original_draft"
+    }
+  ],
+  "lessons": [
+    {
+      "id": "draft.n5_10.lesson.v",
+      "planning_key": "N5-10-L01",
+      "type": "V",
+      "title": "辨认季节和天气词",
+      "prerequisites": [
+        "N5-09"
+      ],
+      "goals": [
+        {
+          "id": "draft.n5_10.lesson.v.goal",
+          "text": "辨认季节和天气词"
+        }
+      ],
+      "word_refs": [
+        "draft.n5_10.word.1",
+        "draft.n5_10.word.2",
+        "draft.n5_10.word.3",
+        "draft.n5_10.word.4",
+        "draft.n5_10.word.5",
+        "draft.n5_10.word.6"
+      ],
+      "explanation_zh": "「暑い」「寒い」可以形容天气带来的冷热感受。「晴れ」「雨」「雪」用来描述天气。",
+      "materials": [
+        {
+          "id": "draft.n5_10.lesson.v.teach",
+          "role": "teach",
+          "jp": "夏は暑いです。冬は寒いです。",
+          "goal_refs": [
+            "draft.n5_10.lesson.v.goal"
+          ]
+        },
+        {
+          "id": "draft.n5_10.lesson.v.practice",
+          "role": "practice",
+          "jp": "今日は雪です。",
+          "goal_refs": [
+            "draft.n5_10.lesson.v.goal"
+          ]
+        },
+        {
+          "id": "draft.n5_10.lesson.v.check",
+          "role": "check",
+          "jp": "春のあとに夏が来ます。",
+          "goal_refs": [
+            "draft.n5_10.lesson.v.goal"
+          ]
+        }
+      ],
+      "practice": [
+        {
+          "id": "draft.n5_10.lesson.v.practice.q1",
+          "material_ref": "draft.n5_10.lesson.v.practice",
+          "goal_ref": "draft.n5_10.lesson.v.goal",
+          "word_refs": [
+            "draft.n5_10.word.1",
+            "draft.n5_10.word.2",
+            "draft.n5_10.word.3",
+            "draft.n5_10.word.4",
+            "draft.n5_10.word.5",
+            "draft.n5_10.word.6"
+          ],
+          "prompt": "今天是什么天气？",
+          "choices": [
+            "下雨",
+            "下雪",
+            "晴天"
+          ],
+          "answer": "下雪",
+          "feedback": "「雪」指雪。"
+        }
+      ],
+      "check": [
+        {
+          "id": "draft.n5_10.lesson.v.check.q1",
+          "material_ref": "draft.n5_10.lesson.v.check",
+          "goal_ref": "draft.n5_10.lesson.v.goal",
+          "word_refs": [
+            "draft.n5_10.word.1",
+            "draft.n5_10.word.2",
+            "draft.n5_10.word.3",
+            "draft.n5_10.word.4",
+            "draft.n5_10.word.5",
+            "draft.n5_10.word.6"
+          ],
+          "prompt": "春天之后是什么季节？",
+          "choices": [
+            "冬天",
+            "秋天",
+            "夏天"
+          ],
+          "answer": "夏天",
+          "feedback": "「春のあと」是春天之后。"
+        }
+      ]
+    },
+    {
+      "id": "draft.n5_10.lesson.g",
+      "planning_key": "N5-10-L02",
+      "type": "G",
+      "title": "用「暑いです」「寒いです」说感受",
+      "prerequisites": [
+        "N5-10-L01"
+      ],
+      "goals": [
+        {
+          "id": "draft.n5_10.lesson.g.goal",
+          "text": "用「暑いです」「寒いです」说感受"
+        }
+      ],
+      "word_refs": [
+        "draft.n5_10.word.1",
+        "draft.n5_10.word.2",
+        "draft.n5_10.word.3",
+        "draft.n5_10.word.4",
+        "draft.n5_10.word.5",
+        "draft.n5_10.word.6"
+      ],
+      "explanation_zh": "天气的冷热可以直接用「暑いです」「寒いです」表达。问别人今天冷不冷，可以说「今日は寒いですか」。",
+      "common_mistake_zh": "说今天不热用「今日は暑くないです」。「暑い」变否定时，词尾的「い」换成「くない」。",
+      "materials": [
+        {
+          "id": "draft.n5_10.lesson.g.teach",
+          "role": "teach",
+          "jp": "今日は晴れです。少し暑いです。",
+          "goal_refs": [
+            "draft.n5_10.lesson.g.goal"
+          ]
+        },
+        {
+          "id": "draft.n5_10.lesson.g.practice",
+          "role": "practice",
+          "jp": "今日はとても寒いです。",
+          "goal_refs": [
+            "draft.n5_10.lesson.g.goal"
+          ]
+        },
+        {
+          "id": "draft.n5_10.lesson.g.check",
+          "role": "check",
+          "jp": "今日は暑いですか。いいえ、〔　〕。",
+          "goal_refs": [
+            "draft.n5_10.lesson.g.goal"
+          ]
+        }
+      ],
+      "practice": [
+        {
+          "id": "draft.n5_10.lesson.g.practice.q1",
+          "material_ref": "draft.n5_10.lesson.g.practice",
+          "goal_ref": "draft.n5_10.lesson.g.goal",
+          "word_refs": [
+            "draft.n5_10.word.1",
+            "draft.n5_10.word.2",
+            "draft.n5_10.word.3",
+            "draft.n5_10.word.4",
+            "draft.n5_10.word.5",
+            "draft.n5_10.word.6"
+          ],
+          "prompt": "说话的人觉得今天怎么样？",
+          "choices": [
+            "很冷",
+            "有点热",
+            "很热"
+          ],
+          "answer": "很冷",
+          "feedback": "「とても」加强程度，「寒い」是冷。"
+        }
+      ],
+      "check": [
+        {
+          "id": "draft.n5_10.lesson.g.check.q1",
+          "material_ref": "draft.n5_10.lesson.g.check",
+          "goal_ref": "draft.n5_10.lesson.g.goal",
+          "word_refs": [
+            "draft.n5_10.word.1",
+            "draft.n5_10.word.2",
+            "draft.n5_10.word.3",
+            "draft.n5_10.word.4",
+            "draft.n5_10.word.5",
+            "draft.n5_10.word.6"
+          ],
+          "prompt": "要回答「不，今天不热」，应填什么？",
+          "choices": [
+            "暑いです",
+            "暑くないです",
+            "雨です"
+          ],
+          "answer": "暑くないです",
+          "feedback": "「暑い」变为「暑くない」，就表示不热。"
+        }
+      ]
+    },
+    {
+      "id": "draft.n5_10.lesson.r",
+      "planning_key": "N5-10-L03",
+      "type": "R",
+      "title": "读今天和明天的天气",
+      "prerequisites": [
+        "N5-10-L02"
+      ],
+      "goals": [
+        {
+          "id": "draft.n5_10.lesson.r.goal",
+          "text": "读今天和明天的天气"
+        }
+      ],
+      "word_refs": [
+        "draft.n5_10.word.1",
+        "draft.n5_10.word.2",
+        "draft.n5_10.word.3",
+        "draft.n5_10.word.4",
+        "draft.n5_10.word.5",
+        "draft.n5_10.word.6"
+      ],
+      "explanation_zh": "先圈出「今日」「明日」，再把每个时间和天气配对。",
+      "materials": [
+        {
+          "id": "draft.n5_10.lesson.r.teach",
+          "role": "teach",
+          "jp": "今日は雨です。明日は晴れです。",
+          "goal_refs": [
+            "draft.n5_10.lesson.r.goal"
+          ]
+        },
+        {
+          "id": "draft.n5_10.lesson.r.practice",
+          "role": "practice",
+          "jp": "今日は晴れです。明日は雨です。",
+          "goal_refs": [
+            "draft.n5_10.lesson.r.goal"
+          ]
+        },
+        {
+          "id": "draft.n5_10.lesson.r.check",
+          "role": "check",
+          "jp": "今日は寒いです。明日は少し暖かいです。",
+          "goal_refs": [
+            "draft.n5_10.lesson.r.goal"
+          ]
+        }
+      ],
+      "practice": [
+        {
+          "id": "draft.n5_10.lesson.r.practice.q1",
+          "material_ref": "draft.n5_10.lesson.r.practice",
+          "goal_ref": "draft.n5_10.lesson.r.goal",
+          "word_refs": [
+            "draft.n5_10.word.1",
+            "draft.n5_10.word.2",
+            "draft.n5_10.word.3",
+            "draft.n5_10.word.4",
+            "draft.n5_10.word.5",
+            "draft.n5_10.word.6"
+          ],
+          "prompt": "哪一天会下雨？",
+          "choices": [
+            "今天",
+            "明天",
+            "两天都会"
+          ],
+          "answer": "明天",
+          "feedback": "第二句说「明日は雨です」。"
+        }
+      ],
+      "check": [
+        {
+          "id": "draft.n5_10.lesson.r.check.q1",
+          "material_ref": "draft.n5_10.lesson.r.check",
+          "goal_ref": "draft.n5_10.lesson.r.goal",
+          "word_refs": [
+            "draft.n5_10.word.1",
+            "draft.n5_10.word.2",
+            "draft.n5_10.word.3",
+            "draft.n5_10.word.4",
+            "draft.n5_10.word.5",
+            "draft.n5_10.word.6"
+          ],
+          "prompt": "按说明，哪一天比较暖和？",
+          "choices": [
+            "今天",
+            "明天",
+            "两天一样"
+          ],
+          "answer": "明天",
+          "feedback": "「暖かい」是暖和，说明指的是明天。"
+        }
+      ]
+    },
+    {
+      "id": "draft.n5_10.lesson.l",
+      "planning_key": "N5-10-L04",
+      "type": "L",
+      "title": "听天气和冷热感受",
+      "prerequisites": [
+        "N5-10-L03"
+      ],
+      "goals": [
+        {
+          "id": "draft.n5_10.lesson.l.goal",
+          "text": "听天气和冷热感受"
+        }
+      ],
+      "word_refs": [
+        "draft.n5_10.word.1",
+        "draft.n5_10.word.2",
+        "draft.n5_10.word.3",
+        "draft.n5_10.word.4",
+        "draft.n5_10.word.5",
+        "draft.n5_10.word.6"
+      ],
+      "explanation_zh": "先听说的是哪一天，再抓天气词和「暑い」「寒い」。可用设备朗读示例。",
+      "materials": [
+        {
+          "id": "draft.n5_10.lesson.l.teach",
+          "role": "teach",
+          "jp": "A：今日は寒いですか。B：はい、寒いです。朝は雪でした。",
+          "goal_refs": [
+            "draft.n5_10.lesson.l.goal"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "draft.n5_10.lesson.o",
+      "planning_key": "N5-10-L05",
+      "type": "O",
+      "title": "告诉朋友天气和感受",
+      "prerequisites": [
+        "N5-10-L04"
+      ],
+      "goals": [
+        {
+          "id": "draft.n5_10.lesson.o.goal",
+          "text": "告诉朋友天气和感受"
+        }
+      ],
+      "word_refs": [
+        "draft.n5_10.word.1",
+        "draft.n5_10.word.2",
+        "draft.n5_10.word.3",
+        "draft.n5_10.word.4",
+        "draft.n5_10.word.5",
+        "draft.n5_10.word.6"
+      ],
+      "explanation_zh": "先说一遍，再写下要传达的内容，最后按自查要点核对。",
+      "materials": [],
+      "performance": {
+        "practice": {
+          "card_zh": "今天是晴天，你觉得有点热。",
+          "prompt_zh": "用日语说出天气和感受。"
+        },
+        "check": {
+          "card_zh": "今天下雨，你觉得很冷；明天预报是晴天。",
+          "prompt_zh": "给朋友写一条日语消息，写清今天的天气、感受和明天的天气。"
+        },
+        "rubric_zh": "今天和明天分得清；雨、晴和冷热表达正确。",
+        "scoring": "human_only"
+      }
+    }
+  ],
+  "exam": {
+    "id": "draft.n5_10.exam",
+    "materials": [
+      {
+        "id": "draft.n5_10.exam.reading",
+        "role": "exam_reading",
+        "jp": "今日：雨。明日：晴れ。今日は少し寒いです。"
+      },
+      {
+        "id": "draft.n5_10.exam.listening",
+        "role": "exam_listening",
+        "jp": "A：明日は雪ですか。B：いいえ、明日は晴れです。でも、寒いです。"
+      }
+    ],
+    "reading": [
+      {
+        "id": "draft.n5_10.exam.reading.q1",
+        "material_ref": "draft.n5_10.exam.reading",
+        "goal_ref": "draft.n5_10.lesson.r.goal",
+        "word_refs": [
+          "draft.n5_10.word.1",
+          "draft.n5_10.word.2",
+          "draft.n5_10.word.3",
+          "draft.n5_10.word.4",
+          "draft.n5_10.word.5",
+          "draft.n5_10.word.6"
+        ],
+        "prompt": "通知怎么描述今天？",
+        "choices": [
+          "晴天，有点冷",
+          "下雨，有点冷",
+          "下雨，很热"
+        ],
+        "answer": "下雨，有点冷",
+        "feedback": "「今日：雨」和「少し寒い」都在说今天。"
+      }
+    ],
+    "listening": [
+      {
+        "id": "draft.n5_10.exam.listening.q1",
+        "material_ref": "draft.n5_10.exam.listening",
+        "goal_ref": "draft.n5_10.lesson.l.goal",
+        "word_refs": [
+          "draft.n5_10.word.1",
+          "draft.n5_10.word.2",
+          "draft.n5_10.word.3",
+          "draft.n5_10.word.4",
+          "draft.n5_10.word.5",
+          "draft.n5_10.word.6"
+        ],
+        "prompt": "明天天气怎样？",
+        "choices": [
+          "晴天，但冷",
+          "下雪，而且冷",
+          "晴天，而且热"
+        ],
+        "answer": "晴天，但冷",
+        "feedback": "「晴れ」是晴天，「でも、寒い」补充说会冷。"
+      }
+    ],
+    "output": {
+      "card_zh": "今天晴天，很热；明天预报下雨。",
+      "prompt_zh": "写一条日语消息告诉朋友，再口头说一遍。",
+      "rubric_zh": "说清哪天晴、哪天下雨；把很热明确说成今天的感受。",
+      "id": "draft.n5_10.exam.output",
+      "scoring": "human_only"
+    }
+  }
+}

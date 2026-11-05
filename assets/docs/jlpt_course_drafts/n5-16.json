@@ -1,0 +1,481 @@
+{
+  "schema": "draft.n5_16.course.v1",
+  "unit": "N5-16",
+  "theme": "综合应用",
+  "status": {
+    "publication": "draft",
+    "language_review": "pending",
+    "rights_review": "pending",
+    "audio": "not_produced",
+    "listening_score": "blocked",
+    "speaking_writing": "human_only"
+  },
+  "words": [
+    {
+      "id": "draft.n5_16.word.1",
+      "forms": "家族（かぞく）",
+      "meaning_zh": "家人",
+      "source": "AI_original_draft"
+    },
+    {
+      "id": "draft.n5_16.word.2",
+      "forms": "買い物（かいもの）",
+      "meaning_zh": "购物",
+      "source": "AI_original_draft"
+    },
+    {
+      "id": "draft.n5_16.word.3",
+      "forms": "駅（えき）",
+      "meaning_zh": "车站",
+      "source": "AI_original_draft"
+    },
+    {
+      "id": "draft.n5_16.word.4",
+      "forms": "電車（でんしゃ）",
+      "meaning_zh": "电车",
+      "source": "AI_original_draft"
+    },
+    {
+      "id": "draft.n5_16.word.5",
+      "forms": "午前（ごぜん）／午後（ごご）",
+      "meaning_zh": "上午／下午",
+      "source": "AI_original_draft"
+    },
+    {
+      "id": "draft.n5_16.word.6",
+      "forms": "待つ（まつ）",
+      "meaning_zh": "等",
+      "source": "AI_original_draft"
+    }
+  ],
+  "lessons": [
+    {
+      "id": "draft.n5_16.lesson.v",
+      "planning_key": "N5-16-L01",
+      "type": "V",
+      "title": "从日程里找人物、时间和交通方式",
+      "prerequisites": [
+        "N5-15"
+      ],
+      "goals": [
+        {
+          "id": "draft.n5_16.lesson.v.goal",
+          "text": "从日程里找人物、时间和交通方式"
+        }
+      ],
+      "word_refs": [
+        "draft.n5_16.word.1",
+        "draft.n5_16.word.2",
+        "draft.n5_16.word.3",
+        "draft.n5_16.word.4",
+        "draft.n5_16.word.5",
+        "draft.n5_16.word.6"
+      ],
+      "explanation_zh": "先找谁一起去，再找几点、坐什么。",
+      "materials": [
+        {
+          "id": "draft.n5_16.lesson.v.teach",
+          "role": "teach",
+          "jp": "午後二時に妹と駅で会います。それから電車で出かけます。",
+          "goal_refs": [
+            "draft.n5_16.lesson.v.goal"
+          ]
+        },
+        {
+          "id": "draft.n5_16.lesson.v.practice",
+          "role": "practice",
+          "jp": "午前九時に父と駅で会います。",
+          "goal_refs": [
+            "draft.n5_16.lesson.v.goal"
+          ]
+        },
+        {
+          "id": "draft.n5_16.lesson.v.check",
+          "role": "check",
+          "jp": "母とバスでデパートへ行きます。",
+          "goal_refs": [
+            "draft.n5_16.lesson.v.goal"
+          ]
+        }
+      ],
+      "practice": [
+        {
+          "id": "draft.n5_16.lesson.v.practice.q1",
+          "material_ref": "draft.n5_16.lesson.v.practice",
+          "goal_ref": "draft.n5_16.lesson.v.goal",
+          "word_refs": [
+            "draft.n5_16.word.1",
+            "draft.n5_16.word.2",
+            "draft.n5_16.word.3",
+            "draft.n5_16.word.4",
+            "draft.n5_16.word.5",
+            "draft.n5_16.word.6"
+          ],
+          "prompt": "几点和爸爸见面？",
+          "choices": [
+            "上午九点",
+            "下午九点",
+            "上午十点"
+          ],
+          "answer": "上午九点",
+          "feedback": "「午前九時」是上午九点。"
+        }
+      ],
+      "check": [
+        {
+          "id": "draft.n5_16.lesson.v.check.q1",
+          "material_ref": "draft.n5_16.lesson.v.check",
+          "goal_ref": "draft.n5_16.lesson.v.goal",
+          "word_refs": [
+            "draft.n5_16.word.1",
+            "draft.n5_16.word.2",
+            "draft.n5_16.word.3",
+            "draft.n5_16.word.4",
+            "draft.n5_16.word.5",
+            "draft.n5_16.word.6"
+          ],
+          "prompt": "和妈妈怎么去商场？",
+          "choices": [
+            "坐电车",
+            "坐公交",
+            "走路"
+          ],
+          "answer": "坐公交",
+          "feedback": "「バスで」说明交通方式。"
+        }
+      ]
+    },
+    {
+      "id": "draft.n5_16.lesson.g",
+      "planning_key": "N5-16-L02",
+      "type": "G",
+      "title": "把问价、邀约和过去活动连起来",
+      "prerequisites": [
+        "N5-16-L01"
+      ],
+      "goals": [
+        {
+          "id": "draft.n5_16.lesson.g.goal",
+          "text": "把问价、邀约和过去活动连起来"
+        }
+      ],
+      "word_refs": [
+        "draft.n5_16.word.1",
+        "draft.n5_16.word.2",
+        "draft.n5_16.word.3",
+        "draft.n5_16.word.4",
+        "draft.n5_16.word.5",
+        "draft.n5_16.word.6"
+      ],
+      "explanation_zh": "问价用「いくらですか」。发出邀约可以用「ませんか」。回顾昨天时，把动词改成过去式。",
+      "common_mistake_zh": "「昨日、何を買いましたか」问昨天买了什么；想约明天一起买东西，用「明日、一緒に買い物に行きませんか」。",
+      "materials": [
+        {
+          "id": "draft.n5_16.lesson.g.teach",
+          "role": "teach",
+          "jp": "A：昨日、何をしましたか。B：駅の店でシャツを買いました。A：明日、一緒に買い物に行きませんか。",
+          "goal_refs": [
+            "draft.n5_16.lesson.g.goal"
+          ]
+        },
+        {
+          "id": "draft.n5_16.lesson.g.practice",
+          "role": "practice",
+          "jp": "A：これはいくらですか。B：千円です。",
+          "goal_refs": [
+            "draft.n5_16.lesson.g.goal"
+          ]
+        },
+        {
+          "id": "draft.n5_16.lesson.g.check",
+          "role": "check",
+          "jp": "A：昨日、靴を買いましたか。B：いいえ、〔　〕。",
+          "goal_refs": [
+            "draft.n5_16.lesson.g.goal"
+          ]
+        }
+      ],
+      "practice": [
+        {
+          "id": "draft.n5_16.lesson.g.practice.q1",
+          "material_ref": "draft.n5_16.lesson.g.practice",
+          "goal_ref": "draft.n5_16.lesson.g.goal",
+          "word_refs": [
+            "draft.n5_16.word.1",
+            "draft.n5_16.word.2",
+            "draft.n5_16.word.3",
+            "draft.n5_16.word.4",
+            "draft.n5_16.word.5",
+            "draft.n5_16.word.6"
+          ],
+          "prompt": "A 想知道什么？",
+          "choices": [
+            "见面时间",
+            "东西的价格",
+            "回家的路线"
+          ],
+          "answer": "东西的价格",
+          "feedback": "「いくら」是在问价格。"
+        }
+      ],
+      "check": [
+        {
+          "id": "draft.n5_16.lesson.g.check.q1",
+          "material_ref": "draft.n5_16.lesson.g.check",
+          "goal_ref": "draft.n5_16.lesson.g.goal",
+          "word_refs": [
+            "draft.n5_16.word.1",
+            "draft.n5_16.word.2",
+            "draft.n5_16.word.3",
+            "draft.n5_16.word.4",
+            "draft.n5_16.word.5",
+            "draft.n5_16.word.6"
+          ],
+          "prompt": "要回答「没买」，应填什么？",
+          "choices": [
+            "買います",
+            "買いました",
+            "買いませんでした"
+          ],
+          "answer": "買いませんでした",
+          "feedback": "「買いませんでした」与昨天的时间一致，也表达否定。"
+        }
+      ]
+    },
+    {
+      "id": "draft.n5_16.lesson.r",
+      "planning_key": "N5-16-L03",
+      "type": "R",
+      "title": "读日程并跟上临时变动",
+      "prerequisites": [
+        "N5-16-L02"
+      ],
+      "goals": [
+        {
+          "id": "draft.n5_16.lesson.r.goal",
+          "text": "读日程并跟上临时变动"
+        }
+      ],
+      "word_refs": [
+        "draft.n5_16.word.1",
+        "draft.n5_16.word.2",
+        "draft.n5_16.word.3",
+        "draft.n5_16.word.4",
+        "draft.n5_16.word.5",
+        "draft.n5_16.word.6"
+      ],
+      "explanation_zh": "先读原计划，再看后来改了什么。没有提到变更的安排仍按原日程。",
+      "materials": [
+        {
+          "id": "draft.n5_16.lesson.r.teach",
+          "role": "teach",
+          "jp": "十時に駅で会います。電車で町へ行きます。十一時に買い物をします。",
+          "goal_refs": [
+            "draft.n5_16.lesson.r.goal"
+          ]
+        },
+        {
+          "id": "draft.n5_16.lesson.r.practice",
+          "role": "practice",
+          "jp": "予定：九時に駅で会います。変更：駅ではなく、バス停で会います。時間は同じです。",
+          "goal_refs": [
+            "draft.n5_16.lesson.r.goal"
+          ]
+        },
+        {
+          "id": "draft.n5_16.lesson.r.check",
+          "role": "check",
+          "jp": "土曜日：午後一時に駅で集合。電車で町へ行き、母の誕生日のプレゼントを買います。連絡：集合は午後二時になりました。場所は同じです。",
+          "goal_refs": [
+            "draft.n5_16.lesson.r.goal"
+          ]
+        }
+      ],
+      "practice": [
+        {
+          "id": "draft.n5_16.lesson.r.practice.q1",
+          "material_ref": "draft.n5_16.lesson.r.practice",
+          "goal_ref": "draft.n5_16.lesson.r.goal",
+          "word_refs": [
+            "draft.n5_16.word.1",
+            "draft.n5_16.word.2",
+            "draft.n5_16.word.3",
+            "draft.n5_16.word.4",
+            "draft.n5_16.word.5",
+            "draft.n5_16.word.6"
+          ],
+          "prompt": "最后几点在哪里见？",
+          "choices": [
+            "九点在车站",
+            "九点在公交车站",
+            "十点在公交车站"
+          ],
+          "answer": "九点在公交车站",
+          "feedback": "地点改成公交车站，时间仍是九点。"
+        }
+      ],
+      "check": [
+        {
+          "id": "draft.n5_16.lesson.r.check.q1",
+          "material_ref": "draft.n5_16.lesson.r.check",
+          "goal_ref": "draft.n5_16.lesson.r.goal",
+          "word_refs": [
+            "draft.n5_16.word.1",
+            "draft.n5_16.word.2",
+            "draft.n5_16.word.3",
+            "draft.n5_16.word.4",
+            "draft.n5_16.word.5",
+            "draft.n5_16.word.6"
+          ],
+          "prompt": "最后的计划是哪一个？",
+          "choices": [
+            "下午两点在车站集合，再坐电车去买礼物",
+            "下午一点在车站集合，再坐公交去买礼物",
+            "下午两点在商场集合，再坐电车去车站"
+          ],
+          "answer": "下午两点在车站集合，再坐电车去买礼物",
+          "feedback": "只有集合时间改成下午两点，地点和之后的安排照旧。"
+        }
+      ]
+    },
+    {
+      "id": "draft.n5_16.lesson.l",
+      "planning_key": "N5-16-L04",
+      "type": "L",
+      "title": "听出会面安排哪里变了",
+      "prerequisites": [
+        "N5-16-L03"
+      ],
+      "goals": [
+        {
+          "id": "draft.n5_16.lesson.l.goal",
+          "text": "听出会面安排哪里变了"
+        }
+      ],
+      "word_refs": [
+        "draft.n5_16.word.1",
+        "draft.n5_16.word.2",
+        "draft.n5_16.word.3",
+        "draft.n5_16.word.4",
+        "draft.n5_16.word.5",
+        "draft.n5_16.word.6"
+      ],
+      "explanation_zh": "先听原提议，再听对方改了哪一项。可用设备朗读示例。",
+      "materials": [
+        {
+          "id": "draft.n5_16.lesson.l.teach",
+          "role": "teach",
+          "jp": "A：明日、一時に駅で会いませんか。B：一時はちょっと……。二時はどうですか。A：いいですね。では、二時に駅で。",
+          "goal_refs": [
+            "draft.n5_16.lesson.l.goal"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "draft.n5_16.lesson.o",
+      "planning_key": "N5-16-L05",
+      "type": "O",
+      "title": "写留言并模拟出行对话",
+      "prerequisites": [
+        "N5-16-L04"
+      ],
+      "goals": [
+        {
+          "id": "draft.n5_16.lesson.o.goal",
+          "text": "写留言并模拟出行对话"
+        }
+      ],
+      "word_refs": [
+        "draft.n5_16.word.1",
+        "draft.n5_16.word.2",
+        "draft.n5_16.word.3",
+        "draft.n5_16.word.4",
+        "draft.n5_16.word.5",
+        "draft.n5_16.word.6"
+      ],
+      "explanation_zh": "先说一遍，再写下要传达的内容，最后按自查要点核对。",
+      "materials": [],
+      "performance": {
+        "practice": {
+          "card_zh": "约姐姐明天十点在车站见，再坐电车去买生日礼物。",
+          "prompt_zh": "先用日语发出邀约，再向家人复述计划。"
+        },
+        "check": {
+          "card_zh": "你们原定明早九点在车站见。家人想改成十点，你同意，交通方式仍是电车。",
+          "prompt_zh": "写一条确认留言，再口头确认时间、地点和交通方式。"
+        },
+        "rubric_zh": "能礼貌邀约或回应；说清最终时间、地点及交通方式。",
+        "scoring": "human_only"
+      }
+    }
+  ],
+  "exam": {
+    "id": "draft.n5_16.exam",
+    "materials": [
+      {
+        "id": "draft.n5_16.exam.reading",
+        "role": "exam_reading",
+        "jp": "日曜日：午前十時にバス停で会います。バスで店へ行きます。帰りは電車です。"
+      },
+      {
+        "id": "draft.n5_16.exam.listening",
+        "role": "exam_listening",
+        "jp": "A：昨日、何を買いましたか。B：父にシャツを買いました。A：今日はどこへ行きますか。B：妹と駅へ行きます。"
+      }
+    ],
+    "reading": [
+      {
+        "id": "draft.n5_16.exam.reading.q1",
+        "material_ref": "draft.n5_16.exam.reading",
+        "goal_ref": "draft.n5_16.lesson.r.goal",
+        "word_refs": [
+          "draft.n5_16.word.1",
+          "draft.n5_16.word.2",
+          "draft.n5_16.word.3",
+          "draft.n5_16.word.4",
+          "draft.n5_16.word.5",
+          "draft.n5_16.word.6"
+        ],
+        "prompt": "去店里坐什么？",
+        "choices": [
+          "坐电车",
+          "坐公交",
+          "走路"
+        ],
+        "answer": "坐公交",
+        "feedback": "去程是「バスで店へ行きます」，电车是回程。"
+      }
+    ],
+    "listening": [
+      {
+        "id": "draft.n5_16.exam.listening.q1",
+        "material_ref": "draft.n5_16.exam.listening",
+        "goal_ref": "draft.n5_16.lesson.l.goal",
+        "word_refs": [
+          "draft.n5_16.word.1",
+          "draft.n5_16.word.2",
+          "draft.n5_16.word.3",
+          "draft.n5_16.word.4",
+          "draft.n5_16.word.5",
+          "draft.n5_16.word.6"
+        ],
+        "prompt": "B 昨天给谁买了什么？",
+        "choices": [
+          "给妹妹买了鞋",
+          "给爸爸买了衬衫",
+          "给爸爸买了鞋"
+        ],
+        "answer": "给爸爸买了衬衫",
+        "feedback": "「父にシャツを買いました」说明给爸爸买了衬衫。"
+      }
+    ],
+    "output": {
+      "card_zh": "你昨天给家人买了衬衫。想约朋友明天下午三点在车站见，再坐电车去逛街。",
+      "prompt_zh": "写一条邀约留言，再模拟见面时谈昨天买的东西。",
+      "rubric_zh": "留言写清时间、地点、交通；对话用过去式说清买给谁、买了什么。",
+      "id": "draft.n5_16.exam.output",
+      "scoring": "human_only"
+    }
+  }
+}

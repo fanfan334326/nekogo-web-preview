@@ -1,0 +1,567 @@
+{
+  "schema": "draft.n4_16.course.v1",
+  "unit": "N4-16",
+  "theme": "综合应用",
+  "status": {
+    "publication": "draft",
+    "language_review": "pending",
+    "teaching_review": "pending",
+    "rights_review": "pending",
+    "audio": "not_produced",
+    "audio_review": "pending",
+    "listening_score": "blocked",
+    "speaking_writing": "human_only",
+    "runtime_verification": "not_run",
+    "app_integration": "not_integrated"
+  },
+  "words": [
+    {
+      "id": "draft.n4_16.word.1",
+      "forms": "集合（しゅうごう）",
+      "meaning_zh": "集合",
+      "source": "AI_original_draft"
+    },
+    {
+      "id": "draft.n4_16.word.2",
+      "forms": "連絡（れんらく）",
+      "meaning_zh": "联系",
+      "source": "AI_original_draft"
+    },
+    {
+      "id": "draft.n4_16.word.3",
+      "forms": "手配（てはい）",
+      "meaning_zh": "安排",
+      "source": "AI_original_draft"
+    },
+    {
+      "id": "draft.n4_16.word.4",
+      "forms": "代わり（かわり）",
+      "meaning_zh": "替代",
+      "source": "AI_original_draft"
+    }
+  ],
+  "lessons": [
+    {
+      "id": "draft.n4_16.lesson.v",
+      "planning_key": "N4-16-L01",
+      "type": "V",
+      "title": "综合应用的关键词",
+      "prerequisites": [],
+      "goals": [
+        {
+          "id": "draft.n4_16.lesson.v.goal",
+          "text": "综合应用的关键词"
+        }
+      ],
+      "word_refs": [
+        "draft.n4_16.word.1",
+        "draft.n4_16.word.2",
+        "draft.n4_16.word.3",
+        "draft.n4_16.word.4"
+      ],
+      "explanation_zh": "「手配」读「てはい」，指提前安排所需的人或物。「車を手配する」就是安排车辆。",
+      "materials": [
+        {
+          "id": "draft.n4_16.lesson.v.mat.practice1",
+          "role": "practice1",
+          "jp": "集合"
+        },
+        {
+          "id": "draft.n4_16.lesson.v.mat.practice3",
+          "role": "practice3",
+          "jp": "手配"
+        },
+        {
+          "id": "draft.n4_16.lesson.v.mat.check2",
+          "role": "check2",
+          "jp": "連絡"
+        },
+        {
+          "id": "draft.n4_16.lesson.v.mat.check4",
+          "role": "check4",
+          "jp": "代わり"
+        },
+        {
+          "id": "draft.n4_16.lesson.v.kanji-reading",
+          "role": "practice",
+          "jp": "手配",
+          "goal_refs": [
+            "draft.n4_16.lesson.v.goal"
+          ]
+        }
+      ],
+      "practice": [
+        {
+          "id": "draft.n4_16.lesson.v.mat.practice1.q1",
+          "material_ref": "draft.n4_16.lesson.v.mat.practice1",
+          "goal_ref": "draft.n4_16.lesson.v.goal",
+          "word_refs": [
+            "draft.n4_16.word.1",
+            "draft.n4_16.word.2",
+            "draft.n4_16.word.3",
+            "draft.n4_16.word.4"
+          ],
+          "prompt": "这个词的意思是什么？",
+          "choices": [
+            "联系",
+            "安排",
+            "集合"
+          ],
+          "answer": "集合",
+          "feedback": "集合（しゅうごう），意思是「集合」。"
+        },
+        {
+          "id": "draft.n4_16.lesson.v.mat.practice3.q1",
+          "material_ref": "draft.n4_16.lesson.v.mat.practice3",
+          "goal_ref": "draft.n4_16.lesson.v.goal",
+          "word_refs": [
+            "draft.n4_16.word.1",
+            "draft.n4_16.word.2",
+            "draft.n4_16.word.3",
+            "draft.n4_16.word.4"
+          ],
+          "prompt": "这个词的意思是什么？",
+          "choices": [
+            "安排",
+            "替代",
+            "集合"
+          ],
+          "answer": "安排",
+          "feedback": "手配（てはい），意思是「安排」。"
+        },
+        {
+          "id": "draft.n4_16.lesson.v.kanji-reading.q1",
+          "material_ref": "draft.n4_16.lesson.v.kanji-reading",
+          "goal_ref": "draft.n4_16.lesson.v.goal",
+          "word_refs": [
+            "draft.n4_16.word.3"
+          ],
+          "prompt": "这个词怎么读？",
+          "choices": [
+            "てはい",
+            "しゅはい",
+            "てばい"
+          ],
+          "answer": "てはい",
+          "feedback": "「手配」读「てはい」，指提前安排所需的人或物。「車を手配する」就是安排车辆。"
+        }
+      ],
+      "check": [
+        {
+          "id": "draft.n4_16.lesson.v.mat.check2.q1",
+          "material_ref": "draft.n4_16.lesson.v.mat.check2",
+          "goal_ref": "draft.n4_16.lesson.v.goal",
+          "word_refs": [
+            "draft.n4_16.word.1",
+            "draft.n4_16.word.2",
+            "draft.n4_16.word.3",
+            "draft.n4_16.word.4"
+          ],
+          "prompt": "这个词的意思是什么？",
+          "choices": [
+            "替代",
+            "联系",
+            "安排"
+          ],
+          "answer": "联系",
+          "feedback": "連絡（れんらく），意思是「联系」。"
+        },
+        {
+          "id": "draft.n4_16.lesson.v.mat.check4.q1",
+          "material_ref": "draft.n4_16.lesson.v.mat.check4",
+          "goal_ref": "draft.n4_16.lesson.v.goal",
+          "word_refs": [
+            "draft.n4_16.word.1",
+            "draft.n4_16.word.2",
+            "draft.n4_16.word.3",
+            "draft.n4_16.word.4"
+          ],
+          "prompt": "这个词的意思是什么？",
+          "choices": [
+            "集合",
+            "联系",
+            "替代"
+          ],
+          "answer": "替代",
+          "feedback": "代わり（かわり），意思是「替代」。"
+        }
+      ]
+    },
+    {
+      "id": "draft.n4_16.lesson.g",
+      "planning_key": "N4-16-L02",
+      "type": "G",
+      "title": "把条件、安排和确认连起来",
+      "prerequisites": [
+        "N4-16-L01"
+      ],
+      "goals": [
+        {
+          "id": "draft.n4_16.lesson.g.goal",
+          "text": "把条件、安排和确认连起来"
+        }
+      ],
+      "word_refs": [
+        "draft.n4_16.word.1",
+        "draft.n4_16.word.2",
+        "draft.n4_16.word.3",
+        "draft.n4_16.word.4"
+      ],
+      "explanation_zh": "先用「〜たら」说触发条件，再用「代わりに」给方案，最后用问句确认对方是否同意。",
+      "materials": [
+        {
+          "id": "draft.n4_16.lesson.g.mat.teach",
+          "role": "teach",
+          "jp": "雨が降ったら、代わりに駅前の店で会いましょう。三時で大丈夫ですか。"
+        },
+        {
+          "id": "draft.n4_16.lesson.g.mat.practice",
+          "role": "practice",
+          "jp": "店が休みだったら、代わりに隣の店で待ちます。"
+        },
+        {
+          "id": "draft.n4_16.lesson.g.mat.check",
+          "role": "check",
+          "jp": "会場が使えなかったら、＿に学校の教室を借りましょう。"
+        }
+      ],
+      "practice": [
+        {
+          "id": "draft.n4_16.lesson.g.mat.practice.q1",
+          "material_ref": "draft.n4_16.lesson.g.mat.practice",
+          "goal_ref": "draft.n4_16.lesson.g.goal",
+          "word_refs": [
+            "draft.n4_16.word.1",
+            "draft.n4_16.word.2",
+            "draft.n4_16.word.3",
+            "draft.n4_16.word.4"
+          ],
+          "prompt": "什么情况下去隔壁店？",
+          "choices": [
+            "原来的店休息",
+            "到得太早",
+            "下雨"
+          ],
+          "answer": "原来的店休息",
+          "feedback": "正确答案是「原来的店休息」。原句：店が休みだったら、代わりに隣の店で待ちます。"
+        }
+      ],
+      "check": [
+        {
+          "id": "draft.n4_16.lesson.g.mat.check.q1",
+          "material_ref": "draft.n4_16.lesson.g.mat.check",
+          "goal_ref": "draft.n4_16.lesson.g.goal",
+          "word_refs": [
+            "draft.n4_16.word.1",
+            "draft.n4_16.word.2",
+            "draft.n4_16.word.3",
+            "draft.n4_16.word.4"
+          ],
+          "prompt": "哪个词引出替代办法？",
+          "choices": [
+            "以前",
+            "必要",
+            "代わり"
+          ],
+          "answer": "代わり",
+          "feedback": "正确答案是「代わり」。原文：会場が使えなかったら、＿に学校の教室を借りましょう。"
+        }
+      ],
+      "common_mistake_zh": "「代わりに」后面要接替代方案。通知别人时，再补上新时间或地点，不能只说旧安排取消。"
+    },
+    {
+      "id": "draft.n4_16.lesson.r",
+      "planning_key": "N4-16-L03",
+      "type": "R",
+      "title": "从多条消息拼出安排",
+      "prerequisites": [
+        "N4-16-L02"
+      ],
+      "goals": [
+        {
+          "id": "draft.n4_16.lesson.r.goal",
+          "text": "从多条消息拼出安排"
+        }
+      ],
+      "word_refs": [
+        "draft.n4_16.word.1",
+        "draft.n4_16.word.2",
+        "draft.n4_16.word.3",
+        "draft.n4_16.word.4"
+      ],
+      "explanation_zh": "最新消息只改了时间。把新时间和原地点合起来，得到周五四点、二楼。",
+      "materials": [
+        {
+          "id": "draft.n4_16.lesson.r.mat.teach",
+          "role": "teach",
+          "jp": "第一報：金曜の会議は三時、二階。追記：開始は四時に変更します。部屋はそのままです。"
+        },
+        {
+          "id": "draft.n4_16.lesson.r.mat.practice",
+          "role": "practice",
+          "jp": "最初の連絡：土曜三時、中央駅東口。変更：東口は工事中なので西口に集合します。時間はそのままです。"
+        },
+        {
+          "id": "draft.n4_16.lesson.r.mat.check",
+          "role": "check",
+          "jp": "変更の連絡：会議は午後二時からのままです。二階の会議室は使えないので、一階に集まってください。"
+        }
+      ],
+      "practice": [
+        {
+          "id": "draft.n4_16.lesson.r.mat.practice.q1",
+          "material_ref": "draft.n4_16.lesson.r.mat.practice",
+          "goal_ref": "draft.n4_16.lesson.r.goal",
+          "word_refs": [
+            "draft.n4_16.word.1",
+            "draft.n4_16.word.2",
+            "draft.n4_16.word.3",
+            "draft.n4_16.word.4"
+          ],
+          "prompt": "最后的安排是？",
+          "choices": [
+            "周六三点中央站东口",
+            "周日三点中央站西口",
+            "周六三点中央站西口"
+          ],
+          "answer": "周六三点中央站西口",
+          "feedback": "正确答案是「周六三点中央站西口」。原句：最初の連絡：土曜三時、中央駅東口。変更：東口は工事中なので西口に集合します。時間はそのままです。"
+        }
+      ],
+      "check": [
+        {
+          "id": "draft.n4_16.lesson.r.mat.check.q1",
+          "material_ref": "draft.n4_16.lesson.r.mat.check",
+          "goal_ref": "draft.n4_16.lesson.r.goal",
+          "word_refs": [
+            "draft.n4_16.word.1",
+            "draft.n4_16.word.2",
+            "draft.n4_16.word.3",
+            "draft.n4_16.word.4"
+          ],
+          "prompt": "最终集合在哪里？",
+          "choices": [
+            "楼外入口",
+            "一楼",
+            "二楼"
+          ],
+          "answer": "一楼",
+          "feedback": "正确答案是「一楼」。原文：変更の連絡：会議は午後二時からのままです。二階の会議室は使えないので、一階に集まってください。"
+        }
+      ]
+    },
+    {
+      "id": "draft.n4_16.lesson.l",
+      "planning_key": "N4-16-L04",
+      "type": "L",
+      "title": "听懂多项变动",
+      "prerequisites": [
+        "N4-16-L03"
+      ],
+      "goals": [
+        {
+          "id": "draft.n4_16.lesson.l.goal",
+          "text": "听懂多项变动"
+        }
+      ],
+      "word_refs": [
+        "draft.n4_16.word.1",
+        "draft.n4_16.word.2",
+        "draft.n4_16.word.3",
+        "draft.n4_16.word.4"
+      ],
+      "explanation_zh": "分别记录时间、地点和每个人的任务，最后复述一次。 时间仍是三点，地点改为车站西口，B 负责联系店里。",
+      "materials": [
+        {
+          "id": "draft.n4_16.lesson.l.mat.teach",
+          "role": "teach",
+          "jp": "A：集合は三時のままです。場所だけ、駅の西口に変わりました。B：じゃあ、私が店に連絡します。"
+        },
+        {
+          "id": "draft.n4_16.lesson.l.mat.practice",
+          "role": "practice",
+          "jp": "A：集合は四時に変更です。場所は駅前のまま。B：では、私が先に店へ連絡します。"
+        },
+        {
+          "id": "draft.n4_16.lesson.l.mat.check",
+          "role": "check",
+          "jp": "A：予約した店は閉まっていました。B：では隣の店にしましょう。私がみんなに知らせます。"
+        }
+      ],
+      "practice": [
+        {
+          "id": "draft.n4_16.lesson.l.mat.practice.q1",
+          "material_ref": "draft.n4_16.lesson.l.mat.practice",
+          "goal_ref": "draft.n4_16.lesson.l.goal",
+          "word_refs": [
+            "draft.n4_16.word.1",
+            "draft.n4_16.word.2",
+            "draft.n4_16.word.3",
+            "draft.n4_16.word.4"
+          ],
+          "prompt": "哪项安排没有变？",
+          "choices": [
+            "联系店的人",
+            "集合地点",
+            "集合时间"
+          ],
+          "answer": "集合地点",
+          "feedback": "正确答案是「集合地点」。原句：A：集合は四時に変更です。場所は駅前のまま。B：では、私が先に店へ連絡します。"
+        }
+      ],
+      "check": [
+        {
+          "id": "draft.n4_16.lesson.l.mat.check.q1",
+          "material_ref": "draft.n4_16.lesson.l.mat.check",
+          "goal_ref": "draft.n4_16.lesson.l.goal",
+          "word_refs": [
+            "draft.n4_16.word.1",
+            "draft.n4_16.word.2",
+            "draft.n4_16.word.3",
+            "draft.n4_16.word.4"
+          ],
+          "prompt": "谁负责通知大家？",
+          "choices": [
+            "提议换一家店的人",
+            "说预约的店关门的人",
+            "隔壁店的店员"
+          ],
+          "answer": "提议换一家店的人",
+          "feedback": "提议换到隔壁店的人接着说「私がみんなに知らせます」，主动负责通知。"
+        }
+      ]
+    },
+    {
+      "id": "draft.n4_16.lesson.o",
+      "planning_key": "N4-16-L05",
+      "type": "O",
+      "title": "协调一次周末活动",
+      "prerequisites": [
+        "N4-16-L04"
+      ],
+      "goals": [
+        {
+          "id": "draft.n4_16.lesson.o.goal",
+          "text": "协调一次周末活动"
+        }
+      ],
+      "word_refs": [
+        "draft.n4_16.word.1",
+        "draft.n4_16.word.2",
+        "draft.n4_16.word.3",
+        "draft.n4_16.word.4"
+      ],
+      "explanation_zh": "先用日语口头说明，再把关键内容写成一条短消息。完成后按下面的要点核对。",
+      "materials": [],
+      "performance": {
+        "practice": {
+          "card_zh": "你负责约两位朋友聚餐。一人晚半小时，另一人不熟车站。口头协商后写最终安排。",
+          "prompt_zh": "先说一遍，再写下要传达的内容。"
+        },
+        "rubric_zh": "写明周日和四点或之后的时间；新地点和出口清楚；给出群内联系办法。",
+        "check": {
+          "card_zh": "周日讨论原定下午三点半在图书馆。教室改到车站西口旁的社区中心，一位同学四点才能到。三人可在群里联系。",
+          "prompt_zh": "用日语写最终通知，把时间改到所有人都能参加，并提醒只知道旧地点的同学。"
+        }
+      }
+    },
+    {
+      "id": "draft.n4_16.lesson.t",
+      "planning_key": "N4-16-L06",
+      "type": "T",
+      "title": "接到临时变更后重新确认",
+      "prerequisites": [
+        "N4-16-L05"
+      ],
+      "goals": [
+        {
+          "id": "draft.n4_16.lesson.t.goal",
+          "text": "接到临时变更后重新确认"
+        }
+      ],
+      "word_refs": [
+        "draft.n4_16.word.1",
+        "draft.n4_16.word.2",
+        "draft.n4_16.word.3",
+        "draft.n4_16.word.4"
+      ],
+      "explanation_zh": "先用日语口头说明，再把关键内容写成一条短消息。完成后按下面的要点核对。",
+      "materials": [],
+      "performance": {
+        "practice": {
+          "card_zh": "原餐厅停业，隔壁店有位但只留到六点半。两位朋友中一人六点四十到。重新选方案并通知两人。",
+          "prompt_zh": "先说一遍，再写下要传达的内容。"
+        },
+        "rubric_zh": "说明旧方案为何不能用，给出可行时间和地点。",
+        "check": {
+          "card_zh": "会场提前关门，替代地点要先预约。说明新的集合时间和地点，并请一位同伴负责预约。",
+          "prompt_zh": "用日语作答，再按自查要点核对。"
+        }
+      }
+    }
+  ],
+  "exam": {
+    "id": "draft.n4_16.exam.unit",
+    "materials": [
+      {
+        "id": "draft.n4_16.exam.unit.mat.exam_reading",
+        "role": "exam_reading",
+        "jp": "店は午後六時まで席を用意できます。遅れる場合は、五時半までに店へ電話してください。"
+      },
+      {
+        "id": "draft.n4_16.exam.unit.mat.exam_listening",
+        "role": "exam_listening",
+        "jp": "A：駅前で会う予定でしたね。B：はい。ただ、南口は混んでいるので北口にしましょう。五時は変えなくていいです。"
+      }
+    ],
+    "reading": [
+      {
+        "id": "draft.n4_16.exam.unit.mat.exam_reading.q1",
+        "material_ref": "draft.n4_16.exam.unit.mat.exam_reading",
+        "goal_ref": "draft.n4_16.lesson.r.goal",
+        "word_refs": [
+          "draft.n4_16.word.1",
+          "draft.n4_16.word.2",
+          "draft.n4_16.word.3",
+          "draft.n4_16.word.4"
+        ],
+        "prompt": "预计迟到时最迟什么时候联系？",
+        "choices": [
+          "五点半",
+          "六点",
+          "六点半"
+        ],
+        "answer": "五点半",
+        "feedback": "正确答案是「五点半」。原文：店は午後六時まで席を用意できます。遅れる場合は、五時半までに店へ電話してください。"
+      }
+    ],
+    "listening": [
+      {
+        "id": "draft.n4_16.exam.unit.mat.exam_listening.q1",
+        "material_ref": "draft.n4_16.exam.unit.mat.exam_listening",
+        "goal_ref": "draft.n4_16.lesson.l.goal",
+        "word_refs": [
+          "draft.n4_16.word.1",
+          "draft.n4_16.word.2",
+          "draft.n4_16.word.3",
+          "draft.n4_16.word.4"
+        ],
+        "prompt": "最后几点在哪见？",
+        "choices": [
+          "五点南口",
+          "六点北口",
+          "五点北口"
+        ],
+        "answer": "五点北口",
+        "feedback": "正确答案是「五点北口」。原文：A：駅前で会う予定でしたね。B：はい。ただ、南口は混んでいるので北口にしましょう。五時は変えなくていいです。"
+      }
+    ],
+    "output": {
+      "id": "draft.n4_16.q.eo1",
+      "card_zh": "你们三人约周日下午三点在中央站东口集合。若东口施工，就改到西口同一时间见。有变化时在群里发消息。",
+      "prompt_zh": "先用日语向同伴口头确认，再写两条短消息，一条是原安排，一条是施工时才发送的备用通知。",
+      "rubric_zh": "原安排含时间、地点和联系渠道；备用通知说清施工条件；只改出口，集合时间不变。",
+      "scoring": "human_only"
+    }
+  }
+}

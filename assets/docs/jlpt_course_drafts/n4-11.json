@@ -1,0 +1,567 @@
+{
+  "schema": "draft.n4_11.course.v1",
+  "unit": "N4-11",
+  "theme": "旅行住宿",
+  "status": {
+    "publication": "draft",
+    "language_review": "pending",
+    "teaching_review": "pending",
+    "rights_review": "pending",
+    "audio": "not_produced",
+    "audio_review": "pending",
+    "listening_score": "blocked",
+    "speaking_writing": "human_only",
+    "runtime_verification": "not_run",
+    "app_integration": "not_integrated"
+  },
+  "words": [
+    {
+      "id": "draft.n4_11.word.1",
+      "forms": "宿泊（しゅくはく）",
+      "meaning_zh": "住宿",
+      "source": "AI_original_draft"
+    },
+    {
+      "id": "draft.n4_11.word.2",
+      "forms": "空室（くうしつ）",
+      "meaning_zh": "空房",
+      "source": "AI_original_draft"
+    },
+    {
+      "id": "draft.n4_11.word.3",
+      "forms": "禁煙（きんえん）",
+      "meaning_zh": "禁烟",
+      "source": "AI_original_draft"
+    },
+    {
+      "id": "draft.n4_11.word.4",
+      "forms": "朝食（ちょうしょく）",
+      "meaning_zh": "早餐",
+      "source": "AI_original_draft"
+    }
+  ],
+  "lessons": [
+    {
+      "id": "draft.n4_11.lesson.v",
+      "planning_key": "N4-11-L01",
+      "type": "V",
+      "title": "旅行住宿的关键词",
+      "prerequisites": [],
+      "goals": [
+        {
+          "id": "draft.n4_11.lesson.v.goal",
+          "text": "旅行住宿的关键词"
+        }
+      ],
+      "word_refs": [
+        "draft.n4_11.word.1",
+        "draft.n4_11.word.2",
+        "draft.n4_11.word.3",
+        "draft.n4_11.word.4"
+      ],
+      "explanation_zh": "「禁煙」的「禁」是禁止，「煙」是烟，在这里读「えん」。「禁煙の部屋」是禁烟房。",
+      "materials": [
+        {
+          "id": "draft.n4_11.lesson.v.mat.practice1",
+          "role": "practice1",
+          "jp": "宿泊"
+        },
+        {
+          "id": "draft.n4_11.lesson.v.mat.practice3",
+          "role": "practice3",
+          "jp": "禁煙"
+        },
+        {
+          "id": "draft.n4_11.lesson.v.mat.check2",
+          "role": "check2",
+          "jp": "空室"
+        },
+        {
+          "id": "draft.n4_11.lesson.v.mat.check4",
+          "role": "check4",
+          "jp": "朝食"
+        },
+        {
+          "id": "draft.n4_11.lesson.v.kanji-reading",
+          "role": "practice",
+          "jp": "禁煙",
+          "goal_refs": [
+            "draft.n4_11.lesson.v.goal"
+          ]
+        }
+      ],
+      "practice": [
+        {
+          "id": "draft.n4_11.lesson.v.mat.practice1.q1",
+          "material_ref": "draft.n4_11.lesson.v.mat.practice1",
+          "goal_ref": "draft.n4_11.lesson.v.goal",
+          "word_refs": [
+            "draft.n4_11.word.1",
+            "draft.n4_11.word.2",
+            "draft.n4_11.word.3",
+            "draft.n4_11.word.4"
+          ],
+          "prompt": "这个词的意思是什么？",
+          "choices": [
+            "禁烟",
+            "住宿",
+            "空房"
+          ],
+          "answer": "住宿",
+          "feedback": "宿泊（しゅくはく），意思是「住宿」。"
+        },
+        {
+          "id": "draft.n4_11.lesson.v.mat.practice3.q1",
+          "material_ref": "draft.n4_11.lesson.v.mat.practice3",
+          "goal_ref": "draft.n4_11.lesson.v.goal",
+          "word_refs": [
+            "draft.n4_11.word.1",
+            "draft.n4_11.word.2",
+            "draft.n4_11.word.3",
+            "draft.n4_11.word.4"
+          ],
+          "prompt": "这个词的意思是什么？",
+          "choices": [
+            "早餐",
+            "住宿",
+            "禁烟"
+          ],
+          "answer": "禁烟",
+          "feedback": "禁煙（きんえん），意思是「禁烟」。"
+        },
+        {
+          "id": "draft.n4_11.lesson.v.kanji-reading.q1",
+          "material_ref": "draft.n4_11.lesson.v.kanji-reading",
+          "goal_ref": "draft.n4_11.lesson.v.goal",
+          "word_refs": [
+            "draft.n4_11.word.3"
+          ],
+          "prompt": "这个词怎么读？",
+          "choices": [
+            "きんねん",
+            "きんえん",
+            "きねん"
+          ],
+          "answer": "きんえん",
+          "feedback": "「禁煙」的「禁」是禁止，「煙」是烟，在这里读「えん」。「禁煙の部屋」是禁烟房。"
+        }
+      ],
+      "check": [
+        {
+          "id": "draft.n4_11.lesson.v.mat.check2.q1",
+          "material_ref": "draft.n4_11.lesson.v.mat.check2",
+          "goal_ref": "draft.n4_11.lesson.v.goal",
+          "word_refs": [
+            "draft.n4_11.word.1",
+            "draft.n4_11.word.2",
+            "draft.n4_11.word.3",
+            "draft.n4_11.word.4"
+          ],
+          "prompt": "这个词的意思是什么？",
+          "choices": [
+            "空房",
+            "禁烟",
+            "早餐"
+          ],
+          "answer": "空房",
+          "feedback": "空室（くうしつ），意思是「空房」。"
+        },
+        {
+          "id": "draft.n4_11.lesson.v.mat.check4.q1",
+          "material_ref": "draft.n4_11.lesson.v.mat.check4",
+          "goal_ref": "draft.n4_11.lesson.v.goal",
+          "word_refs": [
+            "draft.n4_11.word.1",
+            "draft.n4_11.word.2",
+            "draft.n4_11.word.3",
+            "draft.n4_11.word.4"
+          ],
+          "prompt": "这个词的意思是什么？",
+          "choices": [
+            "空房",
+            "早餐",
+            "住宿"
+          ],
+          "answer": "早餐",
+          "feedback": "朝食（ちょうしょく），意思是「早餐」。"
+        }
+      ]
+    },
+    {
+      "id": "draft.n4_11.lesson.g",
+      "planning_key": "N4-11-L02",
+      "type": "G",
+      "title": "〜んですが・〜てもらえますか",
+      "prerequisites": [
+        "N4-11-L01"
+      ],
+      "goals": [
+        {
+          "id": "draft.n4_11.lesson.g.goal",
+          "text": "〜んですが・〜てもらえますか"
+        }
+      ],
+      "word_refs": [
+        "draft.n4_11.word.1",
+        "draft.n4_11.word.2",
+        "draft.n4_11.word.3",
+        "draft.n4_11.word.4"
+      ],
+      "explanation_zh": "「〜んですが」说明请求的背景，后面接具体请求。「〜てもらえますか」礼貌询问能否请对方帮忙。",
+      "materials": [
+        {
+          "id": "draft.n4_11.lesson.g.mat.teach",
+          "role": "teach",
+          "jp": "部屋が少し寒いんですが、毛布を持ってきてもらえますか。"
+        },
+        {
+          "id": "draft.n4_11.lesson.g.mat.practice",
+          "role": "practice",
+          "jp": "部屋のドアが開かないんですが、見てもらえますか。"
+        },
+        {
+          "id": "draft.n4_11.lesson.g.mat.check",
+          "role": "check",
+          "jp": "タオルが一枚足りないんですが、もう一枚持ってきて＿か。"
+        }
+      ],
+      "practice": [
+        {
+          "id": "draft.n4_11.lesson.g.mat.practice.q1",
+          "material_ref": "draft.n4_11.lesson.g.mat.practice",
+          "goal_ref": "draft.n4_11.lesson.g.goal",
+          "word_refs": [
+            "draft.n4_11.word.1",
+            "draft.n4_11.word.2",
+            "draft.n4_11.word.3",
+            "draft.n4_11.word.4"
+          ],
+          "prompt": "住客请求什么？",
+          "choices": [
+            "多拿一条毯子",
+            "延后退房",
+            "帮忙看看房门为什么打不开"
+          ],
+          "answer": "帮忙看看房门为什么打不开",
+          "feedback": "「部屋のドアが開かない」说明房门打不开，「見てもらえますか」是请对方帮忙查看。"
+        }
+      ],
+      "check": [
+        {
+          "id": "draft.n4_11.lesson.g.mat.check.q1",
+          "material_ref": "draft.n4_11.lesson.g.mat.check",
+          "goal_ref": "draft.n4_11.lesson.g.goal",
+          "word_refs": [
+            "draft.n4_11.word.1",
+            "draft.n4_11.word.2",
+            "draft.n4_11.word.3",
+            "draft.n4_11.word.4"
+          ],
+          "prompt": "选择用于礼貌请求的表达。",
+          "choices": [
+            "いけません",
+            "もらえます",
+            "あげました"
+          ],
+          "answer": "もらえます",
+          "feedback": "正确答案是「もらえます」。原文：タオルが一枚足りないんですが、もう一枚持ってきて＿か。"
+        }
+      ],
+      "common_mistake_zh": "「寒いんですが」只交代房间冷。加上「毛布を持ってきてもらえますか」才说清楚想请对方做什么。"
+    },
+    {
+      "id": "draft.n4_11.lesson.r",
+      "planning_key": "N4-11-L03",
+      "type": "R",
+      "title": "看住宿确认信息",
+      "prerequisites": [
+        "N4-11-L02"
+      ],
+      "goals": [
+        {
+          "id": "draft.n4_11.lesson.r.goal",
+          "text": "看住宿确认信息"
+        }
+      ],
+      "word_refs": [
+        "draft.n4_11.word.1",
+        "draft.n4_11.word.2",
+        "draft.n4_11.word.3",
+        "draft.n4_11.word.4"
+      ],
+      "explanation_zh": "入住从三点开始。提早到可以寄存行李，两项服务的时间条件不同。",
+      "materials": [
+        {
+          "id": "draft.n4_11.lesson.r.mat.teach",
+          "role": "teach",
+          "jp": "チェックインは午後三時からです。早く着いた方はフロントで荷物を預けられます。"
+        },
+        {
+          "id": "draft.n4_11.lesson.r.mat.practice",
+          "role": "practice",
+          "jp": "禁煙の部屋を二泊ご用意しました。朝食は一階で七時からです。"
+        },
+        {
+          "id": "draft.n4_11.lesson.r.mat.check",
+          "role": "check",
+          "jp": "朝食は七時から九時です。部屋へ持ち帰ることはできません。"
+        }
+      ],
+      "practice": [
+        {
+          "id": "draft.n4_11.lesson.r.mat.practice.q1",
+          "material_ref": "draft.n4_11.lesson.r.mat.practice",
+          "goal_ref": "draft.n4_11.lesson.r.goal",
+          "word_refs": [
+            "draft.n4_11.word.1",
+            "draft.n4_11.word.2",
+            "draft.n4_11.word.3",
+            "draft.n4_11.word.4"
+          ],
+          "prompt": "早餐在哪里？",
+          "choices": [
+            "房间里",
+            "一楼",
+            "二楼"
+          ],
+          "answer": "一楼",
+          "feedback": "正确答案是「一楼」。原句：禁煙の部屋を二泊ご用意しました。朝食は一階で七時からです。"
+        }
+      ],
+      "check": [
+        {
+          "id": "draft.n4_11.lesson.r.mat.check.q1",
+          "material_ref": "draft.n4_11.lesson.r.mat.check",
+          "goal_ref": "draft.n4_11.lesson.r.goal",
+          "word_refs": [
+            "draft.n4_11.word.1",
+            "draft.n4_11.word.2",
+            "draft.n4_11.word.3",
+            "draft.n4_11.word.4"
+          ],
+          "prompt": "早餐有什么限制？",
+          "choices": [
+            "不能带回房间",
+            "只能在九点后吃",
+            "只能在房间吃"
+          ],
+          "answer": "不能带回房间",
+          "feedback": "正确答案是「不能带回房间」。原文：朝食は七時から九時です。部屋へ持ち帰ることはできません。"
+        }
+      ]
+    },
+    {
+      "id": "draft.n4_11.lesson.l",
+      "planning_key": "N4-11-L04",
+      "type": "L",
+      "title": "听前台说明房间安排",
+      "prerequisites": [
+        "N4-11-L03"
+      ],
+      "goals": [
+        {
+          "id": "draft.n4_11.lesson.l.goal",
+          "text": "听前台说明房间安排"
+        }
+      ],
+      "word_refs": [
+        "draft.n4_11.word.1",
+        "draft.n4_11.word.2",
+        "draft.n4_11.word.3",
+        "draft.n4_11.word.4"
+      ],
+      "explanation_zh": "分辨能马上解决和要等一会儿的事项。 注意「が」连接两个不同条件。房间三点后可用，行李现在就能寄存。",
+      "materials": [
+        {
+          "id": "draft.n4_11.lesson.l.mat.teach",
+          "role": "teach",
+          "jp": "客：今すぐ部屋に入れますか。係員：お部屋は午後三時からですが、荷物は今お預かりできます。"
+        },
+        {
+          "id": "draft.n4_11.lesson.l.mat.practice",
+          "role": "practice",
+          "jp": "客：部屋を替えてもらえますか。係員：空室はありますが、掃除が終わるのは三時です。"
+        },
+        {
+          "id": "draft.n4_11.lesson.l.mat.check",
+          "role": "check",
+          "jp": "客：荷物を預けたいのですが。係員：チェックインはまだですが、荷物は今からお預かりできます。"
+        }
+      ],
+      "practice": [
+        {
+          "id": "draft.n4_11.lesson.l.mat.practice.q1",
+          "material_ref": "draft.n4_11.lesson.l.mat.practice",
+          "goal_ref": "draft.n4_11.lesson.l.goal",
+          "word_refs": [
+            "draft.n4_11.word.1",
+            "draft.n4_11.word.2",
+            "draft.n4_11.word.3",
+            "draft.n4_11.word.4"
+          ],
+          "prompt": "新房间最早几点可用？",
+          "choices": [
+            "三点",
+            "两点",
+            "马上"
+          ],
+          "answer": "三点",
+          "feedback": "正确答案是「三点」。原句：客：部屋を替えてもらえますか。係員：空室はありますが、掃除が終わるのは三時です。"
+        }
+      ],
+      "check": [
+        {
+          "id": "draft.n4_11.lesson.l.mat.check.q1",
+          "material_ref": "draft.n4_11.lesson.l.mat.check",
+          "goal_ref": "draft.n4_11.lesson.l.goal",
+          "word_refs": [
+            "draft.n4_11.word.1",
+            "draft.n4_11.word.2",
+            "draft.n4_11.word.3",
+            "draft.n4_11.word.4"
+          ],
+          "prompt": "住客现在可以做什么？",
+          "choices": [
+            "办理入住",
+            "领取早餐",
+            "寄存行李"
+          ],
+          "answer": "寄存行李",
+          "feedback": "正确答案是「寄存行李」。原文：客：荷物を預けたいのですが。係員：チェックインはまだですが、荷物は今からお預かりできます。"
+        }
+      ]
+    },
+    {
+      "id": "draft.n4_11.lesson.o",
+      "planning_key": "N4-11-L05",
+      "type": "O",
+      "title": "办理入住并确认设施",
+      "prerequisites": [
+        "N4-11-L04"
+      ],
+      "goals": [
+        {
+          "id": "draft.n4_11.lesson.o.goal",
+          "text": "办理入住并确认设施"
+        }
+      ],
+      "word_refs": [
+        "draft.n4_11.word.1",
+        "draft.n4_11.word.2",
+        "draft.n4_11.word.3",
+        "draft.n4_11.word.4"
+      ],
+      "explanation_zh": "先用日语口头说明，再把关键内容写成一条短消息。完成后按下面的要点核对。",
+      "materials": [],
+      "performance": {
+        "practice": {
+          "card_zh": "你订了两晚禁烟房，想知道早餐几点以及能否暂存行李。与前台确认。",
+          "prompt_zh": "先说一遍，再写下要传达的内容。"
+        },
+        "rubric_zh": "说清预订情况，问到两项设施信息。",
+        "check": {
+          "card_zh": "你比入住时间早到两小时。问前台能否存行李，以及什么时候能回来办理入住。",
+          "prompt_zh": "用日语作答，再按自查要点核对。"
+        }
+      }
+    },
+    {
+      "id": "draft.n4_11.lesson.t",
+      "planning_key": "N4-11-L06",
+      "type": "T",
+      "title": "房间条件变化时求助",
+      "prerequisites": [
+        "N4-11-L05"
+      ],
+      "goals": [
+        {
+          "id": "draft.n4_11.lesson.t.goal",
+          "text": "房间条件变化时求助"
+        }
+      ],
+      "word_refs": [
+        "draft.n4_11.word.1",
+        "draft.n4_11.word.2",
+        "draft.n4_11.word.3",
+        "draft.n4_11.word.4"
+      ],
+      "explanation_zh": "先用日语口头说明，再把关键内容写成一条短消息。完成后按下面的要点核对。",
+      "materials": [],
+      "performance": {
+        "practice": {
+          "card_zh": "房间临街太吵，安静房间四点才空出来。向前台说明问题并确认是否能先寄存行李。",
+          "prompt_zh": "先说一遍，再写下要传达的内容。"
+        },
+        "rubric_zh": "说清设备问题；提出明确请求或选择；确认与自己可用时间相符的时段。",
+        "check": {
+          "card_zh": "房间的空调开不了。前台可以下午三点派人来看，也可以四点换房。你三点不在，四点以后有空。",
+          "prompt_zh": "用日语向前台说明问题，从两个方案中选一个，并确认具体时间。"
+        }
+      }
+    }
+  ],
+  "exam": {
+    "id": "draft.n4_11.exam.unit",
+    "materials": [
+      {
+        "id": "draft.n4_11.exam.unit.mat.exam_reading",
+        "role": "exam_reading",
+        "jp": "チェックアウトは十時までです。荷物のお預かりは、退室後も午後六時まで利用できます。"
+      },
+      {
+        "id": "draft.n4_11.exam.unit.mat.exam_listening",
+        "role": "exam_listening",
+        "jp": "客：朝食は付いていますか。係員：いいえ。必要でしたら、今夜九時までにお申し込みください。"
+      }
+    ],
+    "reading": [
+      {
+        "id": "draft.n4_11.exam.unit.mat.exam_reading.q1",
+        "material_ref": "draft.n4_11.exam.unit.mat.exam_reading",
+        "goal_ref": "draft.n4_11.lesson.r.goal",
+        "word_refs": [
+          "draft.n4_11.word.1",
+          "draft.n4_11.word.2",
+          "draft.n4_11.word.3",
+          "draft.n4_11.word.4"
+        ],
+        "prompt": "退房后行李最晚几点取？",
+        "choices": [
+          "上午十点",
+          "下午两点",
+          "下午六点"
+        ],
+        "answer": "下午六点",
+        "feedback": "正确答案是「下午六点」。原文：チェックアウトは十時までです。荷物のお預かりは、退室後も午後六時まで利用できます。"
+      }
+    ],
+    "listening": [
+      {
+        "id": "draft.n4_11.exam.unit.mat.exam_listening.q1",
+        "material_ref": "draft.n4_11.exam.unit.mat.exam_listening",
+        "goal_ref": "draft.n4_11.lesson.l.goal",
+        "word_refs": [
+          "draft.n4_11.word.1",
+          "draft.n4_11.word.2",
+          "draft.n4_11.word.3",
+          "draft.n4_11.word.4"
+        ],
+        "prompt": "最晚何时可加订早餐？",
+        "choices": [
+          "今晚六点",
+          "今晚九点",
+          "明早九点"
+        ],
+        "answer": "今晚九点",
+        "feedback": "正确答案是「今晚九点」。原文：客：朝食は付いていますか。係員：いいえ。必要でしたら、今夜九時までにお申し込みください。"
+      }
+    ],
+    "output": {
+      "id": "draft.n4_11.q.eo1",
+      "card_zh": "你们周五入住双人禁烟房，早餐周六七点半开始。同行者周六七点要出门。",
+      "prompt_zh": "先用日语向同伴转述房型和早餐安排，再写一句礼貌的请求，问前台能否提前准备一份面包。",
+      "rubric_zh": "房型、入住日和早餐时间对应；请求清楚说明要什么；用礼貌语气。",
+      "scoring": "human_only"
+    }
+  }
+}

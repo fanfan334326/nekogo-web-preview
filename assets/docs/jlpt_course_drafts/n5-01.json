@@ -1,0 +1,803 @@
+{
+  "schema": "draft.n5_01.course.v1",
+  "status": {
+    "publication": "draft",
+    "language_review": "pending",
+    "rights_review": "pending",
+    "runtime_verification": "not_run",
+    "audio": "not_produced",
+    "audio_review": "pending",
+    "app_integration": "not_integrated"
+  },
+  "scope": "N5-01 以初见时的问候、姓名、身份、国籍和礼貌问答为中心；JLPT 为产品参考。",
+  "not_taught": [
+    "家庭、年龄、だれ、も和形容词系统",
+    "数字时间、地点、购物与动词活用",
+    "出身地から来ました的构造、否定句和正式汉字书写",
+    "音高、音素与自动发音评定"
+  ],
+  "external_prerequisites": [
+    {
+      "id": "S0-03",
+      "status": "partial_pending",
+      "description": "总纲建议先完成 S0-03，连带 S0-01/02：认读平片假名、浊音、拗音、促音和长音；C01 仅きゃ行，K01–K05 仅ア–ナ，缺项需补。先进行人工辨读诊断；旧课 done 不等于前置达标。"
+    }
+  ],
+  "words": [
+    {
+      "id": "draft.n5_01.word.greet",
+      "forms": "おはようございます／こんにちは／こんばんは",
+      "meaning_zh": "礼貌早安／日间问候／晚间问候；按时段选用。",
+      "source": "AI_original_draft"
+    },
+    {
+      "id": "draft.n5_01.word.meeting",
+      "forms": "はじめまして／よろしくおねがいします",
+      "meaning_zh": "初次相见的开场／建立关系时的礼貌收尾。",
+      "source": "AI_original_draft"
+    },
+    {
+      "id": "draft.n5_01.word.thanks",
+      "forms": "ありがとうございます／すみません",
+      "meaning_zh": "礼貌致谢／打扰或致歉；依情境选择。",
+      "source": "AI_original_draft"
+    },
+    {
+      "id": "draft.n5_01.word.person",
+      "forms": "わたし／さん",
+      "meaning_zh": "自己／附在对方姓名后的敬称；介绍自己不加さん。",
+      "source": "AI_original_draft"
+    },
+    {
+      "id": "draft.n5_01.word.name",
+      "forms": "おなまえ（お名前）／なん（何）",
+      "meaning_zh": "对他人的姓名的礼貌说法／什么。",
+      "source": "AI_original_draft"
+    },
+    {
+      "id": "draft.n5_01.word.identity",
+      "forms": "がくせい（学生）／かいしゃいん（会社員）／せんせい（先生）",
+      "meaning_zh": "学生／公司职员／教师或老师称呼；自称职业时注意情境。",
+      "source": "AI_original_draft"
+    },
+    {
+      "id": "draft.n5_01.word.nationality",
+      "forms": "なにじん（何人）／にほんじん（日本人）／ちゅうごくじん（中国人）／アメリカじん（アメリカ人）",
+      "meaning_zh": "哪国人／日本人／中国人／美国人；询问国籍须尊重对方，不必强迫回答。",
+      "source": "AI_original_draft"
+    },
+    {
+      "id": "draft.n5_01.word.structure",
+      "forms": "は／です／か／の",
+      "meaning_zh": "话题标记／礼貌断定／疑问句尾／名词间的所属或关联。",
+      "source": "AI_original_draft"
+    },
+    {
+      "id": "draft.n5_01.word.institution",
+      "forms": "だいがく（大学）／くに（国）",
+      "meaning_zh": "大学／国家；此处用于名片关联和识读。",
+      "source": "AI_original_draft"
+    },
+    {
+      "id": "draft.n5_01.word.reply",
+      "forms": "はい／いいえ",
+      "meaning_zh": "是／不是；本课只用于回答是非问句。",
+      "source": "AI_original_draft"
+    }
+  ],
+  "lessons": [
+    {
+      "id": "draft.n5_01.lesson.v",
+      "planning_key": "N5-01-L01",
+      "type": "V",
+      "title": "初见时选择词语",
+      "prerequisites": [
+        "S0-03"
+      ],
+      "goals": [
+        {
+          "id": "draft.n5_01.goal.v1",
+          "text": "根据时段和关系选用问候与初见收尾。"
+        },
+        {
+          "id": "draft.n5_01.goal.v2",
+          "text": "区分姓名、身份和国籍的基本表达。"
+        }
+      ],
+      "word_refs": [
+        "draft.n5_01.word.greet",
+        "draft.n5_01.word.meeting",
+        "draft.n5_01.word.thanks",
+        "draft.n5_01.word.person",
+        "draft.n5_01.word.name",
+        "draft.n5_01.word.identity",
+        "draft.n5_01.word.nationality",
+        "draft.n5_01.word.reply"
+      ],
+      "explanation_zh": "初次与陌生人见面，先按时段问候，再说はじめまして；最后用よろしくおねがいします。おはようございます用于早上，こんにちは用于白天，こんばんは用于晚上。さん跟对方姓名，不加在自己的姓名后。国籍与职业是不同信息；不愿透露时不应强求。お名前是问对方名字的礼貌形式；名字中的音和片假名以本人习惯为准。",
+      "materials": [
+        {
+          "id": "draft.n5_01.mat.v.teach",
+          "role": "teach",
+          "jp": "こんばんは。はじめまして。わたしは さとうです。よろしくおねがいします。",
+          "kana": "こんばんは。はじめまして。わたしは さとうです。よろしくおねがいします。",
+          "zh": "晚上好。初次见面。我是佐藤。请多关照。"
+        },
+        {
+          "id": "draft.n5_01.mat.v.practice",
+          "role": "practice",
+          "jp": "朝、初めて会います。",
+          "kana": "あさ、はじめて あいます。",
+          "zh": "早晨初次见面。"
+        },
+        {
+          "id": "draft.n5_01.mat.v.check",
+          "role": "check",
+          "jp": "夜、初めて会います。",
+          "kana": "よる、はじめて あいます。",
+          "zh": "晚上初次见面。"
+        }
+      ],
+      "practice": [
+        {
+          "id": "draft.n5_01.q.v.p1",
+          "material_ref": "draft.n5_01.mat.v.practice",
+          "goal_ref": "draft.n5_01.goal.v1",
+          "word_refs": [
+            "draft.n5_01.word.greet"
+          ],
+          "prompt": "早晨礼貌问候选哪一项？",
+          "choices": [
+            "おはようございます",
+            "こんばんは"
+          ],
+          "answer": "おはようございます",
+          "feedback": "おはようございます用于早晨；こんばんは用于晚上。"
+        },
+        {
+          "id": "draft.n5_01.q.v.p2",
+          "material_ref": "draft.n5_01.mat.v.practice",
+          "goal_ref": "draft.n5_01.goal.v2",
+          "word_refs": [
+            "draft.n5_01.word.identity",
+            "draft.n5_01.word.nationality"
+          ],
+          "prompt": "哪一项表示身份而非国籍？",
+          "choices": [
+            "がくせい",
+            "にほんじん"
+          ],
+          "answer": "がくせい",
+          "feedback": "がくせい是学生；にほんじん说的是国籍。"
+        }
+      ],
+      "check": [
+        {
+          "id": "draft.n5_01.q.v.c1",
+          "material_ref": "draft.n5_01.mat.v.check",
+          "goal_ref": "draft.n5_01.goal.v1",
+          "word_refs": [
+            "draft.n5_01.word.greet"
+          ],
+          "prompt": "晚上礼貌问候选哪一项？",
+          "choices": [
+            "こんばんは",
+            "おはようございます"
+          ],
+          "answer": "こんばんは",
+          "feedback": "こんばんは适合晚上；おはようございます是早晨问候。"
+        },
+        {
+          "id": "draft.n5_01.q.v.c2",
+          "material_ref": "draft.n5_01.mat.v.check",
+          "goal_ref": "draft.n5_01.goal.v2",
+          "word_refs": [
+            "draft.n5_01.word.person"
+          ],
+          "prompt": "介绍自己为佐藤时，哪个说法合适？",
+          "choices": [
+            "さとうです",
+            "さとうさんです"
+          ],
+          "answer": "さとうです",
+          "feedback": "介绍自己的姓名不加さん；さん用于称呼别人。"
+        }
+      ],
+      "review_zh": "隔天看场景重选时段问候；错在职业/国籍时把两类词分栏，再用新名字自述。"
+    },
+    {
+      "id": "draft.n5_01.lesson.g",
+      "planning_key": "N5-01-L02",
+      "type": "G",
+      "title": "礼貌介绍与提问结构",
+      "prerequisites": [
+        "draft.n5_01.lesson.v"
+      ],
+      "goals": [
+        {
+          "id": "draft.n5_01.goal.g1",
+          "text": "用は和です组成姓名、身份或国籍陈述。"
+        },
+        {
+          "id": "draft.n5_01.goal.g2",
+          "text": "用か提问并用の连接所属或关联。"
+        }
+      ],
+      "word_refs": [
+        "draft.n5_01.word.structure",
+        "draft.n5_01.word.person",
+        "draft.n5_01.word.name",
+        "draft.n5_01.word.identity",
+        "draft.n5_01.word.nationality",
+        "draft.n5_01.word.institution",
+        "draft.n5_01.word.reply"
+      ],
+      "explanation_zh": "AはBです：A是话题，B是介绍内容；助词は在此读作わ，不把它改写为わ。话题已清楚时可省略。句末加か构成礼貌问句，问姓名常说お名前は何ですか；问国籍可说何人ですか。是非问题用はい／いいえ，何问题用具体信息回答。AのB连接名词：大学の学生是与大学有关的学生；不要理解成所有の都只表示所有权。称呼对方可用姓名＋さん，通常不必反复使用あなた。",
+      "common_mistake_zh": "「わたしは」里的「は」念作「わ」，写时仍用「は」。问对方是不是学生时，在「学生です」后加「か」。",
+      "materials": [
+        {
+          "id": "draft.n5_01.mat.g.teach",
+          "role": "teach",
+          "jp": "わたしは 大学の学生です。お名前は何ですか。",
+          "kana": "わたしは だいがくの がくせいです。おなまえは なんですか。",
+          "zh": "我是大学的学生。您叫什么名字？"
+        },
+        {
+          "id": "draft.n5_01.mat.g.practice",
+          "role": "practice",
+          "jp": "わたし＿会社員です。",
+          "kana": "わたし＿かいしゃいんです。",
+          "zh": "我是公司职员。"
+        },
+        {
+          "id": "draft.n5_01.mat.g.check",
+          "role": "check",
+          "jp": "大学＿学生です。",
+          "kana": "だいがく＿がくせいです。",
+          "zh": "是大学的学生。"
+        }
+      ],
+      "practice": [
+        {
+          "id": "draft.n5_01.q.g.p1",
+          "material_ref": "draft.n5_01.mat.g.practice",
+          "goal_ref": "draft.n5_01.goal.g1",
+          "word_refs": [
+            "draft.n5_01.word.structure"
+          ],
+          "prompt": "填话题助词。",
+          "choices": [
+            "は",
+            "の"
+          ],
+          "answer": "は",
+          "feedback": "わたしは引出话题；の连接名词，不在此处标记话题。"
+        },
+        {
+          "id": "draft.n5_01.q.g.p2",
+          "material_ref": "draft.n5_01.mat.g.practice",
+          "goal_ref": "draft.n5_01.goal.g2",
+          "word_refs": [
+            "draft.n5_01.word.structure",
+            "draft.n5_01.word.name"
+          ],
+          "prompt": "问名字的句尾选哪一项？ お名前は何です＿",
+          "choices": [
+            "か",
+            "の"
+          ],
+          "answer": "か",
+          "feedback": "句末か构成疑问；の不是这里的礼貌疑问句尾。"
+        }
+      ],
+      "check": [
+        {
+          "id": "draft.n5_01.q.g.c1",
+          "material_ref": "draft.n5_01.mat.g.check",
+          "goal_ref": "draft.n5_01.goal.g2",
+          "word_refs": [
+            "draft.n5_01.word.structure",
+            "draft.n5_01.word.institution"
+          ],
+          "prompt": "连接大学与学生应填什么？",
+          "choices": [
+            "の",
+            "か"
+          ],
+          "answer": "の",
+          "feedback": "大学の学生用の连接两个名词；か用于疑问句尾。"
+        },
+        {
+          "id": "draft.n5_01.q.g.c2",
+          "material_ref": "draft.n5_01.mat.g.check",
+          "goal_ref": "draft.n5_01.goal.g1",
+          "word_refs": [
+            "draft.n5_01.word.structure",
+            "draft.n5_01.word.nationality"
+          ],
+          "prompt": "选择礼貌介绍国籍的完整句。",
+          "choices": [
+            "わたしは 中国人です。",
+            "わたしの 中国人か。"
+          ],
+          "answer": "わたしは 中国人です。",
+          "feedback": "は引出话题，です作礼貌断定；另一项的の和か不构成所需陈述。"
+        }
+      ],
+      "review_zh": "将话题、内容、句尾分色；错题改换人名再写，隔天对照は的读音与写法。"
+    },
+    {
+      "id": "draft.n5_01.lesson.r",
+      "planning_key": "N5-01-L03",
+      "type": "R",
+      "title": "从名片提取信息",
+      "prerequisites": [
+        "draft.n5_01.lesson.g"
+      ],
+      "goals": [
+        {
+          "id": "draft.n5_01.goal.r1",
+          "text": "借助假名识别名片姓名、身份、国籍和所属。"
+        },
+        {
+          "id": "draft.n5_01.goal.r2",
+          "text": "区分名片中人、名、国所在词，不要求独立写字。"
+        }
+      ],
+      "word_refs": [
+        "draft.n5_01.word.name",
+        "draft.n5_01.word.identity",
+        "draft.n5_01.word.nationality",
+        "draft.n5_01.word.institution",
+        "draft.n5_01.word.structure"
+      ],
+      "explanation_zh": "先找お名前、国籍和身份线索，再将大学の学生理解为大学相关的学生。名在名前（なまえ），国在国（くに）和中国（ちゅうごく），人在中国人（ちゅうごくじん）；这里的假名是整词读法，不是每个字固定读音。何人（なにじん）在问国籍时读なにじん，不能见人就机械读じん。本课只借字形辅助阅读，不考单字读音或书写掌握。名片是教学简化格式。",
+      "materials": [
+        {
+          "id": "draft.n5_01.mat.r.teach",
+          "role": "teach",
+          "jp": "名前：さとう／国：日本／大学の学生",
+          "kana": "なまえ：さとう／くに：にほん／だいがくの がくせい",
+          "zh": "姓名：佐藤／国家：日本／大学生。"
+        },
+        {
+          "id": "draft.n5_01.mat.r.practice",
+          "role": "practice",
+          "jp": "名前：いとう／国：中国／会社員",
+          "kana": "なまえ：いとう／くに：ちゅうごく／かいしゃいん",
+          "zh": "姓名：伊藤／国家：中国／公司职员。"
+        },
+        {
+          "id": "draft.n5_01.mat.r.check",
+          "role": "check",
+          "jp": "名前：すずき／国：日本／日本人／大学の学生／よろしくおねがいします。",
+          "kana": "なまえ：すずき／くに：にほん／にほんじん／だいがくの がくせい／よろしくおねがいします。",
+          "zh": "姓名：铃木／国家：日本／日本人／大学生／请多关照。"
+        }
+      ],
+      "practice": [
+        {
+          "id": "draft.n5_01.q.r.p1",
+          "material_ref": "draft.n5_01.mat.r.practice",
+          "goal_ref": "draft.n5_01.goal.r1",
+          "word_refs": [
+            "draft.n5_01.word.name"
+          ],
+          "prompt": "姓名是哪一个？",
+          "choices": [
+            "いとう",
+            "ちゅうごく"
+          ],
+          "answer": "いとう",
+          "feedback": "名字标签后是いとう；ちゅうごく在国标签后。"
+        },
+        {
+          "id": "draft.n5_01.q.r.p2",
+          "material_ref": "draft.n5_01.mat.r.practice",
+          "goal_ref": "draft.n5_01.goal.r1",
+          "word_refs": [
+            "draft.n5_01.word.identity"
+          ],
+          "prompt": "身份是什么？",
+          "choices": [
+            "公司职员",
+            "学生"
+          ],
+          "answer": "公司职员",
+          "feedback": "会社員（かいしゃいん）是公司职员，并非学生。"
+        }
+      ],
+      "check": [
+        {
+          "id": "draft.n5_01.q.r.c1",
+          "material_ref": "draft.n5_01.mat.r.check",
+          "goal_ref": "draft.n5_01.goal.r1",
+          "word_refs": [
+            "draft.n5_01.word.name"
+          ],
+          "prompt": "名片上的姓名？",
+          "choices": [
+            "すずき",
+            "さとう"
+          ],
+          "answer": "すずき",
+          "feedback": "名前后是すずき；さとう不在这张卡上。"
+        },
+        {
+          "id": "draft.n5_01.q.r.c2",
+          "material_ref": "draft.n5_01.mat.r.check",
+          "goal_ref": "draft.n5_01.goal.r1",
+          "word_refs": [
+            "draft.n5_01.word.institution"
+          ],
+          "prompt": "国一栏写的国家？",
+          "choices": [
+            "日本",
+            "中国"
+          ],
+          "answer": "日本",
+          "feedback": "国后写日本，不是中国。"
+        },
+        {
+          "id": "draft.n5_01.q.r.c3",
+          "material_ref": "draft.n5_01.mat.r.check",
+          "goal_ref": "draft.n5_01.goal.r1",
+          "word_refs": [
+            "draft.n5_01.word.identity"
+          ],
+          "prompt": "卡片上的身份？",
+          "choices": [
+            "大学生",
+            "公司职员"
+          ],
+          "answer": "大学生",
+          "feedback": "大学の学生指大学生；没有会社員。"
+        },
+        {
+          "id": "draft.n5_01.q.r.c4",
+          "material_ref": "draft.n5_01.mat.r.check",
+          "goal_ref": "draft.n5_01.goal.r2",
+          "word_refs": [
+            "draft.n5_01.word.name",
+            "draft.n5_01.word.institution"
+          ],
+          "prompt": "想找这位学生的姓名，应看哪一栏？",
+          "choices": [
+            "名前",
+            "国"
+          ],
+          "answer": "名前",
+          "feedback": "名前含名；国是国家的标签。"
+        },
+        {
+          "id": "draft.n5_01.q.r.c5",
+          "material_ref": "draft.n5_01.mat.r.check",
+          "goal_ref": "draft.n5_01.goal.r2",
+          "word_refs": [
+            "draft.n5_01.word.nationality"
+          ],
+          "prompt": "卡片上日本人的假名是？",
+          "choices": [
+            "にほんじん",
+            "ちゅうごくじん"
+          ],
+          "answer": "にほんじん",
+          "feedback": "卡片的日本人读にほんじん；ちゅうごくじん对应中国人。"
+        }
+      ],
+      "review_zh": "遮住中文，以假名核对字段；错题回到标签和对应值，换一张名片再找，不要求默写汉字。"
+    },
+    {
+      "id": "draft.n5_01.lesson.l",
+      "planning_key": "N5-01-L04",
+      "type": "unavailableListening",
+      "title": "听初见对话抓信息",
+      "prerequisites": [
+        "draft.n5_01.lesson.r"
+      ],
+      "goals": [
+        {
+          "id": "draft.n5_01.goal.l1",
+          "text": "从初见对话中辨别姓名、身份和国籍。"
+        },
+        {
+          "id": "draft.n5_01.goal.l2",
+          "text": "通过句尾か与问答定位问题和回答。"
+        }
+      ],
+      "word_refs": [
+        "draft.n5_01.word.greet",
+        "draft.n5_01.word.meeting",
+        "draft.n5_01.word.name",
+        "draft.n5_01.word.identity",
+        "draft.n5_01.word.nationality",
+        "draft.n5_01.word.structure",
+        "draft.n5_01.word.reply"
+      ],
+      "explanation_zh": "听前先看问题要姓名、身份还是国籍，不看脚本；第一遍听开场和双方姓名，第二遍抓ですか后面的回答。不要只凭听到的一个国名猜说话人；留意谁在问、谁在答。训练后用脚本核对。独立检查在音频制作并审校后以音频呈现，脚本不得先展示；目前只能审阅脚本，不能记听力成绩。",
+      "materials": [
+        {
+          "id": "draft.n5_01.mat.l.teach",
+          "role": "teach",
+          "jp": "A：こんにちは。お名前は何ですか。 B：こばやしです。",
+          "kana": "A：こんにちは。おなまえは なんですか。 B：こばやしです。",
+          "zh": "A：你好。您叫什么名字？B：我是小林。"
+        },
+        {
+          "id": "draft.n5_01.mat.l.practice",
+          "role": "practice",
+          "jp": "A：はじめまして。わたしは いとうです。 B：はじめまして。わたしは たかはしです。学生です。 A：何人ですか。 B：中国人です。",
+          "kana": "A：はじめまして。わたしは いとうです。 B：はじめまして。わたしは たかはしです。がくせいです。 A：なにじんですか。 B：ちゅうごくじんです。",
+          "zh": "A：初次见面，我是伊藤。B：初次见面，我是高桥。我是学生。A：哪国人？B：中国人。"
+        },
+        {
+          "id": "draft.n5_01.mat.l.check",
+          "role": "check",
+          "jp": "A：こんばんは。わたしは すずきです。お名前は何ですか。 B：やまだです。 A：やまださんは 学生ですか。 B：いいえ、会社員です。 A：何人ですか。 B：日本人です。よろしくおねがいします。",
+          "kana": "A：こんばんは。わたしは すずきです。おなまえは なんですか。 B：やまだです。 A：やまださんは がくせいですか。 B：いいえ、かいしゃいんです。 A：なにじんですか。 B：にほんじんです。よろしくおねがいします。",
+          "zh": "A：晚上好。我是铃木。您叫什么名字？B：山田。A：山田先生／女士是学生吗？B：不是，我是公司职员。A：哪国人？B：日本人。请多关照。"
+        }
+      ],
+      "practice": [
+        {
+          "id": "draft.n5_01.q.l.p1",
+          "material_ref": "draft.n5_01.mat.l.practice",
+          "goal_ref": "draft.n5_01.goal.l1",
+          "word_refs": [
+            "draft.n5_01.word.name"
+          ],
+          "prompt": "B的姓名？",
+          "choices": [
+            "たかはし",
+            "いとう"
+          ],
+          "answer": "たかはし",
+          "feedback": "B自述たかはし；いとう是A。"
+        },
+        {
+          "id": "draft.n5_01.q.l.p2",
+          "material_ref": "draft.n5_01.mat.l.practice",
+          "goal_ref": "draft.n5_01.goal.l2",
+          "word_refs": [
+            "draft.n5_01.word.nationality"
+          ],
+          "prompt": "B回答的国籍？",
+          "choices": [
+            "中国",
+            "日本"
+          ],
+          "answer": "中国",
+          "feedback": "なにじんですか之后B回答ちゅうごくじん；未说日本人。"
+        }
+      ],
+      "check": [
+        {
+          "id": "draft.n5_01.q.l.c1",
+          "material_ref": "draft.n5_01.mat.l.check",
+          "goal_ref": "draft.n5_01.goal.l1",
+          "word_refs": [
+            "draft.n5_01.word.name"
+          ],
+          "prompt": "A的姓名？",
+          "choices": [
+            "すずき",
+            "やまだ"
+          ],
+          "answer": "すずき",
+          "feedback": "A自述すずき；やまだ是B。"
+        },
+        {
+          "id": "draft.n5_01.q.l.c2",
+          "material_ref": "draft.n5_01.mat.l.check",
+          "goal_ref": "draft.n5_01.goal.l1",
+          "word_refs": [
+            "draft.n5_01.word.name"
+          ],
+          "prompt": "被问姓名的人回答叫什么？",
+          "choices": [
+            "やまだ",
+            "すずき"
+          ],
+          "answer": "やまだ",
+          "feedback": "B回答やまだ；すずき是A。"
+        },
+        {
+          "id": "draft.n5_01.q.l.c3",
+          "material_ref": "draft.n5_01.mat.l.check",
+          "goal_ref": "draft.n5_01.goal.l2",
+          "word_refs": [
+            "draft.n5_01.word.identity",
+            "draft.n5_01.word.reply"
+          ],
+          "prompt": "B是学生吗？",
+          "choices": [
+            "不是，是公司职员",
+            "是学生"
+          ],
+          "answer": "不是，是公司职员",
+          "feedback": "B说いいえ、会社員です，不能只听问题里的学生。"
+        },
+        {
+          "id": "draft.n5_01.q.l.c4",
+          "material_ref": "draft.n5_01.mat.l.check",
+          "goal_ref": "draft.n5_01.goal.l1",
+          "word_refs": [
+            "draft.n5_01.word.nationality"
+          ],
+          "prompt": "B说自己是哪国人？",
+          "choices": [
+            "日本人",
+            "中国人"
+          ],
+          "answer": "日本人",
+          "feedback": "B回答日本人です；对话没有说中国人。"
+        },
+        {
+          "id": "draft.n5_01.q.l.c5",
+          "material_ref": "draft.n5_01.mat.l.check",
+          "goal_ref": "draft.n5_01.goal.l2",
+          "word_refs": [
+            "draft.n5_01.word.name",
+            "draft.n5_01.word.structure"
+          ],
+          "prompt": "A在介绍自己之后先问什么？",
+          "choices": [
+            "姓名",
+            "国籍"
+          ],
+          "answer": "姓名",
+          "feedback": "お名前は何ですか先问姓名；何人ですか在后面问国籍。"
+        }
+      ],
+      "review_zh": "音频可用后按错因重听相应问答，再听整段确认角色；不要把看稿后的答对算作听力。"
+    },
+    {
+      "id": "draft.n5_01.lesson.o",
+      "planning_key": "N5-01-L05",
+      "type": "O",
+      "title": "组织自我介绍与两轮问答",
+      "prerequisites": [
+        "draft.n5_01.lesson.l"
+      ],
+      "goals": [
+        {
+          "id": "draft.n5_01.goal.o1",
+          "text": "按开场、姓名、身份或国籍、收尾组织礼貌介绍。"
+        },
+        {
+          "id": "draft.n5_01.goal.o2",
+          "text": "与伙伴完成姓名和身份或国籍两轮信息问答。"
+        }
+      ],
+      "word_refs": [
+        "draft.n5_01.word.meeting",
+        "draft.n5_01.word.greet",
+        "draft.n5_01.word.person",
+        "draft.n5_01.word.name",
+        "draft.n5_01.word.identity",
+        "draft.n5_01.word.nationality",
+        "draft.n5_01.word.structure",
+        "draft.n5_01.word.reply"
+      ],
+      "explanation_zh": "先礼貌开场，再说自己的姓名、身份与自愿提供的国籍，最后收尾；两轮是两个不同信息问题，各有对方回答。练习时可使用虚构人物，不强迫透露真实国籍。听对方回答后再问下一个问题；对方姓名后可加さん，自称不加。书写和口说均按下方有限量规由人评，音频系统不自动评分。",
+      "materials": [
+        {
+          "id": "draft.n5_01.mat.o.teach",
+          "role": "teach",
+          "jp": "A：はじめまして。わたしは こばやしです。学生です。よろしくおねがいします。お名前は何ですか。 B：やまだです。 A：やまださんは 何人ですか。 B：日本人です。",
+          "kana": "A：はじめまして。わたしは こばやしです。がくせいです。よろしくおねがいします。おなまえは なんですか。 B：やまだです。 A：やまださんは なにじんですか。 B：にほんじんです。",
+          "zh": "A：初次见面。我是小林，是学生。请多关照。您叫什么名字？B：山田。A：山田先生／女士是哪国人？B：日本人。"
+        },
+        {
+          "id": "draft.n5_01.mat.o.practice",
+          "role": "practice",
+          "jp": "役：いとう／学生／中国人。",
+          "kana": "やく：いとう／がくせい／ちゅうごくじん。",
+          "zh": "练习角色：伊藤／学生／中国人。"
+        },
+        {
+          "id": "draft.n5_01.mat.o.check",
+          "role": "check",
+          "jp": "役：たかはし／会社員／日本人。",
+          "kana": "やく：たかはし／かいしゃいん／にほんじん。",
+          "zh": "检查角色：高桥／公司职员／日本人。"
+        }
+      ],
+      "practice": [
+        {
+          "id": "draft.n5_01.q.o.p1",
+          "material_ref": "draft.n5_01.mat.o.practice",
+          "goal_ref": "draft.n5_01.goal.o1",
+          "word_refs": [
+            "draft.n5_01.word.person"
+          ],
+          "prompt": "角色介绍自己的姓名应选？",
+          "choices": [
+            "いとうです。",
+            "いとうさんです。"
+          ],
+          "answer": "いとうです。",
+          "feedback": "自称姓名不加さん；さん用于对方。"
+        },
+        {
+          "id": "draft.n5_01.q.o.p2",
+          "material_ref": "draft.n5_01.mat.o.practice",
+          "goal_ref": "draft.n5_01.goal.o2",
+          "word_refs": [
+            "draft.n5_01.word.name"
+          ],
+          "prompt": "想问对方姓名应选？",
+          "choices": [
+            "お名前は何ですか。",
+            "何人ですか。"
+          ],
+          "answer": "お名前は何ですか。",
+          "feedback": "お名前は何ですか问姓名；何人ですか问国籍。"
+        }
+      ],
+      "check": [
+        {
+          "id": "draft.n5_01.q.o.c1",
+          "material_ref": "draft.n5_01.mat.o.check",
+          "goal_ref": "draft.n5_01.goal.o1",
+          "word_refs": [
+            "draft.n5_01.word.identity"
+          ],
+          "prompt": "该角色介绍身份应选？",
+          "choices": [
+            "会社員です。",
+            "学生です。"
+          ],
+          "answer": "会社員です。",
+          "feedback": "角色卡写会社員；学生不是该角色身份。"
+        },
+        {
+          "id": "draft.n5_01.q.o.c2",
+          "material_ref": "draft.n5_01.mat.o.check",
+          "goal_ref": "draft.n5_01.goal.o2",
+          "word_refs": [
+            "draft.n5_01.word.nationality"
+          ],
+          "prompt": "想问对方国籍应选？",
+          "choices": [
+            "何人ですか。",
+            "お名前は何ですか。"
+          ],
+          "answer": "何人ですか。",
+          "feedback": "何人ですか问国籍；お名前は何ですか问姓名。"
+        }
+      ],
+      "review_zh": "记录姓名、身份、国籍、礼貌顺序中出错的环节，次日换虚构人物独立说写并请伙伴复核。",
+      "performance": {
+        "practice": {
+          "card_zh": "练习角色：伊藤／学生／中国人。",
+          "prompt_zh": "用练习角色口头介绍姓名、身份和国籍，再与伙伴进行问姓名与问国籍两轮；写出介绍和两组问答。对照参考与反馈修改，再换虚构人物重练。"
+        },
+        "check": {
+          "card_zh": "检查角色：高桥／公司职员／日本人。",
+          "prompt_zh": "不看示范，用检查角色完成礼貌开场、姓名、身份、国籍和收尾；与伙伴完成问姓名及问身份或国籍两轮，每轮有回答。伙伴可用虚构身份。 不看示范，用检查角色写礼貌开场、姓名、身份、国籍和收尾，并写两组完整问答：问姓名及问身份或国籍，各有回答。"
+        },
+        "rubric_zh": "说与写分别按四维0–2分：任务完整（2=开场、姓名、身份、国籍、收尾及两轮问答齐全，1=上述七项中缺一项，0=缺两项或更多；每轮需一个问题和相应回答）；形式（2=は/です/か及使用时的の均正确，1=有一处影响轻微的错误，0=多处或影响理解）；礼貌（2=开场收尾及称谓恰当，1=漏一处，0=多处不当）；可理解（说：2=伙伴无需帮助理解，1=需一次重复，0=多次仍难理解；写：2=信息可辨且假名无影响理解的错，1=一处需推断，0=多处难辨）。各≥6/8且每维≥1，并完成两轮，方为建议通过；人工记录具体证据，接受等义自然表达，不按样例逐字匹配。口说不按口音或音高自动评分。"
+      }
+    }
+  ],
+  "performance": {
+    "practice_material_ref": "draft.n5_01.mat.o.practice",
+    "check_material_ref": "draft.n5_01.mat.o.check",
+    "goal_refs": [
+      "draft.n5_01.goal.o1",
+      "draft.n5_01.goal.o2"
+    ],
+    "practice": "用练习角色口头介绍姓名、身份和国籍，再与伙伴进行问姓名与问国籍两轮；写出介绍和两组问答。对照参考与反馈修改，再换虚构人物重练。",
+    "practice_sample": "はじめまして。わたしは いとうです。学生です。中国人です。よろしくおねがいします。／お名前は何ですか。— こばやしです。／何人ですか。— 日本人です。",
+    "practice_sample_zh": "初次见面。我是伊藤，是学生，是中国人。请多关照。／您叫什么名字？——小林。／您是哪国人？——日本人。",
+    "practice_feedback": "姓名后不加さん；角色信息用学生、中国人，不能互换。第一问若只答はい，应补具体姓名；第二问答具体国籍。若遗漏开场或收尾，补上后再口说、改写。两轮各须有不同问题和对应回答；核对は写法与句末か，最后按四维量规逐项说明。",
+    "check_speaking": "不看示范，用检查角色完成礼貌开场、姓名、身份、国籍和收尾；与伙伴完成问姓名及问身份或国籍两轮，每轮有回答。伙伴可用虚构身份。",
+    "check_writing": "不看示范，用检查角色写礼貌开场、姓名、身份、国籍和收尾，并写两组完整问答：问姓名及问身份或国籍，各有回答。",
+    "sample_speaking": "はじめまして。わたしは たかはしです。会社員です。日本人です。よろしくおねがいします。／お名前は何ですか。— すずきです。／何人ですか。— 中国人です。",
+    "sample_zh": "初次见面。我是高桥，是公司职员，是日本人。请多关照。／您叫什么名字？——铃木。／您是哪国人？——中国人。",
+    "rubric": "说与写分别按四维0–2分：任务完整（2=开场、姓名、身份、国籍、收尾及两轮问答齐全，1=上述七项中缺一项，0=缺两项或更多；每轮需一个问题和相应回答）；形式（2=は/です/か及使用时的の均正确，1=有一处影响轻微的错误，0=多处或影响理解）；礼貌（2=开场收尾及称谓恰当，1=漏一处，0=多处不当）；可理解（说：2=伙伴无需帮助理解，1=需一次重复，0=多次仍难理解；写：2=信息可辨且假名无影响理解的错，1=一处需推断，0=多处难辨）。各≥6/8且每维≥1，并完成两轮，方为建议通过；人工记录具体证据，接受等义自然表达，不按样例逐字匹配。口说不按口音或音高自动评分。"
+  },
+  "unit": "N5-01",
+  "theme": "自我介绍"
+}

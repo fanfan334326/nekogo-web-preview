@@ -1,0 +1,567 @@
+{
+  "schema": "draft.n4_12.course.v1",
+  "unit": "N4-12",
+  "theme": "节日与文化",
+  "status": {
+    "publication": "draft",
+    "language_review": "pending",
+    "teaching_review": "pending",
+    "rights_review": "pending",
+    "audio": "not_produced",
+    "audio_review": "pending",
+    "listening_score": "blocked",
+    "speaking_writing": "human_only",
+    "runtime_verification": "not_run",
+    "app_integration": "not_integrated"
+  },
+  "words": [
+    {
+      "id": "draft.n4_12.word.1",
+      "forms": "行事（ぎょうじ）",
+      "meaning_zh": "活动",
+      "source": "AI_original_draft"
+    },
+    {
+      "id": "draft.n4_12.word.2",
+      "forms": "参拝（さんぱい）",
+      "meaning_zh": "参拜",
+      "source": "AI_original_draft"
+    },
+    {
+      "id": "draft.n4_12.word.3",
+      "forms": "順番（じゅんばん）",
+      "meaning_zh": "顺序",
+      "source": "AI_original_draft"
+    },
+    {
+      "id": "draft.n4_12.word.4",
+      "forms": "案内（あんない）",
+      "meaning_zh": "指引",
+      "source": "AI_original_draft"
+    }
+  ],
+  "lessons": [
+    {
+      "id": "draft.n4_12.lesson.v",
+      "planning_key": "N4-12-L01",
+      "type": "V",
+      "title": "节日与文化的关键词",
+      "prerequisites": [],
+      "goals": [
+        {
+          "id": "draft.n4_12.lesson.v.goal",
+          "text": "节日与文化的关键词"
+        }
+      ],
+      "word_refs": [
+        "draft.n4_12.word.1",
+        "draft.n4_12.word.2",
+        "draft.n4_12.word.3",
+        "draft.n4_12.word.4"
+      ],
+      "explanation_zh": "「参拝」读「さんぱい」，注意「拝」在这个词里读半浊音「ぱい」。「神社に参拝する」就是到神社参拜。",
+      "materials": [
+        {
+          "id": "draft.n4_12.lesson.v.mat.practice1",
+          "role": "practice1",
+          "jp": "行事"
+        },
+        {
+          "id": "draft.n4_12.lesson.v.mat.practice3",
+          "role": "practice3",
+          "jp": "順番"
+        },
+        {
+          "id": "draft.n4_12.lesson.v.mat.check2",
+          "role": "check2",
+          "jp": "参拝"
+        },
+        {
+          "id": "draft.n4_12.lesson.v.mat.check4",
+          "role": "check4",
+          "jp": "案内"
+        },
+        {
+          "id": "draft.n4_12.lesson.v.kanji-reading",
+          "role": "practice",
+          "jp": "参拝",
+          "goal_refs": [
+            "draft.n4_12.lesson.v.goal"
+          ]
+        }
+      ],
+      "practice": [
+        {
+          "id": "draft.n4_12.lesson.v.mat.practice1.q1",
+          "material_ref": "draft.n4_12.lesson.v.mat.practice1",
+          "goal_ref": "draft.n4_12.lesson.v.goal",
+          "word_refs": [
+            "draft.n4_12.word.1",
+            "draft.n4_12.word.2",
+            "draft.n4_12.word.3",
+            "draft.n4_12.word.4"
+          ],
+          "prompt": "这个词的意思是什么？",
+          "choices": [
+            "活动",
+            "参拜",
+            "顺序"
+          ],
+          "answer": "活动",
+          "feedback": "行事（ぎょうじ），意思是「活动」。"
+        },
+        {
+          "id": "draft.n4_12.lesson.v.mat.practice3.q1",
+          "material_ref": "draft.n4_12.lesson.v.mat.practice3",
+          "goal_ref": "draft.n4_12.lesson.v.goal",
+          "word_refs": [
+            "draft.n4_12.word.1",
+            "draft.n4_12.word.2",
+            "draft.n4_12.word.3",
+            "draft.n4_12.word.4"
+          ],
+          "prompt": "这个词的意思是什么？",
+          "choices": [
+            "活动",
+            "顺序",
+            "指引"
+          ],
+          "answer": "顺序",
+          "feedback": "順番（じゅんばん），意思是「顺序」。"
+        },
+        {
+          "id": "draft.n4_12.lesson.v.kanji-reading.q1",
+          "material_ref": "draft.n4_12.lesson.v.kanji-reading",
+          "goal_ref": "draft.n4_12.lesson.v.goal",
+          "word_refs": [
+            "draft.n4_12.word.2"
+          ],
+          "prompt": "这个词怎么读？",
+          "choices": [
+            "さんはい",
+            "さんばい",
+            "さんぱい"
+          ],
+          "answer": "さんぱい",
+          "feedback": "「参拝」读「さんぱい」，注意「拝」在这个词里读半浊音「ぱい」。「神社に参拝する」就是到神社参拜。"
+        }
+      ],
+      "check": [
+        {
+          "id": "draft.n4_12.lesson.v.mat.check2.q1",
+          "material_ref": "draft.n4_12.lesson.v.mat.check2",
+          "goal_ref": "draft.n4_12.lesson.v.goal",
+          "word_refs": [
+            "draft.n4_12.word.1",
+            "draft.n4_12.word.2",
+            "draft.n4_12.word.3",
+            "draft.n4_12.word.4"
+          ],
+          "prompt": "这个词的意思是什么？",
+          "choices": [
+            "顺序",
+            "指引",
+            "参拜"
+          ],
+          "answer": "参拜",
+          "feedback": "参拝（さんぱい），意思是「参拜」。"
+        },
+        {
+          "id": "draft.n4_12.lesson.v.mat.check4.q1",
+          "material_ref": "draft.n4_12.lesson.v.mat.check4",
+          "goal_ref": "draft.n4_12.lesson.v.goal",
+          "word_refs": [
+            "draft.n4_12.word.1",
+            "draft.n4_12.word.2",
+            "draft.n4_12.word.3",
+            "draft.n4_12.word.4"
+          ],
+          "prompt": "这个词的意思是什么？",
+          "choices": [
+            "指引",
+            "活动",
+            "参拜"
+          ],
+          "answer": "指引",
+          "feedback": "案内（あんない），意思是「指引」。"
+        }
+      ]
+    },
+    {
+      "id": "draft.n4_12.lesson.g",
+      "planning_key": "N4-12-L02",
+      "type": "G",
+      "title": "〜前に・〜てから",
+      "prerequisites": [
+        "N4-12-L01"
+      ],
+      "goals": [
+        {
+          "id": "draft.n4_12.lesson.g.goal",
+          "text": "〜前に・〜てから"
+        }
+      ],
+      "word_refs": [
+        "draft.n4_12.word.1",
+        "draft.n4_12.word.2",
+        "draft.n4_12.word.3",
+        "draft.n4_12.word.4"
+      ],
+      "explanation_zh": "「动词原形＋前に」表示在这个动作之前先做主句的动作。「会場に入る前に、受付をする」就是先报到再进场。「动词て形＋から」表示先完成这个动作，再做主句的动作。",
+      "materials": [
+        {
+          "id": "draft.n4_12.lesson.g.mat.teach",
+          "role": "teach",
+          "jp": "会場に入る前に、入口で受付をしてください。"
+        },
+        {
+          "id": "draft.n4_12.lesson.g.mat.practice",
+          "role": "practice",
+          "jp": "受付をしてから、展示を見てください。"
+        },
+        {
+          "id": "draft.n4_12.lesson.g.mat.check",
+          "role": "check",
+          "jp": "展示室に入る＿に、携帯電話の音を切ってください。"
+        }
+      ],
+      "practice": [
+        {
+          "id": "draft.n4_12.lesson.g.mat.practice.q1",
+          "material_ref": "draft.n4_12.lesson.g.mat.practice",
+          "goal_ref": "draft.n4_12.lesson.g.goal",
+          "word_refs": [
+            "draft.n4_12.word.1",
+            "draft.n4_12.word.2",
+            "draft.n4_12.word.3",
+            "draft.n4_12.word.4"
+          ],
+          "prompt": "哪件事先做？",
+          "choices": [
+            "离开会场",
+            "报到",
+            "看展览"
+          ],
+          "answer": "报到",
+          "feedback": "正确答案是「报到」。原句：受付をしてから、展示を見てください。"
+        }
+      ],
+      "check": [
+        {
+          "id": "draft.n4_12.lesson.g.mat.check.q1",
+          "material_ref": "draft.n4_12.lesson.g.mat.check",
+          "goal_ref": "draft.n4_12.lesson.g.goal",
+          "word_refs": [
+            "draft.n4_12.word.1",
+            "draft.n4_12.word.2",
+            "draft.n4_12.word.3",
+            "draft.n4_12.word.4"
+          ],
+          "prompt": "如果要表达进入前就关声音，该选什么？",
+          "choices": [
+            "前",
+            "後",
+            "次"
+          ],
+          "answer": "前",
+          "feedback": "「入る前に」表示在进展厅之前，所以先把手机调成静音。"
+        }
+      ],
+      "common_mistake_zh": "「受付をしてから、展示を見る」和「展示を見る前に、受付をする」的顺序相同，都是先报到。注意两句的动词顺序相反。"
+    },
+    {
+      "id": "draft.n4_12.lesson.r",
+      "planning_key": "N4-12-L03",
+      "type": "R",
+      "title": "看活动须知",
+      "prerequisites": [
+        "N4-12-L02"
+      ],
+      "goals": [
+        {
+          "id": "draft.n4_12.lesson.r.goal",
+          "text": "看活动须知"
+        }
+      ],
+      "word_refs": [
+        "draft.n4_12.word.1",
+        "draft.n4_12.word.2",
+        "draft.n4_12.word.3",
+        "draft.n4_12.word.4"
+      ],
+      "explanation_zh": "同一活动的不同场地可能有不同规则。广场可饮食，进展厅前要收好饮料。",
+      "materials": [
+        {
+          "id": "draft.n4_12.lesson.r.mat.teach",
+          "role": "teach",
+          "jp": "広場では飲食できます。展示室に入る前に、飲み物はかばんにしまってください。"
+        },
+        {
+          "id": "draft.n4_12.lesson.r.mat.practice",
+          "role": "practice",
+          "jp": "庭の見学は自由です。本堂では写真を撮らないでください。"
+        },
+        {
+          "id": "draft.n4_12.lesson.r.mat.check",
+          "role": "check",
+          "jp": "踊りは広場で行います。雨の日は一階のホールに変更します。"
+        }
+      ],
+      "practice": [
+        {
+          "id": "draft.n4_12.lesson.r.mat.practice.q1",
+          "material_ref": "draft.n4_12.lesson.r.mat.practice",
+          "goal_ref": "draft.n4_12.lesson.r.goal",
+          "word_refs": [
+            "draft.n4_12.word.1",
+            "draft.n4_12.word.2",
+            "draft.n4_12.word.3",
+            "draft.n4_12.word.4"
+          ],
+          "prompt": "哪里禁止拍照？",
+          "choices": [
+            "正殿",
+            "庭院",
+            "会场所有地方"
+          ],
+          "answer": "正殿",
+          "feedback": "正确答案是「正殿」。原句：庭の見学は自由です。本堂では写真を撮らないでください。"
+        }
+      ],
+      "check": [
+        {
+          "id": "draft.n4_12.lesson.r.mat.check.q1",
+          "material_ref": "draft.n4_12.lesson.r.mat.check",
+          "goal_ref": "draft.n4_12.lesson.r.goal",
+          "word_refs": [
+            "draft.n4_12.word.1",
+            "draft.n4_12.word.2",
+            "draft.n4_12.word.3",
+            "draft.n4_12.word.4"
+          ],
+          "prompt": "雨天在哪里表演？",
+          "choices": [
+            "广场",
+            "二楼展厅",
+            "一楼大厅"
+          ],
+          "answer": "一楼大厅",
+          "feedback": "正确答案是「一楼大厅」。原文：踊りは広場で行います。雨の日は一階のホールに変更します。"
+        }
+      ]
+    },
+    {
+      "id": "draft.n4_12.lesson.l",
+      "planning_key": "N4-12-L04",
+      "type": "L",
+      "title": "听懂活动顺序",
+      "prerequisites": [
+        "N4-12-L03"
+      ],
+      "goals": [
+        {
+          "id": "draft.n4_12.lesson.l.goal",
+          "text": "听懂活动顺序"
+        }
+      ],
+      "word_refs": [
+        "draft.n4_12.word.1",
+        "draft.n4_12.word.2",
+        "draft.n4_12.word.3",
+        "draft.n4_12.word.4"
+      ],
+      "explanation_zh": "用「まず」「次に」「最後に」记录顺序。 把顺序记成领姓名牌、去庭院、参观正殿。",
+      "materials": [
+        {
+          "id": "draft.n4_12.lesson.l.mat.teach",
+          "role": "teach",
+          "jp": "まず入口で名札を受け取ってください。そのあと庭へ移動し、最後に本堂を見学します。"
+        },
+        {
+          "id": "draft.n4_12.lesson.l.mat.practice",
+          "role": "practice",
+          "jp": "まず入口で案内を受けます。次に広場で踊りを見ます。最後に展示室へ行きます。"
+        },
+        {
+          "id": "draft.n4_12.lesson.l.mat.check",
+          "role": "check",
+          "jp": "A：先に庭を見てもいいですか。B：受付を済ませてからでしたら、大丈夫です。"
+        }
+      ],
+      "practice": [
+        {
+          "id": "draft.n4_12.lesson.l.mat.practice.q1",
+          "material_ref": "draft.n4_12.lesson.l.mat.practice",
+          "goal_ref": "draft.n4_12.lesson.l.goal",
+          "word_refs": [
+            "draft.n4_12.word.1",
+            "draft.n4_12.word.2",
+            "draft.n4_12.word.3",
+            "draft.n4_12.word.4"
+          ],
+          "prompt": "看完舞蹈去哪？",
+          "choices": [
+            "入口",
+            "售票处",
+            "展厅"
+          ],
+          "answer": "展厅",
+          "feedback": "正确答案是「展厅」。原句：まず入口で案内を受けます。次に広場で踊りを見ます。最後に展示室へ行きます。"
+        }
+      ],
+      "check": [
+        {
+          "id": "draft.n4_12.lesson.l.mat.check.q1",
+          "material_ref": "draft.n4_12.lesson.l.mat.check",
+          "goal_ref": "draft.n4_12.lesson.l.goal",
+          "word_refs": [
+            "draft.n4_12.word.1",
+            "draft.n4_12.word.2",
+            "draft.n4_12.word.3",
+            "draft.n4_12.word.4"
+          ],
+          "prompt": "参观庭院之前先做什么？",
+          "choices": [
+            "拍照",
+            "报到",
+            "参观展厅"
+          ],
+          "answer": "报到",
+          "feedback": "正确答案是「报到」。原文：A：先に庭を見てもいいですか。B：受付を済ませてからでしたら、大丈夫です。"
+        }
+      ]
+    },
+    {
+      "id": "draft.n4_12.lesson.o",
+      "planning_key": "N4-12-L05",
+      "type": "O",
+      "title": "介绍活动顺序和礼仪",
+      "prerequisites": [
+        "N4-12-L04"
+      ],
+      "goals": [
+        {
+          "id": "draft.n4_12.lesson.o.goal",
+          "text": "介绍活动顺序和礼仪"
+        }
+      ],
+      "word_refs": [
+        "draft.n4_12.word.1",
+        "draft.n4_12.word.2",
+        "draft.n4_12.word.3",
+        "draft.n4_12.word.4"
+      ],
+      "explanation_zh": "先用日语口头说明，再把关键内容写成一条短消息。完成后按下面的要点核对。",
+      "materials": [],
+      "performance": {
+        "practice": {
+          "card_zh": "给第一次参加的朋友介绍三个环节，并提醒进入展厅后调低音量。",
+          "prompt_zh": "先说一遍，再写下要传达的内容。"
+        },
+        "rubric_zh": "按顺序或时间说明可参加的活动；给出材料中的时间；规则明确适用于展厅。",
+        "check": {
+          "card_zh": "朋友下午两点半才到。庭院表演两点已结束，三点还有展厅导览。展厅内不能饮食。",
+          "prompt_zh": "用日语告诉朋友还有哪项活动能参加、几点开始，再写一句展厅规则。"
+        }
+      }
+    },
+    {
+      "id": "draft.n4_12.lesson.t",
+      "planning_key": "N4-12-L06",
+      "type": "T",
+      "title": "向不同访客解释规则",
+      "prerequisites": [
+        "N4-12-L05"
+      ],
+      "goals": [
+        {
+          "id": "draft.n4_12.lesson.t.goal",
+          "text": "向不同访客解释规则"
+        }
+      ],
+      "word_refs": [
+        "draft.n4_12.word.1",
+        "draft.n4_12.word.2",
+        "draft.n4_12.word.3",
+        "draft.n4_12.word.4"
+      ],
+      "explanation_zh": "先用日语口头说明，再把关键内容写成一条短消息。完成后按下面的要点核对。",
+      "materials": [],
+      "performance": {
+        "practice": {
+          "card_zh": "一位访客想拍照，另一位只想快速参观。说明拍照区域和最短参观顺序。",
+          "prompt_zh": "先说一遍，再写下要传达的内容。"
+        },
+        "rubric_zh": "按对象给出不同信息，不把局部规则说成全场规则。",
+        "check": {
+          "card_zh": "下雨后，原定在广场的活动移到大厅。分别给已经在场和还在路上的朋友写一句指引。",
+          "prompt_zh": "用日语作答，再按自查要点核对。"
+        }
+      }
+    }
+  ],
+  "exam": {
+    "id": "draft.n4_12.exam.unit",
+    "materials": [
+      {
+        "id": "draft.n4_12.exam.unit.mat.exam_reading",
+        "role": "exam_reading",
+        "jp": "子どもの体験は午後二時に始まります。参加する方は、始まる前に受付で名札を受け取ってください。"
+      },
+      {
+        "id": "draft.n4_12.exam.unit.mat.exam_listening",
+        "role": "exam_listening",
+        "jp": "A：中で写真を撮ってもいいですか。B：展示室ではご遠慮ください。庭では撮れます。"
+      }
+    ],
+    "reading": [
+      {
+        "id": "draft.n4_12.exam.unit.mat.exam_reading.q1",
+        "material_ref": "draft.n4_12.exam.unit.mat.exam_reading",
+        "goal_ref": "draft.n4_12.lesson.r.goal",
+        "word_refs": [
+          "draft.n4_12.word.1",
+          "draft.n4_12.word.2",
+          "draft.n4_12.word.3",
+          "draft.n4_12.word.4"
+        ],
+        "prompt": "开始前要领什么？",
+        "choices": [
+          "宣传册",
+          "姓名牌",
+          "相机"
+        ],
+        "answer": "姓名牌",
+        "feedback": "正确答案是「姓名牌」。原文：子どもの体験は午後二時に始まります。参加する方は、始まる前に受付で名札を受け取ってください。"
+      }
+    ],
+    "listening": [
+      {
+        "id": "draft.n4_12.exam.unit.mat.exam_listening.q1",
+        "material_ref": "draft.n4_12.exam.unit.mat.exam_listening",
+        "goal_ref": "draft.n4_12.lesson.l.goal",
+        "word_refs": [
+          "draft.n4_12.word.1",
+          "draft.n4_12.word.2",
+          "draft.n4_12.word.3",
+          "draft.n4_12.word.4"
+        ],
+        "prompt": "哪里可以拍照？",
+        "choices": [
+          "庭院",
+          "展厅",
+          "所有室内"
+        ],
+        "answer": "庭院",
+        "feedback": "正确答案是「庭院」。原文：A：中で写真を撮ってもいいですか。B：展示室ではご遠慮ください。庭では撮れます。"
+      }
+    ],
+    "output": {
+      "id": "draft.n4_12.q.eo1",
+      "card_zh": "初访者下午一点先在入口报到，再去庭院看表演，最后进正殿参观。庭院可以拍照，正殿内请勿拍照。",
+      "prompt_zh": "用日语给初访者口头说明顺序，再写一条提醒。",
+      "rubric_zh": "先报到、再看表演、最后参观；至少写一个时间或地点；拍照限制明确适用于正殿。",
+      "scoring": "human_only"
+    }
+  }
+}

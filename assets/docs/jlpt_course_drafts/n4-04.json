@@ -1,0 +1,567 @@
+{
+  "schema": "draft.n4_04.course.v1",
+  "unit": "N4-04",
+  "theme": "日常生活",
+  "status": {
+    "publication": "draft",
+    "language_review": "pending",
+    "teaching_review": "pending",
+    "rights_review": "pending",
+    "audio": "not_produced",
+    "audio_review": "pending",
+    "listening_score": "blocked",
+    "speaking_writing": "human_only",
+    "runtime_verification": "not_run",
+    "app_integration": "not_integrated"
+  },
+  "words": [
+    {
+      "id": "draft.n4_04.word.1",
+      "forms": "家事（かじ）",
+      "meaning_zh": "家务",
+      "source": "AI_original_draft"
+    },
+    {
+      "id": "draft.n4_04.word.2",
+      "forms": "当番（とうばん）",
+      "meaning_zh": "值日",
+      "source": "AI_original_draft"
+    },
+    {
+      "id": "draft.n4_04.word.3",
+      "forms": "分別（ぶんべつ）",
+      "meaning_zh": "分类",
+      "source": "AI_original_draft"
+    },
+    {
+      "id": "draft.n4_04.word.4",
+      "forms": "共用（きょうよう）",
+      "meaning_zh": "共用",
+      "source": "AI_original_draft"
+    }
+  ],
+  "lessons": [
+    {
+      "id": "draft.n4_04.lesson.v",
+      "planning_key": "N4-04-L01",
+      "type": "V",
+      "title": "日常生活的关键词",
+      "prerequisites": [],
+      "goals": [
+        {
+          "id": "draft.n4_04.lesson.v.goal",
+          "text": "日常生活的关键词"
+        }
+      ],
+      "word_refs": [
+        "draft.n4_04.word.1",
+        "draft.n4_04.word.2",
+        "draft.n4_04.word.3",
+        "draft.n4_04.word.4"
+      ],
+      "explanation_zh": "「分別」的「分」「別」都和分开有关。「ごみの分別」读「ごみのぶんべつ」，意思是按类别处理垃圾。",
+      "materials": [
+        {
+          "id": "draft.n4_04.lesson.v.mat.practice1",
+          "role": "practice1",
+          "jp": "家事"
+        },
+        {
+          "id": "draft.n4_04.lesson.v.mat.practice3",
+          "role": "practice3",
+          "jp": "分別"
+        },
+        {
+          "id": "draft.n4_04.lesson.v.mat.check2",
+          "role": "check2",
+          "jp": "当番"
+        },
+        {
+          "id": "draft.n4_04.lesson.v.mat.check4",
+          "role": "check4",
+          "jp": "共用"
+        },
+        {
+          "id": "draft.n4_04.lesson.v.kanji-reading",
+          "role": "practice",
+          "jp": "分別",
+          "goal_refs": [
+            "draft.n4_04.lesson.v.goal"
+          ]
+        }
+      ],
+      "practice": [
+        {
+          "id": "draft.n4_04.lesson.v.mat.practice1.q1",
+          "material_ref": "draft.n4_04.lesson.v.mat.practice1",
+          "goal_ref": "draft.n4_04.lesson.v.goal",
+          "word_refs": [
+            "draft.n4_04.word.1",
+            "draft.n4_04.word.2",
+            "draft.n4_04.word.3",
+            "draft.n4_04.word.4"
+          ],
+          "prompt": "这个词的意思是什么？",
+          "choices": [
+            "值日",
+            "分类",
+            "家务"
+          ],
+          "answer": "家务",
+          "feedback": "家事（かじ），意思是「家务」。"
+        },
+        {
+          "id": "draft.n4_04.lesson.v.mat.practice3.q1",
+          "material_ref": "draft.n4_04.lesson.v.mat.practice3",
+          "goal_ref": "draft.n4_04.lesson.v.goal",
+          "word_refs": [
+            "draft.n4_04.word.1",
+            "draft.n4_04.word.2",
+            "draft.n4_04.word.3",
+            "draft.n4_04.word.4"
+          ],
+          "prompt": "这个词的意思是什么？",
+          "choices": [
+            "分类",
+            "共用",
+            "家务"
+          ],
+          "answer": "分类",
+          "feedback": "分別（ぶんべつ），意思是「分类」。"
+        },
+        {
+          "id": "draft.n4_04.lesson.v.kanji-reading.q1",
+          "material_ref": "draft.n4_04.lesson.v.kanji-reading",
+          "goal_ref": "draft.n4_04.lesson.v.goal",
+          "word_refs": [
+            "draft.n4_04.word.3"
+          ],
+          "prompt": "这个词怎么读？",
+          "choices": [
+            "ぶんべつ",
+            "ぶんけつ",
+            "わけべつ"
+          ],
+          "answer": "ぶんべつ",
+          "feedback": "「分別」的「分」「別」都和分开有关。「ごみの分別」读「ごみのぶんべつ」，意思是按类别处理垃圾。"
+        }
+      ],
+      "check": [
+        {
+          "id": "draft.n4_04.lesson.v.mat.check2.q1",
+          "material_ref": "draft.n4_04.lesson.v.mat.check2",
+          "goal_ref": "draft.n4_04.lesson.v.goal",
+          "word_refs": [
+            "draft.n4_04.word.1",
+            "draft.n4_04.word.2",
+            "draft.n4_04.word.3",
+            "draft.n4_04.word.4"
+          ],
+          "prompt": "这个词的意思是什么？",
+          "choices": [
+            "共用",
+            "值日",
+            "分类"
+          ],
+          "answer": "值日",
+          "feedback": "当番（とうばん），意思是「值日」。"
+        },
+        {
+          "id": "draft.n4_04.lesson.v.mat.check4.q1",
+          "material_ref": "draft.n4_04.lesson.v.mat.check4",
+          "goal_ref": "draft.n4_04.lesson.v.goal",
+          "word_refs": [
+            "draft.n4_04.word.1",
+            "draft.n4_04.word.2",
+            "draft.n4_04.word.3",
+            "draft.n4_04.word.4"
+          ],
+          "prompt": "这个词的意思是什么？",
+          "choices": [
+            "家务",
+            "值日",
+            "共用"
+          ],
+          "answer": "共用",
+          "feedback": "共用（きょうよう），意思是「共用」。"
+        }
+      ]
+    },
+    {
+      "id": "draft.n4_04.lesson.g",
+      "planning_key": "N4-04-L02",
+      "type": "G",
+      "title": "〜てもいいです・〜てはいけません",
+      "prerequisites": [
+        "N4-04-L01"
+      ],
+      "goals": [
+        {
+          "id": "draft.n4_04.lesson.g.goal",
+          "text": "〜てもいいです・〜てはいけません"
+        }
+      ],
+      "word_refs": [
+        "draft.n4_04.word.1",
+        "draft.n4_04.word.2",
+        "draft.n4_04.word.3",
+        "draft.n4_04.word.4"
+      ],
+      "explanation_zh": "动词て形后接「もいい」表示许可，接「はいけない」表示禁止。问规则时可把许可句改成问句。",
+      "materials": [
+        {
+          "id": "draft.n4_04.lesson.g.mat.teach",
+          "role": "teach",
+          "jp": "共用の洗濯機を夜に使ってもいいですか。"
+        },
+        {
+          "id": "draft.n4_04.lesson.g.mat.practice",
+          "role": "practice",
+          "jp": "ここに自転車を置いてはいけません。"
+        },
+        {
+          "id": "draft.n4_04.lesson.g.mat.check",
+          "role": "check",
+          "jp": "共用の廊下に荷物を置いて＿。"
+        }
+      ],
+      "practice": [
+        {
+          "id": "draft.n4_04.lesson.g.mat.practice.q1",
+          "material_ref": "draft.n4_04.lesson.g.mat.practice",
+          "goal_ref": "draft.n4_04.lesson.g.goal",
+          "word_refs": [
+            "draft.n4_04.word.1",
+            "draft.n4_04.word.2",
+            "draft.n4_04.word.3",
+            "draft.n4_04.word.4"
+          ],
+          "prompt": "这条规则禁止什么？",
+          "choices": [
+            "把自行车停在这里",
+            "夜间洗衣服",
+            "使用公共走廊"
+          ],
+          "answer": "把自行车停在这里",
+          "feedback": "正确答案是「把自行车停在这里」。原句：ここに自転車を置いてはいけません。"
+        }
+      ],
+      "check": [
+        {
+          "id": "draft.n4_04.lesson.g.mat.check.q1",
+          "material_ref": "draft.n4_04.lesson.g.mat.check",
+          "goal_ref": "draft.n4_04.lesson.g.goal",
+          "word_refs": [
+            "draft.n4_04.word.1",
+            "draft.n4_04.word.2",
+            "draft.n4_04.word.3",
+            "draft.n4_04.word.4"
+          ],
+          "prompt": "禁止を表す表現は？",
+          "choices": [
+            "もいいです",
+            "くださいました",
+            "はいけません"
+          ],
+          "answer": "はいけません",
+          "feedback": "正确答案是「はいけません」。原文：共用の廊下に荷物を置いて＿。"
+        }
+      ],
+      "common_mistake_zh": "「置いてもいいです」表示允许放，「置いてはいけません」表示禁止放。先看「て」形后接的是哪一项。"
+    },
+    {
+      "id": "draft.n4_04.lesson.r",
+      "planning_key": "N4-04-L03",
+      "type": "R",
+      "title": "共同生活的告示",
+      "prerequisites": [
+        "N4-04-L02"
+      ],
+      "goals": [
+        {
+          "id": "draft.n4_04.lesson.r.goal",
+          "text": "共同生活的告示"
+        }
+      ],
+      "word_refs": [
+        "draft.n4_04.word.1",
+        "draft.n4_04.word.2",
+        "draft.n4_04.word.3",
+        "draft.n4_04.word.4"
+      ],
+      "explanation_zh": "先找规则适用的人，再看要求。这里是用共用冰箱的人，要在食物上写名字。",
+      "materials": [
+        {
+          "id": "draft.n4_04.lesson.r.mat.teach",
+          "role": "teach",
+          "jp": "共用の冷蔵庫を使う人は、食べ物に名前を書いてください。"
+        },
+        {
+          "id": "draft.n4_04.lesson.r.mat.practice",
+          "role": "practice",
+          "jp": "燃えるごみは火曜と金曜に出してください。びんは水曜だけです。"
+        },
+        {
+          "id": "draft.n4_04.lesson.r.mat.check",
+          "role": "check",
+          "jp": "日曜は共用の台所を使えますが、食器は使用後に洗ってください。"
+        }
+      ],
+      "practice": [
+        {
+          "id": "draft.n4_04.lesson.r.mat.practice.q1",
+          "material_ref": "draft.n4_04.lesson.r.mat.practice",
+          "goal_ref": "draft.n4_04.lesson.r.goal",
+          "word_refs": [
+            "draft.n4_04.word.1",
+            "draft.n4_04.word.2",
+            "draft.n4_04.word.3",
+            "draft.n4_04.word.4"
+          ],
+          "prompt": "玻璃瓶哪天拿出去？",
+          "choices": [
+            "周二",
+            "周五",
+            "周三"
+          ],
+          "answer": "周三",
+          "feedback": "正确答案是「周三」。原句：燃えるごみは火曜と金曜に出してください。びんは水曜だけです。"
+        }
+      ],
+      "check": [
+        {
+          "id": "draft.n4_04.lesson.r.mat.check.q1",
+          "material_ref": "draft.n4_04.lesson.r.mat.check",
+          "goal_ref": "draft.n4_04.lesson.r.goal",
+          "word_refs": [
+            "draft.n4_04.word.1",
+            "draft.n4_04.word.2",
+            "draft.n4_04.word.3",
+            "draft.n4_04.word.4"
+          ],
+          "prompt": "使用后做什么？",
+          "choices": [
+            "关洗衣机",
+            "洗餐具",
+            "锁厨房"
+          ],
+          "answer": "洗餐具",
+          "feedback": "正确答案是「洗餐具」。原文：日曜は共用の台所を使えますが、食器は使用後に洗ってください。"
+        }
+      ]
+    },
+    {
+      "id": "draft.n4_04.lesson.l",
+      "planning_key": "N4-04-L04",
+      "type": "L",
+      "title": "听室友分配家务",
+      "prerequisites": [
+        "N4-04-L03"
+      ],
+      "goals": [
+        {
+          "id": "draft.n4_04.lesson.l.goal",
+          "text": "听室友分配家务"
+        }
+      ],
+      "word_refs": [
+        "draft.n4_04.word.1",
+        "draft.n4_04.word.2",
+        "draft.n4_04.word.3",
+        "draft.n4_04.word.4"
+      ],
+      "explanation_zh": "说话人可能先拒绝原任务，再接受另一项任务。 记下谁做什么。A 洗餐具，B 打扫地板。",
+      "materials": [
+        {
+          "id": "draft.n4_04.lesson.l.mat.teach",
+          "role": "teach",
+          "jp": "A：明日は私が食器を洗うね。B：ありがとう。じゃあ、私は床を掃除するよ。"
+        },
+        {
+          "id": "draft.n4_04.lesson.l.mat.practice",
+          "role": "practice",
+          "jp": "A：今日、台所の掃除をお願いできる？ B：帰りが遅いから、明日の朝ならできるよ。A：じゃあ、今日は私がやるね。"
+        },
+        {
+          "id": "draft.n4_04.lesson.l.mat.check",
+          "role": "check",
+          "jp": "A：分別が分からないごみはどうする？ B：袋に入れる前に、台所の表を見て。"
+        }
+      ],
+      "practice": [
+        {
+          "id": "draft.n4_04.lesson.l.mat.practice.q1",
+          "material_ref": "draft.n4_04.lesson.l.mat.practice",
+          "goal_ref": "draft.n4_04.lesson.l.goal",
+          "word_refs": [
+            "draft.n4_04.word.1",
+            "draft.n4_04.word.2",
+            "draft.n4_04.word.3",
+            "draft.n4_04.word.4"
+          ],
+          "prompt": "今天谁打扫厨房？",
+          "choices": [
+            "两人一起",
+            "先开口的人",
+            "后开口的人"
+          ],
+          "answer": "先开口的人",
+          "feedback": "先开口的人最后说「今日は私がやるね」，决定今天自己打扫。"
+        }
+      ],
+      "check": [
+        {
+          "id": "draft.n4_04.lesson.l.mat.check.q1",
+          "material_ref": "draft.n4_04.lesson.l.mat.check",
+          "goal_ref": "draft.n4_04.lesson.l.goal",
+          "word_refs": [
+            "draft.n4_04.word.1",
+            "draft.n4_04.word.2",
+            "draft.n4_04.word.3",
+            "draft.n4_04.word.4"
+          ],
+          "prompt": "先做什么？",
+          "choices": [
+            "看厨房的分类表",
+            "把垃圾装袋",
+            "找室友洗衣服"
+          ],
+          "answer": "看厨房的分类表",
+          "feedback": "正确答案是「看厨房的分类表」。原文：A：分別が分からないごみはどうする？ B：袋に入れる前に、台所の表を見て。"
+        }
+      ]
+    },
+    {
+      "id": "draft.n4_04.lesson.o",
+      "planning_key": "N4-04-L05",
+      "type": "O",
+      "title": "询问住处规则",
+      "prerequisites": [
+        "N4-04-L04"
+      ],
+      "goals": [
+        {
+          "id": "draft.n4_04.lesson.o.goal",
+          "text": "询问住处规则"
+        }
+      ],
+      "word_refs": [
+        "draft.n4_04.word.1",
+        "draft.n4_04.word.2",
+        "draft.n4_04.word.3",
+        "draft.n4_04.word.4"
+      ],
+      "explanation_zh": "先用日语口头说明，再把关键内容写成一条短消息。完成后按下面的要点核对。",
+      "materials": [],
+      "performance": {
+        "practice": {
+          "card_zh": "你搬进合租房，想在晚上使用洗衣机。向室友询问允许使用的时间，再写下规则。",
+          "prompt_zh": "先说一遍，再写下要传达的内容。"
+        },
+        "rubric_zh": "询问规则时说清设备和时段；转述规则时说清适用地点，并给出可行替代办法。",
+        "check": {
+          "card_zh": "新室友问能否把纸箱放在走廊。告示写着走廊不能堆物，门边有收纳柜。",
+          "prompt_zh": "用日语口头说明能不能放在走廊，再写一句建议，把纸箱放到合适的位置。"
+        }
+      }
+    },
+    {
+      "id": "draft.n4_04.lesson.t",
+      "planning_key": "N4-04-L06",
+      "type": "T",
+      "title": "解释例外和替代",
+      "prerequisites": [
+        "N4-04-L05"
+      ],
+      "goals": [
+        {
+          "id": "draft.n4_04.lesson.t.goal",
+          "text": "解释例外和替代"
+        }
+      ],
+      "word_refs": [
+        "draft.n4_04.word.1",
+        "draft.n4_04.word.2",
+        "draft.n4_04.word.3",
+        "draft.n4_04.word.4"
+      ],
+      "explanation_zh": "先用日语口头说明，再把关键内容写成一条短消息。完成后按下面的要点核对。",
+      "materials": [],
+      "performance": {
+        "practice": {
+          "card_zh": "洗衣机晚上九点后不能用，新室友十点才回来。解释规定，并提议明早使用。",
+          "prompt_zh": "先说一遍，再写下要传达的内容。"
+        },
+        "rubric_zh": "说清原来的限制；给出可行时段；换班时两个人负责的日期各自明确。",
+        "check": {
+          "card_zh": "周五本来轮到你倒垃圾，但你那天要出门。室友周五在家，周三轮到室友值日，你周三有空。",
+          "prompt_zh": "用日语请室友换班，说明希望对方负责哪天，以及自己会接手哪天。"
+        }
+      }
+    }
+  ],
+  "exam": {
+    "id": "draft.n4_04.exam.unit",
+    "materials": [
+      {
+        "id": "draft.n4_04.exam.unit.mat.exam_reading",
+        "role": "exam_reading",
+        "jp": "共用の部屋は八時まで使えます。使った人は窓を閉めてください。"
+      },
+      {
+        "id": "draft.n4_04.exam.unit.mat.exam_listening",
+        "role": "exam_listening",
+        "jp": "A：明日はごみ当番だね。B：うん。朝は出かけるから、六時半に出すよ。"
+      }
+    ],
+    "reading": [
+      {
+        "id": "draft.n4_04.exam.unit.mat.exam_reading.q1",
+        "material_ref": "draft.n4_04.exam.unit.mat.exam_reading",
+        "goal_ref": "draft.n4_04.lesson.r.goal",
+        "word_refs": [
+          "draft.n4_04.word.1",
+          "draft.n4_04.word.2",
+          "draft.n4_04.word.3",
+          "draft.n4_04.word.4"
+        ],
+        "prompt": "用完公共房间要做什么？",
+        "choices": [
+          "关窗",
+          "打开空调",
+          "清洗餐具"
+        ],
+        "answer": "关窗",
+        "feedback": "正确答案是「关窗」。原文：共用の部屋は八時まで使えます。使った人は窓を閉めてください。"
+      }
+    ],
+    "listening": [
+      {
+        "id": "draft.n4_04.exam.unit.mat.exam_listening.q1",
+        "material_ref": "draft.n4_04.exam.unit.mat.exam_listening",
+        "goal_ref": "draft.n4_04.lesson.l.goal",
+        "word_refs": [
+          "draft.n4_04.word.1",
+          "draft.n4_04.word.2",
+          "draft.n4_04.word.3",
+          "draft.n4_04.word.4"
+        ],
+        "prompt": "负责倒垃圾的人准备几点把垃圾拿出去？",
+        "choices": [
+          "八点",
+          "晚上",
+          "六点半"
+        ],
+        "answer": "六点半",
+        "feedback": "「朝は出かけるから、六時半に出すよ」说明会在早上六点半把垃圾拿出去。"
+      }
+    ],
+    "output": {
+      "id": "draft.n4_04.q.eo1",
+      "card_zh": "新室友周一搬来。公寓要求玻璃瓶周三早上拿出去。公共厨房可以用到晚上九点，餐具用完要洗。",
+      "prompt_zh": "用日语口头说一条垃圾规则和一条厨房规则，请室友复述。再把这两条写成简短消息。",
+      "rubric_zh": "垃圾种类和时间对应；厨房规则明确；有一句请对方复述或确认。",
+      "scoring": "human_only"
+    }
+  }
+}

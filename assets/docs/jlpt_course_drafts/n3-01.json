@@ -1,0 +1,629 @@
+{
+  "schema": "draft.n3_01.course.v1",
+  "unit": "N3-01",
+  "theme": "职场日语",
+  "status": {
+    "publication": "draft",
+    "language_review": "pending",
+    "teaching_review": "pending",
+    "rights_review": "pending",
+    "audio": "not_produced",
+    "audio_review": "pending",
+    "listening_score": "blocked",
+    "speaking_writing": "human_only",
+    "runtime_verification": "not_run",
+    "app_integration": "not_integrated"
+  },
+  "words": [
+    {
+      "id": "draft.n3_01.word.1",
+      "forms": "担当（たんとう）",
+      "meaning_zh": "负责；负责人",
+      "source": "AI_original_draft"
+    },
+    {
+      "id": "draft.n3_01.word.2",
+      "forms": "締め切り（しめきり）",
+      "meaning_zh": "截止期限",
+      "source": "AI_original_draft"
+    },
+    {
+      "id": "draft.n3_01.word.3",
+      "forms": "引き継ぎ（ひきつぎ）",
+      "meaning_zh": "交接",
+      "source": "AI_original_draft"
+    },
+    {
+      "id": "draft.n3_01.word.4",
+      "forms": "見通し（みとおし）",
+      "meaning_zh": "预估",
+      "source": "AI_original_draft"
+    }
+  ],
+  "lessons": [
+    {
+      "id": "draft.n3_01.lesson.v",
+      "planning_key": "N3-01-L01",
+      "type": "V",
+      "title": "区分责任人与时限",
+      "prerequisites": [],
+      "goals": [
+        {
+          "id": "draft.n3_01.lesson.v.goal",
+          "text": "区分责任人与时限"
+        }
+      ],
+      "word_refs": [
+        "draft.n3_01.word.1",
+        "draft.n3_01.word.2",
+        "draft.n3_01.word.3",
+        "draft.n3_01.word.4"
+      ],
+      "explanation_zh": "「担当」对应由谁处理，「締め切り」是必须完成的时限。「見通し」用于报告预计状况。",
+      "materials": [
+        {
+          "id": "draft.n3_01.lesson.v.teach",
+          "role": "teach",
+          "jp": "集計の担当は佐々木さんで、締め切りは木曜です。",
+          "goal_refs": [
+            "draft.n3_01.lesson.v.goal"
+          ]
+        },
+        {
+          "id": "draft.n3_01.lesson.v.practice",
+          "role": "practice",
+          "jp": "修正は夕方までに終わる見通しです。",
+          "goal_refs": [
+            "draft.n3_01.lesson.v.goal"
+          ]
+        },
+        {
+          "id": "draft.n3_01.lesson.v.check",
+          "role": "check",
+          "jp": "来週からの担当者に、未対応の案件を引き継ぎます。",
+          "goal_refs": [
+            "draft.n3_01.lesson.v.goal"
+          ]
+        }
+      ],
+      "practice": [
+        {
+          "id": "draft.n3_01.lesson.v.practice.q1",
+          "material_ref": "draft.n3_01.lesson.v.practice",
+          "goal_ref": "draft.n3_01.lesson.v.goal",
+          "word_refs": [
+            "draft.n3_01.word.1",
+            "draft.n3_01.word.2",
+            "draft.n3_01.word.3",
+            "draft.n3_01.word.4"
+          ],
+          "prompt": "这里说的是哪类信息？",
+          "choices": [
+            "负责人变更",
+            "交接地点",
+            "预计完成时间"
+          ],
+          "answer": "预计完成时间",
+          "feedback": "「見通し」给出当前预估。"
+        }
+      ],
+      "check": [
+        {
+          "id": "draft.n3_01.lesson.v.check.q1",
+          "material_ref": "draft.n3_01.lesson.v.check",
+          "goal_ref": "draft.n3_01.lesson.v.goal",
+          "word_refs": [
+            "draft.n3_01.word.1",
+            "draft.n3_01.word.2",
+            "draft.n3_01.word.3",
+            "draft.n3_01.word.4"
+          ],
+          "prompt": "接下来要做什么？",
+          "choices": [
+            "把已办事项重新提交",
+            "交接待处理的事项",
+            "取消未办事项"
+          ],
+          "answer": "交接待处理的事项",
+          "feedback": "「未対応の案件を引き継ぐ」说的是移交未办事项。"
+        }
+      ]
+    },
+    {
+      "id": "draft.n3_01.lesson.g",
+      "planning_key": "N3-01-L02",
+      "type": "G",
+      "title": "协商职责并委婉核对",
+      "prerequisites": [
+        "N3-01-L01"
+      ],
+      "goals": [
+        {
+          "id": "draft.n3_01.lesson.g.goal",
+          "text": "协商职责并委婉核对"
+        }
+      ],
+      "word_refs": [
+        "draft.n3_01.word.1",
+        "draft.n3_01.word.2",
+        "draft.n3_01.word.3",
+        "draft.n3_01.word.4"
+      ],
+      "explanation_zh": "「〜ということでよろしいでしょうか」用于复述后向对方确认理解。需要调整时先交代原因，再提出具体请求。",
+      "materials": [
+        {
+          "id": "draft.n3_01.lesson.g.teach",
+          "role": "teach",
+          "jp": "原稿は私が直し、最終確認は田中さんにお願いするということでよろしいでしょうか。",
+          "goal_refs": [
+            "draft.n3_01.lesson.g.goal"
+          ]
+        },
+        {
+          "id": "draft.n3_01.lesson.g.practice",
+          "role": "practice",
+          "jp": "金曜までに確認するということでよろしいでしょうか。",
+          "goal_refs": [
+            "draft.n3_01.lesson.g.goal"
+          ]
+        },
+        {
+          "id": "draft.n3_01.lesson.g.check",
+          "role": "check",
+          "jp": "見積もりは私から先方に送るということでよろしいでしょうか。",
+          "goal_refs": [
+            "draft.n3_01.lesson.g.goal"
+          ]
+        }
+      ],
+      "practice": [
+        {
+          "id": "draft.n3_01.lesson.g.practice.q1",
+          "material_ref": "draft.n3_01.lesson.g.practice",
+          "goal_ref": "draft.n3_01.lesson.g.goal",
+          "word_refs": [
+            "draft.n3_01.word.1",
+            "draft.n3_01.word.2",
+            "draft.n3_01.word.3",
+            "draft.n3_01.word.4"
+          ],
+          "prompt": "说话者正在核对什么？",
+          "choices": [
+            "下一位负责人",
+            "确认的截止时间",
+            "文件页数"
+          ],
+          "answer": "确认的截止时间",
+          "feedback": "核对的内容是「金曜までに確認する」。"
+        }
+      ],
+      "check": [
+        {
+          "id": "draft.n3_01.lesson.g.check.q1",
+          "material_ref": "draft.n3_01.lesson.g.check",
+          "goal_ref": "draft.n3_01.lesson.g.goal",
+          "word_refs": [
+            "draft.n3_01.word.1",
+            "draft.n3_01.word.2",
+            "draft.n3_01.word.3",
+            "draft.n3_01.word.4"
+          ],
+          "prompt": "说话者想核对谁来做什么？",
+          "choices": [
+            "自己把报价发给对方",
+            "对方把报价发过来",
+            "让同事先写报价"
+          ],
+          "answer": "自己把报价发给对方",
+          "feedback": "「私から先方に送る」给出发件人与收件人。"
+        }
+      ]
+    },
+    {
+      "id": "draft.n3_01.lesson.r",
+      "planning_key": "N3-01-L03",
+      "type": "R",
+      "title": "读交接消息确定行动",
+      "prerequisites": [
+        "N3-01-L02"
+      ],
+      "goals": [
+        {
+          "id": "draft.n3_01.lesson.r.goal",
+          "text": "读交接消息确定行动"
+        }
+      ],
+      "word_refs": [
+        "draft.n3_01.word.1",
+        "draft.n3_01.word.2",
+        "draft.n3_01.word.3",
+        "draft.n3_01.word.4"
+      ],
+      "explanation_zh": "先标出负责人和截止日，再检查「ただし」之后是否有例外条件。",
+      "materials": [
+        {
+          "id": "draft.n3_01.lesson.r.teach",
+          "role": "teach",
+          "jp": "集計は吉田さんが水曜までに行います。ただし、データが届かない場合は、先に私へ連絡してください。",
+          "goal_refs": [
+            "draft.n3_01.lesson.r.goal"
+          ]
+        },
+        {
+          "id": "draft.n3_01.lesson.r.practice",
+          "role": "practice",
+          "jp": "資料の修正は山本さんが担当します。数字に変更があれば、公開前に経理にも確認してください。",
+          "goal_refs": [
+            "draft.n3_01.lesson.r.goal"
+          ]
+        },
+        {
+          "id": "draft.n3_01.lesson.r.check",
+          "role": "check",
+          "jp": "提出は金曜正午です。原稿の修正は私が行います。差し替え用の写真だけ、木曜までに小林さんから広報に送ってください。",
+          "goal_refs": [
+            "draft.n3_01.lesson.r.goal"
+          ]
+        }
+      ],
+      "practice": [
+        {
+          "id": "draft.n3_01.lesson.r.practice.q1",
+          "material_ref": "draft.n3_01.lesson.r.practice",
+          "goal_ref": "draft.n3_01.lesson.r.goal",
+          "word_refs": [
+            "draft.n3_01.word.1",
+            "draft.n3_01.word.2",
+            "draft.n3_01.word.3",
+            "draft.n3_01.word.4"
+          ],
+          "prompt": "数据变化时还需要找谁？",
+          "choices": [
+            "财务",
+            "总务",
+            "客户"
+          ],
+          "answer": "财务",
+          "feedback": "「経理にも」增加了确认对象。"
+        }
+      ],
+      "check": [
+        {
+          "id": "draft.n3_01.lesson.r.check.q1",
+          "material_ref": "draft.n3_01.lesson.r.check",
+          "goal_ref": "draft.n3_01.lesson.r.goal",
+          "word_refs": [
+            "draft.n3_01.word.1",
+            "draft.n3_01.word.2",
+            "draft.n3_01.word.3",
+            "draft.n3_01.word.4"
+          ],
+          "prompt": "小林要做什么？",
+          "choices": [
+            "周五中午前修改稿件",
+            "周四把原稿发给客户",
+            "周四前把替换照片发给宣传部门"
+          ],
+          "answer": "周四前把替换照片发给宣传部门",
+          "feedback": "末句分别写明资料、负责人、收件人和期限。"
+        }
+      ]
+    },
+    {
+      "id": "draft.n3_01.lesson.l",
+      "planning_key": "N3-01-L04",
+      "type": "L",
+      "title": "听清分工的最终版本",
+      "prerequisites": [
+        "N3-01-L03"
+      ],
+      "goals": [
+        {
+          "id": "draft.n3_01.lesson.l.goal",
+          "text": "听清分工的最终版本"
+        }
+      ],
+      "word_refs": [
+        "draft.n3_01.word.1",
+        "draft.n3_01.word.2",
+        "draft.n3_01.word.3",
+        "draft.n3_01.word.4"
+      ],
+      "explanation_zh": "职场对话可能先给方案，再用「では」「それなら」调整。记最终分工，同时保留对截止时间的承诺。",
+      "materials": [
+        {
+          "id": "draft.n3_01.lesson.l.teach",
+          "role": "teach",
+          "jp": "A：私が両方確認しましょうか。B：では、金額だけお願いします。日付は私が確認します。",
+          "goal_refs": [
+            "draft.n3_01.lesson.l.goal"
+          ]
+        },
+        {
+          "id": "draft.n3_01.lesson.l.practice",
+          "role": "practice",
+          "jp": "A：集計もお願いできますか。B：今日は難しいです。資料の確認だけならできます。A：では、確認をお願いします。",
+          "goal_refs": [
+            "draft.n3_01.lesson.l.goal"
+          ]
+        },
+        {
+          "id": "draft.n3_01.lesson.l.check",
+          "role": "check",
+          "jp": "A：私が先方に送ります。B：今日は外出ですよね。送付は私がやるので、午前中に原稿をください。A：では、そうします。",
+          "goal_refs": [
+            "draft.n3_01.lesson.l.goal"
+          ]
+        }
+      ],
+      "practice": [
+        {
+          "id": "draft.n3_01.lesson.l.practice.q1",
+          "material_ref": "draft.n3_01.lesson.l.practice",
+          "goal_ref": "draft.n3_01.lesson.l.goal",
+          "word_refs": [
+            "draft.n3_01.word.1",
+            "draft.n3_01.word.2",
+            "draft.n3_01.word.3",
+            "draft.n3_01.word.4"
+          ],
+          "prompt": "B最终负责什么？",
+          "choices": [
+            "整理数据",
+            "主持会议",
+            "确认资料"
+          ],
+          "answer": "确认资料",
+          "feedback": "最后的「確認をお願いします」指前面提到的资料确认。"
+        }
+      ],
+      "check": [
+        {
+          "id": "draft.n3_01.lesson.l.check.q1",
+          "material_ref": "draft.n3_01.lesson.l.check",
+          "goal_ref": "draft.n3_01.lesson.l.goal",
+          "word_refs": [
+            "draft.n3_01.word.1",
+            "draft.n3_01.word.2",
+            "draft.n3_01.word.3",
+            "draft.n3_01.word.4"
+          ],
+          "prompt": "A最后答应做什么？",
+          "choices": [
+            "下午拿回原稿",
+            "上午交原稿",
+            "亲自发给对方"
+          ],
+          "answer": "上午交原稿",
+          "feedback": "B接下发送，A上午交稿。"
+        }
+      ]
+    },
+    {
+      "id": "draft.n3_01.lesson.o",
+      "planning_key": "N3-01-L05",
+      "type": "O",
+      "title": "复述分工和交付节点",
+      "prerequisites": [
+        "N3-01-L04"
+      ],
+      "goals": [
+        {
+          "id": "draft.n3_01.lesson.o.goal",
+          "text": "复述分工和交付节点"
+        }
+      ],
+      "word_refs": [
+        "draft.n3_01.word.1",
+        "draft.n3_01.word.2",
+        "draft.n3_01.word.3",
+        "draft.n3_01.word.4"
+      ],
+      "explanation_zh": "用一句话核对自己负责的部分，下一句交代交付时间或请求支持。",
+      "materials": [
+        {
+          "id": "draft.n3_01.lesson.o.teach",
+          "role": "teach",
+          "jp": "集計は私が担当します。数字の確認だけ、明日の午前中までにお願いできますか。",
+          "goal_refs": [
+            "draft.n3_01.lesson.o.goal"
+          ]
+        }
+      ],
+      "performance": {
+        "practice": {
+          "card_zh": "角色卡：你能汇总销售记录，需同事在明早核对异常数据。",
+          "prompt_zh": "口头说明分工，并确认时间。"
+        },
+        "check": {
+          "card_zh": "角色卡：你负责改稿，明早交。封面照片由同事补齐，你需要在今天下班前拿到。",
+          "prompt_zh": "口头确认分工，再写给同事一条短消息。"
+        },
+        "rubric_zh": "分工、截止时间和请求明确；口头和书面一致。"
+      }
+    },
+    {
+      "id": "draft.n3_01.lesson.t",
+      "planning_key": "N3-01-L06",
+      "type": "T",
+      "title": "进度变化时调整交接",
+      "prerequisites": [
+        "N3-01-L05"
+      ],
+      "goals": [
+        {
+          "id": "draft.n3_01.lesson.t.goal",
+          "text": "进度变化时调整交接"
+        }
+      ],
+      "word_refs": [
+        "draft.n3_01.word.1",
+        "draft.n3_01.word.2",
+        "draft.n3_01.word.3",
+        "draft.n3_01.word.4"
+      ],
+      "explanation_zh": "提出调整前，简要报告影响。之后明确谁接手、何时更新，并请相关同事确认。",
+      "materials": [
+        {
+          "id": "draft.n3_01.lesson.t.teach",
+          "role": "teach",
+          "jp": "元のデータが遅れているため、午前中の提出は難しそうです。先に見出しだけ共有してもよろしいでしょうか。",
+          "goal_refs": [
+            "draft.n3_01.lesson.t.goal"
+          ]
+        }
+      ],
+      "performance": {
+        "practice": {
+          "card_zh": "新条件：文件下午才到，但同事上午需先做初步审阅。",
+          "prompt_zh": "提出先共享可审阅部分的方案，并约定下一次更新。"
+        },
+        "check": {
+          "card_zh": "新条件：原负责人提前下班，客户仍在等答复；你手上只有已确认的部分信息。",
+          "prompt_zh": "写一条交接消息，分开写已确认、待确认和下一次回复时间。"
+        },
+        "rubric_zh": "不把待确认事项说成事实；接手人和时限清楚。"
+      }
+    }
+  ],
+  "exam": {
+    "id": "draft.n3_01.exam.unit",
+    "materials": [
+      {
+        "id": "draft.n3_01.mat.examr",
+        "role": "exam_reading",
+        "jp": "商品案内の原稿は井上さんが木曜までに修正します。掲載用の写真は松本さんから広報へ送ってください。写真の差し替えが間に合わない場合は、公開日を変更する前に私へご連絡ください。"
+      },
+      {
+        "id": "draft.n3_01.mat.examl",
+        "role": "exam_listening",
+        "jp": "A：資料の確認は午後三時までに終わる見通しです。先方への送付も私が担当しましょうか。B：送付は私が担当します。確認が終わったら、修正した箇所を先に教えてください。A：承知しました。"
+      }
+    ],
+    "reading": [
+      {
+        "id": "draft.n3_01.q.er1",
+        "material_ref": "draft.n3_01.mat.examr",
+        "goal_ref": "draft.n3_01.lesson.r.goal",
+        "word_refs": [
+          "draft.n3_01.word.1",
+          "draft.n3_01.word.2",
+          "draft.n3_01.word.3",
+          "draft.n3_01.word.4"
+        ],
+        "prompt": "谁负责修正原稿？",
+        "choices": [
+          "井上",
+          "松本",
+          "宣传部门"
+        ],
+        "answer": "井上",
+        "feedback": "第一句写明「井上さんが…修正」。"
+      },
+      {
+        "id": "draft.n3_01.q.er2",
+        "material_ref": "draft.n3_01.mat.examr",
+        "goal_ref": "draft.n3_01.lesson.r.goal",
+        "word_refs": [
+          "draft.n3_01.word.1",
+          "draft.n3_01.word.2",
+          "draft.n3_01.word.3",
+          "draft.n3_01.word.4"
+        ],
+        "prompt": "松本需要把照片发给谁？",
+        "choices": [
+          "客户",
+          "宣传部门",
+          "财务部门"
+        ],
+        "answer": "宣传部门",
+        "feedback": "「広報へ送って」写明收件方。"
+      },
+      {
+        "id": "draft.n3_01.q.er3",
+        "material_ref": "draft.n3_01.mat.examr",
+        "goal_ref": "draft.n3_01.lesson.r.goal",
+        "word_refs": [
+          "draft.n3_01.word.1",
+          "draft.n3_01.word.2",
+          "draft.n3_01.word.3",
+          "draft.n3_01.word.4"
+        ],
+        "prompt": "如果来不及更换照片，先做什么？",
+        "choices": [
+          "立即更改公开日期",
+          "照原计划发给客户",
+          "联系发消息的人"
+        ],
+        "answer": "联系发消息的人",
+        "feedback": "「公開日を変更する前に私へ」说明先联系再改期。"
+      }
+    ],
+    "listening": [
+      {
+        "id": "draft.n3_01.q.el1",
+        "material_ref": "draft.n3_01.mat.examl",
+        "goal_ref": "draft.n3_01.lesson.l.goal",
+        "word_refs": [
+          "draft.n3_01.word.1",
+          "draft.n3_01.word.2",
+          "draft.n3_01.word.3",
+          "draft.n3_01.word.4"
+        ],
+        "prompt": "A预计何时能确认完资料？",
+        "choices": [
+          "下午三点前",
+          "次日上午",
+          "周末前"
+        ],
+        "answer": "下午三点前",
+        "feedback": "「午後三時までに終わる見通し」是预计时间。"
+      },
+      {
+        "id": "draft.n3_01.q.el2",
+        "material_ref": "draft.n3_01.mat.examl",
+        "goal_ref": "draft.n3_01.lesson.l.goal",
+        "word_refs": [
+          "draft.n3_01.word.1",
+          "draft.n3_01.word.2",
+          "draft.n3_01.word.3",
+          "draft.n3_01.word.4"
+        ],
+        "prompt": "最终由谁发给对方？",
+        "choices": [
+          "对方自行领取",
+          "B",
+          "A"
+        ],
+        "answer": "B",
+        "feedback": "B明确说「送付は私が担当します」。"
+      },
+      {
+        "id": "draft.n3_01.q.el3",
+        "material_ref": "draft.n3_01.mat.examl",
+        "goal_ref": "draft.n3_01.lesson.l.goal",
+        "word_refs": [
+          "draft.n3_01.word.1",
+          "draft.n3_01.word.2",
+          "draft.n3_01.word.3",
+          "draft.n3_01.word.4"
+        ],
+        "prompt": "确认完成后，B请A先告知什么？",
+        "choices": [
+          "对方的电话号码",
+          "原来的报价",
+          "修改过的地方"
+        ],
+        "answer": "修改过的地方",
+        "feedback": "「修正した箇所を先に教えて」是附加请求。"
+      }
+    ],
+    "output": {
+      "id": "draft.n3_01.q.eo1",
+      "card_zh": "原稿由你确认，客户邮件由同事发送。你发现一处数字仍待财务确认，同事原计划中午发邮件。",
+      "prompt_zh": "向同事口头核对分工，再写一条消息说明已确认内容、待确认内容和下一次更新时间。",
+      "rubric_zh": "明确谁负责发送；区分事实和预估；下一次更新时间具体。",
+      "scoring": "human_only"
+    }
+  }
+}

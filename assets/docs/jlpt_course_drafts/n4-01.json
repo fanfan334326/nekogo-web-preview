@@ -1,0 +1,682 @@
+{
+  "schema": "draft.n4_01.course.v1",
+  "unit": "N4-01",
+  "theme": "餐厅深化",
+  "status": {
+    "publication": "draft",
+    "language_review": "pending",
+    "teaching_review": "pending",
+    "rights_review": "pending",
+    "audio": "not_produced",
+    "audio_review": "pending",
+    "listening_score": "blocked",
+    "speaking_writing": "human_only",
+    "runtime_verification": "not_run",
+    "app_integration": "not_integrated"
+  },
+  "words": [
+    {
+      "id": "draft.n4_01.word.1",
+      "forms": "アレルギー（あれるぎー）",
+      "meaning_zh": "过敏",
+      "source": "AI_original_draft"
+    },
+    {
+      "id": "draft.n4_01.word.2",
+      "forms": "原材料（げんざいりょう）",
+      "meaning_zh": "原料",
+      "source": "AI_original_draft"
+    },
+    {
+      "id": "draft.n4_01.word.3",
+      "forms": "別添え（べつぞえ）",
+      "meaning_zh": "另放",
+      "source": "AI_original_draft"
+    },
+    {
+      "id": "draft.n4_01.word.4",
+      "forms": "変更（へんこう）",
+      "meaning_zh": "更换",
+      "source": "AI_original_draft"
+    }
+  ],
+  "lessons": [
+    {
+      "id": "draft.n4_01.lesson.v",
+      "planning_key": "N4-01-L01",
+      "type": "V",
+      "title": "确认原料",
+      "prerequisites": [],
+      "goals": [
+        {
+          "id": "draft.n4_01.lesson.v.goal",
+          "text": "确认原料"
+        }
+      ],
+      "word_refs": [
+        "draft.n4_01.word.1",
+        "draft.n4_01.word.2",
+        "draft.n4_01.word.3",
+        "draft.n4_01.word.4"
+      ],
+      "explanation_zh": "询问某种原料是否在整道菜里时，可以用「入っていますか」。看到「別添え」只知道某一部分另放，仍要确认菜里是否含相关原料。 「原材料」里的「材料」读「ざいりょう」。看到「原材料」一栏，可以先找自己要确认的食材。",
+      "materials": [
+        {
+          "id": "draft.n4_01.lesson.v.teach",
+          "role": "teach",
+          "jp": "このスープに牛乳が入っていますか。",
+          "goal_refs": [
+            "draft.n4_01.lesson.v.goal"
+          ]
+        },
+        {
+          "id": "draft.n4_01.lesson.v.practice",
+          "role": "practice",
+          "jp": "ドレッシングは別添えです。",
+          "goal_refs": [
+            "draft.n4_01.lesson.v.goal"
+          ]
+        },
+        {
+          "id": "draft.n4_01.lesson.v.check",
+          "role": "check",
+          "jp": "原材料は店員に聞いてください。",
+          "goal_refs": [
+            "draft.n4_01.lesson.v.goal"
+          ]
+        },
+        {
+          "id": "draft.n4_01.lesson.v.kanji-reading",
+          "role": "practice",
+          "jp": "原材料",
+          "goal_refs": [
+            "draft.n4_01.lesson.v.goal"
+          ]
+        }
+      ],
+      "practice": [
+        {
+          "id": "draft.n4_01.lesson.v.practice.q1",
+          "material_ref": "draft.n4_01.lesson.v.practice",
+          "goal_ref": "draft.n4_01.lesson.v.goal",
+          "word_refs": [
+            "draft.n4_01.word.1",
+            "draft.n4_01.word.2",
+            "draft.n4_01.word.3",
+            "draft.n4_01.word.4"
+          ],
+          "prompt": "沙拉酱如何提供？",
+          "choices": [
+            "已经拌好",
+            "当天不提供",
+            "另放"
+          ],
+          "answer": "另放",
+          "feedback": "「別添え」指单独附上。"
+        },
+        {
+          "id": "draft.n4_01.lesson.v.kanji-reading.q1",
+          "material_ref": "draft.n4_01.lesson.v.kanji-reading",
+          "goal_ref": "draft.n4_01.lesson.v.goal",
+          "word_refs": [
+            "draft.n4_01.word.2"
+          ],
+          "prompt": "这个词怎么读？",
+          "choices": [
+            "げんざいりょう",
+            "げんざい",
+            "げんざいりょく"
+          ],
+          "answer": "げんざいりょう",
+          "feedback": "「原材料」里的「材料」读「ざいりょう」。看到「原材料」一栏，可以先找自己要确认的食材。"
+        }
+      ],
+      "check": [
+        {
+          "id": "draft.n4_01.lesson.v.check.q1",
+          "material_ref": "draft.n4_01.lesson.v.check",
+          "goal_ref": "draft.n4_01.lesson.v.goal",
+          "word_refs": [
+            "draft.n4_01.word.1",
+            "draft.n4_01.word.2",
+            "draft.n4_01.word.3",
+            "draft.n4_01.word.4"
+          ],
+          "prompt": "遇到原料不明时该做什么？",
+          "choices": [
+            "向其他顾客点单",
+            "问店员",
+            "自行猜测"
+          ],
+          "answer": "问店员",
+          "feedback": "告示用「店員に聞いて」明确询问对象。"
+        }
+      ]
+    },
+    {
+      "id": "draft.n4_01.lesson.g",
+      "planning_key": "N4-01-L02",
+      "type": "G",
+      "title": "礼貌询问与更换",
+      "prerequisites": [
+        "N4-01-L01"
+      ],
+      "goals": [
+        {
+          "id": "draft.n4_01.lesson.g.goal",
+          "text": "礼貌询问与更换"
+        }
+      ],
+      "word_refs": [
+        "draft.n4_01.word.1",
+        "draft.n4_01.word.2",
+        "draft.n4_01.word.3",
+        "draft.n4_01.word.4"
+      ],
+      "explanation_zh": "「名词＋に変える」里的「に」标更换后的选项。「〜てもらえますか」用于请求对方做事。",
+      "materials": [
+        {
+          "id": "draft.n4_01.lesson.g.teach",
+          "role": "teach",
+          "jp": "サラダをスープに変えてもらえますか。",
+          "goal_refs": [
+            "draft.n4_01.lesson.g.goal"
+          ]
+        },
+        {
+          "id": "draft.n4_01.lesson.g.practice",
+          "role": "practice",
+          "jp": "ソースを別の皿に入れてもらえますか。",
+          "goal_refs": [
+            "draft.n4_01.lesson.g.goal"
+          ]
+        },
+        {
+          "id": "draft.n4_01.lesson.g.check",
+          "role": "check",
+          "jp": "パンをご飯に変えてもらえますか。",
+          "goal_refs": [
+            "draft.n4_01.lesson.g.goal"
+          ]
+        }
+      ],
+      "practice": [
+        {
+          "id": "draft.n4_01.lesson.g.practice.q1",
+          "material_ref": "draft.n4_01.lesson.g.practice",
+          "goal_ref": "draft.n4_01.lesson.g.goal",
+          "word_refs": [
+            "draft.n4_01.word.1",
+            "draft.n4_01.word.2",
+            "draft.n4_01.word.3",
+            "draft.n4_01.word.4"
+          ],
+          "prompt": "这里请求对方做什么？",
+          "choices": [
+            "把两种酱混合",
+            "把酱装在另一只碟里",
+            "拿走所有盘子"
+          ],
+          "answer": "把酱装在另一只碟里",
+          "feedback": "「別の皿に入れる」说明了放置位置。"
+        }
+      ],
+      "check": [
+        {
+          "id": "draft.n4_01.lesson.g.check.q1",
+          "material_ref": "draft.n4_01.lesson.g.check",
+          "goal_ref": "draft.n4_01.lesson.g.goal",
+          "word_refs": [
+            "draft.n4_01.word.1",
+            "draft.n4_01.word.2",
+            "draft.n4_01.word.3",
+            "draft.n4_01.word.4"
+          ],
+          "prompt": "客人希望换成什么？",
+          "choices": [
+            "米饭",
+            "面包",
+            "汤"
+          ],
+          "answer": "米饭",
+          "feedback": "「ご飯に」是更换后的结果。"
+        }
+      ],
+      "common_mistake_zh": "「AをBに変える」里，A 是原来的东西，B 是想换成的东西。「パンをご飯に」是把面包换成米饭。"
+    },
+    {
+      "id": "draft.n4_01.lesson.r",
+      "planning_key": "N4-01-L03",
+      "type": "R",
+      "title": "读菜单附注",
+      "prerequisites": [
+        "N4-01-L02"
+      ],
+      "goals": [
+        {
+          "id": "draft.n4_01.lesson.r.goal",
+          "text": "读菜单附注"
+        }
+      ],
+      "word_refs": [
+        "draft.n4_01.word.1",
+        "draft.n4_01.word.2",
+        "draft.n4_01.word.3",
+        "draft.n4_01.word.4"
+      ],
+      "explanation_zh": "先找到菜名，再看附注适用范围。读「場合は」时先识别触发条件，再确定后续动作。",
+      "materials": [
+        {
+          "id": "draft.n4_01.lesson.r.teach",
+          "role": "teach",
+          "jp": "ランチセット：スープ付き。原材料が気になる場合は、注文前に店員にお声がけください。",
+          "goal_refs": [
+            "draft.n4_01.lesson.r.goal"
+          ]
+        },
+        {
+          "id": "draft.n4_01.lesson.r.practice",
+          "role": "practice",
+          "jp": "野菜カレー：ソースは別添えにできます。希望する方は注文時にお伝えください。",
+          "goal_refs": [
+            "draft.n4_01.lesson.r.goal"
+          ]
+        },
+        {
+          "id": "draft.n4_01.lesson.r.check",
+          "role": "check",
+          "jp": "豆のサラダ：今日のドレッシングにはごまが入っています。別のドレッシングをご希望の方は、注文前にご相談ください。",
+          "goal_refs": [
+            "draft.n4_01.lesson.r.goal"
+          ]
+        },
+        {
+          "id": "draft.n4_01.lesson.r.check.cloze",
+          "role": "check",
+          "jp": "アレルギーのある方は、原材料を確認してから料理を選んでください。注文する〔空〕、店員にご相談ください。",
+          "goal_refs": [
+            "draft.n4_01.lesson.r.goal"
+          ]
+        }
+      ],
+      "practice": [
+        {
+          "id": "draft.n4_01.lesson.r.practice.q1",
+          "material_ref": "draft.n4_01.lesson.r.practice",
+          "goal_ref": "draft.n4_01.lesson.r.goal",
+          "word_refs": [
+            "draft.n4_01.word.1",
+            "draft.n4_01.word.2",
+            "draft.n4_01.word.3",
+            "draft.n4_01.word.4"
+          ],
+          "prompt": "什么时候提出酱料另放？",
+          "choices": [
+            "点餐时",
+            "结账后",
+            "取餐后"
+          ],
+          "answer": "点餐时",
+          "feedback": "「注文時」指点餐的时候。"
+        }
+      ],
+      "check": [
+        {
+          "id": "draft.n4_01.lesson.r.check.q1",
+          "material_ref": "draft.n4_01.lesson.r.check",
+          "goal_ref": "draft.n4_01.lesson.r.goal",
+          "word_refs": [
+            "draft.n4_01.word.1",
+            "draft.n4_01.word.2",
+            "draft.n4_01.word.3",
+            "draft.n4_01.word.4"
+          ],
+          "prompt": "顾客何时可咨询更换？",
+          "choices": [
+            "吃完后",
+            "第二天",
+            "点餐前"
+          ],
+          "answer": "点餐前",
+          "feedback": "「注文前にご相談ください」给出时间。"
+        },
+        {
+          "id": "draft.n4_01.lesson.r.check.cloze.q1",
+          "type": "cloze",
+          "material_ref": "draft.n4_01.lesson.r.check.cloze",
+          "goal_ref": "draft.n4_01.lesson.r.goal",
+          "word_refs": [
+            "draft.n4_01.word.1",
+            "draft.n4_01.word.2",
+            "draft.n4_01.word.3",
+            "draft.n4_01.word.4"
+          ],
+          "prompt": "根据前一句的说明，空格里应填哪一项？",
+          "choices": [
+            "あとで",
+            "前に",
+            "たびに"
+          ],
+          "answer": "前に",
+          "feedback": "通知要求先确认原料，再选择菜品。「注文する前に」表示点餐之前，应在这个时候向店员咨询。"
+        }
+      ]
+    },
+    {
+      "id": "draft.n4_01.lesson.l",
+      "planning_key": "N4-01-L04",
+      "type": "L",
+      "title": "听出可更换的范围",
+      "prerequisites": [
+        "N4-01-L03"
+      ],
+      "goals": [
+        {
+          "id": "draft.n4_01.lesson.l.goal",
+          "text": "听出可更换的范围"
+        }
+      ],
+      "word_refs": [
+        "draft.n4_01.word.1",
+        "draft.n4_01.word.2",
+        "draft.n4_01.word.3",
+        "draft.n4_01.word.4"
+      ],
+      "explanation_zh": "听到「〜はできますが」时，先记可行事项，再听「が」后面的限制。",
+      "materials": [
+        {
+          "id": "draft.n4_01.lesson.l.teach",
+          "role": "teach",
+          "jp": "客：パンをご飯に変えられますか。店員：はい。スープの変更はできません。",
+          "goal_refs": [
+            "draft.n4_01.lesson.l.goal"
+          ]
+        },
+        {
+          "id": "draft.n4_01.lesson.l.practice",
+          "role": "practice",
+          "jp": "客：ソースを別にできますか。店員：別添えにはできますが、別のソースには変えられません。",
+          "goal_refs": [
+            "draft.n4_01.lesson.l.goal"
+          ]
+        },
+        {
+          "id": "draft.n4_01.lesson.l.check",
+          "role": "check",
+          "jp": "客：サラダをスープに変えられますか。店員：変更はできませんが、スープを追加することはできます。",
+          "goal_refs": [
+            "draft.n4_01.lesson.l.goal"
+          ]
+        }
+      ],
+      "practice": [
+        {
+          "id": "draft.n4_01.lesson.l.practice.q1",
+          "material_ref": "draft.n4_01.lesson.l.practice",
+          "goal_ref": "draft.n4_01.lesson.l.goal",
+          "word_refs": [
+            "draft.n4_01.word.1",
+            "draft.n4_01.word.2",
+            "draft.n4_01.word.3",
+            "draft.n4_01.word.4"
+          ],
+          "prompt": "服务员能提供哪项调整？",
+          "choices": [
+            "换一种酱",
+            "换成汤",
+            "酱汁另放"
+          ],
+          "answer": "酱汁另放",
+          "feedback": "「別添えにはできます」给出可行选项。"
+        }
+      ],
+      "check": [
+        {
+          "id": "draft.n4_01.lesson.l.check.q1",
+          "material_ref": "draft.n4_01.lesson.l.check",
+          "goal_ref": "draft.n4_01.lesson.l.goal",
+          "word_refs": [
+            "draft.n4_01.word.1",
+            "draft.n4_01.word.2",
+            "draft.n4_01.word.3",
+            "draft.n4_01.word.4"
+          ],
+          "prompt": "哪项要求可以实现？",
+          "choices": [
+            "取消套餐",
+            "加点汤",
+            "用汤替换沙拉"
+          ],
+          "answer": "加点汤",
+          "feedback": "「追加」指额外点一份。"
+        }
+      ]
+    },
+    {
+      "id": "draft.n4_01.lesson.o",
+      "planning_key": "N4-01-L05",
+      "type": "O",
+      "title": "说清原料问题与请求",
+      "prerequisites": [
+        "N4-01-L04"
+      ],
+      "goals": [
+        {
+          "id": "draft.n4_01.lesson.o.goal",
+          "text": "说清原料问题与请求"
+        }
+      ],
+      "word_refs": [
+        "draft.n4_01.word.1",
+        "draft.n4_01.word.2",
+        "draft.n4_01.word.3",
+        "draft.n4_01.word.4"
+      ],
+      "explanation_zh": "先问原料，再提出具体请求。练习使用虚构角色和菜单；过敏场景中由店员确认整道菜和制作情况。",
+      "materials": [
+        {
+          "id": "draft.n4_01.lesson.o.teach",
+          "role": "teach",
+          "jp": "このソースにごまが入っていますか。原材料を確認してもらえますか。",
+          "goal_refs": [
+            "draft.n4_01.lesson.o.goal"
+          ]
+        }
+      ],
+      "performance": {
+        "practice": {
+          "card_zh": "角色卡：你想知道蔬菜汤里有没有牛奶，并请店员确认。",
+          "prompt_zh": "用日语和同伴完成一问一答。"
+        },
+        "check": {
+          "card_zh": "角色卡：你想知道咖喱里有没有花生，店员暂时答不出来。",
+          "prompt_zh": "口头提出核对请求，并写一句简短的确认问题。"
+        },
+        "rubric_zh": "说清所问食材；询问完整；给店员核对时间。"
+      }
+    },
+    {
+      "id": "draft.n4_01.lesson.t",
+      "planning_key": "N4-01-L06",
+      "type": "T",
+      "title": "根据替代条件改变请求",
+      "prerequisites": [
+        "N4-01-L05"
+      ],
+      "goals": [
+        {
+          "id": "draft.n4_01.lesson.t.goal",
+          "text": "根据替代条件改变请求"
+        }
+      ],
+      "word_refs": [
+        "draft.n4_01.word.1",
+        "draft.n4_01.word.2",
+        "draft.n4_01.word.3",
+        "draft.n4_01.word.4"
+      ],
+      "explanation_zh": "先复述已确认的信息，再根据限制提出替代。用「それなら」把新条件和下一步连起来。",
+      "materials": [
+        {
+          "id": "draft.n4_01.lesson.t.teach",
+          "role": "teach",
+          "jp": "店員：ご飯には変えられません。客：それなら、パンなしでお願いします。",
+          "goal_refs": [
+            "draft.n4_01.lesson.t.goal"
+          ]
+        }
+      ],
+      "performance": {
+        "practice": {
+          "card_zh": "新条件：酱可以另放，但店员仍要核对主菜是否含你询问的食材。",
+          "prompt_zh": "先用一句话确认核对范围，再说你打算如何点餐。"
+        },
+        "check": {
+          "card_zh": "新条件：沙拉的原料尚不明确，店员已核对另一道菜的原料。",
+          "prompt_zh": "向店员说明你想改点哪一道，并确认相关食材。"
+        },
+        "rubric_zh": "回应新的限制；替代请求清楚；仍保留必要的原料确认。"
+      }
+    }
+  ],
+  "exam": {
+    "id": "draft.n4_01.exam.unit",
+    "materials": [
+      {
+        "id": "draft.n4_01.mat.examr",
+        "role": "exam_reading",
+        "jp": "昼のセット：スープとパンが付きます。パンはご飯に変更できます。今日のスープには牛乳が入っています。原材料については、注文前に店員にご相談ください。"
+      },
+      {
+        "id": "draft.n4_01.mat.examl",
+        "role": "exam_listening",
+        "jp": "客：このサラダのドレッシングは別添えにできますか。店員：はい。ただ、サラダには最初からごまが入っています。客：そうですか。では、スープの原材料も確認してもらえますか。"
+      }
+    ],
+    "reading": [
+      {
+        "id": "draft.n4_01.q.er1",
+        "material_ref": "draft.n4_01.mat.examr",
+        "goal_ref": "draft.n4_01.lesson.r.goal",
+        "word_refs": [
+          "draft.n4_01.word.1",
+          "draft.n4_01.word.2",
+          "draft.n4_01.word.3",
+          "draft.n4_01.word.4"
+        ],
+        "prompt": "パンの代わりに何を頼めますか？",
+        "choices": [
+          "米饭",
+          "沙拉",
+          "另一种汤"
+        ],
+        "answer": "米饭",
+        "feedback": "「パンはご飯に変更できます」说明可换成米饭。"
+      },
+      {
+        "id": "draft.n4_01.q.er2",
+        "material_ref": "draft.n4_01.mat.examr",
+        "goal_ref": "draft.n4_01.lesson.r.goal",
+        "word_refs": [
+          "draft.n4_01.word.1",
+          "draft.n4_01.word.2",
+          "draft.n4_01.word.3",
+          "draft.n4_01.word.4"
+        ],
+        "prompt": "今日のスープに入っているものはどれですか？",
+        "choices": [
+          "花生",
+          "牛奶",
+          "芝麻"
+        ],
+        "answer": "牛奶",
+        "feedback": "「牛乳が入っています」明确写出原料。"
+      },
+      {
+        "id": "draft.n4_01.q.er3",
+        "material_ref": "draft.n4_01.mat.examr",
+        "goal_ref": "draft.n4_01.lesson.r.goal",
+        "word_refs": [
+          "draft.n4_01.word.1",
+          "draft.n4_01.word.2",
+          "draft.n4_01.word.3",
+          "draft.n4_01.word.4"
+        ],
+        "prompt": "对原料有疑问时，通知建议什么时候问店员？",
+        "choices": [
+          "上菜后",
+          "结账时",
+          "点餐前"
+        ],
+        "answer": "点餐前",
+        "feedback": "「注文前に」说明咨询时机。"
+      }
+    ],
+    "listening": [
+      {
+        "id": "draft.n4_01.q.el1",
+        "material_ref": "draft.n4_01.mat.examl",
+        "goal_ref": "draft.n4_01.lesson.l.goal",
+        "word_refs": [
+          "draft.n4_01.word.1",
+          "draft.n4_01.word.2",
+          "draft.n4_01.word.3",
+          "draft.n4_01.word.4"
+        ],
+        "prompt": "客人最先问了什么？",
+        "choices": [
+          "能否把沙拉酱另放",
+          "能否加一份米饭",
+          "能否马上结账"
+        ],
+        "answer": "能否把沙拉酱另放",
+        "feedback": "客人先说「別添えにできますか」。"
+      },
+      {
+        "id": "draft.n4_01.q.el2",
+        "material_ref": "draft.n4_01.mat.examl",
+        "goal_ref": "draft.n4_01.lesson.l.goal",
+        "word_refs": [
+          "draft.n4_01.word.1",
+          "draft.n4_01.word.2",
+          "draft.n4_01.word.3",
+          "draft.n4_01.word.4"
+        ],
+        "prompt": "服务员提醒了哪一点？",
+        "choices": [
+          "汤里一定有芝麻",
+          "沙拉本身已经含芝麻",
+          "沙拉酱无法另放"
+        ],
+        "answer": "沙拉本身已经含芝麻",
+        "feedback": "「サラダには最初からごまが入っています」说的是沙拉本身。"
+      },
+      {
+        "id": "draft.n4_01.q.el3",
+        "material_ref": "draft.n4_01.mat.examl",
+        "goal_ref": "draft.n4_01.lesson.l.goal",
+        "word_refs": [
+          "draft.n4_01.word.1",
+          "draft.n4_01.word.2",
+          "draft.n4_01.word.3",
+          "draft.n4_01.word.4"
+        ],
+        "prompt": "客人最后请服务员做什么？",
+        "choices": [
+          "再做一份沙拉",
+          "撤掉所有盘子",
+          "确认汤的原料"
+        ],
+        "answer": "确认汤的原料",
+        "feedback": "最后请店员「スープの原材料も確認」。"
+      }
+    ],
+    "output": {
+      "id": "draft.n4_01.q.eo1",
+      "card_zh": "你原本想点三明治，但想确认面包里是否含鸡蛋。店员暂时答不上来，另有饭团可选。",
+      "prompt_zh": "先口头请店员确认原料，再写一句说明你打算如何调整点餐。",
+      "rubric_zh": "说明要核对的菜品和原料；请求具体且礼貌；调整方案回应新信息。",
+      "scoring": "human_only"
+    }
+  }
+}

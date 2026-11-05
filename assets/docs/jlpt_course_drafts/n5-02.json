@@ -1,0 +1,1518 @@
+{
+  "schema": "draft.n5_02.course.v1",
+  "unit": "N5-02",
+  "theme": "人物与家庭",
+  "status": {
+    "publication": "draft",
+    "language_review": "pending",
+    "teaching_review": "pending",
+    "rights_review": "pending",
+    "source_verification": "unknown",
+    "approved_mapping": "none",
+    "runtime_verification": "not_run",
+    "audio": "not_produced",
+    "audio_review": "pending",
+    "listening_score": "blocked",
+    "speaking_writing": "human_only",
+    "app_integration": "not_integrated"
+  },
+  "external_prerequisites": [
+    {
+      "id": "N5-01",
+      "status": "recommended_not_verified",
+      "description": "建议先具备假名、は、です、か、基础身份词；N5-01并非已系统达标。"
+    }
+  ],
+  "words": [
+    {
+      "id": "draft.n5_02.word.chichi",
+      "forms": "父（ちち）",
+      "meaning_zh": "向外人谈自己的父亲",
+      "source": "AI_original_draft"
+    },
+    {
+      "id": "draft.n5_02.word.haha",
+      "forms": "母（はは）",
+      "meaning_zh": "向外人谈自己的母亲",
+      "source": "AI_original_draft"
+    },
+    {
+      "id": "draft.n5_02.word.otousan",
+      "forms": "お父さん（おとうさん）",
+      "meaning_zh": "对方的父亲；也可用于对自己父亲的称呼",
+      "source": "AI_original_draft"
+    },
+    {
+      "id": "draft.n5_02.word.okaasan",
+      "forms": "お母さん（おかあさん）",
+      "meaning_zh": "对方的母亲；也可用于对自己母亲的称呼",
+      "source": "AI_original_draft"
+    },
+    {
+      "id": "draft.n5_02.word.kodomo",
+      "forms": "子ども（こども）",
+      "meaning_zh": "孩子",
+      "source": "AI_original_draft"
+    },
+    {
+      "id": "draft.n5_02.word.tomodachi",
+      "forms": "友だち（ともだち）",
+      "meaning_zh": "朋友",
+      "source": "AI_original_draft"
+    },
+    {
+      "id": "draft.n5_02.word.gakusei",
+      "forms": "学生（がくせい）",
+      "meaning_zh": "学生",
+      "source": "AI_original_draft"
+    },
+    {
+      "id": "draft.n5_02.word.sensei",
+      "forms": "先生（せんせい）",
+      "meaning_zh": "老师",
+      "source": "AI_original_draft"
+    },
+    {
+      "id": "draft.n5_02.word.yasashii",
+      "forms": "やさしい",
+      "meaning_zh": "温和、亲切",
+      "source": "AI_original_draft"
+    },
+    {
+      "id": "draft.n5_02.word.genki",
+      "forms": "元気（げんき）",
+      "meaning_zh": "有精神；活泼",
+      "source": "AI_original_draft"
+    },
+    {
+      "id": "draft.n5_02.word.dare",
+      "forms": "だれ",
+      "meaning_zh": "谁",
+      "source": "AI_original_draft"
+    },
+    {
+      "id": "draft.n5_02.word.age",
+      "forms": "何歳（なんさい）／おいくつ",
+      "meaning_zh": "几岁；おいくつ是较礼貌的问年龄方式",
+      "source": "AI_original_draft"
+    },
+    {
+      "id": "draft.n5_02.word.ages",
+      "forms": "七歳（ななさい）／九歳（きゅうさい）／三十歳（さんじゅっさい）",
+      "meaning_zh": "七岁／九岁／三十岁；本稿仅要求这些给定读法",
+      "source": "AI_original_draft"
+    },
+    {
+      "id": "draft.n5_02.word.particles",
+      "forms": "の／も／は／です／か",
+      "meaning_zh": "关系、也、话题、礼貌断定、疑问",
+      "source": "AI_original_draft"
+    },
+    {
+      "id": "draft.n5_02.word.san",
+      "forms": "さん",
+      "meaning_zh": "接在人名后的礼貌称呼",
+      "source": "AI_original_draft"
+    },
+    {
+      "id": "draft.n5_02.word.person",
+      "forms": "人（ひと）",
+      "meaning_zh": "人；仅在人物说明中辅助识读",
+      "source": "AI_original_draft"
+    }
+  ],
+  "lessons": [
+    {
+      "id": "draft.n5_02.lesson.v",
+      "planning_key": "N5-02-L01",
+      "type": "V",
+      "theme": "人物与家庭",
+      "title": "称谓、身份和年龄",
+      "prerequisites": [
+        "N5-01"
+      ],
+      "goals": [
+        {
+          "id": "draft.n5_02.goal.v",
+          "text": "在虚构人物情境中辨认对外自称父母、对方父母、身份和给定年龄。"
+        }
+      ],
+      "word_refs": [
+        "draft.n5_02.word.chichi",
+        "draft.n5_02.word.haha",
+        "draft.n5_02.word.otousan",
+        "draft.n5_02.word.okaasan",
+        "draft.n5_02.word.kodomo",
+        "draft.n5_02.word.tomodachi",
+        "draft.n5_02.word.gakusei",
+        "draft.n5_02.word.sensei",
+        "draft.n5_02.word.age",
+        "draft.n5_02.word.ages",
+        "draft.n5_02.word.san",
+        "draft.n5_02.word.particles"
+      ],
+      "explanation_zh": "辅助复习：私（わたし）是我；は标话题读わ，です是礼貌断定，か标疑问，さん接在人名后，はい表示是。对外介绍自己父母常用父、母；问对方的父母用お父さん、お母さん。称呼自己的父母也可能用お父さん、お母さん，不能机械等同于所有场合。学生、先生是身份，不是亲属关系。何歳是几岁；おいくつ较礼貌，但年龄可能敏感，先获得同意，不追问。七歳读ななさい、九歳读きゅうさい、三十歳读さんじゅっさい：只要求这三种，其他年龄给读音。内外称谓、年龄提问及语境自然度待语言专家审核。",
+      "materials": [
+        {
+          "id": "draft.n5_02.mat.vt",
+          "role": "teach",
+          "jp": "私の父は先生です。お母さんはおいくつですか。",
+          "kana": "わたしのちちはせんせいです。おかあさんはおいくつですか。",
+          "zh": "我的父亲是老师。您的母亲多大年纪？（已同意询问）",
+          "goal_refs": [
+            "draft.n5_02.goal.v"
+          ]
+        },
+        {
+          "id": "draft.n5_02.mat.vp",
+          "role": "practice",
+          "jp": "ミナの母は学生です。母は三十歳です。",
+          "kana": "みなのはははがくせいです。はははさんじゅっさいです。",
+          "zh": "米娜的母亲是学生。母亲三十岁。米娜向外人介绍。",
+          "goal_refs": [
+            "draft.n5_02.goal.v"
+          ]
+        },
+        {
+          "id": "draft.n5_02.mat.vc",
+          "role": "check",
+          "jp": "ユイの父は先生です。父は三十歳です。",
+          "kana": "ゆいのちちはせんせいです。ちちはさんじゅっさいです。",
+          "zh": "优衣的父亲是老师。父亲三十岁。优衣向外人介绍。",
+          "goal_refs": [
+            "draft.n5_02.goal.v"
+          ]
+        }
+      ],
+      "practice": [
+        {
+          "id": "draft.n5_02.q.vp1",
+          "material_ref": "draft.n5_02.mat.vp",
+          "goal_ref": "draft.n5_02.goal.v",
+          "word_refs": [
+            "draft.n5_02.word.chichi",
+            "draft.n5_02.word.haha",
+            "draft.n5_02.word.otousan",
+            "draft.n5_02.word.okaasan",
+            "draft.n5_02.word.kodomo",
+            "draft.n5_02.word.tomodachi",
+            "draft.n5_02.word.gakusei",
+            "draft.n5_02.word.sensei",
+            "draft.n5_02.word.age",
+            "draft.n5_02.word.ages",
+            "draft.n5_02.word.san",
+            "draft.n5_02.word.particles"
+          ],
+          "prompt": "米娜对外说的是哪位亲人？",
+          "choices": [
+            "母亲",
+            "父亲",
+            "朋友"
+          ],
+          "answer": "母亲",
+          "feedback": "母表示向外人谈自己的母亲。"
+        },
+        {
+          "id": "draft.n5_02.q.vp2",
+          "material_ref": "draft.n5_02.mat.vp",
+          "goal_ref": "draft.n5_02.goal.v",
+          "word_refs": [
+            "draft.n5_02.word.chichi",
+            "draft.n5_02.word.haha",
+            "draft.n5_02.word.otousan",
+            "draft.n5_02.word.okaasan",
+            "draft.n5_02.word.kodomo",
+            "draft.n5_02.word.tomodachi",
+            "draft.n5_02.word.gakusei",
+            "draft.n5_02.word.sensei",
+            "draft.n5_02.word.age",
+            "draft.n5_02.word.ages",
+            "draft.n5_02.word.san",
+            "draft.n5_02.word.particles"
+          ],
+          "prompt": "米娜的母亲是什么身份？",
+          "choices": [
+            "学生",
+            "老师",
+            "不详"
+          ],
+          "answer": "学生",
+          "feedback": "学生表示身份，并不表示关系。"
+        }
+      ],
+      "check": [
+        {
+          "id": "draft.n5_02.q.vc1",
+          "material_ref": "draft.n5_02.mat.vc",
+          "goal_ref": "draft.n5_02.goal.v",
+          "word_refs": [
+            "draft.n5_02.word.chichi",
+            "draft.n5_02.word.haha",
+            "draft.n5_02.word.otousan",
+            "draft.n5_02.word.okaasan",
+            "draft.n5_02.word.kodomo",
+            "draft.n5_02.word.tomodachi",
+            "draft.n5_02.word.gakusei",
+            "draft.n5_02.word.sensei",
+            "draft.n5_02.word.age",
+            "draft.n5_02.word.ages",
+            "draft.n5_02.word.san",
+            "draft.n5_02.word.particles"
+          ],
+          "prompt": "优衣的父亲是什么身份？",
+          "choices": [
+            "老师",
+            "学生",
+            "不详"
+          ],
+          "answer": "老师",
+          "feedback": "先生在此是老师。"
+        },
+        {
+          "id": "draft.n5_02.q.vc2",
+          "material_ref": "draft.n5_02.mat.vc",
+          "goal_ref": "draft.n5_02.goal.v",
+          "word_refs": [
+            "draft.n5_02.word.chichi",
+            "draft.n5_02.word.haha",
+            "draft.n5_02.word.otousan",
+            "draft.n5_02.word.okaasan",
+            "draft.n5_02.word.kodomo",
+            "draft.n5_02.word.tomodachi",
+            "draft.n5_02.word.gakusei",
+            "draft.n5_02.word.sensei",
+            "draft.n5_02.word.age",
+            "draft.n5_02.word.ages",
+            "draft.n5_02.word.san",
+            "draft.n5_02.word.particles"
+          ],
+          "prompt": "按已教读法，优衣的父亲几岁？",
+          "choices": [
+            "三十岁",
+            "九岁",
+            "七岁"
+          ],
+          "answer": "三十岁",
+          "feedback": "三十歳读さんじゅっさい。"
+        },
+        {
+          "id": "draft.n5_02.q.vc3",
+          "material_ref": "draft.n5_02.mat.vc",
+          "goal_ref": "draft.n5_02.goal.v",
+          "word_refs": [
+            "draft.n5_02.word.chichi",
+            "draft.n5_02.word.haha",
+            "draft.n5_02.word.otousan",
+            "draft.n5_02.word.okaasan",
+            "draft.n5_02.word.kodomo",
+            "draft.n5_02.word.tomodachi",
+            "draft.n5_02.word.gakusei",
+            "draft.n5_02.word.sensei",
+            "draft.n5_02.word.age",
+            "draft.n5_02.word.ages",
+            "draft.n5_02.word.san",
+            "draft.n5_02.word.particles"
+          ],
+          "prompt": "征得同意后询问对方母亲时选哪一称谓？",
+          "choices": [
+            "お母さん",
+            "母",
+            "父"
+          ],
+          "answer": "お母さん",
+          "feedback": "对方的母亲可用お母さん。"
+        }
+      ],
+      "review_zh": "用不同的虚构人物卡复述内外称谓和已给读音的年龄；不要询问私人资料。"
+    },
+    {
+      "id": "draft.n5_02.lesson.g",
+      "planning_key": "N5-02-L02",
+      "type": "G",
+      "theme": "人物与家庭",
+      "title": "关系、也、谁和礼貌形",
+      "prerequisites": [
+        "draft.n5_02.lesson.v"
+      ],
+      "goals": [
+        {
+          "id": "draft.n5_02.goal.g",
+          "text": "辨认の连接关系、も表示也、だれ询问人物及形容词礼貌肯定句。"
+        }
+      ],
+      "word_refs": [
+        "draft.n5_02.word.chichi",
+        "draft.n5_02.word.haha",
+        "draft.n5_02.word.tomodachi",
+        "draft.n5_02.word.gakusei",
+        "draft.n5_02.word.sensei",
+        "draft.n5_02.word.yasashii",
+        "draft.n5_02.word.genki",
+        "draft.n5_02.word.dare",
+        "draft.n5_02.word.particles",
+        "draft.n5_02.word.san"
+      ],
+      "explanation_zh": "AのB连接所属或关系：ミナの友だち是米娜的朋友；不能仅凭の推断其余关系。も替代该句话题助词は，表示同一性质也适用于另一人。だれですか问是谁，陌生人可用更礼貌的どなたですか（仅作提示，不考）。い形容词やさしい后接です，な形容词元気作句末时说元気です，不说元気なです；这里只教肯定礼貌形。身份、关系和性格分别表达。",
+      "common_mistake_zh": "「私も学生です」里的「も」表示「我也是」，这里不要再加「は」。说某人有精神用「元気です」，不说「元気なです」。",
+      "materials": [
+        {
+          "id": "draft.n5_02.mat.gt",
+          "role": "teach",
+          "jp": "ミナは学生です。ユイも学生です。ミナの友だちはだれですか。ユイさんです。ユイさんはやさしいです。ミナさんは元気です。",
+          "kana": "みなはがくせいです。ゆいもがくせいです。みなのともだちはだれですか。ゆいさんです。ゆいさんはやさしいです。みなさんはげんきです。",
+          "zh": "米娜是学生。优衣也是学生。米娜的朋友是谁？是优衣。优衣温和。米娜有精神。",
+          "goal_refs": [
+            "draft.n5_02.goal.g"
+          ]
+        },
+        {
+          "id": "draft.n5_02.mat.gp",
+          "role": "practice",
+          "jp": "ナオは先生です。リクも先生です。ナオの友だちはリクです。",
+          "kana": "なおはせんせいです。りくもせんせいです。なおのともだちはりくです。",
+          "zh": "奈绪是老师。陆也是老师。奈绪的朋友是陆。",
+          "goal_refs": [
+            "draft.n5_02.goal.g"
+          ]
+        },
+        {
+          "id": "draft.n5_02.mat.gc",
+          "role": "check",
+          "jp": "ソラは学生です。アオも学生です。ソラの友だちはアオです。アオは元気です。",
+          "kana": "そらはがくせいです。あおもがくせいです。そらのともだちはあおです。あおはげんきです。",
+          "zh": "空是学生。青也是学生。空的朋友是青。青有精神。",
+          "goal_refs": [
+            "draft.n5_02.goal.g"
+          ]
+        }
+      ],
+      "practice": [
+        {
+          "id": "draft.n5_02.q.gp1",
+          "material_ref": "draft.n5_02.mat.gp",
+          "goal_ref": "draft.n5_02.goal.g",
+          "word_refs": [
+            "draft.n5_02.word.chichi",
+            "draft.n5_02.word.haha",
+            "draft.n5_02.word.tomodachi",
+            "draft.n5_02.word.gakusei",
+            "draft.n5_02.word.sensei",
+            "draft.n5_02.word.yasashii",
+            "draft.n5_02.word.genki",
+            "draft.n5_02.word.dare",
+            "draft.n5_02.word.particles",
+            "draft.n5_02.word.san"
+          ],
+          "prompt": "谁也是老师？",
+          "choices": [
+            "陆",
+            "空",
+            "青"
+          ],
+          "answer": "陆",
+          "feedback": "も连接同一身份：陆也是老师。"
+        },
+        {
+          "id": "draft.n5_02.q.gp2",
+          "material_ref": "draft.n5_02.mat.gp",
+          "goal_ref": "draft.n5_02.goal.g",
+          "word_refs": [
+            "draft.n5_02.word.chichi",
+            "draft.n5_02.word.haha",
+            "draft.n5_02.word.tomodachi",
+            "draft.n5_02.word.gakusei",
+            "draft.n5_02.word.sensei",
+            "draft.n5_02.word.yasashii",
+            "draft.n5_02.word.genki",
+            "draft.n5_02.word.dare",
+            "draft.n5_02.word.particles",
+            "draft.n5_02.word.san"
+          ],
+          "prompt": "奈绪的朋友是谁？",
+          "choices": [
+            "陆",
+            "奈绪",
+            "不详"
+          ],
+          "answer": "陆",
+          "feedback": "の标出奈绪与朋友的关系。"
+        }
+      ],
+      "check": [
+        {
+          "id": "draft.n5_02.q.gc1",
+          "material_ref": "draft.n5_02.mat.gc",
+          "goal_ref": "draft.n5_02.goal.g",
+          "word_refs": [
+            "draft.n5_02.word.chichi",
+            "draft.n5_02.word.haha",
+            "draft.n5_02.word.tomodachi",
+            "draft.n5_02.word.gakusei",
+            "draft.n5_02.word.sensei",
+            "draft.n5_02.word.yasashii",
+            "draft.n5_02.word.genki",
+            "draft.n5_02.word.dare",
+            "draft.n5_02.word.particles",
+            "draft.n5_02.word.san"
+          ],
+          "prompt": "谁也是学生？",
+          "choices": [
+            "青",
+            "奈绪",
+            "陆"
+          ],
+          "answer": "青",
+          "feedback": "アオも表示青也有前句身份。"
+        },
+        {
+          "id": "draft.n5_02.q.gc2",
+          "material_ref": "draft.n5_02.mat.gc",
+          "goal_ref": "draft.n5_02.goal.g",
+          "word_refs": [
+            "draft.n5_02.word.chichi",
+            "draft.n5_02.word.haha",
+            "draft.n5_02.word.tomodachi",
+            "draft.n5_02.word.gakusei",
+            "draft.n5_02.word.sensei",
+            "draft.n5_02.word.yasashii",
+            "draft.n5_02.word.genki",
+            "draft.n5_02.word.dare",
+            "draft.n5_02.word.particles",
+            "draft.n5_02.word.san"
+          ],
+          "prompt": "用谁提问时应选？",
+          "choices": [
+            "だれですか",
+            "何歳ですか",
+            "元気です"
+          ],
+          "answer": "だれですか",
+          "feedback": "だれ询问人物；何歳询问年龄。"
+        },
+        {
+          "id": "draft.n5_02.q.gc3",
+          "material_ref": "draft.n5_02.mat.gc",
+          "goal_ref": "draft.n5_02.goal.g",
+          "word_refs": [
+            "draft.n5_02.word.chichi",
+            "draft.n5_02.word.haha",
+            "draft.n5_02.word.tomodachi",
+            "draft.n5_02.word.gakusei",
+            "draft.n5_02.word.sensei",
+            "draft.n5_02.word.yasashii",
+            "draft.n5_02.word.genki",
+            "draft.n5_02.word.dare",
+            "draft.n5_02.word.particles",
+            "draft.n5_02.word.san"
+          ],
+          "prompt": "青的描述采用哪种礼貌句？",
+          "choices": [
+            "元気です",
+            "元気なです",
+            "元気か"
+          ],
+          "answer": "元気です",
+          "feedback": "元気句末直接接です。"
+        }
+      ],
+      "review_zh": "以两张新人物卡写出の和も各一句，再用やさしいです、元気です描述不同人物。"
+    },
+    {
+      "id": "draft.n5_02.lesson.r",
+      "planning_key": "N5-02-L03",
+      "type": "R",
+      "theme": "人物与家庭",
+      "title": "读人物卡：关系与语境汉字",
+      "prerequisites": [
+        "draft.n5_02.lesson.g"
+      ],
+      "goals": [
+        {
+          "id": "draft.n5_02.goal.r",
+          "text": "借助假名从人物卡定位父、母、子、友及人物关系和描述。"
+        }
+      ],
+      "word_refs": [
+        "draft.n5_02.word.chichi",
+        "draft.n5_02.word.haha",
+        "draft.n5_02.word.kodomo",
+        "draft.n5_02.word.tomodachi",
+        "draft.n5_02.word.gakusei",
+        "draft.n5_02.word.sensei",
+        "draft.n5_02.word.yasashii",
+        "draft.n5_02.word.genki",
+        "draft.n5_02.word.ages",
+        "draft.n5_02.word.particles",
+        "draft.n5_02.word.san"
+      ],
+      "explanation_zh": "读卡先圈人名，再把の前后连成关系，最后核对身份、年龄及描述；同一人可能有多个身份。父（ちち）、母（はは）、子（こ）见于子ども、友（とも）见于友だち；本课以词语内假名辅助识读，不要求孤立读音、书写或汉字掌握。",
+      "materials": [
+        {
+          "id": "draft.n5_02.mat.rt",
+          "role": "teach",
+          "jp": "【ミオ】母：ハル。母は先生です。友だち：レン。レンは元気です。",
+          "kana": "【みお】はは：はる。はははせんせいです。ともだち：れん。れんはげんきです。",
+          "zh": "【澪】母亲：晴。母亲是老师。朋友：莲。莲有精神。",
+          "goal_refs": [
+            "draft.n5_02.goal.r"
+          ]
+        },
+        {
+          "id": "draft.n5_02.mat.rp",
+          "role": "practice",
+          "jp": "【コウ】父：ナギ。父は先生です。友だち：レイ。レイはやさしいです。",
+          "kana": "【こう】ちち：なぎ。ちちはせんせいです。ともだち：れい。れいはやさしいです。",
+          "zh": "【光】父亲：凪。父亲是老师。朋友：玲。玲温和。",
+          "goal_refs": [
+            "draft.n5_02.goal.r"
+          ]
+        },
+        {
+          "id": "draft.n5_02.mat.rc",
+          "role": "check",
+          "jp": "【ユナ】母：マキ。マキは先生です。子ども：ユナ。ユナは七歳です。友だち：トワ。トワも七歳です。トワは元気です。",
+          "kana": "【ゆな】はは：まき。まきはせんせいです。こども：ゆな。ゆなはななさいです。ともだち：とわ。とわもななさいです。とわはげんきです。",
+          "zh": "【由奈】母亲：真纪。真纪是老师。孩子：由奈。由奈七岁。朋友：永久。永久也七岁。永久有精神。",
+          "goal_refs": [
+            "draft.n5_02.goal.r"
+          ]
+        }
+      ],
+      "practice": [
+        {
+          "id": "draft.n5_02.q.rp1",
+          "material_ref": "draft.n5_02.mat.rp",
+          "goal_ref": "draft.n5_02.goal.r",
+          "word_refs": [
+            "draft.n5_02.word.chichi",
+            "draft.n5_02.word.haha",
+            "draft.n5_02.word.kodomo",
+            "draft.n5_02.word.tomodachi",
+            "draft.n5_02.word.gakusei",
+            "draft.n5_02.word.sensei",
+            "draft.n5_02.word.yasashii",
+            "draft.n5_02.word.genki",
+            "draft.n5_02.word.ages",
+            "draft.n5_02.word.particles",
+            "draft.n5_02.word.san"
+          ],
+          "prompt": "光的父亲是谁？",
+          "choices": [
+            "凪",
+            "玲",
+            "光"
+          ],
+          "answer": "凪",
+          "feedback": "父后面的人名是凪。"
+        },
+        {
+          "id": "draft.n5_02.q.rp2",
+          "material_ref": "draft.n5_02.mat.rp",
+          "goal_ref": "draft.n5_02.goal.r",
+          "word_refs": [
+            "draft.n5_02.word.chichi",
+            "draft.n5_02.word.haha",
+            "draft.n5_02.word.kodomo",
+            "draft.n5_02.word.tomodachi",
+            "draft.n5_02.word.gakusei",
+            "draft.n5_02.word.sensei",
+            "draft.n5_02.word.yasashii",
+            "draft.n5_02.word.genki",
+            "draft.n5_02.word.ages",
+            "draft.n5_02.word.particles",
+            "draft.n5_02.word.san"
+          ],
+          "prompt": "玲的描述是什么？",
+          "choices": [
+            "温和",
+            "有精神",
+            "老师"
+          ],
+          "answer": "温和",
+          "feedback": "やさしいです表示温和。"
+        }
+      ],
+      "check": [
+        {
+          "id": "draft.n5_02.q.rc1",
+          "material_ref": "draft.n5_02.mat.rc",
+          "goal_ref": "draft.n5_02.goal.r",
+          "word_refs": [
+            "draft.n5_02.word.chichi",
+            "draft.n5_02.word.haha",
+            "draft.n5_02.word.kodomo",
+            "draft.n5_02.word.tomodachi",
+            "draft.n5_02.word.gakusei",
+            "draft.n5_02.word.sensei",
+            "draft.n5_02.word.yasashii",
+            "draft.n5_02.word.genki",
+            "draft.n5_02.word.ages",
+            "draft.n5_02.word.particles",
+            "draft.n5_02.word.san"
+          ],
+          "prompt": "由奈的母亲是谁？",
+          "choices": [
+            "真纪",
+            "永久",
+            "由奈"
+          ],
+          "answer": "真纪",
+          "feedback": "母后的名字是真纪。"
+        },
+        {
+          "id": "draft.n5_02.q.rc2",
+          "material_ref": "draft.n5_02.mat.rc",
+          "goal_ref": "draft.n5_02.goal.r",
+          "word_refs": [
+            "draft.n5_02.word.chichi",
+            "draft.n5_02.word.haha",
+            "draft.n5_02.word.kodomo",
+            "draft.n5_02.word.tomodachi",
+            "draft.n5_02.word.gakusei",
+            "draft.n5_02.word.sensei",
+            "draft.n5_02.word.yasashii",
+            "draft.n5_02.word.genki",
+            "draft.n5_02.word.ages",
+            "draft.n5_02.word.particles",
+            "draft.n5_02.word.san"
+          ],
+          "prompt": "真纪是什么身份？",
+          "choices": [
+            "老师",
+            "学生",
+            "不详"
+          ],
+          "answer": "老师",
+          "feedback": "マキは先生です。"
+        },
+        {
+          "id": "draft.n5_02.q.rc3",
+          "material_ref": "draft.n5_02.mat.rc",
+          "goal_ref": "draft.n5_02.goal.r",
+          "word_refs": [
+            "draft.n5_02.word.chichi",
+            "draft.n5_02.word.haha",
+            "draft.n5_02.word.kodomo",
+            "draft.n5_02.word.tomodachi",
+            "draft.n5_02.word.gakusei",
+            "draft.n5_02.word.sensei",
+            "draft.n5_02.word.yasashii",
+            "draft.n5_02.word.genki",
+            "draft.n5_02.word.ages",
+            "draft.n5_02.word.particles",
+            "draft.n5_02.word.san"
+          ],
+          "prompt": "卡中谁是真纪的孩子？",
+          "choices": [
+            "由奈",
+            "永久",
+            "真纪"
+          ],
+          "answer": "由奈",
+          "feedback": "子ども后是由奈。"
+        },
+        {
+          "id": "draft.n5_02.q.rc4",
+          "material_ref": "draft.n5_02.mat.rc",
+          "goal_ref": "draft.n5_02.goal.r",
+          "word_refs": [
+            "draft.n5_02.word.chichi",
+            "draft.n5_02.word.haha",
+            "draft.n5_02.word.kodomo",
+            "draft.n5_02.word.tomodachi",
+            "draft.n5_02.word.gakusei",
+            "draft.n5_02.word.sensei",
+            "draft.n5_02.word.yasashii",
+            "draft.n5_02.word.genki",
+            "draft.n5_02.word.ages",
+            "draft.n5_02.word.particles",
+            "draft.n5_02.word.san"
+          ],
+          "prompt": "永久的年龄？",
+          "choices": [
+            "七岁",
+            "九岁",
+            "三十岁"
+          ],
+          "answer": "七岁",
+          "feedback": "も七歳表示与由奈同龄。"
+        },
+        {
+          "id": "draft.n5_02.q.rc5",
+          "material_ref": "draft.n5_02.mat.rc",
+          "goal_ref": "draft.n5_02.goal.r",
+          "word_refs": [
+            "draft.n5_02.word.chichi",
+            "draft.n5_02.word.haha",
+            "draft.n5_02.word.kodomo",
+            "draft.n5_02.word.tomodachi",
+            "draft.n5_02.word.gakusei",
+            "draft.n5_02.word.sensei",
+            "draft.n5_02.word.yasashii",
+            "draft.n5_02.word.genki",
+            "draft.n5_02.word.ages",
+            "draft.n5_02.word.particles",
+            "draft.n5_02.word.san"
+          ],
+          "prompt": "永久有什么描述？",
+          "choices": [
+            "有精神",
+            "温和",
+            "老师"
+          ],
+          "answer": "有精神",
+          "feedback": "元気です表示有精神。"
+        }
+      ],
+      "review_zh": "遮住翻译，以假名回读另一张人物卡；错题标出人名、关系词和证据句。"
+    },
+    {
+      "id": "draft.n5_02.lesson.l",
+      "planning_key": "N5-02-L04",
+      "type": "unavailableListening",
+      "theme": "人物与家庭",
+      "title": "听家庭介绍：提取关系与身份",
+      "prerequisites": [
+        "draft.n5_02.lesson.r"
+      ],
+      "goals": [
+        {
+          "id": "draft.n5_02.goal.l",
+          "text": "从家庭介绍中区分说话者、关系、身份、给定年龄及描述。"
+        }
+      ],
+      "word_refs": [
+        "draft.n5_02.word.chichi",
+        "draft.n5_02.word.haha",
+        "draft.n5_02.word.kodomo",
+        "draft.n5_02.word.tomodachi",
+        "draft.n5_02.word.gakusei",
+        "draft.n5_02.word.sensei",
+        "draft.n5_02.word.yasashii",
+        "draft.n5_02.word.genki",
+        "draft.n5_02.word.ages",
+        "draft.n5_02.word.particles",
+        "draft.n5_02.word.san"
+      ],
+      "explanation_zh": "先听谁在介绍，再听の和称谓确定关系；第二遍把身份、年龄、特征分别记在对应人名下。下面仅为原创脚本，练习可先看译文；无经过审核的音频时只能做脚本理解，不能记录听力分数。",
+      "materials": [
+        {
+          "id": "draft.n5_02.mat.lt",
+          "role": "teach",
+          "jp": "私はサキです。母は先生です。母はやさしいです。",
+          "kana": "わたしはさきです。はははせんせいです。はははやさしいです。",
+          "zh": "我是咲。母亲是老师。母亲温和。",
+          "goal_refs": [
+            "draft.n5_02.goal.l"
+          ]
+        },
+        {
+          "id": "draft.n5_02.mat.lp",
+          "role": "practice",
+          "jp": "私はナミです。父は先生です。友だちはヒナです。ヒナは元気です。",
+          "kana": "わたしはなみです。ちちはせんせいです。ともだちはひなです。ひなはげんきです。",
+          "zh": "我是波。父亲是老师。朋友是雏。雏有精神。",
+          "goal_refs": [
+            "draft.n5_02.goal.l"
+          ]
+        },
+        {
+          "id": "draft.n5_02.mat.lc",
+          "role": "check",
+          "jp": "私はメイです。母は先生です。母はやさしいです。子どもはカイです。カイは九歳です。カイの友だちはユキです。ユキも九歳です。",
+          "kana": "わたしはめいです。はははせんせいです。はははやさしいです。こどもはかいです。かいはきゅうさいです。かいのともだちはゆきです。ゆきもきゅうさいです。",
+          "zh": "我是芽衣。母亲是老师，母亲温和。孩子是海，海九岁。海的朋友是雪，雪也九岁。",
+          "goal_refs": [
+            "draft.n5_02.goal.l"
+          ]
+        }
+      ],
+      "practice": [
+        {
+          "id": "draft.n5_02.q.lp1",
+          "material_ref": "draft.n5_02.mat.lp",
+          "goal_ref": "draft.n5_02.goal.l",
+          "word_refs": [
+            "draft.n5_02.word.chichi",
+            "draft.n5_02.word.haha",
+            "draft.n5_02.word.kodomo",
+            "draft.n5_02.word.tomodachi",
+            "draft.n5_02.word.gakusei",
+            "draft.n5_02.word.sensei",
+            "draft.n5_02.word.yasashii",
+            "draft.n5_02.word.genki",
+            "draft.n5_02.word.ages",
+            "draft.n5_02.word.particles",
+            "draft.n5_02.word.san"
+          ],
+          "prompt": "波介绍的父亲是什么身份？",
+          "choices": [
+            "老师",
+            "学生",
+            "不详"
+          ],
+          "answer": "老师",
+          "feedback": "父は先生です明确身份。"
+        },
+        {
+          "id": "draft.n5_02.q.lp2",
+          "material_ref": "draft.n5_02.mat.lp",
+          "goal_ref": "draft.n5_02.goal.l",
+          "word_refs": [
+            "draft.n5_02.word.chichi",
+            "draft.n5_02.word.haha",
+            "draft.n5_02.word.kodomo",
+            "draft.n5_02.word.tomodachi",
+            "draft.n5_02.word.gakusei",
+            "draft.n5_02.word.sensei",
+            "draft.n5_02.word.yasashii",
+            "draft.n5_02.word.genki",
+            "draft.n5_02.word.ages",
+            "draft.n5_02.word.particles",
+            "draft.n5_02.word.san"
+          ],
+          "prompt": "雏与波是什么关系？",
+          "choices": [
+            "朋友",
+            "母亲",
+            "孩子"
+          ],
+          "answer": "朋友",
+          "feedback": "友だちはヒナです。"
+        }
+      ],
+      "check": [
+        {
+          "id": "draft.n5_02.q.lc1",
+          "material_ref": "draft.n5_02.mat.lc",
+          "goal_ref": "draft.n5_02.goal.l",
+          "word_refs": [
+            "draft.n5_02.word.chichi",
+            "draft.n5_02.word.haha",
+            "draft.n5_02.word.kodomo",
+            "draft.n5_02.word.tomodachi",
+            "draft.n5_02.word.gakusei",
+            "draft.n5_02.word.sensei",
+            "draft.n5_02.word.yasashii",
+            "draft.n5_02.word.genki",
+            "draft.n5_02.word.ages",
+            "draft.n5_02.word.particles",
+            "draft.n5_02.word.san"
+          ],
+          "prompt": "芽衣的母亲是什么身份？",
+          "choices": [
+            "老师",
+            "学生",
+            "不详"
+          ],
+          "answer": "老师",
+          "feedback": "母は先生です。"
+        },
+        {
+          "id": "draft.n5_02.q.lc2",
+          "material_ref": "draft.n5_02.mat.lc",
+          "goal_ref": "draft.n5_02.goal.l",
+          "word_refs": [
+            "draft.n5_02.word.chichi",
+            "draft.n5_02.word.haha",
+            "draft.n5_02.word.kodomo",
+            "draft.n5_02.word.tomodachi",
+            "draft.n5_02.word.gakusei",
+            "draft.n5_02.word.sensei",
+            "draft.n5_02.word.yasashii",
+            "draft.n5_02.word.genki",
+            "draft.n5_02.word.ages",
+            "draft.n5_02.word.particles",
+            "draft.n5_02.word.san"
+          ],
+          "prompt": "芽衣的母亲有什么描述？",
+          "choices": [
+            "温和",
+            "有精神",
+            "九岁"
+          ],
+          "answer": "温和",
+          "feedback": "母はやさしいです。"
+        },
+        {
+          "id": "draft.n5_02.q.lc3",
+          "material_ref": "draft.n5_02.mat.lc",
+          "goal_ref": "draft.n5_02.goal.l",
+          "word_refs": [
+            "draft.n5_02.word.chichi",
+            "draft.n5_02.word.haha",
+            "draft.n5_02.word.kodomo",
+            "draft.n5_02.word.tomodachi",
+            "draft.n5_02.word.gakusei",
+            "draft.n5_02.word.sensei",
+            "draft.n5_02.word.yasashii",
+            "draft.n5_02.word.genki",
+            "draft.n5_02.word.ages",
+            "draft.n5_02.word.particles",
+            "draft.n5_02.word.san"
+          ],
+          "prompt": "海与芽衣是什么关系？",
+          "choices": [
+            "芽衣的孩子",
+            "芽衣的母亲",
+            "芽衣的朋友"
+          ],
+          "answer": "芽衣的孩子",
+          "feedback": "子どもはカイです。"
+        },
+        {
+          "id": "draft.n5_02.q.lc4",
+          "material_ref": "draft.n5_02.mat.lc",
+          "goal_ref": "draft.n5_02.goal.l",
+          "word_refs": [
+            "draft.n5_02.word.chichi",
+            "draft.n5_02.word.haha",
+            "draft.n5_02.word.kodomo",
+            "draft.n5_02.word.tomodachi",
+            "draft.n5_02.word.gakusei",
+            "draft.n5_02.word.sensei",
+            "draft.n5_02.word.yasashii",
+            "draft.n5_02.word.genki",
+            "draft.n5_02.word.ages",
+            "draft.n5_02.word.particles",
+            "draft.n5_02.word.san"
+          ],
+          "prompt": "海的朋友是谁？",
+          "choices": [
+            "雪",
+            "芽衣",
+            "海"
+          ],
+          "answer": "雪",
+          "feedback": "カイの友だちはユキです。"
+        },
+        {
+          "id": "draft.n5_02.q.lc5",
+          "material_ref": "draft.n5_02.mat.lc",
+          "goal_ref": "draft.n5_02.goal.l",
+          "word_refs": [
+            "draft.n5_02.word.chichi",
+            "draft.n5_02.word.haha",
+            "draft.n5_02.word.kodomo",
+            "draft.n5_02.word.tomodachi",
+            "draft.n5_02.word.gakusei",
+            "draft.n5_02.word.sensei",
+            "draft.n5_02.word.yasashii",
+            "draft.n5_02.word.genki",
+            "draft.n5_02.word.ages",
+            "draft.n5_02.word.particles",
+            "draft.n5_02.word.san"
+          ],
+          "prompt": "雪几岁？",
+          "choices": [
+            "九岁",
+            "七岁",
+            "三十岁"
+          ],
+          "answer": "九岁",
+          "feedback": "ユキも九歳，も表示与海同龄。"
+        }
+      ],
+      "review_zh": "先凭脚本划出人物和关系，再请伙伴在不展示文本时朗读新稿；此练习不算正式听力成绩。"
+    },
+    {
+      "id": "draft.n5_02.lesson.o",
+      "planning_key": "N5-02-L05",
+      "type": "O",
+      "theme": "人物与家庭",
+      "title": "组织两位人物的说写和问答",
+      "prerequisites": [
+        "draft.n5_02.lesson.l"
+      ],
+      "goals": [
+        {
+          "id": "draft.n5_02.goal.o",
+          "text": "根据虚构人物卡说写两人的关系、身份或特征，并礼貌询问与回应。"
+        }
+      ],
+      "word_refs": [
+        "draft.n5_02.word.chichi",
+        "draft.n5_02.word.haha",
+        "draft.n5_02.word.otousan",
+        "draft.n5_02.word.okaasan",
+        "draft.n5_02.word.kodomo",
+        "draft.n5_02.word.tomodachi",
+        "draft.n5_02.word.gakusei",
+        "draft.n5_02.word.sensei",
+        "draft.n5_02.word.yasashii",
+        "draft.n5_02.word.genki",
+        "draft.n5_02.word.dare",
+        "draft.n5_02.word.age",
+        "draft.n5_02.word.ages",
+        "draft.n5_02.word.particles",
+        "draft.n5_02.word.san"
+      ],
+      "explanation_zh": "先选自愿分享的人物卡（允许虚构），决定叙述视角：自己父母对外用父/母，对方父母用お父さん/お母さん。每人说关系及身份或特征，再用だれ问人物；对年龄先征得同意，用おいくつ礼貌询问，对方可以不答。写说各独立完成，不以身份代替关系，也不要求提供真实家庭。",
+      "materials": [
+        {
+          "id": "draft.n5_02.mat.ot",
+          "role": "teach",
+          "jp": "私の母は先生です。母はやさしいです。私の子どもは九歳です。友だちはだれですか。ユキさんです。",
+          "kana": "わたしのはははせんせいです。はははやさしいです。わたしのこどもはきゅうさいです。ともだちはだれですか。ゆきさんです。",
+          "zh": "我的母亲是老师，母亲温和。我的孩子九岁。朋友是谁？是雪。",
+          "goal_refs": [
+            "draft.n5_02.goal.o"
+          ]
+        },
+        {
+          "id": "draft.n5_02.mat.op",
+          "role": "practice",
+          "jp": "私の父は先生です。父は元気です。私の子どもは七歳です。",
+          "kana": "わたしのちちはせんせいです。ちちはげんきです。わたしのこどもはななさいです。",
+          "zh": "我的父亲是老师，父亲有精神。我的孩子七岁。",
+          "goal_refs": [
+            "draft.n5_02.goal.o"
+          ]
+        },
+        {
+          "id": "draft.n5_02.mat.oc",
+          "role": "check",
+          "jp": "私の母は学生です。母は元気です。私の子どもは九歳です。",
+          "kana": "わたしのはははがくせいです。はははげんきです。わたしのこどもはきゅうさいです。",
+          "zh": "我的母亲是学生，母亲有精神。我的孩子九岁。",
+          "goal_refs": [
+            "draft.n5_02.goal.o"
+          ]
+        }
+      ],
+      "practice": [
+        {
+          "id": "draft.n5_02.q.op1",
+          "material_ref": "draft.n5_02.mat.op",
+          "goal_ref": "draft.n5_02.goal.o",
+          "word_refs": [
+            "draft.n5_02.word.chichi",
+            "draft.n5_02.word.haha",
+            "draft.n5_02.word.otousan",
+            "draft.n5_02.word.okaasan",
+            "draft.n5_02.word.kodomo",
+            "draft.n5_02.word.tomodachi",
+            "draft.n5_02.word.gakusei",
+            "draft.n5_02.word.sensei",
+            "draft.n5_02.word.yasashii",
+            "draft.n5_02.word.genki",
+            "draft.n5_02.word.dare",
+            "draft.n5_02.word.age",
+            "draft.n5_02.word.ages",
+            "draft.n5_02.word.particles",
+            "draft.n5_02.word.san"
+          ],
+          "prompt": "向外介绍自己的父亲选哪一词？",
+          "choices": [
+            "父",
+            "お父さん",
+            "お母さん"
+          ],
+          "answer": "父",
+          "feedback": "对外介绍自己的父亲常用父。"
+        },
+        {
+          "id": "draft.n5_02.q.op2",
+          "material_ref": "draft.n5_02.mat.op",
+          "goal_ref": "draft.n5_02.goal.o",
+          "word_refs": [
+            "draft.n5_02.word.chichi",
+            "draft.n5_02.word.haha",
+            "draft.n5_02.word.otousan",
+            "draft.n5_02.word.okaasan",
+            "draft.n5_02.word.kodomo",
+            "draft.n5_02.word.tomodachi",
+            "draft.n5_02.word.gakusei",
+            "draft.n5_02.word.sensei",
+            "draft.n5_02.word.yasashii",
+            "draft.n5_02.word.genki",
+            "draft.n5_02.word.dare",
+            "draft.n5_02.word.age",
+            "draft.n5_02.word.ages",
+            "draft.n5_02.word.particles",
+            "draft.n5_02.word.san"
+          ],
+          "prompt": "练习材料里孩子几岁？",
+          "choices": [
+            "七岁",
+            "九岁",
+            "三十岁"
+          ],
+          "answer": "七岁",
+          "feedback": "七歳读ななさい。"
+        }
+      ],
+      "check": [
+        {
+          "id": "draft.n5_02.q.oc1",
+          "material_ref": "draft.n5_02.mat.oc",
+          "goal_ref": "draft.n5_02.goal.o",
+          "word_refs": [
+            "draft.n5_02.word.chichi",
+            "draft.n5_02.word.haha",
+            "draft.n5_02.word.otousan",
+            "draft.n5_02.word.okaasan",
+            "draft.n5_02.word.kodomo",
+            "draft.n5_02.word.tomodachi",
+            "draft.n5_02.word.gakusei",
+            "draft.n5_02.word.sensei",
+            "draft.n5_02.word.yasashii",
+            "draft.n5_02.word.genki",
+            "draft.n5_02.word.dare",
+            "draft.n5_02.word.age",
+            "draft.n5_02.word.ages",
+            "draft.n5_02.word.particles",
+            "draft.n5_02.word.san"
+          ],
+          "prompt": "检查材料里自己的母亲是什么身份？",
+          "choices": [
+            "学生",
+            "老师",
+            "不详"
+          ],
+          "answer": "学生",
+          "feedback": "母は学生です表达身份。"
+        },
+        {
+          "id": "draft.n5_02.q.oc2",
+          "material_ref": "draft.n5_02.mat.oc",
+          "goal_ref": "draft.n5_02.goal.o",
+          "word_refs": [
+            "draft.n5_02.word.chichi",
+            "draft.n5_02.word.haha",
+            "draft.n5_02.word.otousan",
+            "draft.n5_02.word.okaasan",
+            "draft.n5_02.word.kodomo",
+            "draft.n5_02.word.tomodachi",
+            "draft.n5_02.word.gakusei",
+            "draft.n5_02.word.sensei",
+            "draft.n5_02.word.yasashii",
+            "draft.n5_02.word.genki",
+            "draft.n5_02.word.dare",
+            "draft.n5_02.word.age",
+            "draft.n5_02.word.ages",
+            "draft.n5_02.word.particles",
+            "draft.n5_02.word.san"
+          ],
+          "prompt": "问对方母亲年龄前应如何做？",
+          "choices": [
+            "先征得同意",
+            "一定追问",
+            "假定对方愿意说"
+          ],
+          "answer": "先征得同意",
+          "feedback": "年龄可能敏感；允许拒答。"
+        }
+      ],
+      "review_zh": "先对照量规重写两张虚构卡，再与伙伴交换角色；只复习自愿提供的信息。",
+      "performance": {
+        "practice": {
+          "card_zh": "我的父亲是老师，父亲有精神。我的孩子七岁。",
+          "prompt_zh": "以练习卡的叙述者介绍父亲和孩子；伙伴问父亲是谁或什么身份。写两句再口头回答；可换虚构人物。"
+        },
+        "check": {
+          "card_zh": "我的母亲是学生，母亲有精神。我的孩子九岁。",
+          "prompt_zh": "口说渠道；课内检查共同要求：另用检查卡，独立写和说母亲及孩子；伙伴各问一次关系与身份，允许拒绝年龄提问。人工记录，不自动评分。 书写渠道；课内检查共同要求：另用检查卡，独立写和说母亲及孩子；伙伴各问一次关系与身份，允许拒绝年龄提问。人工记录，不自动评分。"
+        },
+        "rubric_zh": "任务完成：0：未能介绍两人关系或未完成问答；1：提到两人但关系或问答不完整；2：两人关系明确，完成指定问答及说写任务\n语言准确：0：错误严重妨碍理解；1：助词或词形有误但主要意思可辨；2：の、も、だれ及礼貌形在使用处基本准确\n连贯：0：无法对应人物；1：可辨主要人物但顺序或指代混乱；2：人物与关系顺序清楚，指代可追踪\n语境得体：0：称谓或追问明显不合语境；1：尝试礼貌但称谓或询问有偏差；2：视角称谓恰当，礼貌询问并尊重拒答\n阈值：说、写分别四维各0–2分，分别总分至少6/8且每维至少1，另须完成各自任务；人工根据实际表现判定，接受自然等义表达。"
+      }
+    }
+  ],
+  "exam": {
+    "id": "draft.n5_02.exam.unit",
+    "materials": [
+      {
+        "id": "draft.n5_02.mat.examr",
+        "role": "exam_reading",
+        "jp": "【モモ】友だち：アキ。モモは九歳です。アキも九歳です。アキの父はタクです。タクは学生です。タクは元気です。",
+        "kana": "【もも】ともだち：あき。ももはきゅうさいです。あきもきゅうさいです。あきのちちはたくです。たくはがくせいです。たくはげんきです。",
+        "zh": "【桃】朋友：秋。桃九岁，秋也九岁。秋的父亲是拓，拓是学生，拓有精神。"
+      },
+      {
+        "id": "draft.n5_02.mat.examl",
+        "role": "exam_listening",
+        "jp": "私はリオです。ハナは私の子どもです。ハナの友だちはソウです。ソウは七歳です。ハナも七歳です。母は学生です。母は元気です。",
+        "kana": "わたしはりおです。はなはわたしのこどもです。はなのともだちはそうです。そうはななさいです。はなもななさいです。はははがくせいです。はははげんきです。",
+        "zh": "我是里央。花是我的孩子，花的朋友是奏。奏七岁，花也七岁。母亲是学生，母亲有精神。"
+      },
+      {
+        "id": "draft.n5_02.mat.examo",
+        "role": "exam_output",
+        "jp": "私の父は学生です。父はやさしいです。私の子どもは七歳です。子どもの友だちはソウです。ソウも七歳です。",
+        "kana": "わたしのちちはがくせいです。ちちはやさしいです。わたしのこどもはななさいです。こどものともだちはそうです。そうもななさいです。",
+        "zh": "我的父亲是学生，父亲温和。我的孩子七岁。孩子的朋友是奏，奏也七岁。"
+      }
+    ],
+    "reading": [
+      {
+        "id": "draft.n5_02.q.er1",
+        "material_ref": "draft.n5_02.mat.examr",
+        "goal_ref": "draft.n5_02.goal.r",
+        "word_refs": [
+          "draft.n5_02.word.chichi",
+          "draft.n5_02.word.tomodachi",
+          "draft.n5_02.word.gakusei",
+          "draft.n5_02.word.ages",
+          "draft.n5_02.word.genki",
+          "draft.n5_02.word.particles"
+        ],
+        "prompt": "桃的朋友是谁？",
+        "choices": [
+          "拓",
+          "秋",
+          "桃"
+        ],
+        "answer": "秋",
+        "feedback": "卡上友だち之后是秋。"
+      },
+      {
+        "id": "draft.n5_02.q.er2",
+        "material_ref": "draft.n5_02.mat.examr",
+        "goal_ref": "draft.n5_02.goal.r",
+        "word_refs": [
+          "draft.n5_02.word.chichi",
+          "draft.n5_02.word.tomodachi",
+          "draft.n5_02.word.gakusei",
+          "draft.n5_02.word.ages",
+          "draft.n5_02.word.genki",
+          "draft.n5_02.word.particles"
+        ],
+        "prompt": "谁的父亲是拓？",
+        "choices": [
+          "桃",
+          "秋",
+          "拓"
+        ],
+        "answer": "秋",
+        "feedback": "アキの父はタクです。"
+      },
+      {
+        "id": "draft.n5_02.q.er3",
+        "material_ref": "draft.n5_02.mat.examr",
+        "goal_ref": "draft.n5_02.goal.r",
+        "word_refs": [
+          "draft.n5_02.word.chichi",
+          "draft.n5_02.word.tomodachi",
+          "draft.n5_02.word.gakusei",
+          "draft.n5_02.word.ages",
+          "draft.n5_02.word.genki",
+          "draft.n5_02.word.particles"
+        ],
+        "prompt": "拓是什么身份？",
+        "choices": [
+          "老师",
+          "不详",
+          "学生"
+        ],
+        "answer": "学生",
+        "feedback": "タクは学生です。"
+      },
+      {
+        "id": "draft.n5_02.q.er4",
+        "material_ref": "draft.n5_02.mat.examr",
+        "goal_ref": "draft.n5_02.goal.r",
+        "word_refs": [
+          "draft.n5_02.word.chichi",
+          "draft.n5_02.word.tomodachi",
+          "draft.n5_02.word.gakusei",
+          "draft.n5_02.word.ages",
+          "draft.n5_02.word.genki",
+          "draft.n5_02.word.particles"
+        ],
+        "prompt": "哪两人同为九岁？",
+        "choices": [
+          "桃和秋",
+          "秋和拓",
+          "桃和拓"
+        ],
+        "answer": "桃和秋",
+        "feedback": "桃是九岁，秋も九歳。"
+      },
+      {
+        "id": "draft.n5_02.q.er5",
+        "material_ref": "draft.n5_02.mat.examr",
+        "goal_ref": "draft.n5_02.goal.r",
+        "word_refs": [
+          "draft.n5_02.word.chichi",
+          "draft.n5_02.word.tomodachi",
+          "draft.n5_02.word.gakusei",
+          "draft.n5_02.word.ages",
+          "draft.n5_02.word.genki",
+          "draft.n5_02.word.particles"
+        ],
+        "prompt": "拓有什么描述？",
+        "choices": [
+          "温和",
+          "老师",
+          "有精神"
+        ],
+        "answer": "有精神",
+        "feedback": "元気です表示有精神。"
+      }
+    ],
+    "listening": [
+      {
+        "id": "draft.n5_02.q.el1",
+        "material_ref": "draft.n5_02.mat.examl",
+        "goal_ref": "draft.n5_02.goal.l",
+        "word_refs": [
+          "draft.n5_02.word.haha",
+          "draft.n5_02.word.kodomo",
+          "draft.n5_02.word.tomodachi",
+          "draft.n5_02.word.gakusei",
+          "draft.n5_02.word.ages",
+          "draft.n5_02.word.genki",
+          "draft.n5_02.word.particles"
+        ],
+        "prompt": "奏与花是什么关系？",
+        "choices": [
+          "花的母亲",
+          "花的朋友",
+          "花的孩子"
+        ],
+        "answer": "花的朋友",
+        "feedback": "ハナの友だちはソウです。"
+      },
+      {
+        "id": "draft.n5_02.q.el2",
+        "material_ref": "draft.n5_02.mat.examl",
+        "goal_ref": "draft.n5_02.goal.l",
+        "word_refs": [
+          "draft.n5_02.word.haha",
+          "draft.n5_02.word.kodomo",
+          "draft.n5_02.word.tomodachi",
+          "draft.n5_02.word.gakusei",
+          "draft.n5_02.word.ages",
+          "draft.n5_02.word.genki",
+          "draft.n5_02.word.particles"
+        ],
+        "prompt": "哪两人同为七岁？",
+        "choices": [
+          "里央和花",
+          "花和奏",
+          "里央和奏"
+        ],
+        "answer": "花和奏",
+        "feedback": "奏七岁，花も七歳。"
+      },
+      {
+        "id": "draft.n5_02.q.el3",
+        "material_ref": "draft.n5_02.mat.examl",
+        "goal_ref": "draft.n5_02.goal.l",
+        "word_refs": [
+          "draft.n5_02.word.haha",
+          "draft.n5_02.word.kodomo",
+          "draft.n5_02.word.tomodachi",
+          "draft.n5_02.word.gakusei",
+          "draft.n5_02.word.ages",
+          "draft.n5_02.word.genki",
+          "draft.n5_02.word.particles"
+        ],
+        "prompt": "里央的母亲有什么描述？",
+        "choices": [
+          "温和",
+          "有精神",
+          "七岁"
+        ],
+        "answer": "有精神",
+        "feedback": "母は元気です。"
+      },
+      {
+        "id": "draft.n5_02.q.el4",
+        "material_ref": "draft.n5_02.mat.examl",
+        "goal_ref": "draft.n5_02.goal.l",
+        "word_refs": [
+          "draft.n5_02.word.haha",
+          "draft.n5_02.word.kodomo",
+          "draft.n5_02.word.tomodachi",
+          "draft.n5_02.word.gakusei",
+          "draft.n5_02.word.ages",
+          "draft.n5_02.word.genki",
+          "draft.n5_02.word.particles"
+        ],
+        "prompt": "里央的孩子是谁？",
+        "choices": [
+          "奏",
+          "里央",
+          "花"
+        ],
+        "answer": "花",
+        "feedback": "ハナは私の子どもです。"
+      },
+      {
+        "id": "draft.n5_02.q.el5",
+        "material_ref": "draft.n5_02.mat.examl",
+        "goal_ref": "draft.n5_02.goal.l",
+        "word_refs": [
+          "draft.n5_02.word.haha",
+          "draft.n5_02.word.kodomo",
+          "draft.n5_02.word.tomodachi",
+          "draft.n5_02.word.gakusei",
+          "draft.n5_02.word.ages",
+          "draft.n5_02.word.genki",
+          "draft.n5_02.word.particles"
+        ],
+        "prompt": "里央的母亲是什么身份？",
+        "choices": [
+          "老师",
+          "学生",
+          "不详"
+        ],
+        "answer": "学生",
+        "feedback": "母は学生です。"
+      }
+    ],
+    "scoring": "读与听各5题每题1分，分别至少4/5；答案从快照逐题比对并求和。听力无审核音频时成绩阻塞，读稿不得计听力。说写人工各≥6/8且每维≥1并完成任务；所有项目达标才可建议通过，当前不能声明通过。",
+    "output": {
+      "card_zh": "我的父亲是学生，父亲温和。我的孩子七岁。孩子的朋友是奏，奏也七岁。",
+      "prompt_zh": "以单元测卡的叙述者，口头介绍父亲和孩子的关系、至少一项身份或特征及孩子与朋友相同的年龄；尝试の、も、形容词礼貌形。与伙伴完成两轮人物关系/身份问答，至少一轮用だれ。伙伴可先请求许可再问给定年龄；可拒答。可选择自编虚构家庭卡，不需个人资料。 独立写至少四句介绍单元测卡的父亲和孩子、关系、身份或特征、孩子与朋友相同的年龄，再写一组人物问答；使用の、も、だれ及形容词礼貌形。可选择信息相当的自编虚构家庭卡。",
+      "rubric_zh": "任务完成：0：未能介绍两人关系或未完成问答；1：提到两人但关系或问答不完整；2：两人关系明确，完成指定问答及说写任务\n语言准确：0：错误严重妨碍理解；1：助词或词形有误但主要意思可辨；2：の、も、だれ及礼貌形在使用处基本准确\n连贯：0：无法对应人物；1：可辨主要人物但顺序或指代混乱；2：人物与关系顺序清楚，指代可追踪\n语境得体：0：称谓或追问明显不合语境；1：尝试礼貌但称谓或询问有偏差；2：视角称谓恰当，礼貌询问并尊重拒答\n阈值：说、写分别四维各0–2分，分别总分至少6/8且每维至少1，另须完成各自任务；人工根据实际表现判定，接受自然等义表达。",
+      "scoring": "human_only"
+    }
+  },
+  "performance": {
+    "practice_material_ref": "draft.n5_02.mat.op",
+    "check_material_ref": "draft.n5_02.mat.oc",
+    "exam_material_ref": "draft.n5_02.mat.examo",
+    "goal_refs": [
+      "draft.n5_02.goal.o"
+    ],
+    "practice": "以练习卡的叙述者介绍父亲和孩子；伙伴问父亲是谁或什么身份。写两句再口头回答；可换虚构人物。",
+    "practice_feedback": "确认两人均有明确关系，身份与年龄没有混淆；称谓若不合叙述视角，指出并让学习者改写。",
+    "check": "另用检查卡，独立写和说母亲及孩子；伙伴各问一次关系与身份，允许拒绝年龄提问。人工记录，不自动评分。",
+    "exam_speaking": "以单元测卡的叙述者，口头介绍父亲和孩子的关系、至少一项身份或特征及孩子与朋友相同的年龄；尝试の、も、形容词礼貌形。与伙伴完成两轮人物关系/身份问答，至少一轮用だれ。伙伴可先请求许可再问给定年龄；可拒答。可选择自编虚构家庭卡，不需个人资料。",
+    "exam_writing": "独立写至少四句介绍单元测卡的父亲和孩子、关系、身份或特征、孩子与朋友相同的年龄，再写一组人物问答；使用の、も、だれ及形容词礼貌形。可选择信息相当的自编虚构家庭卡。",
+    "exam_sample_jp": "私の父は学生です。父はやさしいです。私の子どもは七歳です。子どもの友だちはソウです。ソウも七歳です。友だちはだれですか。ソウさんです。お父さんは学生ですか。はい、学生です。",
+    "exam_sample_kana": "わたしのちちはがくせいです。ちちはやさしいです。わたしのこどもはななさいです。こどものともだちはそうです。そうもななさいです。ともだちはだれですか。そうさんです。おとうさんはがくせいですか。はい、がくせいです。",
+    "exam_sample_zh": "我的父亲是学生，父亲温和。我的孩子七岁。孩子的朋友是奏，奏也七岁。朋友是谁？是奏。您的父亲是学生吗？是的，是学生。（后两轮为伙伴提问与叙述者回答。）",
+    "threshold": "说、写分别四维各0–2分，分别总分至少6/8且每维至少1，另须完成各自任务；人工根据实际表现判定，接受自然等义表达。",
+    "rubric_dimensions": {
+      "任务完成": [
+        "0：未能介绍两人关系或未完成问答",
+        "1：提到两人但关系或问答不完整",
+        "2：两人关系明确，完成指定问答及说写任务"
+      ],
+      "语言准确": [
+        "0：错误严重妨碍理解",
+        "1：助词或词形有误但主要意思可辨",
+        "2：の、も、だれ及礼貌形在使用处基本准确"
+      ],
+      "连贯": [
+        "0：无法对应人物",
+        "1：可辨主要人物但顺序或指代混乱",
+        "2：人物与关系顺序清楚，指代可追踪"
+      ],
+      "语境得体": [
+        "0：称谓或追问明显不合语境",
+        "1：尝试礼貌但称谓或询问有偏差",
+        "2：视角称谓恰当，礼貌询问并尊重拒答"
+      ]
+    },
+    "rubric": "任务完成：0：未能介绍两人关系或未完成问答；1：提到两人但关系或问答不完整；2：两人关系明确，完成指定问答及说写任务\n语言准确：0：错误严重妨碍理解；1：助词或词形有误但主要意思可辨；2：の、も、だれ及礼貌形在使用处基本准确\n连贯：0：无法对应人物；1：可辨主要人物但顺序或指代混乱；2：人物与关系顺序清楚，指代可追踪\n语境得体：0：称谓或追问明显不合语境；1：尝试礼貌但称谓或询问有偏差；2：视角称谓恰当，礼貌询问并尊重拒答\n阈值：说、写分别四维各0–2分，分别总分至少6/8且每维至少1，另须完成各自任务；人工根据实际表现判定，接受自然等义表达。",
+    "check_speaking": "口说渠道；课内检查共同要求：另用检查卡，独立写和说母亲及孩子；伙伴各问一次关系与身份，允许拒绝年龄提问。人工记录，不自动评分。",
+    "check_writing": "书写渠道；课内检查共同要求：另用检查卡，独立写和说母亲及孩子；伙伴各问一次关系与身份，允许拒绝年龄提问。人工记录，不自动评分。"
+  },
+  "asset_contract": "nekogo.n5_draft.v1",
+  "asset_version": 1,
+  "source_asset_sha256": "08e66edc0fa881322c36d7e3cac0a2e1eb95fed9b69b64eaa66d78c9caa0aa62"
+}

@@ -1,0 +1,567 @@
+{
+  "schema": "draft.n4_13.course.v1",
+  "unit": "N4-13",
+  "theme": "目标与计划",
+  "status": {
+    "publication": "draft",
+    "language_review": "pending",
+    "teaching_review": "pending",
+    "rights_review": "pending",
+    "audio": "not_produced",
+    "audio_review": "pending",
+    "listening_score": "blocked",
+    "speaking_writing": "human_only",
+    "runtime_verification": "not_run",
+    "app_integration": "not_integrated"
+  },
+  "words": [
+    {
+      "id": "draft.n4_13.word.1",
+      "forms": "目標（もくひょう）",
+      "meaning_zh": "目标",
+      "source": "AI_original_draft"
+    },
+    {
+      "id": "draft.n4_13.word.2",
+      "forms": "予定（よてい）",
+      "meaning_zh": "计划",
+      "source": "AI_original_draft"
+    },
+    {
+      "id": "draft.n4_13.word.3",
+      "forms": "準備（じゅんび）",
+      "meaning_zh": "准备",
+      "source": "AI_original_draft"
+    },
+    {
+      "id": "draft.n4_13.word.4",
+      "forms": "締め切り（しめきり）",
+      "meaning_zh": "截止",
+      "source": "AI_original_draft"
+    }
+  ],
+  "lessons": [
+    {
+      "id": "draft.n4_13.lesson.v",
+      "planning_key": "N4-13-L01",
+      "type": "V",
+      "title": "目标与计划的关键词",
+      "prerequisites": [],
+      "goals": [
+        {
+          "id": "draft.n4_13.lesson.v.goal",
+          "text": "目标与计划的关键词"
+        }
+      ],
+      "word_refs": [
+        "draft.n4_13.word.1",
+        "draft.n4_13.word.2",
+        "draft.n4_13.word.3",
+        "draft.n4_13.word.4"
+      ],
+      "explanation_zh": "「締め切り」读「しめきり」。通知里的「応募の締め切り」指报名截止时间。注意词里保留「め」和「り」。",
+      "materials": [
+        {
+          "id": "draft.n4_13.lesson.v.mat.practice1",
+          "role": "practice1",
+          "jp": "目標"
+        },
+        {
+          "id": "draft.n4_13.lesson.v.mat.practice3",
+          "role": "practice3",
+          "jp": "準備"
+        },
+        {
+          "id": "draft.n4_13.lesson.v.mat.check2",
+          "role": "check2",
+          "jp": "予定"
+        },
+        {
+          "id": "draft.n4_13.lesson.v.mat.check4",
+          "role": "check4",
+          "jp": "締め切り"
+        },
+        {
+          "id": "draft.n4_13.lesson.v.kanji-reading",
+          "role": "practice",
+          "jp": "締め切り",
+          "goal_refs": [
+            "draft.n4_13.lesson.v.goal"
+          ]
+        }
+      ],
+      "practice": [
+        {
+          "id": "draft.n4_13.lesson.v.mat.practice1.q1",
+          "material_ref": "draft.n4_13.lesson.v.mat.practice1",
+          "goal_ref": "draft.n4_13.lesson.v.goal",
+          "word_refs": [
+            "draft.n4_13.word.1",
+            "draft.n4_13.word.2",
+            "draft.n4_13.word.3",
+            "draft.n4_13.word.4"
+          ],
+          "prompt": "这个词的意思是什么？",
+          "choices": [
+            "计划",
+            "准备",
+            "目标"
+          ],
+          "answer": "目标",
+          "feedback": "目標（もくひょう），意思是「目标」。"
+        },
+        {
+          "id": "draft.n4_13.lesson.v.mat.practice3.q1",
+          "material_ref": "draft.n4_13.lesson.v.mat.practice3",
+          "goal_ref": "draft.n4_13.lesson.v.goal",
+          "word_refs": [
+            "draft.n4_13.word.1",
+            "draft.n4_13.word.2",
+            "draft.n4_13.word.3",
+            "draft.n4_13.word.4"
+          ],
+          "prompt": "这个词的意思是什么？",
+          "choices": [
+            "准备",
+            "截止",
+            "目标"
+          ],
+          "answer": "准备",
+          "feedback": "準備（じゅんび），意思是「准备」。"
+        },
+        {
+          "id": "draft.n4_13.lesson.v.kanji-reading.q1",
+          "material_ref": "draft.n4_13.lesson.v.kanji-reading",
+          "goal_ref": "draft.n4_13.lesson.v.goal",
+          "word_refs": [
+            "draft.n4_13.word.4"
+          ],
+          "prompt": "这个词怎么读？",
+          "choices": [
+            "しめきり",
+            "しめぎり",
+            "しまきり"
+          ],
+          "answer": "しめきり",
+          "feedback": "「締め切り」读「しめきり」。通知里的「応募の締め切り」指报名截止时间。注意词里保留「め」和「り」。"
+        }
+      ],
+      "check": [
+        {
+          "id": "draft.n4_13.lesson.v.mat.check2.q1",
+          "material_ref": "draft.n4_13.lesson.v.mat.check2",
+          "goal_ref": "draft.n4_13.lesson.v.goal",
+          "word_refs": [
+            "draft.n4_13.word.1",
+            "draft.n4_13.word.2",
+            "draft.n4_13.word.3",
+            "draft.n4_13.word.4"
+          ],
+          "prompt": "这个词的意思是什么？",
+          "choices": [
+            "截止",
+            "计划",
+            "准备"
+          ],
+          "answer": "计划",
+          "feedback": "予定（よてい），意思是「计划」。"
+        },
+        {
+          "id": "draft.n4_13.lesson.v.mat.check4.q1",
+          "material_ref": "draft.n4_13.lesson.v.mat.check4",
+          "goal_ref": "draft.n4_13.lesson.v.goal",
+          "word_refs": [
+            "draft.n4_13.word.1",
+            "draft.n4_13.word.2",
+            "draft.n4_13.word.3",
+            "draft.n4_13.word.4"
+          ],
+          "prompt": "这个词的意思是什么？",
+          "choices": [
+            "目标",
+            "计划",
+            "截止"
+          ],
+          "answer": "截止",
+          "feedback": "締め切り（しめきり），意思是「截止」。"
+        }
+      ]
+    },
+    {
+      "id": "draft.n4_13.lesson.g",
+      "planning_key": "N4-13-L02",
+      "type": "G",
+      "title": "〜つもりです・〜予定です",
+      "prerequisites": [
+        "N4-13-L01"
+      ],
+      "goals": [
+        {
+          "id": "draft.n4_13.lesson.g.goal",
+          "text": "〜つもりです・〜予定です"
+        }
+      ],
+      "word_refs": [
+        "draft.n4_13.word.1",
+        "draft.n4_13.word.2",
+        "draft.n4_13.word.3",
+        "draft.n4_13.word.4"
+      ],
+      "explanation_zh": "「つもり」表达个人打算；「予定」常表达已列进安排的事项。两者都能接动词原形。",
+      "materials": [
+        {
+          "id": "draft.n4_13.lesson.g.mat.teach",
+          "role": "teach",
+          "jp": "毎日十分練習するつもりです。発表は来週の予定です。"
+        },
+        {
+          "id": "draft.n4_13.lesson.g.mat.practice",
+          "role": "practice",
+          "jp": "来月から早起きするつもりです。"
+        },
+        {
+          "id": "draft.n4_13.lesson.g.mat.check",
+          "role": "check",
+          "jp": "夏休みに毎日一ページ読む＿です。"
+        }
+      ],
+      "practice": [
+        {
+          "id": "draft.n4_13.lesson.g.mat.practice.q1",
+          "material_ref": "draft.n4_13.lesson.g.mat.practice",
+          "goal_ref": "draft.n4_13.lesson.g.goal",
+          "word_refs": [
+            "draft.n4_13.word.1",
+            "draft.n4_13.word.2",
+            "draft.n4_13.word.3",
+            "draft.n4_13.word.4"
+          ],
+          "prompt": "说话人有什么打算？",
+          "choices": [
+            "下月起早起",
+            "今晚早睡",
+            "下周发表"
+          ],
+          "answer": "下月起早起",
+          "feedback": "正确答案是「下月起早起」。原句：来月から早起きするつもりです。"
+        }
+      ],
+      "check": [
+        {
+          "id": "draft.n4_13.lesson.g.mat.check.q1",
+          "material_ref": "draft.n4_13.lesson.g.mat.check",
+          "goal_ref": "draft.n4_13.lesson.g.goal",
+          "word_refs": [
+            "draft.n4_13.word.1",
+            "draft.n4_13.word.2",
+            "draft.n4_13.word.3",
+            "draft.n4_13.word.4"
+          ],
+          "prompt": "哪项表达个人打算？",
+          "choices": [
+            "まで",
+            "ながら",
+            "つもり"
+          ],
+          "answer": "つもり",
+          "feedback": "正确答案是「つもり」。原文：夏休みに毎日一ページ読む＿です。"
+        }
+      ],
+      "common_mistake_zh": "「読むつもりです」说明个人打算。「来週の予定です」说明已列进日程的时间。单凭「予定」不能推断说话者本人愿意做。"
+    },
+    {
+      "id": "draft.n4_13.lesson.r",
+      "planning_key": "N4-13-L03",
+      "type": "R",
+      "title": "从计划表找先后",
+      "prerequisites": [
+        "N4-13-L02"
+      ],
+      "goals": [
+        {
+          "id": "draft.n4_13.lesson.r.goal",
+          "text": "从计划表找先后"
+        }
+      ],
+      "word_refs": [
+        "draft.n4_13.word.1",
+        "draft.n4_13.word.2",
+        "draft.n4_13.word.3",
+        "draft.n4_13.word.4"
+      ],
+      "explanation_zh": "周三要交原稿，周二只核对内容顺序。别把准备会议和交付截止日混在一起。",
+      "materials": [
+        {
+          "id": "draft.n4_13.lesson.r.mat.teach",
+          "role": "teach",
+          "jp": "原稿の提出は水曜です。火曜の打ち合わせでは、内容の順番だけを確認します。"
+        },
+        {
+          "id": "draft.n4_13.lesson.r.mat.practice",
+          "role": "practice",
+          "jp": "金曜に発表します。水曜までに資料をそろえ、木曜に練習します。"
+        },
+        {
+          "id": "draft.n4_13.lesson.r.mat.check",
+          "role": "check",
+          "jp": "最初の打ち合わせは十日に行います。案がある人は八日までに送ってください。"
+        }
+      ],
+      "practice": [
+        {
+          "id": "draft.n4_13.lesson.r.mat.practice.q1",
+          "material_ref": "draft.n4_13.lesson.r.mat.practice",
+          "goal_ref": "draft.n4_13.lesson.r.goal",
+          "word_refs": [
+            "draft.n4_13.word.1",
+            "draft.n4_13.word.2",
+            "draft.n4_13.word.3",
+            "draft.n4_13.word.4"
+          ],
+          "prompt": "资料最晚何时备齐？",
+          "choices": [
+            "周四",
+            "周五",
+            "周三"
+          ],
+          "answer": "周三",
+          "feedback": "正确答案是「周三」。原句：金曜に発表します。水曜までに資料をそろえ、木曜に練習します。"
+        }
+      ],
+      "check": [
+        {
+          "id": "draft.n4_13.lesson.r.mat.check.q1",
+          "material_ref": "draft.n4_13.lesson.r.mat.check",
+          "goal_ref": "draft.n4_13.lesson.r.goal",
+          "word_refs": [
+            "draft.n4_13.word.1",
+            "draft.n4_13.word.2",
+            "draft.n4_13.word.3",
+            "draft.n4_13.word.4"
+          ],
+          "prompt": "提案最晚几号发？",
+          "choices": [
+            "十一号",
+            "八号",
+            "十号"
+          ],
+          "answer": "八号",
+          "feedback": "正确答案是「八号」。原文：最初の打ち合わせは十日に行います。案がある人は八日までに送ってください。"
+        }
+      ]
+    },
+    {
+      "id": "draft.n4_13.lesson.l",
+      "planning_key": "N4-13-L04",
+      "type": "L",
+      "title": "听清新期限",
+      "prerequisites": [
+        "N4-13-L03"
+      ],
+      "goals": [
+        {
+          "id": "draft.n4_13.lesson.l.goal",
+          "text": "听清新期限"
+        }
+      ],
+      "word_refs": [
+        "draft.n4_13.word.1",
+        "draft.n4_13.word.2",
+        "draft.n4_13.word.3",
+        "draft.n4_13.word.4"
+      ],
+      "explanation_zh": "计划变动时，把旧期限和最终期限分开记。 周三是原定时间，后面说改到周四。",
+      "materials": [
+        {
+          "id": "draft.n4_13.lesson.l.mat.teach",
+          "role": "teach",
+          "jp": "A：次の打ち合わせは水曜ですね。B：水曜は会議室が使えないので、木曜にします。"
+        },
+        {
+          "id": "draft.n4_13.lesson.l.mat.practice",
+          "role": "practice",
+          "jp": "A：提出は金曜ですね。B：予定が変わって、木曜の午後までになりました。"
+        },
+        {
+          "id": "draft.n4_13.lesson.l.mat.check",
+          "role": "check",
+          "jp": "A：資料は明日そろいますか。B：一部が遅れるので、明日は先に写真を選びましょう。"
+        }
+      ],
+      "practice": [
+        {
+          "id": "draft.n4_13.lesson.l.mat.practice.q1",
+          "material_ref": "draft.n4_13.lesson.l.mat.practice",
+          "goal_ref": "draft.n4_13.lesson.l.goal",
+          "word_refs": [
+            "draft.n4_13.word.1",
+            "draft.n4_13.word.2",
+            "draft.n4_13.word.3",
+            "draft.n4_13.word.4"
+          ],
+          "prompt": "新期限是哪天？",
+          "choices": [
+            "周六",
+            "周四",
+            "周五"
+          ],
+          "answer": "周四",
+          "feedback": "正确答案是「周四」。原句：A：提出は金曜ですね。B：予定が変わって、木曜の午後までになりました。"
+        }
+      ],
+      "check": [
+        {
+          "id": "draft.n4_13.lesson.l.mat.check.q1",
+          "material_ref": "draft.n4_13.lesson.l.mat.check",
+          "goal_ref": "draft.n4_13.lesson.l.goal",
+          "word_refs": [
+            "draft.n4_13.word.1",
+            "draft.n4_13.word.2",
+            "draft.n4_13.word.3",
+            "draft.n4_13.word.4"
+          ],
+          "prompt": "明天先做什么？",
+          "choices": [
+            "选照片",
+            "提交全部资料",
+            "取消会议"
+          ],
+          "answer": "选照片",
+          "feedback": "正确答案是「选照片」。原文：A：資料は明日そろいますか。B：一部が遅れるので、明日は先に写真を選びましょう。"
+        }
+      ]
+    },
+    {
+      "id": "draft.n4_13.lesson.o",
+      "planning_key": "N4-13-L05",
+      "type": "O",
+      "title": "说明目标与步骤",
+      "prerequisites": [
+        "N4-13-L04"
+      ],
+      "goals": [
+        {
+          "id": "draft.n4_13.lesson.o.goal",
+          "text": "说明目标与步骤"
+        }
+      ],
+      "word_refs": [
+        "draft.n4_13.word.1",
+        "draft.n4_13.word.2",
+        "draft.n4_13.word.3",
+        "draft.n4_13.word.4"
+      ],
+      "explanation_zh": "先用日语口头说明，再把关键内容写成一条短消息。完成后按下面的要点核对。",
+      "materials": [],
+      "performance": {
+        "practice": {
+          "card_zh": "你想两周后用日语介绍自己的城市。列出准备资料、练习和演练的时间。",
+          "prompt_zh": "先说一遍，再写下要传达的内容。"
+        },
+        "rubric_zh": "目标可执行，三个步骤和期限明确。",
+        "check": {
+          "card_zh": "下周要发表，资料还没有找齐。列出三个准备步骤，给每一步安排时间。",
+          "prompt_zh": "用日语作答，再按自查要点核对。"
+        }
+      }
+    },
+    {
+      "id": "draft.n4_13.lesson.t",
+      "planning_key": "N4-13-L06",
+      "type": "T",
+      "title": "期限提前时重新排程",
+      "prerequisites": [
+        "N4-13-L05"
+      ],
+      "goals": [
+        {
+          "id": "draft.n4_13.lesson.t.goal",
+          "text": "期限提前时重新排程"
+        }
+      ],
+      "word_refs": [
+        "draft.n4_13.word.1",
+        "draft.n4_13.word.2",
+        "draft.n4_13.word.3",
+        "draft.n4_13.word.4"
+      ],
+      "explanation_zh": "先用日语口头说明，再把关键内容写成一条短消息。完成后按下面的要点核对。",
+      "materials": [],
+      "performance": {
+        "practice": {
+          "card_zh": "原定周五演练，正式介绍提前到周五上午。说明先做什么、改在哪天演练。",
+          "prompt_zh": "先说一遍，再写下要传达的内容。"
+        },
+        "rubric_zh": "保留关键步骤，避免演练晚于正式活动。",
+        "check": {
+          "card_zh": "同学周二没空一起演练，你们周四要发表。提出一个新的时间并说明如何先独立准备。",
+          "prompt_zh": "用日语作答，再按自查要点核对。"
+        }
+      }
+    }
+  ],
+  "exam": {
+    "id": "draft.n4_13.exam.unit",
+    "materials": [
+      {
+        "id": "draft.n4_13.exam.unit.mat.exam_reading",
+        "role": "exam_reading",
+        "jp": "明日は資料を読みます。会議は来週の月曜ですが、質問は今週の金曜までに送ってください。"
+      },
+      {
+        "id": "draft.n4_13.exam.unit.mat.exam_listening",
+        "role": "exam_listening",
+        "jp": "A：今日は原稿を書くつもりでしたが、資料がまだ届きません。B：それなら先に話す順番を考えましょう。"
+      }
+    ],
+    "reading": [
+      {
+        "id": "draft.n4_13.exam.unit.mat.exam_reading.q1",
+        "material_ref": "draft.n4_13.exam.unit.mat.exam_reading",
+        "goal_ref": "draft.n4_13.lesson.r.goal",
+        "word_refs": [
+          "draft.n4_13.word.1",
+          "draft.n4_13.word.2",
+          "draft.n4_13.word.3",
+          "draft.n4_13.word.4"
+        ],
+        "prompt": "问题最迟什么时候发送？",
+        "choices": [
+          "本周五",
+          "下周一",
+          "明天上午"
+        ],
+        "answer": "本周五",
+        "feedback": "正确答案是「本周五」。原文：明日は資料を読みます。会議は来週の月曜ですが、質問は今週の金曜までに送ってください。"
+      }
+    ],
+    "listening": [
+      {
+        "id": "draft.n4_13.exam.unit.mat.exam_listening.q1",
+        "material_ref": "draft.n4_13.exam.unit.mat.exam_listening",
+        "goal_ref": "draft.n4_13.lesson.l.goal",
+        "word_refs": [
+          "draft.n4_13.word.1",
+          "draft.n4_13.word.2",
+          "draft.n4_13.word.3",
+          "draft.n4_13.word.4"
+        ],
+        "prompt": "现在先做什么？",
+        "choices": [
+          "完成原稿",
+          "取消准备",
+          "想好发言顺序"
+        ],
+        "answer": "想好发言顺序",
+        "feedback": "正确答案是「想好发言顺序」。原文：A：今日は原稿を書くつもりでしたが、資料がまだ届きません。B：それなら先に話す順番を考えましょう。"
+      }
+    ],
+    "output": {
+      "id": "draft.n4_13.q.eo1",
+      "card_zh": "小组周五发表。原定周三拿到资料后写讲稿，周四排练。现在资料可能周四才到，照片已经齐了。",
+      "prompt_zh": "用日语说明原计划，再写一条备用安排，告诉组员资料迟到时周三先做什么。",
+      "rubric_zh": "说清周五发表和原先的工作顺序；用条件句提出资料迟到时的方案；先做的事用到现有照片。",
+      "scoring": "human_only"
+    }
+  }
+}

@@ -1,0 +1,481 @@
+{
+  "schema": "draft.n5_06.course.v1",
+  "unit": "N5-06",
+  "theme": "日常活动",
+  "status": {
+    "publication": "draft",
+    "language_review": "pending",
+    "rights_review": "pending",
+    "audio": "not_produced",
+    "listening_score": "blocked",
+    "speaking_writing": "human_only"
+  },
+  "words": [
+    {
+      "id": "draft.n5_06.word.1",
+      "forms": "起きる（おきる）",
+      "meaning_zh": "起床",
+      "source": "AI_original_draft"
+    },
+    {
+      "id": "draft.n5_06.word.2",
+      "forms": "寝る（ねる）",
+      "meaning_zh": "睡觉",
+      "source": "AI_original_draft"
+    },
+    {
+      "id": "draft.n5_06.word.3",
+      "forms": "朝（あさ）",
+      "meaning_zh": "早晨",
+      "source": "AI_original_draft"
+    },
+    {
+      "id": "draft.n5_06.word.4",
+      "forms": "夜（よる）",
+      "meaning_zh": "晚上",
+      "source": "AI_original_draft"
+    },
+    {
+      "id": "draft.n5_06.word.5",
+      "forms": "毎日（まいにち）",
+      "meaning_zh": "每天",
+      "source": "AI_original_draft"
+    },
+    {
+      "id": "draft.n5_06.word.6",
+      "forms": "学校へ行く（がっこうへいく）",
+      "meaning_zh": "去学校",
+      "source": "AI_original_draft"
+    }
+  ],
+  "lessons": [
+    {
+      "id": "draft.n5_06.lesson.v",
+      "planning_key": "N5-06-L01",
+      "type": "V",
+      "title": "说出一天里的活动",
+      "prerequisites": [
+        "N5-05"
+      ],
+      "goals": [
+        {
+          "id": "draft.n5_06.lesson.v.goal",
+          "text": "说出一天里的活动"
+        }
+      ],
+      "word_refs": [
+        "draft.n5_06.word.1",
+        "draft.n5_06.word.2",
+        "draft.n5_06.word.3",
+        "draft.n5_06.word.4",
+        "draft.n5_06.word.5",
+        "draft.n5_06.word.6"
+      ],
+      "explanation_zh": "用「朝」和「夜」区分时段。看到「起きます」和「寝ます」时先判断是哪项活动。",
+      "materials": [
+        {
+          "id": "draft.n5_06.lesson.v.teach",
+          "role": "teach",
+          "jp": "朝、起きます。夜、寝ます。",
+          "goal_refs": [
+            "draft.n5_06.lesson.v.goal"
+          ]
+        },
+        {
+          "id": "draft.n5_06.lesson.v.practice",
+          "role": "practice",
+          "jp": "毎日、学校へ行きます。",
+          "goal_refs": [
+            "draft.n5_06.lesson.v.goal"
+          ]
+        },
+        {
+          "id": "draft.n5_06.lesson.v.check",
+          "role": "check",
+          "jp": "朝、七時に起きます。",
+          "goal_refs": [
+            "draft.n5_06.lesson.v.goal"
+          ]
+        }
+      ],
+      "practice": [
+        {
+          "id": "draft.n5_06.lesson.v.practice.q1",
+          "material_ref": "draft.n5_06.lesson.v.practice",
+          "goal_ref": "draft.n5_06.lesson.v.goal",
+          "word_refs": [
+            "draft.n5_06.word.1",
+            "draft.n5_06.word.2",
+            "draft.n5_06.word.3",
+            "draft.n5_06.word.4",
+            "draft.n5_06.word.5",
+            "draft.n5_06.word.6"
+          ],
+          "prompt": "这句话说每天做什么？",
+          "choices": [
+            "去学校",
+            "睡觉",
+            "在家吃饭"
+          ],
+          "answer": "去学校",
+          "feedback": "「学校へ行きます」是去学校。"
+        }
+      ],
+      "check": [
+        {
+          "id": "draft.n5_06.lesson.v.check.q1",
+          "material_ref": "draft.n5_06.lesson.v.check",
+          "goal_ref": "draft.n5_06.lesson.v.goal",
+          "word_refs": [
+            "draft.n5_06.word.1",
+            "draft.n5_06.word.2",
+            "draft.n5_06.word.3",
+            "draft.n5_06.word.4",
+            "draft.n5_06.word.5",
+            "draft.n5_06.word.6"
+          ],
+          "prompt": "七点做什么？",
+          "choices": [
+            "去学校",
+            "起床",
+            "睡觉"
+          ],
+          "answer": "起床",
+          "feedback": "「起きます」是起床。"
+        }
+      ]
+    },
+    {
+      "id": "draft.n5_06.lesson.g",
+      "planning_key": "N5-06-L02",
+      "type": "G",
+      "title": "用「に」说具体时刻",
+      "prerequisites": [
+        "N5-06-L01"
+      ],
+      "goals": [
+        {
+          "id": "draft.n5_06.lesson.g.goal",
+          "text": "用「に」说具体时刻"
+        }
+      ],
+      "word_refs": [
+        "draft.n5_06.word.1",
+        "draft.n5_06.word.2",
+        "draft.n5_06.word.3",
+        "draft.n5_06.word.4",
+        "draft.n5_06.word.5",
+        "draft.n5_06.word.6"
+      ],
+      "explanation_zh": "在「七時に起きます」里，「に」标具体时刻。「毎日」直接放在句中表示频率。",
+      "common_mistake_zh": "具体几点起床说「七時に起きます」。说每天起床时，「毎日」后不用加「に」。两者可合起来说「毎日七時に起きます」。",
+      "materials": [
+        {
+          "id": "draft.n5_06.lesson.g.teach",
+          "role": "teach",
+          "jp": "毎日、七時に起きます。",
+          "goal_refs": [
+            "draft.n5_06.lesson.g.goal"
+          ]
+        },
+        {
+          "id": "draft.n5_06.lesson.g.practice",
+          "role": "practice",
+          "jp": "夜、十時に寝ます。",
+          "goal_refs": [
+            "draft.n5_06.lesson.g.goal"
+          ]
+        },
+        {
+          "id": "draft.n5_06.lesson.g.check",
+          "role": "check",
+          "jp": "毎日、八時に学校へ行きます。",
+          "goal_refs": [
+            "draft.n5_06.lesson.g.goal"
+          ]
+        }
+      ],
+      "practice": [
+        {
+          "id": "draft.n5_06.lesson.g.practice.q1",
+          "material_ref": "draft.n5_06.lesson.g.practice",
+          "goal_ref": "draft.n5_06.lesson.g.goal",
+          "word_refs": [
+            "draft.n5_06.word.1",
+            "draft.n5_06.word.2",
+            "draft.n5_06.word.3",
+            "draft.n5_06.word.4",
+            "draft.n5_06.word.5",
+            "draft.n5_06.word.6"
+          ],
+          "prompt": "几点睡觉？",
+          "choices": [
+            "七点",
+            "十点",
+            "十一点"
+          ],
+          "answer": "十点",
+          "feedback": "「十時に」标明具体时刻。"
+        }
+      ],
+      "check": [
+        {
+          "id": "draft.n5_06.lesson.g.check.q1",
+          "material_ref": "draft.n5_06.lesson.g.check",
+          "goal_ref": "draft.n5_06.lesson.g.goal",
+          "word_refs": [
+            "draft.n5_06.word.1",
+            "draft.n5_06.word.2",
+            "draft.n5_06.word.3",
+            "draft.n5_06.word.4",
+            "draft.n5_06.word.5",
+            "draft.n5_06.word.6"
+          ],
+          "prompt": "「毎日」说明什么？",
+          "choices": [
+            "去哪儿",
+            "几点去",
+            "多久做一次"
+          ],
+          "answer": "多久做一次",
+          "feedback": "「毎日」表示每天都做，具体时刻是八点。"
+        }
+      ]
+    },
+    {
+      "id": "draft.n5_06.lesson.r",
+      "planning_key": "N5-06-L03",
+      "type": "R",
+      "title": "读懂日程里的先后",
+      "prerequisites": [
+        "N5-06-L02"
+      ],
+      "goals": [
+        {
+          "id": "draft.n5_06.lesson.r.goal",
+          "text": "读懂日程里的先后"
+        }
+      ],
+      "word_refs": [
+        "draft.n5_06.word.1",
+        "draft.n5_06.word.2",
+        "draft.n5_06.word.3",
+        "draft.n5_06.word.4",
+        "draft.n5_06.word.5",
+        "draft.n5_06.word.6"
+      ],
+      "explanation_zh": "把每个时刻和它后面的活动连起来，再根据早晚排序。",
+      "materials": [
+        {
+          "id": "draft.n5_06.lesson.r.teach",
+          "role": "teach",
+          "jp": "朝七時：起きます。八時：学校へ行きます。",
+          "goal_refs": [
+            "draft.n5_06.lesson.r.goal"
+          ]
+        },
+        {
+          "id": "draft.n5_06.lesson.r.practice",
+          "role": "practice",
+          "jp": "七時：朝ご飯。八時：学校。",
+          "goal_refs": [
+            "draft.n5_06.lesson.r.goal"
+          ]
+        },
+        {
+          "id": "draft.n5_06.lesson.r.check",
+          "role": "check",
+          "jp": "土曜日　朝八時：起きます。九時：朝ご飯。夜十一時：寝ます。",
+          "goal_refs": [
+            "draft.n5_06.lesson.r.goal"
+          ]
+        }
+      ],
+      "practice": [
+        {
+          "id": "draft.n5_06.lesson.r.practice.q1",
+          "material_ref": "draft.n5_06.lesson.r.practice",
+          "goal_ref": "draft.n5_06.lesson.r.goal",
+          "word_refs": [
+            "draft.n5_06.word.1",
+            "draft.n5_06.word.2",
+            "draft.n5_06.word.3",
+            "draft.n5_06.word.4",
+            "draft.n5_06.word.5",
+            "draft.n5_06.word.6"
+          ],
+          "prompt": "哪件事先发生？",
+          "choices": [
+            "吃早饭",
+            "去学校",
+            "睡觉"
+          ],
+          "answer": "吃早饭",
+          "feedback": "早饭是七点，去学校是八点。"
+        }
+      ],
+      "check": [
+        {
+          "id": "draft.n5_06.lesson.r.check.q1",
+          "material_ref": "draft.n5_06.lesson.r.check",
+          "goal_ref": "draft.n5_06.lesson.r.goal",
+          "word_refs": [
+            "draft.n5_06.word.1",
+            "draft.n5_06.word.2",
+            "draft.n5_06.word.3",
+            "draft.n5_06.word.4",
+            "draft.n5_06.word.5",
+            "draft.n5_06.word.6"
+          ],
+          "prompt": "周六起床后下一项是什么？",
+          "choices": [
+            "去学校",
+            "吃早饭",
+            "睡觉"
+          ],
+          "answer": "吃早饭",
+          "feedback": "八点起床，下一项是九点吃早饭。"
+        }
+      ]
+    },
+    {
+      "id": "draft.n5_06.lesson.l",
+      "planning_key": "N5-06-L04",
+      "type": "L",
+      "title": "听清作息时间",
+      "prerequisites": [
+        "N5-06-L03"
+      ],
+      "goals": [
+        {
+          "id": "draft.n5_06.lesson.l.goal",
+          "text": "听清作息时间"
+        }
+      ],
+      "word_refs": [
+        "draft.n5_06.word.1",
+        "draft.n5_06.word.2",
+        "draft.n5_06.word.3",
+        "draft.n5_06.word.4",
+        "draft.n5_06.word.5",
+        "draft.n5_06.word.6"
+      ],
+      "explanation_zh": "听出时刻和动作的配对。当前为读稿练习。",
+      "materials": [
+        {
+          "id": "draft.n5_06.lesson.l.teach",
+          "role": "teach",
+          "jp": "A：毎日、何時に起きますか。B：七時に起きます。八時に学校へ行きます。",
+          "goal_refs": [
+            "draft.n5_06.lesson.l.goal"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "draft.n5_06.lesson.o",
+      "planning_key": "N5-06-L05",
+      "type": "O",
+      "title": "介绍自己的一天",
+      "prerequisites": [
+        "N5-06-L04"
+      ],
+      "goals": [
+        {
+          "id": "draft.n5_06.lesson.o.goal",
+          "text": "介绍自己的一天"
+        }
+      ],
+      "word_refs": [
+        "draft.n5_06.word.1",
+        "draft.n5_06.word.2",
+        "draft.n5_06.word.3",
+        "draft.n5_06.word.4",
+        "draft.n5_06.word.5",
+        "draft.n5_06.word.6"
+      ],
+      "explanation_zh": "先说一遍，再写下要传达的内容，最后按自查要点核对。",
+      "materials": [],
+      "performance": {
+        "practice": {
+          "card_zh": "你每天七点起床，八点去学校。",
+          "prompt_zh": "用日语说两句自己的作息。"
+        },
+        "check": {
+          "card_zh": "你周六八点起床，晚上十一点睡觉。",
+          "prompt_zh": "写两句日语说明周六的作息，再读出来。"
+        },
+        "rubric_zh": "两个动作和各自时间对应；具体时刻用「に」；早晚不混淆。",
+        "scoring": "human_only"
+      }
+    }
+  ],
+  "exam": {
+    "id": "draft.n5_06.exam",
+    "materials": [
+      {
+        "id": "draft.n5_06.exam.reading",
+        "role": "exam_reading",
+        "jp": "日曜日、朝八時に起きます。九時に朝ご飯を食べます。夜十時に寝ます。"
+      },
+      {
+        "id": "draft.n5_06.exam.listening",
+        "role": "exam_listening",
+        "jp": "A：今日も七時に起きますか。B：いいえ。今日は日曜日です。八時に起きます。"
+      }
+    ],
+    "reading": [
+      {
+        "id": "draft.n5_06.exam.reading.q1",
+        "material_ref": "draft.n5_06.exam.reading",
+        "goal_ref": "draft.n5_06.lesson.r.goal",
+        "word_refs": [
+          "draft.n5_06.word.1",
+          "draft.n5_06.word.2",
+          "draft.n5_06.word.3",
+          "draft.n5_06.word.4",
+          "draft.n5_06.word.5",
+          "draft.n5_06.word.6"
+        ],
+        "prompt": "周日几点吃早饭？",
+        "choices": [
+          "八点",
+          "九点",
+          "十点"
+        ],
+        "answer": "九点",
+        "feedback": "「九時に」对应吃早饭。"
+      }
+    ],
+    "listening": [
+      {
+        "id": "draft.n5_06.exam.listening.q1",
+        "material_ref": "draft.n5_06.exam.listening",
+        "goal_ref": "draft.n5_06.lesson.l.goal",
+        "word_refs": [
+          "draft.n5_06.word.1",
+          "draft.n5_06.word.2",
+          "draft.n5_06.word.3",
+          "draft.n5_06.word.4",
+          "draft.n5_06.word.5",
+          "draft.n5_06.word.6"
+        ],
+        "prompt": "今天几点起床？",
+        "choices": [
+          "八点",
+          "七点",
+          "九点"
+        ],
+        "answer": "八点",
+        "feedback": "今天是周日，最后一句说八点起床。"
+      }
+    ],
+    "output": {
+      "card_zh": "朋友想知道你每天几点起床、几点睡觉。你七点起床，晚上十点睡觉。",
+      "prompt_zh": "先口头回答，再把两项时间写成一条日语消息。",
+      "rubric_zh": "七点对应起床；晚上十点对应睡觉；两项时刻清楚。",
+      "id": "draft.n5_06.exam.output",
+      "scoring": "human_only"
+    }
+  }
+}

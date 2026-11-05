@@ -1,0 +1,481 @@
+{
+  "schema": "draft.n5_11.course.v1",
+  "unit": "N5-11",
+  "theme": "兴趣爱好",
+  "status": {
+    "publication": "draft",
+    "language_review": "pending",
+    "rights_review": "pending",
+    "audio": "not_produced",
+    "listening_score": "blocked",
+    "speaking_writing": "human_only"
+  },
+  "words": [
+    {
+      "id": "draft.n5_11.word.1",
+      "forms": "音楽（おんがく）",
+      "meaning_zh": "音乐",
+      "source": "AI_original_draft"
+    },
+    {
+      "id": "draft.n5_11.word.2",
+      "forms": "映画（えいが）",
+      "meaning_zh": "电影",
+      "source": "AI_original_draft"
+    },
+    {
+      "id": "draft.n5_11.word.3",
+      "forms": "スポーツ",
+      "meaning_zh": "运动",
+      "source": "AI_original_draft"
+    },
+    {
+      "id": "draft.n5_11.word.4",
+      "forms": "趣味（しゅみ）",
+      "meaning_zh": "爱好",
+      "source": "AI_original_draft"
+    },
+    {
+      "id": "draft.n5_11.word.5",
+      "forms": "好き（すき）／嫌い（きらい）",
+      "meaning_zh": "喜欢／不喜欢",
+      "source": "AI_original_draft"
+    },
+    {
+      "id": "draft.n5_11.word.6",
+      "forms": "よく",
+      "meaning_zh": "经常",
+      "source": "AI_original_draft"
+    }
+  ],
+  "lessons": [
+    {
+      "id": "draft.n5_11.lesson.v",
+      "planning_key": "N5-11-L01",
+      "type": "V",
+      "title": "认出常见的兴趣活动",
+      "prerequisites": [
+        "N5-10"
+      ],
+      "goals": [
+        {
+          "id": "draft.n5_11.lesson.v.goal",
+          "text": "认出常见的兴趣活动"
+        }
+      ],
+      "word_refs": [
+        "draft.n5_11.word.1",
+        "draft.n5_11.word.2",
+        "draft.n5_11.word.3",
+        "draft.n5_11.word.4",
+        "draft.n5_11.word.5",
+        "draft.n5_11.word.6"
+      ],
+      "explanation_zh": "「音楽を聞く」是听音乐，「映画を見る」是看电影。",
+      "materials": [
+        {
+          "id": "draft.n5_11.lesson.v.teach",
+          "role": "teach",
+          "jp": "趣味は音楽を聞くことです。",
+          "goal_refs": [
+            "draft.n5_11.lesson.v.goal"
+          ]
+        },
+        {
+          "id": "draft.n5_11.lesson.v.practice",
+          "role": "practice",
+          "jp": "休みの日に映画を見ます。",
+          "goal_refs": [
+            "draft.n5_11.lesson.v.goal"
+          ]
+        },
+        {
+          "id": "draft.n5_11.lesson.v.check",
+          "role": "check",
+          "jp": "趣味はスポーツです。",
+          "goal_refs": [
+            "draft.n5_11.lesson.v.goal"
+          ]
+        }
+      ],
+      "practice": [
+        {
+          "id": "draft.n5_11.lesson.v.practice.q1",
+          "material_ref": "draft.n5_11.lesson.v.practice",
+          "goal_ref": "draft.n5_11.lesson.v.goal",
+          "word_refs": [
+            "draft.n5_11.word.1",
+            "draft.n5_11.word.2",
+            "draft.n5_11.word.3",
+            "draft.n5_11.word.4",
+            "draft.n5_11.word.5",
+            "draft.n5_11.word.6"
+          ],
+          "prompt": "休息日做什么？",
+          "choices": [
+            "听音乐",
+            "看电影",
+            "做运动"
+          ],
+          "answer": "看电影",
+          "feedback": "「映画を見ます」是看电影。"
+        }
+      ],
+      "check": [
+        {
+          "id": "draft.n5_11.lesson.v.check.q1",
+          "material_ref": "draft.n5_11.lesson.v.check",
+          "goal_ref": "draft.n5_11.lesson.v.goal",
+          "word_refs": [
+            "draft.n5_11.word.1",
+            "draft.n5_11.word.2",
+            "draft.n5_11.word.3",
+            "draft.n5_11.word.4",
+            "draft.n5_11.word.5",
+            "draft.n5_11.word.6"
+          ],
+          "prompt": "爱好是什么？",
+          "choices": [
+            "运动",
+            "音乐",
+            "电影"
+          ],
+          "answer": "运动",
+          "feedback": "「スポーツ」指运动。"
+        }
+      ]
+    },
+    {
+      "id": "draft.n5_11.lesson.g",
+      "planning_key": "N5-11-L02",
+      "type": "G",
+      "title": "说喜欢什么和多久做一次",
+      "prerequisites": [
+        "N5-11-L01"
+      ],
+      "goals": [
+        {
+          "id": "draft.n5_11.lesson.g.goal",
+          "text": "说喜欢什么和多久做一次"
+        }
+      ],
+      "word_refs": [
+        "draft.n5_11.word.1",
+        "draft.n5_11.word.2",
+        "draft.n5_11.word.3",
+        "draft.n5_11.word.4",
+        "draft.n5_11.word.5",
+        "draft.n5_11.word.6"
+      ],
+      "explanation_zh": "用「Xが好きです」说喜欢 X。「とても」形容喜欢的程度，「よく」说明活动做得频繁。",
+      "common_mistake_zh": "「映画がとても好きです」说的是喜欢的程度。「よく映画を見ます」说的是看电影的频率。",
+      "materials": [
+        {
+          "id": "draft.n5_11.lesson.g.teach",
+          "role": "teach",
+          "jp": "映画がとても好きです。週末によく映画を見ます。",
+          "goal_refs": [
+            "draft.n5_11.lesson.g.goal"
+          ]
+        },
+        {
+          "id": "draft.n5_11.lesson.g.practice",
+          "role": "practice",
+          "jp": "音楽がとても好きです。",
+          "goal_refs": [
+            "draft.n5_11.lesson.g.goal"
+          ]
+        },
+        {
+          "id": "draft.n5_11.lesson.g.check",
+          "role": "check",
+          "jp": "映画〔　〕好きです。",
+          "goal_refs": [
+            "draft.n5_11.lesson.g.goal"
+          ]
+        }
+      ],
+      "practice": [
+        {
+          "id": "draft.n5_11.lesson.g.practice.q1",
+          "material_ref": "draft.n5_11.lesson.g.practice",
+          "goal_ref": "draft.n5_11.lesson.g.goal",
+          "word_refs": [
+            "draft.n5_11.word.1",
+            "draft.n5_11.word.2",
+            "draft.n5_11.word.3",
+            "draft.n5_11.word.4",
+            "draft.n5_11.word.5",
+            "draft.n5_11.word.6"
+          ],
+          "prompt": "这句话在说什么？",
+          "choices": [
+            "非常喜欢音乐",
+            "不喜欢音乐",
+            "经常看电影"
+          ],
+          "answer": "非常喜欢音乐",
+          "feedback": "「とても」修饰「好き」。"
+        }
+      ],
+      "check": [
+        {
+          "id": "draft.n5_11.lesson.g.check.q1",
+          "material_ref": "draft.n5_11.lesson.g.check",
+          "goal_ref": "draft.n5_11.lesson.g.goal",
+          "word_refs": [
+            "draft.n5_11.word.1",
+            "draft.n5_11.word.2",
+            "draft.n5_11.word.3",
+            "draft.n5_11.word.4",
+            "draft.n5_11.word.5",
+            "draft.n5_11.word.6"
+          ],
+          "prompt": "要说喜欢电影，空格填什么？",
+          "choices": [
+            "を",
+            "で",
+            "が"
+          ],
+          "answer": "が",
+          "feedback": "这里用「映画が好きです」。"
+        }
+      ]
+    },
+    {
+      "id": "draft.n5_11.lesson.r",
+      "planning_key": "N5-11-L03",
+      "type": "R",
+      "title": "读活动卡里的喜好和频率",
+      "prerequisites": [
+        "N5-11-L02"
+      ],
+      "goals": [
+        {
+          "id": "draft.n5_11.lesson.r.goal",
+          "text": "读活动卡里的喜好和频率"
+        }
+      ],
+      "word_refs": [
+        "draft.n5_11.word.1",
+        "draft.n5_11.word.2",
+        "draft.n5_11.word.3",
+        "draft.n5_11.word.4",
+        "draft.n5_11.word.5",
+        "draft.n5_11.word.6"
+      ],
+      "explanation_zh": "先找「好き」和「嫌い」，再找「毎週」「よく」一类表示频率的词。",
+      "materials": [
+        {
+          "id": "draft.n5_11.lesson.r.teach",
+          "role": "teach",
+          "jp": "田中さんは音楽が好きです。毎週土曜日にギターを弾きます。",
+          "goal_refs": [
+            "draft.n5_11.lesson.r.goal"
+          ]
+        },
+        {
+          "id": "draft.n5_11.lesson.r.practice",
+          "role": "practice",
+          "jp": "ゆきさんはスポーツが好きです。毎週日曜日に泳ぎます。",
+          "goal_refs": [
+            "draft.n5_11.lesson.r.goal"
+          ]
+        },
+        {
+          "id": "draft.n5_11.lesson.r.check",
+          "role": "check",
+          "jp": "山田さんは映画が好きです。音楽は嫌いではありませんが、あまり聞きません。",
+          "goal_refs": [
+            "draft.n5_11.lesson.r.goal"
+          ]
+        }
+      ],
+      "practice": [
+        {
+          "id": "draft.n5_11.lesson.r.practice.q1",
+          "material_ref": "draft.n5_11.lesson.r.practice",
+          "goal_ref": "draft.n5_11.lesson.r.goal",
+          "word_refs": [
+            "draft.n5_11.word.1",
+            "draft.n5_11.word.2",
+            "draft.n5_11.word.3",
+            "draft.n5_11.word.4",
+            "draft.n5_11.word.5",
+            "draft.n5_11.word.6"
+          ],
+          "prompt": "小雪每周日做什么？",
+          "choices": [
+            "游泳",
+            "看电影",
+            "弹吉他"
+          ],
+          "answer": "游泳",
+          "feedback": "「毎週日曜日に泳ぎます」说她每周日游泳。"
+        }
+      ],
+      "check": [
+        {
+          "id": "draft.n5_11.lesson.r.check.q1",
+          "material_ref": "draft.n5_11.lesson.r.check",
+          "goal_ref": "draft.n5_11.lesson.r.goal",
+          "word_refs": [
+            "draft.n5_11.word.1",
+            "draft.n5_11.word.2",
+            "draft.n5_11.word.3",
+            "draft.n5_11.word.4",
+            "draft.n5_11.word.5",
+            "draft.n5_11.word.6"
+          ],
+          "prompt": "山田对音乐是什么态度？",
+          "choices": [
+            "不喜欢，从不听",
+            "并不讨厌，但不常听",
+            "非常喜欢，经常听"
+          ],
+          "answer": "并不讨厌，但不常听",
+          "feedback": "「嫌いではありません」表示不讨厌，「あまり聞きません」表示不常听。"
+        }
+      ]
+    },
+    {
+      "id": "draft.n5_11.lesson.l",
+      "planning_key": "N5-11-L04",
+      "type": "L",
+      "title": "听出对方喜欢什么",
+      "prerequisites": [
+        "N5-11-L03"
+      ],
+      "goals": [
+        {
+          "id": "draft.n5_11.lesson.l.goal",
+          "text": "听出对方喜欢什么"
+        }
+      ],
+      "word_refs": [
+        "draft.n5_11.word.1",
+        "draft.n5_11.word.2",
+        "draft.n5_11.word.3",
+        "draft.n5_11.word.4",
+        "draft.n5_11.word.5",
+        "draft.n5_11.word.6"
+      ],
+      "explanation_zh": "先听活动名，再留意「好き」和「よく」。可用设备朗读示例并对照读稿。",
+      "materials": [
+        {
+          "id": "draft.n5_11.lesson.l.teach",
+          "role": "teach",
+          "jp": "A：何が好きですか。B：映画が好きです。週末によく映画を見ます。",
+          "goal_refs": [
+            "draft.n5_11.lesson.l.goal"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "draft.n5_11.lesson.o",
+      "planning_key": "N5-11-L05",
+      "type": "O",
+      "title": "问同伴爱好并介绍自己的喜好",
+      "prerequisites": [
+        "N5-11-L04"
+      ],
+      "goals": [
+        {
+          "id": "draft.n5_11.lesson.o.goal",
+          "text": "问同伴爱好并介绍自己的喜好"
+        }
+      ],
+      "word_refs": [
+        "draft.n5_11.word.1",
+        "draft.n5_11.word.2",
+        "draft.n5_11.word.3",
+        "draft.n5_11.word.4",
+        "draft.n5_11.word.5",
+        "draft.n5_11.word.6"
+      ],
+      "explanation_zh": "先说一遍，再写下要传达的内容，最后按自查要点核对。",
+      "materials": [],
+      "performance": {
+        "practice": {
+          "card_zh": "你喜欢音乐和电影，每周六看电影。",
+          "prompt_zh": "先问同伴喜欢什么，再说你的两项喜好和一个频率。"
+        },
+        "check": {
+          "card_zh": "你喜欢游泳和听音乐，经常游泳。",
+          "prompt_zh": "写一条自我介绍，再读给同伴听。"
+        },
+        "rubric_zh": "问句清楚；两项喜好清楚；频率对应正确的活动。",
+        "scoring": "human_only"
+      }
+    }
+  ],
+  "exam": {
+    "id": "draft.n5_11.exam",
+    "materials": [
+      {
+        "id": "draft.n5_11.exam.reading",
+        "role": "exam_reading",
+        "jp": "ミナさんは音楽とスポーツが好きです。毎週土曜日にテニスをします。"
+      },
+      {
+        "id": "draft.n5_11.exam.listening",
+        "role": "exam_listening",
+        "jp": "A：映画が好きですか。B：いいえ。音楽が好きです。毎日聞きます。"
+      }
+    ],
+    "reading": [
+      {
+        "id": "draft.n5_11.exam.reading.q1",
+        "material_ref": "draft.n5_11.exam.reading",
+        "goal_ref": "draft.n5_11.lesson.r.goal",
+        "word_refs": [
+          "draft.n5_11.word.1",
+          "draft.n5_11.word.2",
+          "draft.n5_11.word.3",
+          "draft.n5_11.word.4",
+          "draft.n5_11.word.5",
+          "draft.n5_11.word.6"
+        ],
+        "prompt": "米娜每周六做什么？",
+        "choices": [
+          "打网球",
+          "听音乐",
+          "看电影"
+        ],
+        "answer": "打网球",
+        "feedback": "「毎週土曜日にテニスをします」说的是每周六打网球。"
+      }
+    ],
+    "listening": [
+      {
+        "id": "draft.n5_11.exam.listening.q1",
+        "material_ref": "draft.n5_11.exam.listening",
+        "goal_ref": "draft.n5_11.lesson.l.goal",
+        "word_refs": [
+          "draft.n5_11.word.1",
+          "draft.n5_11.word.2",
+          "draft.n5_11.word.3",
+          "draft.n5_11.word.4",
+          "draft.n5_11.word.5",
+          "draft.n5_11.word.6"
+        ],
+        "prompt": "B 每天做什么？",
+        "choices": [
+          "看电影",
+          "听音乐",
+          "做运动"
+        ],
+        "answer": "听音乐",
+        "feedback": "最后一句承接上一句的「音楽」，意思是每天听音乐。"
+      }
+    ],
+    "output": {
+      "card_zh": "你喜欢电影和运动，每周日打网球。",
+      "prompt_zh": "向同伴问一项喜好，再用日语说写自己的两项喜好和打球时间。",
+      "rubric_zh": "有一个提问；有两项喜好；周日和打网球对应。",
+      "id": "draft.n5_11.exam.output",
+      "scoring": "human_only"
+    }
+  }
+}

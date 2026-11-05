@@ -1,0 +1,481 @@
+{
+  "schema": "draft.n5_08.course.v1",
+  "unit": "N5-08",
+  "theme": "交通入门",
+  "status": {
+    "publication": "draft",
+    "language_review": "pending",
+    "rights_review": "pending",
+    "audio": "not_produced",
+    "listening_score": "blocked",
+    "speaking_writing": "human_only"
+  },
+  "words": [
+    {
+      "id": "draft.n5_08.word.1",
+      "forms": "駅（えき）",
+      "meaning_zh": "车站",
+      "source": "AI_original_draft"
+    },
+    {
+      "id": "draft.n5_08.word.2",
+      "forms": "電車（でんしゃ）",
+      "meaning_zh": "电车",
+      "source": "AI_original_draft"
+    },
+    {
+      "id": "draft.n5_08.word.3",
+      "forms": "バス",
+      "meaning_zh": "公交车",
+      "source": "AI_original_draft"
+    },
+    {
+      "id": "draft.n5_08.word.4",
+      "forms": "右（みぎ）／左（ひだり）",
+      "meaning_zh": "右／左",
+      "source": "AI_original_draft"
+    },
+    {
+      "id": "draft.n5_08.word.5",
+      "forms": "まっすぐ",
+      "meaning_zh": "一直往前",
+      "source": "AI_original_draft"
+    },
+    {
+      "id": "draft.n5_08.word.6",
+      "forms": "バス停（ばすてい）",
+      "meaning_zh": "公交车站",
+      "source": "AI_original_draft"
+    }
+  ],
+  "lessons": [
+    {
+      "id": "draft.n5_08.lesson.v",
+      "planning_key": "N5-08-L01",
+      "type": "V",
+      "title": "辨认交通工具和地点",
+      "prerequisites": [
+        "N5-07"
+      ],
+      "goals": [
+        {
+          "id": "draft.n5_08.lesson.v.goal",
+          "text": "辨认交通工具和地点"
+        }
+      ],
+      "word_refs": [
+        "draft.n5_08.word.1",
+        "draft.n5_08.word.2",
+        "draft.n5_08.word.3",
+        "draft.n5_08.word.4",
+        "draft.n5_08.word.5",
+        "draft.n5_08.word.6"
+      ],
+      "explanation_zh": "「駅」是车站，「電車」是电车。「バス停」是等公交的地点。",
+      "materials": [
+        {
+          "id": "draft.n5_08.lesson.v.teach",
+          "role": "teach",
+          "jp": "駅から電車に乗ります。",
+          "goal_refs": [
+            "draft.n5_08.lesson.v.goal"
+          ]
+        },
+        {
+          "id": "draft.n5_08.lesson.v.practice",
+          "role": "practice",
+          "jp": "ここはバス停です。",
+          "goal_refs": [
+            "draft.n5_08.lesson.v.goal"
+          ]
+        },
+        {
+          "id": "draft.n5_08.lesson.v.check",
+          "role": "check",
+          "jp": "駅までバスで行きます。",
+          "goal_refs": [
+            "draft.n5_08.lesson.v.goal"
+          ]
+        }
+      ],
+      "practice": [
+        {
+          "id": "draft.n5_08.lesson.v.practice.q1",
+          "material_ref": "draft.n5_08.lesson.v.practice",
+          "goal_ref": "draft.n5_08.lesson.v.goal",
+          "word_refs": [
+            "draft.n5_08.word.1",
+            "draft.n5_08.word.2",
+            "draft.n5_08.word.3",
+            "draft.n5_08.word.4",
+            "draft.n5_08.word.5",
+            "draft.n5_08.word.6"
+          ],
+          "prompt": "这里是什么地方？",
+          "choices": [
+            "公交车站",
+            "学校",
+            "电车车厢"
+          ],
+          "answer": "公交车站",
+          "feedback": "「バス停」是公交车站。"
+        }
+      ],
+      "check": [
+        {
+          "id": "draft.n5_08.lesson.v.check.q1",
+          "material_ref": "draft.n5_08.lesson.v.check",
+          "goal_ref": "draft.n5_08.lesson.v.goal",
+          "word_refs": [
+            "draft.n5_08.word.1",
+            "draft.n5_08.word.2",
+            "draft.n5_08.word.3",
+            "draft.n5_08.word.4",
+            "draft.n5_08.word.5",
+            "draft.n5_08.word.6"
+          ],
+          "prompt": "坐什么去车站？",
+          "choices": [
+            "电车",
+            "公交车",
+            "步行"
+          ],
+          "answer": "公交车",
+          "feedback": "「バスで」说明交通方式。"
+        }
+      ]
+    },
+    {
+      "id": "draft.n5_08.lesson.g",
+      "planning_key": "N5-08-L02",
+      "type": "G",
+      "title": "问地点并给方向",
+      "prerequisites": [
+        "N5-08-L01"
+      ],
+      "goals": [
+        {
+          "id": "draft.n5_08.lesson.g.goal",
+          "text": "问地点并给方向"
+        }
+      ],
+      "word_refs": [
+        "draft.n5_08.word.1",
+        "draft.n5_08.word.2",
+        "draft.n5_08.word.3",
+        "draft.n5_08.word.4",
+        "draft.n5_08.word.5",
+        "draft.n5_08.word.6"
+      ],
+      "explanation_zh": "用「駅はどこですか」问车站在哪里。指路时可用「まっすぐ行ってください」和「右に曲がってください」。",
+      "common_mistake_zh": "「右に曲がってください」是请右转。「まっすぐ行って、右に曲がってください」要先直走，再右转。",
+      "materials": [
+        {
+          "id": "draft.n5_08.lesson.g.teach",
+          "role": "teach",
+          "jp": "すみません。駅はどこですか。まっすぐ行って、右に曲がってください。",
+          "goal_refs": [
+            "draft.n5_08.lesson.g.goal"
+          ]
+        },
+        {
+          "id": "draft.n5_08.lesson.g.practice",
+          "role": "practice",
+          "jp": "左に曲がってください。",
+          "goal_refs": [
+            "draft.n5_08.lesson.g.goal"
+          ]
+        },
+        {
+          "id": "draft.n5_08.lesson.g.check",
+          "role": "check",
+          "jp": "まっすぐ行って、右に曲がってください。",
+          "goal_refs": [
+            "draft.n5_08.lesson.g.goal"
+          ]
+        }
+      ],
+      "practice": [
+        {
+          "id": "draft.n5_08.lesson.g.practice.q1",
+          "material_ref": "draft.n5_08.lesson.g.practice",
+          "goal_ref": "draft.n5_08.lesson.g.goal",
+          "word_refs": [
+            "draft.n5_08.word.1",
+            "draft.n5_08.word.2",
+            "draft.n5_08.word.3",
+            "draft.n5_08.word.4",
+            "draft.n5_08.word.5",
+            "draft.n5_08.word.6"
+          ],
+          "prompt": "应该往哪边转？",
+          "choices": [
+            "右",
+            "直走",
+            "左"
+          ],
+          "answer": "左",
+          "feedback": "「左に曲がる」是左转。"
+        }
+      ],
+      "check": [
+        {
+          "id": "draft.n5_08.lesson.g.check.q1",
+          "material_ref": "draft.n5_08.lesson.g.check",
+          "goal_ref": "draft.n5_08.lesson.g.goal",
+          "word_refs": [
+            "draft.n5_08.word.1",
+            "draft.n5_08.word.2",
+            "draft.n5_08.word.3",
+            "draft.n5_08.word.4",
+            "draft.n5_08.word.5",
+            "draft.n5_08.word.6"
+          ],
+          "prompt": "走直线后要做什么？",
+          "choices": [
+            "左转",
+            "右转",
+            "继续直走"
+          ],
+          "answer": "右转",
+          "feedback": "「右に曲がってください」是请右转。"
+        }
+      ]
+    },
+    {
+      "id": "draft.n5_08.lesson.r",
+      "planning_key": "N5-08-L03",
+      "type": "R",
+      "title": "读两步路线",
+      "prerequisites": [
+        "N5-08-L02"
+      ],
+      "goals": [
+        {
+          "id": "draft.n5_08.lesson.r.goal",
+          "text": "读两步路线"
+        }
+      ],
+      "word_refs": [
+        "draft.n5_08.word.1",
+        "draft.n5_08.word.2",
+        "draft.n5_08.word.3",
+        "draft.n5_08.word.4",
+        "draft.n5_08.word.5",
+        "draft.n5_08.word.6"
+      ],
+      "explanation_zh": "把顺序词和方向词一起看。「次の角」说的是下一个路口。",
+      "materials": [
+        {
+          "id": "draft.n5_08.lesson.r.teach",
+          "role": "teach",
+          "jp": "駅までまっすぐ行きます。次の角で右に曲がります。",
+          "goal_refs": [
+            "draft.n5_08.lesson.r.goal"
+          ]
+        },
+        {
+          "id": "draft.n5_08.lesson.r.practice",
+          "role": "practice",
+          "jp": "まっすぐ行って、次の角で左に曲がります。バス停は右にあります。",
+          "goal_refs": [
+            "draft.n5_08.lesson.r.goal"
+          ]
+        },
+        {
+          "id": "draft.n5_08.lesson.r.check",
+          "role": "check",
+          "jp": "駅を出て、右に曲がります。そのあと、まっすぐ行きます。バス停は左にあります。",
+          "goal_refs": [
+            "draft.n5_08.lesson.r.goal"
+          ]
+        }
+      ],
+      "practice": [
+        {
+          "id": "draft.n5_08.lesson.r.practice.q1",
+          "material_ref": "draft.n5_08.lesson.r.practice",
+          "goal_ref": "draft.n5_08.lesson.r.goal",
+          "word_refs": [
+            "draft.n5_08.word.1",
+            "draft.n5_08.word.2",
+            "draft.n5_08.word.3",
+            "draft.n5_08.word.4",
+            "draft.n5_08.word.5",
+            "draft.n5_08.word.6"
+          ],
+          "prompt": "在哪儿左转？",
+          "choices": [
+            "下一个路口",
+            "公交车站",
+            "车站里面"
+          ],
+          "answer": "下一个路口",
+          "feedback": "「次の角で」说明转弯地点。"
+        }
+      ],
+      "check": [
+        {
+          "id": "draft.n5_08.lesson.r.check.q1",
+          "material_ref": "draft.n5_08.lesson.r.check",
+          "goal_ref": "draft.n5_08.lesson.r.goal",
+          "word_refs": [
+            "draft.n5_08.word.1",
+            "draft.n5_08.word.2",
+            "draft.n5_08.word.3",
+            "draft.n5_08.word.4",
+            "draft.n5_08.word.5",
+            "draft.n5_08.word.6"
+          ],
+          "prompt": "出站以后第一步做什么？",
+          "choices": [
+            "左转",
+            "直走",
+            "右转"
+          ],
+          "answer": "右转",
+          "feedback": "第一句说明出站后右转。"
+        }
+      ]
+    },
+    {
+      "id": "draft.n5_08.lesson.l",
+      "planning_key": "N5-08-L04",
+      "type": "L",
+      "title": "听出行走方向",
+      "prerequisites": [
+        "N5-08-L03"
+      ],
+      "goals": [
+        {
+          "id": "draft.n5_08.lesson.l.goal",
+          "text": "听出行走方向"
+        }
+      ],
+      "word_refs": [
+        "draft.n5_08.word.1",
+        "draft.n5_08.word.2",
+        "draft.n5_08.word.3",
+        "draft.n5_08.word.4",
+        "draft.n5_08.word.5",
+        "draft.n5_08.word.6"
+      ],
+      "explanation_zh": "先听「まっすぐ」，再听转弯方向。可对照读稿，用设备朗读示例。",
+      "materials": [
+        {
+          "id": "draft.n5_08.lesson.l.teach",
+          "role": "teach",
+          "jp": "A：すみません。バス停はどこですか。B：まっすぐ行って、次の角で左に曲がってください。",
+          "goal_refs": [
+            "draft.n5_08.lesson.l.goal"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "draft.n5_08.lesson.o",
+      "planning_key": "N5-08-L05",
+      "type": "O",
+      "title": "问路并复述路线",
+      "prerequisites": [
+        "N5-08-L04"
+      ],
+      "goals": [
+        {
+          "id": "draft.n5_08.lesson.o.goal",
+          "text": "问路并复述路线"
+        }
+      ],
+      "word_refs": [
+        "draft.n5_08.word.1",
+        "draft.n5_08.word.2",
+        "draft.n5_08.word.3",
+        "draft.n5_08.word.4",
+        "draft.n5_08.word.5",
+        "draft.n5_08.word.6"
+      ],
+      "explanation_zh": "先说一遍，再写下要传达的内容，最后按自查要点核对。",
+      "materials": [],
+      "performance": {
+        "practice": {
+          "card_zh": "你找车站。问路后得知要先直走，再在下个路口右转。",
+          "prompt_zh": "先用日语问路，再向同伴复述两步路线。"
+        },
+        "check": {
+          "card_zh": "你找公交车站。朋友说出站左转，再直走。",
+          "prompt_zh": "写两句日语，把这两步告诉还在站内的同伴。"
+        },
+        "rubric_zh": "目的地明确；两步顺序正确；左右不颠倒。",
+        "scoring": "human_only"
+      }
+    }
+  ],
+  "exam": {
+    "id": "draft.n5_08.exam",
+    "materials": [
+      {
+        "id": "draft.n5_08.exam.reading",
+        "role": "exam_reading",
+        "jp": "バス停は駅の前です。駅を出て、まっすぐ行ってください。次の角には行きません。"
+      },
+      {
+        "id": "draft.n5_08.exam.listening",
+        "role": "exam_listening",
+        "jp": "A：駅まで歩きますか。B：いいえ。バスで行きます。"
+      }
+    ],
+    "reading": [
+      {
+        "id": "draft.n5_08.exam.reading.q1",
+        "material_ref": "draft.n5_08.exam.reading",
+        "goal_ref": "draft.n5_08.lesson.r.goal",
+        "word_refs": [
+          "draft.n5_08.word.1",
+          "draft.n5_08.word.2",
+          "draft.n5_08.word.3",
+          "draft.n5_08.word.4",
+          "draft.n5_08.word.5",
+          "draft.n5_08.word.6"
+        ],
+        "prompt": "出站后怎么走？",
+        "choices": [
+          "直走",
+          "马上左转",
+          "到下一个路口右转"
+        ],
+        "answer": "直走",
+        "feedback": "通知说出站后「まっすぐ行って」。"
+      }
+    ],
+    "listening": [
+      {
+        "id": "draft.n5_08.exam.listening.q1",
+        "material_ref": "draft.n5_08.exam.listening",
+        "goal_ref": "draft.n5_08.lesson.l.goal",
+        "word_refs": [
+          "draft.n5_08.word.1",
+          "draft.n5_08.word.2",
+          "draft.n5_08.word.3",
+          "draft.n5_08.word.4",
+          "draft.n5_08.word.5",
+          "draft.n5_08.word.6"
+        ],
+        "prompt": "怎么去车站？",
+        "choices": [
+          "步行",
+          "公交车",
+          "电车"
+        ],
+        "answer": "公交车",
+        "feedback": "后一句说「バスで行きます」。"
+      }
+    ],
+    "output": {
+      "card_zh": "同伴想去车站。从当前位置先直走，到下一个路口左转。",
+      "prompt_zh": "用日语口头说明，再写一条简短路线消息。",
+      "rubric_zh": "明确目的地；直走在先；在下一个路口左转。",
+      "id": "draft.n5_08.exam.output",
+      "scoring": "human_only"
+    }
+  }
+}

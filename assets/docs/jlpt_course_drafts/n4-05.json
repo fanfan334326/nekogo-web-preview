@@ -1,0 +1,567 @@
+{
+  "schema": "draft.n4_05.course.v1",
+  "unit": "N4-05",
+  "theme": "工作与兼职",
+  "status": {
+    "publication": "draft",
+    "language_review": "pending",
+    "teaching_review": "pending",
+    "rights_review": "pending",
+    "audio": "not_produced",
+    "audio_review": "pending",
+    "listening_score": "blocked",
+    "speaking_writing": "human_only",
+    "runtime_verification": "not_run",
+    "app_integration": "not_integrated"
+  },
+  "words": [
+    {
+      "id": "draft.n4_05.word.1",
+      "forms": "勤務（きんむ）",
+      "meaning_zh": "上班",
+      "source": "AI_original_draft"
+    },
+    {
+      "id": "draft.n4_05.word.2",
+      "forms": "募集（ぼしゅう）",
+      "meaning_zh": "招募",
+      "source": "AI_original_draft"
+    },
+    {
+      "id": "draft.n4_05.word.3",
+      "forms": "交代（こうたい）",
+      "meaning_zh": "轮换",
+      "source": "AI_original_draft"
+    },
+    {
+      "id": "draft.n4_05.word.4",
+      "forms": "経験（けいけん）",
+      "meaning_zh": "经验",
+      "source": "AI_original_draft"
+    }
+  ],
+  "lessons": [
+    {
+      "id": "draft.n4_05.lesson.v",
+      "planning_key": "N4-05-L01",
+      "type": "V",
+      "title": "工作与兼职的关键词",
+      "prerequisites": [],
+      "goals": [
+        {
+          "id": "draft.n4_05.lesson.v.goal",
+          "text": "工作与兼职的关键词"
+        }
+      ],
+      "word_refs": [
+        "draft.n4_05.word.1",
+        "draft.n4_05.word.2",
+        "draft.n4_05.word.3",
+        "draft.n4_05.word.4"
+      ],
+      "explanation_zh": "「交代」的「代」有替代的意思。「レジを交代する」表示换一个人来收银。",
+      "materials": [
+        {
+          "id": "draft.n4_05.lesson.v.mat.practice1",
+          "role": "practice1",
+          "jp": "勤務"
+        },
+        {
+          "id": "draft.n4_05.lesson.v.mat.practice3",
+          "role": "practice3",
+          "jp": "交代"
+        },
+        {
+          "id": "draft.n4_05.lesson.v.mat.check2",
+          "role": "check2",
+          "jp": "募集"
+        },
+        {
+          "id": "draft.n4_05.lesson.v.mat.check4",
+          "role": "check4",
+          "jp": "経験"
+        },
+        {
+          "id": "draft.n4_05.lesson.v.kanji-reading",
+          "role": "practice",
+          "jp": "交代",
+          "goal_refs": [
+            "draft.n4_05.lesson.v.goal"
+          ]
+        }
+      ],
+      "practice": [
+        {
+          "id": "draft.n4_05.lesson.v.mat.practice1.q1",
+          "material_ref": "draft.n4_05.lesson.v.mat.practice1",
+          "goal_ref": "draft.n4_05.lesson.v.goal",
+          "word_refs": [
+            "draft.n4_05.word.1",
+            "draft.n4_05.word.2",
+            "draft.n4_05.word.3",
+            "draft.n4_05.word.4"
+          ],
+          "prompt": "这个词的意思是什么？",
+          "choices": [
+            "轮换",
+            "上班",
+            "招募"
+          ],
+          "answer": "上班",
+          "feedback": "勤務（きんむ），意思是「上班」。"
+        },
+        {
+          "id": "draft.n4_05.lesson.v.mat.practice3.q1",
+          "material_ref": "draft.n4_05.lesson.v.mat.practice3",
+          "goal_ref": "draft.n4_05.lesson.v.goal",
+          "word_refs": [
+            "draft.n4_05.word.1",
+            "draft.n4_05.word.2",
+            "draft.n4_05.word.3",
+            "draft.n4_05.word.4"
+          ],
+          "prompt": "这个词的意思是什么？",
+          "choices": [
+            "经验",
+            "上班",
+            "轮换"
+          ],
+          "answer": "轮换",
+          "feedback": "交代（こうたい），意思是「轮换」。"
+        },
+        {
+          "id": "draft.n4_05.lesson.v.kanji-reading.q1",
+          "material_ref": "draft.n4_05.lesson.v.kanji-reading",
+          "goal_ref": "draft.n4_05.lesson.v.goal",
+          "word_refs": [
+            "draft.n4_05.word.3"
+          ],
+          "prompt": "这个词怎么读？",
+          "choices": [
+            "きょうたい",
+            "こうたい",
+            "こうだい"
+          ],
+          "answer": "こうたい",
+          "feedback": "「交代」的「代」有替代的意思。「レジを交代する」表示换一个人来收银。"
+        }
+      ],
+      "check": [
+        {
+          "id": "draft.n4_05.lesson.v.mat.check2.q1",
+          "material_ref": "draft.n4_05.lesson.v.mat.check2",
+          "goal_ref": "draft.n4_05.lesson.v.goal",
+          "word_refs": [
+            "draft.n4_05.word.1",
+            "draft.n4_05.word.2",
+            "draft.n4_05.word.3",
+            "draft.n4_05.word.4"
+          ],
+          "prompt": "这个词的意思是什么？",
+          "choices": [
+            "招募",
+            "轮换",
+            "经验"
+          ],
+          "answer": "招募",
+          "feedback": "募集（ぼしゅう），意思是「招募」。"
+        },
+        {
+          "id": "draft.n4_05.lesson.v.mat.check4.q1",
+          "material_ref": "draft.n4_05.lesson.v.mat.check4",
+          "goal_ref": "draft.n4_05.lesson.v.goal",
+          "word_refs": [
+            "draft.n4_05.word.1",
+            "draft.n4_05.word.2",
+            "draft.n4_05.word.3",
+            "draft.n4_05.word.4"
+          ],
+          "prompt": "这个词的意思是什么？",
+          "choices": [
+            "招募",
+            "经验",
+            "上班"
+          ],
+          "answer": "经验",
+          "feedback": "経験（けいけん），意思是「经验」。"
+        }
+      ]
+    },
+    {
+      "id": "draft.n4_05.lesson.g",
+      "planning_key": "N4-05-L02",
+      "type": "G",
+      "title": "〜ことができます",
+      "prerequisites": [
+        "N4-05-L01"
+      ],
+      "goals": [
+        {
+          "id": "draft.n4_05.lesson.g.goal",
+          "text": "〜ことができます"
+        }
+      ],
+      "word_refs": [
+        "draft.n4_05.word.1",
+        "draft.n4_05.word.2",
+        "draft.n4_05.word.3",
+        "draft.n4_05.word.4"
+      ],
+      "explanation_zh": "动词原形加「ことができます」表示能力或条件允许。面试时可用具体时间说明限制。",
+      "materials": [
+        {
+          "id": "draft.n4_05.lesson.g.mat.teach",
+          "role": "teach",
+          "jp": "土曜日なら、午後から働くことができます。"
+        },
+        {
+          "id": "draft.n4_05.lesson.g.mat.practice",
+          "role": "practice",
+          "jp": "荷物を運ぶことはできますが、車の運転はできません。"
+        },
+        {
+          "id": "draft.n4_05.lesson.g.mat.check",
+          "role": "check",
+          "jp": "夜の勤務を希望しています。六時から働く＿ができます。"
+        }
+      ],
+      "practice": [
+        {
+          "id": "draft.n4_05.lesson.g.mat.practice.q1",
+          "material_ref": "draft.n4_05.lesson.g.mat.practice",
+          "goal_ref": "draft.n4_05.lesson.g.goal",
+          "word_refs": [
+            "draft.n4_05.word.1",
+            "draft.n4_05.word.2",
+            "draft.n4_05.word.3",
+            "draft.n4_05.word.4"
+          ],
+          "prompt": "说话人能做什么？",
+          "choices": [
+            "开车",
+            "周日早上上班",
+            "搬运货物"
+          ],
+          "answer": "搬运货物",
+          "feedback": "正确答案是「搬运货物」。原句：荷物を運ぶことはできますが、車の運転はできません。"
+        }
+      ],
+      "check": [
+        {
+          "id": "draft.n4_05.lesson.g.mat.check.q1",
+          "material_ref": "draft.n4_05.lesson.g.mat.check",
+          "goal_ref": "draft.n4_05.lesson.g.goal",
+          "word_refs": [
+            "draft.n4_05.word.1",
+            "draft.n4_05.word.2",
+            "draft.n4_05.word.3",
+            "draft.n4_05.word.4"
+          ],
+          "prompt": "空格里填什么？",
+          "choices": [
+            "ところ",
+            "こと",
+            "もの"
+          ],
+          "answer": "こと",
+          "feedback": "正确答案是「こと」。原文：夜の勤務を希望しています。六時から働く＿ができます。"
+        }
+      ],
+      "common_mistake_zh": "表示能力时用「働くことができます」。「働きます」要先改成辞书形「働く」，再接「こと」。"
+    },
+    {
+      "id": "draft.n4_05.lesson.r",
+      "planning_key": "N4-05-L03",
+      "type": "R",
+      "title": "阅读兼职招募",
+      "prerequisites": [
+        "N4-05-L02"
+      ],
+      "goals": [
+        {
+          "id": "draft.n4_05.lesson.r.goal",
+          "text": "阅读兼职招募"
+        }
+      ],
+      "word_refs": [
+        "draft.n4_05.word.1",
+        "draft.n4_05.word.2",
+        "draft.n4_05.word.3",
+        "draft.n4_05.word.4"
+      ],
+      "explanation_zh": "傍晚能上班是招募条件。有接待经验的人可在面试说明，告示没有要求人人都有经验。",
+      "materials": [
+        {
+          "id": "draft.n4_05.lesson.r.mat.teach",
+          "role": "teach",
+          "jp": "夕方に働ける方を募集します。接客の経験があれば、面接でお知らせください。"
+        },
+        {
+          "id": "draft.n4_05.lesson.r.mat.practice",
+          "role": "practice",
+          "jp": "レジの担当を募集します。週に三日以上働ける方。勤務時間は相談できます。"
+        },
+        {
+          "id": "draft.n4_05.lesson.r.mat.check",
+          "role": "check",
+          "jp": "土日のどちらかに勤務できる方を募集します。仕事は商品の整理です。"
+        }
+      ],
+      "practice": [
+        {
+          "id": "draft.n4_05.lesson.r.mat.practice.q1",
+          "material_ref": "draft.n4_05.lesson.r.mat.practice",
+          "goal_ref": "draft.n4_05.lesson.r.goal",
+          "word_refs": [
+            "draft.n4_05.word.1",
+            "draft.n4_05.word.2",
+            "draft.n4_05.word.3",
+            "draft.n4_05.word.4"
+          ],
+          "prompt": "什么条件必须满足？",
+          "choices": [
+            "每天上午工作",
+            "一周能上班至少三天",
+            "有收银经验"
+          ],
+          "answer": "一周能上班至少三天",
+          "feedback": "正确答案是「一周能上班至少三天」。原句：レジの担当を募集します。週に三日以上働ける方。勤務時間は相談できます。"
+        }
+      ],
+      "check": [
+        {
+          "id": "draft.n4_05.lesson.r.mat.check.q1",
+          "material_ref": "draft.n4_05.lesson.r.mat.check",
+          "goal_ref": "draft.n4_05.lesson.r.goal",
+          "word_refs": [
+            "draft.n4_05.word.1",
+            "draft.n4_05.word.2",
+            "draft.n4_05.word.3",
+            "draft.n4_05.word.4"
+          ],
+          "prompt": "岗位主要做什么？",
+          "choices": [
+            "整理商品",
+            "招募同事",
+            "收银"
+          ],
+          "answer": "整理商品",
+          "feedback": "正确答案是「整理商品」。原文：土日のどちらかに勤務できる方を募集します。仕事は商品の整理です。"
+        }
+      ]
+    },
+    {
+      "id": "draft.n4_05.lesson.l",
+      "planning_key": "N4-05-L04",
+      "type": "L",
+      "title": "听懂换班约定",
+      "prerequisites": [
+        "N4-05-L03"
+      ],
+      "goals": [
+        {
+          "id": "draft.n4_05.lesson.l.goal",
+          "text": "听懂换班约定"
+        }
+      ],
+      "word_refs": [
+        "draft.n4_05.word.1",
+        "draft.n4_05.word.2",
+        "draft.n4_05.word.3",
+        "draft.n4_05.word.4"
+      ],
+      "explanation_zh": "在换班对话里记最后确认的日期和交接时间。 「朝は難しい」排除早班，「十二時からなら」给出可接班的时间。",
+      "materials": [
+        {
+          "id": "draft.n4_05.lesson.l.mat.teach",
+          "role": "teach",
+          "jp": "A：日曜の朝に交代できますか。B：朝は難しいですが、昼の十二時からなら大丈夫です。"
+        },
+        {
+          "id": "draft.n4_05.lesson.l.mat.practice",
+          "role": "practice",
+          "jp": "A：木曜の夕方、交代してもらえますか。B：六時からなら大丈夫です。A：では、六時に店でお願いします。"
+        },
+        {
+          "id": "draft.n4_05.lesson.l.mat.check",
+          "role": "check",
+          "jp": "A：水曜は代われますか。B：水曜は難しいです。金曜なら代われます。"
+        }
+      ],
+      "practice": [
+        {
+          "id": "draft.n4_05.lesson.l.mat.practice.q1",
+          "material_ref": "draft.n4_05.lesson.l.mat.practice",
+          "goal_ref": "draft.n4_05.lesson.l.goal",
+          "word_refs": [
+            "draft.n4_05.word.1",
+            "draft.n4_05.word.2",
+            "draft.n4_05.word.3",
+            "draft.n4_05.word.4"
+          ],
+          "prompt": "最后约定几点交班？",
+          "choices": [
+            "六点",
+            "五点",
+            "七点"
+          ],
+          "answer": "六点",
+          "feedback": "正确答案是「六点」。原句：A：木曜の夕方、交代してもらえますか。B：六時からなら大丈夫です。A：では、六時に店でお願いします。"
+        }
+      ],
+      "check": [
+        {
+          "id": "draft.n4_05.lesson.l.mat.check.q1",
+          "material_ref": "draft.n4_05.lesson.l.mat.check",
+          "goal_ref": "draft.n4_05.lesson.l.goal",
+          "word_refs": [
+            "draft.n4_05.word.1",
+            "draft.n4_05.word.2",
+            "draft.n4_05.word.3",
+            "draft.n4_05.word.4"
+          ],
+          "prompt": "B哪天能换班？",
+          "choices": [
+            "周三",
+            "周六",
+            "周五"
+          ],
+          "answer": "周五",
+          "feedback": "正确答案是「周五」。原文：A：水曜は代われますか。B：水曜は難しいです。金曜なら代われます。"
+        }
+      ]
+    },
+    {
+      "id": "draft.n4_05.lesson.o",
+      "planning_key": "N4-05-L05",
+      "type": "O",
+      "title": "介绍可工作时段",
+      "prerequisites": [
+        "N4-05-L04"
+      ],
+      "goals": [
+        {
+          "id": "draft.n4_05.lesson.o.goal",
+          "text": "介绍可工作时段"
+        }
+      ],
+      "word_refs": [
+        "draft.n4_05.word.1",
+        "draft.n4_05.word.2",
+        "draft.n4_05.word.3",
+        "draft.n4_05.word.4"
+      ],
+      "explanation_zh": "先用日语口头说明，再把关键内容写成一条短消息。完成后按下面的要点核对。",
+      "materials": [],
+      "performance": {
+        "practice": {
+          "card_zh": "你应聘书店兼职，有理货经验，周二和周四下午有空。做自我介绍并填写可排班时间。",
+          "prompt_zh": "先说一遍，再写下要传达的内容。"
+        },
+        "rubric_zh": "有经验与时间两项，星期和时段准确。",
+        "check": {
+          "card_zh": "你想应聘周末的理货岗位，只有周日上午有空。介绍能做的事，再请对方确认排班。",
+          "prompt_zh": "用日语作答，再按自查要点核对。"
+        }
+      }
+    },
+    {
+      "id": "draft.n4_05.lesson.t",
+      "planning_key": "N4-05-L06",
+      "type": "T",
+      "title": "根据岗位条件商量排班",
+      "prerequisites": [
+        "N4-05-L05"
+      ],
+      "goals": [
+        {
+          "id": "draft.n4_05.lesson.t.goal",
+          "text": "根据岗位条件商量排班"
+        }
+      ],
+      "word_refs": [
+        "draft.n4_05.word.1",
+        "draft.n4_05.word.2",
+        "draft.n4_05.word.3",
+        "draft.n4_05.word.4"
+      ],
+      "explanation_zh": "先用日语口头说明，再把关键内容写成一条短消息。完成后按下面的要点核对。",
+      "materials": [],
+      "performance": {
+        "practice": {
+          "card_zh": "对方需要你周四晚上值班，而你只能做到下午六点。说明限制并提出另一可工作的日期。",
+          "prompt_zh": "先说一遍，再写下要传达的内容。"
+        },
+        "rubric_zh": "说清到岗限制；给出具体可行的替代安排；用一句请求确认对方是否同意。",
+        "check": {
+          "card_zh": "店里临时把周日的交班提前到下午一点，你两点才能到。另一位同事可以多留一小时，但需要负责人同意。",
+          "prompt_zh": "用日语向负责人说明你几点能到，并请求是否可请同事先顶一小时。"
+        }
+      }
+    }
+  ],
+  "exam": {
+    "id": "draft.n4_05.exam.unit",
+    "materials": [
+      {
+        "id": "draft.n4_05.exam.unit.mat.exam_reading",
+        "role": "exam_reading",
+        "jp": "開店前の品出しを手伝う人を募集します。朝七時から九時までです。経験は問いません。"
+      },
+      {
+        "id": "draft.n4_05.exam.unit.mat.exam_listening",
+        "role": "exam_listening",
+        "jp": "A：金曜は授業があります。B：それなら土曜の午前をお願いします。A：はい、できます。"
+      }
+    ],
+    "reading": [
+      {
+        "id": "draft.n4_05.exam.unit.mat.exam_reading.q1",
+        "material_ref": "draft.n4_05.exam.unit.mat.exam_reading",
+        "goal_ref": "draft.n4_05.lesson.r.goal",
+        "word_refs": [
+          "draft.n4_05.word.1",
+          "draft.n4_05.word.2",
+          "draft.n4_05.word.3",
+          "draft.n4_05.word.4"
+        ],
+        "prompt": "什么经验要求？",
+        "choices": [
+          "必须做过收银",
+          "必须在本店工作过",
+          "有无经验都可以"
+        ],
+        "answer": "有无经验都可以",
+        "feedback": "正确答案是「有无经验都可以」。原文：開店前の品出しを手伝う人を募集します。朝七時から九時までです。経験は問いません。"
+      }
+    ],
+    "listening": [
+      {
+        "id": "draft.n4_05.exam.unit.mat.exam_listening.q1",
+        "material_ref": "draft.n4_05.exam.unit.mat.exam_listening",
+        "goal_ref": "draft.n4_05.lesson.l.goal",
+        "word_refs": [
+          "draft.n4_05.word.1",
+          "draft.n4_05.word.2",
+          "draft.n4_05.word.3",
+          "draft.n4_05.word.4"
+        ],
+        "prompt": "最后排在哪个时段？",
+        "choices": [
+          "周六晚上",
+          "周六上午",
+          "周五下午"
+        ],
+        "answer": "周六上午",
+        "feedback": "正确答案是「周六上午」。原文：A：金曜は授業があります。B：それなら土曜の午前をお願いします。A：はい、できます。"
+      }
+    ],
+    "output": {
+      "id": "draft.n4_05.q.eo1",
+      "card_zh": "店长问你周五下午能否来上班，负责收银。你周五要上课，周六下午两点以后可以来。",
+      "prompt_zh": "用日语向店长说明周五不行，并提出周六的时间。假设店长同意，再写消息确认。",
+      "rubric_zh": "说清周五不行及原因；提出周六两点或更晚；消息写明日期、开始时间和收银工作。",
+      "scoring": "human_only"
+    }
+  }
+}
