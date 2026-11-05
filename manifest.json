@@ -1,12 +1,13 @@
 {
-    "name": "kanaday",
-    "short_name": "kanaday",
+    "name": "猫语 Nekogo",
+    "short_name": "猫语",
+    "id": ".",
+    "scope": ".",
     "start_url": ".",
     "display": "standalone",
-    "background_color": "#0175C2",
-    "theme_color": "#0175C2",
-    "description": "A new Flutter project.",
-    "orientation": "portrait-primary",
+    "background_color": "#FDF3EA",
+    "theme_color": "#FDF3EA",
+    "description": "猫语 Nekogo，每天学一点日语。",
     "prefer_related_applications": false,
     "icons": [
         {
@@ -18,18 +19,6 @@
             "src": "icons/Icon-512.png",
             "sizes": "512x512",
             "type": "image/png"
-        },
-        {
-            "src": "icons/Icon-maskable-192.png",
-            "sizes": "192x192",
-            "type": "image/png",
-            "purpose": "maskable"
-        },
-        {
-            "src": "icons/Icon-maskable-512.png",
-            "sizes": "512x512",
-            "type": "image/png",
-            "purpose": "maskable"
         }
     ]
 }
