@@ -13,7 +13,7 @@
       "romaji": "za",
       "audioKey": "audio.hira.za",
       "confusableIds": ["kp.hira.zu"],
-      "tipZh": "さ + 浊点：右上角两点「゛」把 s 变成 z，像中文「杂」的声母。"
+      "tipZh": "ざ 是 さ 右上加两点浊点，底字结构不变。"
     },
     {
       "id": "kp.hira.ji",
@@ -21,7 +21,7 @@
       "romaji": "ji",
       "audioKey": "audio.hira.ji",
       "confusableIds": ["kp.hira.zu"],
-      "tipZh": "し + 浊点，但读音是 ji 不是 shi+浊：像中文「机」的音、喉咙再加震动。"
+      "tipZh": "じ 是 し 右上加两点浊点，底字结构不变。"
     },
     {
       "id": "kp.hira.zu",
@@ -29,7 +29,7 @@
       "romaji": "zu",
       "audioKey": "audio.hira.zu",
       "confusableIds": ["kp.hira.za"],
-      "tipZh": "す + 浊点：す 的圈加两点就是 ず，中文「字」的音。"
+      "tipZh": "ず 是 す 右上加两点浊点，底字结构不变。"
     },
     {
       "id": "kp.hira.ze",
@@ -37,7 +37,7 @@
       "romaji": "ze",
       "audioKey": "audio.hira.ze",
       "confusableIds": [],
-      "tipZh": "せ + 浊点：せ 的一横加竖提，右边点上两点读 ze。"
+      "tipZh": "ぜ 是 せ 右上加两点浊点，底字结构不变。"
     },
     {
       "id": "kp.hira.zo",
@@ -45,7 +45,7 @@
       "romaji": "zo",
       "audioKey": "audio.hira.zo",
       "confusableIds": [],
-      "tipZh": "そ + 浊点：そ 是两笔交叉的钩形，加浊点读 zo。"
+      "tipZh": "ぞ 是 そ 右上加两点浊点，底字结构不变。"
     }
   ],
   "teach": [
@@ -61,7 +61,7 @@
       "id": "B02.teach.2",
       "type": "listen",
       "knowledgePointId": "kp.hira.za",
-      "promptZh": "点喇叭听 ざ，再对比清音 さ：只多喉咙震动。",
+      "promptZh": "点喇叭听 ざ，跟着读 3 遍。",
       "audioKey": "audio.hira.za"
     },
     {
@@ -70,13 +70,13 @@
       "knowledgePointId": "kp.hira.ji",
       "promptZh": "第二个假名：じ，罗马音 ji。",
       "audioKey": "audio.hira.ji",
-      "noteZh": "じ 是唯一的例外读法：し + ゛ 不读 zhi 而读 ji，和 ぢ 同音。"
+      "noteZh": "じ 是 し 右上加两点浊点，底字结构不变。"
     },
     {
       "id": "B02.teach.4",
       "type": "listen",
       "knowledgePointId": "kp.hira.ji",
-      "promptZh": "听 じ：短促的「ji」，别读成「shi」。",
+      "promptZh": "点喇叭听 じ，跟着读 3 遍。",
       "audioKey": "audio.hira.ji"
     },
     {
@@ -85,20 +85,20 @@
       "knowledgePointId": "kp.hira.zu",
       "promptZh": "第三个假名：ず，罗马音 zu。",
       "audioKey": "audio.hira.zu",
-      "noteZh": "す 的头上加两点；日本人说「すし」变「ずし」就是这个音。"
+      "noteZh": "ず 是 す 右上加两点浊点，底字结构不变。"
     },
     {
       "id": "B02.teach.6",
       "type": "listen",
       "knowledgePointId": "kp.hira.zu",
-      "promptZh": "听 ず，嘴唇保持す 的小圆口、震动喉咙。",
+      "promptZh": "点喇叭听 ず，跟着读 3 遍。",
       "audioKey": "audio.hira.zu"
     },
     {
       "id": "B02.teach.7",
       "type": "compare",
       "knowledgePointId": "kp.hira.za",
-      "promptZh": "对比 ざ / ず：ざ 右下是一个横折小钩；ず 下面是一个大圈。"
+      "promptZh": "对比 ざ / ず：ざ 的底字是 さ，下方弧线不绕圈；ず 的底字是 す，中部绕一个小圈。"
     },
     {
       "id": "B02.teach.8",
@@ -106,13 +106,13 @@
       "knowledgePointId": "kp.hira.ze",
       "promptZh": "第四个假名：ぜ，罗马音 ze。",
       "audioKey": "audio.hira.ze",
-      "noteZh": "せ 的右侧加两点，笔顺与 せ 相同。"
+      "noteZh": "ぜ 是 せ 右上加两点浊点，底字结构不变。"
     },
     {
       "id": "B02.teach.9",
       "type": "listen",
       "knowledgePointId": "kp.hira.ze",
-      "promptZh": "听 ぜ：接近中文「怎」但更短。",
+      "promptZh": "点喇叭听 ぜ，跟着读 3 遍。",
       "audioKey": "audio.hira.ze"
     },
     {
@@ -121,21 +121,21 @@
       "knowledgePointId": "kp.hira.zo",
       "promptZh": "第五个假名：ぞ，罗马音 zo。",
       "audioKey": "audio.hira.zo",
-      "noteZh": "そ 的右侧加两点；そ 第一笔短、第二笔长交叉。"
+      "noteZh": "ぞ 是 そ 右上加两点浊点，底字结构不变。"
     },
     {
       "id": "B02.teach.11",
       "type": "listen",
       "knowledgePointId": "kp.hira.zo",
-      "promptZh": "听 ぞ，圆唇一次到位。",
+      "promptZh": "点喇叭听 ぞ，跟着读 3 遍。",
       "audioKey": "audio.hira.zo"
     },
     {
       "id": "B02.teach.12",
       "type": "stroke_hint",
       "knowledgePointId": "kp.hira.zu",
-      "promptZh": "看笔顺：ず 一共 3 笔 + 2 点。",
-      "noteZh": "① 上面一短横；② 竖下来；③ 绕一个大圈收笔；最后右上角点两点浊点。"
+      "promptZh": "看笔顺：ず 是 す 的 2 笔加 2 点。",
+      "noteZh": "先写横，再写竖下来绕小圈、向左下收的曲线；最后在右上加两点浊点。"
     }
   ],
   "practice": [
@@ -250,7 +250,7 @@
       "id": "er.hira.ji.sound_shi2",
       "knowledgePointId": "kp.hira.ji",
       "wrongChoice": "shi",
-      "explainZh": "じ 虽然写作 shi 行浊音，读音固定是 ji；zi 这个拼法日语罗马音里不用。",
+      "explainZh": "本课用 ji 表示 じ；其他罗马字体系中也可见 zi，不要把体系差别当作发音差别。",
       "correctAudioKey": "audio.hira.ji"
     }
   ]

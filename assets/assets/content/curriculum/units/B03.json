@@ -13,7 +13,7 @@
       "romaji": "da",
       "audioKey": "audio.hira.da",
       "confusableIds": ["kp.hira.de"],
-      "tipZh": "た + 浊点：た 的两横一竖加圈，右侧点上两点读 da。"
+      "tipZh": "だ 是 た 右上加两点浊点，底字结构不变。"
     },
     {
       "id": "kp.hira.di",
@@ -21,7 +21,7 @@
       "romaji": "di",
       "audioKey": "audio.hira.di",
       "confusableIds": ["kp.hira.du"],
-      "tipZh": "つ + 浊点写作 ぢ，音和 じ 一样；记形用「di」避免和 じ（ji）撞键。"
+      "tipZh": "ぢ 是 ち 右上加两点浊点，底字结构不变。现代标准语通常与 じ 同音；本课用 di 区分字形，不是读作 d+i。"
     },
     {
       "id": "kp.hira.du",
@@ -29,7 +29,7 @@
       "romaji": "du",
       "audioKey": "audio.hira.du",
       "confusableIds": ["kp.hira.di"],
-      "tipZh": "つ + 浊点写作 づ，音和 ず 一样；记形用「du」和 ず（zu）分开。"
+      "tipZh": "づ 是 つ 右上加两点浊点，底字结构不变。现代标准语通常与 ず 同音；本课用 du 区分字形，不是读作 d+u。"
     },
     {
       "id": "kp.hira.de",
@@ -37,7 +37,7 @@
       "romaji": "de",
       "audioKey": "audio.hira.de",
       "confusableIds": ["kp.hira.da"],
-      "tipZh": "て + 浊点：で 只有一笔横折提，别和多两笔的 だ 混。"
+      "tipZh": "で 是 て 右上加两点浊点，底字结构不变。"
     },
     {
       "id": "kp.hira.do",
@@ -45,7 +45,7 @@
       "romaji": "do",
       "audioKey": "audio.hira.do",
       "confusableIds": [],
-      "tipZh": "と + 浊点：と 的圈在右上，ど = と + ゛，圈里不穿竖。"
+      "tipZh": "ど 是 と 右上加两点浊点，底字结构不变。"
     }
   ],
   "teach": [
@@ -61,7 +61,7 @@
       "id": "B03.teach.2",
       "type": "listen",
       "knowledgePointId": "kp.hira.da",
-      "promptZh": "点喇叭听 だ，再对比清音 た。",
+      "promptZh": "点喇叭听 だ，跟着读 3 遍。",
       "audioKey": "audio.hira.da"
     },
     {
@@ -70,20 +70,20 @@
       "knowledgePointId": "kp.hira.di",
       "promptZh": "第二个假名：ぢ，罗马音记作 di。",
       "audioKey": "audio.hira.di",
-      "noteZh": "ぢ 和 じ 同音都读 ji；拼写用 di 只为把两个字形分开记。"
+      "noteZh": "ぢ 是 ち 右上加两点浊点，底字结构不变。现代标准语通常与 じ 同音；本课用 di 区分字形，不是读作 d+i。"
     },
     {
       "id": "B03.teach.4",
       "type": "listen",
       "knowledgePointId": "kp.hira.di",
-      "promptZh": "听 ぢ：和 じ 一模一样的音。",
+      "promptZh": "点喇叭听 ぢ，跟着读 3 遍。",
       "audioKey": "audio.hira.di"
     },
     {
       "id": "B03.teach.5",
       "type": "compare",
       "knowledgePointId": "kp.hira.di",
-      "promptZh": "对比 ぢ / づ：同是 つ+゛，右边元音一笔的开口方向不同——ぢ 收 i、づ 收 u。"
+      "promptZh": "对比 ぢ / づ：ぢ 是 ち 加浊点，づ 是 つ 加浊点；先辨认底字，再看右上两点。"
     },
     {
       "id": "B03.teach.6",
@@ -91,13 +91,13 @@
       "knowledgePointId": "kp.hira.du",
       "promptZh": "第三个假名：づ，罗马音记作 du。",
       "audioKey": "audio.hira.du",
-      "noteZh": "づ 和 ず 同音都读 zu；单独用词少，常出现在连读浊化里，比如「続く」つづく。"
+      "noteZh": "づ 是 つ 右上加两点浊点，底字结构不变。现代标准语通常与 ず 同音；本课用 du 区分字形，不是读作 d+u。"
     },
     {
       "id": "B03.teach.7",
       "type": "listen",
       "knowledgePointId": "kp.hira.du",
-      "promptZh": "听 づ：和 ず 一模一样的音。",
+      "promptZh": "点喇叭听 づ，跟着读 3 遍。",
       "audioKey": "audio.hira.du"
     },
     {
@@ -106,13 +106,13 @@
       "knowledgePointId": "kp.hira.de",
       "promptZh": "第四个假名：で，罗马音 de。",
       "audioKey": "audio.hira.de",
-      "noteZh": "で 是「地点/手段」助词，一笔写完再点两点。"
+      "noteZh": "で 是 て 右上加两点浊点，底字结构不变。"
     },
     {
       "id": "B03.teach.9",
       "type": "listen",
       "knowledgePointId": "kp.hira.de",
-      "promptZh": "听 で：短促的「de」。",
+      "promptZh": "点喇叭听 で，跟着读 3 遍。",
       "audioKey": "audio.hira.de"
     },
     {
@@ -121,21 +121,21 @@
       "knowledgePointId": "kp.hira.do",
       "promptZh": "第五个假名：ど，罗马音 do。",
       "audioKey": "audio.hira.do",
-      "noteZh": "と 加两点；疑问词「哪里」どこ 就用它。"
+      "noteZh": "ど 是 と 右上加两点浊点，底字结构不变。"
     },
     {
       "id": "B03.teach.11",
       "type": "listen",
       "knowledgePointId": "kp.hira.do",
-      "promptZh": "听 ど，圆唇一次到位。",
+      "promptZh": "点喇叭听 ど，跟着读 3 遍。",
       "audioKey": "audio.hira.do"
     },
     {
       "id": "B03.teach.12",
       "type": "stroke_hint",
       "knowledgePointId": "kp.hira.da",
-      "promptZh": "看笔顺：だ 一共 3 笔 + 2 点。",
-      "noteZh": "① 上短横；② 下长横；③ 竖下来在右侧绕圈；最后右上点两点浊点。"
+      "promptZh": "看笔顺：だ 是 た 的 4 笔加 2 点。",
+      "noteZh": "先写 た：横、撇、右侧上下两短笔；最后在右上加两点浊点。"
     }
   ],
   "practice": [

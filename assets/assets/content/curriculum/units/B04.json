@@ -13,7 +13,7 @@
       "romaji": "ba",
       "audioKey": "audio.hira.ba",
       "confusableIds": ["kp.hira.pa"],
-      "tipZh": "は + 浊点「゛」：两点让 h 变成 b，像中文「八」的音。"
+      "tipZh": "ば 是 は 右上加两点浊点，底字结构不变。"
     },
     {
       "id": "kp.hira.bi",
@@ -21,7 +21,7 @@
       "romaji": "bi",
       "audioKey": "audio.hira.bi",
       "confusableIds": ["kp.hira.pi"],
-      "tipZh": "ひ + 浊点：ひ 是左右两笔，加两点读 bi。"
+      "tipZh": "び 是 ひ 右上加两点浊点，底字结构不变。"
     },
     {
       "id": "kp.hira.bu",
@@ -29,7 +29,7 @@
       "romaji": "bu",
       "audioKey": "audio.hira.bu",
       "confusableIds": ["kp.hira.pu"],
-      "tipZh": "ふ + 浊点：ふ 头上的小圈换成两点变 ぶ，注意它读 bu 不是 fu。"
+      "tipZh": "ぶ 是 ふ 右上加两点浊点，底字结构不变。"
     },
     {
       "id": "kp.hira.be",
@@ -37,7 +37,7 @@
       "romaji": "be",
       "audioKey": "audio.hira.be",
       "confusableIds": ["kp.hira.pe"],
-      "tipZh": "へ + 浊点：へ 是一笔屋顶形，加两点读 be。"
+      "tipZh": "べ 是 へ 右上加两点浊点，底字结构不变。"
     },
     {
       "id": "kp.hira.bo",
@@ -45,7 +45,7 @@
       "romaji": "bo",
       "audioKey": "audio.hira.bo",
       "confusableIds": ["kp.hira.po"],
-      "tipZh": "ほ + 浊点：ほ = 左「丿彐」加右竖钩，点上两点读 bo。"
+      "tipZh": "ぼ 是 ほ 右上加两点浊点，底字结构不变。"
     }
   ],
   "teach": [
@@ -61,7 +61,7 @@
       "id": "B04.teach.2",
       "type": "listen",
       "knowledgePointId": "kp.hira.ba",
-      "promptZh": "点喇叭听 ば，再对比清音 は：双唇先闭后开。",
+      "promptZh": "点喇叭听 ば，跟着读 3 遍。",
       "audioKey": "audio.hira.ba"
     },
     {
@@ -70,13 +70,13 @@
       "knowledgePointId": "kp.hira.bi",
       "promptZh": "第二个假名：び，罗马音 bi。",
       "audioKey": "audio.hira.bi",
-      "noteZh": "ひ 的右侧加两点，笔顺和 ひ 一样。"
+      "noteZh": "び 是 ひ 右上加两点浊点，底字结构不变。"
     },
     {
       "id": "B04.teach.4",
       "type": "listen",
       "knowledgePointId": "kp.hira.bi",
-      "promptZh": "听 び：短促的「bi」，别读成「hi」。",
+      "promptZh": "点喇叭听 び，跟着读 3 遍。",
       "audioKey": "audio.hira.bi"
     },
     {
@@ -85,20 +85,20 @@
       "knowledgePointId": "kp.hira.bu",
       "promptZh": "第三个假名：ぶ，罗马音 bu。",
       "audioKey": "audio.hira.bu",
-      "noteZh": "ふ 本来上面的小圈表示轻擦音，换成浊点就读成实实在在的 bu。"
+      "noteZh": "ぶ 是 ふ 右上加两点浊点，底字结构不变。"
     },
     {
       "id": "B04.teach.6",
       "type": "listen",
       "knowledgePointId": "kp.hira.bu",
-      "promptZh": "听 ぶ：双唇圆起、震喉，接近中文「不」但嘴唇更用力。",
+      "promptZh": "点喇叭听 ぶ，跟着读 3 遍。",
       "audioKey": "audio.hira.bu"
     },
     {
       "id": "B04.teach.7",
       "type": "compare",
       "knowledgePointId": "kp.hira.bu",
-      "promptZh": "对比 ふ / ぶ：ふ 上面是个小圈、气流摩擦；ぶ 是两点浊点、双唇塞音。"
+      "promptZh": "对比 ふ / ぶ：ぶ 是 ふ 右上加两点浊点；ふ 本身没有半浊点的小圈。"
     },
     {
       "id": "B04.teach.8",
@@ -106,13 +106,13 @@
       "knowledgePointId": "kp.hira.be",
       "promptZh": "第四个假名：べ，罗马音 be。",
       "audioKey": "audio.hira.be",
-      "noteZh": "へ 的一笔斜折不变，右边加两点。"
+      "noteZh": "べ 是 へ 右上加两点浊点，底字结构不变。"
     },
     {
       "id": "B04.teach.9",
       "type": "listen",
       "knowledgePointId": "kp.hira.be",
-      "promptZh": "听 べ：接近中文「贝」但更短。",
+      "promptZh": "点喇叭听 べ，跟着读 3 遍。",
       "audioKey": "audio.hira.be"
     },
     {
@@ -121,21 +121,21 @@
       "knowledgePointId": "kp.hira.bo",
       "promptZh": "第五个假名：ぼ，罗马音 bo。",
       "audioKey": "audio.hira.bo",
-      "noteZh": "ほ 加两点；「帽子」ぼうし 就用到它。"
+      "noteZh": "ぼ 是 ほ 右上加两点浊点，底字结构不变。"
     },
     {
       "id": "B04.teach.11",
       "type": "listen",
       "knowledgePointId": "kp.hira.bo",
-      "promptZh": "听 ぼ，圆唇一次到位。",
+      "promptZh": "点喇叭听 ぼ，跟着读 3 遍。",
       "audioKey": "audio.hira.bo"
     },
     {
       "id": "B04.teach.12",
       "type": "stroke_hint",
       "knowledgePointId": "kp.hira.ba",
-      "promptZh": "看笔顺：ば 一共 3 笔 + 2 点。",
-      "noteZh": "① 左竖撇；② 横折里绕两个小弯；③ 右边一竖；最后右上点两点浊点。"
+      "promptZh": "看笔顺：ば 是 は 的 3 笔加 2 点。",
+      "noteZh": "先写左侧一笔、右侧横、右侧带小圈的竖弯；最后在右上加两点浊点。"
     }
   ],
   "practice": [
@@ -236,7 +236,7 @@
       "id": "er.hira.bu.sound_fu",
       "knowledgePointId": "kp.hira.bu",
       "wrongChoice": "ふ",
-      "explainZh": "读音混了：ふ 是轻擦的 fu，ぶ 是双唇闭紧的 bu；看右上角，圈是ふ、两点是ぶ。",
+      "explainZh": "ふ 没有右上标记，ぶ 在 ふ 右上加两点浊点；ぶ 以双唇闭合后放开的 b 音起头。",
       "correctAudioKey": "audio.hira.bu"
     },
     {
@@ -250,7 +250,7 @@
       "id": "er.hira.bu.sound_fu2",
       "knowledgePointId": "kp.hira.bu",
       "wrongChoice": "fu",
-      "explainZh": "ぶ 永远记 bu；fu 是ふ 的罗马音，两个字形差在「圈」和「点」。",
+      "explainZh": "本课 ぶ 记作 bu，ふ 记作 fu；两字差在右上的两点浊点，不是把小圈换成点。",
       "correctAudioKey": "audio.hira.bu"
     }
   ]

@@ -13,7 +13,7 @@
       "romaji": "n",
       "audioKey": "audio.hira.n",
       "confusableIds": [],
-      "tipZh": "唯一的拨音：一竖、横折、再一横。单独占一拍，收尾是鼻音「恩」。"
+      "tipZh": "ん 一笔写成，向左下落后转向右上，再向右下弯出；是拨音，单独占一拍。"
     }
   ],
   "teach": [
@@ -23,7 +23,7 @@
       "knowledgePointId": "kp.hira.n",
       "promptZh": "这一课只有 1 个假名：ん（n），它是拨音、单独占一拍。",
       "audioKey": "audio.hira.n",
-      "noteZh": "唯一的拨音：一竖、横折、再一横。单独占一拍，收尾是鼻音「恩」。"
+      "noteZh": "ん 一笔写成，向左下落后转向右上，再向右下弯出；是拨音，单独占一拍。"
     },
     {
       "id": "A11.teach.2",
@@ -111,7 +111,7 @@
       "id": "er.hira.n.sound_mu",
       "knowledgePointId": "kp.hira.n",
       "wrongChoice": "mu",
-      "explainZh": "ん 是拨音，后面不接元音；读成「む」就多加了一个圆唇元音。",
+      "explainZh": "ん 是拨音，占一拍，不在后面加 u；む 含有元音 u。跟着录音比较。",
       "correctAudioKey": "audio.hira.n",
       "confuseWith": "kp.hira.mu"
     }

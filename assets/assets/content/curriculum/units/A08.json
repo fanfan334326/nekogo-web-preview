@@ -15,7 +15,7 @@
       "confusableIds": [
         "kp.hira.wa"
       ],
-      "tipZh": "一竖穿过两个圈（来自「也」）；わ 只有一个圈。"
+      "tipZh": "や 有三笔：向右弯回的长笔、上方短点、从上向下的斜笔；没有两个圈。"
     },
     {
       "id": "kp.hira.yu",
@@ -23,7 +23,7 @@
       "romaji": "yu",
       "audioKey": "audio.hira.yu",
       "confusableIds": [],
-      "tipZh": "左边一竖往下，右边一个大圈带尾巴（来自「由」）。"
+      "tipZh": "ゆ 有两笔，左侧曲线向右绕回，第二笔从上向下穿过右侧。"
     },
     {
       "id": "kp.hira.yo",
@@ -31,7 +31,7 @@
       "romaji": "yo",
       "audioKey": "audio.hira.yo",
       "confusableIds": [],
-      "tipZh": "一竖加两个圈，共 2 笔（来自「与」）。"
+      "tipZh": "よ 有两笔：右上短横，再写竖下来向左绕回的小圈；没有两个圈。"
     }
   ],
   "teach": [
@@ -41,7 +41,7 @@
       "knowledgePointId": "kp.hira.ya",
       "promptZh": "这一行是や行：や・ゆ・よ。第一个是 や（ya）。",
       "audioKey": "audio.hira.ya",
-      "noteZh": "一竖穿过两个圈（来自「也」）；わ 只有一个圈。"
+      "noteZh": "や 有三笔：向右弯回的长笔、上方短点、从上向下的斜笔；没有两个圈。"
     },
     {
       "id": "A08.teach.2",
@@ -154,7 +154,7 @@
       "id": "er.hira.ya.shape_wa",
       "knowledgePointId": "kp.hira.ya",
       "wrongChoice": "wa",
-      "explainZh": "や 有两个圈（一竖穿过两圈），わ 只有一个圈。",
+      "explainZh": "や 上方有独立短点，还有穿过长笔的斜笔；わ 左边一竖，右侧向外展开。",
       "correctAudioKey": "audio.hira.ya",
       "confuseWith": "kp.hira.wa"
     }

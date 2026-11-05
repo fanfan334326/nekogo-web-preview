@@ -13,7 +13,7 @@
       "romaji": "ga",
       "audioKey": "audio.hira.ga",
       "confusableIds": [],
-      "tipZh": "か + 浊点：右上角两点「゛」把 k 变成 g，嘴不变、只把喉咙震起来。"
+      "tipZh": "が 是 か 右上加两点浊点，底字结构不变。"
     },
     {
       "id": "kp.hira.gi",
@@ -21,7 +21,7 @@
       "romaji": "gi",
       "audioKey": "audio.hira.gi",
       "confusableIds": ["kp.hira.ge"],
-      "tipZh": "き + 浊点。注意右边那一竖要向下出头，别和 げ 的竖笔写法混。"
+      "tipZh": "ぎ 是 き 右上加两点浊点，底字结构不变。"
     },
     {
       "id": "kp.hira.gu",
@@ -29,7 +29,7 @@
       "romaji": "gu",
       "audioKey": "audio.hira.gu",
       "confusableIds": [],
-      "tipZh": "く + 浊点：く 是个张开的「人」字形，加两点就念 gu。"
+      "tipZh": "ぐ 是 く 右上加两点浊点，底字结构不变。"
     },
     {
       "id": "kp.hira.ge",
@@ -37,7 +37,7 @@
       "romaji": "ge",
       "audioKey": "audio.hira.ge",
       "confusableIds": ["kp.hira.gi"],
-      "tipZh": "け + 浊点。和 ぎ 的差别在「横折」还是「竖提」：げ 上面先写横折。"
+      "tipZh": "げ 是 け 右上加两点浊点，底字结构不变。"
     },
     {
       "id": "kp.hira.go",
@@ -45,7 +45,7 @@
       "romaji": "go",
       "audioKey": "audio.hira.go",
       "confusableIds": [],
-      "tipZh": "こ + 浊点：こ 本来是一横一竖加一个圈，圈在右边。"
+      "tipZh": "ご 是 こ 右上加两点浊点，底字结构不变。"
     }
   ],
   "teach": [
@@ -61,7 +61,7 @@
       "id": "B01.teach.2",
       "type": "listen",
       "knowledgePointId": "kp.hira.ga",
-      "promptZh": "点喇叭听 が，再和清音 か 对比：只多了喉咙的震动。",
+      "promptZh": "点喇叭听 が，跟着读 3 遍。",
       "audioKey": "audio.hira.ga"
     },
     {
@@ -70,13 +70,13 @@
       "knowledgePointId": "kp.hira.gi",
       "promptZh": "第二个假名：ぎ，罗马音 gi。",
       "audioKey": "audio.hira.gi",
-      "noteZh": "き 的右侧加两点，笔顺和 き 一样。"
+      "noteZh": "ぎ 是 き 右上加两点浊点，底字结构不变。"
     },
     {
       "id": "B01.teach.4",
       "type": "listen",
       "knowledgePointId": "kp.hira.gi",
-      "promptZh": "听 ぎ：短促的「gi」，别拖成「ji」。",
+      "promptZh": "点喇叭听 ぎ，跟着读 3 遍。",
       "audioKey": "audio.hira.gi"
     },
     {
@@ -85,13 +85,13 @@
       "knowledgePointId": "kp.hira.gu",
       "promptZh": "第三个假名：ぐ，罗马音 gu。",
       "audioKey": "audio.hira.gu",
-      "noteZh": "く 形如鸟嘴张开，加浊点后念 gu。"
+      "noteZh": "ぐ 是 く 右上加两点浊点，底字结构不变。"
     },
     {
       "id": "B01.teach.6",
       "type": "listen",
       "knowledgePointId": "kp.hira.gu",
-      "promptZh": "听 ぐ，嘴唇保持う 的小口形、震动喉咙。",
+      "promptZh": "点喇叭听 ぐ，跟着读 3 遍。",
       "audioKey": "audio.hira.gu"
     },
     {
@@ -100,20 +100,20 @@
       "knowledgePointId": "kp.hira.ge",
       "promptZh": "第四个假名：げ，罗马音 ge。",
       "audioKey": "audio.hira.ge",
-      "noteZh": "け 的右侧加两点。"
+      "noteZh": "げ 是 け 右上加两点浊点，底字结构不变。"
     },
     {
       "id": "B01.teach.8",
       "type": "listen",
       "knowledgePointId": "kp.hira.ge",
-      "promptZh": "听 げ：接近中文「给」但更短。",
+      "promptZh": "点喇叭听 げ，跟着读 3 遍。",
       "audioKey": "audio.hira.ge"
     },
     {
       "id": "B01.teach.9",
       "type": "compare",
       "knowledgePointId": "kp.hira.gi",
-      "promptZh": "对比 ぎ / げ：ぎ 像 ぎ 的两笔竖提；げ 顶部是横折、圈更小。"
+      "promptZh": "对比 ぎ / げ：ぎ 的底字是 き，上方两横；げ 的底字是 け，左侧独立一笔、右侧一横一竖。"
     },
     {
       "id": "B01.teach.10",
@@ -121,21 +121,21 @@
       "knowledgePointId": "kp.hira.go",
       "promptZh": "第五个假名：ご，罗马音 go。",
       "audioKey": "audio.hira.go",
-      "noteZh": "こ 的右侧加两点，注意圈不穿过竖笔。"
+      "noteZh": "ご 是 こ 右上加两点浊点，底字结构不变。"
     },
     {
       "id": "B01.teach.11",
       "type": "listen",
       "knowledgePointId": "kp.hira.go",
-      "promptZh": "听 ご，圆唇一次到位。",
+      "promptZh": "点喇叭听 ご，跟着读 3 遍。",
       "audioKey": "audio.hira.go"
     },
     {
       "id": "B01.teach.12",
       "type": "stroke_hint",
       "knowledgePointId": "kp.hira.ga",
-      "promptZh": "看笔顺：が 一共 3 笔 + 2 点。",
-      "noteZh": "① 横；② 竖；③ 从横的右端起笔绕圈；最后右上点两点浊点，两点不写成撇捺。"
+      "promptZh": "看笔顺：が 是 か 的 3 笔加 2 点。",
+      "noteZh": "先写 か：横折钩、撇、右侧短点；再在右上加两点浊点。"
     }
   ],
   "practice": [
@@ -251,7 +251,7 @@
       "id": "er.hira.gi.shape_ge",
       "knowledgePointId": "kp.hira.gi",
       "wrongChoice": "げ",
-      "explainZh": "字形混了：ぎ 左边一竖右边两笔（和 き 同形）；げ 顶部先写横折、下面绕圈。",
+      "explainZh": "ぎ 的底字 き 上方有两横；げ 的底字 け 左侧独立一笔，右侧一横一竖。",
       "correctAudioKey": "audio.hira.gi",
       "confuseWith": "kp.hira.ge"
     }

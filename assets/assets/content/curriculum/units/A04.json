@@ -13,7 +13,7 @@
       "romaji": "ta",
       "audioKey": "audio.hira.ta",
       "confusableIds": [],
-      "tipZh": "来自「太」的草写：横、撇、再加一点。"
+      "tipZh": "た 有四笔：左侧横和撇，右侧上下两短笔；右侧没有圈。"
     },
     {
       "id": "kp.hira.chi",
@@ -23,7 +23,7 @@
       "confusableIds": [
         "kp.hira.ki"
       ],
-      "tipZh": "左边一竖加横提，右边只有一「、」；き 右边没有点。"
+      "tipZh": "ち 有两笔：横，向下穿过横后转向右、再弯向左下；上方只有一横。"
     },
     {
       "id": "kp.hira.tsu",
@@ -34,7 +34,7 @@
         "kp.hira.ku",
         "kp.hira.shi"
       ],
-      "tipZh": "横之后直接往右上挑出勾，不折回圈；し 的勾朝下。"
+      "tipZh": "つ 一笔写成，先向右再弯向左下；整体横向展开，别和纵向的 し 混淆。"
     },
     {
       "id": "kp.hira.te",
@@ -42,7 +42,7 @@
       "romaji": "te",
       "audioKey": "audio.hira.te",
       "confusableIds": [],
-      "tipZh": "起笔一横，折下来绕一个圈，圈要越过起笔的横。"
+      "tipZh": "て 一笔写成：上方横线向右，再折向左下、弯向右收；没有圈。"
     },
     {
       "id": "kp.hira.to",
@@ -50,7 +50,7 @@
       "romaji": "to",
       "audioKey": "audio.hira.to",
       "confusableIds": [],
-      "tipZh": "一横、一竖折，来自「止」的草写，全字没有圈。"
+      "tipZh": "と 有两笔：左上短斜笔，再写向左下绕到右侧的弧线；没有圈。"
     }
   ],
   "teach": [
@@ -60,7 +60,7 @@
       "knowledgePointId": "kp.hira.ta",
       "promptZh": "这一行是た行：た・ち・つ・て・と。第一个是 た（ta）。",
       "audioKey": "audio.hira.ta",
-      "noteZh": "来自「太」的草写：横、撇、再加一点。"
+      "noteZh": "た 有四笔：左侧横和撇，右侧上下两短笔；右侧没有圈。"
     },
     {
       "id": "A04.teach.2",
@@ -191,7 +191,7 @@
       "id": "er.hira.tsu.shape_shi",
       "knowledgePointId": "kp.hira.tsu",
       "wrongChoice": "shi",
-      "explainZh": "つ 的勾朝右上挑、不折回来；し 的勾一路向下。是方向不同，不是圈的大小。",
+      "explainZh": "つ 整体横向展开，向右再弯向左下；し 整体纵向展开，向下再弯向右上。",
       "correctAudioKey": "audio.hira.tsu",
       "confuseWith": "kp.hira.shi"
     }

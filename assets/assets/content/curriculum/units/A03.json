@@ -15,7 +15,7 @@
       "confusableIds": [
         "kp.hira.ne"
       ],
-      "tipZh": "像「木」下面加一钩，共 3 笔；ね 右边多一竖弯。"
+      "tipZh": "さ 上方一横与斜笔相交，下方有弧线；手写时下方通常断开，没有右下小圈。"
     },
     {
       "id": "kp.hira.shi",
@@ -25,7 +25,7 @@
       "confusableIds": [
         "kp.hira.tsu"
       ],
-      "tipZh": "横折之后是一个向下的长勾，勾不回头。"
+      "tipZh": "し 一笔从上向下弯，再向右上收；整体纵向展开。"
     },
     {
       "id": "kp.hira.su",
@@ -33,7 +33,7 @@
       "romaji": "su",
       "audioKey": "audio.hira.su",
       "confusableIds": [],
-      "tipZh": "上面一横一竖，下面一个不封口的圈。"
+      "tipZh": "す 有两笔：横，竖下来绕小圈再向左下收；小圈与竖相连。"
     },
     {
       "id": "kp.hira.se",
@@ -41,7 +41,7 @@
       "romaji": "se",
       "audioKey": "audio.hira.se",
       "confusableIds": [],
-      "tipZh": "像「几」里加一竖弯，右边出头。"
+      "tipZh": "せ 有三笔：横、右侧短竖、左侧向下再右转的竖弯。"
     },
     {
       "id": "kp.hira.so",
@@ -49,7 +49,7 @@
       "romaji": "so",
       "audioKey": "audio.hira.so",
       "confusableIds": [],
-      "tipZh": "两笔斜线交叉，像「只」的草写。"
+      "tipZh": "そ 上方折转后连到下方弧线；常见一笔写法，也有上方分开写的字形。"
     }
   ],
   "teach": [
@@ -59,7 +59,7 @@
       "knowledgePointId": "kp.hira.sa",
       "promptZh": "这一行是さ行：さ・し・す・せ・そ。第一个是 さ（sa）。",
       "audioKey": "audio.hira.sa",
-      "noteZh": "像「木」下面加一钩，共 3 笔；ね 右边多一竖弯。"
+      "noteZh": "さ 上方一横与斜笔相交，下方有弧线；手写时下方通常断开，没有右下小圈。"
     },
     {
       "id": "A03.teach.2",
@@ -190,7 +190,7 @@
       "id": "er.hira.sa.shape_ne",
       "knowledgePointId": "kp.hira.sa",
       "wrongChoice": "ne",
-      "explainZh": "さ 下面是一横加竖钩；ね 左边是一竖、右边带圈。数一下圈就分得开。",
+      "explainZh": "さ 上方有横和斜笔相交，下方不绕小圈；ね 左边一竖，右下绕成小圈。",
       "correctAudioKey": "audio.hira.sa",
       "confuseWith": "kp.hira.ne"
     }

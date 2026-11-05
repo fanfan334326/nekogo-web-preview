@@ -13,7 +13,7 @@
       "romaji": "ha",
       "audioKey": "audio.hira.ha",
       "confusableIds": [],
-      "tipZh": "来自「波」的草写：左边一点一竖，右边一个方框。"
+      "tipZh": "は 有三笔，左侧独立一笔，右侧一横与带小圈的竖弯相连。"
     },
     {
       "id": "kp.hira.hi",
@@ -21,7 +21,7 @@
       "romaji": "hi",
       "audioKey": "audio.hira.hi",
       "confusableIds": [],
-      "tipZh": "一笔到底，中间绕一个小圈（来自「比」）。"
+      "tipZh": "ひ 一笔写成，下方呈圆弧，两侧向上展开；中间没有小圈。"
     },
     {
       "id": "kp.hira.fu",
@@ -31,7 +31,7 @@
       "confusableIds": [
         "kp.hira.tsu"
       ],
-      "tipZh": "来自「不」的草写：一横、一撇、再一个竖弯；读时像吹气。"
+      "tipZh": "ふ 有四笔：上方短点、中间曲线、左下点、右下点；没有半浊点的小圈。"
     },
     {
       "id": "kp.hira.he",
@@ -41,7 +41,7 @@
       "confusableIds": [
         "kp.hira.wo"
       ],
-      "tipZh": "一横加一个向左下的长勾（来自「部」的左半）。"
+      "tipZh": "へ 一笔折成山形，先向右上，再向右下落；不带钩。"
     },
     {
       "id": "kp.hira.ho",
@@ -49,7 +49,7 @@
       "romaji": "ho",
       "audioKey": "audio.hira.ho",
       "confusableIds": [],
-      "tipZh": "左边「十」，右边像「乃」的连笔（来自「保」）。"
+      "tipZh": "ほ 左侧独立一笔，右侧两横加带小圈的竖弯；比 は 的右侧多一横。"
     }
   ],
   "teach": [
@@ -59,7 +59,7 @@
       "knowledgePointId": "kp.hira.ha",
       "promptZh": "这一行是は行：は・ひ・ふ・へ・ほ。第一个是 は（ha）。",
       "audioKey": "audio.hira.ha",
-      "noteZh": "来自「波」的草写：左边一点一竖，右边一个方框。"
+      "noteZh": "は 有三笔，左侧独立一笔，右侧一横与带小圈的竖弯相连。"
     },
     {
       "id": "A06.teach.2",
@@ -190,7 +190,7 @@
       "id": "er.hira.fu.shape_tsu",
       "knowledgePointId": "kp.hira.fu",
       "wrongChoice": "tsu",
-      "explainZh": "ふ 上面有一点（吹气形），つ 没有点、只有一横加挑勾。",
+      "explainZh": "ふ 有上方短点和左右两侧的点，共四笔；つ 是一笔弧线，没有独立的点。",
       "correctAudioKey": "audio.hira.fu",
       "confuseWith": "kp.hira.tsu"
     }

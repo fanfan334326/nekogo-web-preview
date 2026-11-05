@@ -15,7 +15,7 @@
       "confusableIds": [
         "kp.hira.me"
       ],
-      "tipZh": "三横一竖，竖穿过上面两横（来自「末」）。"
+      "tipZh": "ま 有三笔：两横，再写穿过两横、下方绕小圈的竖弯。"
     },
     {
       "id": "kp.hira.mi",
@@ -23,7 +23,7 @@
       "romaji": "mi",
       "audioKey": "audio.hira.mi",
       "confusableIds": [],
-      "tipZh": "一竖往右下弯，再接一个圈（来自「美」的上半）。"
+      "tipZh": "み 有两笔，第一笔下方绕回，第二笔从右上向下与它交叉。"
     },
     {
       "id": "kp.hira.mu",
@@ -33,7 +33,7 @@
       "confusableIds": [
         "kp.hira.nu"
       ],
-      "tipZh": "一点、一横，下面一个带尾巴的圈（来自「武」）。"
+      "tipZh": "む 有三笔：横、带圈后向右伸展的曲线、右上短点；别漏最后一点。"
     },
     {
       "id": "kp.hira.me",
@@ -43,7 +43,7 @@
       "confusableIds": [
         "kp.hira.nu"
       ],
-      "tipZh": "一竖加一横折，圈不封口（来自「女」的左半）。"
+      "tipZh": "め 有两笔交叉，下方呈较大弧形；右下不加 ぬ 的小圈。"
     },
     {
       "id": "kp.hira.mo",
@@ -51,7 +51,7 @@
       "romaji": "mo",
       "audioKey": "audio.hira.mo",
       "confusableIds": [],
-      "tipZh": "两竖被一个斜穿的大圈连起来（来自「母」）。"
+      "tipZh": "も 有三笔：先写向右弯的竖弯，再写穿过它的两横；不是两个竖。"
     }
   ],
   "teach": [
@@ -61,7 +61,7 @@
       "knowledgePointId": "kp.hira.ma",
       "promptZh": "这一行是ま行：ま・み・む・め・も。第一个是 ま（ma）。",
       "audioKey": "audio.hira.ma",
-      "noteZh": "三横一竖，竖穿过上面两横（来自「末」）。"
+      "noteZh": "ま 有三笔：两横，再写穿过两横、下方绕小圈的竖弯。"
     },
     {
       "id": "A07.teach.2",
@@ -192,7 +192,7 @@
       "id": "er.hira.me.shape_nu",
       "knowledgePointId": "kp.hira.me",
       "wrongChoice": "nu",
-      "explainZh": "め 只有「一竖 + 一个不封口的圈」；ぬ 左边多一个「十」，圈也被竖穿过。",
+      "explainZh": "め 与 ぬ 都有交叉笔画；ぬ 右下绕出小圈，め 不绕这个小圈。",
       "correctAudioKey": "audio.hira.me",
       "confuseWith": "kp.hira.nu"
     }

@@ -13,7 +13,7 @@
       "romaji": "ra",
       "audioKey": "audio.hira.ra",
       "confusableIds": [],
-      "tipZh": "上面一点一竖，下面一个圈（来自「良」的头部）。"
+      "tipZh": "ら 有两笔：上方短点，下方曲线先向右、再向左下收；不绕小圈。"
     },
     {
       "id": "kp.hira.ri",
@@ -21,7 +21,7 @@
       "romaji": "ri",
       "audioKey": "audio.hira.ri",
       "confusableIds": [],
-      "tipZh": "像「く」下面接一个弯，2 笔、全程不封口。"
+      "tipZh": "り 通常手写为两笔，左短右长；右笔向左下弯，印刷体有连写字形。"
     },
     {
       "id": "kp.hira.ru",
@@ -29,7 +29,7 @@
       "romaji": "ru",
       "audioKey": "audio.hira.ru",
       "confusableIds": [],
-      "tipZh": "横折下去后绕一个不封口的圈（来自「流」的右半）。"
+      "tipZh": "る 一笔写成，上方折向左下再转向右，下方绕出小圈；ろ 没有这个小圈。"
     },
     {
       "id": "kp.hira.re",
@@ -39,7 +39,7 @@
       "confusableIds": [
         "kp.hira.se"
       ],
-      "tipZh": "一竖、一横折提，右边一个「几」形勾（来自「礼」）。"
+      "tipZh": "れ 有两笔，左边一竖，右侧折转后向右上收；没有 ね 的小圈。"
     },
     {
       "id": "kp.hira.ro",
@@ -47,7 +47,7 @@
       "romaji": "ro",
       "audioKey": "audio.hira.ro",
       "confusableIds": [],
-      "tipZh": "し 形的折笔加一竖，共 2 笔（来自「呂」）。"
+      "tipZh": "ろ 一笔写成，上方折向左下再转向右、弯向左下收；没有 る 的小圈。"
     }
   ],
   "teach": [
@@ -57,7 +57,7 @@
       "knowledgePointId": "kp.hira.ra",
       "promptZh": "这一行是ら行：ら・り・る・れ・ろ。第一个是 ら（ra）。",
       "audioKey": "audio.hira.ra",
-      "noteZh": "上面一点一竖，下面一个圈（来自「良」的头部）。"
+      "noteZh": "ら 有两笔：上方短点，下方曲线先向右、再向左下收；不绕小圈。"
     },
     {
       "id": "A09.teach.2",
@@ -188,7 +188,7 @@
       "id": "er.hira.re.shape_se",
       "knowledgePointId": "kp.hira.re",
       "wrongChoice": "se",
-      "explainZh": "れ 左边是一竖加横折提，せ 左边是一竖加横、右边才拐弯；看左半偏旁。",
+      "explainZh": "れ 左边一竖，右侧折转后向右上收；せ 上方有横，下面竖弯向右展开。",
       "correctAudioKey": "audio.hira.re",
       "confuseWith": "kp.hira.se"
     }

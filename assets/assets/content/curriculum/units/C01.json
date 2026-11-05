@@ -13,7 +13,7 @@
       "romaji": "kya",
       "audioKey": "audio.hira.kya",
       "confusableIds": ["kp.hira.kyo"],
-      "tipZh": "大「き」+ 小「や」拼成一个音节 kya；小 や 只占半格、不能单独拖一拍。"
+      "tipZh": "き 加小 ゃ，两个字合起来读 kya，占一拍；不要拆成 き・や 两拍。"
     },
     {
       "id": "kp.hira.kyu",
@@ -21,7 +21,7 @@
       "romaji": "kyu",
       "audioKey": "audio.hira.kyu",
       "confusableIds": [],
-      "tipZh": "大「き」+ 小「ゆ」读 kyu，一步到位圆唇，别读成「き-ゆ」两拍。"
+      "tipZh": "き 加小 ゅ，两个字合起来读 kyu，占一拍；不要拆成 き・ゆ 两拍。"
     },
     {
       "id": "kp.hira.kyo",
@@ -29,7 +29,7 @@
       "romaji": "kyo",
       "audioKey": "audio.hira.kyo",
       "confusableIds": [],
-      "tipZh": "大「き」+ 小「よ」读 kyo；注意小「よ」不是小「ゆ」，圈笔开口更大。"
+      "tipZh": "き 加小 ょ，两个字合起来读 kyo，占一拍；注意小字是 ょ，不是 ゅ。"
     }
   ],
   "teach": [
@@ -39,7 +39,7 @@
       "knowledgePointId": "kp.hira.kya",
       "promptZh": "拗音第一课：きゃ，罗马音 kya，一拍读完。",
       "audioKey": "audio.hira.kya",
-      "noteZh": "拗音 = い 段假名（这里是大 き）+ 小 や/ゆ/よ，两个字合成一个新音节，占一格不占两格。"
+      "noteZh": "本课学习 き 加小 ゃ／ゅ／ょ 的拗音。两个假名合读一拍，拍数不等于书写字数。"
     },
     {
       "id": "C01.teach.2",
@@ -54,20 +54,20 @@
       "knowledgePointId": "kp.hira.kyu",
       "promptZh": "第二个：きゅ，罗马音 kyu。",
       "audioKey": "audio.hira.kyu",
-      "noteZh": "小 ゆ 写得比大 き 矮一半，位置贴着き 的右下方。"
+      "noteZh": "ゅ 写得比 き 小，接在 き 后面；不要写成大字 ゆ。"
     },
     {
       "id": "C01.teach.4",
       "type": "listen",
       "knowledgePointId": "kp.hira.kyu",
-      "promptZh": "听 きゅ：像中文「求」但前面带 k 的弹开。",
+      "promptZh": "点喇叭听 きゅ，一拍读完，不要读成 き・ゆ 两拍。",
       "audioKey": "audio.hira.kyu"
     },
     {
       "id": "C01.teach.5",
       "type": "compare",
       "knowledgePointId": "kp.hira.kyu",
-      "promptZh": "对比小 ゆ / 小 よ：ゆ 下面是两笔交叉的钩，よ 是一个横加一个竖圈。"
+      "promptZh": "对比小 ゅ / 小 ょ：ゅ 右侧有穿过曲线的竖笔；ょ 右上有短横，下方绕一个小圈。"
     },
     {
       "id": "C01.teach.6",
@@ -81,21 +81,21 @@
       "id": "C01.teach.7",
       "type": "listen",
       "knowledgePointId": "kp.hira.kyo",
-      "promptZh": "听 きょ：圆唇的 o，别听成扁平的 kyu。",
+      "promptZh": "点喇叭听 きょ，再与 きゅ 比较，留意末尾元音的区别。",
       "audioKey": "audio.hira.kyo"
     },
     {
       "id": "C01.teach.8",
       "type": "compare",
       "knowledgePointId": "kp.hira.kya",
-      "promptZh": "对比 きゃ / き・や：きゃ 一拍连读；「木屋」き・や 才有中点隔开的两拍。"
+      "promptZh": "对比 きゃ / きや：きゃ 中的 ゃ 小写，合读一拍；きや 中的 や 大写，读两拍。"
     },
     {
       "id": "C01.teach.9",
       "type": "stroke_hint",
       "knowledgePointId": "kp.hira.kya",
-      "promptZh": "看布局：きゃ = 大字 + 小字同格。",
-      "noteZh": "先写完整的 き（3 笔），再在右下写半个高度的 や（3 笔）；小字不越格线。"
+      "promptZh": "看布局：きゃ = 正常大小的 き + 小字 ゃ。",
+      "noteZh": "手写时先写 き 的四笔，再写小 ゃ 的三笔。小字保持 や 的结构；合读一拍不等于把两字塞进同一格。"
     }
   ],
   "practice": [
@@ -177,14 +177,14 @@
       "id": "er.hira.kya.sound_kiya",
       "knowledgePointId": "kp.hira.kya",
       "wrongChoice": "kiya",
-      "explainZh": "拗音只有一拍：kya 连读，不能拆成 ki-ya 两拍；kiya 那种写法对应「木屋」这类两词叠加。",
+      "explainZh": "きゃ 中的 ゃ 小写，合读一拍；きや 中的 や 大写，读 ki-ya 两拍。不要把小字写成大字。",
       "correctAudioKey": "audio.hira.kya"
     },
     {
       "id": "er.hira.kyu.shape_kyo",
       "knowledgePointId": "kp.hira.kyu",
       "wrongChoice": "きょ",
-      "explainZh": "小字混了：小 ゆ 底下是交叉两笔，小 よ 是一横一竖圈；kyu 圆唇收得更快。",
+      "explainZh": "小字混了：きゅ 用小 ゅ，右侧有穿过曲线的竖笔；きょ 用小 ょ，右上有短横、下方绕小圈。",
       "correctAudioKey": "audio.hira.kyu",
       "confuseWith": "kp.hira.kyo"
     }

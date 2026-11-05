@@ -13,7 +13,7 @@
       "romaji": "na",
       "audioKey": "audio.hira.na",
       "confusableIds": [],
-      "tipZh": "来自「而」的草写：先竖，再横折，右边一个竖钩。"
+      "tipZh": "な 有四笔：横、撇、右上短点、右下带小圈的曲线。"
     },
     {
       "id": "kp.hira.ni",
@@ -21,7 +21,7 @@
       "romaji": "ni",
       "audioKey": "audio.hira.ni",
       "confusableIds": [],
-      "tipZh": "左「二」右「人」的连笔，也就是两点加一竖。"
+      "tipZh": "に 有三笔：左侧一笔，右侧上下两笔；右侧像分开的 こ。"
     },
     {
       "id": "kp.hira.nu",
@@ -31,7 +31,7 @@
       "confusableIds": [
         "kp.hira.me"
       ],
-      "tipZh": "左「十」，右边一个圈，再补一竖穿过圈。"
+      "tipZh": "ぬ 有两笔交叉，右下收成小圈；め 的右下没有这个小圈。"
     },
     {
       "id": "kp.hira.ne",
@@ -41,7 +41,7 @@
       "confusableIds": [
         "kp.hira.sa"
       ],
-      "tipZh": "左边一竖，右边像「几」的连笔圈；さ 下面带钩。"
+      "tipZh": "ね 有两笔，左边一竖，右侧曲线末端绕成小圈；别和不绕圈的 れ 混淆。"
     },
     {
       "id": "kp.hira.no",
@@ -49,7 +49,7 @@
       "romaji": "no",
       "audioKey": "audio.hira.no",
       "confusableIds": [],
-      "tipZh": "像「乃」：一笔绕上去的大圈，竖笔不出头。"
+      "tipZh": "の 一笔绕成椭圆形，从上方向左下绕，再向右上回转。"
     }
   ],
   "teach": [
@@ -59,7 +59,7 @@
       "knowledgePointId": "kp.hira.na",
       "promptZh": "这一行是な行：な・に・ぬ・ね・の。第一个是 な（na）。",
       "audioKey": "audio.hira.na",
-      "noteZh": "来自「而」的草写：先竖，再横折，右边一个竖钩。"
+      "noteZh": "な 有四笔：横、撇、右上短点、右下带小圈的曲线。"
     },
     {
       "id": "A05.teach.2",
@@ -190,7 +190,7 @@
       "id": "er.hira.nu.shape_me",
       "knowledgePointId": "kp.hira.nu",
       "wrongChoice": "me",
-      "explainZh": "ぬ 左边是「十」，右边那一竖穿过圈；め 左边只有一竖，圈也不封口。",
+      "explainZh": "ぬ 与 め 都有两笔交叉；ぬ 的右下多一个小圈，め 没有。",
       "correctAudioKey": "audio.hira.nu",
       "confuseWith": "kp.hira.me"
     }

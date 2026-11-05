@@ -15,7 +15,7 @@
       "confusableIds": [
         "kp.hira.ka"
       ],
-      "tipZh": "左「二」加右边一个带竖的圈（来自「和」）。"
+      "tipZh": "わ 有两笔，左边一竖，右侧是一条向外展开的曲线；没有 ね 末端的小圈。"
     },
     {
       "id": "kp.hira.wo",
@@ -26,7 +26,7 @@
         "kp.hira.he",
         "kp.hira.o"
       ],
-      "tipZh": "圈加一竖带勾，右边不出头（来自「遠」）；读音就是 o，只当宾格助词。"
+      "tipZh": "を 有三笔，上方横与弯笔相接，最后一笔向左下绕向右；作助词时通常读 o。"
     }
   ],
   "teach": [
@@ -36,7 +36,7 @@
       "knowledgePointId": "kp.hira.wa",
       "promptZh": "这一行是わ行：わ・を。第一个是 わ（wa）。",
       "audioKey": "audio.hira.wa",
-      "noteZh": "左「二」加右边一个带竖的圈（来自「和」）。"
+      "noteZh": "わ 有两笔，左边一竖，右侧是一条向外展开的曲线；没有 ね 末端的小圈。"
     },
     {
       "id": "A10.teach.2",
@@ -133,7 +133,7 @@
       "id": "er.hira.wo.shape_o",
       "knowledgePointId": "kp.hira.wo",
       "wrongChoice": "o",
-      "explainZh": "を 的竖笔向下出头、右边带勾；お 的圈写在竖笔右侧、竖笔也出头但多一横。",
+      "explainZh": "を 上方有横、下方有弧线；お 的右上有独立短点。先看右上有没有短点。",
       "correctAudioKey": "audio.hira.wo",
       "confuseWith": "kp.hira.o"
     }

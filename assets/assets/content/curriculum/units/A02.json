@@ -13,7 +13,7 @@
       "romaji": "ka",
       "audioKey": "audio.hira.ka",
       "confusableIds": [],
-      "tipZh": "比汉字「力」多出左上一短撇，读 k+a。"
+      "tipZh": "か 有三笔：左侧横折钩、穿过横的撇、右侧短点。"
     },
     {
       "id": "kp.hira.ki",
@@ -23,7 +23,7 @@
       "confusableIds": [
         "kp.hira.chi"
       ],
-      "tipZh": "像「木」但只有一横——「本」少一横就是き。"
+      "tipZh": "き 上方有两横，斜竖穿过两横；手写时下方弧线通常与上部断开。"
     },
     {
       "id": "kp.hira.ku",
@@ -33,7 +33,7 @@
       "confusableIds": [
         "kp.hira.tsu"
       ],
-      "tipZh": "一笔张开的嘴，向上开口；和つ 的挑勾方向相反。"
+      "tipZh": "く 一笔写成，折角在左侧，开口朝右；别和横向展开的 つ 混淆。"
     },
     {
       "id": "kp.hira.ke",
@@ -43,7 +43,7 @@
       "confusableIds": [
         "kp.hira.wa"
       ],
-      "tipZh": "左半边像「毛」的左半，右半边是「又」的草写。"
+      "tipZh": "け 左侧一笔，右侧一横一竖；右侧不绕圈。"
     },
     {
       "id": "kp.hira.ko",
@@ -51,7 +51,7 @@
       "romaji": "ko",
       "audioKey": "audio.hira.ko",
       "confusableIds": [],
-      "tipZh": "一短横一长横；比「子」少一竖弯钩。"
+      "tipZh": "こ 有两笔，上下分开；上笔短，下笔向右舒展。"
     }
   ],
   "teach": [
@@ -61,7 +61,7 @@
       "knowledgePointId": "kp.hira.ka",
       "promptZh": "这一行是か行：か・き・く・け・こ。第一个是 か（ka）。",
       "audioKey": "audio.hira.ka",
-      "noteZh": "比汉字「力」多出左上一短撇，读 k+a。"
+      "noteZh": "か 有三笔：左侧横折钩、穿过横的撇、右侧短点。"
     },
     {
       "id": "A02.teach.2",
@@ -192,7 +192,7 @@
       "id": "er.hira.ki.shape_chi",
       "knowledgePointId": "kp.hira.ki",
       "wrongChoice": "chi",
-      "explainZh": "き 上面是一横一竖提，ち 的右边是一个「、」；先看清右边有没有那点。",
+      "explainZh": "き 上方有两横；ち 上方只有一横，下方弧线向右展开。",
       "correctAudioKey": "audio.hira.ki",
       "confuseWith": "kp.hira.chi"
     }
