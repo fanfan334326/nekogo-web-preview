@@ -127,7 +127,7 @@
       "id": "lex.w01.oyasumi",
       "lemma": "おやすみなさい",
       "kana": "おやすみなさい",
-      "kanji": "お休みください",
+      "kanji": "お休みなさい",
       "glossZh": "晚安",
       "audioKey": "audio.lex.w01.oyasumi",
       "tags": "theme:farewell jlpt:n5",
@@ -359,7 +359,7 @@
       "glossZh": "研究者",
       "audioKey": "audio.lex.w02.kengaku",
       "tags": "theme:job jlpt:n5",
-      "notesZh": "可选扩展。",
+      "notesZh": "指从事研究的人。",
       "unitId": "W02",
       "pos": ""
     },
@@ -1055,7 +1055,7 @@
       "glossZh": "书",
       "audioKey": "audio.lex.w05.hon",
       "tags": "theme:item jlpt:n5",
-      "notesZh": "与 W03 指示句可复用。",
+      "notesZh": "例：これは本です（这是书）。",
       "unitId": "W05",
       "pos": ""
     },
@@ -1067,7 +1067,7 @@
       "glossZh": "水",
       "audioKey": "audio.lex.w05.mizu",
       "tags": "theme:item jlpt:n5",
-      "notesZh": "购物／饮食交叉。",
+      "notesZh": "点单时可说「水をください」。",
       "unitId": "W05",
       "pos": ""
     },
@@ -1223,7 +1223,7 @@
       "glossZh": "水",
       "audioKey": "audio.lex.w06.mizu",
       "tags": "theme:drink jlpt:n5",
-      "notesZh": "与 W05 同词可复用 id 策略由工程定。",
+      "notesZh": "例：水を飲みます（喝水）。",
       "unitId": "W06",
       "pos": ""
     },
@@ -1415,7 +1415,7 @@
       "glossZh": "门",
       "audioKey": "audio.lex.w07.door",
       "tags": "theme:furniture jlpt:n5",
-      "notesZh": "外来语；和语戸／扉后续可加。",
+      "notesZh": "外来语，注意长音「ドー」。",
       "unitId": "W07",
       "pos": ""
     },
@@ -1463,7 +1463,7 @@
       "glossZh": "右",
       "audioKey": "audio.lex.w07.migi",
       "tags": "theme:direction jlpt:n5",
-      "notesZh": "家居方位；W08 交通场景另 id。",
+      "notesZh": "例：つくえの右（书桌的右边）。",
       "unitId": "W07",
       "pos": ""
     },
@@ -1523,7 +1523,7 @@
       "glossZh": "这里",
       "audioKey": "audio.lex.w07.koko",
       "tags": "theme:place jlpt:n5",
-      "notesZh": "与 W03 lex.w03.koko 同形异 id；本课重在方位问答。",
+      "notesZh": "指离说话人近的地方。",
       "unitId": "W07",
       "pos": ""
     },
@@ -1535,7 +1535,7 @@
       "glossZh": "那里（对方处）",
       "audioKey": "audio.lex.w07.soko",
       "tags": "theme:place jlpt:n5",
-      "notesZh": "同形异 id：lex.w03.soko。",
+      "notesZh": "指离听话人近的地方。",
       "unitId": "W07",
       "pos": ""
     },
@@ -1547,7 +1547,7 @@
       "glossZh": "那里（远处）",
       "audioKey": "audio.lex.w07.asoko",
       "tags": "theme:place jlpt:n5",
-      "notesZh": "同形异 id：lex.w03.asoko。",
+      "notesZh": "指离说话人和听话人都远的地方。",
       "unitId": "W07",
       "pos": ""
     },
@@ -1679,7 +1679,7 @@
       "glossZh": "换乘",
       "audioKey": "audio.lex.w08.norikae",
       "tags": "theme:transport jlpt:n5",
-      "notesZh": "のりかえます亦可后续加动词条。",
+      "notesZh": "指换乘交通工具。",
       "unitId": "W08",
       "pos": ""
     },
@@ -1715,7 +1715,7 @@
       "glossZh": "一直走／笔直",
       "audioKey": "audio.lex.w08.massugu",
       "tags": "theme:direction jlpt:n5",
-      "notesZh": "指路：まっすぐいってください。汉字可空。",
+      "notesZh": "指路时可说「まっすぐ行ってください」。",
       "unitId": "W08",
       "pos": ""
     },
@@ -1727,7 +1727,7 @@
       "glossZh": "右",
       "audioKey": "audio.lex.w08.migi",
       "tags": "theme:direction jlpt:n5",
-      "notesZh": "交通指路；同形异 id：lex.w07.migi。",
+      "notesZh": "指路时可说「右に曲がってください」。",
       "unitId": "W08",
       "pos": ""
     },
@@ -1739,7 +1739,7 @@
       "glossZh": "左",
       "audioKey": "audio.lex.w08.hidari",
       "tags": "theme:direction jlpt:n5",
-      "notesZh": "同形异 id：lex.w07.hidari。",
+      "notesZh": "指路时可说「左に曲がってください」。",
       "unitId": "W08",
       "pos": ""
     },
@@ -1763,7 +1763,7 @@
       "glossZh": "多少钱",
       "audioKey": "audio.lex.w08.ikura",
       "tags": "theme:transport jlpt:n5",
-      "notesZh": "交通场景复用；同形异 id：lex.w05.ikura。",
+      "notesZh": "问票价：切符はいくらですか。",
       "unitId": "W08",
       "pos": ""
     },
@@ -1775,7 +1775,7 @@
       "glossZh": "日元",
       "audioKey": "audio.lex.w08.en",
       "tags": "theme:transport jlpt:n5",
-      "notesZh": "票价单位；同形异 id：lex.w05.en。",
+      "notesZh": "票价单位；例：百円（一百日元）。",
       "unitId": "W08",
       "pos": ""
     },
@@ -1823,7 +1823,7 @@
       "glossZh": "站台",
       "audioKey": "audio.lex.w08.home",
       "tags": "theme:transport jlpt:n5",
-      "notesZh": "外来语；何番線／ホームは后续扩展。",
+      "notesZh": "车站的站台；注意长音「ホー」。",
       "unitId": "W08",
       "pos": ""
     },
