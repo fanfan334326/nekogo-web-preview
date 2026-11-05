@@ -668,14 +668,14 @@
       {
         "id": "draft.n4.level.39.q",
         "material_ref": "draft.n4.level.39",
-        "prompt": "A 周日下午两点要去哪儿？",
+        "prompt": "答应帮忙的人周日下午两点要去哪儿？",
         "choices": [
           "车站",
           "接待处",
           "会场外等候"
         ],
         "answer": "接待处",
-        "feedback": "「二時に受付へ」交代时间和地点，A 接受了安排。"
+        "feedback": "「二時に受付へ」交代时间和地点，答应帮忙的人接受了安排，要在两点到接待处。"
       },
       {
         "id": "draft.n4.level.40.q",
